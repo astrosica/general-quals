@@ -1,0 +1,1053 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{amsmath,amsthm,amssymb,cancel,bm}
+\usepackage{floatrow}
+\setcounter{tocdepth}{2}
+\usepackage{geometry}
+\geometry{total={210mm,297mm},
+left=25mm,right=25mm,%
+bindingoffset=0mm, top=20mm,bottom=20mm}
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+% my own titles
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+\vspace{2ex}
+{\huge \textsc{\@title}}
+\vspace{1ex}
+\\
+\linia\\
+\@author
+\vspace{4ex}
+\end{center}
+}
+\makeatother
+
+% custom footers and headers
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{General Qualifying Exam Solutions}
+\cfoot{}
+\rfoot{Page \thepage\ /\ \pageref*{LastPage}}
+
+% --------------------------------------------------------------
+%
+%                           TITLE PAGE
+%
+% --------------------------------------------------------------
+
+\begin{document}
+\hfill{\textit{Last modified \today}}
+\title{General Qualifying Exam Solutions: Extragalactic Astronomy}
+\author{Jessica Campbell, Dunlap Institute for Astronomy \& Astrophysics (UofT)}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+
+% --------------------------------------------------------------
+%
+%
+%                              EXTRAGALACTIC 
+%
+%
+% --------------------------------------------------------------
+
+\newpage
+\section{Extragalactic Astronomy}
+
+% --------------------------------------------------------------
+%               1. 
+% --------------------------------------------------------------
+
+\subsection{Question 1}
+
+Sketch out the Hubble sequence. What physical trends are captured by the classification system?
+
+\subsubsection{Short answer}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=16cm]{figures/HubbleSequence.png}
+    \caption{\footnotesize{Hubble’s `tuning fork' for galaxy classification. Adapted from: J. Kormendy \& R. Bender 1996, A Proposed Revision of the Hubble Sequence for Elliptical Galaxies, ApJ 464, L119, Fig. 1. Image taken from Schneider (2006).}}
+    \label{fig:hubblesequence}
+\end{figure}
+
+\subsubsection{Additional context}
+
+Historically, optical photometry was the method used to observe galaxies. Thus, the morphological classification defined by Hubble is still the best-known today. Besides morphological criteria, color indices, spectroscopic parameters (based on emission or absorption lines), the broad-band spectral distribution (galaxies with/without radio- and/or X-ray emission, or emission in the infrared), as well as other features may also be used.
+
+{\noindent}Figure \ref{fig:hubblesequence} shows the classification scheme defined by Hubble. According to this, three main types of galaxies exist:
+
+\begin{itemize}
+    \item Elliptical galaxies (E's) are galaxies that have nearly elliptical isophotes without any clearly defined structure. They are subdivided according to their ellipticity $\epsilon\equiv1-b/a$, where $a$ and $b$ denote the semi-major and the semi-minor axes, respectively. Ellipticals are found over a relatively broad range in ellipticity, $0\geq\epsilon\geq0.7$. The notation E$n$ is commonly used to classify the ellipticals with respect to $\epsilon$, with $n=10\epsilon$; i.e., an E4 galaxy has an axis ratio of $b/a0.6$, and E0's have circular isophotes.
+    \item Spiral galaxies consist of a disk with spiral arm structure and a central bulge. They are divided into two subclasses: normal spirals (S's) and barred spirals (SB's). In each of these subclasses, a sequence is defined that is ordered according to the brightness ratio of bulge and disk, and that is denoted by a, ab, b, bc, c, cd, d. Objects along this sequence are often referred to as being either an early- type or a late-type; hence, an Sa galaxy is an early-type spiral, and an SBc galaxy is a late-type barred spiral. It's stressed explicitly that this nomenclature is not a statement of the evolutionary stage of the objects but is merely a nomenclature of purely historical origin.
+    \item Irregular galaxies (Irr’s) are galaxies with only weak (Irr I) or no (Irr II) regular structure. The classification of Irr's is often refined. In particular, the sequence of spirals is extended to the classes Sdm, Sm, Im, and Ir (m stands for Magellanic; the Large Magellanic Cloud is of type SBm).
+    \item S0 galaxies are a transition between ellipticals and spirals which are also called lenticulars as they are lentil-shaped galaxies. They contain a bulge and a large enveloping region of relatively unstructured brightness which often appears like a disk without spiral arms. Ellipticals and S0 galaxies are referred to as early-type galaxies, spirals as late-type galaxies. As before, these names are only historical and are not meant to describe an evolutionary track!
+\end{itemize}
+
+{\noindent}Obviously, the morphological classification is at least partially affected by projection effects. If, for instance, the spatial shape of an elliptical galaxy is a triaxial ellipsoid, then the observed ellipticity will depend on its orientation with respect to the line-of-sight. Also, it will be difficult to identify a bar in a spiral that is observed from its side (`edge-on').
+
+{\noindent}Besides the aforementioned main types of galaxy morphologies, others exist which do not fit into the Hubble scheme. Many of these are presumably caused by interaction between galaxies. Furthermore, we observe galaxies with radiation characteristics that differ significantly from the spectral behavior of `normal' galaxies.
+
+{\noindent}In summary:
+
+\begin{itemize}
+    \item Most luminous galaxies in the local Universe fit onto the Hubble sequence; they are either ellipticals, spirals, or belong to the class of S0 galaxies, which shares some properties with the two other classes.
+    \item Ellipticals and spirals differ not only in their morphology, but in several other respects, for example: (1) Spirals contain a sizable fraction of gas, whereas the gas-to- stellar mass ratio in ellipticals is much smaller. As a consequence, (2) spirals have ongoing star formation, ellipticals not, or only very little. As a further consequence, (3) the light of elliptical galaxies is substantially redder than that of spirals. Obviously, the morphology of galaxies and the properties of their stellar populations are strongly correlated.
+    \item The stars in spirals have a very ordered motion, moving around the galactic center on nearly circular orbits in a common orbital plane, having a velocity dispersion that is much smaller than the orbital velocity; the stars in the disk are called `dynamically cold'. In contrast, the motion of stars in ellipticals is largely random, with fairly little coherent velocity; they are dynamically hot.
+    \item Some elliptical galaxies show clear signs of complex structure, which are interpreted as indications of past interaction with other galaxies. In contrast, the disks of spirals are very thin, which means that they have been largely unperturbed for a long while in the past.
+    \item The rotation curves of spiral galaxies are almost flat for large radii, in contrast to what would be expected from the visible mass distribution that declines exponentially outwards. This implies that there is more matter than seen in stars and gas -- the galaxies are embedded in a halo of dark matter. Whereas for elliptical galaxies the radial density distribution is more difficult to probe, the presence of dark matter has been verified also for ellipticals.
+    \item Both spirals and ellipticals follow scaling relations which connect their luminous properties (luminosity or surface brightness) with their dynamical properties (rotational velocity or velocity dispersion). Hence, the formation and evolution of galaxies and their stellar populations must proceed in a way as to place them onto these scaling relations.
+\end{itemize}
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What physical trends does the Hubble sequence show that were not explicitly encoded in it? (i.e., spiral arm tightness and bulge size are properties that Hubble based the sequence off of.)
+    \item Are there any other physical properties that the Hubble sequence ended up telling us about (i.e., by `accident')?
+\end{itemize}
+
+
+% --------------------------------------------------------------
+%               2. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 2}
+
+What is the total mass (in both dark matter and in stars) of the Milky Way galaxy? How does this compare to M31 and to the LMC? How is this mass determined?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item If rotation curve/lensing measurements were instead due to modified gravity, how could we tell?
+    \item What are $\Omega_m$ and $\Omega_b$ estimated to be? Why does the ratio of the two differ from the star/total mass ratio you have here? Where is all the extra baryonic mass?
+    \item When you say we estimate stellar mass by ``counting stars'', what does that mean?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               3. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 3}
+
+Describe as many steps of the distance ladder and the involved techniques as you can. What are the rough distances to the Magellanic Clouds, Andromeda, and the Virgo Cluster?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+{\noindent}\textbf{Trigonometric parallax ($<30\,{\rm pc}$)}: The most important method of distance determination is the trigonometric parallax, not only from a historical point-of-view. This method is based on a purely geometric effect and is therefore independent of any physical assumptions. Due to the motion of the Earth around the Sun the positions of nearby stars on the sphere change relative to those of very distant sources (e.g., extragalactic objects such as quasars). The latter therefore define a fixed reference frame on the sphere. In the course of a year the apparent position of a nearby star follows an ellipse on the sphere, the semi-major axis of which is called the parallax. The axis ratio of this ellipse depends on the direction of the star relative to the ecliptic (the plane that is defined by the orbits of the Earth and the other planets). The parallax depends on the radius $r$ of the Earth’s orbit, hence on the Earth-Sun distance which is, by definition, one astronomical unit (AU). Furthermore, the parallax depends on the distance $d$ of the star,
+
+\begin{align*}
+    \frac{r}{d} = \tan(p) \approx p ~ [{\rm rad}].
+\end{align*}
+
+{\noindent}where we used $p\ll1$ in the last step, and $p$ is measured in radians as usual. The trigonometric parallax is also used to define the common unit of distance in astronomy: one parsec (pc) is the distance of a hypothetical source for which the parallax is exactly $p=1''$. With the conversion of arcseconds to radians ($1''\approx4.848\times10^{-6}\,{\rm rad}$) one gets $p/1''=206265p$, which for a parsec yields
+
+\begin{align*}
+    1\,{\rm pc} = 206265\,{\rm AU} = 3.086\times10^{16}\,{\rm m}.
+\end{align*}
+
+{\noindent}The distance corresponding to a measured parallax is then
+calculated as
+
+\begin{align*}
+    d = \left(\frac{p}{1''}\right)^{-1}\,{[\rm pc]}.
+\end{align*}
+
+{\noindent}o determine the parallax p, precise measurements of the position of an object at different times are needed, spread over a year, allowing us to measure the ellipse drawn on the sphere by the object’s apparent position. For ground-based observations the accuracy of this method is limited by the atmosphere. The seeing causes a blurring of the images of astronomical sources and thus limits the accuracy of position measurements. From the ground this method is therefore limited to parallaxes larger than $\approx0.1''$, implying that the trigonometric parallax yields distances to stars only within $\approx30\,{\rm pc}$.
+
+{\noindent}\textbf{Proper motions}: Stars are moving relative to us or, more precisely, relative to the Sun. To study the kinematics of the Milky Way we need to be able to measure the velocities of stars. The radial component $v_r$ of the velocity is easily obtained from the Doppler shift of spectral lines,
+
+\begin{align*}
+    v_r = \left(\frac{\Delta\lambda}{\lambda_0}\right)c ~ [{\rm m\,s^{-1}}]
+\end{align*}
+
+{\noindent}where $\lambda_)$ is the rest-frame wavelength of an atomic transition and $\Delta\lambda=\lambda-\lambda_0$ is the Doppler shift of the wavelength due to the radial velocity of the source. The sign of the radial velocity is defined such that $v_r>0$ corresponds to a motion away from us, i.e., to a redshift of spectral lines.
+
+{\noindent}In contrast, the determination of the other two velocity components is much more difficult. The tangential component, $v_t$, of the velocity can be obtained from the proper motion of an object. In addition to the motion caused by the parallax, stars also change their positions on the sphere as a function of time because of the transverse component of their velocity relative to the Sun. The proper motion $\mu$ is thus an angular velocity, e.g., measured in milliarcseconds per year (mas/yr or $''/{\rm year}$). This angular velocity is linked to the tangential velocity component via
+
+\begin{align*}
+    v_t = d\mu = 4.74\left(\frac{d}{1\,{\rm pc}}\right) \left(\frac{\mu}{1''\,{\rm year^{-1}}}\right) ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}Therefore, one can calculate the tangential velocity from the proper motion and the distance. If the latter is derived from the trigonometric parallax, these can be combined to yield
+
+\begin{align*}
+    v_t = d\mu = 4.74 \left(\frac{\mu}{1\,''\,{\rm year^{-1}}}\right) \left(\frac{p}{1''}\right)^{-1} ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}Of course, the proper motion has two components, corresponding to the absolute value of the angular velocity and its direction on the sphere. Together with $v_r$ this determines the three-dimensional velocity vector. Correcting for the known velocity of the Earth around the Sun, one can then compute the velocity vector v of the star relative to the Sun, called the heliocentric velocity.
+
+{\noindent}\textbf{Moving cluster parallax ($<200\,{\rm pc}$)}: The stars in an (open) star cluster all have a very similar spatial velocity. This implies that their proper motion vectors should be similar. To what accuracy the proper motions are aligned depends on the angular extent of the star cluster on the sphere. Like two railway tracks that run parallel but do not appear parallel to us, the vectors of proper motions in a star cluster also do not appear parallel. They are directed towards a convergence point, as depicted in Figure \ref{fig:clusterparallax}.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The moving cluster parallax is a projection effect, similar to that known from viewing railway tracks. The directions of velocity vectors pointing away from us seem to converge and intersect at the convergence point. The connecting line from the observer to the convergence point is parallel to the velocity vector of the star cluster. Image taken from Schneider (2006).}}
+    \label{fig:clusterparallax}}
+    {\includegraphics[width=10cm]{figures/ClusterParallax.png}}
+\end{figure}
+
+{\noindent}We consider a star cluster and assume that all stars have the same spatial velocity $v$. The position of the i-th star as a function of time is then described by
+
+\begin{align*}
+    \mathbf{r}_i(t) = \mathbf{r}_i(t) + \mathbf{v}t ~ [{\rm m}],
+\end{align*}
+
+{\noindent}where $\mathbf{r}_i$ is the current position if we identify the origin of time, $t=0$, with `today'. The direction of a star relative to us is described by the unit vector
+
+\begin{align*}
+    \mathbf{n}_i(t) \equiv \frac{\mathbf{r}_i}{\lvert\mathbf{r}_i\rvert} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}From this, one infers that for large times, $t\rightarrow\infty$, the direction vectors of the convergence point are identical for all stars in the cluster,
+
+\begin{align*}
+    \mathbf{n}_i(t) \rightarrow \frac{\mathbf{v}}{\lvert\mathbf{v}\rvert} \equiv \mathbf{n}_\mathrm{conv} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}Hence for large times all stars will appear at the same point $\mathbf{n}_\mathrm{conv}$: the convergence point. This only depends on the direction of the velocity vector of the star cluster. In other words, the direction vector of the stars is such that they are all moving towards the convergence point. Thus, $\mathbf{n}_\mathrm{conv}$ (and hence $\mathbf{v}/\lvert\mathbf{v}\rvert$) can be measured from the direction of the proper motions of the stars in the cluster. On the other hand, one component of $\mathbf{v}$ can be determined from the (easily measured) radial velocity $\mathbf{v}_r$. With these two observables the three-dimensional velocity vector $\mathbf{v}$ is completely determined, as is easily demonstrated: let $\theta$ be the angle between the line-of-sight $\mathbf{n}$ towards a star in the cluster and $\mathbf{v}$. The angle is directly read off from the direction vector $\mathbf{n}$ and the convergence point, $\cos\theta = \mathbf{n}\cdot\mathbf{v}/\lvert\mathbf{v}\rvert = \mathbf{}_\mathrm{conv}\cdot\mathbf{n}$. With $v\equiv\lvert\mathbf{v}\rvert$ one then obtains
+
+\begin{align*}
+    v_r = v\cos\theta ~ [{\rm m\,s^{-1}}], ~~~~~ v_t = v\sin\theta ~ [{\rm m\,s^{-1}}],
+\end{align*}
+
+{\noindent}and so
+
+\begin{align*}
+    v_t = v_r\cos\theta ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}This means that the tangential velocity $\mathbf{v}_t$ can be measured without determining the distance to the stars in the cluster. On the other hand, we have a relation between the proper motion, the distance, and $\mathbf{v}$. Hence, a distance determination for the star is now possible with
+
+\begin{align*}
+    \mu = \frac{v_t}{d} = \frac{v_r\tan\theta}{d} \rightarrow d = \frac{v_r\tan\theta}{\mu} ~ [{\rm pc}].
+\end{align*}
+
+{\noindent}This method yields accurate distance estimates of star clusters within $\sim200\,{\rm pc}$. The accuracy depends on the measurability of the proper motions. Furthermore, the cluster should cover a sufficiently large area on the sky for the convergence point to be well defined. For the distance estimate, one can then take the average over a large number of stars in the cluster if one assumes that the spatial extent of the cluster is much smaller than its distance to us.
+
+{\noindent}\textbf{Main sequence fitting}: Most stars in the color-magnitude diagram (CMD) are located along the main sequence. This enables us to compile a calibrated main sequence of those stars whose trigonometric parallaxes are measured, thus with known distances. Utilizing photo- metric methods, it is then possible to derive the distance to a star cluster. 
+
+{\noindent}The stars of a star cluster define their own main sequence (CMDs for some star clusters are displayed in Fig. 2.5); since they are all located at the same distance, their main sequence is already defined in a CMD in which only apparent magnitudes are plotted. This cluster main sequence can then be fitted to a calibrated main sequence by a suitable choice of the distance, i.e., by adjusting the distance modulus $m-M$,
+
+\begin{align*}
+    m_M = 5\log(d/{\rm pc}) - 5 ~ [{\rm mag}],
+\end{align*}
+
+{\noindent}where $m$ and $M$ denote the apparent and absolute magnitude, respectively.
+
+{\noindent}In reality this method cannot be applied so easily since the position of a star on the main sequence does not only depend on its mass but also on its age and metallicity. Furthermore, only stars of luminosity class V (i.e., dwarf stars) define the main sequence, but without spectroscopic data it is not possible to determine the luminosity class.
+
+{\noindent}\textbf{Extinction and reddening}: Another major problem is extinction. Absorption and scattering of light by dust affect the relation of absolute to apparent magnitude: for a given $M$, the apparent magnitude $m$ becomes larger (fainter) in the case of absorption, making the source appear dimmer. Also, since extinction depends on wavelength, the spectral energy distribution of the source is modified and the observed colour of the star changes. Because extinction by dust is always associated with such a change in colour, one can estimate the absorption -- provided one has sufficient information on the intrinsic colour of a source or of an ensemble of sources.
+
+{\noindent}We consider the equation of radiative transfer for pure absorption or scattering:
+
+\begin{align*}
+    \frac{\mathrm{d}I_\nu}{\mathrm{d}s} = -\alpha_\nu I_\nu ~ [\rm erg\,s^{-1}\,cm^{-3}\,ster^{-1}\,Hz^{-1}],
+\end{align*}
+
+{\noindent}where $I_\nu$ is the specific intensity at frequency $\nu$, $\alpha_\nu$ is the absorption coefficient, and $s$ is the distance along the light beam.
+
+{\noindent}This says that the amount by which the intensity of a light beam is diminished on a path of length $\mathrm{d}s$ is $\mathrm{d}s$. The absorption coefficient $\alpha_\nu$ is thus defined as the constant of proportionality. In other words, on the distance interval $\mathrm{d}s$, a fraction $\alpha_\nu\mathrm{d}s$ of all photons at frequency $\nu$ is absorbed or scattered out of the beam. The solution of the transport equation is obtained by writing it in the form $\mathrm{d}\ln I_\nu=\mathrm{d}I_\nu/I_\nu=-\alpha_\nu\mathrm{d}s$ and integrating from $0$ to $s$,
+
+\begin{align*}
+    \ln I_\nu(s)-\ln I_\nu(0) = -\int\limits_0^s \alpha_\nu(s')\mathrm{d}s \equiv \tau_\nu(s) ~ [\rm erg\,s^{-1}\,cm^{-2}\,ster^{-1}\,Hz^{-1}],
+\end{align*}
+
+{\noindent}where in the last step we defined the optical depth, $\tau_\nu$, which depends on frequency. This yields
+
+\begin{align*}
+    I_\nu(s) = I_\nu(0)e^{-\tau_\nu(s)} ~ [\rm erg\,s^{-1}\,cm^{-2}\,ster^{-1}\,Hz^{-1}].
+\end{align*}
+
+{\noindent}The specific intensity is thus reduced by a factor $e^{-\tau}$ compared to the case of no absorption taking place. Because of the relation between flux and magnitude $m=-2.5\log S+{\rm const}$ or $S\propto 10^{-0.4m}$, one has
+
+\begin{align*}
+    \frac{I_\nu}{I_{\nu,0}} = 10^{-0.4(m-m_0)} = e^{-\tau_\nu} = 10^{-\log(e)\tau_\nu} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}or,
+
+\begin{align*}
+    A_\nu &\equiv m-m_0 = -2.5\log(I_\nu/I_{\nu,0}) ~ [{\rm mag}] \\
+          &= 2.5\log(e)\tau_\nu ~ [{\rm mag}] \\
+          &= 1.086\tau_\nu ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}Here, $A_\nu$ is the extinction coefficient describing the change of apparent magnitude $m$ compared to that without absorption, $m_0$. Since the absorption coefficient $\alpha_\nu$ depends on frequency, absorption is always linked to a change in colour. This is described by the colour excess which is defined as follows:
+
+\begin{align*}
+    E(X-Y) \equiv A_X-A_Y = (X-X_0)-(Y-Y_0) = (X-Y)-(X_0-Y_0) ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}The color excess describes the change of the color index $(X-Y)$, measured in two filters $X$ and $Y$ that define the corresponding spectral windows by their transmission curves. The ratio $A_X/A_Y=\tau_{\nu(X)/\tau_{\nu(Y)}}$ depends only on the optical properties of the dust or, more specifically, on the ratio of the absorption coefficients in the two frequency bands $X$ and $Y$ considered here. Thus, the color excess is proportional to the extinction coefficient,
+
+\begin{align*}
+    E(X-Y) = A_X-A_Y = A_X\left(1-\frac{A_Y}{A_X}\right) \equiv A_XR_X^{-1} ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}where in the last step we introduced the factor of proportionality $R_X$ between the extinction coefficient and the colour excess, which depends only on the properties of the dust and the choice of the filters. Usually, one considers a blue and a visual filter and writes
+
+\begin{align*}
+    A_V = R_V E(B-V) ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}For example, for dust in our Milky Way we have the characteristic relation
+
+\begin{align*}
+    A_{V,\mathrm{MWG}} = (3.1\pm0.1)E(B-V) ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}This relation is not a universal law, but the factor of proportionality depends on the properties of the dust. They are determined, e.g., by the chemical composition and the size distribution of the dust grains. Figure \ref{fig:extinctioncurve} shows the wavelength dependence of the extinction coefficient for different kinds of dust, corresponding to different values of $R_V$ . In the optical part of the spectrum we have approximately $\tau_\nu\propto\nu$, i.e., blue light is absorbed (or scattered) more strongly than red light. The extinction therefore always causes a reddening.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Wavelength dependence of the extinction coefficient $A_\nu$, normalized to the extinction coefficient $A_I$ at $\lambda=9000$\,\AA$ = 0.9\,\mu$m. Different kinds of clouds, characterized by the value of $R_V$, i.e., by the reddening law, are shown. The solid curve specifies the mean Galactic extinction curve. The extinction coefficient, as determined from the observation of an individual star, is also shown. The figure insert shows a detailed plot at relatively large wavelengths in the NIR range of the spectrum; at these wavelengths the extinction depends only weakly on the value of $R_V$. Source: B. Draine 2003, Interstellar Dust Grains, ARA\&A 41, 241. Image taken from Schneider (2006).}}
+    \label{fig:extinctioncurve}}
+    {\includegraphics[width=12cm]{figures/ExtinctionCurve.png}}
+\end{figure}
+
+{\noindent}The extinction coefficient $A_V$ is proportional to the optical depth towards a source and so is the colour excess. Since the extinction is due to dust along the line-of-sight, the colour excess is proportional to the column density of dust towards the source. If we assume that the dust-to-gas ratio in the interstellar medium does not vary greatly, we expect that the column density of neutral hydrogen $N_\mathrm{H}$ is proportional to the colour excess. The former can be measured from the Lyman-$\alpha$ absorption in the spectra of stars, whereas the latter is obtained by comparing the observed colour of these stars with the colour expected for the type of star, given its spectrum (and thus, its spectral classification). One finds indeed that the color excess is proportional to the HI column density with
+
+\begin{align*}
+    E(B-V) = 1.7 \left(\frac{N_\mathrm{H}}{10^{22}\,{\rm atoms\,cm^{-2}}}\right) ~ [{\rm mag}],
+\end{align*}
+
+{\noindent}and a scatter of about 30\% around this relation. The fact that this scatter is so small indicates that the assumption of a constant dust-to-gas ratio is reasonable.
+
+{\noindent}In the Solar neighborhood the extinction coefficient for sources in the disk is about
+
+\begin{align*}
+    A_V \approx \frac{d}{1\,{\rm kpc}} ~ [{\rm mag}],
+\end{align*}
+
+{\noindent}but this relation is at best a rough approximation, since the absorption coefficient can show strong local deviations from this law, for instance in the direction of molecular clouds.
+
+{\noindent}\textbf{Colour-colour diagram}: As a first step in this measurement, it is necessary to determine the degree of extinction, which can only be done by analyzing the reddening. The stars of the cluster are plotted in a color-color diagram, for example by plotting the colors $(U-B)$ versus $(B-V)$. A colour-colour diagram also shows a main sequence along which the majority of the stars are aligned. The wavelength-dependent extinction causes a reddening in both colors. This shifts the positions of the stars in the diagram. The direction of the reddening vector depends only on the properties of the dust and is here assumed to be known, whereas the amplitude of the shift depends on the extinction coefficient. In a similar way to the CMD, this amplitude can now be determined if one has access to a calibrated, unreddened main sequence for the colour-colour diagram which can be obtained from the examination of nearby stars. From the relative shift of the main sequence in the two diagrams one can then derive the reddening and thus the extinction. The essential point here is the fact that the colour-colour diagram is \textit{independent of the distance}.
+
+{\noindent}This then defines the procedure for the distance determination of a star cluster using photometry: in the first step we determine the reddening $E(B-V)$, and thus also $A_V$ via $A_V=(3.1\pm0.1)E(B-V)$ for the Galactic medium, by shifting the main sequence in a colour-colour diagram along the reddening vector until it matches a calibrated main sequence. In the second step the distance modulus is determined by vertically (i.e., in the direction of $M$) shifting the main sequence in the CMD until it matches a calibrated main sequence. From this, the distance is finally obtained according to
+
+\begin{align*}
+    m-M = 5\log\left(\frac{d}{1\,{\rm pc}}\right)-5+A ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}\textbf{Spectroscopic distance}: From the spectrum of a star, the spectral type as well as its luminosity class can be obtained. The former is determined from the strength of various absorption lines in the spectrum, while the latter is obtained from the width of the lines. From the line width the surface gravity of the star can be derived, and from that its radius (more precisely, $M/R2^2$). The spectral type and the luminosity class specify the position of the star in the HRD unambiguously. By means of stellar evolution models, the absolute magnitude $M_V$ can then be determined. Furthermore, the comparison of the observed colour with that expected from theory yields the color excess $E(B-V)$, and from that we obtain $A_V$. With this information we are then able to determine the distance using
+
+\begin{align*}
+    m_V-A_V-M_V = 5\log\left(\frac{d}{1\,{\rm pc}}\right)-5 ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}\textbf{Visual binaries}: Kepler’s third law for a two-body problem,
+
+\begin{align*}
+    P = \sqrt{\frac{4\pi^2}{G(m_1+m_2)}a^3} ~ [{\rm yr}]
+\end{align*}
+
+{\noindent}relates the orbital period $P$ of a binary star to the masses $m_i$ of the two components and the semi-major axis $a$ of the ellipse. The latter is defined by the separation vector between the two stars in the course of one period. This law can be used to determine the distance to a visual binary star. For such a system, the period $P$ and the angular diameter $2\theta$ of the orbit are direct observables. If one additionally knows the mass of the two stars, for instance from their spectral classification, $a$ can be determined according to Kepler's third law, and from this the distance follows with the small angle approximation $d=a/\theta$.
+
+{\noindent}\textbf{Variable stars}: Several types of pulsating stars show periodic changes in their brightnesses, where the period of a star is related to its mass, and thus to its luminosity. This period-luminosity (PL) relation is ideally suited for distance measurements: since the determination of the period is independent of distance, one can obtain the luminosity directly from the period if the calibrated PL-relation is known. The distance is thus directly derived from the measured magnitude using the photometric distance, if the extinction can be determined from color measurements.
+
+{\noindent}The existence of a relation between the luminosity and the pulsation period can be expected from simple physical considerations. Pulsations are essentially radial density waves inside a star that propagate with the speed of sound, $c_s$. Thus, one can expect that the period is comparable to the sound crossing time through the star, $P\sim R/c_s$. The speed of sound $c_s$ in a gas is of the same order of magnitude as the thermal velocity of the gas particles, so that $k_BT\sim m_pc_s^2$, where $m_p$ is the proton mass (and thus a characteristic mass of particles in the stellar plasma) and $k_B$ is Boltzmann's constant. According to the virial theorem, one expects that the gravitational binding energy of the star is about twice the kinetic (i.e., thermal) energy, so that for a proton,
+
+\begin{align*}
+    \frac{GMm_p}{R} \sim k_BT.
+\end{align*}
+
+{\noindent}Combining these relations, we obtain for the pulsation period
+
+\begin{align*}
+    P\sim\frac{R}{c_s}\sim\frac{R\sqrt{m_p}}{\sqrt{k_BT}} \sim\frac{R^{3/2}}{\sqrt{GM}} \propto \langle\rho\rangle^{-1/2},
+\end{align*}
+
+{\noindent}where $\langle\rho\rangle$ is the mean density of the star. This is a remarkable result -- the pulsation period depends only on the mean density. Furthermore, the stellar luminosity is related to its mass by approximately $L/M^33$. If we now consider stars of equal effective temperature $T_\mathrm{eff}$ (where $L\propto R^2T_\mathrm{eff}^4$), we find that
+
+\begin{align*}
+    P \propto \frac{R^{3/2}}{\sqrt{M}} \propto L^{7/12},
+\end{align*}
+
+{\noindent}which is the relation between period and luminosity that we were aiming for.
+
+{\noindent}One finds that a well-defined period-luminosity relation exists for three types of pulsating stars:
+
+\begin{itemize}
+    \item $\delta$ Cepheid stars (classical Cepheids). These are young stars found in the disk population (close to the Galactic plane) and in young star clusters.
+    \item W Virginis stars, also called population II Cepheids. These are low-mass, metal-poor stars located in the halo of the Galaxy, in globular clusters, and near the Galactic center.
+    \item RR Lyrae stars. These are likewise population II stars and thus metal-poor. They are found in the halo, in globular clusters, and in the Galactic bulge.
+\end{itemize}
+
+{\noindent}\textbf{Globular clusters}: 
+
+{\noindent}\textbf{Tully-Fisher relation}: Using $21\,{\rm cm}$ observations of spiral galaxies, in 1977 R. Brent Tully and J. Richard Fisher found that the maximum rotation velocity of spirals is closely related to their luminosity, following the relation
+
+\begin{align*}
+    L_\mathrm{TF} = \propto v_\mathrm{max}^\alpha ~ [{\rm erg\,s^{-1}}],
+\end{align*}
+
+{\noindent}where the power-law index (i.e., the slope) of the Tully-Fisher relation is about $\alpha\sim4$. The larger the wavelength of the filter in which the luminosity is measured, the smaller the dispersion of the Tully-Fisher relation (see Figure \ref{fig:tullyfisher}). This is to be expected because radiation at larger wavelengths is less affected by dust absorption and by the current star formation rate, which may vary to some extent between individual spirals. Furthermore, it is found that the value of $\alpha$ increases with the wavelength of the filter: The Tully-Fisher relation is steeper in the red, which follows from the fact that more massive, or more luminous galaxies (i.e., those with larger $v_\mathrm{,ax}$) are redder. The dispersion of galaxies around this relation in the NIR (e.g., in the H-band) is about 10\%.
+
+\begin{figure}[h]
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+{\caption{\footnotesize{The Tully-Fisher relation for galaxies in the Local Group (dots), in the Sculptor group (triangles), and in the M81 group (squares). The absolute magnitude is plotted as a function of the width of the $21\,{\rm cm}$ profile which indicates the maximum rotation velocity. Filled symbols represent galaxies for which independent distance estimates were obtained, either from RR Lyrae stars, Cepheids, or planetary nebulae. For galaxies represented by open symbols, the average distance of the respective group is used. The solid line is a fit to similar data for the Ursa-Major cluster, together with data of those galaxies for which individual distance estimates are available (filled symbols). The larger dispersion around the mean relation for the Sculptor group galaxies is due to the group’s extent along the line-of-sight. Source: M.J. Pierce \& R.B. Tully 1992, Luminosity-line width relations and the extragalactic distance scale. I-Absolute calibration, ApJ 387, 47, p. 51, Fig. 1. Image taken from Schneider (2006).}}
+\label{fig:tullyfisher}}
+{\includegraphics[width=12cm]{figures/TullyFisher.png}}
+\end{figure}
+
+{\noindent}Because of this close correlation, the luminosity of spirals can be estimated quite precisely by measuring the rotational velocity. The determination of the (maximum) rotational velocity is independent of the galaxy’s distance. By comparing the luminosity, as determined from the Tully-Fisher relation, with the measured flux, one can then estimate the distance of the galaxy -- without utilizing the Hubble relation!
+
+{\noindent}The measurement of $v_\mathrm{max}$ is obtained either from a spatially resolved rotation curve, by measuring $v_\mathrm{rot}$, which can be done with optical spectroscopy or, for relatively nearby galaxies, also with spatially resolved $21\,{\rm cm}$ spectroscopy. Alternatively, one can observe an integrated spectrum of the $21\,{\rm cm}$ line of HI that has a Doppler width corresponding to about $2v_\mathrm{max}$ (see Fig.3.28). The Tully-Fisher relation shown in Figure \ref{fig:tullyfisher} was determined by measuring the width of the $21\,{\rm cm}$ line.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{$21\,{\rm cm}$ profile of the galaxy NGC7331. The bold dots indicate $20$ and $50$\% of the maximum flux; these are of relevance for the determination of the line width from which the rotational velocity is derived. Source: L.M. Macri et al. 2000, A Database of Tully-Fisher Calibrator Galaxies, ApJS 128, 461, p. 467, Fig. 5. Image taken from Schneider (2006).}}
+    \label{fig:21cmvrot}}
+    {\includegraphics[width=8cm]{figures/21cm_vrot.png}}
+\end{figure}
+
+{\noindent}The shapes of the rotation curves of spirals are very similar to each other, in particular with regard to their flat behavior in the outer part. The flat rotation curve implies
+
+\begin{align*}
+    M = \frac{v_\mathrm{max}^2R}{G} ~ [{\rm M_\odot}],
+\end{align*}
+
+{\noindent}where the value of the distance $R$ from the center of the galaxy is chosen to be in the range of the flat part of the rotation curve (i.e., where $v_\mathrm{rot}(R)\approx v_\mathrm{max}$). We note that the exact value of $R$ is not important; of course, $M=M(R)$. By re-writing this,
+
+\begin{align*}
+    L = \left(\frac{M}{L}\right)^{-1} \frac{v_\mathrm{max}^2R}{G} ~ [{\rm erg\,s^{-1}}],
+\end{align*}
+
+{\noindent}and by replacing $R$ by the mean surface brightness $\langle I\rangle=L/R^2$, we obtain
+
+\begin{align*}
+    L = \left(\frac{M}{L}\right)^{-2} \left(\frac{1}{G^2\langle I\rangle}\right)v_\mathrm{max}^4 ~ [{\rm erg\,s^{-1}}].
+\end{align*}
+
+{\noindent}This is the Tully-Fisher relation if $M/L$ and $\langle I\rangle$ are the same for all spirals. The latter is in fact suggested by Freeman’s law. Since the shapes of rotation curves for spirals seem to be very similar, the radial dependence of the ratio of luminous to dark matter may also be quite similar among spirals. Furthermore, since the mass- to-light ratios of a stellar population as measured from the red or infrared emission do not depend strongly on its age, independently of their Hubble type. Within $R_{25}$ one finds $M/L_B=6.2$ for Sa's, $4.5$ for Sb's, and $2.6$ for Sc's. This trend does not come as a surprise because late types of spirals contain more young, blue and luminous stars.
+
+{\noindent}\textbf{Faber-Jackson relation}: A relation for elliptical galaxies, analogous to the Tully-Fisher relation, was found by Sandra Faber and Roger Jackson. They discovered that the velocity dispersion in the center of ellipticals, $\sigma_v$, scales with luminosity,
+
+\begin{align*}
+    L_\mathrm{FJ} \propto \sigma_v^4 ~ [{\rm erg\,s^{-1}}]
+\end{align*}
+
+{\noindent}`Deriving' the Faber-Jackson scaling relation is possible under the same assumptions as for the Tully-Fisher relation. However, the dispersion of ellipticals about this relation is larger than that of spirals about the Tully-Fisher relation.
+
+{\noindent}\textbf{$D_n-\sigma$ relation}: Another scaling relation for ellipticals which is of substantial importance in practical applications is the $D_n-\sigma$ relation. $D_n$ is defined as the mean diameter of an ellipse within which the average surface brightness. In corresponds to a value of $20.75\,{rm mag\,arcsec^{-2}}$ in the B-band. If we now assume that all ellipticals have a self-similar brightness profile, $I(R)=I_ef(R/R_r)$, with $f(1)=1$, then the luminosity within $D_n$ can be written as
+
+\begin{align*}
+    I_n\left(\frac{D_n}{2}\right)^2\pi &= 2\pi I_e \int\limits_0^{D_n/2} Rf(R/R_e)\mathrm{d}R \\
+    &= 2\pi I_eR_e^2 \int\limits_0^{D_n/(2R_e)} ~ [{\rm erg\,s^{-1}\,m^{-2}}] xf(x)\mathrm{d}x,
+\end{align*}
+
+{\noindent}where in the last step we changed the integration variable to $x=R/R_e$. For a de Vaucouleurs profile we have approximately $f(x)\propto x^{-1.2}$ in the relevant range of radius. Computing the integral with this expression, we obtain
+
+\begin{align*}
+    D_n \propto R_eI_e^{0.8}.
+\end{align*}
+
+{\noindent}Empirically, we find that ellipticals follow the normalized $D_n-\sigma$ relation
+
+\begin{align*}
+    D_n = 2.05\times\left(\frac{\sigma_v}{100\,km\,s^{-1}}\right) ~ [{\rm kpc}]
+\end{align*}
+
+{\noindent}and they scatter around this relation with a relative width of about 15\%.
+
+{\noindent}\textbf{Type Ia supernovae}: 
+
+
+% --------------------------------------------------------------
+%               4. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 4}
+
+What evidence is there that most galaxies contain nuclear black holes? How do those black holes interact with their host galaxies?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Does heating from AGN affect star formation in the outer parts of the disk?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               5. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 5}
+
+Define and describe globular clusters. Where are they located? What are their typical ages, and how is this determined?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+The visible halo of our Galaxy consists of about 150 globular clusters and field stars with a high velocity component perpendicular to the Galactic plane. Even at about 150, the number of known globular clusters is relatively small. A globular cluster is a collection of typically several hundred thousand stars, contained within a spherical region of radius   $\sim20\,{\rm pc}$. The stars in the cluster are gravitationally bound and orbit in the common gravitational field. The old globular clusters with $[Fe/H]<-0.8$ have an approximately spherical distribution around the Galactic center. A second population of globular clusters exists that contains younger stars with a higher metallicity, $[Fe/H]>-0.8$. They have a more oblate geometrical distribution and are possibly part of the thick disk because they show roughly the same scale-height.
+
+{\noindent}Most globular clusters are at a distance of $r\lesssim35\,{\rm kpc}$ (with $r=\sqrt{R^2+z^2}$) from the Galactic center, but some are also found at $r>60\,{\rm kpc}$. At these distances it is hard to judge whether these objects are part of the Galaxy or whether they have been captured from a neighboring galaxy, such as the Magellanic Clouds.
+
+{\noindent}The density distribution of metal-poor globular clusters and field stars in the halo is described by
+
+\begin{align*}
+    n(r)\propto r^{-\gamma},
+\end{align*}
+
+{\noindent}with a slope $\gamma$ in the range $3-3.5$.
+
+{\noindent}The number of globular clusters is higher in early types and in more luminous galaxies. The specific abundance of globular clusters in a galaxy is defined as their number, normalized to a galaxy of absolute magnitude $M_V=-15$. This can be done by scaling the observed number $N_t$ of globular clusters in a galaxy of visual luminosity $L_V$ or absolute magnitude $M_V$, respectively, to that of a fiducial galaxy with $M_V$ corresponding to a luminosity of $L_V=L_{15}$:
+
+\begin{align*}
+    S_N = N_t\frac{L_{15}}{L_V} = N_t10^{0.4(M_V+15)}.
+\end{align*}
+
+{\noindent}If the number of globular clusters were proportional to the luminosity (and thus roughly to the stellar mass) of a galaxy, then this would imply a constant $S_N$ . However, this is not the case: For Sa's and Sb's we find $S_N\sim1.2$, whereas $S_N\sim0.5$ for Sc's. $S_N$ is larger for ellipticals and largest for cD galaxies.
+
+{\noindent}There have been claims in the literature that even globular clusters contain a black hole; however, these claims are not undisputed. In addition, there may be objects that appear like globular clusters, but are in fact the stripped nucleus of a former dwarf galaxy. In this case, the presence of a central black hole is not unexpected.
+
+\begin{figure}[t!]
+    \includegraphics[width=14cm]{figures/MWGschematic.png}
+    \centering
+    \caption{A schematic side view of the Milky Way. Figure taken from Sparke (2007).}
+    \label{fig:mwgschematic}
+\end{figure}
+
+\begin{figure}[t!]
+    \includegraphics[width=16cm]{figures/GlobularClusters.png}
+    \centering
+    \caption{\footnotesize{Left: CMD of the globular cluster M5. The different sections are -- A: main sequence; B: red giant branch; C: point of He flash; D: horizontal branch; E: Schwarzschild-gap in the horizontal branch; F: white dwarfs, below the arrow. At the point where the MS turns over to the red giant branch (called the `turn-off point'), stars have a mass corresponding to a MS lifetime which is equal to the age of the globular cluster. Therefore, the age of the cluster can be determined from the position of the turn-off point by comparing it with models of stellar evolution. Right: Isochrones for different ages and compared to the stars of the globular cluster 47 Tucanae. Such analyses reveal that the oldest globular clusters in our Milky Way are about 12 billion years old. The age thus obtained also depends on the distance of the cluster. Credit: M5: c Leos Ondra; 47 Tuc: J.E. Hesser, W.E. Harris, D.A. Vandenberg, J.W.B. Allwright, P. Scott \& P.B. Stetson 1987. Figure taken from Schneider (2006).}}
+    \label{fig:globularclusters}
+\end{figure}
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Can you say something about collisional behavior in clusters?
+    \item Why do or don't we think globular clusters have dark matter? How would we determine this? 
+\end{itemize}
+
+% --------------------------------------------------------------
+%               6. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 6}
+
+Describe three different methods used in the determination of the mass of a galaxy cluster.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               7. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 7}
+
+What is the density-morphology relation for galaxies? How is that related to what we know about the relationship between galaxy density and star formation rates in galaxies?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+The mixture of galaxy types in clusters seems to differ from that of isolated (field) galaxies. Whereas about 70\% of luminous field galaxies are spirals, clusters are dominated by early-type galaxies, in particular in their inner regions. Furthermore, the fraction of spirals in a cluster depends on the distance from the center and increases for larger $r$. Obviously, the local density has an effect on the morphological mix of galaxies. As in clusters, the fraction of group members which are spirals is lower than the fraction of spirals among field (i.e., isolated) galaxies, and the relative abundance of spiral galaxies decreases with increasing $\sigma_v$ of the group.
+
+{\noindent}More generally, one may ask whether the mixture of the galaxy population depends on the local galaxy density. While earlier studies of this effect were frequently confined to galaxies within and around clusters, extensive redshift surveys like the 2dFGRS and the SDSS allow us to systematically investigate this question with very large and carefully selected samples of galaxies. The morphological classification of such large samples is performed by automated software tools, which basically measure the light concentration in the galaxies, or, alternatively, the best-fitting S\'ersic-index $n$. A comparison of galaxies classified this way with visual classifications shows very good agreement.
+
+{\noindent}As an example of such an investigation, results from the Sloan Digital Sky Survey are shown in Figure \ref{fig:densitymorphology}. Galaxies were morphologically classified, based on SDSS photometry, and separated into four classes, corresponding to elliptical galaxies, S0 galaxies, and early (Sa) and late (Sc) types of spiral. In this analysis, only galaxies were included for which the redshift was spectroscopically measured. Therefore, the spatial galaxy density can be estimated. However, one needs to take into account the fact that the measured redshift is a superposition of the cosmic expansion and the peculiar velocity of a galaxy. The peculiar velocity may have rather large values ($1,000\,{\rm km\,s^{-1}}$), in particular in clusters of galaxies. For this reason, for each galaxy in the sample the surface number density of galaxies which have a redshift within $1,000\,{\rm km\,s^{-1}}$ of the target galaxy was determined. The left panel in Figure \ref{fig:densitymorphology} shows the fraction of the different galaxy classes as a function of this local galaxy density. A very clear dependence, in particular of the fraction of late-type spirals, on the local density can be seen: in regions of higher galaxy density Sc-spirals contribute less than 10\% of the galaxies, whereas their fraction is about 30\% in low-density regions. Combined, the fraction of spirals decreases from 65\% in the field to about 35\% in regions of high galaxy density. In contrast, the fraction of ellipticals and S0 galaxies increases towards higher densities, with the increase being strongest for ellipticals.
+
+\begin{figure}[t]
+    \includegraphics[width=16cm]{figures/DensityMorphology.png}
+    \centering
+    \caption{\footnotesize{The number fraction of galaxies of different morphologies is plotted as a function of the local galaxy density (left panel), and for galaxies in clusters as a function of the distance from the cluster center, scaled by the corresponding virial radius (right panel). Galaxies are divided into four different classes. `Early-types' contain mainly ellipticals, `intermediates' are mainly S0 galaxies, `early and late discs' are predominantly Sa and Sc spirals, respectively. In both representations, a clear dependence of the galaxy mix on the density or on the distance from the cluster center, respectively, is visible. In the histograms at the top of each panel, the number of galaxies in the various bins is plotted. Source: T. Goto et al. 2003, The morphology-density relation in the Sloan Digital Sky Survey, MNRAS 346, 601, p. 607, 608, Figs. 12, 15. Figure taken from Schneider (2006).}}
+    \label{fig:densitymorphology}
+\end{figure}
+
+{\noindent}In the right-hand panel of Figure \ref{fig:densitymorphology}, the mixture of galaxy morphologies is plotted as a function of the distance to the center of the nearest cluster, where the distance is scaled by the virial radius of the corresponding cluster. As expected, a very strong dependence of the fraction of ellipticals and spirals on this distance is seen. Sc spirals contribute a mere 5\% of galaxies in the vicinity of cluster centers, whereas the fraction of ellipticals and S0-galaxies strongly increases inwards.
+
+{\noindent}The two diagrams in Figure \ref{fig:densitymorphology} are of course not mutually independent: a region of high galaxy density is very likely to be located in the vicinity of a cluster center, and the opposite is valid accordingly. Therefore, it is not immediately clear whether the mix of galaxy morphologies depends primarily on the respective density of the environment of the galaxies, or whether it is caused by morphological transformations in the inner regions of galaxy clusters.
+
+{\noindent}The density-morphology relation is also seen in galaxy groups. The fraction of late-type galaxies decreases, and the fraction of early-type galaxies increases with decreasing distance from the group center, as is also the case in clusters. When considering the morphological mix of visually classified early- and late-type galaxies, averaged over the whole group or cluster (i.e., up to the virial radius) then it seems to be constant for group/cluster halo masses in excess of $\sim10^{13}\,{\rm M_\odot}$.
+
+{\noindent}A closer examination of Figure \ref{fig:densitymorphology} may provide a clue as to what physical processes are responsible for the dependence of the morphological mix on the local number density. We consider first the right-hand panel of Figure \ref{fig:densitymorphology}. Three different regimes in radius can be identified: for $R\gtrsim R_\mathrm{vir}$, the fraction of the different galaxy types remains basically constant. In the intermediate regime, $0.3\gtrsim R/R_\mathrm{vir}\gtrsim1$, the fraction of S0 galaxies strongly increases inwards, whereas the fraction of late-type spirals decreases accordingly. This result is compatible with the interpretation that in the outer regions of galaxy clusters spirals lose gas, for instance by their motion through the intergalactic medium (IGM), and these galaxies then transform into passive S0 galaxies. Below $R\lesssim0.3\,R_\mathrm{vir}$, the fraction of S0 galaxies decreases strongly, and the fraction of ellipticals increases substantially.
+
+{\noindent}In fact, the ratio of the number densities of S0 galaxies and ellipticals, for $R\lesssim0.3\,R_\mathrm{vir}$, strongly decreases as $R$ decreases. This may hint at a morphological transformation in which S0 galaxies are turned into ellipticals, probably by collisions or mergers. Such gas-free mergers, also called `dry mergers', may be the preferred explanation for the generation of elliptical galaxies. One of the essential properties of dry mergers is that such a merging process would not be accompanied by a burst of star formation, unlike the case of gas-rich collisions of galaxies. The existence of a population of newly born stars in ellipticals would be difficult to reconcile with the generally old stellar population actually observed in these galaxies.
+
+{\noindent}Considering now the dependence on local galaxy density (the left-hand panel of Figure \ref{fig:densitymorphology}), a similar behavior of the morphological mix of galaxies is observed: there seems to exist two characteristic values for the galaxy density where the relative fractions of galaxy morphologies change noticeably. Interestingly, the relation between morphology and density seems to evolve only marginally between $z=0.5$ and the local Universe.
+
+{\noindent}One clue as to the origin of the morphological transformation of galaxies in clusters, as a function of distance from the cluster center, comes from the observation that the velocity dispersion of very bright cluster galaxies seems to be significantly smaller than that of less luminous ones. Assuming that the mass-to-light ratio does not vary substantially among cluster members, this then indicates that the most massive galaxies have smaller velocity dispersions. One way to achieve this trend in the course of cluster evolution is by dynamical interactions between cluster galaxies. Such interactions tend to `thermalize' the velocity distribution of galaxies, so that the mean kinetic energy of galaxies tends to become similar. This then causes more massive galaxies to become slower on average. If this interpretation holds, then the morphology-density relation may be attributed to these dynamical interactions, rather than to the (so-called ram-pressure) stripping of the ISM as the galaxies move through the ICM. However, ram-pressure stripping of the ISM has been clearly observed in clusters. This effect mostly acts on the atomic gas of spirals, whereas the molecular gas seems to be less affected; we recall that the molecular gas is more densely concentrated towards the galactic disk, and thus more strongly bound. In fact, it has been known for a long time that there are spiral galaxies in groups and clusters which are deficient in neutral hydrogen, relative to field galaxies of the same stellar luminosity. If ram-pressure stripping, or other effects in the dense cluster environment, removes the ISM from spirals, then the result could be a disk galaxy without ongoing star formation -- something that may resemble an S0 galaxy. If that were the case, than S0s would be passively fading former spirals. Whereas the original spirals satisfied the Tully-Fisher relation, the S0s would then be expected to be considerably fainter than spirals, at fixed rotational velocity; this indeed is the case.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What processes in a cluster convert galaxies?
+    \item Where is galaxy harassment most effective (due to relative speeds)?
+\end{itemize}
+
+
+% --------------------------------------------------------------
+%               8. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 8}
+
+Draw the spectral energy distribution (SED) of a galaxy formed by a single burst of star formation at the ages of $10\,\mathrm{Myrs}$, $2\,\mathrm{Gyrs}$, and $10\,\mathrm{Gyr}$. Please highlight the change over time in the $4000$ Angstrom break.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+{\noindent}The light of normal galaxies originates from stars. Stellar evolution is largely understood, and the spectral radiation of stars can be calculated from the theory of stellar atmospheres. If the distribution of the number density of stars is known as a function of their mass, chemical composition, and evolutionary stage, we can compute the light emitted by them. The theory of population synthesis aims at interpreting the spectrum of galaxies as a superposition of stellar spectra. We have to take into account the fact that the distribution of stars changes over time; e.g., massive stars leave the main sequence after several $10^6\,{\rm yr}$, the number of luminous blue stars thus decreases, which means that the spectral distribution of the population also changes in time. The spectral energy distribution (SED) of a galaxy thus reflects its history of star formation (SF) and stellar evolution. For this reason, simulating different SF histories and comparing them with observed galaxy spectra provides important clues for understanding the evolution of galaxies. Let's discuss some aspects of the theory of population synthesis; this subject is of tremendous importance for our understanding of galaxy spectra.
+
+{\noindent}The processes of SF are not understood in detail; for instance, it is currently impossible to compute the mass spectrum of a group of stars that jointly formed in a molecular cloud. Obviously, high-mass and low-mass stars are born together and form young (open) star clusters. The mass spectra of these stars are determined empirically from observations.
+
+{\noindent}The initial mass function (IMF) is defined as the initial mass distribution at the time of birth of the stars, such that $\xi(m)\mathrm{d}m$ specifies the fraction of stars in the mass interval of width $\mathrm{d}m$ around $m$, where the distribution is normalized,
+
+\begin{align*}
+    \int\limits_{m_L}^{m_U} m\xi(m)\,\mathrm{d}m = 1\,{\rm M}_\odot.
+\end{align*}
+
+{\noindent}The integration limits are not well defined. Typically, one uses $m_L=0.1\,{\rm M_\odot}$ because stars less massive than $\approx0.08\,{\rm M_\odot}$ do not ignite their hydrogen (and are thus brown dwarfs), and $m_U\sim100\,{\rm M_\odot}$ because considerably more massive stars are not observed. Whereas such very massive stars would in any case be difficult to observe because of their very short lifetime, the theory of stellar structure tells us that more massive stars can probably not form a stable configuration due to excessive radiation pressure. The shape of the IMF is also subject to uncertainties; in most cases, the Salpeter-IMF is used,
+
+\begin{align*}
+    \xi(m) \propto m^{-2.35} ~ [{\rm units???}],
+\end{align*}
+
+{\noindent}as obtained from investigating the stellar mass spectrum in young star clusters. It is by no means clear whether a universal IMF exists, or whether it depends on specific conditions like metallicity, the mass of the galaxy, cosmic epoch, or other parameters. Given the difficulties of determining the shape of the IMF, apparent variations of the IMF with epoch or environment may be attributed to other effect, such as the specifics of the star-formation history in galaxies. Therefore, there seems to be no clear direct indication that the IMF varies with environment. However, some properties of high-redshift galaxies are very difficult to understand if their IMF was the same as in our neighborhood. It has therefore been suggested that the IMF in starbursts is different from that of quiescent star formation such as we are experiencing in the Milky Way.
+
+{\noindent}The Salpeter-IMF seems to be a good description for stars with $M\gtrsim1\,{\rm M_\odot}$, whereas the IMF for less massive stars is flatter. Note that, due to the steep slope of the IMF, most of the stellar mass is contained in low-mass stars. However, since the luminosity of main-sequence stars depends strongly on mass, approximately as $L\propto M^3$, most of the luminosity comes from high-mass stars.
+
+{\noindent}The star-formation rate (SFR) is the gas mass that is converted into stars per unit time,
+
+\begin{align*}
+    \mathrm{SFR} = -\frac{\mathrm{d}M_\mathrm{gas}}{\mathrm{d}t} ~ [{\rm M_\odot\,yr^{-1}}].
+\end{align*}
+
+{\noindent}The metallicity $Z$ of the ISM defines the metallicity of the newborn stars, and the stellar properties in turn depend on $Z$. During stellar evolution, metal-enriched matter is ejected into the ISM by stellar winds, planetary nebulae, and SNe, so that $Z(t)$ is an increasing function of time. This chemical enrichment must be taken into account in population synthesis studies in a self-consistent form.
+
+{\noindent}Let $S_{\lambda,Z}(t')$ be the emitted energy per wavelength and time interval, normalized to an initial total mass of $1\,{\rm M_\odot}$, emitted by a group of stars of initial metallicity $Z$ and age $t_0$. The function $S_{\lambda,Z(t-t_0)}(t')$, which describes this emission at any point $t$ in time, accounts for the different evolutionary tracks of the stars in the (HRD). It also accounts for their initial metallicity (i.e., at time $t-t'$), where the latter follows from the chemical evolution of the ISM of the corresponding galaxy. Then the total spectral luminosity of this galaxy at a time $t$ is given by
+
+\begin{align*}
+    F_\lambda(t) = \int\limits_0^t \mathrm{SFR}(t-t')S_{\lambda,Z(t-t')}(t')\,\mathrm{d}t' ~ [{\rm erg\,s^{-1}\,cm^{-2}\,Hz^{-1}}],
+\end{align*}
+
+{\noindent}thus by the convolution of the star formation rate with the spectral energy distribution of the stellar population. In particular, $F_\lambda(t)$ depends on the star formation history.
+
+\begin{figure}[t]
+    \includegraphics[width=16cm]{figures/SED_SF.png}
+    \centering
+    \caption{\footnotesize{(a) Comparison of the spectrum of a MS star with a black body spectrum of equal effective temperature. The opacity of the stellar atmosphere causes clear deviations from the Planck spectrum in the UV/optical. (b) Spectrum of a stellar population with Solar metallicity that was instantaneously born a time $t$ ago; t is given in units of $10^9\,{\rm yr}$. Source: S. Charlot 1996, Spectral Evolution of Galaxies, Lecture Notes in Physics 470, Springer-Verlag, p. 53. Figure taken from Schneider (2006).}}
+    \label{fig:sedsf}
+\end{figure}
+
+\begin{figure}[t]
+    \includegraphics[width=16cm]{figures/StellarSpectra.png}
+    \centering
+    \caption{\footnotesize{Spectra of galaxies of different types, where the spectral flux is plotted logarithmically in arbitrary units. The spectra are ordered according to the Hubble sequence, with early types at the bottom and late-type spectra at the top. Data from R. Kennicutt 1992, ApJS 79, 255. Figure taken from Schneider (2006).}}
+    \label{fig:stellarspectra}
+\end{figure}
+
+{\noindent}In the beginning, the spectrum and luminosity of a stellar population are dominated by the most massive stars, which emit intense UV radiation. But after $\sim10^7\,{\rm yr}$, the flux below $1,000$\,\AA is diminished significantly, and after $\sim10^8\,{\rm yr}$, it hardly exists any more. At the same time, the flux in the NIR increases because the massive stars evolve into red supergiants.
+
+{\noindent}For $10^8\,{\rm yr}\gtrsim t\gtrsim10^9\,{\rm yr}$, the emission in the NIR remains high, whereas short-wavelength radiation is more and more diminished. After $\sim10^9\,{\rm yr}$, red giant stars (RGB stars) account for most of the NIR production. After $\sim3\times10^9\,{\rm yr}$, the UV radiation increases again slightly, due to blue stars on the horizontal branch into which stars evolve after the AGB phase, and due to white dwarfs which are hot when they are born. Between an age of $4$ and $13$ billion years, the spectrum of a stellar population evolves fairly little. 
+
+{\noindent}Of particular importance is the spectral break located at about $4,000$\,\AA which becomes visible in the spectrum after a few $10^7\,{\rm yr}$. This break is caused by a strongly changing opacity of stellar atmospheres at this wavelength, mainly due to strong transitions of singly ionized calcium and the Balmer lines of hydrogen. This $4,000$\,\AA break is one of the most important spectral properties of the continuum stellar emission in galaxies; it allows us to estimate the redshifts of early-type galaxies from their photometric properties -- so-called photometric redshift estimates.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Why do we only consider a single burst of SF? (Want to hear about population synthesis.)
+    \item If you looked at an actual SED, what else would you see besides the mostly smooth continuum and spectral breaks?
+    \item What's a typical emission line you would see in the optical part of the spectrum?
+    \item Why is the y-axis is $\lambda\mathrm{F}_\lambda$, what does that mean?
+\end{itemize}
+
+
+% --------------------------------------------------------------
+%               9. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 9}
+
+How are galaxy redshifts estimated by photometric techniques?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+The Lyman-break technique is a special case of a method for estimating the redshift of galaxies (and QSOs) by multi-color photometry. This technique can be employed due to the spectral breaks at $912\,$\AA and $1216\,$\AA, respectively. Spectra of galaxies also show other characteristic features. The broadband energy distribution is basically a superposition of stellar radiation (if we ignore for a moment the presence of dust, which can yield a substantial infrared emission from galaxies). A stellar population of age $\gtrsim10^8\,{\rm yr}$ features a $4,000\,$\AA break because, due to a sudden change in the opacity at this wavelength, the spectra of most stars show such a break at about $4,000\,$\AÅ (see Figure \ref{fig:sedsf}). Hence, the radiation from a stellar population at $<4,000\,$\AÅ is less intense than at $>4,000\,$\AA; this is the case particularly for early-type galaxies, as can be seen in Figure \ref{fig:stellarspectra}, due to their old stellar population.
+
+{\noindent}If we assume that the star-formation histories of galaxies are not too diversified, the spectral energy distributions of these galaxies are expected to follow certain patterns. For example, if all galaxies had a single episode of star formation, starting at their formation redshift $z_f$ and lasting for a time $t$, then the spectra of these galaxies, for a given initial mass function, would be characterized by these two parameters, as well as the total stellar mass formed; this latter quantity then yields the amplitude of the spectrum, but does not affect the spectral shape. When measuring the magnitude of these galaxies in $n$ broad-band filters, we can form $n-1$ independent colors. Next suppose we form a multidimensional CCD, in which every galaxy is represented by a point in this ($n-1$)-dimensional color space. Considering only galaxies at the present epoch, all these points will lie on a two-dimensional surface in this multi-dimensional space, instead of being more or less randomly distributed.
+
+{\noindent}Next, instead of plotting $z=0$ galaxies, we consider the distribution of galaxies at some higher redshift $z<z_f$. This distribution of points will be different, mainly due to two different effects. First, a given photometric filter corresponds to a different rest-frame spectral range of the galaxy, due to redshift. Second, the ages of the stellar populations are younger at an earlier cosmic epoch, and thus the spectral energy distributions are different. Both of these effects will cause these redshift $z$ galaxies to occupy a different two-dimensional surface in multi-color space.
+
+{\noindent}Generalizing this argument further, we see that in this idealized consideration, galaxies will occupy a three-dimensional subspace in ($n-1$)-dimensional color space, parametrized by formation redshift $z_f$, time-scale $t$, and the galaxy’s redshift $z$. Hence, from the measurement of the broad-band energy distribution of a galaxy, we might expect to be able to determine, or at least estimate, its redshift, as well as other properties such as the age of its stellar population; this is the principle of the method of photometric redshifts.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The bottom panel illustrates again the principle of the drop-out method, for a galaxy at $z\sim3.2$. Whereas the Lyman-$\alpha$ forest absorbs part of the spectral flux between (rest-frame wavelength) $912$ and $1216$\,\AA, the flux below $912\,$\AA vanishes almost completely. By using different combinations of filters (top panel), an efficient selection of galaxies at other redshifts is also possible. The example shows a galaxy at $z=1$ whose $4,000\,$\AA break is located between the two redder filters. The $4,000\,$\AA break occurs in stellar populations after several $10^7\,{\rm yr}$ (see Figure \ref{fig:sedsf}) and is one of the most important features for the method of photometric redshift. Source: K.L. Adelberger 1999, Star Formation and Structure Formation at Redshifts $1<z<4$, astro-ph/9912153, Fig. 1. Figure taken from Schneider (2006).}}
+    \label{fig:photredshifts}}
+    {\includegraphics[width=12cm]{figures/PhotRedshifts.png}}
+\end{figure}
+
+{\noindent}Of course, the situation is considerably more complicated in reality. Galaxies most likely have a more complicated SF history than assumed here, and hence they will not be confined to a two-dimensional surface at fixed redshift, but instead will be spread around this surface. The spectrum of a stellar population also depends on its metallicity, as well as absorption, either by gas and dust in the ISM or hydrogen in intergalactic space (of which the Lyman-break method makes proper use). On the other hand, the colors of current-day galaxies are remarkably similar, best indicated by the red sequence. Therefore, the method of photometric redshifts may be expected to work, even if more complications are accounted for than in the idealized example considered above.
+
+{\noindent}The method is strongly aided if the galaxies have characteristic spectral features, which shift in wavelength as the redshift is changed. If, for example, the spectrum of a galaxy was a power law in wavelength, then the redshifted spectrum would as well be a power law, with the same spectral slope -- if we ignore the different age of the stellar population. Therefore, for such an SED is would be impossible to estimate a redshift. However, if the spectrum shows a clear spectral break, then the location of this break in wavelength depends directly on the redshift, thus yielding a particularly clean diagnostic. In this context the $4,000\,$\AA break and the Ly$\alpha$-break play a central role, as is illustrated in Figure \ref{fig:photredshifts}.
+
+{\noindent}In order to apply this method, one needs to find the characteristic domains in color space where (most of) the galaxies are situated. This can be done either empirically, using observed SEDs of galaxies, or by employing population synthesis models. More precisely, a number of standard spectra of galaxies (so-called templates) are used, which are either selected from observed galaxies or computed by population synthesis models. Each of these template spectra can then be redshifted in wavelength. For each template spectrum and any redshift, the expected galaxy colors are determined by integrating the spectral energy distribution, multiplied by the transmission functions of the applied filters, over wavelength. This set of colors can then be compared with the observed colors of galaxies, and the set best resembling the observation is taken as an estimate for not only the redshift but also the galaxy type.
+
+{\noindent}The advantage of this method is that multi-color photometry is much less time-consuming than spectroscopy of galaxies. Whereas some modern spectrographs allow one to take spectra of $\sim1,000$ objects simultaneously, images taken with wide-field cameras of $1\,\mathrm{deg}^2$ on $4\,{\rm m}$ class telescopes record the fluxes of $10^5$ galaxies in a one hour exposure. In addition, this method can be extended to much fainter magnitudes than are achievable for spectroscopic redshifts. The disadvantage of the method becomes obvious when an insufficient number of photometric bands are available, since then the photometric redshift estimates can yield a completely wrong $z$; these are often called catastrophic outliers. One example for the occurrence of extremely wrong redshift estimates is provided by a break in the spectral energy distribution. Depending of whether this break is identified as the Lyman-break or the $4,000\,$\AA break, the resulting redshift estimates will be very different. To break the corresponding degeneracy, a sufficiently large number of filters spread over a broad spectral range must be available to probe the spectral energy distribution over a wide range in wavelengths. As a general rule, the more photometric bands are available and the smaller the uncertainties in the measured magnitudes, the more accurate the estimated redshift. Normally, data from four or five photometric bands are required to obtain useful redshift estimates. In particular, the reliability of the photometric redshift benefits from data over a large wavelength range, so that a combination of several optical and NIR filters is desirable.
+
+{\noindent}The successful application of this method also depends on the type of the galaxies. Early-type galaxies form a relatively well-defined color-magnitude sequence at any redshift, due to their old stellar populations (manifested in clusters of galaxies in form of the red cluster sequence), so that the redshift of this type of galaxy can be estimated very accurately from multi-color information. However, this is only the case if the $4,000\,$\AA break is located in between two of the applied filters. For $z\sim1$ this is no longer the case if only optical filters are used. Other types of galaxies show larger variations in their spectral energy distribution, depending, e.g., on the star formation history, as mentioned before.
+
+{\noindent}Photometric redshifts are particularly useful for statistical purposes, for instance in situations in which the exact redshift of each individual galaxy in a sample is of little relevance. However, by using a sufficient number of optical and NIR filters, quite accurate redshift estimates for individual galaxies are achievable. For example, with eight optical and NIR bands and accurate photometry, a redshift accuracy of  $\Delta z\sim0.03(1+z)$ was obtained, as demonstrated in Figure \ref{fig:photvsspecredshift} by a comparison of photometric redshifts with redshifts determined spectroscopically for galaxies in the field of the HDF-North. If data in additional photometric bands are available, e.g., using filters of smaller transmission curves (`intermediate width filters'), the redshift accuracy can be increased even more, e.g., $\Delta z\sim0.01(1+z)$ was obtained using a total of 30 photometric bands.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Photometric redshift versus the spectroscopic redshift for galaxies in the HDF-North. Photometric data in four optical and two NIR bands have been used here. We see how accurate photometric redshifts can be -- their quality depends on the photometric accuracy in the individual filters, the number of filters used, the redshift and the type of the galaxy, and also on details of the applied analysis method. Source: N. Benítez 2000, Bayesian Photometric Redshift Estimation, ApJ 536, 571, p. 579, Fig. 5. Figure taken from Schneider (2006).}}
+    \label{fig:photvsspecredshift}}
+    {\includegraphics[width=10cm]{figures/PhotVsSpecRedshift.png}}
+\end{figure}
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What problems are there with the photometric method?
+    \item How do you account for different galaxy types, and what do you need to know about the stellar population? (i.e., IMF.)
+\end{itemize}
+
+
+% --------------------------------------------------------------
+%               10. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 10}
+
+Draw a spectrum of a high-redshift quasar. What do quasar emission lines typically look like? Explain what we see in the spectrum at rest wavelengths bluer than $1216$ Angstroms.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+{\noindent}The first quasars (for `quasi-stellar radio source') were discovered  as `radio galaxies with no galaxy'. They appeared point-like in optical photographs; only their enormous redshifts betrayed that they were not Galactic stars. Rather, they were gigaparsecs distant, and hence extremely luminous. Subsequently `radio-quiet' quasars, called quasi-stellar objects, or QSOs, were found by searching for objects that appeared stellar, but emitted too strongly at infrared or ultraviolet wavelengths relative to their brightness in visible light. Radio-quiet QSOs outnumber radio-loud quasars by at least a factor of 30; both are now believed to be variants of the same type of object, so we use the term `quasar' to include the QSOs. In the 1980s, deep images of nearby quasars showed us that they were in fact the bright nuclei of galaxies, so luminous as to outshine the surrounding stars. Most astronomers now regard quasars as more powerful versions of a Seyfert nucleus. Quasars cover a very wide range in luminosity; the most powerful are also the rarest.
+
+{\noindent}Quasars are the most luminous members of the class of AGNs. The optical and ultraviolet spectrum of a quasar typically shows strong broad emission lines characteristic of moderately dense gas (Figure \ref{fig:qsoradioquiet}). The widths of the lines correspond to the Doppler shifts expected from emitting gas travelling at speeds $\sim10,000\,{\rm km\,s^{-1}}$. These emitting clouds are moving much faster than the galaxy's stars, which typically orbit at a few hundred kilometers per second. Many AGN are variable, changing their luminosity substantially within a few months, days, or even hours. The emission lines also strengthen and decline, within a few days or weeks. To allow such fast variability, both broad lines and continuum radiation must come from a region no more than a few light-weeks across.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=16cm]{figures/QSO_radioquiet.png}
+    \caption{\footnotesize{The ultraviolet and optical spectrum of an `average' radio-quiet quasar. Source: R.Telfer et al. 2002 Ap J 565, 773. Figure taken from Sparke \& Gallagher (2007).}}
+    \label{fig:qsoradioquiet}
+\end{figure}
+
+{\noindent}Interestingly, the flux of the source varies at nearly all frequencies, where the variability time-scale differs among the objects and also depends on the wavelength. As a rule, it is found that the variability time-scale of the observed radiation is smaller, and its amplitude larger, at higher frequencies. The optical spectrum is very blue; most quasars at redshifts $z\lesssim2$ have $(U-B)<-0.3$ (for comparison, only hot white dwarfs have a similarly blue color index). Besides this blue continuum, very broad emission lines are characteristic of the optical and UV spectrum. Some of them correspond to transitions of very high ionization energy.
+
+{\noindent}The continuum spectrum of a quasar can often be described, over a broad frequency range, by a power law of the form
+
+\begin{align*}
+    S_\nu \propto \nu^{-\alpha},
+\end{align*}
+
+{\noindent}where $\alpha$ is the spectral index. A spectral index of $\alpha-0$ corresponds to a flat spectrum, whereas $\alpha=1$ describes a spectrum in which the same energy is emitted in every logarithmic frequency interval. Incidentally, the energy distribution seen in Fig \ref{fig:qsoradioquiet} corresponds approximately to the latter case, over more than ten orders of magnitude in frequency, although over smaller frequency ranges, the spectral shape differs markedly from $\alpha=1$.
+
+
+% --------------------------------------------------------------
+%               11. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 11}
+
+Sketch the SED from the radio to gamma of extragalactic radiation on large angular scales. Describe the source and emission mechanism for each feature.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Figure \ref{fig:diffusebackground} shows the spectrum of cosmic background radiation, plotted as $\nu I_\nu$ versus wavelength so that the curve shows the intensity per logarithmic frequency interval. Following the terminology of the CMB, these are called background radiation as well. However, the name should not imply that it is a background radiation of cosmological origin, in the same sense as the CMB. The neutrino background that should be present as a relic from the early epochs of the Universe, in the form of a thermal distribution of all three neutrino families with $T\approx1.9\,{\rm K}$, is likely to remain undiscovered for quite some time due to the very small cross section of these low energy neutrinos.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Spectrum of cosmic background radiation, plotted as $\nu I_\nu$ versus wavelength so that the curve shows the intensity per logarithmic frequency interval. Besides the CMB, background radiation exists in the radio domain (cosmic radio background, CRB), in the infrared (CIB), in the optical/UV (CUVOB), in the X-ray (CXB), and at gamma-ray energies (CGB). With the exception of the CMB, all of these backgrounds can be understood as a superposition of the emission from discrete sources. Source: M.G. Hauser \& E. Dwek 2001, ARA\&A 39, 249, Fig.1. Figure taken from Schneider (2006).}}
+    \label{fig:diffusebackground}}
+    {\includegraphics[width=10cm]{figures/DiffuseBackground.png}}
+\end{figure}
+
+{\noindent}In the present context, we simply denote the flux in a specific frequency domain, averaged over sky position at high Galactic latitudes, as background radiation. Thus, when talking about e.g., the optical background, we refer to the sum of the radiation of all galaxies and AGNs per solid angle. The interpretation of such a background radiation depends on the sensitivity and the angular resolution of the telescopes used. Imagine, for instance, observing the sky with an optical camera that has an angular resolution of only one arcminute. A relatively isotropic radiation would then be visible at most positions in the sky, featuring only some very bright or very large sources. Thus, the background can be decomposed into a `resolved' component, which can be attributed to individually identified sources, and the unresolved component. On improving the angular resolution, more and more individual sources become visible, so that a larger fraction of the background radiation is resolved. At optical wavebands, the Hubble Deep Fields have resolved essentially all of the background into individual sources. In analogy to this, one may wonder whether the CXB or the CIB can likewise be understood as a superposition of radiation from discrete sources.
+
+{\noindent}\textbf{Cosmic gamma-ray background (CGB)}: 
+
+{\noindent}\textbf{Cosmic x-ray background (CXB)}: The first X-ray experiment in astronomy, a balloon flight in 1962, discovered a diffuse X-ray emission across the sky, confirmed by the first X-ray satellites which discovered not only a number of extragalactic X-ray sources (such as AGNs and clusters of galaxies), but also an apparently isotropic radiation component. The spectrum of the cosmic X-ray background (CXB) is a very hard (i.e., flat) power law, cut off at an energy above $40\,{\rm keV}$, which can roughly be described by
+
+\begin{align*}
+    I_\nu \propto E^{-0.3}\exp\left(-\frac{E}{E_0}\right),
+\end{align*}
+
+{\noindent}with $E_0\sim40\,{\rm keV}$. 
+
+{\noindent}Initially, the origin of this radiation was unknown, since its spectral shape was different from the spectra of sources that were known at that time. For example, it was not possible to obtain this spectrum by a superposition of the spectra of known AGNs. ROSAT, with its substantially improved angular resolution compared to earlier satellites (such as the Einstein observatory), conducted source counts at much lower fluxes, based on some very deep images. From this, it was shown that at least 80\% of the CXB in the energy range between $0.5$ and $2\,{\rm keV}$ is emitted by discrete sources, of which the majority are AGNs. Hence it is natural to assume that the total CXB at these low X-ray energies originates from discrete sources, and observations by XMM-Newton and Chandra have confirmed this.
+
+{\noindent}However, the X-ray spectrum of normal AGNs is different from that seen by the CXB, namely it is considerably steeper(about $S_\nu\propto\nu^{-S0.7}$). Therefore, if these AGNs contribute the major part of the CXB at low energies, the CXB at higher energies cannot possibly be produced by the same AGNs. Subtracting the spectral energy of the AGNs found by ROSAT from the CXB spectrum, one obtains an even harder spectrum, resembling very closely that of thermal bremsstrahlung. Therefore, it was supposed for a long time that the CXB is, at higher energies, produced by a hot intergalactic gas at temperatures of $k_BT\sim30\,{\rm keV}$. This model was excluded, however, by the precise measurement of the thermal spectrum of the CMB by COBE, showing that the CMB has a perfect blackbody spectrum. If a postulated hot intergalactic gas were able to produce the CXB, it would cause significant deviations of the CMB from the Planck spectrum, namely by the inverse Compton effect (the same effect that causes the SZ effect in clusters of galaxies). Thus, the COBE results clearly ruled out this possibility.
+
+{\noindent}Deep observations with Chandra and XMM (e.g., in the CDFS) have finally resolved most of the CXB also at higher energies. From source counts performed in such fields, more than 75\% of the CXB in the energy range of $2\,{\rm keV}<E<10\,{\rm keV}$ could be resolved into discrete sources. Again, most of these sources are AGNs, but typically with a significantly harder (i.e., flatter) spectrum than the AGNs that are producing the low-energy CXB. Such a flat X-ray spectrum can be produced by photoelectric absorption of an intrinsically steep power law spectrum, where photons closer to the ionization energy are more efficiently absorbed than those at higher energy. According to the classification scheme of AGNs, these are Type 2 AGNs, thus Seyfert 2 galaxies and QSOs with strong intrinsic self-absorption. We should recall that Type 2 QSOs have only been detected by Chandra -- hence, it is no coincidence that the same satellite has also been able to resolve the high-energy CXB.
+
+{\noindent}However, at even higher energies most of the CXB was still unaccounted for -- even the observed Type-2 AGNs could not account for it. It thus seems that there is a population of sources in the Universe which dominate the X-ray emission at high energies, still escape the observations at low X-ray frequencies. These could be heavily obscured AGNs, where only the hard X-rays manage to escape the emitting region. With the X-ray telescope onboard the Swift satellite, a significant number of such heavily obscured AGNs were found. Their estimated number density, together with their spectral energy distribution, make it plausible that they are the missing population of `hidden black holes' responsible for the hard CXB.
+
+{\noindent}\textbf{Cosmic optical/ultraviolet background (CUVOB)}: 
+
+{\noindent}\textbf{Cosmic infrared background (CIB)}: The first point to note from Figure \ref{fig:diffusebackground} is the relatively flat energy distribution between the UV- and the mm-regime. Since both the UV-radiation and the far-IR radiation originate almost entirely from star-formation, the flat energy distribution implies that essentially half of the energetic photons emitted from newly-formed stars are absorbed by dust and reradiated in the FIR. Hence, estimates of the star formation activity from UV-flux alone will on average be biased low by 50\%. Observations of background radiation in the infrared are very difficult to accomplish, in particular due to the thermal radiation from the instruments and the zodiacal light. However, the DIRBE and FIRAS instruments onboard COBE provided a measurement of the CIB. The question now is whether the CIB can be understood as well as being due solely to individual sources.
+
+{\noindent}Since mid- and far-IR observations are only possible from space, finding the answer to that question is challenging. Infrared observatories in space have a rather small aperture which, together with the long wavelength, yields a rather large point-spread function (PSF). This implies that when one observes to low flux limits, where the mean angular separation of sources on the sky becomes comparable to the size of the PSF, these sources can not be separated. This yields a lower flux limit for the detection of individual sources, called the confusion limit. The smaller the telescope, the shallower is the confusion limit reached. For example, the flux limit down to which individual sources could be identified with the Spitzer satellite at $160\,\mu{\rm m}$ corresponds to only 7\% of the CIB at this wavelength. The much larger mirror on the Herschel satellite lowered the confusion limit such that individual sources can be identified which account for about 52\% of the CIB. Going to larger wavelength, the confusion limit is even more severe.
+
+{\noindent}However, one can dig deeper into the source counts with a technique called stacking. Taking the position of sources detected at some smaller wavelength (where the confusion limit is fainter), and adding up the flux in the longer wavelength band around all these positions, one obtains the mean long-wavelength flux of these sources. With this method, one will miss all fainter sources which do not have a detected counterpart in the short-wavelength input catalog, so that wavelength should be selected carefully. Given the characteristic spectrum of FIR-bright sources, one expects that most of the sources radiating in the FIR will have an appreciable flux at $24\,\mu{\rm m}$. Since Spitzer was particularly sensitive at this wavelength, the corresponding source catalog is best for a stacking analysis. Furthermore, if the redshifts of the sources selected at $24\,\mu{\rm m}$ is known, the stacking analysis can be used to determine the redshift distribution of the contributions to the CIB in the FIR. With stacking, the source counts can be followed to about three times lower flux than the confusion limit of individual sources permits.
+
+{\noindent}\textbf{Cosmic microwave background (CMB)}: The cosmic microwave background (CMB) is a remnant of the early hot phase of the Universe, namely thermal radiation from the time before recombination. 
+
+{\noindent}\textbf{Cosmic radio background (CRB)}: 
+
+% --------------------------------------------------------------
+%               12. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 12}
+
+What are AGNs? Describe different observational classes of them and how they may relate to each other.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+A wide range of objects are subsumed under the name AGN, all of which have in common strong non-thermal emission in the core of a galaxy (host galaxy). It is important to keep in mind that the frequency range in which sources are studied affects the source classification. The classification of AGNs is very confusing at first glance. Different classes refer to different appearances of AGNs but do not necessarily correspond to the physical nature of these sources. Similarly, the properties of the emission of AGNs in different wavebands (such as radio or gamma-rays) can differ most strongly. However, the large variety of appearances of AGNs can be understood, at least to a first approximation, by geometric considerations. The emission of an AGN is not isotropic; the flow of material which causes the energy release near the central black hole occurs in the form of a disk (the accretion disk), which defines a pair of preferred directions (i.e., those perpendicular to the plane in which the disk lies). In the context of unified models, the way an AGN appears to us depends strongly on the angle between this disk axis and the line-of-sight to the source.
+
+{\noindent}In Figure \ref{fig:agn}, this geometric picture of an AGN is sketched. The different green arrows indicate different lines-of-sight to observers, and they are labeled with the characteristic AGN class the corresponding observer will see. In the upper half of the figure, it is assumed that the AGN produces strong jets, whereas in the lower part, weaker jets (or none at all) are assumed.\footnote{As is often the case with these figures, this schematic depicts two very different AGN cases -- one with a radio loud jet and one without. No such AGN can have one jet on one side and not the other!} With this picture in mind, we shall now describe the various types of AGNs. Surrounding the central supermassive black hole is an accretion disk which emits the bulk part of the optical and UV continuum emission. The central region around the accretion disk is the source of most of the X-ray radiation. Gas clouds above and below the accretion disk are responsible for the broad emission lines. In the plane of the disk, a distribution of gas and dust is present, which can absorb radiation from the inner region of the AGN; this obscuring material is sometimes depicted as a torus, though its geometry is probably more complicated. Nevertheless, the appearance of the AGN depends on whether the observer is located near the plane of the disk -- where radiation is partly absorbed by the material in the torus -- or placed in a direction closer to the axis of the disk. This concerns in particular the broad line emission, which may be fully obscured for an observer in the plane of the disk. In contrast, the gas responsible for the narrow emission lines is located at much larger distances from the black hole, so that it cannot be fully hidden by the obscuring torus. 
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Sketch of our current understanding of the unification of AGN types. The accretion disk is surrounded by a thick `torus' containing dust which thus obscures the view to the center of the AGN. When looking from a direction near the plane of the disk, a direct view of the continuum source and the BLR is blocked, whereas it is directly visible from directions closer to the symmetry axis of the disk. The difference between Seyfert 1 (and BLRG) and Seyfert 2 (and NLRG) is therefore merely a matter of orientation relative to the line-of-sight. If an AGN is seen exactly along the jet axis, it appears as a blazar. Credit: NASA. Figure taken from Schneider (2006).}}
+    \label{fig:agn}}
+    {\includegraphics[width=12cm]{figures/AGN.png}}
+\end{figure}
+
+{\noindent}The radio jets are launched very close to the central black hole along the direction of the disk axis. The emission from these jets is highly anisotropic, because the velocity in the inner part of the jets is close to the speed of light; then, according to the theory of Special Relativity, the jet emission is strongly beamed in the direction of jet motion. This implies that the appearance of the jet depends on how close the line-of-sight to an observer is to the jet axis. If the jet points almost directly at the observer, the jet emission can outshine all the other radiation from the AGN. 
+
+{\noindent}The QSOs are the most luminous AGNs. Their core luminosity can be as high as a thousand times that of an $L^*$  galaxy. Therefore they can outshine their host galaxy and appear point-like on optical images. For QSOs of lower $L$, their host galaxies were identified and spatially resolved with the HST. According to our current understanding, AGNs are the active cores of galaxies. These galaxies are supposed to be fairly normal galaxies, except for their intense nuclear activity.
+
+{\noindent}The unusually blue color of quasars suggested the possibility of searching for them not only with radio observations but also at optical wavelengths, namely to look for point-like sources with a very blue $U-B$ color index. These photometric surveys were very successful. In fact, many more such sources were found than expected from radio counts. Most of these sources are (nearly) invisible in the radio domain of the spectrum; such sources are called radio-quiet. Their optical properties are virtually indistinguishable from those of quasars. In particular, they have a blue optical energy distribution (of course, since this was the search criterion!), strong and broad emission lines, and in general a high redshift.
+
+{\noindent}Apart from their radio properties, these sources appear to be like quasars. Therefore they were called radio-quiet quasars, or quasi-stellar objects, QSOs. Today this terminology is no longer very common because the clear separation between sources with and without radio emission is not considered valid any more. Radio-quiet quasars also show radio emission if they are observed at sufficiently high sensitivity. In modern terminology, the expression QSO encompasses both the quasars and the radio-quiet QSOs. About 10 times more radio-quiet QSOs than quasars are thought to exist.
+
+{\noindent}In fact, there is as yet not a clear consensus in whether QSOs show a bimodal distribution in their ratio of radio-to-optical luminosity. Figure \ref{fig:qsoradiovsoptical} shows several different samples of AGN; in particular, optically-selected QSOs from the Palomar-Green survey (filled stars) and radio-loud QSOs (open circles). It seems that the ratio between radio and optical luminosity falls into two broad ranges, with a clear gap in between. Therefore, diagrams like that argue in favor of a bimodal distribution. However, this apparent division into two classes can at least partly be attributed to selection effects: the distribution of the radio-to-optical flux ratio depends on the selection of the QSO sample. Obviously, selecting them by their radio emission will favor those with a large $L_\mathrm{radio}/L_\mathrm{opt}$ ratio. Furthermore, the fraction of QSOs for which this ratio is large (i.e., which would be termed as radio-loud QSOs) depends on optical luminosity and on redshift: One finds a significantly higher radio-loud fraction amongst more luminous, and lower-redshift QSOs.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Radio vs. optical luminosity of AGN, as measured at $5\,{\rm GHz}$ and in the B-band. Different types of AGNs are shown with different symbols: FR I radio galaxies (open triangles), Broad-Line Radio Galaxies (filled circles), radio-loud QSOs (open circles), Seyfert galaxies and LINERs (crosses), and a sample a $(U-B)$ colour-selected bright QSOs, the Palomar-Green sample (filled stars). Source: M. Sikora et al. 2007, Radio Loudness of Active Galactic Nuclei: Observational Facts and Theoretical Implications, ApJ 658, 815, p. 823, Fig. 1. Figure taken from Schneider (2006).}}
+    \label{fig:qsoradiovsoptical}}
+    {\includegraphics[width=12cm]{figures/QSO_radiovsoptical.png}}
+\end{figure}
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Illustration of an accretion disk and a hot corona, where the possible origin of the various X-ray components of an AGN are indicated. Source: L. Gou et al. 2011, The Extreme Spin of the Black Hole in Cygnus X-1, ApJ 742, 85, p. 5, Fig.2. Figure taken from Schneider (2006).}}
+    \label{fig:agnaccretion}}
+    {\includegraphics[width=10cm]{figures/AGN_accretion.png}}
+\end{figure}
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Illustration of the relativistic jet model. The acceleration of the jet to velocities close to the speed of light is probably caused by a combination of very strong gravitational fields in the vicinity of the SMBH and strong magnetic fields which are rotating rapidly because they are anchored in the accretion disk. Credit: NASA/ESA and Ann Feild, Space Telescope Science Institute Figure taken from Schneider (2006).}}
+    \label{fig:agnjet}}
+    {\includegraphics[width=10cm]{figures/AGN_jet.png}}
+\end{figure}
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What are the physical scales in this diagram? (Cross section of SMBH, accretion disk and jet.)
+    \item How massive are SMBHs?
+    \item Why is there a connection between bulge properties and SMBH mass?
+    \item How do you determine over what range SMBH potential is important?
+\end{itemize}
+
+
+% --------------------------------------------------------------
+%               13. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 13}
+
+What are galaxy clusters? What are their basic properties (eg, mass, size). List and explain three ways they can be detected.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item (On the X-ray gas method of detection:) Where does it come from?
+    \item (On the X-ray gas method of detection:) How do we see it / what is its emission mechanism?
+    \item (On the X-ray gas method of detection:) How is the x-ray gas initially heated / why is it hot?
+    \item Say more about galaxy interactions in clusters.
+    \item Where is most of the mass in a galaxy cluster?
+    \item What heats the IGM?
+    \item Do optical surveys need redshift information to identify galaxy clusters?
+    \item Describe how star formation changes throughout the cluster.
+    \end{itemize}
+
+
+
+% --------------------------------------------------------------
+%               14. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 14}
+
+What is star formation quenching? What is the evidence for it, and why is it thought to happen?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Hydrodynamical simulations of disk formation show that SF in the gas disks is far too efficient, consuming the available gas in too short a time, so that most of the stars would be formed at high redshift, with little current star formation left. Furthermore, the resulting disks are too concentrated and too small, leading to rotation curves which are declining outwards beyond the (small) half-light radius of the disk, in marked contrast with observed rotation curves. This together is known as the overcooling problem in galaxy evolution. Real disk galaxies have a slower conversion of gas into stars and their disks remain larger. And finally, the efficient conversion of gas into stars in our simple model would predict that the stellar mass density in the Universe is much higher than observed -- whereas $\omega_b\sim0.04$, the density parameter in stars is less than 1\%. Hence, most baryons in the Universe have not been converted to stars.
+
+{\noindent}\textbf{Feedback by supernovae:} In order to balance the efficient gas cooling, heating sources need to be considered. An unavoidable source of heating is the energy injected into the ISM by supernovae. Very shortly after star formation sets in, the most massive stars of the stellar population undergo a core-collapse supernova. The mechanical energy of the explosion is partly transferred to the gas surrounding the exploding star. Thereby the gas is heated, causing it to expand, thus to decrease its density, which in turn reduces its cooling efficiency. Note that this is a feedback process -- the higher the star formation rate, the more energy is injected into the interstellar gas to prevent, or at least delay, further SF. Depending on the efficiency of this feedback, the local gas of the disk may be blown out of the disk into the halo (and produce a hot gas corona outside the disk), or, in particular for low-mass halos, be removed from the halo through outflowing gas.
+
+{\noindent}In fact, there is direct observational evidence of the occurrence of outflows from star-forming galaxies. For example, the spectra of Lyman-break galaxies reveal substantial mass outflows, at a similar rate as their star-formation rate and with velocities of several hundreds of ${\rm km\,s^{-1}}$.
+
+{\noindent}The details of this feedback process are somewhat uncertain -- how much of the supernova energy is converted into heat, and how much is transferred to the ISM in form of bulk kinetic energy, is not well determined. Furthermore, the feedback by supernovae depends on the assumed initial mass function of stars, which yields the fraction of newly formed stars which explode as core-collapse supernova. The flatter the IMF at the high-mass end, the more supernova energy per unit mass of newly formed stars is injected.
+
+{\noindent}Assuming a universal IMF, the energy released by supernovae per unit mass of newly-formed stars is $\eta_\mathrm{SN}E_\mathrm{SN}$, where $\eta_\mathrm{SN}$ denotes the expected number of supernovae per unit mass of formed stars, and $E_\mathrm{SN}$ is the energy released per supernova. If we assume that this energy reheats some of the cold gas back to virial temperature of the halo, the amount of gas that is reheated after formation of a group of stars with mass $\Delta m_*$ is
+
+\begin{align*}
+    \Delta m_\mathrm{reheat} \sim \epsilon\frac{\eta_\mathrm{SN}E_\mathrm{SN}}{V_{200}^2}\Delta m_* ~ [{\rm M_\odot}],
+\end{align*}
+
+{\noindent}where $\epsilon$ parametrizes the efficiency of the reheating process. The reheated gas may be transferred back to the hot gaseous halo, whereas other models assume that the reheated gas is first ejected from the halo, and only later reincorporated into the hot halo on the dynamical time-scale of the halo. This ejection scenario effectively delays the time at which the reheated gas can cool and becomes available for star formation again.
+
+{\noindent}As can be seen from the above equation, supernova feedback is more efficient at suppressing star formation in low-mass galaxies -- which is due to the fact that the binding energy per unit mass is an increasing function of halo mass. This simply expresses the fact that for low-mass halos it is easier to drive the gas outwards.
+
+{\noindent}\textbf{AGN feedback:} Whereas supernova feedback explains a decreasing conversion of gas into stars with decreasing halo mass, and thus can account for the difference of the slopes between the galaxy luminosity function and the halo mass function at the low mass/luminosity end, it is less efficient for higher-mass halos, due to the larger $V_{200}$. The increase of the cooling time for higher-mass halos by itself cannot account for the abrupt exponential decrease of the galaxy luminosity function beyond $L^*$. One requires another process which delays the cooling of gas in high-mass halos.
+
+{\noindent}For very massive halos, we have already encountered such a process: the suppression of cooling flows in galaxy clusters is due to AGN activity of the central galaxy in the cluster. Since (almost) all massive galaxies contain a supermassive black hole, this kind of feedback may be operational not only in groups and clusters, but actually in individual massive galaxies as well. In particular, there is a great deal of evidence for a relation between nuclear starbursts in galaxies and AGN activity. The gas needed for a starburst in the center of a galaxy is also potential fuel for the central black hole. Again, the details of this process are quite uncertain, but with plausible prescriptions, the cut-off of the luminosity function at $L\gtrsim L^*$ can be successfully modeled.
+
+{\noindent}Feedback by an AGN can occur in several ways. In the case of galaxy clusters, the major effect of the AGN is the insertion of hot bubbles into the intracluster medium (ICM) through radio jets. The AGNs in most central cluster galaxies are not very luminous, and seem to be in the `radio mode' of low accretion rate. Thus, for low accretion rates, the main channel of feedback is the injection of mechanical energy into the surrounding gas. At high accretion rates, in the `quasar mode', the main source of feedback is presumably heating of the gas. Furthermore, the strong radiation field from quasars changes the ionization structure of the surrounding gas, which affects its cooling curve compared and at low temperatures actually leads to radiative heating. These various effects should be included in realistic models of the evolution of galaxies, at least in an approximate way.
+
+{\noindent}\textbf{Strangulation:}
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What is the SF history of the Universe, and how does it evolve with time? (i.e., Lilly-Madau plot.)
+    \item At what redshift was the SF rate the highest?
+    \item How does this relate to the population of stars we see today (i.e., how old the Sun is, which stars are most common etc.)?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               15. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 15}
+
+Provide three examples of ways in which feedback processes are important on galactic and intergalactic scales.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What is the star formation rate in the galaxy (derive this)? 
+    \item How fast would all the gas be eaten up if there was no feedback?
+    \item How could you observationally constrain metal enrichment of the IGM?
+    \item How do these processes affect a single galaxy (i.e., not a cluster)?
+    \item If feedback sets an effective maximum mass for a galaxy, can you draw a cooling curve (i.e., density versus temperature)? 
+\end{itemize}
+
+% --------------------------------------------------------------
+%               Resources 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Resources}
+
+\begin{itemize}
+    \item Extragalactic Astronomy and Cosmology, Schneider (2006)
+    \item High Energy Astrophysics, Longair (2011)
+    \item Gaseous Nebulae and Active Galactic Nuclei, Osterbrock \& Ferland (2005)
+    \item Spectral Evolution of Galaxies, Charlot (1996)
+    \item Galaxies in the Universe, Sparke \& Gallagher (2005)
+    \item Elliptical Galaxies and Bulges of Disk Galaxies: Summary of Progress and Outstanding Issues, Kormendy (2015)
+\end{itemize}
+
+
+\end{document}
