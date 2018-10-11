@@ -1,0 +1,511 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{amsmath,amsthm,amssymb,cancel,bm}
+\usepackage{floatrow}
+\setcounter{tocdepth}{2}
+\usepackage{geometry}
+\geometry{total={210mm,297mm},
+left=25mm,right=25mm,%
+bindingoffset=0mm, top=20mm,bottom=20mm}
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+% my own titles
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+\vspace{2ex}
+{\huge \textsc{\@title}}
+\vspace{1ex}
+\\
+\linia\\
+\@author
+\vspace{4ex}
+\end{center}
+}
+\makeatother
+
+% custom footers and headers
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{General Qualifying Exam Solutions}
+\cfoot{}
+\rfoot{Page \thepage\ /\ \pageref*{LastPage}}
+
+% --------------------------------------------------------------
+%
+%                           TITLE PAGE
+%
+% --------------------------------------------------------------
+
+\begin{document}
+\hfill{\textit{Last modified \today}}
+\title{General Qualifying Exam Solutions: Galactic Astronomy}
+\author{Jessica Campbell, Dunlap Institute for Astronomy \& Astrophysics (UofT)}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+
+
+% --------------------------------------------------------------
+%
+%
+%                              GALACTIC 
+%
+%
+% --------------------------------------------------------------
+
+\newpage
+\section{Galactic Astronomy}
+
+% --------------------------------------------------------------
+%               1. 
+% --------------------------------------------------------------
+
+\subsection{Question 1}
+
+What is a stellar Initial Mass Function (IMF)? Sketch it. Give a couple of examples of simple parametric forms used to describe the IMF, such as the Chabrier, Kroupa, or Salpeter functions.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Since the observable signatures for star formation are obtained only from massive stars, their formation rate needs to be extrapolated to lower masses to obtain the full SFR by assuming an IMF. Typically, a Salpeter-IMF is chosen between $0.1\,M_\odot\geq M\geq 100\,M_\odot$. However, there are clear indications that the IMF may be flatter for $M\gtrsim1\,M_\odot$ than described by the Salpeter law, and several descriptions for such modified IMFs have been developed over the years, mainly based on observations and interpretation of star-forming regions in our MW or in nearby galaxies. The total stellar mass, obtained by integration over the IMF, is up to a factor of $\sim2$ lower in these modified IMFs than for the Salpeter IMF. Thus, this factor provides a characteristic uncertainty in the determination of the SFR from observations; a similar, though somewhat smaller uncertainty applies to the stellar mass density whose estimation also is mainly based on the more massive stars of a galaxy which dominate the luminosity. Furthermore, the IMF need not be universal, but may in principle vary between different environments, or depend on the metallicity of the gas from which stars are formed. Whereas there has not yet been unambiguous evidence for variations of the IMF, this possibility must always be taken into account.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item How did Salpeter determine the IMF?
+    \item How do you normalize the IMF?
+    \item Is the upper or lower limit on mass more important for normalization?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               2. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 2}
+
+Describe the orbits of stars in a galactic disk and in galactic spheroid.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\begin{itemize}
+    \item If we perturb a star in the disk in the z-direction, what happens?
+    \item If we perturb a star in the disk in the radial-direction, what happens?
+    \item What are the observed quantities in each scenario?
+    \item How many integrals of motion are there in the disk?
+    \item What symmetry leads to energy conservation?
+\end{itemize}
+
+
+% --------------------------------------------------------------
+%               3. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 3}
+
+Every now and then a supernova explosion occurs within $3\,\mathrm{pc}$ of the Earth. Estimate how long one typically has to wait for this to happen. Why are newborn stars likely to experience this even when they are much younger than the waiting time you have just estimated?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               4. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 4}
+
+Galactic stars are described as a collision-less system. Why? (Don’t forget the influence of gravity.)
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What happens when stars collide?
+    \item Why choose a cross-section that's larger than the star's radius?
+    \item What impact parameter do we need for the stars to end up physically touching (calculate it)?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               5. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 5}
+
+Given that only a tiny fraction of the mass of the interstellar medium consists of dust, why is dust important to the chemistry of the medium and to the formation of stars?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Why is molecular hydrogen (H$_2$) so difficult to detect?
+    \item What are other ways in which molecular cloud cores cool?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               6. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 6}
+
+The ISM mainly consists of hydrogen and helium, which are very poor coolants. How, then, do molecular cloud cores ever manage to lose enough heat to collapse and form stars? Why are H
+and He such poor coolants?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               7. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 7}
+
+The stars in the solar neighbourhood, roughly the $300\,\mathrm{pc}$ around us, have a range of ages, metallicities and orbital properties. How are those properties related?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               8. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 8}
+
+What are the main sources of heat in the interstellar medium?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Are there any non-ionization sources of heat in the ISM? (shocks)
+    \item How do shock waves heat the gas?
+    \item Are shock waves adiabatic?
+    \item Where do the x-rays for x-ray photoionization come from?
+    \item What phases and temperatures of the ISM apply to each example?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               9. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 9}
+
+Draw an interstellar extinction curve (ie, opacity), from the X-ray to the infrared. What are the physical processes responsible?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What happens at shorter wavelengths, like gamma rays?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               10. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 10}
+
+What is dynamical friction? Explain how this operates in the merger of a small galaxy into a large one.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               11. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 11}
+
+Sketch the SED, from the radio to Gamma, of a spiral galaxy like the Milky Way. Describe the source and radiative mechanism of each feature.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item How do the relative heights of the optical/FIR peaks change?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               12. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 12}
+
+How many stars does one expect to find within $100\,\mathrm{pc}$ of the Sun? If all stars are distributed evenly across the galaxy, how many of these will be B spectral type or earlier? How many are younger than $100\,\mathrm{Myrs}$?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Justify the assumptions made and explain why they do not match observations (e.g., number density of stars in the MW is not a flat distribution, the SFR isn't constant etc.).
+    \item Where are most B-type and other early-type stars actually found?
+    \item How do we know how many stars are in the MW?
+    \item How do we measure the IMF?
+    \item Are high- or low-mass stars more important to constrain the total number of stars?
+    \item How many B stars are visible from your backyard? Are there any star forming regions visible from your backyard?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               13. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 13}
+
+Describe what happens as a cloud starts to collapse and form a star. What is the difference between the collapse and contraction stages? What happens to the internal temperature in both? When does the contraction phase end, and why does the end point depend on the mass of the object?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item \item How do you calculate the Jeans mass?
+    \item What happens to the temperature during adiabatic contraction?
+    \item Draw a plot of density versus temperature to distinguish between the contracting and collapsing phases.
+\end{itemize}
+
+% --------------------------------------------------------------
+%               14. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 14}
+
+Sketch the rotation curve for a typical spiral galaxy. Show that a flat rotation curve implies the existence of a dark matter halo with a density profile that drops off as $1/r^2$.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What assumptions are made in deriving the $1/r^2$ profile?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               15. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 15}
+
+What thermal phases are postulated to exist in the interstellar medium? Describe the dominant mechanism of cooling for each phase.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\begin{itemize}
+    \item Write down typical temperatures and densities for each phase.
+    \item Where do you find each of these phases?
+    \item Why don't we see molecular gas (H$_2$) in all of these phases?
+    \item Describe what each of these regions might looks like.
+    \item How do constituents change between the different thermal phases?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               16. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 16}
+
+Characterize the stellar populations in the following regions: i) the Galactic bulge ii) the Galactic disk, outside of star clusters iii) open star clusters iv) globular clusters v) the Galactic halo vi) a typical elliptical galaxy.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               17. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 17}
+
+How can one determine the temperature of a HII region?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               18. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 18}
+
+What is the G-dwarf problem in the solar neighborhood?
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item Is it reasonable to assume that the IMF changes over time? Why?
+    \item How much does the mean molecular weight change over cosmological timescales?
+    \item What is an appropriate value for the mean molecular weight mu? (i.e., 2 for molecular hydrogen setting limits on formation masses.)
+    \item Do we talk about upper mass limits because more massive stars can't exist, or because they don't exist?
+\end{itemize}
+
+
+
+% --------------------------------------------------------------
+%               19. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 19}
+
+Describe the general characteristics of spiral structure in galaxies.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
+Additional context.
+
+% --------------------------------------------------------------
+%               Resources 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Resources}
+
+\begin{itemize}
+    \item Galaxy Formation, Longair (2008)
+    \item Galaxies in the Universe, Sparke \& Gallagher (2007)
+    \item Galactic Dynamics, Binney \& Tremaine (2011)
+    \item Galaxies: Interactions and Induced Star Formation, Kennicutt, Schweizer \& Barnes (1996)
+    \item Stellar Populations, Greggio \& Renzini (2011)
+    \item Physics of the Interstellar and Intergalactic Medium, Draine (2011)
+    \item Astrophysics of the Interstellar Medium, Maciel (2013)
+    \item Notes on Star Formation, Krumholz (2015)
+    \item Principles of Star Formation, Bodenheimer (2011)
+\end{itemize}
+
+\end{document}
