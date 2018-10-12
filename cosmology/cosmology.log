@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 OCT 2018 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 OCT 2018 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2550,22 +2550,22 @@ Overfull \hbox (13.64996pt too wide) detected at line 1607
  []
 
 [63] [64]
-Underfull \hbox (badness 1210) in paragraph at lines 1657--1657
+Underfull \hbox (badness 1210) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 Sloan Dig-i-tal Sky Sur-vey.
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1657--1657
+Underfull \hbox (badness 1565) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 marked. Par-tic-u-larly re-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1657--1657
+Underfull \hbox (badness 3009) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 for dif-fer-ent lines-of-sight,
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 1657--1657
+Underfull \hbox (badness 3657) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 or the de-gree of ion-iza-
  []
 
@@ -2573,123 +2573,118 @@ Underfull \hbox (badness 3657) in paragraph at lines 1657--1657
 File: figures/QSOabsorption.png Graphic file (type png)
 
 <use figures/QSOabsorption.png>
-Package pdftex.def Info: figures/QSOabsorption.png used on input line 1657.
-(pdftex.def)             Requested size: 341.43306pt x 463.69214pt.
+Package pdftex.def Info: figures/QSOabsorption.png used on input line 1660.
+(pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
 
-Underfull \hbox (badness 1210) in paragraph at lines 1657--1657
+Underfull \hbox (badness 1210) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 Sloan Dig-i-tal Sky Sur-vey.
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1657--1657
+Underfull \hbox (badness 1565) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 marked. Par-tic-u-larly re-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1657--1657
+Underfull \hbox (badness 3009) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 for dif-fer-ent lines-of-sight,
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 1657--1657
+Underfull \hbox (badness 3657) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 or the de-gree of ion-iza-
  []
 
 File: figures/QSOabsorption.png Graphic file (type png)
 <use figures/QSOabsorption.png>
-Package pdftex.def Info: figures/QSOabsorption.png used on input line 1657.
-(pdftex.def)             Requested size: 341.43306pt x 463.69214pt.
+Package pdftex.def Info: figures/QSOabsorption.png used on input line 1660.
+(pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
 
-Underfull \hbox (badness 1210) in paragraph at lines 1657--1657
+Underfull \hbox (badness 1210) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 Sloan Dig-i-tal Sky Sur-vey.
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1657--1657
+Underfull \hbox (badness 1565) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 marked. Par-tic-u-larly re-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1657--1657
+Underfull \hbox (badness 3009) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 for dif-fer-ent lines-of-sight,
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 1657--1657
+Underfull \hbox (badness 3657) in paragraph at lines 1660--1660
 \OT1/cmr/m/n/9 or the de-gree of ion-iza-
  []
 
 File: figures/QSOabsorption.png Graphic file (type png)
 <use figures/QSOabsorption.png>
-Package pdftex.def Info: figures/QSOabsorption.png used on input line 1657.
-(pdftex.def)             Requested size: 341.43306pt x 463.69214pt.
-
-Overfull \hbox (13.64996pt too wide) detected at line 1657
- [] 
- []
-
-[65 <./figures/QSOabsorption.png>]
-Underfull \hbox (badness 1502) in paragraph at lines 1695--1695
+Package pdftex.def Info: figures/QSOabsorption.png used on input line 1660.
+(pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
+ [65 <./figures/QSOabsorption.png>]
+Underfull \hbox (badness 1502) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 mor-dial com-po-si-tion (blue
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 1695--1695
+Underfull \hbox (badness 5847) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 metal-lic-ity (green dashed
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1603) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 to as-sume an equi-lib-rium
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 1695--1695
+Underfull \hbox (badness 2707) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 is as-sumed that the gas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 is in ther-mo-dy-nam-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 equi-lib-rium, where the
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1590) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 func-tion shown here is a
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 1695--1695
+Underfull \hbox (badness 6944) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 su-per-po-si-tion of dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 gas cool-ing pro-cesses,
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 1695--1695
+Underfull \hbox (badness 8056) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 and bremsstrahlung, the
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1695--1695
+Underfull \hbox (badness 2012) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 hi-er-ar-chi-cal galaxy for-ma-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1695--1695
+Underfull \hbox (badness 3291) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 tion: the semi-analytical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 ap-proach, arXiv:astro-
  []
 
@@ -2697,242 +2692,405 @@ Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
 File: figures/CoolingFunction.png Graphic file (type png)
 
 <use figures/CoolingFunction.png>
-Package pdftex.def Info: figures/CoolingFunction.png used on input line 1695.
-(pdftex.def)             Requested size: 341.43306pt x 345.88254pt.
+Package pdftex.def Info: figures/CoolingFunction.png used on input line 1698.
+(pdftex.def)             Requested size: 284.52756pt x 288.23067pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1502) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 mor-dial com-po-si-tion (blue
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 1695--1695
+Underfull \hbox (badness 5847) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 metal-lic-ity (green dashed
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1603) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 to as-sume an equi-lib-rium
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 1695--1695
+Underfull \hbox (badness 2707) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 is as-sumed that the gas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 is in ther-mo-dy-nam-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 equi-lib-rium, where the
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1590) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 func-tion shown here is a
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 1695--1695
+Underfull \hbox (badness 6944) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 su-per-po-si-tion of dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 gas cool-ing pro-cesses,
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 1695--1695
+Underfull \hbox (badness 8056) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 and bremsstrahlung, the
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1695--1695
+Underfull \hbox (badness 2012) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 hi-er-ar-chi-cal galaxy for-ma-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1695--1695
+Underfull \hbox (badness 3291) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 tion: the semi-analytical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 ap-proach, arXiv:astro-
  []
 
 File: figures/CoolingFunction.png Graphic file (type png)
 <use figures/CoolingFunction.png>
-Package pdftex.def Info: figures/CoolingFunction.png used on input line 1695.
-(pdftex.def)             Requested size: 341.43306pt x 345.88254pt.
+Package pdftex.def Info: figures/CoolingFunction.png used on input line 1698.
+(pdftex.def)             Requested size: 284.52756pt x 288.23067pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1502) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 mor-dial com-po-si-tion (blue
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 1695--1695
+Underfull \hbox (badness 5847) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 metal-lic-ity (green dashed
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1603) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 to as-sume an equi-lib-rium
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 1695--1695
+Underfull \hbox (badness 2707) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 is as-sumed that the gas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 is in ther-mo-dy-nam-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 equi-lib-rium, where the
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1695--1695
+Underfull \hbox (badness 1590) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 func-tion shown here is a
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 1695--1695
+Underfull \hbox (badness 6944) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 su-per-po-si-tion of dif-fer-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 gas cool-ing pro-cesses,
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 1695--1695
+Underfull \hbox (badness 8056) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 and bremsstrahlung, the
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1695--1695
+Underfull \hbox (badness 2012) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 hi-er-ar-chi-cal galaxy for-ma-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1695--1695
+Underfull \hbox (badness 3291) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 tion: the semi-analytical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1698--1698
 \OT1/cmr/m/n/9 ap-proach, arXiv:astro-
  []
 
 File: figures/CoolingFunction.png Graphic file (type png)
 <use figures/CoolingFunction.png>
-Package pdftex.def Info: figures/CoolingFunction.png used on input line 1695.
-(pdftex.def)             Requested size: 341.43306pt x 345.88254pt.
-
-Overfull \hbox (13.64996pt too wide) detected at line 1695
- [] 
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 1710--1710
+Package pdftex.def Info: figures/CoolingFunction.png used on input line 1698.
+(pdftex.def)             Requested size: 284.52756pt x 288.23067pt.
+ [66]
+Underfull \hbox (badness 1009) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 ing of atomic and molec-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1158) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 u-lar hy-dro-gen (with 0.1%
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1710--1710
+Underfull \hbox (badness 2245) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 u-lar hy-dro-gen; thus, the
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1442) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 for-ma-tion can take place.
  []
 
-<figures/CoolingFunctionHydrogen.png, id=596, 549.05125pt x 544.0325pt>
+<figures/CoolingFunctionHydrogen.png, id=600, 549.05125pt x 544.0325pt>
 File: figures/CoolingFunctionHydrogen.png Graphic file (type png)
 
 <use figures/CoolingFunctionHydrogen.png>
 Package pdftex.def Info: figures/CoolingFunctionHydrogen.png used on input line
- 1710.
+ 1713.
 (pdftex.def)             Requested size: 284.52756pt x 281.93558pt.
 
-Underfull \hbox (badness 1009) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1009) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 ing of atomic and molec-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1158) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 u-lar hy-dro-gen (with 0.1%
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1710--1710
+Underfull \hbox (badness 2245) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 u-lar hy-dro-gen; thus, the
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1442) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 for-ma-tion can take place.
  []
 
 File: figures/CoolingFunctionHydrogen.png Graphic file (type png)
 <use figures/CoolingFunctionHydrogen.png>
 Package pdftex.def Info: figures/CoolingFunctionHydrogen.png used on input line
- 1710.
+ 1713.
 (pdftex.def)             Requested size: 284.52756pt x 281.93558pt.
 
-Underfull \hbox (badness 1009) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1009) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 ing of atomic and molec-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1158) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 u-lar hy-dro-gen (with 0.1%
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1710--1710
+Underfull \hbox (badness 2245) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 u-lar hy-dro-gen; thus, the
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1710--1710
+Underfull \hbox (badness 1442) in paragraph at lines 1713--1713
 \OT1/cmr/m/n/9 for-ma-tion can take place.
  []
 
 File: figures/CoolingFunctionHydrogen.png Graphic file (type png)
 <use figures/CoolingFunctionHydrogen.png>
 Package pdftex.def Info: figures/CoolingFunctionHydrogen.png used on input line
- 1710.
+ 1713.
 (pdftex.def)             Requested size: 284.52756pt x 281.93558pt.
- [66] [67 <./figures/CoolingFunction.png>] <figures/reionization.png, id=612, 8
-98.35625pt x 462.72874pt>
+ [67 <./figures/CoolingFunction.png>]
+<figures/reionization.png, id=612, 898.35625pt x 462.72874pt>
 File: figures/reionization.png Graphic file (type png)
 
 <use figures/reionization.png>
-Package pdftex.def Info: figures/reionization.png used on input line 1726.
+Package pdftex.def Info: figures/reionization.png used on input line 1729.
 (pdftex.def)             Requested size: 455.24408pt x 234.48462pt.
  [68 <./figures/CoolingFunctionHydrogen.png>]
-[69 <./figures/reionization.png>] [70] [71]
-<figures/EBmodes.png, id=635, 600.2425pt x 355.3275pt>
+[69 <./figures/reionization.png>]
+Underfull \hbox (badness 4279) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 QSO ULAS J1120+0641)
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 at the Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 emis-sion
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 tran-si-tion is ex-
+ []
+
+<figures/QSOreionization.png, id=624, 534.99875pt x 537.00626pt>
+File: figures/QSOreionization.png Graphic file (type png)
+
+<use figures/QSOreionization.png>
+Package pdftex.def Info: figures/QSOreionization.png used on input line 1755.
+(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
+
+Underfull \hbox (badness 4279) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 QSO ULAS J1120+0641)
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 at the Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 emis-sion
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 tran-si-tion is ex-
+ []
+
+File: figures/QSOreionization.png Graphic file (type png)
+<use figures/QSOreionization.png>
+Package pdftex.def Info: figures/QSOreionization.png used on input line 1755.
+(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
+
+Underfull \hbox (badness 4279) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 QSO ULAS J1120+0641)
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 at the Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 emis-sion
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1755--1755
+\OT1/cmr/m/n/9 Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 tran-si-tion is ex-
+ []
+
+File: figures/QSOreionization.png Graphic file (type png)
+<use figures/QSOreionization.png>
+Package pdftex.def Info: figures/QSOreionization.png used on input line 1755.
+(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
+ [70 <./figures/QSOreionization.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ® in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ± in font cmr10!
+
+<figures/SDSSQSO.png, id=632, 629.35126pt x 754.82pt>
+File: figures/SDSSQSO.png Graphic file (type png)
+
+<use figures/SDSSQSO.png>
+Package pdftex.def Info: figures/SDSSQSO.png used on input line 1789.
+(pdftex.def)             Requested size: 398.33858pt x 477.7505pt.
+ [71]
+Underfull \hbox (badness 2680) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 lu-tion of the mean neu-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 the ab-sorp-tion of ion-iz-ing
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 QSOs (Gunn-Peterson ef-
+ []
+
+<figures/HIvsz.png, id=638, 613.29124pt x 576.1525pt>
+File: figures/HIvsz.png Graphic file (type png)
+ <use figures/HIvsz.png>
+Package pdftex.def Info: figures/HIvsz.png used on input line 1801.
+(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
+
+Underfull \hbox (badness 2680) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 lu-tion of the mean neu-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 the ab-sorp-tion of ion-iz-ing
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 QSOs (Gunn-Peterson ef-
+ []
+
+File: figures/HIvsz.png Graphic file (type png)
+<use figures/HIvsz.png>
+Package pdftex.def Info: figures/HIvsz.png used on input line 1801.
+(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
+
+Underfull \hbox (badness 2680) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 lu-tion of the mean neu-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 the ab-sorp-tion of ion-iz-ing
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 1801--1801
+\OT1/cmr/m/n/9 QSOs (Gunn-Peterson ef-
+ []
+
+File: figures/HIvsz.png Graphic file (type png)
+<use figures/HIvsz.png>
+Package pdftex.def Info: figures/HIvsz.png used on input line 1801.
+(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
+ [72 <./figures/SDSSQSO.png>]
+<figures/LyaForest.png, id=651, 558.085pt x 272.01625pt>
+File: figures/LyaForest.png Graphic file (type png)
+
+<use figures/LyaForest.png>
+Package pdftex.def Info: figures/LyaForest.png used on input line 1809.
+(pdftex.def)             Requested size: 398.33858pt x 194.15808pt.
+ [73 <./figures/HIvsz.png> <./figures/LyaForest.png>] <figures/21cm_annotated.j
+pg, id=662, 2164.085pt x 1108.14pt>
+File: figures/21cm_annotated.jpg Graphic file (type jpg)
+
+<use figures/21cm_annotated.jpg>
+Package pdftex.def Info: figures/21cm_annotated.jpg used on input line 1852.
+(pdftex.def)             Requested size: 455.24408pt x 233.10516pt.
+ [74] [75 <./figures/21cm_annotated.jpg>]
+<figures/21cm.png, id=676, 883.3pt x 390.45876pt>
+File: figures/21cm.png Graphic file (type png)
+ <use figures/21cm.png>
+Package pdftex.def Info: figures/21cm.png used on input line 1881.
+(pdftex.def)             Requested size: 455.24408pt x 201.24042pt.
+
+[76 <./figures/21cm.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no í in font cmr10!
+ [77]
+<figures/21cm_schematic.png, id=687, 924.45375pt x 383.4325pt>
+File: figures/21cm_schematic.png Graphic file (type png)
+
+<use figures/21cm_schematic.png>
+Package pdftex.def Info: figures/21cm_schematic.png used on input line 1930.
+(pdftex.def)             Requested size: 455.24408pt x 188.81967pt.
+ [78 <./figures/21cm_schematic.png>]
+Overfull \hbox (28.22195pt too wide) in paragraph at lines 1953--1954
+\OT1/cmr/m/n/10.95 We may ex-press the $21 []$ bright-ness tem-per-a-ture as a 
+func-tion of four vari-ables $\OML/cmm/m/it/10.95 T[] \OT1/cmr/m/n/10.95 = \OML
+/cmm/m/it/10.95 T[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T[]; x[]; J[]; n[]\O
+T1/cmr/m/n/10.95 )$,
+ []
+
+[79] <figures/EBmodes.png, id=701, 600.2425pt x 355.3275pt>
 File: figures/EBmodes.png Graphic file (type png)
 
 <use figures/EBmodes.png>
-Package pdftex.def Info: figures/EBmodes.png used on input line 1795.
+Package pdftex.def Info: figures/EBmodes.png used on input line 1977.
 (pdftex.def)             Requested size: 455.24408pt x 269.49866pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2940,27 +3098,27 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [72 <./figures/EBmodes.png>]
-<figures/ScalarQuadrupole.png, id=646, 683.55376pt x 578.16pt>
+ [80 <./figures/EBmodes.png>]
+<figures/ScalarQuadrupole.png, id=712, 683.55376pt x 578.16pt>
 File: figures/ScalarQuadrupole.png Graphic file (type png)
 
 <use figures/ScalarQuadrupole.png>
-Package pdftex.def Info: figures/ScalarQuadrupole.png used on input line 1816.
+Package pdftex.def Info: figures/ScalarQuadrupole.png used on input line 1998.
 (pdftex.def)             Requested size: 227.62204pt x 192.52249pt.
 
-<figures/QuadrupolarAnisotropies.png, id=647, 1195.46625pt x 404.51125pt>
+<figures/QuadrupolarAnisotropies.png, id=713, 1195.46625pt x 404.51125pt>
 File: figures/QuadrupolarAnisotropies.png Graphic file (type png)
 
 <use figures/QuadrupolarAnisotropies.png>
 Package pdftex.def Info: figures/QuadrupolarAnisotropies.png used on input line
- 1817.
+ 1999.
 (pdftex.def)             Requested size: 426.79134pt x 144.41415pt.
 
-<figures/ScalarPattern.png, id=648, 1165.35374pt x 436.63126pt>
+<figures/ScalarPattern.png, id=714, 1165.35374pt x 436.63126pt>
 File: figures/ScalarPattern.png Graphic file (type png)
 
 <use figures/ScalarPattern.png>
-Package pdftex.def Info: figures/ScalarPattern.png used on input line 1818.
+Package pdftex.def Info: figures/ScalarPattern.png used on input line 2000.
 (pdftex.def)             Requested size: 426.79134pt x 159.90541pt.
 Missing character: There is no Œ in font cmr9!
 Missing character: There is no ∏ in font cmr9!
@@ -2972,20 +3130,20 @@ Missing character: There is no ∏ in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
 Missing character: There is no º in font cmr9!
- [73] [74 <./figures/ScalarQuadrupole.png> <./figures/QuadrupolarAnisotropies.p
+ [81] [82 <./figures/ScalarQuadrupole.png> <./figures/QuadrupolarAnisotropies.p
 ng> <./figures/ScalarPattern.png>]
-<figures/VectorQuadrupole.png, id=672, 451.6875pt x 363.3575pt>
+<figures/VectorQuadrupole.png, id=738, 451.6875pt x 363.3575pt>
 File: figures/VectorQuadrupole.png Graphic file (type png)
 
 <use figures/VectorQuadrupole.png>
-Package pdftex.def Info: figures/VectorQuadrupole.png used on input line 1851.
+Package pdftex.def Info: figures/VectorQuadrupole.png used on input line 2033.
 (pdftex.def)             Requested size: 227.62204pt x 183.11429pt.
 
-<figures/VectorPattern.png, id=673, 810.02625pt x 335.2525pt>
+<figures/VectorPattern.png, id=739, 810.02625pt x 335.2525pt>
 File: figures/VectorPattern.png Graphic file (type png)
 
 <use figures/VectorPattern.png>
-Package pdftex.def Info: figures/VectorPattern.png used on input line 1852.
+Package pdftex.def Info: figures/VectorPattern.png used on input line 2034.
 (pdftex.def)             Requested size: 426.79134pt x 176.64452pt.
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
@@ -2993,23 +3151,23 @@ Missing character: There is no º in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
 Missing character: There is no º in font cmr9!
- [75 <./figures/VectorQuadrupole.png> <./figures/VectorPattern.png>]
+ [83 <./figures/VectorQuadrupole.png> <./figures/VectorPattern.png>]
 
-LaTeX Warning: Reference `fig:tensorquadrupole' on page 76 undefined on input l
-ine 1872.
+LaTeX Warning: Reference `fig:tensorquadrupole' on page 84 undefined on input l
+ine 2054.
 
-<figures/TensorQuadrupole.png, id=685, 451.6875pt x 381.425pt>
+<figures/TensorQuadrupole.png, id=751, 451.6875pt x 381.425pt>
 File: figures/TensorQuadrupole.png Graphic file (type png)
 
 <use figures/TensorQuadrupole.png>
-Package pdftex.def Info: figures/TensorQuadrupole.png used on input line 1882.
+Package pdftex.def Info: figures/TensorQuadrupole.png used on input line 2064.
 (pdftex.def)             Requested size: 227.62204pt x 192.21942pt.
 
-<figures/TensorPattern.png, id=686, 799.98875pt x 337.26pt>
+<figures/TensorPattern.png, id=752, 799.98875pt x 337.26pt>
 File: figures/TensorPattern.png Graphic file (type png)
 
 <use figures/TensorPattern.png>
-Package pdftex.def Info: figures/TensorPattern.png used on input line 1883.
+Package pdftex.def Info: figures/TensorPattern.png used on input line 2065.
 (pdftex.def)             Requested size: 426.79134pt x 179.93056pt.
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
@@ -3017,28 +3175,28 @@ Missing character: There is no º in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no à in font cmr9!
 Missing character: There is no º in font cmr9!
- [76 <./figures/TensorQuadrupole.png> <./figures/TensorPattern.png>] <figures/C
-MBquad.png, id=702, 527.9725pt x 355.3275pt>
+ [84 <./figures/TensorQuadrupole.png> <./figures/TensorPattern.png>] <figures/C
+MBquad.png, id=768, 527.9725pt x 355.3275pt>
 File: figures/CMBquad.png Graphic file (type png)
 
 <use figures/CMBquad.png>
-Package pdftex.def Info: figures/CMBquad.png used on input line 1906.
+Package pdftex.def Info: figures/CMBquad.png used on input line 2088.
 (pdftex.def)             Requested size: 284.52756pt x 191.48361pt.
- [77]
-<figures/PolPatterns.png, id=716, 762.85pt x 428.60126pt>
+ [85]
+<figures/PolPatterns.png, id=783, 762.85pt x 428.60126pt>
 File: figures/PolPatterns.png Graphic file (type png)
 
 <use figures/PolPatterns.png>
-Package pdftex.def Info: figures/PolPatterns.png used on input line 1921.
+Package pdftex.def Info: figures/PolPatterns.png used on input line 2103.
 (pdftex.def)             Requested size: 455.24408pt x 255.77626pt.
- [78 <./figures/CMBquad.png>] [79 <./figures/PolPatterns.png>] [80] [81] 
+ [86 <./figures/CMBquad.png>] [87 <./figures/PolPatterns.png>] [88] [89] 
 AED: lastpage setting LastPage
-[82]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2048.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2048.
+[90]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2230.
  (./cosmology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2048.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2048.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2230.
 
 Package rerunfilecheck Info: File `cosmology.out' has not changed.
 (rerunfilecheck)             Checksum: 9B306CF90C64BDFC4E707B7B255DB0F7;1376.
@@ -3049,44 +3207,45 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2048.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2230.
  ) 
 Here is how much of TeX's memory you used:
- 9746 strings out of 492995
- 148789 string characters out of 6132704
- 279747 words of memory out of 5000000
- 12926 multiletter control sequences out of 15000+600000
+ 9804 strings out of 492995
+ 149913 string characters out of 6132704
+ 284201 words of memory out of 5000000
+ 12961 multiletter control sequences out of 15000+600000
  17586 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,15n,51p,3068b,615s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on cosmology.pdf (82 pages, 12168538 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on cosmology.pdf (90 pages, 14023450 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 679 compressed objects within 7 object streams
- 202 named destinations out of 1000 (max. 500000)
- 370 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 952 PDF objects out of 1000 (max. 8388607)
+ 731 compressed objects within 8 object streams
+ 217 named destinations out of 1000 (max. 500000)
+ 405 words of extra memory for PDF output out of 10000 (max. 10000000)
 
