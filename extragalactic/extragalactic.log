@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 OCT 2018 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 OCT 2018 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1348,25 +1348,58 @@ Package pdftex.def Info: figures/AGN_jet.png used on input line 1136.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [45 <./figures/AGN.png>] [46 <./figures/QSO_radiovsoptical.png> <./figures/AGN_
-accretion.png>] [47 <./figures/AGN_jet.png>] [48] [49] [50]
+accretion.png>] [47 <./figures/AGN_jet.png>]
+<figures/quenching.png, id=460, 747.79375pt x 458.71375pt>
+File: figures/quenching.png Graphic file (type png)
+
+<use figures/quenching.png>
+Package pdftex.def Info: figures/quenching.png used on input line 1204.
+(pdftex.def)             Requested size: 455.24408pt x 279.25502pt.
+ [48] [49 <./figures/quenching.png>] [50]
+<figures/SFquenching.png, id=481, 903.375pt x 324.21124pt>
+File: figures/SFquenching.png Graphic file (type png)
+
+<use figures/SFquenching.png>
+Package pdftex.def Info: figures/SFquenching.png used on input line 1227.
+(pdftex.def)             Requested size: 455.24408pt x 163.3865pt.
+Missing character: There is no â in font cmr6!
+Missing character: There is no ˆ in font cmr9!
+Missing character: There is no — in font cmr9!
+Missing character: There is no â in font cmr6!
+Missing character: There is no ˆ in font cmr9!
+Missing character: There is no — in font cmr9!
+Missing character: There is no â in font cmr6!
+Missing character: There is no ˆ in font cmr9!
+Missing character: There is no — in font cmr9!
+Missing character: There is no â in font cmr6!
+Missing character: There is no ˆ in font cmr9!
+Missing character: There is no — in font cmr9!
+ [51 <./figures/SFquenching.png>]
+<figures/SFhistory.png, id=488, 795.97375pt x 391.4625pt>
+File: figures/SFhistory.png Graphic file (type png)
+
+<use figures/SFhistory.png>
+Package pdftex.def Info: figures/SFhistory.png used on input line 1250.
+(pdftex.def)             Requested size: 455.24408pt x 223.88857pt.
+ [52 <./figures/SFhistory.png>] [53] [54]
 
 AED: lastpage setting LastPage
-[51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1273.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1273.
+[55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1340.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1340.
  (./extragalactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1340.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1340.
 
 Package rerunfilecheck Info: File `extragalactic.out' has not changed.
 (rerunfilecheck)             Checksum: 4E2532A034301A5D60446F3356249B97;1022.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1340.
  ) 
 Here is how much of TeX's memory you used:
- 9592 strings out of 492995
- 146122 string characters out of 6132704
- 269891 words of memory out of 5000000
- 12846 multiletter control sequences out of 15000+600000
+ 9617 strings out of 492995
+ 146606 string characters out of 6132704
+ 270957 words of memory out of 5000000
+ 12861 multiletter control sequences out of 15000+600000
  17241 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,51p,2049b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1374,24 +1407,25 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on extragalactic.pdf (51 pages, 13405263 bytes).
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on extragalactic.pdf (55 pages, 14307924 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 136 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
