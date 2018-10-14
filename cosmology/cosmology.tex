@@ -320,7 +320,7 @@ space can be written more compactly in the form:
     .
 \end{equation*}
 
-{\noindent}The coordinate system ($r,\theta,\phi$) is not the only possible system. For instance, if we switch the radial coordinate from $r$ to $x \equiv S_\kappa(r)$, the metric for a homogeneous, isotropic, three-dimensional space can be written in the form:
+{\noindent}where $\kappa=0,-1,+1$ is the sign of curvature for a flat, open, and closed Universe, respectively. The coordinate system ($r,\theta,\phi$) is not the only possible system. For instance, if we switch the radial coordinate from $r$ to $x \equiv S_\kappa(r)$, the metric for a homogeneous, isotropic, three-dimensional space can be written in the form:
 
 \begin{align*}
     ds^2 = \frac{dx^2}{1-\kappa x^2/R^2} + x^2d\Omega^2.
@@ -1199,7 +1199,7 @@ Short answer.
     \item \textbf{Silk damping}: The coupling of baryons and photons is not perfect since, owing to the finite mean free path of photons, the two components are decoupled on small spatial scales. This implies that on small length-scales, the temperature fluctuations can be smeared out by the diffusion of photons. This process is known as \textbf{Silk damping}, and it implies that on angular scales below about $\sim50'$, only very small primary fluctuations exist.
 \end{enumerate}
 
-{\noindent}\textbf{BAOs}: On subhorizon scales, the pressure of the baryon-photon fluid is effective because, prior to recombination, these two components had been closely coupled by Compton scattering. This leads to sound waves in the baryon-photon fluid, called the baryonic acoustic oscillations (BAOs). In the density peaks of these sound waves, the baryon-photon fluid is adiabatically compressed and thus hotter than the average. The CMB sky yields a two-dimensional cut through this three-dimensional density (and temperature) field of these sound waves, and thus reflect these fluctuations, yielding temperature anisotropies with characteristic length (or angular) scales. 
+{\noindent}\textbf{BAOs}: On subhorizon scales, the pressure of the baryon-photon fluid is effective because, prior to recombination, these two components had been closely coupled by Compton scattering. This leads to sound waves in the baryon-photon fluid, called the baryonic acoustic oscillations (BAOs). In the density peaks of these sound waves, the baryon-photon fluid is adiabatically compressed and thus hotter than the average. The CMB sky yields a two-dimensional cut through this three-dimensional density (and temperature) field of these sound waves, and thus reflect these fluctuations, yielding temperature anisotropies with characteristic length (or angular) scales. The length-scale of the resulting density perturbation is given by the sound horizon at recombination; it depends only on the baryon-to-photon and the matter-to-radiation density ratios. The former is proportional to $\Omega_bh^2$ and is determined, e.g., from BBN; the latter is proportional to $\Omega_mh^2$ which is well determined from measurements of the CMB. Together, one finds that the acoustic scale has a comoving value of $r_s\approx150\,{\rm Mpc}$.
 
 {\noindent}We expect that these frozen sound waves of the baryons leave an imprint on the overall matter correlation function, best seen in Figure \ref{fig:perturbationevolution}. This unique feature in the correlation function, if it can be detected in the galaxy correlation function, would provide a well-defined `standard rod' in the observable Universe. Since we can observe only angular scales on the sky, the relation between the (comoving) length of the standard rod and the associated angular scale provides a measure of distance. Therefore, a measurement of the baryonic acoustic oscillations (BAOs) in the correlation of galaxies at a given redshift $z$ can be used to determine the (comoving) angular diameter distance $d_A(z)$ --  which depends on the density parameters $\Omega_m$ and $\Omega_\Lambda$.
 
@@ -1228,6 +1228,7 @@ Short answer.
     \caption{\footnotesize{Recent results on the distance-redshift relation from measurements of BAOs. Left panel: The black line and the grey band shows the best-fit cosmological model obtained from the WMAP CMB anisotropy measurements and its $1\sigma$  uncertainty range. The BAO distance determination from three surveys are indicated, which are located right on this best-fit model. Right panel: The same data are shown, now divided by the prediction of a flat $\Lambda$CDM model with parameters as determined from WMAP. Also shown are curves of this distance ratio for models with a small positive or negative curvature, or for different equations-of-state of dark energy. In particular, the BAO measurements exclude any appreciable curvature parameter of our Universe. Source: D.H. Weinberg et al. 2012, Observational Probes of Cosmic Acceleration, arXiv:1201.2434, Fig. 8. Figure taken from Schneider (2006).}}
     \label{fig:BAOs}
 \end{figure*}
+
 
 % --------------------------------------------------------------
 %
@@ -1305,11 +1306,27 @@ Our view of the cosmic microwave background is affected by what is along the lin
 
 \subsubsection{Short answer}
 
-Short answer.
+\begin{itemize}
+    \item The thermal Sunyaev-Zeldovich effect.
+    \item The integrated Sachs-Wolfe effect (primary anisotropy which dominates on superhorizon scales).
+\end{itemize}
 
 \subsubsection{Additional context}
 
-{\noindent}\textbf{The thermal Sunyaev-Zeldovich effect}: 
+{\noindent}The CMB consists of photons that last interacted with matter at $z\sim1100$. Since the Universe must already have been inhomogeneous at this time, in order for the structures present in the current Universe to be able to form, it is expected that these spatial inhomogeneities are visible as a (small) anisotropy of the CMB: the angular distribution of the CMB temperature reflects the matter inhomogeneities at the redshift of decoupling of radiation and matter.
+
+{\noindent}Since the discovery of the CMB in 1965, such anisotropies have been searched for. Under the assumption that the matter in the Universe solely consists of baryons, the expectation was that we would find relative fluctuations in the CMB temperature of amplitude $\Delta T/T10^{-3}$ on scales of a few arcminutes. This expectation is based on the theory of gravitational instability for structure growth: to account for the density fluctuations observed today where the density contrast $\delta\sim1$ on scales of $\sim10h^{-1}\,{\rm Mpc}$, one needs relative density fluctuations at $z\sim1000$ of order $D_+(z=1000)\sim10^{-3}$. Despite increasingly more sensitive observations, such fluctuations were not detected. The upper limits resulting from these searches for anisotropies provided one of the arguments that, in the mid-1980s, caused the idea of the existence of dark matter on cosmic scales to increasingly enter the minds of cosmologists. In a universe which is dominated by dark matter the expected CMB fluctuations on small angular scales are considerably smaller than in a purely baryonic universe. It was the COBE satellite with which temperature fluctuations in the CMB were finally observed in 1992 (Figure \ref{fig:cmbcobe}), a discovery which was awarded the Physics Nobel Prize in 2006. Over the following years, sensitive and significant measurements of the CMB anisotropy were carried out using balloons and ground-based telescopes. Two more satellites have observed the full microwave sky, WMAP and Planck; their results, together with ground-based measurements at smaller angular scales, have yielded the most stringent constraints on cosmological parameters yet.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Temperature distribution of the CMB on the sky as measured by the COBE satellite. The top image shows a dipole distribution; it originates from the Earth's motion relative to the restframe of the CMB. Our Solar System moves at a speed of $369\,{\rm km\,s^{-1}}$ relative to that system, which leads to a dipole anisotropy with an amplitude of $\Delta T/T\sim v/c\sim1.2\times10^{-3}$ due to the Doppler effect. If this dipole contribution is subtracted, we get the map in the middle which clearly shows the emission from the Galactic disk. Since this emission has a different spectral energy distribution (it is not a blackbody of $T\sim3\,{\rm K}$), it can also be subtracted to get the temperature map at the bottom. These are the primordial fluctuations of the CMB, with an amplitude of about  $\Delta T/T\sim2\times10^{-5}$. Credit: COBE/DRM team, NASA. Figure taken from Schneider (2006).}}
+    \label{fig:cmbcobe}}
+    {\includegraphics[width=10cm]{figures/CMBCOBE.png}}
+\end{figure}
+
+{\noindent}The CMB anisotropies depend on nearly all cosmological parameters, such as $\Omega_m$, $\Omega_b$, $\Omega_\Lambda$, $\Omega_\mathrm{HDM}$, $H_0$, the normalization $\sigma_8$, the primordial slope $n_s$, and the shape parameter $\Gamma$ of the power spectrum. Therefore, from an accurate mapping of the angular distribution of the CMB and by comparison with theoretical expectations, all these parameters can, in principle, be determined.
+
+{\noindent}Temperature fluctuations originating at the time of last scattering are called primary anisotropies. Later, as the CMB photons propagate through the Universe, they may experience a number of distortions along their way which, again, may change their temperature distribution on the sky. These effects then lead to secondary anisotropies.
 
 {\noindent}Given that the amplitude of the polarization is so small the question of foregrounds is even more important than for the temperature anisotropy. Unfortunately, the level and structure of the various foreground polarization in the CMB frequency bands is currently not well known. Atmospheric emission is believed to be negligibly polarized, leaving the main astrophysical foregrounds: free-free, synchrotron, dust, and point source emissions. Of these the most important foreground is synchrotron emission.
 
@@ -1317,20 +1334,17 @@ Short answer.
 
 {\noindent}The polarization of dust is not well known. In principle, emission from dust particles could be highly polarized, however it's been found that that the majority of dust is polarized at the $\approx2\%$ level at $100\mu{\rm m}$ with a small fraction of regions approaching 10\% polarization. It's also been shown that even at 100\% polarization, extrapolation of the IRAS $100\mu{\rm m}$ map with the COBE FIRAS index shows that dust emission is negligible below $80\,{\rm GHz}$. At higher frequencies it will become the dominant foreground.
 
-{\noindent}Radio point sources are polarized due to synchrotron
-emission at $<20\%$ level. For large angle experiments, the random contribution from point sources will contribute negligibly, but may be of more concern for the upcoming satellite missions.
+{\noindent}Radio point sources are polarized due to synchrotron emission at $<20\%$ level. For large angle experiments, the random contribution from point sources will contribute negligibly, but may be of more concern for the upcoming satellite missions.
 
 {\noindent}Galactic synchrotron emission is the major concern. It is potentially highly polarized with the fraction dependent on the spectral index and depolarization from Faraday rotation and non-uniform magnetic fields. The level of polarization is expected to lie between 10\%-75\% of a total intensity which itself is approximately $5\,\mu{\rm K}$ at $30\,{\rm GHz}$. This estimate follows from extrapolating measurements at $1411\,{\rm MHz}$ with an index of $T\propto\nu^{-3}$.
 
-{\noindent}Due to their different spectral indices, the minimum
-in the foreground polarization, like the temperature, lies near $100\,{\rm GHz}$. For full sky measurements, since synchrotron emission is more highly polarized than dust, the optimum frequency at which to measure intrinsic (CMB) polarization is slightly higher than for the anisotropy. Over small regions of the sky where one or the other of the foregrounds is known a priori to be absent the optimum frequency would clearly be different. However as with anisotropy measurements, with multi-frequency coverage, polarized foregrounds can be
-removed.
+{\noindent}Due to their different spectral indices, the minimum in the foreground polarization, like the temperature, lies near $100\,{\rm GHz}$. For full sky measurements, since synchrotron emission is more highly polarized than dust, the optimum frequency at which to measure intrinsic (CMB) polarization is slightly higher than for the anisotropy. Over small regions of the sky where one or the other of the foregrounds is known a priori to be absent the optimum frequency would clearly be different. However as with anisotropy measurements, with multi-frequency coverage, polarized foregrounds can be removed.
 
 {\noindent}It is also interesting to consider whether the spatial as well as frequency signature of the polarization can be used to separate foregrounds. Using angular power spectra for the spatial properties of the foregrounds is a simple generalization of methods already used in anisotropy work. For instance, in the case of synchrotron emission, if the spatial correlation in the polarization follows that of the temperature itself, the relative contamination will decrease on smaller angular scales due to its diffuse nature. Furthermore the peak of the cosmic signal in polarization occurs at even smaller angular scales than for the anisotropy.
 
 {\noindent}Of those that can provide information about the cosmic parameters...
 
-{\noindent}\textbf{The thermal Sunyaev–Zeldovich effect}: Electrons in the hot gas of the intracluster medium (ICM) can inverse Compton scatter photons of the CMB. The optical depth and thus the scattering probability for this inverse Compton scattering is relatively low, but the effect is nevertheless observable and, in addition, is of great importance for the analysis of clusters. A photon moving through a cluster of galaxies towards us will change its direction through scattering and thus will not reach us. But since the cosmic background radiation is isotropic, for any CMB photon that is scattered out of the line-of-sight, another photon exists -- statistically -- that is scattered into it, so that the total number of photons reaching us is preserved. However, the energy of the photons changes slightly through scattering by the hot electrons, in a way that they have an (on average) higher frequency after scattering. Hence, by this inverse Compton scattering, energy is on average transferred from the electrons to the photons, as can be seen in Figure \ref{fig:szeffect}.
+{\noindent}\textbf{The thermal Sunyaev-Zeldovich effect}: Electrons in the hot gas of the intracluster medium (ICM) can inverse Compton scatter photons of the CMB. The optical depth and thus the scattering probability for this inverse Compton scattering is relatively low, but the effect is nevertheless observable and, in addition, is of great importance for the analysis of clusters. A photon moving through a cluster of galaxies towards us will change its direction through scattering and thus will not reach us. But since the cosmic background radiation is isotropic, for any CMB photon that is scattered out of the line-of-sight, another photon exists -- statistically -- that is scattered into it, so that the total number of photons reaching us is preserved. However, the energy of the photons changes slightly through scattering by the hot electrons, in a way that they have an (on average) higher frequency after scattering. Hence, by this inverse Compton scattering, energy is on average transferred from the electrons to the photons, as can be seen in Figure \ref{fig:szeffect}.
 
 \begin{figure}[h]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
@@ -1360,6 +1374,8 @@ removed.
 {\noindent}Obviously, $y$ is proportional to the optical depth with respect to Compton scattering, given as an integral over $n_e\sigma_T$ along the line-of-sight. Furthermore, $y$ is proportional to the gas temperature, because that defines the average energy transfer per scattering event. Overall, $y$ is proportional to the integral over the gas pressure $P D=nk_BT$ along the line-of-sight through the cluster.
 
 {\noindent}The SZ effect affects the temperature distribution of the CMB. Some of the photons propagating along lines-of-sight passing through clusters of galaxies or other regions of dense and hot gas are scattered by the hot electrons, resulting in a temperature change in these directions. We recall that in the direction of clusters the measured intensity of the CMB radiation is reduced at low frequencies, whereas it is increased at high frequencies. Hence, the SZ effect can be identified in the CMB data if measurements are conducted over a sufficiently large frequency range.
+
+{\noindent}\textbf{The integrated Sachs-Wolfe effect}: Inhomogeneities in the gravitational potential cause photons which originate in regions of higher density to climb out of a potential well. As a result of this, they lose energy and are redshifted (gravitational redshift). This effect is partly compensated for by the fact that, besides the gravitational redshift, a gravitational time delay also occurs: a photon that originates in an overdense region will be scattered at a slightly earlier time, and thus at a slightly higher temperature of the Universe, compared to a photon from a region of average density. Both effects always occur side by side. They are combined under the term Sachs-Wolfe effect. Its separation into two processes is necessary only in a simplified description; a general relativistic treatment of the Sachs-Wolfe effect jointly yields both processes.
 
 
 % --------------------------------------------------------------
@@ -1467,11 +1483,13 @@ Define and describe a 'fine tuning problem'. How do anthropic arguments attempt 
 
 \subsubsection{Short answer}
 
-Answer.
+The flatness problem: for the total density parameter to be of order unity today, it must have been extremely close to $1$ at earlier times, which means that a very precise `fine tuning' of this parameter was necessary. By anthropic arguments, we live in a universe which had, at a very early time, a very precisely tuned density parameter, because only in such a universe can life evolve and astronomers exist to examine the flatness of the universe. In all other conceivable universes this would not be possible. This approach is meaningful only if a large number of universes existed—in this case we should not be too surprised about living in one of those where this initial fine-tuning took place—in the other ones, we, and the question about the cosmological parameters, would just not exist. This approach is called the anthropic principle.
 
 \subsubsection{Additional context}
 
-Additional context.
+Let us consider the consequences of the case where $\Omega_0$ had not been so extremely close to $1$ at $z\sim10^{10}$; then, the universe would have recollapsed long ago, or it would have expanded significantly faster than the universe we live in. In either case, the consequences for the evolution of life in the universe would have been catastrophic. In the first case, the total lifetime of the Universe would have been much shorter than is needed for the formation of the first stars and the first planetary systems, so that in such a world no life could be formed. In the second case, extreme expansion would have prevented the formation of structure in the universe. In such a universe no life could have evolved either. 
+
+{\noindent}This consideration can be interpreted as follows: we live in a Universe which had, at a very early time, a very precisely tuned density parameter, because only in such a universe can life evolve and astronomers exist to examine the flatness of the universe. In all other conceivable universes this would not be possible. This approach is meaningful only if a large number of universes existed (in this case we should not be too surprised about living in one of those where this initial fine-tuning took place) in the other ones, we, and the question about the cosmological parameters, would just not exist. This approach is called the anthropic principle. It may either be seen as an `explanation' for the flatness of our Universe, or as a capitulation -- where we give up to explore a physical reason for the origin of the flatness of our Universe.
 
 \subsubsection{Follow-up Questions}
 
@@ -2126,13 +2144,47 @@ What are the similarities and differences between the cosmic neutrino background
 
 \subsubsection{Short answer}
 
-Just as the CMB is a relic of the time when the Universe was opaque to photons, the CNB is a relic of the time when the Universe was hot and dense enough to be opaque to neutrinos.
-
-{\noindent}The number density of each of the three flavors of neutrinos ($\nu_e$, $\nu_\mu$, and $\nu_\tau$) has been calculated to be 3/11 times the number density of CMB photons. This means that at any moment, about twenty million cosmic neutrinos are zipping through your body.
+\begin{itemize}
+    \item The CMB is from $\sim380,000$ years after the BB (or a redshift of $z\sim1100$), while the CNB is from $\sim1$ second after the BB.
+    \item The CMB occurred when the Universe was $\sim1,000\,{\rm K}$ (or $\sim0.1\,{\rm eV}$) while that of the CNB was $\sim10^{10}\,{\rm K}$ (or $\sim1\,{\rm MeV}$).
+    \item The expansion of the Universe has cooled the temperature of the CMB to $\sim2.7\,{\rm K}$ and the CNB to $\sim1.95\,{\rm K}$.
+\end{itemize}
 
 \subsubsection{Additional context}
 
-Additional context.
+Just as the CMB is a relic of the time when the Universe was opaque to photons, the CNB is a relic of the time when the Universe was hot and dense enough to be opaque to neutrinos. The number density of each of the three flavors of neutrinos ($\nu_e$, $\nu_\mu$, and $\nu_\tau$) has been calculated to be 3/11 times the number density of CMB photons. This means that at any moment, about twenty million cosmic neutrinos are zipping through your body.
+
+{\noindent}The CMB yields information about our Universe at around $380,000$ years after the BB. Due to the weak interaction of the neutrinos with matter the CNB should give information about a much earlier time of our Universe, around one second after the Big Bang.
+
+{\noindent}The CNB (often also called `relic neutrinos') decouples from matter about 1 second after the BB in the radiation dominated era at a temperature of $10^{10}\,{\rm K}\equiv1\,{\rm MeV}$. Today due to the expansion and cooling of the Universe the relic neutrino temperature is $1.95\,{\rm K}$ and the average neutrino density in the Universe is $340\,{\rm cm^{-3}}$ or $56\nu_e\,{\rm cm^{-3}}$.
+
+{\noindent}The existence of a CNB (the analogue of the CMB) is a fundamental prediction of standard big bang cosmology. Up to now, the observational evidence for its existence is rather indirect and rests entirely on cosmological observations of, e.g., the light elemental abundances, the anisotropies in the CMB, and the large scale distribution of matter. All these measurements, however, probe the presence of relic neutrinos only at early stages in the cosmological evolution and, moreover, in a rather indirect way. The most promising laboratory search, based on neutrino capture on beta decaying nuclei, may be done in future experiments designed to measure the neutrino mass through decay kinematics.
+
+{\noindent}Since the neutrinos interact with matter only by the weak interaction they decouple much earlier than the photons, which interact by the electromagnetic force. The decoupling of the neutrinos from matter is determined by the competition of the expansion rate of the Universe (Hubble parameter) and the interaction rate of the neutrinos with matter, occurring about 1 second after the BB.
+
+{\noindent}Despite its successes, the standard model is known to be incomplete, and in at least one aspect, it directly conflicts with observations: according to the standard model, neutrinos should be massless. However, the Solar neutrino problem and its solution has shown this to be not the case: The (electron) neutrinos generated through nuclear fusion in the center of the Sun can escape, due to their small interaction cross section. These Solar neutrinos can be detected in (big!) terrestrial detectors. However, the measured rate of electron neutrinos from the Sun is only half as large as expected from Solar models. This Solar neutrino problem kept physicists and astrophysicists busy for decades. Its solution consists of a purely quantum-mechanical process, that of neutrino oscillations. It it possible that during its propagation, an electron neutrino transforms into a muon or tau neutrino, and back again. The existence of such oscillations was speculated for a long time, and provides a possible explanation for the missing rate of Solar electron neutrinos. Indeed, in 2001 the Sudbury Neutrino Observatory showed that neutrinos of all three flavors are received from the Sun, and that the sum of the rates of these neutrinos is compatible with the predicted rate from Solar models. In the meantime, these neutrino oscillation have also been observed in terrestrial experiments with neutrino beams.
+
+{\noindent}Whereas neutrino oscillations are therefore well established today, they are in conflict with the Standard Model, according to which neutrinos have zero rest mass. From Special Relativity one can easily show that massless particles can not change their `identity' while propagating through space. The existence of neutrino oscillations necessarily requires that neutrinos have a finite rest mass. Indeed, the oscillation experiments were able to constrain these masses, since they determine the length-scale over which the flavor of neutrinos changes -- more precisely, it depends on the difference of their squared mass $m_i^2$. One finds that $\lvert m_2^2-m_1^2\rvert=(7.6\pm0.2)\times10^{-5}\,{\rm eV}$ and $\lvert m_3^2-m_3^2\rvert \approx \lvert m_3^2-m_1^2\rvert =(2.4\pm0.2)\times10^{-3}\,{\rm eV}$. These squared-mass differences thus do not provide us with an absolute mass scale of neutrinos, but their mass is non-zero. That means that neutrinos contribute to the cosmic matter density today, giving a contribution of
+
+\begin{align*}
+    \Omega_\nu h^2 = \frac{\Sigma m_\nu}{91.5\,{\rm eV}},
+\end{align*}
+
+{\noindent}which depends only on the sum of the three neutrino masses -- since the number density of neutrinos is known from the thermal history after the Big Bang. If the neutrino masses take the lowest values allowed by the squared-mass differences given above, this contribution is about 0.1\%. Observations of the large-scale structure in the Universe show that neutrinos cannot contribute a substantial fraction to the matter density. Indeed, these observations yield a constraint of $\Sigma m_{\nu,i}1\,{\rm eV}$, and thus the upper bound on neutrino masses from cosmology are much stricter than those obtained from laboratory experiments. For the electron neutrino, an upper limit on its mass was determined from decay experiments of tritium, yielding $m_{\nu_e}\lesssim2\,{\rm eV}$, which together with the results from neutrino oscillations implies a maximum density of $\Omega_\nu<0.12$.
+
+
+{\noindent}The standard model assumed that there are three families of neutrinos, and that they are essentially massless. One can relax one of these assumptions, or both together, to see whether the CMB data show a preference for a non-standard picture of the neutrino sector. If the sum of the neutrino masses is significantly larger than the minimum mass required from neutrino oscillations, then they would contribute to the current matter density in the Universe in the form of hot dark matter, and thus affect the shape of the power spectrum. If the number of neutrino families is larger than three, there would be a larger radiation component in the early universe, changing the expansion law and the epoch of matter-radiation equality. All of this affects the CMB fluctuations.
+
+{\noindent}Significant constraints on the neutrino masses and the number of neutrino families can thus be obtained from the CMB results. As shown in Figure \ref{fig:neutrinomasses}, the CMB alone yields a $2\sigma$ upper limit on the neutrino mass of $\Sigma m_\nu<0.60\,{\rm eV}$ and limits the effective number of neutrinos to $N_\mathrm{eff}=3.29^{+0.67}_{-0.64}$. These constraints get even tighter when the results from the BAOs are included in the analysis, yielding $\Sigma m_\nu<0.28\,{\rm eV}$ and $N_\mathrm{eff}=3.29^{+0.54}_{-0.652}$. The former results presents the strongest bound on the neutrino masses yet available, it is a mere factor of $\sim4$ larger than the lower bound derived from neutrino oscillations. The latter result confirms our picture of particle physics, according to which there are three families of leptons, and thus three kinds of neutrinos. 
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Allowed region in the parameter plane spanned by the sum of neutrino masses and the effective number of neutrino families $N_\mathrm{eff}$. Constraints are given from CMB data alone (red) and in combination with the BAO results (blue). Source: Planck Collaboration 2013, Planck 2013 results. XVI. Cosmological parameters, arXiv:1303.5076, Fig. 28; original source: ESA and the Planck Collaboration. Figure taken from Schneider (2006).}}
+    \label{fig:neutrinomasses}}
+    {\includegraphics[width=10cm]{figures/neutrinomasses.png}}
+\end{figure}
+
+{\noindent}In addition to the sun and the CNB, various other astrophysical objects also emit neutrinos. For example, the major fraction of the binding energy released in the formation of compact objects is emitted in the form of neutrinos: about $3\times10^{53}\,{\rm erg}$.
 
 \subsubsection{Follow-up Questions}
 
@@ -2190,7 +2242,25 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+There is no shortage of candidates for non-baryonic dark matter:
+
+\begin{itemize}
+    \item WIMPs (weakly interacting massive particles). 
+    \item MACHOs (massive compact halo objects). These include white dwarfs, brown dwarfs, black holes etc.
+    \item Standard Model neutrinos.
+    \item Sterile neutrinos.
+    \item Axions. 
+    \item Supersymmetric candidates.
+        \item Neutralinos.
+        \item Sneutrinos.
+        \item Gravitinos.
+        \item Axinos.
+    \item Light scalar dark matter.
+    \item Dark matter from little Higgs models.
+    \item Kaluza-Klein states.
+    \item Superheavy dark matter.
+    \item Q-balls.
+\end{itemize}
 
 \subsubsection{Follow-up Questions}
 
@@ -2227,6 +2297,8 @@ Additional context.
     \item On the Robustness of the Acoustic Scale in the Low-Redshift Clustering of Matter; Eisenstein et al. (2007)
     \item Detection of the Baryon Acoustic Peak in the Large-Scale Correlation Function of SDSS Luminous Red Galaxies; Eisenstein et al. (2005)
     \item An Absorption Profile Centered at $78\,{\rm MHz}$ in the Sky-Averaged Spectrum; Bowman et al. (2018)
+    \item Can one Measure the Cosmic Neutrino Background; Faessler et al. (2016)
+    \item Particle Dark Matter: Evidence, Candidates and Constraints; Bertone et al. (2005)
 \end{itemize}
 
 \end{document}
