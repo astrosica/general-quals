@@ -4,7 +4,6 @@
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{mathtools}
-\usepackage{hyperref}
 \usepackage{amsmath,amsthm,amssymb,cancel,bm}
 \usepackage{floatrow}
 \setcounter{tocdepth}{2}
@@ -13,6 +12,9 @@
 left=25mm,right=25mm,%
 bindingoffset=0mm, top=20mm,bottom=20mm}
 \newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,filecolor=cyan,urlcolor=magenta}
 
 % my own titles
 \makeatletter
@@ -84,6 +86,16 @@ Sketch out the Hubble sequence. What physical trends are captured by the classif
     \label{fig:hubblesequence}
 \end{figure}
 
+\begin{itemize}
+    \item Most luminous galaxies in the local Universe fit onto the Hubble sequence; they are either ellipticals, spirals, or belong to the class of S0 galaxies, which shares some properties with the two other classes.
+    \item Spiral galaxies consist of a disk with spiral arm structure and a central bulge. They are divided into two subclasses: normal spirals (S's) and barred spirals (SB's).
+    \item Elliptical galaxies (E's) are galaxies that have nearly elliptical isophotes without any clearly defined structure.
+    \item S0 galaxies are a transition between ellipticals and spirals which are also called lenticulars as they are lentil-shaped galaxies. They contain a bulge and a large enveloping region of relatively unstructured brightness which often appears like a disk without spiral arms.
+    \item Irregular galaxies (Irr's) are galaxies with only weak (Irr I) or no (Irr II) regular structure.
+    \item Spirals contain a sizable fraction of gas, whereas the gas-to-stellar mass ratio in ellipticals is much smaller. As a consequence, spirals have ongoing star formation, ellipticals not, or only very little. As a further consequence, the light of elliptical galaxies is substantially redder than that of spirals.
+    \item The stars in spirals have a very ordered motion, moving around the galactic center on nearly circular orbits in a common orbital plane, having a velocity dispersion that is much smaller than the orbital velocity; the stars in the disk are called `dynamically cold'. In contrast, the motion of stars in ellipticals is largely random, with fairly little coherent velocity; they are `dynamically hot'.
+\end{itemize}
+
 \subsubsection{Additional context}
 
 Historically, optical photometry was the method used to observe galaxies. Thus, the morphological classification defined by Hubble is still the best-known today. Besides morphological criteria, color indices, spectroscopic parameters (based on emission or absorption lines), the broad-band spectral distribution (galaxies with/without radio- and/or X-ray emission, or emission in the infrared), as well as other features may also be used.
@@ -91,9 +103,9 @@ Historically, optical photometry was the method used to observe galaxies. Thus, 
 {\noindent}Figure \ref{fig:hubblesequence} shows the classification scheme defined by Hubble. According to this, three main types of galaxies exist:
 
 \begin{itemize}
-    \item Elliptical galaxies (E's) are galaxies that have nearly elliptical isophotes without any clearly defined structure. They are subdivided according to their ellipticity $\epsilon\equiv1-b/a$, where $a$ and $b$ denote the semi-major and the semi-minor axes, respectively. Ellipticals are found over a relatively broad range in ellipticity, $0\geq\epsilon\geq0.7$. The notation E$n$ is commonly used to classify the ellipticals with respect to $\epsilon$, with $n=10\epsilon$; i.e., an E4 galaxy has an axis ratio of $b/a0.6$, and E0's have circular isophotes.
+    \item Elliptical galaxies (E's) are galaxies that have nearly elliptical isophotes without any clearly defined structure. They are subdivided according to their ellipticity $\epsilon\equiv1-b/a$, where $a$ and $b$ denote the semi-major and the semi-minor axes, respectively. Ellipticals are found over a relatively broad range in ellipticity, $0\leq\epsilon\leq0.7$. The notation E$n$ is commonly used to classify the ellipticals with respect to $\epsilon$, with $n=10\epsilon$; i.e., an E4 galaxy has an axis ratio of $b/a=0.6$, and E0's have circular isophotes.
     \item Spiral galaxies consist of a disk with spiral arm structure and a central bulge. They are divided into two subclasses: normal spirals (S's) and barred spirals (SB's). In each of these subclasses, a sequence is defined that is ordered according to the brightness ratio of bulge and disk, and that is denoted by a, ab, b, bc, c, cd, d. Objects along this sequence are often referred to as being either an early- type or a late-type; hence, an Sa galaxy is an early-type spiral, and an SBc galaxy is a late-type barred spiral. It's stressed explicitly that this nomenclature is not a statement of the evolutionary stage of the objects but is merely a nomenclature of purely historical origin.
-    \item Irregular galaxies (Irr’s) are galaxies with only weak (Irr I) or no (Irr II) regular structure. The classification of Irr's is often refined. In particular, the sequence of spirals is extended to the classes Sdm, Sm, Im, and Ir (m stands for Magellanic; the Large Magellanic Cloud is of type SBm).
+    \item Irregular galaxies (Irr's) are galaxies with only weak (Irr I) or no (Irr II) regular structure. The classification of Irr's is often refined. In particular, the sequence of spirals is extended to the classes Sdm, Sm, Im, and Ir (m stands for Magellanic; the Large Magellanic Cloud is of type SBm).
     \item S0 galaxies are a transition between ellipticals and spirals which are also called lenticulars as they are lentil-shaped galaxies. They contain a bulge and a large enveloping region of relatively unstructured brightness which often appears like a disk without spiral arms. Ellipticals and S0 galaxies are referred to as early-type galaxies, spirals as late-type galaxies. As before, these names are only historical and are not meant to describe an evolutionary track!
 \end{itemize}
 
@@ -111,6 +123,116 @@ Historically, optical photometry was the method used to observe galaxies. Thus, 
     \item The rotation curves of spiral galaxies are almost flat for large radii, in contrast to what would be expected from the visible mass distribution that declines exponentially outwards. This implies that there is more matter than seen in stars and gas -- the galaxies are embedded in a halo of dark matter. Whereas for elliptical galaxies the radial density distribution is more difficult to probe, the presence of dark matter has been verified also for ellipticals.
     \item Both spirals and ellipticals follow scaling relations which connect their luminous properties (luminosity or surface brightness) with their dynamical properties (rotational velocity or velocity dispersion). Hence, the formation and evolution of galaxies and their stellar populations must proceed in a way as to place them onto these scaling relations.
 \end{itemize}
+
+{\noindent}The light from `normal' galaxies is emitted mainly by stars. Therefore, the spectral distribution of the radiation from such galaxies is in principle a superposition of the spectra of their stellar population. The spectrum of stars is, to a first approximation, described by a Planck function that depends only on the star's surface temperature. A typical stellar population covers a temperature range from a few thousand Kelvin up to a few tens of thousand Kelvin. Since the Planck function has a well-localized maximum and from there steeply declines to both sides, most of the energy of such `normal' galaxies is emitted in a relatively narrow frequency interval that is located in the optical and NIR sections of the spectrum.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/SDSSCMD.png}
+    \caption{\footnotesize{The density of galaxies in color-magnitude space. The color of $\sim70000$ galaxies with redshifts $0.01\leq z\leq0.08$ from the SDSS is measured by the rest-frame $u-r$, i.e., after a (small) correction for their redshift was applied. The density contours, which were corrected for selection effects, are logarithmically spaced, with a factor of $\sqrt{2}$ between consecutive contours. (a) The measured distribution is shown. Obviously, two peaks of the galaxy density are clearly visible, one at a red color of $u-r\sim2.5$ and an absolute magnitude of $M_r\sim21$,the other at a bluer colour of $u-r\sim1.3$ and significantly fainter magnitudes. (b) Corresponds to the modeled galaxy density. Reused with permission from I.K. Baldry, M.L. Balogh, R. Bower, K. Glazebrook \& R.C. Nichols 2004, Color bimodality: Implications for galaxy evolution, in: THE NEW COSMOLOGY: Conference on Strings and Cosmology, R. Allen (ed.), Conference Proceeding 743, p. 106, Fig. 1 (2004). Figure taken from Schneider (2006).}}
+    \label{fig:sdsscmd}
+\end{figure}
+
+{\noindent}The classification of galaxies by morphology, given by the Hubble classification scheme (Figure \ref{fig:hubblesequence}), has the disadvantage that morphologies of galaxies are not easy to quantify. Traditionally, this was done by visual inspection but of course this method bears some subjectivity of the researcher doing it and requires a lot of experience. Furthermore, this visual inspection is time consuming and cannot be performed on large samples of galaxies. Various techniques and related software were developed to perform such a classification automatically, in many cases with significant success, including the reproducibility of galaxy classification between different methods. Nevertheless, quite a number of problems remain, such as the inclination dependence of the morphological appearance of a galaxy.
+
+{\noindent}Even automatic classifications cannot be applied to galaxies for which the angular resolution of the imaging is not much better than the angular size of galaxies, that is, for distant objects. An alternative to morphological classification is provided by the colours of galaxies, which can be obtained from broad-band multi-color imaging. Colors are much easier to measure than morphology, in particular for very small galaxies. In addition, the physical properties of galaxies may be better characterized by their colors than by their morphology -- the colours yield information about the stellar population, whereas the morphology is determined by the dynamics of the galaxy.
+
+{\noindent}Using photometric measurements and spectroscopy from the SDSS, the colours and absolute magnitudes of low-redshift galaxies have been studied; their density distribution in a color-magnitude diagram is plotted in the left-hand side of Figure \ref{fig:sdsscmd}. We see immediately that there are two density peaks of the galaxy distribution in this diagram: one at high luminosities and red color, the other at significantly fainter absolute magnitudes and much bluer color. It appears that the galaxies are distributed at and around these two density peaks, hence galaxies tend to be either luminous and red, or less luminous and blue. We can also easily see from this diagram that the distribution of red and blue galaxies with respect to their luminosity is different, the former one being more shifted towards larger luminosity.
+
+{\noindent}We can next consider the color distribution of galaxies at a fixed absolute magnitude $M_r$. This is obtained by plotting the galaxy number density along vertical cuts through the left-hand side of Figure \ref{fig:sdsscmd}. When this is done for different $M_r$, it turns out that the colour distribution of galaxies is bimodal: over a broad range in absolute magnitude, the color distribution has two peaks, one at red, the other at blue $u-r$. Again, this fact can be seen directly from Figure \ref{fig:sdsscmd}. For each value of $M_r$, the colour distribution of galaxies can be very well fitted by the sum of two Gaussian functions. The central colors of the two Gaussians are shown by the two dashed curves in the left panel of Figure \ref{fig:sdsscmd}. They become redder the more luminous the galaxies are. This luminosity-dependent reddening is considerably more pronounced for the blue population than for the red galaxies.
+
+{\noindent}To see how good this fit indeed is, the right-hand side of Figure \ref{fig:sdsscmd} shows the galaxy density as obtained from the two-Gaussian fits, with solid contours corresponding to the red galaxies and dashed contours to the blue ones. We thus conclude that the local galaxy population can be described as a bimodal distribution in $u-r$ color, where the characteristic color depends slightly on absolute magnitude. The galaxy distribution at bright absolute magnitudes is dominated by red galaxies, whereas for less luminous galaxies the blue population dominates.
+
+{\noindent}The mass-to-light ratio of a red stellar population is larger than that of a blue population, since the former no longer contains massive luminous stars. The difference in the peak absolute magnitude between the red and blue galaxies therefore corresponds to an even larger difference in the stellar mass of these two populations. Red galaxies in the local Universe have on average a much higher stellar mass than blue galaxies. This fact is illustrated by the two dotted lines in the right-hand panel of Figure \ref{fig:sdsscmd} which correspond to lines of constant stellar mass of $\sim2-3\times10^{10}\,{\rm M}$. This seems to indicate a very characteristic mass scale for the galaxy distribution: most galaxies with a stellar mass larger than this characteristic mass scale are red, whereas most of those with a lower stellar mass are blue.
+
+\begin{table}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/LateGalaxies.png}
+    \caption{\footnotesize{Characteristic values for late-type (i.e., spiral) galaxies. $V_\mathrm{max}$ is the maximum rotation velocity, thus characterizing the flat part of the rotation curve. The opening angle is the angle under which the spiral arms branch off, i.e., the angle between the tangent to the spiral arms and the circle around the center of the galaxy running through this tangential point. $S_N$ is the specific abundance of globular clusters. The values in this table are taken from the book by Carroll \& Ostlie. Table taken from Schneider (2006).}}
+    \label{table:lategalaxies}
+\end{table}
+
+{\noindent}Looking at the sequence of early-type spirals (i.e., Sa's or SBa's) to late-type spirals, we find a number of differences that can be used for classification:
+
+\begin{itemize}
+    \item A decreasing luminosity ratio of bulge and disk, with $L_\mathrm{bulge}/L_\mathrm{disk}\sim0.3$ for Sa’s and $\sim0.05$ for Sc’s
+    \item An increasing opening angle of the spiral arms, from   $6^\circ$ for Sa's to $18^\circ$ for Sc's.
+    \item An increasing brightness structure along the spiral arms: Sa's have a `smooth' distribution of stars along the spiral arms, whereas the light distribution in the spiral arms of Sc's is resolved into bright knots of stars and HII regions.
+\end{itemize}
+
+{\noindent}Bars are common in spiral galaxies, with $\sim70\%$ of all disk galaxies containing a large-scale stellar bar. Such a bar perturbs the axial symmetry of the gravitational potential in a galaxy, which may have a number of consequences. One of them is that this perturbation can lead to a redistribution of angular momentum of the stars, gas, and dark matter. In addition, by perturbing the orbits, gas can be driven towards the center of the galaxy which may have important consequences for triggering nuclear activity and enhanced star formation.
+
+{\noindent}The light profile of the bulge of spirals is described by a de Vaucouleurs profile to a first approximation, while the disk follows an exponential brightness profile, as is the case for our MW. Expressing these distributions of the surface brightness in $\mu\propto-2.5\log(I)$, measured in ${\rm mag\,arcsec^{-2}}$, we obtain
+
+\begin{align*}
+    \mu_\mathrm{bulge} = \mu_e + 8.3268\left[\left(\frac{R}{R_e}\right)^{1/4}-1\right] ~ {\rm mag\,arcsec^{-2}}
+\end{align*}
+
+{\noindent}and
+
+\begin{align*}
+    \mu_\mathrm{disk} = \mu_0 + 1.09\left(\frac{R}{h_R}\right) ~ {\rm mag\,arcsec^{-2}}.
+\end{align*}
+
+{\noindent}Here, $\mu_e$ is the surface brightness at the effective radius $R_e$ which is defined such that half of the bulge luminosity is emitted within $R_e$. The central surface brightness and the scale-length of the disk are denoted by $\mu_0$ and $h_R$, respectively. It has to be noted that $\mu_0$ is not directly measurable since $\mu_0$ is not the central surface brightness of the galaxy, only that of its disk component. To determine $\mu_0$, the exponential law is extrapolated from large $R$ inwards to $R=0$, or more precisely, by fitting the sum of an exponential and a bulge component to the total light profile of the galaxy.
+
+{\noindent}The brightness profile of spiral disks perpendicular to the disk can be studied exclusively in edge-on spirals. From them, one finds that it is in general well described by an exponential law. The scale-height $h_z$ of the disk is almost independent of the galacto-centric radius $R$, and between galaxies scales roughly linearly with the rotational velocity of the disk. The typical value for the ratio of scale-height to scale-length is $h_z/h_R=0.07$ -- indeed, the disks of spiral galaxies are thin. The flattest galaxies are those of late Hubble type.
+
+{\noindent}While the brightness profile of bulges follows approximately that of a de Vaucouleurs profile, some spiral galaxies bulges were found which behave differently than these `classical' bulges; one calls them pseudobulges. In contrast to classical bulges, they follow more an exponential profile, are typically flatter, and have significant rotational support. Furthermore, whereas classical bulges lie on the same sequence in the effective radius vs. absolute magnitude diagram as the ellipticals, pseudobulges do not. They have lower luminosity for a given size.
+
+{\noindent}In many cases it is very difficult to distinguish between both types of bulges photometrically. However, spectroscopy aids a lot in this distinction. In fact, some bulges of spirals have two components, i.e., both a classical bulge and a pseudobulge.
+
+{\noindent}The differences in the two types of bulges suggest that they should have a different origin. Classical bulges behave like a small elliptical galaxy. It is believed that ellipticals form through merging events of galaxies which `heats up' the stellar velocity distribution (i.e., turns ordered velocity fields of disk galaxies into random orbits which are characteristic for ellipticals). Therefore, in the current model of galaxy evolution, classical bulges are also formed as a result of merger events. In contrast, the ordered rotation of pseudobulges suggests that they have evolved from the disk population. For example, symmetry perturbations of the gravitational field caused by a bar can generate random velocity components of stars perpendicular to the plane of the disk, and thus thicken the disk population in the inner part of a galaxy.
+
+{\noindent}Whereas pseudobulges may provide important insights into the evolution of galaxies, they are a sub-dominant component in the population of galaxies. It is estimated that classical bulges together contain about ten times more stars than pseudobulges. Therefore, whenever the term `bulge' is used, it's often implicitly meant to refer to the classical bulges.
+
+{\noindent}Some late-type spiral galaxies seem to have no bulge component. Some of them show instead a nuclear stellar cluster at their center. These nuclear star clusters appear at first sight to be similar to globular clusters. However, their stellar population is quite different from that of the old globular clusters in our Galaxy, as their light is dominated by a relatively young stellar population, although their stellar mass is totally dominated by an old population. In some respect, these nuclear star clusters share properties with the peculiar Galactic globular $\omega$ Centauri, which also shows a broad range of stellar ages and an inhomogeneous chemical abundance. Therefore, it has been hypothesized that $\omega$ Centaurus is the remnant of a merger of a lower mass galaxy with the MW.
+
+{\noindent}The general term `elliptical galaxies' (or ellipticals, for short) covers a broad class of galaxies which differ in their luminosities and sizes. A rough subdivision is as follows:
+
+\begin{itemize}
+    \item Normal ellipticals. This class includes giant ellipticals (gE's), those of intermediate luminosity (E's), and compact ellipticals (cE's), covering a range in absolute magnitudes from $M_B\sim23$ to $M_B\sim15$.
+    \item Dwarf ellipticals (dE's). These differ from the cE's in that they have a significantly smaller surface brightness and a lower metallicity.
+    \item cD galaxies. These are extremely luminous (up to $M_B\sim25$) and large (up to $R\sim1{\rm Mpc}$) galaxies that are only found near the centers of dense clusters of galaxies. Their surface brightness is very high close to the center, they have an extended diffuse envelope, and they have a very high $M/L$ ratio. It is not clear whether the extended envelope actually `belongs' to the galaxy or is part of the galaxy cluster in which the cD is embedded, since such clusters are now known to have a population of stars located outside of the cluster galaxies.
+    \item Blue compact dwarf galaxies. These `blue compact dwarfs' (BCD’s) are clearly bluer (with $(B-V)$ between $0.0$ and $0.3$) than the other ellipticals, and contain an appreciable amount of gas in comparison.
+    \item Dwarf spheroidals (dSph's) exhibit a very low luminosity and surface brightness. They have been observed down to $M_B\sim8$. Due to these properties, they have thus far only been observed in the Local Group.
+\end{itemize}
+
+\begin{table}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/EarlyGalaxies.png}
+    \caption{\footnotesize{Characteristic values for early-type galaxies. $D_{25}$ denotes the diameter at which the surface brightness has decreased to $25\,{\rm B-mag\,arcsec^{-2}}$ , $S_N$ is the `specific frequency', a measure for the number of globular clusters in relation to the visual luminosity, and $M/L$ is the mass-to-light ratio in Solar units. The values of this table are taken from the book by Carroll \& Ostlie. Table taken from Schneider (2006).}}
+    \label{table:earlygalaxies}
+\end{table}
+
+{\noindent}Analyzing the morphology of elliptical galaxies raises a simple question: Why are ellipticals not round? A simple explanation would be rotational flattening, i.e., as in a rotating self-gravitating gas ball, the stellar distribution bulges outwards at the equator due to centrifugal forces, as is also the case for the Earth. If this explanation was correct, the rotational velocity $v_\mathrm{rot}$, which is measurable in the relative Doppler shift of absorption lines, would have to be of about the same magnitude as the velocity dispersion of the stars $\sigma_v$ that is measurable through the Doppler broadening of lines. More precisely, by means of stellar dynamics one can show that for the rotational flattening of an axially symmetric, oblate galaxy, the relation
+
+\begin{align*}
+    \left(\frac{v_\mathrm{rot}}{\sigma_v}\right)_\mathrm{iso} = \sqrt{\frac{\epsilon}{1-\epsilon}}
+\end{align*}
+
+{\noindent}has to be satisfied, where `iso' indicates the assumption of an isotropic velocity distribution of the stars. However, for very luminous ellipticals one finds that, in general, $v_\mathrm{rot}\ll \sigma_v$, so that rotation cannot be the major cause of their ellipticity. In addition, many ellipticals are presumably triaxial, so that no unambiguous rotation axis is defined. Thus, luminous ellipticals are in general not rotationally flattened. For less luminous ellipticals and for the bulges of disk galaxies, however, rotational flattening can play an important role. The question remains of how to explain a stable elliptical distribution of stars without bulk rotation.
+
+{\noindent}The brightness profile of an elliptical galaxy is defined by the distribution of its stellar orbits. Let us assume that the gravitational potential is given. The stars are then placed into this potential, with the initial positions and velocities following a specified distribution. If this distribution is not isotropic in velocity space, the resulting light distribution will in general not be spherical. For instance, one could imagine that the orbital planes of the stars have a preferred direction, but that an equal number of stars exists with positive and negative angular momentum $L_z$, so that the total stellar distribution has no net angular momentum and therefore does not rotate. Each star moves along its orbit in the gravitational potential, where the orbits are in general not closed. If an initial distribution of stellar orbits is chosen such that the statistical properties of the distribution of the orbits are invariant in time, then one will obtain a stationary system. If, in addition, the distribution is chosen such that the respective mass distribution of the stars will generate exactly the originally chosen gravitational potential, one arrives at a self-gravitating equilibrium system. In general, it is a difficult mathematical problem to construct such self-gravitating equilibrium systems. Furthermore, elliptical galaxies also contain a dark matter component, whose gravitational potential adds to that of the stars.
+
+{\noindent}The question now arises whether such an equilibrium system can also be stable in time. One might expect that close encounters of pairs of stars would cause a noticeable disturbance in the distribution of orbits. These pair-wise collisions could then lead to a `thermalization' of the stellar orbits. To examine this question we need to estimate the time-scale for such collisions and the changes in direction they cause.
+
+{\noindent}For this purpose, we consider the relaxation time-scale by pair collisions in a system of $N$ stars of mass $m$, total mass $M=Nm$, extent $R$, and a mean stellar density of $n=3N/(4\pi R^3)$. We define the relaxation time $t_\mathrm{relax}$ as the characteristic time in which a star changes its velocity direction by $\sim90^\circ$ due to pair collisions with other stars. By simple calculation (see below), we find that
+
+\begin{align*}
+    t_\mathrm{relax} \approx \frac{R}{6v} \frac{N}{\ln(N/2)} ~ [{\rm yr}]
+\end{align*}
+
+{\noindent}or
+
+\begin{align*}
+    t_\mathrm{relax} = \frac{t_\mathrm{cross}}{6} \frac{N}{\ln(N/2)} ~ [{\rm yr}],
+\end{align*}
+
+{\noindent}where $t_\mathrm{cross}=R/v$ is the crossing time-scale, i.e. the time it takes a star to cross the stellar system. If we now consider a typical galaxy, with $t_\mathrm{cross}\sim10^8\,{\rm yr}$, $N\sim10^{12}$ (thus $ln(N/2)\sim30$), then we find that the relaxation time is much longer than the age of the Universe. This means that pair collisions do not play any role in the evolution of stellar orbits. The dynamics of the orbits are determined solely by the large-scale gravitational field of the galaxy. There is a process called violent relaxation which most likely plays a central role in the formation of galaxies and which is probably also responsible for the stellar orbits establishing an equilibrium configuration.
+
+{\noindent}We thus conclude that the stars behave like a collisionless gas: elliptical galaxies are stabilized by (dynamical) pressure, and they are elliptical because the stellar distribution is anisotropic in velocity space. This corresponds to an anisotropic pressure -- where we recall that the pressure of a gas is nothing but the momentum transport of gas particles due to their thermal motion.
+
 
 \subsubsection{Follow-up Questions}
 
@@ -131,11 +253,11 @@ What is the total mass (in both dark matter and in stars) of the Milky Way galax
 
 \subsubsection{Short answer}
 
-Answer.
+The MWG has a total mass of about $10^{12}\,{\rm M_\odot}$. This is about the same as M31 (Andromeda), and larger than the LMC which is roughly $10^{10}\,{\rm M_\odot}$.
 
 \subsubsection{Additional context}
 
-Additional context.
+The components of the Milky Way Galaxy (MWG) have total masses as follows: a disk mass of $4.5\times10^{10}\,{\rm M_\odot}$, bulge mass of $4.5\times10^9\,{\rm M_\odot}$, dark halo mass of $2\times10^{12}\,{\rm M_\odot}$, and BH mass of $4\times10^6\,{\rm M_\odot}$.
 
 \subsubsection{Follow-up Questions}
 
@@ -605,13 +727,22 @@ Define and describe globular clusters. Where are they located? What are their ty
 
 \subsubsection{Short answer}
 
-Answer.
+Globular clusters are much more massive stellar systems, containing $10^4-10^6$ stars in a nearly spherical distribution. Globular clusters do not contain gas, dust, or young stars. The stellar density in the center of a globular cluster is extremely high: a typical value is $10^4\,{\rm M_\odot pc^{-3}}$, compared with $0.05\,{\rm M_\odot pc^{-3}}$ in the solar neighborhood. Most globular clusters are at a distance of $r\lesssim35\,{\rm kpc}$ (with $r=\sqrt{R^2+z^2}$) from the Galactic center, but some are also found at $r>60\,{\rm kpc}$. At these distances it is hard to judge whether these objects are part of the Galaxy or whether they have been captured from a neighboring galaxy, such as the Magellanic Clouds.
 
 \subsubsection{Additional context}
 
-The visible halo of our Galaxy consists of about 150 globular clusters and field stars with a high velocity component perpendicular to the Galactic plane. Even at about 150, the number of known globular clusters is relatively small. A globular cluster is a collection of typically several hundred thousand stars, contained within a spherical region of radius   $\sim20\,{\rm pc}$. The stars in the cluster are gravitationally bound and orbit in the common gravitational field. The old globular clusters with $[Fe/H]<-0.8$ have an approximately spherical distribution around the Galactic center. A second population of globular clusters exists that contains younger stars with a higher metallicity, $[Fe/H]>-0.8$. They have a more oblate geometrical distribution and are possibly part of the thick disk because they show roughly the same scale-height.
+Our Galaxy contains about $150$ globular clusters, but large elliptical galaxies such as M87 can contain as many as $10,000$. It is a mystery why young globular clusters are largely absent in our Galaxy but common in many others, such as M31, the Large Magellanic Cloud, and galaxies that have undergone recent mergers. Unlike open clusters, the Galaxy's globular clusters are old, and are believed to be relics of the formation of the Galaxy itself. The metallicity appears to be the same for all the stars in a given cluster (presumably because the cluster formed from a well-mixed gas cloud) but different clusters have a wide range of metallicity, from only $0.005\,{\rm Z_\odot}$ to nearly solar. The spatial distribution and the kinematics of a group of clusters are correlated with the metallicity, and for many purposes the clusters in our Galaxy can be divided into two groups: a roughly spherical population that contains 80\% of the clusters, shows little or no rotation and has metallicity $Z<0.1\,{\rm Z_\odot}$, and is associated with the stellar halo; and a flattened population that contains the remaining 20\%, has $Z>0.1\,{\rm Z_\odot}$, exhibits rapid rotation, and is associated with the disk and bulge. This bimodal distribution of metallicities is present in the globular cluster systems of other galaxies as well.
 
-{\noindent}Most globular clusters are at a distance of $r\lesssim35\,{\rm kpc}$ (with $r=\sqrt{R^2+z^2}$) from the Galactic center, but some are also found at $r>60\,{\rm kpc}$. At these distances it is hard to judge whether these objects are part of the Galaxy or whether they have been captured from a neighboring galaxy, such as the Magellanic Clouds.
+{\noindent}Because globular clusters have strong or high central concentration (the central density is much larger than the mean density) three different measures of the radius are usually quoted for globular clusters: the core radius, where the surface brightness has fallen to half its central value; the median or half-light radius, the radius of a sphere that contains half of all the luminosity; and the limiting or tidal radius, the outer limit of the cluster where the density drops to zero. Typical values of these and other cluster parameters are given in Table 1.3.
+
+\begin{table}[h!]
+    \centering
+    \includegraphics[width=10cm]{figures/GlobularClustersTable.png}
+    \caption{\footnotesize{Parameters of globular and open clusters. Values for globular clusters are medians from the compilation of Harris (1996). Values for open clusters are from Figure 8.5, Piskunov et al. (2007), and other sources. Table taken from Binney \& Tremaine (2008).}}
+    \label{fig:globularclusterstable}
+\end{table}
+
+{\noindent}The visible halo of our Galaxy consists of about 150 globular clusters and field stars with a high velocity component perpendicular to the Galactic plane. Even at about 150, the number of known globular clusters is relatively small. A globular cluster is a collection of typically several hundred thousand stars, contained within a spherical region of radius   $\sim20\,{\rm pc}$. The stars in the cluster are gravitationally bound and orbit in the common gravitational field. The old globular clusters with $[Fe/H]<-0.8$ have an approximately spherical distribution around the Galactic center. A second population of globular clusters exists that contains younger stars with a higher metallicity, $[Fe/H]>-0.8$. They have a more oblate geometrical distribution and are possibly part of the thick disk because they show roughly the same scale-height.
 
 {\noindent}The density distribution of metal-poor globular clusters and field stars in the halo is described by
 
@@ -1064,6 +1195,29 @@ Answer.
 
 Hydrodynamical simulations of disk formation show that SF in the gas disks is far too efficient, consuming the available gas in too short a time, so that most of the stars would be formed at high redshift, with little current star formation left. Furthermore, the resulting disks are too concentrated and too small, leading to rotation curves which are declining outwards beyond the (small) half-light radius of the disk, in marked contrast with observed rotation curves. This together is known as the overcooling problem in galaxy evolution. Real disk galaxies have a slower conversion of gas into stars and their disks remain larger. And finally, the efficient conversion of gas into stars in our simple model would predict that the stellar mass density in the Universe is much higher than observed -- whereas $\omega_b\sim0.04$, the density parameter in stars is less than 1\%. Hence, most baryons in the Universe have not been converted to stars.
 
+\subsubsection{Follow-up Questions}
+
+\begin{itemize}
+    \item What is the SF history of the Universe, and how does it evolve with time? (i.e., Lilly-Madau plot.)
+    \item At what redshift was the SF rate the highest?
+    \item How does this relate to the population of stars we see today (i.e., how old the Sun is, which stars are most common etc.)?
+\end{itemize}
+
+% --------------------------------------------------------------
+%               15. 
+% --------------------------------------------------------------
+
+\newpage
+\subsection{Question 15}
+
+Provide three examples of ways in which feedback processes are important on galactic and intergalactic scales.
+
+\subsubsection{Short answer}
+
+Answer.
+
+\subsubsection{Additional context}
+
 {\noindent}\textbf{Feedback by supernovae:} In order to balance the efficient gas cooling, heating sources need to be considered. An unavoidable source of heating is the energy injected into the ISM by supernovae. Very shortly after star formation sets in, the most massive stars of the stellar population undergo a core-collapse supernova. The mechanical energy of the explosion is partly transferred to the gas surrounding the exploding star. Thereby the gas is heated, causing it to expand, thus to decrease its density, which in turn reduces its cooling efficiency. Note that this is a feedback process -- the higher the star formation rate, the more energy is injected into the interstellar gas to prevent, or at least delay, further SF. Depending on the efficiency of this feedback, the local gas of the disk may be blown out of the disk into the halo (and produce a hot gas corona outside the disk), or, in particular for low-mass halos, be removed from the halo through outflowing gas.
 
 {\noindent}In fact, there is direct observational evidence of the occurrence of outflows from star-forming galaxies. For example, the spectra of Lyman-break galaxies reveal substantial mass outflows, at a similar rate as their star-formation rate and with velocities of several hundreds of ${\rm km\,s^{-1}}$.
@@ -1091,31 +1245,6 @@ Hydrodynamical simulations of disk formation show that SF in the gas disks is fa
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
-    \item What is the SF history of the Universe, and how does it evolve with time? (i.e., Lilly-Madau plot.)
-    \item At what redshift was the SF rate the highest?
-    \item How does this relate to the population of stars we see today (i.e., how old the Sun is, which stars are most common etc.)?
-\end{itemize}
-
-% --------------------------------------------------------------
-%               15. 
-% --------------------------------------------------------------
-
-\newpage
-\subsection{Question 15}
-
-Provide three examples of ways in which feedback processes are important on galactic and intergalactic scales.
-
-\subsubsection{Short answer}
-
-Answer.
-
-\subsubsection{Additional context}
-
-Additional context.
-
-\subsubsection{Follow-up Questions}
-
-\begin{itemize}
     \item What is the star formation rate in the galaxy (derive this)? 
     \item How fast would all the gas be eaten up if there was no feedback?
     \item How could you observationally constrain metal enrichment of the IGM?
@@ -1131,12 +1260,13 @@ Additional context.
 \subsection{Resources}
 
 \begin{itemize}
-    \item Extragalactic Astronomy and Cosmology, Schneider (2006)
-    \item High Energy Astrophysics, Longair (2011)
-    \item Gaseous Nebulae and Active Galactic Nuclei, Osterbrock \& Ferland (2005)
-    \item Spectral Evolution of Galaxies, Charlot (1996)
-    \item Galaxies in the Universe, Sparke \& Gallagher (2005)
-    \item Elliptical Galaxies and Bulges of Disk Galaxies: Summary of Progress and Outstanding Issues, Kormendy (2015)
+    \item Extragalactic Astronomy and Cosmology; Schneider (2006)
+    \item High Energy Astrophysics; Longair (2011)
+    \item Gaseous Nebulae and Active Galactic Nuclei; Osterbrock \& Ferland (2005)
+    \item Spectral Evolution of Galaxies; Charlot (1996)
+    \item Galaxies in the Universe; Sparke \& Gallagher (2005)
+    \item Elliptical Galaxies and Bulges of Disk Galaxies: Summary of Progress and Outstanding Issues; Kormendy (2015)
+    \item Galactic Dynamics; Binney \& Tremaine (2008)
 \end{itemize}
 
 
