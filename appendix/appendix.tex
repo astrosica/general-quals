@@ -215,6 +215,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{SFR:} star formation rate
 
+{\noindent}\textbf{SFRD:} star formation rate density
+
 {\noindent}\textbf{SMC:} Small Magellanic Cloud
 
 {\noindent}\textbf{SMBH:} supermassive black hole
@@ -447,6 +449,8 @@ dimensionless}]$
 
 {\noindent}\textbf{Fourier transform}: $P(k) ~ [{\rm function}]$
 
+{\noindent}\textbf{Gas surface mass density}: $\Sigma_\mathrm{gas} ~ {\rm M_\odot\,pc^{-2}}$
+
 {\noindent}\textbf{Gas temperature}: $T_g ~ [{\rm K}]$
 
 {\noindent}\textbf{GUT age}: $t_\mathrm{GUT} ~ [{\rm s}]$
@@ -672,6 +676,10 @@ dimensionless}]$
 {\noindent}\textbf{Spin de-excitation rate via collisions for species $i$}: $k_{10}^i ~ [{\rm cm^3s^{-1}}]$
 
 {\noindent}\textbf{Spin temperature}: $T_s ~ [{\rm K}]$
+
+{\noindent}\textbf{Star formation history}: $\psi(z) ~ [{\rm M_\odot\,year^{-1}\,Mpc^{-3}}]$
+
+{\noindent}\textbf{Star formation rate per unit area}: $\Sigma_\mathrm{SFR} ~ [{\rm M_\odot\,year^{-1}\,pc^{-2}}]$
 
 {\noindent}\textbf{Statistical weight}: $g ~ [{\rm dimensionless}]$
 
@@ -1569,6 +1577,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     a = \dfrac{1}{1+z} ~ [{\rm dimensionless}]
 \end{align*}
 
+{\noindent}\textbf{Schmidt-Kennicutt law}:
+\begin{align*}
+    \frac{\Sigma_\mathrm{SFR}}{{\rm M_\odot\,year^{-1}\,kpc^{-2}}} = (2.5\pm0.7)\times10^{-4} \left(\frac{\Sigma_\mathrm{gas}}{{\rm M_\odot\,pc^{-2}}}\right)^{1.4\pm0.15}
+\end{align*}
+
 {\noindent}\textbf{Schwarzschild radius}:
 \begin{align*}
     r_S \equiv \frac{2GM}{c^2} = 2.95\left(\frac{M}{{\rm M_\odot}}\right) ~ [{\rm km}]
@@ -1595,9 +1608,19 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \frac{n_1}{n_2} = \frac{g_1}{g_2}\exp\left(-\frac{0.068\,{\rm K}}{T_s}\right) ~ [{\rm dimensionless}],
 \end{align*}
 
+{\noindent}\textbf{Star formation history}:
+\begin{align*}
+    \psi(z) = 0.015\frac{(1+z)^{2.7}}{1+[1+z/2.9]^{5.6}} ~ [{\rm M_\odot\,year^{-1}\,Mpc^{-3}}].
+\end{align*}
+
 {\noindent}\textbf{Star formation rate}:
 \begin{align*}
     \mathrm{SFR} = -\frac{\mathrm{d}M_\mathrm{gas}}{\mathrm{d}t} ~ [{\rm M_\odot\,yr^{-1}}]
+\end{align*}
+
+{\noindent}\textbf{Star formation rate per unit area}:
+\begin{align*}
+    \Sigma_\mathrm{SFR} \propto \Sigma_\mathrm{gas}^{1.4} ~ [{\rm M_\odot\,year^{-1}\,pc^{-2}}]
 \end{align*}
 
 {\noindent}\textbf{Stefan-Boltzmann constant}:
