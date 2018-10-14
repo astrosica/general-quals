@@ -4,7 +4,6 @@
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{mathtools}
-\usepackage{hyperref}
 \usepackage{amsmath,amsthm,amssymb,cancel,bm}
 \usepackage{floatrow}
 \setcounter{tocdepth}{2}
@@ -13,6 +12,9 @@
 left=25mm,right=25mm,%
 bindingoffset=0mm, top=20mm,bottom=20mm}
 \newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,filecolor=cyan,urlcolor=magenta}
 
 % my own titles
 \makeatletter
@@ -83,6 +85,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{BB:} Big Bang or blackbody
 
+{\noindent}\textbf{BCD:} blue compact dwarf
+
 {\noindent}\textbf{BBN:} Big Bang nucleosynthesis
 
 {\noindent}\textbf{bf:} bound-free
@@ -105,6 +109,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{CDM:} cold dark matter
 
+{\noindent}\textbf{cE:} compact elliptical
+
 {\noindent}\textbf{CIB:} cosmic infrared background
 
 {\noindent}\textbf{CMB:} cosmic microwave background
@@ -121,9 +127,15 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{DE:} dark energy
 
+{\noindent}\textbf{dE:} dwarf elliptical
+
 {\noindent}\textbf{DM:} dark matter
 
 {\noindent}\textbf{DM:} distance modulus
+
+{\noindent}\textbf{dSph:} dwarf spheroidal
+
+{\noindent}\textbf{E:} elliptical
 
 {\noindent}\textbf{EoR:} epoch of reionization
 
@@ -132,6 +144,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{FIR:} far infrared
 
 {\noindent}\textbf{GC:} galactic center
+
+{\noindent}\textbf{gE:} giant elliptical
 
 {\noindent}\textbf{GP:} Gunn-Peterson
 
@@ -149,11 +163,15 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{IR:} infrared
 
+{\noindent}\textbf{Irr:} irregular
+
 {\noindent}\textbf{ISM:} interstellar medium
 
 {\noindent}\textbf{LAE:} Lyman-alpha emitter
 
 {\noindent}\textbf{LBG:} Lyman break galaxy
+
+{\noindent}\textbf{LG:} Local Group
 
 {\noindent}\textbf{LMC:} Large Magellanic Cloud
 
@@ -185,6 +203,10 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{RTE:} radiative transfer equation
 
+{\noindent}\textbf{S:} spiral
+
+{\noindent}\textbf{SB:} barred spiral
+
 {\noindent}\textbf{SDSS:} Sloan Digitial Sky Survey
 
 {\noindent}\textbf{SED:} spectral energy distribution
@@ -192,6 +214,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{SF:} star formation
 
 {\noindent}\textbf{SFR:} star formation rate
+
+{\noindent}\textbf{SMC:} Small Magellanic Cloud
 
 {\noindent}\textbf{SMBH:} supermassive black hole
 
@@ -262,6 +286,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 \newpage
 \subsection{Variables}
 
+{\noindent}\textbf{Absolute magnitude}: $M ~ [{\rm mag}]$
+
 {\noindent}\textbf{Absorption coefficient}: $\alpha_\nu ~ [{\rm cm^{-1}}]$
 
 {\noindent}\textbf{Angstr\"{o}m}: \AA$ ~ [{\rm unit}]$
@@ -269,6 +295,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{Angular diameter distance}: $d_A ~ [{\rm pc}]$
 
 {\noindent}\textbf{Angular size}: $\theta ~ [{\rm rad}]$
+
+{\noindent}\textbf{Apparent magnitude}: $m ~ [{\rm mag}]$
 
 {\noindent}\textbf{Baryon fraction}: $f_b ~ [{\rm dimensionless}]$
 
@@ -309,6 +337,8 @@ dimensionless}]$
 
 {\noindent}\textbf{Collisional excitation rate}: $C_{10} ~ [{\rm s^{-1}}]$
 
+{\noindent}\textbf{Comoving sound horizon}: $r_\mathrm{H,com} ~ [{\rm Mpc}]$
+
 {\noindent}\textbf{Correlation function}: $C(\theta) ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Cosmological constant}: $\Lambda ~ [{\rm m^{-2}}]$
@@ -321,9 +351,9 @@ dimensionless}]$
 
 {\noindent}\textbf{Critical density}: $\rho_c ~ [{\rm g\,cm^{-3}}]$
 
-{\noindent}\textbf{Comoving sound horizon}: $r_\mathrm{H,com} ~ [{\rm Mpc}]$
-
 {\noindent}\textbf{Cross section}: $\sigma ~ [{\rm m^{2}}]$
+
+{\noindent}\textbf{Crossing timescale}: $t_\mathrm{cross} ~ [{\rm yr}]$
 
 {\noindent}\textbf{Curvature term}: $S_\kappa(r) ~ [{\rm Mpc}]$
 
@@ -361,9 +391,13 @@ dimensionless}]$
 
 {\noindent}\textbf{Deuterium}: ${\rm D} ~ [{\rm element}]$
 
+{\noindent}\textbf{Disk scale length}: $h_R ~ [{\rm Mpc}]$
+
 {\noindent}\textbf{Distance}: $d ~ [{\rm m}]$
 
 {\noindent}\textbf{Distance modulus}: $m - M ~ [{\rm mag}]$
+
+{\noindent}\textbf{Effective radius}: $R_e ~ [{\rm Mpc}]$
 
 {\noindent}\textbf{Einstein A coefficient (spontaneous emission)}: $A_{10} ~ [{\rm s^{-1}}]$
 
@@ -595,6 +629,8 @@ dimensionless}]$
 
 {\noindent}\textbf{Reduced Planck constant}: $\hbar ~ [{\rm m^2\,kg\,s^{-1}}]$
 
+{\noindent}\textbf{Relaxation time}: $t_\mathrm{relax} ~ [{\rm yr}]$
+
 {\noindent}\textbf{Rest mass of electron}: $m_e ~ [{\rm kg}]$
 
 {\noindent}\textbf{Rest mass of neutron}: $m_n ~ [{\rm kg}]$
@@ -602,6 +638,8 @@ dimensionless}]$
 {\noindent}\textbf{Rest mass of proton}: $m_p ~ [{\rm kg}]$
 
 {\noindent}\textbf{Scale factor}: $a ~ [{\rm dimensionless}]$
+
+{\noindent}\textbf{Scale height}: $h_z ~ [{\rm pc}]$
 
 {\noindent}\textbf{Scattering rate between hydrogen atoms}: $k_{1-0}^\mathrm{HH} ~ [{\rm s^{-1}}]$
 
@@ -615,17 +653,17 @@ dimensionless}]$
 
 {\noindent}\textbf{Semi-minor axis}: $b ~ [{\rm Mpc}]$
 
-{\noindent}\textbf{Sound speed}: $v_s ~ [{\rm m\,s^{-1}}]$
-
-{\noindent}\textbf{Spherical harmonics}: $Y_{lm}(\theta,\phi) ~ [{\rm dimensionless}]$
-
-{\noindent}\textbf{Spin temperature}: $T_s ~ [{\rm K}]$
-
 {\noindent}\textbf{Sign of curvature}: $\kappa ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Silk mass}: $M_s ~ [{\rm kg}]$
 
 {\noindent}\textbf{Solid angle}: $\Omega ~ [{\rm sr}]$
+
+{\noindent}\textbf{Sound speed}: $v_s ~ [{\rm m\,s^{-1}}]$
+
+{\noindent}\textbf{Spherical harmonics}: $Y_{lm}(\theta,\phi) ~ [{\rm dimensionless}]$
+
+{\noindent}\textbf{Spin temperature}: $T_s ~ [{\rm K}]$
 
 {\noindent}\textbf{Specific intensity}: $I_\nu ~ [{\rm erg\,s^{-1}\,cm^{-2}\,Hz^{-1}\,sr^{-1}}]$
 
@@ -646,6 +684,12 @@ dimensionless}]$
 {\noindent}\textbf{Stokes U}: $Q ~ [{\rm Jy}]$
 
 {\noindent}\textbf{Stress energy tensor}: $T_{\alpha\beta} ~ [{\rm unit}]$
+
+{\noindent}\textbf{Surface brightness}: $\mu ~ [{\rm mag\,arcsec^{-2}}]$
+
+{\noindent}\textbf{Surface brightness (central)}: $\mu_0 ~ [{\rm mag\,arcsec^{-2}}]$
+
+{\noindent}\textbf{Surface brightness at effective radius $R_e$}: $\mu_e ~ [{\rm mag\,arcsec^{-2}}]$
 
 {\noindent}\textbf{Temperature}: $T ~ [{\rm K}]$
 
@@ -1116,6 +1160,11 @@ dimensionless}]$
     \rho_c \equiv \dfrac{3H_0^2}{8\pi G}  ~ [{\rm g\,cm^{-3}}]
 \end{align*}
 
+{\noindent}\textbf{Crossing timescale}:
+\begin{align*}
+    t_\mathrm{cross} = \frac{R}{v} ~ [{\rm yr}
+\end{align*}
+
 {\noindent}\textbf{Curvature term}:
 \begin{align*}
 S_\kappa(r) =
@@ -1202,8 +1251,8 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Doppler law}:
 \begin{align*}
-    \frac{v}{c} = 1 - \frac{\nu_\mathrm{obs}}{\nu_\mathrm{em}} ~ [{\rm dimensionless}] \\
-    \frac{v}{c} = 1 - \frac{\lambda_\mathrm{em}}{\lambda_\mathrm{obs}} ~ [{\rm dimensionless}]
+    \frac{v}{c} &= \frac{\Delta\lambda}{\lambda} =  \frac{\lambda_\mathrm{obs}-\lambda_\mathrm{em}}{\lambda_\mathrm{obs}} ~ [{\rm dimensionless}] \\
+    \frac{v}{c} &= \frac{-\Delta\nu}{\nu} =  \frac{\nu_\mathrm{em}-\nu_\mathrm{obs}}{\nu_\mathrm{em}} ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Einstein relations}:
@@ -1484,6 +1533,12 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \frac{1}{1+z} = \frac{\lambda}{\lambda_0} = \frac{1}{a} ~ [{\rm dimensionless}]
 \end{align*}
 
+{\noindent}\textbf{Relaxation time}:
+\begin{align*}
+    t_\mathrm{relax} &\approx \frac{R}{6v} \frac{N}{\ln(N/2)} ~ [{\rm yr}] \\
+    t_\mathrm{relax} &= \frac{t_\mathrm{cross}}{6} \frac{N}{\ln(N/2)} ~ [{\rm yr}]
+\end{align*}
+
 {\noindent}\textbf{Robertson-Walker metric}:
 \begin{align*}
     \mathrm{d}s^2 = c\mathrm{d}t^2 -a(t)^2 \left( \frac{\mathrm{d}x^2}{1-\kappa x^2/R^2} + x^2\Omega^2 \right)
@@ -1553,6 +1608,16 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Stefan-Boltzmann Law}:
 \begin{align*}
     F = \sigma T^4 ~ [{\rm W\,m^{-2}}]
+\end{align*}
+
+{\noindent}\textbf{Surface brightness (bulge)}:
+\begin{align*}
+    \mu_\mathrm{bulge} = \mu_e + 8.3268\left[\left(\frac{R}{R_e}\right)^{1/4}-1\right] ~ {\rm mag\,arcsec^{-2}}
+\end{align*}
+
+{\noindent}\textbf{Surface brightness (disk)}:
+\begin{align*}
+    \mu_\mathrm{disk} = \mu_0 + 1.09\left(\frac{R}{h_R}\right) ~ {\rm mag\,arcsec^{-2}}.
 \end{align*}
 
 {\noindent}\textbf{Temperature-redshift-scalefactor relation}:
