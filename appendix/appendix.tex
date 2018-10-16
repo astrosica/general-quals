@@ -231,6 +231,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{SZ:} Sunyaev-Zeldovich
 
+{\noindent}\textbf{SZE:} Sunyaev-Zeldovich effect
+
 {\noindent}\textbf{TE:} thermal equilibrium
 
 {\noindent}\textbf{TE:} thermodynamic equilibrium
@@ -347,6 +349,8 @@ dimensionless}]$
 
 {\noindent}\textbf{Comoving sound horizon}: $r_\mathrm{H,com} ~ [{\rm Mpc}]$
 
+{\noindent}\textbf{Compton y-parameter}: $y ~ [{\rm dimensionless}]$
+
 {\noindent}\textbf{Correlation function}: $C(\theta) ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Cosmological constant}: $\Lambda ~ [{\rm m^{-2}}]$
@@ -387,7 +391,10 @@ dimensionless}]$
 
 {\noindent}\textbf{Density parameter}: $\Omega_i ~ [{\rm dimensionless}]$
 
-{\noindent}\textbf{Density parameter of baryonic matter}: $\Omega_b ~ [{\rm dimensionless}]$
+{\noindent}\textbf{Density parameter of baryonic matter}: $\Omega_b ~
+[{\rm dimensionless}]$
+
+{\noindent}\textbf{Density parameter of curvature}: $\Omega_\kappa ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Density parameter of dark energy}: $\Omega_\Lambda ~ [{\rm dimensionless}]$
 
@@ -422,6 +429,8 @@ dimensionless}]$
 {\noindent}\textbf{Electron}: $e^- ~ [{\rm particle}]$
 
 {\noindent}\textbf{Electronvolt}: ${\rm eV} ~ [{\rm unit}]$
+
+{\noindent}\textbf{Electron optical depth}: $\tau_e ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Electroweak age}: $t_\mathrm{ew} ~ [{\rm s}]$
 
@@ -478,6 +487,8 @@ dimensionless}]$
 {\noindent}\textbf{Gunn-Peterson optical depth}: $\tau_\mathrm{GP} ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Gunn-Peterson oscillator strength}: $f_\alpha ~ [{\rm dimensionless}]$
+
+{\noindent}\textbf{Harrison-Zeldovich power spectrum}: $P(k) ~ [{\rm \mu K^2}]$
 
 {\noindent}\textbf{Helium}: ${\rm He} ~ [{\rm element}]$
 
@@ -653,6 +664,8 @@ dimensionless}]$
 
 {\noindent}\textbf{Rest mass of proton}: $m_p ~ [{\rm kg}]$
 
+{\noindent}\textbf{Scalar spectral index}: $n_s ~ [{\rm dimensionless}]$
+
 {\noindent}\textbf{Scale factor}: $a ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Scale height}: $h_z ~ [{\rm pc}]$
@@ -704,6 +717,8 @@ dimensionless}]$
 {\noindent}\textbf{Stokes U}: $Q ~ [{\rm Jy}]$
 
 {\noindent}\textbf{Stress energy tensor}: $T_{\alpha\beta} ~ [{\rm unit}]$
+
+{\noindent}\textbf{Sunyaev-Zeldovich temperature fluctuation}: $\Delta T_\mathrm{SZ} ~ [{\rm K}]$
 
 {\noindent}\textbf{Sum of neutrino masses}: $\Sigma m_\nu ~ [{\rm eV}]$
 
@@ -920,7 +935,7 @@ dimensionless}]$
 
 {\noindent}\textbf{Neutron half life}: $t_n\sim\,890\,[{\rm sec}]\,{\rm or}\,\sim\,15\,[{\rm min}]$
 
-{\noindent}\textbf{Neutron-proton freezeout}: $\frac{n_n}{n_p} \simeq \frac{1}{7}\,[{\rm MeV}]$
+{\noindent}\textbf{Neutron-proton freezeout}: $\frac{n_n}{n_p} \simeq \frac{1}{7}\,[{\rm dimensionless}]$
 
 {\noindent}\textbf{Neutron-proton rest mass-energy difference}: $(m_n-m_p)c^2 = 1.3\,[{\rm MeV}]$
 
@@ -957,11 +972,15 @@ dimensionless}]$
 {\noindent}\textbf{Redshift of matter-$\Lambda$ equality}: $z_{m\Lambda}
 \approx0.39\,[{\rm dimensionless}]$
 
+{\noindent}\textbf{Rest energy of an deuterium}: $m_\mathrm{D}c^2 = 2.225\,[{\rm MeV}]$
+
 {\noindent}\textbf{Rest energy of an electron}: $m_ec^2 = 0.511\,[{\rm MeV}]$
 
 {\noindent}\textbf{Rest energy of a neutron}: $m_nc^2 = 939.6\,[{\rm MeV}]$
 
 {\noindent}\textbf{Rest energy of a proton}: $m_pc^2 = 938.3\,[{\rm MeV}]$
+
+{\noindent}\textbf{Scalar spectral index}: $n_s\approx1 ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Scale factor (current)}: $a_0=a(t_0)\equiv1\,[{\rm dimensionless}]$
 
@@ -1222,6 +1241,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \Omega = \sum\Omega_i \equiv \sum \frac{\rho_i}{\rho_c} ~ [{\rm dimensionless}]
 \end{align*}
 
+{\noindent}\textbf{Density parameter of curvature}:
+\begin{align*}
+    \Omega_\kappa = 1-\Omega_0 ~ [{\rm dimensionless}]
+\end{align*}
+
 {\noindent}\textbf{Density parameter of dark energy}:
 \begin{align*}
     \Omega_\Lambda &\equiv \dfrac{\rho_\Lambda}{\rho_c} \\
@@ -1309,7 +1333,7 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Energy-redshift relation}:
 \begin{align*}
-    E_0 = E(1+z)^{-1} ~ [{\rm eV}]
+    E = E_0(1+z) ~ [{\rm eV}]
 \end{align*}
 
 {\noindent}\textbf{Escape velocity}:
@@ -1359,6 +1383,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 \begin{align*}
     \tau_\mathrm{GP} &= \frac{\pi e^2}{m_ec^2}f_\alpha\lambda_\alpha H^{-1}(z)n_\mathrm{HI} ~ [{\rm dimensionless}] \\
     \tau_\mathrm{GP}(z) &= 4.9\times10^5 \left(\frac{\Omega_mh^2}{0.13}\right)^{-1/2} \left(\frac{\Omega_bh^2}{0.02}\right) \left(\frac{1+z}{7}\right)^{3/2} \left(\frac{n_\mathrm{HI}}{n_\mathrm{H}}\right) ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}\textbf{Harrison-Zeldovich power spectrum}:
+\begin{align*}
+    P(k) \propto k^{n_s-1} ~ [{\rm \mu K^2}]
 \end{align*}
 
 {\noindent}\textbf{Helium mass fraction}:
@@ -1509,7 +1538,7 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Planck function}:
 \begin{align*}
-    B_\nu(T) = \frac{2h\nu^2}{c^2} \frac{1}{\exp(h\nu/k_BT) - 1} ~ [{\rm erg\,s^{-1}\,cm^{-2}\,Hz^{-1}\,sr^{-1}}]
+    B_\nu(T) = \frac{2h\nu^3 }{c^2} \frac{1}{\exp(h\nu/k_BT) - 1} ~ [{\rm erg\,s^{-1}\,cm^{-2}\,Hz^{-1}\,sr^{-1}}]
 \end{align*}
 
 {\noindent}\textbf{Polarized angle}:
@@ -1560,7 +1589,7 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Redshift-wavelength-scalefactor relation}:
 \begin{align*}
-    \frac{1}{1+z} = \frac{\lambda}{\lambda_0} = \frac{1}{a} ~ [{\rm dimensionless}]
+    \frac{1}{1+z} = \frac{\lambda}{\lambda_0} = a ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Relaxation time}:
@@ -1653,6 +1682,12 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Stefan-Boltzmann Law}:
 \begin{align*}
     F = \sigma T^4 ~ [{\rm W\,m^{-2}}]
+\end{align*}
+
+{\noindent}\textbf{Sunyaev-Zeldovich temperature fluctuation}:
+\begin{align*}
+    \frac{\Delta T_\mathrm{SZE}}{T_\mathrm{CMB}} = f(x)y = f(x)\int n_e\frac{k_BT_e}{m_ec^2}\sigma_T \mathrm{d}l ~ [{\rm dimensionless}] \\
+    \frac{\Delta T_\mathrm{SZ}}{T_\mathrm{CMB}} = -\tau_e \left(\frac{v_\mathrm{pec}}{c}\right) ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Surface brightness (bulge)}:
@@ -1778,6 +1813,7 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \item $k_B(10^7\,\mathrm{K}) \sim 1\,{\rm keV}$
     \item Systems in thermal equilibrium satisfy normal populations of $(n_1/g_1)>(n_2/g_2)$; inverted populations satisfy $(n_1/g_1)<(n_2/g_2)$ (e.g., masers).
     \item If a particle scatters with a rate greater than the expansion rate of the Universe, that particle remains in equilibrium.
+    \item Ordinary (i.e., baryonic) matter contributes at most 5\% of the Universe's critical density.
     \item Multipole moment $\ell=1$ and $\ell=2$ are the dipole and quadrupole moment, respectively.
     \item The greatest baryon contribution to the density comes not from stars in galaxies, but rather from gas in groups of galaxies; in these groups, $\Omega\sim0.02$.
     \item The ratio of the neutrino temperature $T_\nu$ to the CMB temperature $T_\mathrm{CMB}$ is $\dfrac{T_\nu}{T_\mathrm{CMB}} = \left( \dfrac{4}{11} \right)^{1/3}$.
