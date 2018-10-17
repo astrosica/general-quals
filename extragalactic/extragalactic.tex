@@ -259,6 +259,21 @@ The MWG has a total mass of about $10^{12}\,{\rm M_\odot}$. This is about the sa
 
 The components of the Milky Way Galaxy (MWG) have total masses as follows: a disk mass of $4.5\times10^{10}\,{\rm M_\odot}$, bulge mass of $4.5\times10^9\,{\rm M_\odot}$, dark halo mass of $2\times10^{12}\,{\rm M_\odot}$, and BH mass of $4\times10^6\,{\rm M_\odot}$.
 
+{\noindent}The Galactic disk rotates, with rotational velocity $V(R)$ depending on the distance $R$ from the center. We can estimate the mass of the Galaxy from the distribution of the stellar light and the mean mass-to-light ratio of the stellar population, since gas and dust represent less than $\sim10$\% of the mass of the stars. From this mass estimate we can predict the rotational velocity as a function of radius simply from Newtonian mechanics. However, the observed rotational velocity of the Sun around the Galactic center is significantly higher than would be expected from the observed mass distribution. If $M(<R_0)$ is the mass inside a sphere around the Galactic center with radius $R_0=8\,{\rm kpc}$, then the rotational velocity from Newtonian mechanics is
+
+\begin{align*}
+    V_0 = \sqrt{\frac{GM(<R)}{R_0}} ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}From the visible matter in stars we would expect a rotational velocity of $160\,{\rm km\,s}$, but we observe $V_0=220\,{\rm km\,s}$ (see Figure \ref{fig:rotationcurve}). This discrepancy, and the shape of the rotation curve $V(R)$ for larger distances $R$ from the Galactic center, indicates that our Galaxy contains significantly more mass than is visible in the form of stars. This additional mass is called dark matter. Its physical nature is still unknown. The main candidates are weakly interacting elementary particles like those postulated by some elementary particle theories, but they have yet not been detected in the laboratory. Macroscopic objects (i.e., celestial bodies) are also in principle viable candidates if they emit very little light.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The upper curve is the observed rotation curve $V(R)$ of our Galaxy, i.e., the rotational velocity of stars and gas around the Galactic center as a function of their galacto-centric distance. The lower curve is the rotation curve that we would predict based solely on the observed stellar mass of the Galaxy. The difference between these two curves is ascribed to the presence of dark matter, in which the Milky Way disk is embedded. This image is adapted from Nick Strobel's webpage at \href{www.astronomynotes.com}{www.astronomynotes.com}. Image taken from Schneider (2006).}}
+    \label{fig:rotationcurve}}
+    {\includegraphics[width=10cm]{figures/RotationCurve.png}}
+\end{figure}
+
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
@@ -361,7 +376,7 @@ calculated as
 {\noindent}and so
 
 \begin{align*}
-    v_t = v_r\cos\theta ~ [{\rm m\,s^{-1}}].
+    v_t = v_r\tan\theta ~ [{\rm m\,s^{-1}}].
 \end{align*}
 
 {\noindent}This means that the tangential velocity $\mathbf{v}_t$ can be measured without determining the distance to the stars in the cluster. On the other hand, we have a relation between the proper motion, the distance, and $\mathbf{v}$. Hence, a distance determination for the star is now possible with
@@ -374,10 +389,10 @@ calculated as
 
 {\noindent}\textbf{Main sequence fitting}: Most stars in the color-magnitude diagram (CMD) are located along the main sequence. This enables us to compile a calibrated main sequence of those stars whose trigonometric parallaxes are measured, thus with known distances. Utilizing photo- metric methods, it is then possible to derive the distance to a star cluster. 
 
-{\noindent}The stars of a star cluster define their own main sequence (CMDs for some star clusters are displayed in Fig. 2.5); since they are all located at the same distance, their main sequence is already defined in a CMD in which only apparent magnitudes are plotted. This cluster main sequence can then be fitted to a calibrated main sequence by a suitable choice of the distance, i.e., by adjusting the distance modulus $m-M$,
+{\noindent}The stars of a star cluster define their own main sequence; since they are all located at the same distance, their main sequence is already defined in a CMD in which only apparent magnitudes are plotted. This cluster main sequence can then be fitted to a calibrated main sequence by a suitable choice of the distance, i.e., by adjusting the distance modulus $m-M$,
 
 \begin{align*}
-    m_M = 5\log(d/{\rm pc}) - 5 ~ [{\rm mag}],
+    m-M = 5\log(d/{\rm pc}) - 5 ~ [{\rm mag}],
 \end{align*}
 
 {\noindent}where $m$ and $M$ denote the apparent and absolute magnitude, respectively.
@@ -505,7 +520,7 @@ calculated as
     P\sim\frac{R}{c_s}\sim\frac{R\sqrt{m_p}}{\sqrt{k_BT}} \sim\frac{R^{3/2}}{\sqrt{GM}} \propto \langle\rho\rangle^{-1/2},
 \end{align*}
 
-{\noindent}where $\langle\rho\rangle$ is the mean density of the star. This is a remarkable result -- the pulsation period depends only on the mean density. Furthermore, the stellar luminosity is related to its mass by approximately $L/M^33$. If we now consider stars of equal effective temperature $T_\mathrm{eff}$ (where $L\propto R^2T_\mathrm{eff}^4$), we find that
+{\noindent}where $\langle\rho\rangle$ is the mean density of the star. This is a remarkable result -- the pulsation period depends only on the mean density. Furthermore, the stellar luminosity is related to its mass by approximately $L/M^3$. If we now consider stars of equal effective temperature $T_\mathrm{eff}$ (where $L\propto R^2T_\mathrm{eff}^4$), we find that
 
 \begin{align*}
     P \propto \frac{R^{3/2}}{\sqrt{M}} \propto L^{7/12},
@@ -526,7 +541,7 @@ calculated as
 {\noindent}\textbf{Tully-Fisher relation}: Using $21\,{\rm cm}$ observations of spiral galaxies, in 1977 R. Brent Tully and J. Richard Fisher found that the maximum rotation velocity of spirals is closely related to their luminosity, following the relation
 
 \begin{align*}
-    L_\mathrm{TF} = \propto v_\mathrm{max}^\alpha ~ [{\rm erg\,s^{-1}}],
+    L_\mathrm{TF} \propto v_\mathrm{max}^\alpha ~ [{\rm erg\,s^{-1}}],
 \end{align*}
 
 {\noindent}where the power-law index (i.e., the slope) of the Tully-Fisher relation is about $\alpha\sim4$. The larger the wavelength of the filter in which the luminosity is measured, the smaller the dispersion of the Tully-Fisher relation (see Figure \ref{fig:tullyfisher}). This is to be expected because radiation at larger wavelengths is less affected by dust absorption and by the current star formation rate, which may vary to some extent between individual spirals. Furthermore, it is found that the value of $\alpha$ increases with the wavelength of the filter: The Tully-Fisher relation is steeper in the red, which follows from the fact that more massive, or more luminous galaxies (i.e., those with larger $v_\mathrm{,ax}$) are redder. The dispersion of galaxies around this relation in the NIR (e.g., in the H-band) is about 10\%.
@@ -577,7 +592,7 @@ calculated as
 
 {\noindent}`Deriving' the Faber-Jackson scaling relation is possible under the same assumptions as for the Tully-Fisher relation. However, the dispersion of ellipticals about this relation is larger than that of spirals about the Tully-Fisher relation.
 
-{\noindent}\textbf{$D_n-\sigma$ relation}: Another scaling relation for ellipticals which is of substantial importance in practical applications is the $D_n-\sigma$ relation. $D_n$ is defined as the mean diameter of an ellipse within which the average surface brightness. In corresponds to a value of $20.75\,{rm mag\,arcsec^{-2}}$ in the B-band. If we now assume that all ellipticals have a self-similar brightness profile, $I(R)=I_ef(R/R_r)$, with $f(1)=1$, then the luminosity within $D_n$ can be written as
+{\noindent}\textbf{$D_n-\sigma$ relation}: Another scaling relation for ellipticals which is of substantial importance in practical applications is the $D_n-\sigma$ relation. $D_n$ is defined as the mean diameter of an ellipse within which the average surface brightness. It corresponds to a value of $20.75\,{\rm mag\,arcsec^{-2}}$ in the B-band. If we now assume that all ellipticals have a self-similar brightness profile, $I(R)=I_ef(R/R_r)$, with $f(1)=1$, then the luminosity within $D_n$ can be written as
 
 \begin{align*}
     I_n\left(\frac{D_n}{2}\right)^2\pi &= 2\pi I_e \int\limits_0^{D_n/2} Rf(R/R_e)\mathrm{d}R \\
@@ -593,7 +608,7 @@ calculated as
 {\noindent}Empirically, we find that ellipticals follow the normalized $D_n-\sigma$ relation
 
 \begin{align*}
-    D_n = 2.05\times\left(\frac{\sigma_v}{100\,km\,s^{-1}}\right) ~ [{\rm kpc}]
+    D_n = 2.05\times\left(\frac{\sigma_v}{100\,{\rm km\,s^{-1}}}\right) ~ [{\rm kpc}]
 \end{align*}
 
 {\noindent}and they scatter around this relation with a relative width of about 15\%.
@@ -642,7 +657,7 @@ The Milky Way harbors a black hole (BH) in its center. Furthermore, it is genera
     r_\mathrm{BH} = \frac{GM_\bullet}{\sigma_v^2} \sim 0.4\left(\frac{M_\bullet}{10^6\,{\rm M_\odot}}\right)\left(\frac{\sigma_v}{100\,{\rm km\,s^{-1}}}\right)^{-2} ~ [{\rm pc}],
 \end{align*}
 
-{\noindent}he SMBH will significantly affect the kinematics of stars and gas in the galaxy. The corresponding angular scale is
+{\noindent}the SMBH will significantly affect the kinematics of stars and gas in the galaxy. The corresponding angular scale is
 
 \begin{align*}
     \theta_\mathrm{BH} = \frac{r_\mathrm{BH}}{d} \sim 0.1\left(\frac{M_\bullet}{10^6\,{\rm M_\odot}}\right) \left(\frac{\sigma_v}{100\,{\rm km\,s^{-1}}}\right)^{-2} \left(\frac{d}{1\,{\rm Mpc}}\right)^{-1} ~ [{\rm arcsec}],
@@ -762,6 +777,10 @@ Our Galaxy contains about $150$ globular clusters, but large elliptical galaxies
 
 {\noindent}There have been claims in the literature that even globular clusters contain a black hole; however, these claims are not undisputed. In addition, there may be objects that appear like globular clusters, but are in fact the stripped nucleus of a former dwarf galaxy. In this case, the presence of a central black hole is not unexpected.
 
+{\noindent}Historically, measuring globular cluster (GC) ages has been a major driver to refine stellar evolution models and bring them to the best possible state of the art. The same applies to GC observations, both photometrically (especially with HST) and spectroscopically, thus submitting stellar models to more and more stringent observational checks. Indeed, with GC ages a strict lower limit on the age of the Universe was at stake, and for quite some time in the 1980s they have been an embarrassment for the young, matter dominated Universe many were advocating at the time. Indeed, GC ages contributed to keeping open the door to a cosmological constant (or some equivalent to it) prior to the unambiguous discovery of the universal acceleration. Now, at the time of the precision/concordance cosmology, the age of the Universe issue appears to be solved, and as a side benefit we can be quite confident on the reliability of stellar evolution models, that never indicated GC ages significantly below 12 Gyr.
+
+{\noindent}The mainstream method to measure absolute globular cluster ages relies of the relation between the luminosity of the main sequence turnoff of theoretical isochrones, the age, and chemical composition. In turn, the absolute visual magnitude of the turnoff is given by $m_\mathrm{TO} - M_\mathrm{TO} = 5\log(d)-5$, where $m_\mathrm{TO}$ (the turnoff apparent magnitude corrected for extinction) is the directly observable quantity.
+
 \begin{figure}[t!]
     \includegraphics[width=14cm]{figures/MWGschematic.png}
     \centering
@@ -834,7 +853,7 @@ The mixture of galaxy types in clusters seems to differ from that of isolated (f
 
 {\noindent}The density-morphology relation is also seen in galaxy groups. The fraction of late-type galaxies decreases, and the fraction of early-type galaxies increases with decreasing distance from the group center, as is also the case in clusters. When considering the morphological mix of visually classified early- and late-type galaxies, averaged over the whole group or cluster (i.e., up to the virial radius) then it seems to be constant for group/cluster halo masses in excess of $\sim10^{13}\,{\rm M_\odot}$.
 
-{\noindent}A closer examination of Figure \ref{fig:densitymorphology} may provide a clue as to what physical processes are responsible for the dependence of the morphological mix on the local number density. We consider first the right-hand panel of Figure \ref{fig:densitymorphology}. Three different regimes in radius can be identified: for $R\gtrsim R_\mathrm{vir}$, the fraction of the different galaxy types remains basically constant. In the intermediate regime, $0.3\gtrsim R/R_\mathrm{vir}\gtrsim1$, the fraction of S0 galaxies strongly increases inwards, whereas the fraction of late-type spirals decreases accordingly. This result is compatible with the interpretation that in the outer regions of galaxy clusters spirals lose gas, for instance by their motion through the intergalactic medium (IGM), and these galaxies then transform into passive S0 galaxies. Below $R\lesssim0.3\,R_\mathrm{vir}$, the fraction of S0 galaxies decreases strongly, and the fraction of ellipticals increases substantially.
+{\noindent}A closer examination of Figure \ref{fig:densitymorphology} may provide a clue as to what physical processes are responsible for the dependence of the morphological mix on the local number density. We consider first the right-hand panel of Figure \ref{fig:densitymorphology}. Three different regimes in radius can be identified: for $R\gtrsim R_\mathrm{vir}$, the fraction of the different galaxy types remains basically constant. In the intermediate regime, $0.3\lesssim R/R_\mathrm{vir}\lesssim1$, the fraction of S0 galaxies strongly increases inwards, whereas the fraction of late-type spirals decreases accordingly. This result is compatible with the interpretation that in the outer regions of galaxy clusters spirals lose gas, for instance by their motion through the intergalactic medium (IGM), and these galaxies then transform into passive S0 galaxies. Below $R\lesssim0.3\,R_\mathrm{vir}$, the fraction of S0 galaxies decreases strongly, and the fraction of ellipticals increases substantially.
 
 {\noindent}In fact, the ratio of the number densities of S0 galaxies and ellipticals, for $R\lesssim0.3\,R_\mathrm{vir}$, strongly decreases as $R$ decreases. This may hint at a morphological transformation in which S0 galaxies are turned into ellipticals, probably by collisions or mergers. Such gas-free mergers, also called `dry mergers', may be the preferred explanation for the generation of elliptical galaxies. One of the essential properties of dry mergers is that such a merging process would not be accompanied by a burst of star formation, unlike the case of gas-rich collisions of galaxies. The existence of a population of newly born stars in ellipticals would be difficult to reconcile with the generally old stellar population actually observed in these galaxies.
 
@@ -915,7 +934,7 @@ Answer.
     \label{fig:stellarspectra}
 \end{figure}
 
-{\noindent}In the beginning, the spectrum and luminosity of a stellar population are dominated by the most massive stars, which emit intense UV radiation. But after $\sim10^7\,{\rm yr}$, the flux below $1,000$\,\AA is diminished significantly, and after $\sim10^8\,{\rm yr}$, it hardly exists any more. At the same time, the flux in the NIR increases because the massive stars evolve into red supergiants.
+{\noindent}In the beginning, the spectrum and luminosity of a stellar population are dominated by the most massive stars, which emit intense UV radiation. But after $\sim10^7\,{\rm yr}$, the flux below $1,000$\,\AA\,is diminished significantly, and after $\sim10^8\,{\rm yr}$, it hardly exists any more. At the same time, the flux in the NIR increases because the massive stars evolve into red supergiants.
 
 {\noindent}For $10^8\,{\rm yr}\gtrsim t\gtrsim10^9\,{\rm yr}$, the emission in the NIR remains high, whereas short-wavelength radiation is more and more diminished. After $\sim10^9\,{\rm yr}$, red giant stars (RGB stars) account for most of the NIR production. After $\sim3\times10^9\,{\rm yr}$, the UV radiation increases again slightly, due to blue stars on the horizontal branch into which stars evolve after the AGB phase, and due to white dwarfs which are hot when they are born. Between an age of $4$ and $13$ billion years, the spectrum of a stellar population evolves fairly little. 
 
@@ -1157,11 +1176,67 @@ What are galaxy clusters? What are their basic properties (eg, mass, size). List
 
 \subsubsection{Short answer}
 
-Answer.
+Clusters of galaxies are gravitationally bound systems of a hundred or more galaxies in a volume of diameter $\sim2\,{\rm h^{-1}\,Mpc}$ with masses of $\sim10^{13}-10^{14}\,{\rm M_\odot}$. Clusters predominantly contain early-type galaxies, so there is not much star formation taking place any more. Some clusters of galaxies seem to be rather circular in projection, others have a highly elliptical or irregular distribution of galaxies; some even have more than one center.
+
+{\noindent}Detection methods include:
+
+\begin{itemize}
+    \item Optical photometry.
+    \item X-ray emission. 
+    \item Sunyaev-Zeldovich effect.
+    \item Weak gravitational lensing. 
+\end{itemize}
 
 \subsubsection{Additional context}
 
-Additional context.
+The cluster of galaxies closest to us is the Virgo cluster, at a distance of $18\,{\, Mpc}$; it is a cluster with an irregular galaxy distribution. The closest regular cluster is Coma, at a distance of $90\,{\rm Mpc}$. Coma contains about 1000 luminous galaxies, of which 85\% are early-type galaxies.
+
+{\noindent}In 1933, Fritz Zwicky measured the radial velocities of the galaxies in Coma and found that their distribution around the mean has a dispersion of about $1000\,{\rm km\,s^{-1}}$. From the total luminosity of all its galaxies the mass of the cluster can be estimated. If the stars in the cluster galaxies have an average mass-to-light ratio ($M/L$) similar to that of our Sun, we would conclude $M=(M_\odot/L_\odot)L$. However, stars in early-type galaxies are on average slightly less massive than the Sun and thus have a slightly higher $M/L$. Thus, the above mass estimate needs to be increased by a factor of $\sim10$.
+
+{\noindent}Zwicky then estimated the mass of the cluster by multiplying the luminosity of its member galaxies with the mass-to-light ratio. From this mass and the size of the cluster, he could then estimate the velocity that a galaxy needs to have in order to escape from the gravitational field of the cluster -- the escape velocity. He found that the characteristic peculiar velocity of cluster galaxies (i.e., the velocity relative to the mean velocity) is substantially larger than this escape velocity. In this case, the galaxies of the cluster would fly apart on a time-scale of about $10^9\,{\rm yr}$ (the time it takes a galaxy to cross through the cluster once) and, consequently, the cluster would dissolve. However, since Coma seems to be a relaxed cluster (i.e., it is in equilibrium and thus its age is definitely larger than the dynamical time scale of $10^9\,{\rm yr}$) Zwicky concluded that the Coma cluster contains significantly more mass than the sum of the masses of its galaxies. Using the virial theorem he was able to estimate the mass of the cluster from the velocity distribution of the galaxies. This was the first clear indicator of the existence of dark matter.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/HydraA.png}
+    \caption{\footnotesize{The HydraA cluster of galaxies. The left-hand figure shows an optical image, the one on the right an image taken with the X-ray satellite Chandra. The cluster has a redshift of $z\approx0.054$ and is thus located at a distance of about $250\,{\rm Mpc}$. The X-ray emission originates from gas at a temperature of $40\times10^6\,{\rm K}$ which fills the space between the cluster galaxies. In the center of the cluster, the gas is cooler by about 15\%. Credit: Optical: B. McNamara, La Palma; X-ray: NASA/CXC/SAO. Figure taken from Schneider (2006).}}
+    \label{fig:hydraa}
+\end{figure}
+
+{\noindent}X-ray satellites later revealed that clusters of galaxies are strong sources of X-ray radiation. They contain hot gas, with temperatures ranging from $10^7$ up to $10^8\,{\rm K}$ (Figure \ref{fig:hydraa}). This gas temperature is another measure for the depth of the cluster's potential well, since the hotter the gas is, the deeper the potential well has to be to prevent the gas from escaping via evaporation. Mass estimates based on the X-ray temperature result in values that are comparable to those from the velocity dispersion of the cluster galaxies. Whereas the X-ray emitting gas provides a further mass component of ordinary, baryonic matter (in fact, the X-ray emitting gas contains more mass than the stars in the cluster galaxies) the total mass of clusters exceeds that of stars and gas by a factor of about five, thus clearly confirming the hypothesis of the existence of dark matter in clusters (Figure \ref{fig:abell383}). A third method for determining cluster masses, the so-called gravitational lensing effect, utilizes the fact that light is deflected in a gravitational field. The angle through which light rays are bent due to the presence of a massive object depends on the mass of that object. From observation and analysis of the gravitational lensing effect in clusters of galaxies, cluster masses are derived that are in agreement with those from the two other methods. Therefore, clusters of galaxies are a second class of cosmic objects whose mass is dominated by dark matter.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/Abell383.png}
+    \caption{\footnotesize{The cluster of galaxies Abell 383, as seen in optical light, superposed by an image taken at X-ray energies (purple) with the Chandra satellite observatory. The space between the galaxies is filled by a hot gas, with temperature of about 50 million degrees, which emits the energetic X-ray radiation. The cluster is at a redshift of $z=0.19$, corresponding to a distance of about $800\,{\rm Mpc}$, and has an estimated mass of $3\times10^{14}\,{\rm M_\odot}$. Credit: X-ray: NASA/CXC/Caltech/A. Newman et al./Tel Aviv/A. Morandi \& M. Limousin; Optical: NASA/STScI, ESO/VLT, SDSS. Figure taken from Schneider (2006).}}
+    \label{fig:abell383}
+\end{figure}
+
+{\noindent}Clusters of galaxies are cosmologically young structures. Their dynamical time-scale (i.e., the time in which the mass distribution in a cluster settles into an equilibrium state) is estimated as the time it takes a member galaxy to fully cross the cluster once. With a characteristic velocity of $v\sim1000\,{km\,s^{-1}}$ and a diameter of $R\sim2\,{\rm Mpc}$ one thus finds
+
+\begin{align*}
+    t_\mathrm{dyn} \sim \frac{2R}{v} \sim 2\times10^9\,{\rm yr}.
+\end{align*}
+
+{\noindent}the Universe is about $14\times10^9\,{\rm yr}$ old. During this time galaxies have not had a chance to cross the cluster many times. Therefore, clusters still contain, at least in principle, information about their initial state. Most clusters have not had the time to fully relax and evolve into a state of equilibrium that would be largely independent of their initial conditions. Comparing this with the time taken for the Sun to rotate around the center of the Milky Way (about $2\times10^8\,{\rm yr}$) galaxies thus have had plenty of time to reach their state of equilibrium.
+
+{\noindent}Besides massive clusters of galaxies there are also galaxy groups, which sometimes contain only a few luminous galaxies. In fact, the number density of groups is far larger than that of clusters. Our Milky Way is part of such a group, the Local Group, which also contains M31 (Andromeda), a second luminous spiral galaxy besides the Milky Way, as well as some far less luminous galaxies such as the Magellanic Clouds. Some groups of galaxies are very compact (i.e., their galaxies are confined within a very small volume). Interactions between these galaxies cause the lifetimes of many such groups to be much smaller than the age of the Universe, and the galaxies in such groups will merge.
+
+{\noindent}One of the most important discoveries of the UHURU X-ray satellite, launched in 1970, was the detection of X-ray radiation from massive clusters of galaxies. With the later Einstein X-ray satellite and more recently ROSAT, X-ray emission was also detected from lower-mass clusters and groups. Clusters of galaxies are the brightest extragalactic X-ray sources besides AGNs. If an X-ray telescope is pointed away from the Galactic disk, about 85\% of the detected sources are AGNs, the remaining 15\% are clusters. In contrast to AGNs, for which the X-ray emission is essentially point-like, the X-ray emission of clusters is extended. Their characteristic luminosity is $L_X\sim10^{43}\,{\rm erg\,s^{-1}}$ up to $10^{45}\,{\rm erg\,s^{-1}}$ for the most massive systems. The fact that this X-ray emission is spatially extended implies that it does not originate from individual galaxies. The spatial region from which we can detect this radiation can have a size of $1\,{\rm Mpc}$ or even larger. In accordance with the extended nature of the X-ray source, no variability of its X-ray flux has been detected.
+
+{\noindent}The assumption that the X-ray emission originates from a hot, diffuse gas (the ICM) was confirmed by the discovery of line emission in the X-ray spectrum of clusters. One of the most prominent lines in massive clusters is located at energies just below $7\,{\rm keV}$: it is the Lyman-$\alpha$ (``K$\alpha$'') line of 25-fold ionized iron (thus, of an iron nucleus with only a single electron). Slightly less ionized iron has a strong transition at somewhat lower energies of $E\sim6.4\,{\rm keV}$. Later, other lines were also discovered in the X-ray spectrum of clusters. As a rule, the hotter the gas is, thus the more completely ionized it is, the weaker the line emission. 
+
+{\noindent}The spectral energy distribution of the X-rays leads to the conclusion that the emission process is optically thin thermal bremsstrahlung (free-free radiation) from a hot gas which is collisionally ionized. This radiation is produced by the acceleration of electrons in the Coulomb field of protons and atomic nuclei. Since an accelerated electrically charged particle emits radiation, such scattering processes between electrons and protons in an ionized gas yields emission of photons. From the spectral properties of this radiation, the gas temperature in galaxy clusters can be determined, which is, for clusters with mass between $\sim3\times10^{13}\,{\rm M_\odot}$ and $10^{15}\,{\rm M_\odot}$, in the range of $10^7\,{\rm K}$ to $10^8\,{\rm K}$, or $1$ to $10\,{\rm keV}$, respectively.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/ComaXray.png}
+    \caption{\footnotesize{X-ray images of the Coma cluster, taken with the ROSAT-PSPC (left) and XMM-EPIC (right). The image size in the left panel is $2.7^\circ\times2.5^\circ$, much larger than what's seen in the optical. A remarkable feature is the secondary maximum in the X-ray emission at the lower right of the cluster center which shows that even Coma, long considered to be a regular cluster, is not completely in an equilibrium. Figure taken from Schneider (2006).}}
+    \label{fig:comaxray}
+\end{figure}
+
+{\noindent}Typically, regular clusters have an X-ray luminosity $L_X$ and temperature that smoothly increases with cluster mass. In contrast, irregular clusters at a given mass can be either hotter or cooler than regular clusters. Irregular clusters are the result of a recent merging event, and their temperature depends on the stage of the merging process. In the initial phases of the merger, the kinetic energy is not yet thermalized, and thus the gas remains at approximately the same temperature it had before the merging event. Later on, the gas is heated by shock fronts in which the kinetic energy is transformed into internal energy of the gas (i.e., heat). In this phase, the gas temperature can be higher than that of a regular cluster of the same mass. Finally, the cluster settles into an equilibrium state. Indications of past merger events can be seen in substructures of the X-ray emitting gas; even for the Coma cluster, which is frequently considered a typical example of a relaxed cluster, signs of previous merger events can be detected.
+
+{\noindent}The trend emerges that in clusters with a larger fraction of spiral galaxies, $L_X$ and $T$ are lower. Irregular clusters typically also have a lower central density of galaxies and gas compared to regular clusters. Clusters of galaxies with a dominant central galaxy often show a strong central peak in X-ray emission. The X-ray emission often deviates from axial symmetry, so that the assumption of clusters being roughly spherically symmetric is not well founded in these cases.
 
 \subsubsection{Follow-up Questions}
 
@@ -1208,8 +1283,8 @@ The term `quenching' has been used with two different meanings in the literature
 
 \begin{itemize}
     \item Gas does not accrete. Massive galaxies may quench because of reduced gas accretion onto their dark matter haloes. This condition has been termed cosmological starvation, and it stands as an example of quenching not driven by feedback. Even if accretion is completely shut of, the gas produced by stellar evolution could still fuel subsequent star formation. Therefore, an additional mechanism may be needed to maintain the galaxy quiescent.
-    \item Gas does not cool. In the standard picture of galaxy formation, gas collapses in a dark matter halo and heats up because of virial shocks. Simulations show, however, that the shocks are formed only when the halo is more massive than about $10^{12}\,{\rm M_\odot}$. This mass scale is roughly the same as the scale above which galaxies are observed to be prevalently quiescent, suggesting that virial shock heating may account for the onset of star formation quenching. After the shock, however, the hot halo gas should cool and become available for star formation. To prevent further star formation, additional gas heating is necessary. The most accepted explanation is feedback from radiatively inefficient accretion onto SMBHs (radio-mode feedback), which is only effective in massive haloes with hot gas. Implementations of this feedback yielded the first successful mass-function predictions from semi-analytical models. In addition to BH accretion, other gas heating mechanisms have been proposed. For example, a gas clump or a satellite falling into a massive halo releases potential energy. If this energy can be efficiently used to heat the halo gas through ram pressure or dynamical friction, this could constitute a substantial source of gravitational heating. Evolved stellar populations may also contribute to the gas heating through stellar feedback from type Ia supernovae and from stars on the asymptotic giant branch. Regardless of the energy source, it is likely that only massive haloes, in which the gas is roughly at the virial temperature, can be kept hot efciently. Heating processes are essential to solve a related problem. In galaxy clusters, the cooling time is short enough that the gas should quickly flow to the centre and trigger intense star formation; but central galaxies are typically quiescent. This ``cooling flow'' problem is fundamentally similar to galaxy quenching but takes place on larger scales.
-    \item Cold gas does not form stars efciently. Quenching may be due to a low star formation efficiency, rather than the absence of fuel. To form stars, cold gas must dissipate its kinetic energy (bulk motions and turbulence). Certain non-thermal processes may be capable of injecting considerable amounts of kinetic energy, such that the dissipation timescale is too long for the gas to settle. The stellar bulge could provide large-scale shear to inject turbulence, thereby stabilizing the gas disk from fragmentation. This process is called morphological quenching (or sometimes `gravitational quenching'), typically acts on timescales longer than a billion years and is only effective at low molecular gas fractions, below about 10\%. A similar mechanism can be caused by the stellar bar. This bar quenching may act on even shorter timescales if the stellar bar forms rapidly. Other potential sources of turbulence injection are low-power AGNs and magnetic fields. Such mechanisms may be responsible for maintaining low star formation rates but are unlikely to be the sole explanation for the abrupt termination of star formation in massive galaxies.
+    \item Gas does not cool. In the standard picture of galaxy formation, gas collapses in a dark matter halo and heats up because of virial shocks. Simulations show, however, that the shocks are formed only when the halo is more massive than about $10^{12}\,{\rm M_\odot}$. This mass scale is roughly the same as the scale above which galaxies are observed to be prevalently quiescent, suggesting that virial shock heating may account for the onset of star formation quenching. After the shock, however, the hot halo gas should cool and become available for star formation. To prevent further star formation, additional gas heating is necessary. The most accepted explanation is feedback from radiatively inefficient accretion onto SMBHs (radio-mode feedback), which is only effective in massive haloes with hot gas. Implementations of this feedback yielded the first successful mass-function predictions from semi-analytical models. In addition to BH accretion, other gas heating mechanisms have been proposed. For example, a gas clump or a satellite falling into a massive halo releases potential energy. If this energy can be efficiently used to heat the halo gas through ram pressure or dynamical friction, this could constitute a substantial source of gravitational heating. Evolved stellar populations may also contribute to the gas heating through stellar feedback from type Ia supernovae and from stars on the asymptotic giant branch. Regardless of the energy source, it is likely that only massive haloes, in which the gas is roughly at the virial temperature, can be kept hot efficiently. Heating processes are essential to solve a related problem. In galaxy clusters, the cooling time is short enough that the gas should quickly flow to the centre and trigger intense star formation; but central galaxies are typically quiescent. This ``cooling flow'' problem is fundamentally similar to galaxy quenching but takes place on larger scales.
+    \item Cold gas does not form stars efficiently. Quenching may be due to a low star formation efficiency, rather than the absence of fuel. To form stars, cold gas must dissipate its kinetic energy (bulk motions and turbulence). Certain non-thermal processes may be capable of injecting considerable amounts of kinetic energy, such that the dissipation timescale is too long for the gas to settle. The stellar bulge could provide large-scale shear to inject turbulence, thereby stabilizing the gas disk from fragmentation. This process is called morphological quenching (or sometimes `gravitational quenching'), typically acts on timescales longer than a billion years and is only effective at low molecular gas fractions, below about 10\%. A similar mechanism can be caused by the stellar bar. This bar quenching may act on even shorter timescales if the stellar bar forms rapidly. Other potential sources of turbulence injection are low-power AGNs and magnetic fields. Such mechanisms may be responsible for maintaining low star formation rates but are unlikely to be the sole explanation for the abrupt termination of star formation in massive galaxies.
     \item Cold gas is rapidly consumed. If star formation consumes cold gas faster than it is replenished, the galaxy will run out of fuel and become quiescent. This can happen if star formation takes place in efficient bursts, potentially triggered by compressive gas motions and effective angular momentum loss. Major mergers of galaxies have first been invoked as a possible trigger, and more recently violent disk instabilities and positive AGN feedback have also been suggested. Clearly, gas consumption alone can quench star formation only temporarily. Additional mechanisms are required to maintain low star formation rates until the present day.
     \item Gas is removed. The accretion onto SMBHs could release sufficient energy and momentum to expel gas from galaxies. This quasar-mode feedback is most efficiently triggered by major mergers owing to high gas inflow rates. Although rare and short-lived, this process can quench star formation by removing the gas supply from massive galaxies.
 \end{itemize}
