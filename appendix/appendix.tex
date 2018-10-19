@@ -336,7 +336,7 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Chandrasekhar mass}: $M_C ~ [{\rm M_\odot}]$
 
-{\noindent}\textbf{CMB power spectrum amplitude}: $C_\ell ~ [{\rm units??}]$
+{\noindent}\textbf{CMB power spectrum amplitude}: $C_\ell ~ [{\rm \mu K^2}]$
 
 {\noindent}\textbf{CMB temperature}: $T_\mathrm{CMB} ~ [{\rm K}]$
 
@@ -568,7 +568,7 @@ dimensionless}]$
 
 {\noindent}\textbf{Metallicity}: $Z ~ [{\rm dimensionless}]$
 
-{\noindent}\textbf{Multipole moment}: $C_\ell ~ [{\rm units???}]$
+{\noindent}\textbf{Multipole moment}: $C_\ell ~ [{\rm \mu K^2}]$
 
 {\noindent}\textbf{Neutral fraction of hydrogen}: $x_\mathrm{HI} ~ [{\rm dimensionless}]$
 
@@ -630,7 +630,7 @@ dimensionless}]$
 
 {\noindent}\textbf{Potential energy}: $E_\mathrm{pot} ~ [{\rm J}]$
 
-{\noindent}\textbf{Power spectrum}: $P(k) ~ [{\rm units???}]$
+{\noindent}\textbf{Power spectrum}: $P(k) ~ [{\rm function}]$
 
 {\noindent}\textbf{Proper distance}: $d_p ~ [{\rm Mpc}]$
 
@@ -1562,6 +1562,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     P = \sqrt{Q^2 + U^2} = pI ~ [{\rm Jy}]
 \end{align*}
 
+{\noindent}\textbf{Power spectrum}:
+\begin{align*}
+    P(k) = 2\pi \int\limits_0^\infty x^2\frac{\sin(kx)}{kx}\xi(x)\mathrm{d}x ~ [{\rm dimensionless}]
+\end{align*}
+
 {\noindent}\textbf{Proper distance}:
 \begin{align*}
     d_p(t_0) &= c\int\limits_t^{t_0}\frac{\mathrm{d}t}{a(t)} ~ [{\rm Mpc}] \\
@@ -1744,6 +1749,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Tully-Fisher relation}:
 \begin{align*}
     L_\mathrm{TF} \propto v_\mathrm{max}^4 ~ [{\rm erg\,s^{-1}}]
+\end{align*}
+
+{\noindent}\textbf{Two-point correlation function}:
+\begin{align*}
+    \xi(r) = \left(\frac{r}{r_0}\right)^{-1.7} ~ [{\rm dimensionless}] 
 \end{align*}
 
 {\noindent}\textbf{Uncertainty Principle}:
