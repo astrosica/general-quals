@@ -638,6 +638,8 @@ dimensionless}]$
 
 {\noindent}\textbf{Proton}: $p ~ [{\rm particle}]$
 
+{\noindent}\textbf{R parameter}: $R_V ~ [{\rm dimensionless}]$
+
 {\noindent}\textbf{Radius of curvature}: $R_0 ~ [{\rm Mpc}]$
 
 {\noindent}\textbf{Radiative flux}: $F ~ [{\rm W\,m^{-2}}]$
@@ -1174,8 +1176,12 @@ dimensionless}]$
 
 {\noindent}\textbf{Comoving sound horizon}:
 \begin{align*}
-    r_\mathrm{H,com}(z) &= \int\limits_0^t \frac{c\mathrm{d}t}{a(t)} ~ [{\rm Mpc}]
-    &= \int\limits_0^{(1+z)^{-1}} \frac{c\mathrm{d}a}{a^2H(a)} ~ [{\rm Mpc}]
+    r_\mathrm{H,com}(z) = \int\limits_0^t \frac{c\mathrm{d}t}{a(t)} = \int\limits_0^{(1+z)^{-1}} \frac{c\mathrm{d}a}{a^2H(a)} ~ [{\rm Mpc}]
+\end{align*}
+
+{\noindent}\textbf{Compton y-parameter}:
+\begin{align*}
+    y = \int\frac{k_BT}{m_ec^2}\sigma_Tn_e\mathrm{d}l ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Cosmological constant}:
@@ -1185,14 +1191,19 @@ dimensionless}]$
 
 {\noindent}\textbf{Correlation function of CMB temperature anisotropies}:
 \begin{align*}
-    C(\theta) = \left\langle\frac{\delta T}{T}(\hat{n})\frac{\delta T}{T}(\hat{n}')\right\rangle_{\hat{n}\cdot\hat{n}'=\cos\theta} \\
-    C(\theta) = \frac{1}{4\pi} \sum\limits_{\ell=0}^\infty (2\ell+\ell)(C_\ell)P_\ell(cos\theta),
+    C(\theta) = \left\langle\frac{\delta T}{T}(\hat{n})\frac{\delta T}{T}(\hat{n}')\right\rangle_{\hat{n}\cdot\hat{n}'=\cos\theta}  ~ [{\rm dimensionless}] \\
+    C(\theta) = \frac{1}{4\pi} \sum\limits_{\ell=0}^\infty (2\ell+\ell)(C_\ell)P_\ell(cos\theta) ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Collisional coupling coefficient}:
 \begin{align*}
     x_c &= x_c^\mathrm{HH} + x_c^\mathrm{eH} + x_c^\mathrm{pH} \\
         &= \frac{T_*}{A_{10}T_\gamma} \left[k_{1-0}^\mathrm{HH}(T_k)n_\mathrm{H}+k_{1-0}^{e\mathrm{H}}(T_k)n_e+k_{1-0}^{p\mathrm{H}}(T_k)n_p\right] ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}\textbf{Colour excess-HI column density relation}:
+\begin{align*}
+    E(B-V) = 1.7 \left(\frac{N_\mathrm{H}}{10^{22}\,{\rm atoms\,cm^{-2}}}\right) ~ [{\rm mag}]
 \end{align*}
 
 {\noindent}\textbf{Coupling coefficient (total)}:
@@ -1207,7 +1218,7 @@ dimensionless}]$
 
 {\noindent}\textbf{Crossing timescale}:
 \begin{align*}
-    t_\mathrm{cross} = \frac{R}{v} ~ [{\rm yr}
+    t_\mathrm{cross} = \frac{R}{v} ~ [{\rm yr}]
 \end{align*}
 
 {\noindent}\textbf{Curvature term}:
@@ -1256,7 +1267,7 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 \begin{align*}
     \Omega_\Lambda &\equiv \dfrac{\rho_\Lambda}{\rho_c} \\
     &= \left(\dfrac{\Lambda}{\cancel{8\pi G}}\right) \left(\dfrac{\cancel{8\pi G}}{3H_0}\right) \\
-    &= \dfrac{\Lambda}{3H_0} ~ [{\rm dimensionless}] ~ (???)
+    &= \dfrac{\Lambda}{3H_0} ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Density parameter of matter}:
@@ -1357,6 +1368,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Extinction coefficient for the MWG}:
 \begin{align*}
     A_{V,\mathrm{MWG}} = (3.1\pm0.1)E(B-V) ~ [{\rm mag}]
+\end{align*}
+
+{\noindent}\textbf{Extinction coefficient in the Solar neighborhood}:
+\begin{align*}
+    A_V \approx \frac{d}{1\,{\rm kpc}} ~ [{\rm mag}]
 \end{align*}
 
 {\noindent}\textbf{Faber-Jackson relation}:
@@ -1583,6 +1599,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     A_p(t_0) = 4\pi S_\kappa(r)^2 ~ [{\rm Mpc^2}]
 \end{align*}
 
+{\noindent}\textbf{R parameter}:
+\begin{align*}
+    R_V = \frac{A_V}{E(B-V)} ~ [{\rm dimensionless}].
+\end{align*}
+
 {\noindent}\textbf{Radiation density-scale factor relation}:
 \begin{align*}
     \rho_r = \rho_{r,0}a^{-4} ~ [{\rm g\,cm^{-3}}]
@@ -1718,22 +1739,17 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Surface brightness (bulge)}:
 \begin{align*}
-    \mu_\mathrm{bulge} = \mu_e + 8.3268\left[\left(\frac{R}{R_e}\right)^{1/4}-1\right] ~ {\rm mag\,arcsec^{-2}}
+    \mu_\mathrm{bulge} = \mu_e + 8.3268\left[\left(\frac{R}{R_e}\right)^{1/4}-1\right] ~ [{\rm mag\,arcsec^{-2}}]
 \end{align*}
 
 {\noindent}\textbf{Surface brightness (disk)}:
 \begin{align*}
-    \mu_\mathrm{disk} = \mu_0 + 1.09\left(\frac{R}{h_R}\right) ~ {\rm mag\,arcsec^{-2}}.
+    \mu_\mathrm{disk} = \mu_0 + 1.09\left(\frac{R}{h_R}\right) ~ {\rm [mag\,arcsec^{-2}}]
 \end{align*}
 
 {\noindent}\textbf{Temperature-redshift-scalefactor relation}:
 \begin{align*}
     T = (1+z)T_0 = \frac{T_0}{a} ~ [{\rm K}]
-\end{align*}
-
-{\noindent}\textbf{Temperature-scale factor relation}:
-\begin{align*}
-    T = aT_0 ~ [{\rm K}]
 \end{align*}
 
 {\noindent}\textbf{Thomson cross section}:
@@ -1779,8 +1795,8 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Virial theorem}:
 \begin{align*}
-    E_\mathrm{pot} &= -2E_\mathrm{kin} \\
-    E_\mathrm{tot} &= \frac{1}{2}E_\mathrm{pot}
+    E_\mathrm{pot} &= -2E_\mathrm{kin} ~ [{\rm J}] \\
+    E_\mathrm{tot} &= \frac{1}{2}E_\mathrm{pot} ~ [{\rm J}]
 \end{align*}
 
 {\noindent}\textbf{Wavelength-redshift relation}:
