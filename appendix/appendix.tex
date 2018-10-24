@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{enumitem}
@@ -12,6 +12,9 @@
 left=25mm,right=25mm,%
 bindingoffset=0mm, top=20mm,bottom=20mm}
 \newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+\AtBeginDocument{%
+   \setlength\abovedisplayskip{0pt}
+   \setlength\belowdisplayskip{5pt}}
 
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,filecolor=cyan,urlcolor=magenta}
@@ -139,6 +142,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{EoR:} epoch of reionization
 
+{\noindent}\textbf{EOS:} equation of state
+
 {\noindent}\textbf{ff:} free-free
 
 {\noindent}\textbf{FIR:} far infrared
@@ -148,6 +153,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{GC:} globular cluster
 
 {\noindent}\textbf{gE:} giant elliptical
+
+{\noindent}\textbf{GMC:} giant molecular cloud
 
 {\noindent}\textbf{GP:} Gunn-Peterson
 
@@ -181,6 +188,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{MACHO:} massive compact halo objects
 
+{\noindent}\textbf{MMR:} mass-magnitude relation
+
 {\noindent}\textbf{MW:} Milky Way
 
 {\noindent}\textbf{MWG:} Milky Way Galaxy
@@ -189,7 +198,13 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{NS:} neutron star
 
+{\noindent}\textbf{ONC:} Orion Nebula cluster
+
 {\noindent}\textbf{pc}: parsec
+
+{\noindent}\textbf{PDMF}: present-day mass function
+
+{\noindent}\textbf{PDF}: probability distribution function
 
 {\noindent}\textbf{PGM}: pre-galactic medium
 
@@ -230,6 +245,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{S/N:} signal-to-noise
 
 {\noindent}\textbf{SNR:} signal-to-noise ratio
+
+{\noindent}\textbf{STMD:} spectral type - magnitude diagram
 
 {\noindent}\textbf{SZ:} Sunyaev-Zeldovich
 
@@ -330,6 +347,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Boltzmann constant}: $k_B ~ [{\rm m^2\,kg\,s^{-2}\,K^{-1}}]$
 
+{\noindent}\textbf{Bonnor-Ebert mass}: $M_{BE} ~ [{\rm M_\odot}]$
+
 {\noindent}\textbf{Brightness temperature}: $T_b ~ [{\rm K}]$
 
 {\noindent}\textbf{Brightness temperature of radio source}: $T_r ~ [{\rm K}]$
@@ -364,6 +383,8 @@ dimensionless}]$
 {\noindent}\textbf{Coupling coefficient (total)}: $x_\mathrm{tot} ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Critical density}: $\rho_c ~ [{\rm g\,cm^{-3}}]$
+
+{\noindent}\textbf{Critical density}: $\rho_\mathrm{crit} ~ [{\rm g\,cm^{-3}}]$
 
 {\noindent}\textbf{Cross section}: $\sigma ~ [{\rm m^{2}}]$
 
@@ -409,6 +430,8 @@ dimensionless}]$
 {\noindent}\textbf{Density parameter of radiation}: $\Omega_r ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Density perturbation field}: $\delta(\mathbf{x},t) ~ [{\rm dimensionless}]$
+
+{\noindent}\textbf{Density PDF}: $p(\rho) ~ [{\rm ???}]$
 
 {\noindent}\textbf{Deuterium}: ${\rm D} ~ [{\rm element}]$
 
@@ -456,7 +479,7 @@ dimensionless}]$
 
 {\noindent}\textbf{Energy of photons}: $E_\gamma ~ [{\rm eV}]$
 
-{\noindent}\textbf{Escape velocity}: $v)\mathrm{esp} ~ [{\rm km\,s^{-1}}]$
+{\noindent}\textbf{Escape velocity}: $v_\mathrm{esc} ~ [{\rm km\,s^{-1}}]$
 
 {\noindent}\textbf{Excitation temperature}: $T_{ex} ~ [{\rm K}]$
 
@@ -514,9 +537,15 @@ dimensionless}]$
 
 {\noindent}\textbf{IMF}: $\xi(m) ~ [{\rm dimensionless}]$
 
+{\noindent}\textbf{IMF peak mass}: $M_\mathrm{peak} ~ [{\rm M_\odot}]$
+
 {\noindent}\textbf{Inflationary period}: ${\rm t_\mathrm{inflate}} ~ [{\rm s}]$
 
+{\noindent}\textbf{Initial mass doubling time}: $(M_0/\dot{M}_0) ~ [{\rm yr}]$
+
 {\noindent}\textbf{Jeans mass}: $M_J ~ [{\rm M_\odot}]$
+
+{\noindent}\textbf{Jeans number}: $n_J ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Joule}: ${\rm J} ~ [{\rm unit}]$
 
@@ -558,7 +587,13 @@ dimensionless}]$
 
 {\noindent}\textbf{Mass absorption coefficient}: $\kappa_\nu ~ [{\rm cm^2\,g^{-1}}]$
 
+{\noindent}\textbf{Mass accretion rate index}: $\eta ~ [{\rm dimensionless}]$
+
+{\noindent}\textbf{Mass of the stellar population}: $M_* ~ [{\rm kg}]$
+
 {\noindent}\textbf{Mass of the Sun}: $M_\odot ~ [{\rm kg}]$
+
+{\noindent}\textbf{Mass surface density}: $\Sigma ~ [{\rm M_\odot\,pc^{-2}}]$
 
 {\noindent}\textbf{Mean free path}: $\ell ~ [{\rm m}]$
 
@@ -692,7 +727,13 @@ dimensionless}]$
 
 {\noindent}\textbf{Silk mass}: $M_s ~ [{\rm kg}]$
 
+{\noindent}\textbf{Size scale}: $\ell ~ [{\rm pc}]$
+
 {\noindent}\textbf{Solid angle}: $\Omega ~ [{\rm sr}]$
+
+{\noindent}\textbf{Sonic length}: $\ell_s ~ [{\rm pc}]$
+
+{\noindent}\textbf{Sonic mass}: $M_s ~ [{\rm M_\odot}]$
 
 {\noindent}\textbf{Sound speed}: $v_s ~ [{\rm m\,s^{-1}}]$
 
@@ -746,6 +787,10 @@ dimensionless}]$
 
 {\noindent}\textbf{Thomson cross section}: $\sigma_T ~ [{\rm m^2}]$
 
+{\noindent}\textbf{Time}: $t ~ [{\rm s\,or\,yr}]$
+
+{\noindent}\textbf{Time in units of the initial mass doubling time}: $\tau ~ [{\rm dimensionless}]$
+
 {\noindent}\textbf{Transfer function}: $T(k) ~ [{\rm ???}]$
 
 {\noindent}\textbf{Tritium}: $T ~ [{\rm element}]$
@@ -763,6 +808,10 @@ dimensionless}]$
 {\noindent}\textbf{Velocity (tangential)}: $v_t ~ [{\rm m\,s^{-1}}]$
 
 {\noindent}\textbf{Velocity dispersion}: $\sigma_v ~ [{\rm m\,s^{-1}}]$
+
+{\noindent}\textbf{Velocity dispersion on size scale $\ell$}: $\sigma_v(\ell) ~ [{\rm m\,s^{-1}}]$
+
+{\noindent}\textbf{Virial parameter}: $\alpha_\mathrm{vir} ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Virial temperature}: $T_\mathrm{vir} ~ [{\rm K}]$
 
@@ -1216,6 +1265,11 @@ dimensionless}]$
     \rho_c \equiv \dfrac{3H_0^2}{8\pi G}  ~ [{\rm g\,cm^{-3}}]
 \end{align*}
 
+{\noindent}\textbf{Critical density}:
+\begin{align*}
+    \rho_\mathrm{crit} \sim \frac{c_s^2}{G\ell_s\ell} ~ [{\rm g\,cm^{-3}}]
+\end{align*}
+
 {\noindent}\textbf{Crossing timescale}:
 \begin{align*}
     t_\mathrm{cross} = \frac{R}{v} ~ [{\rm yr}]
@@ -1447,6 +1501,12 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     v = H_0d ~ [{\rm km\,s^{-1}}]
 \end{align*}
 
+{\noindent}\textbf{IMF peak mass}:
+\begin{align*}
+    M_\mathrm{peak} &\propto \frac{c_s^3}{\sqrt{G^3\bar{\rho}}}  ~ [{\rm M_\odot}] \\
+    M_\mathrm{peak} &\propto \frac{c_s^2\ell_s}{G} ~ [{\rm M_\odot}]
+\end{align*}
+
 {\noindent}\textbf{IMF (Salpeter)}:
 \begin{align*}
     \xi(m) \propto m^{-2.35} ~ [{\rm dimensionless}]
@@ -1467,6 +1527,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     P_0(x) = 1 ~ [{\rm dimensionless}] \\
     P_1(x) = x ~ [{\rm dimensionless}] \\
     P_2(x) = \frac{1}{2}(3x^2-1) ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}\textbf{Luminosity}:
+\begin{align*}
+    L=4\pi R^2\sigma T^4 ~ [{\rm erg\,s^{-1}}]
 \end{align*}
 
 {\noindent}\textbf{Luminosity (Faber-Jackson)}:
@@ -1536,6 +1601,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Neutrino velocity}:
 \begin{align*}
     v_\nu \sim 150(1+z)\left(\frac{m_\nu}{1\,{\rm eV}}\right)^{-1} ~ [{\rm km\,s^{-1}}]
+\end{align*}
+
+{\noindent}\textbf{Number density}:
+\begin{align*}
+    n = \frac{\rho}{\mu m_H} ~ [{\rm cm^{-3}}]
 \end{align*}
 
 {\noindent}\textbf{Number density of Lyman-$\alpha$ forest lines}:
@@ -1690,6 +1760,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \Omega = \frac{A}{r^2} ~ [{\rm sr}]
 \end{align*}
 
+{\noindent}\textbf{Sonic mass}:
+\begin{align*}
+    M_s \approx \frac{c_s^2\ell_s}{G} ~ [{\rm M_\odot}]
+\end{align*}
+
 {\noindent}\textbf{Sound speed}:
 \begin{align*}
     c_s &= \sqrt{\frac{\partial P}{\partial\rho}} ~ [{\rm m\,s^{-1}}] \\
@@ -1757,6 +1832,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 \sigma_T = \frac{8\pi}{3}r_{e,0}^2 ~ [{\rm m^2}]
 \end{align*}
 
+{\noindent}\textbf{Time in units of the initial mass doubling time}:
+\begin{align*}
+    \tau = \frac{t}{(M_0/\dot{M}_0)} ~ [{\rm dimensionless}]
+\end{align*}
+
 {\noindent}\textbf{Tired Light Hypothesis energy scaling}:
 \begin{align*}
     E = E_0 \mathrm{e}^{(-r/R_0)} ~ [{\rm eV}]
@@ -1791,6 +1871,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Velocity (tangential)}:
 \begin{align*}
     v_t = d\mu = 4.74\left(\frac{d}{1\,{\rm pc}}\right) \left(\frac{\mu}{1\,''\,{\rm year^{-1}}}\right) ~ [{\rm m\,s^{-1}}]
+\end{align*}
+
+{\noindent}\textbf{Virial parameter}:
+\begin{align*}
+    \alpha_\mathrm{vir} \sim \frac{\sigma_vR}{GM} ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Virial theorem}:
