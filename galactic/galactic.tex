@@ -449,7 +449,6 @@ Once the mass-magnitude relationship and any bias corrections have been applied,
 
 {\noindent}These advantages also come with some significant costs:
 
-
 \begin{itemize}
     \item The statistics are generally much worse than for the field. The most populous young cluster that is close enough for us to resolve individual stars down to the hydrogen burning limit is the ONC, and it contains only $\sim10^3-10^4$ stars, as compared to $\sim10^6$ for the largest field surveys.
     \item The MMR that is required to convert an observed magnitude into a mass is much more complex in a young cluster, because a significant fraction of the stars may be pre-main sequence. For such stars, the magnitude is a function not just of the mass but also the age, and one must fit both simultaneously, and with significant theoretical uncertainty. How much of a problem this is depends on the cluster age -- for a $100\,{\rm Myr}$ old cluster like the Pleiades, all the stars have reached the main sequence, while for a $\sim1-2\,{\rm Myr}$ old cluster like Orion, almost none have. However, there is an obvious trade-off here: in a Pleiades-aged cluster, the correction for stars leaving the main sequence is significant, while for an Orion-aged cluster it is negligible.
@@ -486,7 +485,415 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+Although galaxies are composed of stars, we shall neglect the forces from individual stars and consider only the large-scale forces from the overall mass distribution, which is made up of thousands of millions of stars. In other words, we assume that the gravitational fields of galaxies are smooth, neglecting small-scale irregularities due to individual stars or larger objects like globular clusters or molecular clouds. The gravitational fields of galaxies are sufficiently smooth that these irregularities can affect the orbits of stars only after many crossing times.
+
+{\noindent}\textbf{1. Orbits in symmetric potentials}: 
+
+{\noindent}We first consider orbits in a static, spherically symmetric gravitational field. Such fields are appropriate for globular clusters, which are usually nearly spherical, but, more important, the results we obtain provide an indispensable guide to the behavior of orbits in more general fields.
+
+{\noindent}The motion of a star in a centrally directed gravitational field is greatly simplified by the familiar law of conservation of angular momentum. Thus if
+
+\begin{align*}
+    \vec{r} = r\hat{e}_r ~ [{\rm pc}]
+\end{align*}
+
+{\noindent}denotes the position vector of the star with respect to the center, and the radial acceleration is
+
+\begin{align*}
+    \vec{g} = g(r)\hat{e}_r ~ [{\rm m\,s^{-2}}],
+\end{align*}
+
+{\noindent}the equation of motion of the star is
+
+\begin{align*}
+    \frac{{\rm d}^2\vec{r}}{{\rm d}t^2} = g(r)\hat{e}_r ~ [{\rm m^2\,s^{-2}}].
+\end{align*}
+
+{\noindent}If we remember that the cross product of any vector with itself is zero, we have
+
+\begin{align*}
+    \frac{{\rm d}}{{\rm d}t}\left(\vec{r}\times\frac{{\rm d}\vec{r}}{{\rm d}t}\right) = \frac{{\rm d}\vec{r}}{{\rm d}t}\times\frac{{\rm d}\vec{r}}{{\rm d}t}+\vec{r}\times\frac{{\rm d^2}\vec{r}}{{\rm d}t^2} = g(r)\vec{r}\times\hat{e}_r = 0.
+\end{align*}
+
+{\noindent}This equation says that $\vec{r}\times\vec{\dot{r}}$ is some constant vector which we will denote $\vec{L}$:
+
+\begin{align*}
+    \vec{r}\times\frac{{\rm d}\vec{r}}{{\rm d}t} \equiv \vec{L} ~ [{\rm m^2\,s^{-1}\,kg^{-1}}].
+\end{align*}
+
+{\noindent}Of course, $\vec{L}$ is simply the \textbf{angular momentum per unit mass}, a vector perpendicular to the plane defined by the star's instantaneous position and velocity vectors. Since this vector is constant, we conclude that the star moves in a plane, the orbital plane. This finding greatly simplifies the determination of the star's orbit, for now that we have established that the star moves in a plane, we may simply use plane polar coordinates $(r,\psi)$ in which the center of attraction is at $r=0$ and $\psi$ is the \textbf{azimuthal angle} in the orbital plane. In terms of these coordinates, the \textbf{Lagrangian per unit mass} is
+
+\begin{align*}
+    \mathcal{L} = \frac{1}{2}[\vec{\dot{r}}^2 + (r\dot{\psi})^2] - \Phi(r) ~ [{\rm J\,kg^{-1}}],
+\end{align*}
+
+{\noindent}where $\Phi(r)$ is the \textbf{gravitational potential} and $g(r)=−{\rm d}\Phi/{\rm d}r$. The equations of motion are
+
+\begin{align*}
+    0 &= \frac{{\rm d}}{{\rm d}t}\frac{\partial\mathcal{L}}{\partial\vec{\dot{r}}} - \frac{\partial\mathcal{L}}{\partial\vec{r}} = \vec{\ddot{r}} - r\dot{\psi}^2 + \frac{{\rm d}\Phi}{{\rm d}r} \\
+    0 &= \frac{{\rm d}}{{\rm d}t}\frac{\partial\mathcal{L}}{\partial\dot{\psi}} - \frac{\partial\mathcal{L}}{\partial\psi} = \frac{{\rm d}}{{\rm d}t}(r^2\dot{\psi}).
+\end{align*}
+
+{\noindent}The second of these equations implies that
+
+\begin{align*}
+    r^2\dot{\psi} = {\rm constant} \equiv L.
+\end{align*}
+
+{\noindent}It is not hard to show that $L$ is actually the length of the vector $\vec{r}\times\vec{\dot{r}}$, and hence that $r^2\dot{\psi}\equiv L$ is just a restatement of the conservation of angular momentum. Geometrically, $L$ is equal to twice the rate at which the radius vector sweeps out area.
+
+{\noindent}To proceed further we use $r^2\dot{\psi} = {\rm constant} \equiv L$ to replace time $t$ by angle $\psi$ as the independent variable in the first EOM. Since the former implies
+
+\begin{align*}
+    \frac{{\rm d}}{{\rm d}t} = \frac{L}{r^2}\frac{{\rm d}}{{\rm d}\psi},
+\end{align*}
+
+{\noindent}the first EOM becomes
+
+\begin{align*}
+    \frac{L^2}{r^2}\frac{{\rm d}}{{\rm d}\psi} \left(\frac{1}{r^2}\frac{{\rm d}r}{{\rm d}\psi}\right) - \frac{L^2}{r^3} = -\frac{{\rm d}\Phi}{{\rm d}r}.
+\end{align*}
+
+{\noindent}This equation can be simplified by the substitution
+
+\begin{align*}
+    u\equiv\frac{1}{r},
+\end{align*}
+
+{\noindent}which puts the EOM into the form
+
+\begin{align*}
+    \frac{{\rm d}^2u}{{\rm d}\psi^2} + u = \frac{1}{L^2u^2}\frac{{\rm d}\Phi}{{\rm d}r}\left(\frac{1}{u}\right).
+\end{align*}
+
+{\noindent}The solutions of this equation are of two types: along unbound orbits $r\rightarrow\infty$ and hence $u\rightarrow0$, while on bound orbits $r$ and $u$ oscillate between finite limits. Thus each bound orbit is associated with a periodic solution of this equation. We give several analytic examples later in this section, but in general the solutions of this EOM must be obtained numerically.
+
+{\noindent}Some additional insight is gained by deriving a ``radial energy'' equation from this EOM in much the same way as we can derive the conservation of kinetic plus potential energy; we multiply the EOM by ${\rm d}u/{\rm d}\psi$ and integrate over $\psi$ to obtain
+
+\begin{align*}
+    \left(\frac{{\rm d}u}{{\rm d}\psi}\right)^2 + \frac{2\Phi}{L^2} + u^2 = {\rm constant} \equiv \frac{2E}{L^2},
+\end{align*}
+
+{\noindent}where we have used the relation ${\rm d}\Phi/{\rm d}r=−u^2({\rm d}\Phi/{\rm d}u)$.
+
+{\noindent}This result can also be derived using Hamiltonians.
+From the original EOMs we have that the momenta are $p_r=\partial\mathcal{L}/\partial\dot{r}=\dot{r}$ and $p_\psi=\partial\mathcal{L}/\partial\dot{\psi}=r^2\dot{\psi}$, so we find that the \textbf{Hamiltonian per unit mass} is
+
+\begin{align*}
+    H(r,p_r,p_\psi) &= p_r\dot{r} + p_\psi\dot{\psi} - \mathcal{L} ~ [{\rm J\,kg^{-1}}] \\
+    &= \frac{1}{2}\left(p_r^2+\frac{p_\psi^2}{r^2}\right) + \Phi(r) \\
+    &= \frac{1}{2}\left(\frac{{\rm d}r}{{\rm d}t}\right)^2 + \frac{1}{2}\left(r\frac{{\rm d}\psi}{{\rm d}t}\right)^2 + \Phi(r).
+\end{align*}
+
+{\noindent}We find that the constant $E$ in this equation is simply the numerical value of the Hamiltonian, which we refer to as the energy of that orbit.
+
+{\noindent}For bound orbits the equation ${\rm d}u/{\rm d}\psi=0$ or
+
+\begin{align*}
+    u^2 + \frac{2[\Phi(1/u)-E]}{L^2} = 0,
+\end{align*}
+
+{\noindent}will normally have two roots $u_1$ and $u_2$ between which the star oscillates radially as it revolves in $\psi$. Thus the orbit is confined between an inner radius $r_1=u_1^{-1}$, known as the \textbf{pericenter} distance, and an outer radius $r_2=u_2^{-1}$, called the \textbf{apocenter} distance. The pericenter and apocenter are equal for a circular orbit. When the apocenter is nearly equal to the pericenter, we say that the orbit has small eccentricity, while if the apocenter is much larger than the pericenter, the eccentricity is said to be near unity. The term ``eccentricity'' also has a mathematical definition, but only for Kepler orbits.
+
+{\noindent}The radial period $T_r$ is the time required for the star to travel from apocenter to pericenter and back. To determine $T_r$ we use equation $L\equiv r^2\dot{\psi}$ to eliminate $\dot{\psi}$ from the Hamiltonian. We find
+
+\begin{align*}
+    \left(\frac{{\rm d}r}{{\rm d}t}\right)^2 = 2(E-\Phi) - \frac{L^2}{r^2},
+\end{align*}
+
+{\noindent}which may be rewritten
+
+\begin{align*}
+    \frac{{\rm d}r}{{\rm d}t} = \pm\sqrt{2[E-\Phi(r)]-\frac{L^2}{r^2}}.
+\end{align*}
+
+{\noindent}The two possible signs arise because the star moves alternately in and out. Comparing this equation with the equation that has roots $u_1$ and $u_2$, we see that $\dot{r}=0$ at the pericenter and apocenter distances $r_1$ and $r_2$, as of course it must. It follows from the last equation that the radial period is
+
+\begin{align*}
+    T_r = 2\int\limits_{r_1}^{r_2} \frac{{\rm d}r}{\sqrt{2[E-\Phi(r)]-\dfrac{L^2}{r^2}}} ~ [{\rm yr}].
+\end{align*}
+
+{\noindent}In traveling from pericenter to apocenter and back, the azimuthal angle $\psi$ increases by an amount
+
+\begin{align*}
+    \Delta\psi = 2\int\limits_{r_1}^{r_2}\frac{{\rm d}\psi}{{\rm d}r}{\rm d}r = 2\int\limits_{r_1}^{r_2} \frac{L}{r^2}\frac{{\rm d}t}{{\rm d}r}{\rm d}r ~ [{\rm rad}].
+\end{align*}
+
+{\noindent}Substituting for ${\rm d}t/{\rm d}r$ from above, this becomes
+
+\begin{align*}
+    \Delta\psi = 2L\int\limits_{r_1}^{r_2} \frac{{\rm d}r}{r^2\sqrt{2[E-\Phi(r)]-\dfrac{L^2}{r^2}}} ~ [{\rm rad}].
+\end{align*}
+
+{\noindent}The \textbf{azimuthal period} is
+
+\begin{align*}
+    T_\psi = \frac{2\pi}{\lvert\Delta\psi\rvert}T_r ~ [{\rm yr}];
+\end{align*}
+
+{\noindent}in other words, the mean angular speed of the particle is $2\pi/T_\psi$. In general $\Delta\psi/2\pi$ will not be a rational number. Hence the orbit will not be closed: a typical orbit resembles a rosette and eventually passes close to every point in the annulus between the circles of radii $r_1$ and $r_2$ (see Figure \ref{fig:rosette}). There are, however, two and only two potentials in which all bound orbits are closed.
+
+\begin{figure}[H]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{A typical orbit in a spherical potential forms a rosette. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:rosette}}
+    {\includegraphics[width=6cm]{figures/rosette.png}}
+\end{figure}
+
+{\noindent}\textbf{Spherical harmonic oscillator}: We call a potential of the form
+
+\begin{align*}
+    \Phi(r) = \frac{1}{2}\Omega^2r^2 + {\rm constant} ~ [\rm J]
+\end{align*}
+
+{\noindent}a spherical harmonic oscillator potential. This potential is generated by a homogeneous sphere of matter. Our modified EOM could be solved analytically in this case, but it is simpler to use Cartesian coordinates A$(x,y)$ defined by $x=r\cos\psi$, $y=r\sin\psi$. In these coordinates, the equations of motion are simply
+
+\begin{align*}
+    \ddot{x} = -\Omega^2x; ~~~ \ddot{y} = -\Omega^2y,
+\end{align*}
+
+{\noindent}with solutions
+
+\begin{align*}
+    x = X\cos(\Omega t+\epsilon_x); ~~~ y = Y\cos(\Omega t+\epsilon_y),
+\end{align*}
+
+{\noindent}where $X$, $Y$ , $\epsilon_x$, and $\epsilon_y$ are arbitrary constants. Every orbit is closed since the periods of the oscillations in $x$ and $y$ are identical. The orbits form ellipses centered on the center of attraction. The azimuthal period is $T_\psi=2\pi/\Omega$ because this is the time required for the star to return to its original azimuth. During this time, the particle completes two in-and-out cycles, so the radial period is
+
+\begin{align*}
+    T_r = \frac{1}{2}T_\psi = \frac{\pi}{\Omega} ~ [{\rm yr}].
+\end{align*}
+
+{\noindent}\textbf{Kepler potential}: When the star is acted on by an inverse-square field $g(r)=−GM/r2$ due to a point mass $M$, the corresponding potential is $\Phi=−GM/r=−GMu$. Motion in this potential is often called \textbf{Kepler motion}. Our modified EOM becomes
+
+\begin{align*}
+    \frac{{\rm d}^2u}{{\rm d}\psi^2} + u = \frac{GM}{L^2},
+\end{align*}
+
+{\noindent}the general solution of which is
+
+\begin{align*}
+    u(\psi) = C\cos(\psi-\psi_0) + \frac{GM}{L^2},
+\end{align*}
+
+{\noindent}where $C>0$ and $\psi_0$ are arbitrary constants. Defining the orbit's \textbf{eccentricity} by
+
+\begin{align*}
+    e \equiv \frac{CL^2}{GM} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}and its \textbf{semi-major axis} by
+
+\begin{align*}
+    q \equiv \frac{L^2}{GM(1-e^2)} ~ [{\rm AU}],
+\end{align*}
+
+{\noindent}the general solution may now be written as
+
+\begin{align*}
+    r(\psi) = \frac{a(1-e^2)}{1+e\cos(\psi-\psi_0)} ~ [{\rm AU}].
+\end{align*}
+
+{\noindent}An orbit for which $e\geq1$ is unbound, since $r\rightarrow\infty$ as $(\psi−\psi_0)\rightarrow\pm\cos^{-1}(−1/e)$. Bound orbits have $e<1$ and along them $r$ is a periodic function of $\psi$ with period $2\pi$, so the star returns to its original radial coordinate after exactly one revolution in $\pi$. Thus bound Kepler orbits are closed, and one may show that they form ellipses with the attracting center at one focus. The pericenter and apocenter distances are
+
+\begin{align*}
+    r_1 = a(1-e) ~ [{\rm AU}]; ~~~ r_2 = a(1+e) ~ [{\rm AU}].
+\end{align*}
+
+{\noindent}In many applications, $r(\psi)$ for $r$ along a bound Kepler orbit is less convenient than the parameterization
+
+\begin{align*}
+    r = a(1-e\cos\eta) ~ [{\rm AU}],
+\end{align*}
+
+{\noindent}where the parameter $\eta$ is called the eccentric anomaly to distinguish it from the true anomaly, $\psi-\psi_0$. By equating $r(\psi)$ with this parameterization and using the identity $\cos\theta=(1−\tan^2(\theta/2))/(1+\tan^2(\theta/2))$, it is straightforward to show that the true and eccentric anomalies are related by
+
+\begin{align*}
+    \sqrt{1-e}\tan\frac{1}{2}(\psi-\psi_0) = \sqrt{1+e}\tan\frac{1}{2}\eta.
+\end{align*}
+
+{\noindent}Taking $t=0$ to occur at pericenter passage, from $L=r^2\dot{\psi}$ we have
+
+\begin{align*}
+    t = \int\limits_{\psi_0}^\psi \frac{{\rm d}\psi}{\dot{\psi}} = \int\frac{r^2}{L}{\rm d}\psi = \frac{a^2}{L}\int\limits_0^\eta \frac{{\rm d}\psi}{{\rm d}\eta}(1-e\cos\eta)^2{\rm d}\eta ~ [{\rm yr}].
+\end{align*}
+
+{\noindent}Evaluating ${\rm d}\psi/{\rm d}\eta$, integrating, and using trigonometrical identities to simplify the result, we finally obtain
+
+\begin{align*}
+    t = \frac{a^2}{L}\sqrt{1-e^2}(\eta-e\sin\eta) = \frac{T_r}{2\pi}(\eta-e\sin\eta) ~ [{\rm yr}],
+\end{align*}
+
+{\noindent}where the second equality follows because the bracket on the right increases by $2\pi$ over an orbital period. This is called \textbf{Kepler's equation}, and the quantity $2\pi t/T_r$ is sometimes called the \textbf{mean anomaly}. Hence
+
+\begin{align*}
+    T_r = T_\psi = \frac{a^2}{L}\sqrt{1-e^2} = 2\pi\sqrt{\frac{a^3}{GM}} ~ [{\rm yr}].
+\end{align*}
+
+{\noindent}The energy per unit mass of a particle on a Kepler orbit is
+
+\begin{align*}
+    E = -\frac{GM}{2a} ~ [{\rm J\,kg^{-1}}].
+\end{align*}
+
+{\noindent}To unbind the particle, we thus must add the binding energy $−E$.
+
+{\noindent}The study of motion in nearly Kepler potentials is central to the dynamics of planetary systems.
+
+{\noindent}We have shown that a star on a Kepler orbit completes a radial oscillation in the time required for $\psi$ to increase by $\Delta\psi=2\pi$, whereas a star that orbits in a harmonic-oscillator potential has already completed a radial oscillation by the time $\psi$ has increased by $\Delta\psi=\pi$. Since galaxies are more extended than point masses, and less extended than homogeneous spheres, a typical star in a spherical galaxy completes a radial oscillation after its angular coordinate has increased by an amount that lies somewhere in between these two extremes; $\pi<\Delta\psi<2\pi$. Thus, we expect a star to oscillate from its apocenter through its pericenter and back in a shorter time than is required for one complete azimuthal cycle about the galactic center.
+
+{\noindent}It is sometimes useful to consider that an orbit in a non-Kepler force field forms an approximate ellipse, though one that precesses by $\psi_p=\Delta\psi−2\pi$ in the time needed for one radial oscillation. For the orbit shown in Figure \ref{fig:rosette}, and most galactic orbits, this precession is in the sense opposite to the rotation of the star itself. The angular velocity $\Omega_p$ of the rotating frame in which the ellipse appears closed is
+
+\begin{align*}
+    \Omega_p = \frac{\psi_p}{T_r} = \frac{\Delta\psi-2\pi}{T_r} ~ [{\rm rad\,yr^{-1}}].
+\end{align*}
+
+{\noindent}Hence we say that $\Omega_p$ is the \textbf{precession rate} of the ellipse. The concept of closed orbits in a rotating frame of reference is crucial to the theory of spiral structure -- see Figure \ref{fig:closedorbits}.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/ClosedOrbits.png}
+    \caption{\footnotesize{Arrangement of closed orbits in a galaxy to create bars and spiral patterns. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:closedorbits}
+\end{figure}
+
+{\noindent}\textbf{Isochrone potential}: The harmonic oscillator and Kepler potentials are both generated by mass distributions that are qualitatively different from the mass distributions of galaxies. The only known potential that could be generated by a realistic stellar system for which all orbits are analytic is the isochrone potential:
+
+\begin{align*}
+    \Phi(r) = - \frac{GM}{b + \sqrt{b^2+r^2}} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}\textbf{2. Orbits in axisymmetric potentials}:
+
+{\noindent}Few galaxies are even approximately spherical, but many approximate figures of revolution. Thus we begin to explore the types of orbits that are possible in many real galaxies. We shall usually employ a cylindrical coordinate system $(R,\phi,z)$ with origin at the galactic center, and shall align the $z$ axis with the galaxy's symmetry axis.
+
+{\noindent}Stars whose motions are confined to the equatorial plane of an axisymmetric galaxy have no way of perceiving that the potential in which they move is not spherically symmetric. Therefore their orbits will be identical with in symmetric potentials; the radial coordinate $R$ of a star on such an orbit oscillates between fixed extrema as the star revolves around the center, and the orbit again forms a rosette figure.
+
+{\noindent}\textbf{Motion in the meridional plane}: 
+
+{\noindent}The situation is much more complex and interesting for stars whose motions carry them out of the equatorial plane of the system. The study of such general orbits in axisymmetric galaxies can be reduced to a two-dimensional problem by exploiting the conservation of the $z$-component of angular momentum of any star. Let the potential, which we assume to be symmetric about the plane $z=0$, be $\Phi(R,z)$. Then the motion is governed by the Lagrangian
+
+\begin{align*}
+    \mathcal{L} = \frac{1}{2}[\dot{R}^2+(R\dot{\phi})^2+\dot{z}^2] - \Phi(R,z) ~ [{\rm J}].
+\end{align*}
+
+{\noindent}The momenta are
+
+\begin{align*}
+    p_R=\dot{R}; ~~~ p_\phi=R^2\dot{\phi}; ~~~ p_z=\dot{z},
+\end{align*}
+
+{\noindent}so the Hamiltonian is
+
+\begin{align*}
+    H = \frac{1}{2}\left(P_R^2+\frac{p_\phi^2}{R^2}+p_z^2\right) + \Phi(R,z) ~ [{\rm J}].
+\end{align*}
+
+{\noindent}From Hamilton's equations we find that the equations of motion are
+
+\begin{align*}
+    \dot{p_r} &= \ddot{R} = \frac{p_\phi^2}{R^3} - \frac{\partial\Phi}{\partial R} \\
+    \dot{p_\phi} &= \frac{{\rm d}}{{\rm d}t}(R^2\dot{\phi}) = 0 \\
+    \dot{p_z} &= \ddot{z} = - \frac{\partial\Phi}{\partial z}.
+\end{align*}
+
+{\noindent}The second of these EOMs expresses conservation of the component of angular momentum about the $z$ axis, $p_\phi=L_z$ (a constant), while the first and second describe the coupled oscillations of the star in the $R$ and $z$-directions.
+
+{\noindent}After replacing $p_\phi$ in the first of these EOMs by its numerical value $L_z$, the first and last of these EOMs can be written
+
+\begin{align*}
+    \ddot{R}=-\frac{\partial\Phi_{\rm eff}}{\partial R}; ~~~ \ddot{z}=-\frac{\partial\Phi_{\rm eff}}{\partial z},
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    \Phi_{\rm eff} \equiv \Phi(R,z) + \frac{L_z^2}{2R^2}
+\end{align*}
+
+{\noindent}is called the \textbf{effective potential}. Thus the three-dimensional motion of a star in an axisymmetric potential $\Phi(R,z)$ can be reduced to the two-dimensional motion of the star in the $(R,z)$ plane (the meridional plane) under the Hamiltonian
+
+\begin{align*}
+    H_{\rm eff} = \frac{1}{2}(p_R^2+p_z^2) + \Phi_{\rm eff}(R,z) ~ [{\rm J}]. 
+\end{align*}
+
+{\noindent}Notice that $H_{\rm eff}$ differs from the full Hamiltonian only in the substitution of the constant $L_z$ for the azimuthal momentum $p_\phi$. Consequently, the numerical value of $H_{\rm eff}$ is simply the orbit's total energy $E$. The difference $E−\Phi_{\rm eff}$ is the kinetic energy of motion in the $(R,z)$ plane, equal to $(p_R^2+p_z^2)/2$. Since kinetic energy is non-negative, the orbit is restricted to the area in the meridional plane satisfying the inequality $E\geq\Phi_{\rm eff}$. The curve bounding this area is called the zero-velocity curve, since the orbit can only reach this curve if its velocity in the $(R,z)$ plane is instantaneously zero.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/EffPot.png}
+    \caption{\footnotesize{Two orbits in an effective potential $\Phi_{\rm eff}$ with $q=0.9$. Both orbits are at energy $E=−0.8$ and angular momentum $L_z=0.2$, and we assume $v_0=1$. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:effpot}
+\end{figure}
+
+{\noindent}Figure \ref{fig:effpot} shows contour plots of the effective potential
+
+\begin{align*}
+    \Phi_{\rm eff} = \frac{1}{2}v_0^2\ln \left(R^2 + \frac{z^2}{q^2}\right) + \frac{L_z^2}{2R^2} ~ [{\rm J}],
+\end{align*}
+
+{\noindent}for $v_0=1$, $L_z=0.2$ and axial ratios $q=0.9$ and $0.5$. This resembles the effective potential experienced by a star in an oblate spheroidal galaxy that has a constant circular speed $v_0$. Notice that $\Phi_{\rm eff}$ rises very steeply near the $z$ axis, as if the axis of symmetry were protected by a \textbf{centrifugal barrier}.
+
+{\noindent}The minimum in $\Phi_{\rm eff}$ has a simple physical significance. The minimum occurs where
+
+\begin{align*}
+    \frac{\partial\Phi_{\rm eff}}{\partial R} = \frac{\partial\Phi}{\partial R} - \frac{L_z^2}{R^3} = 0; ~~~ \frac{\partial\Phi_{\rm eff}}{\partial z} = 0.
+\end{align*}
+
+{\noindent}The second of these conditions is satisfied anywhere in the equatorial plane $z=0$ on account of the assumed symmetry of $\Phi$ about this place, and the first is satisfied at the guiding-center radius $R_g$ where
+
+\begin{align*}
+    \left(\frac{\partial\Phi}{\partial R}\right)_{(R_g,0)} = \frac{L_z^2}{R_g^3} = R_g\dot{\phi}^2.
+\end{align*}
+
+{\noindent}This is simply the condition for a circular orbit with angular speed $\dot{\phi}$. Thus the minimum of $\Phi_{\rm eff}$ occurs at the radius at which a circular orbit has angular momentum $L_z$, and the value of $\Phi_{\rm eff}$ at the minimum is the energy of this circular orbit.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/AxisymmOrbits.png}
+    \caption{\footnotesize{Two orbits in the effective potential $\Phi_{\rm eff}$ with $q=0.9$. Both orbits are at energy $E=−0.8$ and angular momentum $L_z=0.2$, and we assume $v_0=1$. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:axisymmorbits}
+\end{figure}
+
+{\noindent}Unless the gravitational potential $\Phi$ is of some special form, the EOMs for $\ddot{R}$ and $\ddot{z}$ cannot be solved analytically. However, we may follow the evolution of $R(t)$ and $z(t)$ by integrating them numerically, starting from a variety of initial conditions. Figure \ref{fig:axisymmorbits} shows the result of two such integrations for the effective potential $\Phi_{\rm eff}$ with $q=0.9$. The orbits shown are of stars of the same energy and angular momentum, yet they look quite different in real space, and hence the stars on these orbits must move through different regions of phase space. Is this because the equations of motion admit a third isolating integral $I(R,z,p_R,p_z)$ in addition to $E$ and $L_z$?
+
+{\noindent}\textbf{Surfaces of section}:
+
+{\noindent}The phase space associated with the motion we are considering has four dimensions, $R$, $z$, $p_R$, and $p_z$, and the four-dimensional motion of the phase-space point of an individual star is too complicated to visualize. Nonetheless, we can determine whether orbits in the $(R,z)$ plane admit an additional isolating integral by use of a simple graphical device. Since the Hamiltonian $H_{\rm eff}(R,z,p_R,p_z)$ is constant, we could plot the motion of the representative point in a three-dimensional reduced phase space, say $(R,z,p_R)$, and then $p_z$ would be determined (to within a sign) by the known value $E$ of $H_{\rm eff}$. However, even three-dimensional spaces are difficult to draw, so we simply show the points where the star crosses some plane in the reduced phase space, say the plane $z=0$; these points are called \textbf{consequents}. To remove the sign ambiguity in $p_z$, we plot the $(R,p_R)$ coordinates only when $p_z>0$. In other words, we plot the values of $R$ and $p_R$ every time the star crosses the equator going upward. Such plots were first used by Poincar\'e and are called \textbf{surfaces of section}. The key feature of the surface of section is that, even though it is only two-dimensional, no two distinct orbits at the same energy can occupy the same point. Also, any orbit is restricted to an area in the surface of section defined by the constraint $Heff\geq(\dot{R}^2+\Phi_{\rm eff})/2$; the curve bounding this area is often called the zero-velocity curve of the surface of section, since it can only be reached by an orbit with $p_z=0$.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Points generated by the orbit of the left panel of Figure \ref{fig:axisymmorbits} in the $(R,p_R)$ surface of section. If the total angular momentum $L$ of the orbit were conserved, the points would fall on the dashed curve. The full curve is the zero-velocity curve at the energy of this orbit. The $\times$ marks the consequent of the shell orbit. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:surfacesection}}
+    {\includegraphics[width=10cm]{figures/SurfaceSection.png}}
+\end{figure}
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The total angular momentum is almost constant along the orbit shown in the left panel of Figure \ref{fig:axisymmorbits}. For clarity $L(t)$ is plotted only at the beginning and end of a long integration. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:lvst}}
+    {\includegraphics[width=10cm]{figures/Lvst.png}}
+\end{figure}
+
+{\noindent}Figure \ref{fig:surfacesection} shows the $(R,p_R)$ surface of section at the energy of the orbits of Figure \ref{fig:axisymmorbits}: the full curve is the zero-velocity curve, while the dots show the consequents generated by the orbit in the left panel of Figure \ref{fig:axisymmorbits}. The cross near the center of the surface of section, at $(R=0.26,p_R=0)$, is the single consequent of the shell orbit, in which the trajectory of the star is restricted to a two-dimensional surface. The shell orbit is the limit of orbits such as those shown in Figure \ref{fig:axisymmorbits} in which the distance between the inner and outer boundaries of the orbit shrinks to zero.
+
+{\noindent}In Figure \ref{fig:surfacesection} the consequents of the orbit of the left panel of Figure \ref{fig:axisymmorbits} appear to lie on a smooth curve, called the invariant curve of the orbit. The existence of the invariant curve implies that some isolating integral $I$ is respected by this orbit. The curve arises because the equation $I={\rm constant}$ restricts motion in the two-dimensional surface of section to a one-dimensional curve (or perhaps to a finite number of discrete points in exceptional cases). It is often found that for realistic galactic potentials, orbits do admit an integral of this type. Since $I$ is in addition to the two classical integrals $H$ and $p_\phi$, it is called the \textbf{third integral}. In general there is no analytic expression for $I$ as a function of the phase-space variables, so it is called a \textbf{non-classical integral}.
+
+{\noindent}We may form an intuitive picture of the nature of the third integral by considering two special cases. If the potential $\Phi$ is spherical, we know that the total angular momentum $|\vec{L}|$ is an integral. This suggests that for a nearly spherical potential (this one has axis ratio $q=0.9$) the third integral may be approximated by $|\vec{L}|$. The dashed curve in Figure \ref{fig:surfacesection} shows the curve on which the points generated by the orbit of the left panel of Figure \ref{fig:axisymmorbits} would lie if the third integral were $|\vec{L}|$, and Figure \ref{fig:lvst} shows the actual time evolution of $|\vec{L}|$ along that orbit -- notice that although $|\vec{L}|$ oscillates rapidly, its mean value does not change even over hundreds of orbital times. From these two figures we see that $|\vec{L}|$ is an approximately conserved quantity, even for orbits in potentials that are significantly flattened. We may think of these orbits as approximately planar and with more or less fixed peri- and apocenter radii. The approximate orbital planes have a fixed inclination to the $z$ axis but precess about this axis, at a rate that gradually tends to zero as the potential becomes more and more nearly spherical.
+
+{\noindent}The second special case is when the potential is separable in $R$ and $z$:
+
+\begin{align*}
+    \Phi(R,z)=\Phi_R(R)+\Phi_z(z) ~ [{\rm J}].
+\end{align*}
+
+{\noindent}Then the third integral can be taken to be the energy of vertical motion
+
+\begin{align*}
+    H_z = \frac{1}{2}p_z^2 + \Phi_z(z) ~ [{\rm J}].
+\end{align*}
+
+{\noindent}Along nearly circular orbits in a thin disk, the potential is approximately separable, so this equation provides a useful expression for the third integral.
 
 \begin{itemize}
     \item If we perturb a star in the disk in the z-direction, what happens?
@@ -550,11 +957,90 @@ Given that only a tiny fraction of the mass of the interstellar medium consists 
 
 \subsubsection{Short answer}
 
-Answer.
+Dust is understood to play many critical roles in galactic evolution. By sequestering selected elements in the solid grains, and by catalyzing formation of the H$_2$ molecule, dust grains are central to the chemistry of interstellar gas. Photoelectrons from dust grains can dominate the heating of gas in regions where UV starlight is present, and in dense regions the infrared emission from dust can be an important cooling mechanism. Last, dust grains can be important in interstellar gas dynamics, communicating radiation pressure from starlight to the gas, and coupling the magnetic field to the gas in regions of low fractional ionization.
 
 \subsubsection{Additional context}
 
-Additional context.
+Our strongest constraints on interstellar dust come from observations of its interaction with electromagnetic radiation:
+
+\begin{itemize}
+    \item Wavelength-dependent attenuation (``extinction'') of starlight by absorption and scattering, now observable at wavelengths as long as $20\,\mu{\rm m}$ (``mid-infrared''), and as short as $0.1\,\mu{\rm m}$ (``vacuum ultraviolet''). The extinction includes a number of spectral features that provide clues to grain composition.
+    \item Polarization-dependent attenuation of starlight, resulting in wavelength-dependent polarization of light reaching us from reddened stars.
+    \item Scattered light in reflection nebulae.
+    \item Thermal emission from dust, at wavelengths ranging from the sub-mm to $2\,\mu{\rm m}$.
+    \item Small-angle scattering of x-rays, resulting in ``scattered halos'' around x-ray point sources.
+    \item Microwave emission from dust, probably from rapidly spinning ultra-small grains.
+    \item Luminescence when dust is illuminated by starlight -- the so-called extended red emission.
+\end{itemize}
+
+{\noindent}In addition to these electromagnetic studies, our knowledge of dust is also informed by other, less direct, evidence:
+
+\begin{itemize}
+    \item Pre-solar grains preserved in meteorites -- a selective but not well-understood sampling of the interstellar grains that were present in the Solar nebula $4.5\,{\rm Gyr}$ ago.
+    \item ``Depletion'' of certain elements from the interstellar gas, with the missing atoms presumed to be contained in dust grains.
+    \item The observed abundance of H$_2$ in the ISM, which can only be understood if catalysis on dust grains is the dominant formation avenue.
+    \item The temperature of interstellar diffuse HI and H$_2$, in part a result of heating by photo-electrons ejected from interstellar grains.
+\end{itemize}
+
+{\noindent}\textbf{Interstellar extinction}: 
+
+{\noindent}\textbf{Starlight polarization}: The polarization of starlight was discovered serendipitously in 1949. When it was realized that the degree of polarization tended to be larger for stars with greater reddening, and that stars in a given region of the sky tended to have similar polarization directions, it became obvious that the polarization is produced by the ISM: initially upolarized light propagating through the ISM becomes linearly polarized as a result of preferential extinction of one linear polarization mode relative to the other. Figure \ref{fig:starpol} shows the direction of polarization and the strength of polarization for 5453 stars with galactic latitudes $b$ between $-80^\circ$ and $+80^\circ$. The large-scale organization of the polarization vectors can be understood if dust grains are somehow aligned by the interstellar magnetic field. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/starpol.png}
+    \caption{\footnotesize{Linear polarization of starlight plotted in galactic coordinates, for stars within $1\,{\rm kpc}$, and for all stars in the catalogue of Heiles (2000). The length of each line segment is proportional to the degree of polarization. Figure taken from Draine (2011).}}
+    \label{fig:starpol}
+\end{figure}
+
+{\noindent}The polarization percentage typically peaks near the V band ($5,500$\AA), and can be empirically described by the ``Serkowski law'':
+
+\begin{align*}
+    p(\lambda) \approx p_\mathrm{max}\exp \left[-K\ln^2\left(\frac{\lambda}{\lambda_\mathrm{max}}\right)\right] ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}with $\lambda_\mathrm{max}\approx5500$\AA~and $K\approx1.15$. The peak polarization $p_\mathrm{max}$ is found to fall within an envelope
+
+\begin{align*}
+    0 < &p_\mathrm{max} \leq 0.09 \left[\frac{E(B-V)}{{\rm mag}}\right] \approx 0.03\left[\frac{A_V}{{\rm mag}}\right] ~ [{\rm dimensionless}] \\
+    0 < &p_V \lesssim 0.03\tau_V ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}The polarization is produced by dust grains that are somehow partially aligned by the interstellar magnetic field. It appears that the grains are aligned with their shortest axes tending to be parallel to the magnetic field direction. The largest values of $p_\mathrm{max}/E(B-V)$ are presumed to arise on sightlines where the magnetic field is uniform and perpendicular to the line of sight. While the Serkowski law was originally put forward as an empirical fit to the observed polarization at $0.3\,\mu{\rm m}\lesssim \lambda \lesssim 1\,\mu{\rm m}$, it turns out to give a surprisingly good approximation to the measured linear polarization in the vacuum UV, although there are some sightlines where the Serkowski law under-predicts the UV polarization, and one sightline where the $2175$\AA~feature appears to be weakly polarized.
+
+{\noindent}The mechanism responsible for the grain alignment remains a fascinating puzzle . Independent of the grain alignment mechanism, however, we can infer the sizes of the interstellar grains responsible for this polarization by noting that the extinction rises rapidly into the UV whereas the polarization declines . This can be understood if the grains responsible for the polarization have diameters $2a$ such that $a\approx(\lambda_{\rm max}/2\pi)\approx0.1\,\mu{\rm m}$: as one proceeds into the UV, one moves toward the ``geometric optics'' limit where both polarization modes suffer the same extinction, so the polarization goes to zero. Thus we conclude that:
+
+\begin{itemize}
+    \item The extinction at $\lambda\approx0.55\,\mu{\rm m}$ has an appreciable contribution from grains with sizes $a\approx0.1\,\mu{\rm m}$. These grains are non-spherical and substantially aligned.
+    \item The grains with $a\lesssim0.05\,\mu{\rm m}$, which dominate the extinction at $\lambda\lesssim0.3\,\mu{\rm m}$, are either spherical (which seems unlikely) or minimally aligned.
+\end{itemize}
+
+{\noindent}\textbf{Scattering of Starlight}: When an interstellar cloud happens to be unusually near one or more bright stars, we have a reflection nebula, where we see starlight photons that have been scattered by the dust in the cloud. The spectrum of the light coming from the cloud surface shows the stellar absorption lines, thus demonstrating that scattering rather than some emission process is responsible. By comparing the observed scattered intensity with the estimated intensity of the starlight incident on the cloud, it is possible to infer the albedo $\omega$ of the dust -- the ratio of scattering cross section to extinction cross section. It is also possible to infer $\langle\cos\theta\rangle$ for the dust, where $\theta$ is the scattering angle.
+
+{\noindent}Figure \ref{fig:albedo} shows $\omega$ and $\langle\cos\theta\rangle$ for (1) the dust in the general diffuse ISM producing the ``diffuse galactic light,'' (2) dust in individual clouds illuminated by the general starlight, and (3) dust in clouds that are illuminated by a nearby bright star. In the optical, the interstellar dust mixture has an albedo $\omega\approx0.5$ (scattering is about as important as absorption) and the grains are somewhat forward-scattering, with $\langle\cos\theta\rangle\approx0.5$. Rayleigh scattering by particles small compared to the wavelength has $\langle\cos\theta\rangle\approx0$, so this tells us that the particles dominating the scattering at $\lambda\approx0.6\,\mu{\rm m}$ have $a\gtrsim\lambda/2\pi\approx0.1\,\mu{\rm m}$.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=16cm]{figures/albedo.png}
+    \caption{\footnotesize{Albedo and scattering asymmetry factor $\langle\cos\theta\rangle$ inferred from observations of the diffuse galactic light, reflection nebulae, and dark clouds. Figure taken from Draine (2011).}}
+    \label{fig:albedo}
+\end{figure}
+
+{\noindent}\textbf{IR emission}: Dust grains are heated by starlight, and cool by radiating in the IR. The emission from dust at high galactic latitudes has been studied by a number of satellites. Figure \ref{fig:dustir} shows the emission spectrum from $800\,\mu{\rm m}$ to $3\,\mu{\rm m}$. The $3$ to $12\,\mu{\rm m}$ spectrum is estimated from observations of the Galactic plane near $l\approx45^\circ$, if we assume that the ratio of $3$ to $12\,\mu{\rm m}$ emission to the $100\,\mu{\rm m}$ emission is unchanged in going from observations of the Galactic plane to high galactic latitudes. The correlation of the IR emission with HI $21\,{\rm cm}$ emission at high latitudes is used to estimate the power radiated per H nucleon: $5.0\times10^{-24}\,{\rm erg\,s^{-1}\,H^{-1}}$.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Observed IR emission per H nucleon from dust heated by the average starlight background in the local MW. Crosses: IRAS; squares: COBE-FIRAS; diamonds: COBE-DIRBE; heavy curve: IRTS;. The interpolated dotted line is used to estimate the total power. Figure taken from Draine (2011).}}
+    \label{fig:dustir}}
+    {\includegraphics[width=12cm]{figures/dustIR.png}}
+\end{figure}
+
+{\noindent}Interstellar dust is heated primarily by starlight, and the total power radiated requires, therefore, that the absorption cross section of interstellar dust be such that the power absorbed per H (for the estimated spectrum of the starlight heating the dust) match the observed emission, $5.0\times10^{-24}\,{\rm erg\,s^{-1}\,H^{-1}}$. The IR spectrum provides very strong constraints on grain models, as the dust must include a component that can account for the fact that $\sim35\%$ of the radiated power is short-ward of $50\,\mu{\rm m}$, including the strong emission features at $\sim12\,\mu{\rm m}$ and $6-8\,\mu{\rm m}$.
+
+{\noindent}\textbf{Luminescence}: The energy absorbed by dust grains is primarily reradiated in the mid- and far-IR, but there is evidence that dust grains also emit light at optical and near-IR wavelengths. Studies of reflection nebulae indicate that there is more light emerging at wavelengths $6000-8000$\AA~than can be accounted for by scattering alone, and this excess is ascribed to luminescence from dust grains following absorption of shorter-wavelength photons. Luminescence at $6000-8000$\AA~is also termed ``extended red emission,'' or ERE. Luminescence in the blue has also been reported. Candidate materials to explain this luminescence must of course reproduce the observed luminescence spectrum. The luminescing materials have not yet been conclusively identified. The blue luminescence may be produced by neutral PAHs, and PAH di-cations (PAH$^{++}$) may be responsible for the ERE.
+
+
+{\noindent}\textbf{H$_2$ formation}: 
 
 \subsubsection{Follow-up Questions}
 
@@ -878,6 +1364,8 @@ Additional context.
 \begin{itemize}
     \item Galaxy Formation, Longair (2008)
     \item Galaxies in the Universe, Sparke \& Gallagher (2007)
+    \item The Galactic Bulge: A Review; Minniti \& Zoccali (2007)
+    \item The Interstellar Environment of Our Galaxy; Ferrier (2001)
     \item Galactic Dynamics, Binney \& Tremaine (2011)
     \item Galaxies: Interactions and Induced Star Formation, Kennicutt, Schweizer \& Barnes (1996)
     \item Stellar Populations, Greggio \& Renzini (2011)
