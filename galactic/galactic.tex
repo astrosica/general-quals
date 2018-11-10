@@ -1073,7 +1073,32 @@ Our strongest constraints on interstellar dust come from observations of its int
 {\noindent}\textbf{Luminescence}: The energy absorbed by dust grains is primarily reradiated in the mid- and far-IR, but there is evidence that dust grains also emit light at optical and near-IR wavelengths. Studies of reflection nebulae indicate that there is more light emerging at wavelengths $6000-8000$\AA~than can be accounted for by scattering alone, and this excess is ascribed to luminescence from dust grains following absorption of shorter-wavelength photons. Luminescence at $6000-8000$\AA~is also termed ``extended red emission,'' or ERE. Luminescence in the blue has also been reported. Candidate materials to explain this luminescence must of course reproduce the observed luminescence spectrum. The luminescing materials have not yet been conclusively identified. The blue luminescence may be produced by neutral PAHs, and PAH di-cations (PAH$^{++}$) may be responsible for the ERE.
 
 
-{\noindent}\textbf{H$_2$ formation}: 
+{\noindent}\textbf{H$_2$ formation}: Molecular hydrogen is a lower energy state than atomic hydrogen, so an isolated box of hydrogen left for an infinite amount of time will eventually become predominantly molecular. In interstellar space, though, the atomic versus molecular fraction in a gas is determined by a balance between formation and destruction processes.
+
+{\noindent}Atomic hydrogen can turn into molecular hydrogen in the gas phase, but this process is extremely slow. This is ultimately due to the symmetry of the hydrogen molecule. To form an H$_2$ molecule, two H atoms must collide and then undergo a radiative transition that removes enough energy to leave the resulting pair of atoms in a bound state. However, two H atoms that are both in the ground state constitute a symmetric system, as does an H$_2$ molecule in its ground state. Because both the initial and final states are symmetric, one can immediately show from symmetry considerations that the system cannot emit dipole radiation.
+
+{\noindent}Due to this limitation, the dominant formation process is instead formation on the surfaces of dust grains. In this case the excess energy released by forming the molecule is transferred into vibrations in the dust grain lattice, and there is no need for forbidden photon emission.
+
+{\noindent}\textbf{Composition of interstellar dust}: There is ample evidence for the presence of substantial amounts of submicron-sized dust particles in interstellar space. What is this dust made of? This question has been difficult to answer.
+
+{\noindent}The preferred approach would be spectroscopy: ideally, we would observe spectroscopic features that would uniquely identify the materials, and, furthermore, allow us to measure the amounts of each material present. This is the approach that is followed for atoms, ions, and small molecules, but unfortunately it is difficult to apply to solid materials because: (1) the optical and UV absorption is largely a continuum; and (2) the spectral features that do exist are broad, making them difficult to identify conclusively.
+
+{\noindent}An alternative approach is to ask: what materials could plausibly be present in the ISM in quantities sufficient to account for the observed extinction? A Kramers-Kronig integral over the observed extinction indicates that the total grain mass relative to total hydrogen mass $M_{\rm dust}/M_{\rm H}\gtrsim0.0083$.
+
+{\noindent}Additionally, certain elements appear to be underabundant, or ``depleted,'' in the gas phase; observed depletions can tell us about the major elemental composition of interstellar dust. The available evidence indicates that the overall abundances in the ISM are close to the values in the solar photosphere. Because there is no way to have hydrogen contribute appreciably to the grain mass (even polyethylene $(C{\rm H}_2)_n$ is 86\% carbon by mass), and He and Ne are chemically inert, the only way to have a dust/H mass ratio of $0.0056$ or higher is to build the grains out of the most abundant condensible elements: C, O, Mg, Si, S, and Fe.
+
+{\noindent}With the elements providing the bulk of the grain volume identified, we can limit consideration to the following possible materials:
+
+\begin{itemize}
+    \item Silicates (e.g., pyroxene composition or olivine composition)
+    \item Oxides of silicon, magnesium, and iron (e.g., SiO$_2$, MgO, Fe$_3$O$_4$)
+    \item Carbon solids (graphite, amorphous carbon, and diamond)
+    \item Hydrocarbons (e.g., PAHs)
+    \item Carbides, particularly silicon carbide (SiC)
+    \item Metallic Fe
+\end{itemize}
+
+{\noindent}Other elements (e.g., Ti, Cr) are also present in interstellar grains, but, because of their low abundances, they contribute only a minor fraction of the grain mass.
 
 \subsubsection{Follow-up Questions}
 
@@ -1098,7 +1123,32 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+In molecular clouds there are two main cooling processes: molecular lines and dust radiation. Dust can cool the gas efficiently because dust grains are solids, so they are thermal emitters. However, dust is only able to cool the gas if collisions between dust grains and hydrogen molecules occur often enough to keep them thermally well-coupled. Otherwise the grains cool off, but the gas stays hot. The density at which grains and gas become well-coupled is around $10^4-10^5\,{\rm cm^{-3}}$, which is higher than the typical density in a GMC, so we won't consider dust cooling further at this point. We'll return to it later when we discuss collapsing objects, where the densities do get high enough for dust cooling to be important.
+
+{\noindent}The remaining cooling process is line emission, and by far the most important molecule for this purpose is CO. H$_2$ is the dominant species in molecular regions, but it is very hard to observe directly -- the temperatures are too low for it to be excited. Moreover, H$_2$ is also not the dominant coolant for the same reason. Instead, that role falls to the CO molecule. The physics is fairly simple. CO molecules are excited by inelastic collisions with hydrogen molecules, and such collisions convert kinetic energy to potential energy within the molecule. If the molecule de-excites radiatively, and the resulting photon escapes the cloud, the cloud loses energy and cools.
+
+{\noindent}Why is CO so important? The main reason is abundances: the most abundant elements in the Universe after H and He are O, C, and N, and CO is the simplest (and, under ISM conditions, most energetically favorable) molecule that can be made from them. Moreover, CO can be excited at very low temperatures because its mass
+is much greater than that of H$_2$, and its dipole moment is weak but non-zero. (A weak dipole moment lowers the energy of radiation emitted, which in turn lowers the temperature needed for excitation.)
+
+{\noindent}Just as in the bulk of the ISM, hydrogen is mostly H, in the bulk of the ISM the oxygen is mostly O and the carbon is mostly C$^+$. It's C$^+$ rather than C because the ionization potential of carbon is less than that of hydrogen, and as a result it tends to be ionized by starlight.
+
+{\noindent}Hydrogen is the most abundant element, and when it is in the form of free atomic hydrogen, it is relatively easy to observe. Hydrogen atoms have a hyperfine transition at $21\,{\rm cm}$ ($1.4\,{\rm GHz}$), associated with a transition from a state in which the spin of the electron is parallel to that of the proton to a state where it is anti-parallel. The energy associated with this transition is $\ll1\,{\rm K}$, so even in cold regions it can be excited. This line is seen in the Milky Way and in many nearby galaxies.
+
+{\noindent}However, at the high densities where stars form, hydrogen tends to be molecular rather than atomic, and H$_2$ is extremely hard to observe directly. To understand why, we can look at an energy level diagram for rotational levels of H$_2$ (Figure \ref{fig:Henergies}). A diatomic molecule like H$_2$ has three types of excitation: electronic (corresponding to excitations of one or more of the electrons), vibrational (corresponding to vibrational motion of the two nuclei), and rotational (corresponding to rotation of the two nuclei about the center of mass). Generally electronic excitations are highest in energy scale, vibrational are next, and rotational are the lowest in energy.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Level diagram for the rotational levels of para- and ortho-H$_2$, showing the energy of each level. Level data are taken from \href{http://www.gemini.edu/sciops/instruments/nir/wavecal/h2lines.dat}{http://www.gemini.edu/sciops\\/instruments/nir/wavecal\\/h2lines.dat}. Figure taken from Draine (2011).}}
+    \label{fig:Henergies}}
+    {\includegraphics[width=5cm]{figures/Henergies.png}}
+\end{figure}
+
+{\noindent}For H$_2$, the first thing to notice is that the first excited state, the $J=1$ rotational state, is $175\,{\rm K}$ above the ground state. Since the dense ISM where molecules form is often also cold, $T\sim10\,{\rm K}$, almost no molecules will be in this excited state. However, it gets even worse: H$_2$ is a homonuclear molecule, and for reasons of symmetry $\Delta J=1$ radiative transitions are forbidden in homonuclear molecules. Indeed, there is no electronic process by which a hydrogen molecule with odd $J$ to turn into one with even $J$, and vice versa, because the allowed parity of $J$ is determined by the spins of the hydrogen nuclei. We refer to the even $J$ state as para-H$_2$, and the odd $J$ state as ortho-H$_2$.
+
+{\noindent}The observational significance of this is that there is no $J=1\rightarrow0$ emission. Instead, the lowest-lying transition is the $J=2\rightarrow0$ quadrupole. This is very weak, because it's a quadrupole. More importantly, however, the $J=2$ state is $510\,{\rm K}$ above the ground state. This means that, for a population in equilibrium at a temperature of $10\,{\rm K}$, the fraction of molecules in the $J=2$ state is
+$\sim e^{-510/10}\approx10^{-22}$! In effect, in a molecular cloud there are simply no H$_2$ molecules in states capable of emitting. The very high temperature required to excite the H$_2$ molecular is its low mass: for a quantum oscillator or rotor the level spacing varies with reduced mass as $m^{-1/2}$. It is the low mass of the hydrogen atom that creates our problems.
+
+{\noindent}Only in very rare circumstances is it possible to observe H$_2$ directly -- usually when there is a bright background UV source that allows us to see it in UV absorption rather than in emission. 
 
 % --------------------------------------------------------------
 %               7. 
