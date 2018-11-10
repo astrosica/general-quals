@@ -1182,7 +1182,62 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+The dominant heating process in the atomic ISM is the \textbf{grain photoelectric effect}: photons from stars with energies of $\sim8-13.6\,{\rm eV}$ hit dust grains and eject fast electrons via the photoelectric effect. The fast electrons then thermalize and deposit their energy as heat in the gas. The rate per H nucleus at which this process deposits energy can be written approximately as
+
+\begin{align*}
+    \Gamma_{\rm PE} \approx 4.0\times10^{-26}\chi_{\rm FUV}Z_d'e^{-\tau_d} ~ [{\rm erg\,s^{-1}}],
+\end{align*}
+
+{\noindent}where $\chi_{\rm FUV}$ is the intensity of the FUV radiation field scaled to its value in the Solar neighborhood, $Z_d'$ is the dust abundance scaled
+to the Solar neighborhood value, and $\tau_d$ is the dust optical depth to FUV photons. The result is, not surprisingly, proportional to the radiation field strength (and thus the number of photons available for heating), the dust abundance (and thus the number of targets for those photons),and the $e^{-\tau_d}$ factor by which the radiation field is attenuated.
+
+{\noindent}At FUV wavelengths, typical dust opacities are $\kappa_d\approx500\,{\rm cm^2\,g^{-1}}$, so at a typical molecular cloud surface density $\Sigma\approx50-100\,{\rm M_\odot\,pc^2}$, $\tau_d\sim5-10$, and thus $e^{-\tau_d}\approx10^{-3}$. Thus in the interiors of molecular clouds, photoelectric heating is strongly suppressed simply because the FUV photons cannot get in. Typical photoelectric heating rates are therefore of order a few $10^{29}\,{\rm erg\,s^{-1}}$ per H atom deep in cloud interiors, though they can obviously be much larger at cloud surfaces or in regions with stronger radiation fields.
+
+{\noindent}We must therefore consider another heating process: \textbf{cosmic rays}. The great advantage of cosmic rays over FUV photons is that, because they are relativistic particles, they have much lower interaction cross sections, and thus are able to penetrate into regions where light cannot. The process of cosmic ray heating works as follows. The first step is the interaction of a cosmic ray with an electron, which knocks the electron off a molecule:
+
+\begin{align*}
+    {\rm CR + H_2 \rightarrow H_2^+ + e^- + CR}.
+\end{align*}
+
+{\noindent}The free electron's energy depends only weakly on the CR's energy, and is typically $\sim30\,{\rm eV}$.
+
+{\noindent}The electron cannot easily transfer its energy to other particles in the gas directly, because its tiny mass guarantees that most collisions are elastic and transfer no energy to the impacted particle. However, the electron also has enough energy to ionize or dissociate other hydrogen molecules, which provides an inelastic reaction that can convert some of its $\sim30\,{\rm eV}$ to heat. Secondary ionizations do indeed occur, but in this case almost all the energy goes into ionizing the molecule ($15.4\,{\rm eV}$), and the resulting electron has the same problem as the first one: it cannot effectively transfer energy to the much more massive protons. Instead, there are a number of other channels that allow electrons to dump their energy into motion of protons.
+
+{\noindent}Mechanical effects, such as the heating caused by shocks, simply cannot push the gas any significant way out of radiative equilibrium.
+
+{\noindent}Before discussing individual feedback mechanisms in detail, it is also helpful to lay out two general categories that can be used to understand them. Let us consider a population of stars surrounded by initially-uniform interstellar gas. Those stars eject both photons and baryons (in the form of stellar winds) into the surrounding gas, and these photons and baryons carry both momentum and energy. We want to characterize how the ISM will respond. One important consideration is that it is very hard to raise the temperature of molecular gas (or even dense atomic gas) because it is able to radiate so efficiently. A factor of 10 increase in the radiative heating rate might yield only a tens of percent increase in temperature. This is true as long as the gas is cold and dense, but at sufficiently high temperatures or if the gas is continuously illuminated then the cooling rate begins to drop off, and it is possible for gas to remain hot.
+
+{\noindent}A critical distinction is therefore between mechanisms that are able to keep the gas hot for a time that is long enough to be significant (generally of order the crossing time of the cloud or longer), and those where the cooling time is much shorter. For the latter case, the energy delivered by the photons and baryons will not matter, only the momentum delivered will. The momentum cannot be radiated away. We refer to feedback mechanism where the energy is lost rapidly as momentum-driven feedback, and to the opposite case where the energy is retained for at least some time as energy-driven, or explosive, feedback. 
+
+{\noindent}To understand why the distinction between the two is important, let us consider two extreme limiting cases. We place a cluster of stars at the origin and surround it by a uniform region of gas with density $\rho$. At time $t=0$, the stars ``turn on'' and begin emitting energy and momentum, which is then absorbed by the surrounding gas. Let the momentum and energy injection rates be $\dot{p}_w$ and $\dot{E}_w$; it does not matter if the energy and momentum are carried by photons or baryons, so long as the mass swept up is significantly greater than the mass carried by the wind.
+
+{\noindent}The wind runs into the surrounding gas and causes it to begin moving radially outward, which in turn piles up material that is further away, leading to an expanding shell of gas. Now let us compute the properties of that shell in the two extreme limits of all the energy being radiated away, and all the energy being kept. If all the energy is radiated away, then at any time the radial momentum of the shell must match the radial momentum injected up to that time, i.e.,
+
+\begin{align*}
+    p_{\rm sh} = M_{\rm sh}v_{\rm sh} = \dot{p}_{\rm sh}t ~ [{\rm kg\,m\,s^{-1}}].
+\end{align*}
+
+{\noindent}The kinetic energy of the shell is
+
+\begin{align*}
+    E = \dot{p}_{\rm sh}^2 2M_{\rm sh} = \frac{1}{2}v_{\rm sh}\dot{p}_wt ~ [{\rm J}].
+\end{align*}
+
+For comparison, if none of the energy is radiated away, the energy is simply
+
+\begin{align*}
+    E = \dot{E}_wt ~ [{\rm J}].
+\end{align*}
+
+{\noindent}Thus the energy in the energy-conserving case is larger by a factor of
+
+\begin{align*}
+    \frac{1}{v_{\rm sh}}\cdot\frac{2\dot{E}_w}{\dot{p}_w}.
+\end{align*}
+
+{\noindent}If the energy injected by the stars is carried by a wind of baryons, then $2\dot{E}_w/\dot{p}_w$ is simply the speed of that wind, while if it is carried by photons, then $2\dot{E}_w/\dot{p}_w=2c$. Thus the energy in the energy-conserving case is larger by a factor of $2c/v_{sh}$ for a photon wind, and $v_w/v_{\rm sh}$ for a baryon wind. These are not small factors: observed expanding shells typically have velocities of at most a few tens of $km\,s^{-1}$, while wind speeds from massive stars, for example, can be thousands of $km\,s^{-1}$. Thus it matters a great deal where a particular feedback mechanism lies between the energy- and momentum-conserving limits.
+
+{\noindent}Momentum-driven feedback mechanisms include radiation pressure (probably, since the majority of the radiant energy deposited in the ISM will be re-radiated immediately), protostellar jets (due to their characteristic speeds) while energy-driven feedback mechanisms include ionizing radiation, stellar winds, and supernovae.
 
 \subsubsection{Follow-up Questions}
 
