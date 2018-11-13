@@ -1560,11 +1560,53 @@ Sketch the SED, from the radio to Gamma, of a spiral galaxy like the Milky Way. 
 
 \subsubsection{Short answer}
 
-Answer.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=10cm]{figures/GalaxySED.jpg}
+    \caption{\footnotesize{Typical SED of a star forming galaxy. It is based on the model of NGC 1569 by Galliano et al. (2008), with the addition of a typical gas contribution, modelled with Cloudy (Ferland et al., 2013). Only the most widely observed gas lines have been shown. The hatched areas in the stellar spectra represent the fraction of light that has been absorbed by the ISM (mainly the dust). This absorbed light is re-emitted by the dust component. Figure taken from Galliano (2017).}}
+    \label{fig:galaxySED}
+\end{figure}
+
+The spectral energy distribution (SED; see Figure \ref{fig:galaxySED}) of a typical galaxy is dominated by several processes:
+
+\begin{itemize}
+    \item \textbf{Stars.} Young OB stars are strong UV emitters, while older stellar populations dominate the visible/near-IR range. The weights of these two main components depend on the SF history of the galaxy. The fraction of light absorbed by dust is represented by the hatched area on Figure \ref{fig:galaxySED}.
+    \item \textbf{Gas.} Atomic and molecular lines are numerous, but the gas also emits continuum radiation (Figure \ref{fig:galaxySED}): (i) thermal continuum in the form of free-bound and free-free emission; and (ii) non-thermal continuum, mainly synchrotron.
+    \item \textbf{Dust.} Dust radiates thermally over the whole IR domain. Several molecular and solid state features can be seen, mainly in the mid-IR. Figure \ref{fig:galaxySED} represents the aromatic feature emission believed to be carried by polycyclic aromatic hydrocarbons (PAH). The whole power emitted by the dust equals the absorbed stellar power (hatched areas of Figure \ref{fig:galaxySED}).
+\end{itemize}
 
 \subsubsection{Additional context}
 
-Additional context.
+Although only accounting for 1\% of the ISM mass, dust plays a crucial role in galactic physics. It re-radiates in the infrared (IR) about 30\% of the stellar power in normal disk galaxies, and up to 99\% in ultra-luminous IR galaxies. It is a catalyst for numerous chemical reactions, including H$_2$ formation. The photoelectrons it releases in photodissociation regions (PDR) are one of the main heating sources of the gas. However, the detailed microscopic properties of the dust (its chemical composition, size distribution, abundance, etc.) are poorly known and are evidenced to vary strongly from one environment to the other. As a consequence, we are left with large uncertainties on the physics of the ISM, and on galaxy evolution.
+
+{\noindent}In theory, we could infer dust properties by modelling its evolution from its formation in stellar ejecta and dense ISM, to its processing by shock and UV radiation and its recycling in star formation. However, the efficiency of each individual process is not accurately enough known to provide reliable grain properties, purely based on theory. We therefore have to rely on observations to constrain the grain properties in different environments.
+
+{\noindent}Nearby galaxies are particularly suitable environments to conduct such studies, as they harbor a wide diversity of physical conditions (star formation activity, metallicity, etc.). In addition, a wealth of data is available for them, with good spatial resolution and sensitivity. The Milky Way itself is an important laboratory, but it spans a rather narrow range of metallicity and does not contain very massive star forming regions.
+
+{\noindent}Dust and stars are not uniformly mixed. Knowing which stellar population is responsible for the dust heating in a given regime can be observationnally inferred. For instance, by comparing select far-IR Herschel band ratios to tracers of the stellar populations (young: $24\,\mu{\rm m}$ and $H\alpha$; old: $3.6\,\mu{\rm m}$), it has been shown that the transition between dust heated by young stars and dust heated by old stars happens between $160$ and $350\,\mu{\rm m}$, in most cases. It appears that dust grains are on average hotter when heated by young stars, and colder when heated by older populations. The picture is different in more extreme objects, like low-metallicity dwarf galaxies, where the young stellar population can dominate the whole emission.
+
+{\noindent}A more comprehensive approach to this problem is provided by panchromatic radiative transfer models. Such codes can solve the radiative transfer equation into a complex 3D spatial distribution (thin and thick disks, bulges, clumps, etc.). They estimate the dust heating in every region of the galaxy and compute the resulting escaping SED (far-IR optical depths are small). Studies have been able to reproduce the morphology of the galaxy at different wavelengths, however they were left with a deficit in emission in the far-IR. These discrepancies could be due to: (i) a lack of constraint on the 3D structure of these edge-on galaxies; (ii the presence of compact cold clumps; (iii) a higher far-IR grain emissivity.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/GalaxySED_model.jpg}
+    \caption{\footnotesize{Dust SED modelling. \textbf{Left:} Dust model of Jones et al. (2017) uniformly illuminated by the solar neighborhood radiation field ($U=1$). \textbf{Right:} An example of SED fit. The observations are the open circles with error bars (simulated data, for demonstration). The filled circles are the synthetic photometry of the model. The total model is the sum of uniformly illuminated SEDs with radiation field intensity ranging between $U_{\rm min}$ and $U_{\rm max}$ (rainbow curves). Figure taken from Galliano (2017).}}
+    \label{fig:galaxySEDmodel}
+\end{figure}
+
+{\noindent}The left panel of Figure \ref{fig:galaxySEDmodel} shows the dust mixture, heated by the solar neighborhood radiation field ($U=1$). The far-IR bump is emitted by the large grains (silicates and ${\rm a-C(:H)}$), at thermal equilibrium with the radiation field. The mid-IR continuum is carried by out-of-equilibrium small ${\rm a-C(:H)}$ (radius  $a\lesssim20\,{\rm nm}$). The aromatic features are carried by the smallest ${\rm a-C(:H)}$ (radius $a\lesssim1.5\,{\rm nm}$).
+
+{\noindent}Such a dust model can not be used, as is, to fit the SED of galaxies, since there can be significant mixing of physical conditions in the beam or along the line of sight. Ideally, we should model the radiative transfer inside the object, but we usually lack the knowledge of its actual 3D structure. An alternative is to empirically account for the mixing, focusing only on quantities that are weakly dependent on radiative transfer processes.
+
+{\noindent}The far-IR peak is mainly emitted by large grains at thermal equilibrium. Thus, its spectrum does not depend on the spectral shape of the incident radiation field, as it depends only on the total absorbed power. On the contrary, the spectral shape is important for small stochastically heated grains, as their temperature distribution depends on the mean photon energy. Fortunately, these grains do not account for a large fraction of the mass. However, it is not the case for the carriers of the aromatic features, since they are effectively heated by a narrower wavelength range of photons.
+
+{\noindent}SED models being highly non-linear, several degeneracies and biases are encountered with a classical $\chi^2$ minimization fit. This is well-known for modified black body models, where the monochromatic luminosity is parameterized by the dust mass ($M_{\rm dust}$), the equilibrium temperature ($T_{\rm dust}$), and the emissivity index ($\beta$):
+
+\begin{align*}
+    L_\nu = M_{\rm dust} 4\pi\kappa_0 \left(\frac{\nu}{\nu_0}\right)^\beta B_\nu (T_{\rm dust},\nu) ~ [{\rm W}],
+\end{align*}
+
+{\noindent}where $\kappa_0$ is the opacity at frequency $\nu$, and $B_\nu$ is the Planck function. There are also biases induced by our ignorance of the origin of certain physical processes. In particular, the ``\textbf{submm excess}'' is an emission excess particularly strong beyond $500\,\mu{\rm m}$ in low-metallicity environments, but it has also been detected in the MW. It can not be accounted for by regular dust models, free-free, synchrotron and molecular line emission. Its origin is still debated: (i) very cold dust, although unlikely; (ii) magnetic grains; (iii) temperature dependent grain emissivity; or (iv) intrinsic grain optical properties. The only way to avoid this excess is to not use constraints beyond $500\,\mu{\rm m}$.
 
 \subsubsection{Follow-up Questions}
 
@@ -1771,6 +1813,8 @@ Additional context.
     \item Astrophysics of the Interstellar Medium, Maciel (2013)
     \item Notes on Star Formation, Krumholz (2015)
     \item Principles of Star Formation, Bodenheimer (2011)
+    \item Stellar Evolutionary Effects on the Abundances of Polycyclic Aromatic Hydrocarbons and Supernova-Condensed Dust in Galaxies, Galliano et al. (2008)
+    \item Some insights on the dust properties of nearby galaxies, as seen with Herschel, Galliano (2017)
 \end{itemize}
 
 \end{document}
