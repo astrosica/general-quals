@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 NOV 2018 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 NOV 2018 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,52 +1116,159 @@ File: figures/Henergies.png Graphic file (type png)
 Package pdftex.def Info: figures/Henergies.png used on input line 1143.
 (pdftex.def)             Requested size: 142.26378pt x 222.69943pt.
  [32] [33 <./figures/Henergies.png>] [34] [35]
-[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[36] <figures/ExtinctionCurve.png, id=408, 811.03pt x 605.26125pt>
+File: figures/ExtinctionCurve.png Graphic file (type png)
 
+<use figures/ExtinctionCurve.png>
+Package pdftex.def Info: figures/ExtinctionCurve.png used on input line 1265.
+(pdftex.def)             Requested size: 341.43306pt x 254.80829pt.
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+ [37 <./figures/ExtinctionCurve.png>]
+<figures/ExtinctionTable.png, id=419, 590.205pt x 308.15125pt>
+File: figures/ExtinctionTable.png Graphic file (type png)
+
+<use figures/ExtinctionTable.png>
+Package pdftex.def Info: figures/ExtinctionTable.png used on input line 1304.
+(pdftex.def)             Requested size: 284.52756pt x 148.55508pt.
+ [38 <./figures/ExtinctionTable.png>] [39]
+<figures/Qabs.png, id=432, 634.37pt x 461.725pt>
+File: figures/Qabs.png Graphic file (type png)
+ <use figures/Qabs.png>
+Package pdftex.def Info: figures/Qabs.png used on input line 1420.
+(pdftex.def)             Requested size: 213.39566pt x 155.32172pt.
+
+<figures/Qsca.png, id=433, 641.39626pt x 464.73625pt>
+File: figures/Qsca.png Graphic file (type png)
+ <use figures/Qsca.png>
+Package pdftex.def Info: figures/Qsca.png used on input line 1421.
+(pdftex.def)             Requested size: 213.39566pt x 154.61859pt.
+
+<figures/Qext.png, id=434, 644.4075pt x 460.72125pt>
+File: figures/Qext.png Graphic file (type png)
+ <use figures/Qext.png>
+Package pdftex.def Info: figures/Qext.png used on input line 1422.
+(pdftex.def)             Requested size: 213.39566pt x 152.56573pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no í in font cmr10!
+
+[40] [41 <./figures/Qabs.png> <./figures/Qsca.png> <./figures/Qext.png>]
+<figures/MgFeSiO4_top.png, id=450, 1003.75pt x 712.6625pt>
+File: figures/MgFeSiO4_top.png Graphic file (type png)
+
+<use figures/MgFeSiO4_top.png>
+Package pdftex.def Info: figures/MgFeSiO4_top.png used on input line 1485.
+(pdftex.def)             Requested size: 213.39566pt x 151.51218pt.
+
+<figures/MgFeSiO4_bottom.png, id=451, 911.405pt x 649.42625pt>
+File: figures/MgFeSiO4_bottom.png Graphic file (type png)
+
+<use figures/MgFeSiO4_bottom.png>
+Package pdftex.def Info: figures/MgFeSiO4_bottom.png used on input line 1485.
+(pdftex.def)             Requested size: 213.39566pt x 152.05035pt.
+ [42 <./figures/MgFeSiO4_top.png> <./figures/MgFeSiO4_bottom.png>]
+<figures/Qext_grainsizes.png, id=461, 743.77875pt x 559.08875pt>
+File: figures/Qext_grainsizes.png Graphic file (type png)
+
+<use figures/Qext_grainsizes.png>
+Package pdftex.def Info: figures/Qext_grainsizes.png used on input line 1500.
+(pdftex.def)             Requested size: 284.52756pt x 213.8806pt.
+
+<figures/Qext_BV_top.png, id=462, 873.2625pt x 664.4825pt>
+File: figures/Qext_BV_top.png Graphic file (type png)
+
+<use figures/Qext_BV_top.png>
+Package pdftex.def Info: figures/Qext_BV_top.png used on input line 1507.
+(pdftex.def)             Requested size: 213.39566pt x 162.36871pt.
+
+<figures/Qext_BV_bottom.png, id=463, 876.27374pt x 667.49374pt>
+File: figures/Qext_BV_bottom.png Graphic file (type png)
+
+<use figures/Qext_BV_bottom.png>
+Package pdftex.def Info: figures/Qext_BV_bottom.png used on input line 1508.
+(pdftex.def)             Requested size: 213.39566pt x 162.54434pt.
+ [43 <./figures/Qext_grainsizes.png> <./figures/Qext_BV_top.png> <./figures/Qex
+t_BV_bottom.png>]
+<figures/RV_inv.png, id=475, 813.0375pt x 601.24625pt>
+File: figures/RV_inv.png Graphic file (type png)
+
+<use figures/RV_inv.png>
+Package pdftex.def Info: figures/RV_inv.png used on input line 1521.
+(pdftex.def)             Requested size: 284.52756pt x 210.40263pt.
+ [44 <./figures/RV_inv.png>] [45] [46] [47] [48]
+[49] [50] [51] [52] [53] [54] 
 AED: lastpage setting LastPage
-[48]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1516.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1516.
+[55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1776.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1776.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1516.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1516.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1776.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1776.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1516.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1776.
  ) 
 Here is how much of TeX's memory you used:
- 9568 strings out of 492995
- 145151 string characters out of 6132704
- 259576 words of memory out of 5000000
- 12828 multiletter control sequences out of 15000+600000
+ 9644 strings out of 492995
+ 146782 string characters out of 6132704
+ 263149 words of memory out of 5000000
+ 12879 multiletter control sequences out of 15000+600000
  15201 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,53p,1686b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on galactic.pdf (48 pages, 6168974 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on galactic.pdf (55 pages, 7630620 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 453 compressed objects within 5 object streams
- 138 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 500 compressed objects within 5 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

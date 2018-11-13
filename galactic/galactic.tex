@@ -1260,11 +1260,271 @@ Draw an interstellar extinction curve (i.e., opacity), from the X-ray to the inf
 
 \subsubsection{Short answer}
 
-Answer.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{figures/ExtinctionCurve.png}
+    \caption{\footnotesize{Extinction at wavelength $\lambda$, relative to the extinction in the Cousins I band ($I_C=8020$\AA), as a function of inverse wavelength $\lambda^{-1}$, for Milky Way regions characterized by different values of $R_V\equiv AV/(AB-AV)\equiv AV/E(B−V)$, where $A_B$ is the extinction at $B=0.44\,\mu{\rm m}$, $A_V$ is the extinction at $V=0.55\,\mu{\rm m}$, and the ``reddening'' $E(B−V)\equiv A_B−A_V$. The curves shown are from the one-parameter family of curves $f_1^{\rm CCM}(\lambda)$ parameterized by $R_V$. Also shown is the extinction curve toward the star HD210121 (with $R_V=2.1$), showing that it differs from the CCM extinction curve $f_1^{\rm CCM}$ for $R_V=2.1$. Note the rapid rise in extinction in the vacuum ultraviolet ($\lambda\lesssim0.15\,\mu{\rm m}$) for regions with $R_V\lesssim4$. The normalization per H nucleon is approximately $A_{I_C}/N_H\approx2.9\times10^{-22}\,{\rm mag\,cm^2\,H^{-1}}$. The silicate absorption feature at $9.7\,\mu{\rm m}$ and the diffuse interstellar bands are barely visible. Figure taken from Draine (2011).}}
+    \label{fig:extinctioncurve}
+\end{figure}
 
 \subsubsection{Additional context}
 
-Additional context.
+Dust plays an important role in astrophysics, and the need to characterize and understand dust is increasingly appreciated. Historically, interstellar dust was first recognized for its obscuring effects, and the need to correct observed intensities for attenuation by dust continues today. But with the increasing sensitivity of IR, FIR, and sub-mm telescopes, dust is increasingly important as a diagnostic, with its emission spectrum providing an indicator of physical conditions, and its radiated power bearing witness to populations of obscured stars of which we might otherwise be unaware.
+
+{\noindent}More fundamentally, dust is now understood to play many critical roles in galactic evolution. By sequestering selected elements in the solid grains, and by catalyzing formation of the H2 molecule, dust grains are central to the chemistry of interstellar gas. Photoelectrons from dust grains can dominate the heating of gas in regions where ultraviolet starlight is present, and in dense regions the infrared emission from dust can be an important cooling mechanism. Last, dust grains can be important in interstellar gas dynamics, communicating radiation pressure from starlight to the gas, and coupling the magnetic field to the gas in regions of low fractional ionization.
+
+{\noindent}Barnard was apparently the first to realize that some stars were dimmed by an “absorbing medium.” This was confirmed by Trumpler who showed that the stars in distant open clusters were dimmed by something in addition to the inverse square law, and concluded that interstellar space in the galactic plane contained ``fine cosmic dust particles of various sizes... producing the observed selective absorption.'' Over the succeeding eight decades, we have built on these pioneering studies, but many aspects of interstellar dust (including its chemical composition!) remain uncertain. Let us, therefore, begin by reviewing the different ways in which nature permits us to study interstellar dust.
+
+{\noindent}Trumpler analyzed the interaction of light with interstellar dust, and this remains our most direct way to study interstellar dust. Using stars as ``standard candles,'' we study the ``selective extinctio'' (or “reddening'') of starlight by the dust. It is assumed that we know what the spectrum of the star is before reddening by dust takes place; this is usually accomplished by observation of another star with similar spectral features in its atmosphere but with negligible obscuration between us and the star. (This is known as the ``\textbf{pair method}''.)
+
+{\noindent}With the assumption that the extinction ($\equiv$ absorption + scattering) goes to zero at wavelengths $\lambda\rightarrow\infty$, and including observations of the star at sufficiently long wavelength where extinction is negligible, one can determine the attenuation of the starlight by dust as a function of wavelength. Because atomic hydrogen absorbs strongly for $h\nu>13.6\,{\rm eV}$, it is possible to measure the contribution of dust to the attenuation of light only at $h\nu<13.6\,{\rm eV}$, or $\lambda>912$\,\AA. Astronomers customarily characterize the attenuating effects of dust by the ``extinction'' $A_\lambda$ at wavelength $\lambda$. The extinction $A_\lambda$ (measured in ``magnitudes'') is defined by
+
+\begin{align*}
+    A_\lambda = 2.5\log_{10}\left(\frac{F_{\lambda,0}}{F_\lambda}\right) ~ [{\rm mag}],
+\end{align*}
+
+{\noindent}where $F_\lambda$ is the observed flux from the star, and $F_{\lambda,0}$ is the flux that would have been observed had the only attenuation been from the inverse square law. The extinction measured in magnitudes is proportional to the optical depth:
+
+\begin{align*}
+    A_\lambda = 2.5\log(e)\tau_\nu = 1.086\tau_\nu ~ [{\rm mag}].
+\end{align*}
+
+{\noindent}A typical ``extinction curve'' (the extinction $A_\lambda$ as a function of wavelength or frequency) is shown in Figure \ref{fig:extinctioncurve}, showing the rapid rise in extinction in the vacuum ultraviolet. Because the extinction increases from red to blue, the light reaching us from stars will be ``reddened'' owing to greater attenuation of the blue light. The detailed wavelength dependence of the extinction (the ``reddening law'') is sensitive to the composition and size distribution of the dust particles. 
+
+{\noindent}Observed extinction curves vary in shape from one line of sight to another. The slope of the extinction at visible wavelengths is characterized by the dimensionless ratio
+
+\begin{align*}
+    R_V \equiv \frac{A_V}{A_B-A_V} \equiv \frac{A_V}{E(B-V)} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where $A_B$ and $A_V$ are the extinctions measured in the $B$ ($4405$\,\AA) and $V$ ($5470$\,\AA) photometric bands, and $E(B-V)\equiv A_B-A_V$ is the ``reddening.''
+
+\begin{table}[t]
+    \centering
+    \includegraphics[width=10cm]{figures/ExtinctionTable.png}
+    \caption{\footnotesize{Extinction for Standard Photometric Bands for $R_V=3.1$. Figure taken from Draine (2011).}}
+    \label{table:extinctiontable}
+\end{table}
+
+{\noindent}Sightlines through diffuse gas in the MW have $R_V\approx3.1$ as an average value. The extinction $A_\lambda$, relative to $A_V$, is given in Table \ref{table:extinctiontable} for a number of standard photometric bands for sightlines characterized by $R_V\approx3.1$. The smallest well-determined value is $R_V=2.1$ toward the star HD 210121; the extinction toward HD 201021 is shown in \ref{fig:extinctioncurve}. Sightlines through dense regions tend to have larger values of $R_V$; the sightline toward HD 36982 has $R_V\approx5.7$.
+
+{\noindent}A very useful parametrization of the extinction curve within the MW was provided by Cardelli et al. (1989), who showed that the extinction relative to some reference wavelength $\lambda_{\rm ref}$ can be well-described as a function of $\lambda$ by a fitting function
+
+\begin{align*}
+    \frac{A_\lambda}{A_{\rm ref}} \approx f_7^{\rm CCM}(\lambda) ~ [{\rm mag}],
+\end{align*}
+
+{\noindent}where $f_7^{\rm CCM}$ has seven adjustable parameters. At wavelengths $3.5\,\mu{\rm m}>\lambda>3030$\,\AA, the function $f_7^{\rm CCM}(\lambda)$ depends only on $\lambda$ and the single parameter $R_V$.
+
+{\noindent}Six parameters are required to describe the UV extinction. Three parameters specify the strength, central wavelength, and width of the $2175$\,\AA\,``bump'' (relative to $A_V$), and three specify the slope and curvature of the continuous extinction underlying the bump and extending to shorter wavelengths. So-called \textbf{CCM extinction curves} are obtained using the function $f_7^{\rm CCM}$ with suitable choices for the $7$ seven fit parameters.
+
+{\noindent}Cardelli et al. (1989) showed that if the single quantity $R_V$ is known, it is possible to estimate the values of the other six parameters so that the optical-UV extinction can be approximated by a one-parameter family of curves:
+
+\begin{align*}
+    \frac{A_\lambda}{A_{\rm ref}} \approx f_1^{\rm CCM}(\lambda;R_V) ~ [{\rm mag}],
+\end{align*}
+
+{\noindent}It is clear that if the dust grains were large compared to the wavelength, we would be in the ``geometric optics'' limit, and the extinction cross section would be independent of wavelength, with $R_V=\infty$. The tendency for the extinction to rise with decreasing $\lambda$, even at the shortest UV wavelengths where we can measure it, tells us that grains smaller than the wavelength must be making an appreciable contribution to the extinction at all observed wavelengths, down to $\lambda=0.1\,\mu{\rm m}$. ``Small'' means (approximately) that $2\pi a/\lambda\lesssim1$. Thus interstellar dust must include a large population of grains with $a\lesssim0.015\,\mu{\rm m}$.
+
+{\noindent}A number of different quantities are used to characterize the absorption, scattering, and emission of electromagnetic radiation by a (non-rotating) dust grain:
+
+\begin{itemize}
+    \item The absorption cross section at wavelength $\lambda$: $C_{\rm abs}(\lambda)$
+    \item The scattering cross section: $C_{\rm sca}(\lambda)$
+    \item The extinction cross section: $C_{\rm ext}(\lambda) \equiv C_{\rm abs}(\lambda)+C_{\rm sca}(\lambda)$
+    \item The albedo:
+\end{itemize}
+
+\begin{align*}
+    \omega \equiv \frac{C_{\rm sca}(\lambda)}{C_{\rm abs}(\lambda)+C_{\rm sca}(\lambda)} = \frac{C_{\rm sca}(\lambda)}{C_{\rm ext}(\lambda)} ~ [{\rm dimensionless}].
+\end{align*}
+
+\begin{itemize}
+    \item The differential scattering cross section:
+\end{itemize}
+
+\begin{align*}
+   \frac{{\rm d}C_{\rm sca}}{{\rm d}\Omega}
+\end{align*}
+
+for incident unpolarized light to be scattered by an angle $\theta$. This is related to the dimensionless Muller matrix element $S_{11}$ by
+
+\begin{align*}
+   \frac{{\rm d}C_{\rm sca}}{{\rm d}\Omega} \equiv \frac{S_{11}(\theta)}{k^2}
+\end{align*}
+
+where $k\equiv2\pi/\lambda$.
+
+\begin{itemize}
+    \item The mean value of $\cos\theta$ for scattered light:
+\end{itemize}
+
+\begin{align*}
+   \langle\cos\theta\rangle = \frac{1}{C_{\rm sca}}\int\limits_0^\pi \cos\theta \frac{{\rm d}C_{\rm sca}}{{\rm d}\Omega} 2\pi\sin\theta{\rm d}\theta ~ [{\rm dimensionless}].
+\end{align*}
+
+\begin{itemize}
+    \item The radiation pressure cross section:
+\end{itemize}
+
+\begin{align*}
+   C_{\rm pr}(\lambda) \equiv C_{\rm abs}(\lambda) + (1-\langle\cos\theta\rangle)C_{\rm sca}(\lambda) ~ [{\rm cm^2}].
+\end{align*}
+
+\begin{itemize}
+    \item The degree of polarization $P(\theta)$ for light scattered through an angle $\theta$ (for incident unpolarized light).
+\end{itemize}
+
+{\noindent}For a given direction of incidence relative to a fixed grain, we would obviously need two angles $(\theta,\phi)$ to fully specify the scattering direction. However, for spherical grains, or for an ensemble of randomly oriented grains, the scattering properties can be described as a function of a single scattering angle $\theta$.
+
+{\noindent}In some cases, one wants to consider scattering of polarized light. For this case, it is usual to use the four-element \textbf{Stokes vector} to specify the intensity and state of polarization of radiation propagating in a particular direction. The ability of a grain to scatter radiation with incident Stokes vector $V_{\rm in}$ to outgoing Stokes vector $V_{\rm sca}$ is conveniently specified by a $4\times4$ dimensionless scattering matrix $S_{ij}$, known as the Muller matrix.
+
+{\noindent}It is convenient to normalize the absorption and scattering cross sections $C_{\rm abs}$ and $C_{\rm sca}$ to some area characterizing the grain. In the case of a spherical grain, it is natural to use the grain geometric cross section $\pi a^2$.
+
+{\noindent}For non-spherical grains, some authors choose to normalize using the geometric cross section as seen from the direction of the incident radiation; other authors choose to normalize using the average geometric cross section for random orientations.
+
+{\noindent}Here, we will instead normalize to the geometric cross section of an equal-solid-volume sphere. For a target with solid volume $V$ (V does not include the volume of any voids, if present), we define efficiency factors $Q_{\rm sca}$, $Q_{\rm abs}$ and $Q_{\rm ext} \equiv Q_{\rm abs} + Q_{\rm sca}$ by
+
+\begin{align*}
+    Q_{\rm sca} &\equiv \frac{C_{\rm sca}}{\pi a_{\rm eff}^2} ~ [{\rm cm^{-2}}] \\
+    Q_{\rm abs} &\equiv \frac{C_{\rm abs}}{\pi a_{\rm eff}^2} ~ [{\rm cm^{-2}}] \\
+    a_{\rm eff} &\equiv \left(\frac{3V}{4\pi}\right)^{1/3}  ~ [{\rm \mu m}].
+\end{align*}
+
+{\noindent}Here, $a_{\rm eff}$ is the radius of an equal-volume sphere. This is a natural choice, because it relates the scattering and absorption cross sections directly to the actual volume of grain material.
+
+{\noindent}In order to calculate scattering and absorption of electromagnetic waves by targets, we need to characterize the response of the target material to the local oscillating electric and magnetic fields. At submillimeter frequencies and above, real materials have only a negligible response to an applied magnetic field -- this is because the magnetization of materials is the result of aligned electron spins and electron orbital currents, and an electron spin (or orbit) can change direction only on time scales longer than the period for the electron spin (or orbit) to precess in the local (microscopic) magnetic fields within atoms and solids. These fields are at most $B_i\lesssim10\,{\rm kG}$, and the precession frequencies are $\omega_p\approx \mu_BB_i/\hbar\lesssim10^{10}\,{\rm s^{-1}}$, where $\mu_B$ is the \textbf{Bohr magneton} given by the equation
+
+\begin{align*}
+    \mu_B \equiv \frac{e\hbar}{2m_ec} ~ [{\rm erg\,G^{-1}}].
+\end{align*}
+
+{\noindent}When a weak applied field oscillates at frequencies$\omega\ll10^{10}\,{\rm s^{-1}}$, the magnetization of the material cannot respond. As a result, for frequencies $\nu\geq10\,{\rm GHz}$ we normally set the magnetic permeability $\mu=1$, and consider only the material's response to the oscillating electric field.
+
+{\noindent}The response of material to an applied oscillating electric field $E=E_0e^{-i\omega t}$ is characterized by a complex \textbf{dielectric function} of the permittivity $\epsilon$:
+
+\begin{align*}
+    \epsilon(\omega) = \epsilon_1 + i\epsilon_2 ~ [{\rm F\,m^{-1}}].
+\end{align*}
+
+{\noindent}The electrical conductivity $\sigma$, if any, can be absorbed within the imaginary part of the dielectric function, with the replacement
+
+\begin{align*}
+    \epsilon \rightarrow \frac{4\pi i\sigma}{\omega} ~ [{\rm S\,m^{-1}}].
+\end{align*}
+
+{\noindent}The complex \textbf{refractive index} $m(\omega)$ is related to the complex dielectric function by $m=\sqrt{\sigma}$.
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=7.5cm]{figures/Qabs.png}
+    \includegraphics[width=7.5cm]{figures/Qsca.png}
+    \includegraphics[width=7.5cm]{figures/Qext.png}
+    \caption{\footnotesize{\textbf{Top left}: Absorption efficiency factors $Q_{\rm abs}$ for spheres with various refractive indices $m$. \textbf{Top right}: Scattering efficiency factors $Q_{\rm sca}$ for spheres with various refractive indices $m$. \textbf{Bottom}: Extinction efficiency factors $Q_{\rm ext}$ for spheres with various refractive indices $m$. Note that $Q_{\rm ext}\rightarrow2$ for $|m-1|a/\lambda\rightarrow\infty$. Figure taken from Draine (2011).}}
+    \label{fig:Q}
+\end{figure}
+
+{\noindent}There are two sign conventions for the imaginary part of the dielectric function or refractive index. If we choose to write oscillating quantities $\propto e^{i\vec{k}\cdot\vec{r}}-i\omega t$, then ${\rm Im}(\epsilon)>0$ and ${\rm Im}(m)>0$ for absorbing, dissipative materials, where a propagating wave is attenuated. This is the convention that we will use. In terms of the refractive index, the wave vector
+
+\begin{align*}
+    k = m(\omega) \frac{\omega}{c} ~ [{\rm m^{-1}}]
+\end{align*}
+
+{\noindent}and, therefore, the electric field
+
+\begin{align*}
+    E \propto e^{i(kx-\omega t)} \propto e^{-{\rm Im}(m)\omega x/c} ~ [{\rm N\,C^{-1}}]
+\end{align*}
+
+{\noindent}and the power in the wave $(\propto|E|^2)$ decays as ${\rm exp}[−2{\rm Im}(m)\omega x/c]$. Therefore, the attenuation coefficient $\kappa$ and attenuation length $L_{\rm abs} \equiv 1/\kappa$ for the wave are simply
+
+\begin{align*}
+    \kappa(\omega) &= 2{\rm Im}(\omega)\frac{\omega}{c} \\
+    L_{\rm abs}(\omega) &= \frac{c}{2\omega {\rm Im}(m)} = \frac{\lambda}{4\pi {\rm Im}(m)}
+\end{align*}
+
+{\noindent}where $\lambda=2\pi c/\omega$ is the wavelength in vacuo.
+
+{\noindent}We are often interested in situations where the grain is much smaller than the wavelength of the incident EM wave. In this situation, the small grain is subject to an incident applied electric field that is nearly uniform in space. The electric field inside the grain will be proportional to the applied external electric field ${\rm Re}(E)0e^{-i\omega t})$. Averaged over one cycle, the rate per volume at which energy is absorbed within the grain is proportional to $\omega\epsilon 2E_0^2$.
+
+{\noindent}The absorption and scattering cross sections can be written
+
+\begin{align*}
+    C_{\rm abs} &= \frac{4\pi\omega}{c} {\rm Im}(\alpha) ~ [{\rm cm^2}] \\
+    C_{\rm sca} &= \frac{8\pi}{3}\left(\frac{\omega}{c}\right)^4 |\alpha|^2 ~ [{\rm cm^2}],
+\end{align*}
+
+{\noindent}where $\alpha$ is the electric polarizability of the grain: the electric dipole moment of the grain $\vec{\mu}=\alpha\vec{E}$, where $\vec{E}$ is the instantaneous applied electric field. Calculating the polarizability in the limit $\omega a/c\rightarrow0$ becomes a problem in electrostatics.
+
+{\noindent}At optical and UV wavelengths, the dust particles are not necessarily small compared to the wavelength, and the electric dipole approximation is no longer applicable. We must find the solution to Maxwell's equations with an incident plane wave, for an object of specified size and shape, composed of material with a specified dielectric function $\epsilon$ or refractive index $m$.
+
+{\noindent}For the special case of a sphere, an elegant analytic solution was found by Mie (1908) and Debye (1909), and is known as \textbf{Mie theory}. In brief, the EM field inside and outside the sphere can be decomposed into spherical harmonics with appropriate radial functions, with coefficients determined by the need to give an incident plane wave at infinity and to satisfy the continuity conditions at the surface of the sphere. Computer programs to evaluate the Mie theory solution are widely available.
+
+{\noindent}The character of the EM scattering will depend on the dimensionless ratio $a/\lambda$ and on the dimensionless refractive index $m(\omega)$. One relevant parameter will be the phase shift of a wave traveling a distance equal to the grain radius within the grain, expressed in radians. For non-absorptive material, this would be just $2\pi a|m-1|/\lambda$. Figure \ref{fig:Q} shows five examples, where we plot the absorption (top), scattering (middle), and extinction (bottom) efficiency factors against this phase shift.
+
+{\noindent}The details depend on the refractive index $m$, but the general trend is for $Q_{\rm ext}$ to rise to a value $Q_{\rm ext}\approx3-5$ near $|m-1|2\pi a/\lambda\approx2$. For dielectric functions with small imaginary components (i.e., weakly absorbing material, ${\rm Im}(m)\ll1$) $Q_{\rm ext}$ as a function of $a/\lambda$ shows oscillatory behavior due to interference effects, but the oscillations are minimal for strongly absorbing materials $({\rm Im}(m)\gtrsim1])$.
+
+{\noindent}For $(a/\lambda)\rightarrow\infty$, all of these examples have $Q_{\rm ext}\rightarrow2$. This is a general result, sometimes referred to as ``\textbf{the extinction paradox}'': for $x\equiv2\pi a/\lambda\rightarrow\infty$ and $|m-1|x\rightarrow\infty$, the extinction cross section is equal to exactly twice the geometric cross section.
+
+{\noindent}Ray-tracing arguments would lead us to expect the extinction cross section to be equal to the geometric cross section, but diffraction around the target leads to additional small-angle scattering, with the total extinction cross section equal to twice the geometric cross section.
+
+{\noindent}Mie theory is a powerful and robust computational tool with which one can efficiently calculate scattering and absorption by spheres with a wide range of dielectric constants, for $x\equiv2\pi a/\lambda\lesssim10^4$. For $x>10^4$, cancellation in the alternating series leads to round-off errors on machines with 64-bit arithmetic, but for the size distributions that are present in the ISM, scattering by the dust mixture is usually dominated by particles with $x\approx1$, and particles with $x\gg1$ can generally be ignored except at x-ray energies.
+
+{\noindent}However, one thing we know for certain about interstellar grains: the observed polarization of starlight implies that they are not spherical. If the grains are not spherical, how are we to calculate scattering and absorption cross sections? Elegant analytic treatments do exist for spheroids or infinite cylinders, but for more general shapes it is necessary to resort to brute force treatments. One approach that has proven useful is to approximate the actual target (with its particular geometry and dielectric function) by an array of ``point dipoles.'' For a target illuminated by an incident monochromatic EM wave, each of these dipoles is assigned a complex polarizability $\alpha(\omega)$. Each dipole has an instantaneous dipole moment $\vec{\mu}_j=\alpha_j\vec{E}_j$, where $\alpha_j$ is the polarizability tensor for dipole $j$, and $\vec{E}_j$ is the electric field at location $j$ due to the incident wave plus all of the other dipoles. This method is known as the \textbf{discrete dipole approximation} (DDA) or coupled dipole approximation.
+
+{\noindent}DDA calculations are CPU-intensive, but many problems of practical interest can be handled by a desktop computer. For example, the DDA has been used to study absorption and scattering by graphite particles and by random agglomerates.
+
+{\noindent}Figure 22.4 shows the real and imaginary components of the dielectric function for ${\rm Mg\,Fe\,Si\,O_4}$. In the optical and UV, normal solids have refractive indices $|m-1|\gtrsim0.3$. At x-ray energies, however, $|m-1|\ll1$, and the character of the scattering changes considerably. The wavelength $\lambda=0.00124\,({\rm keV}/h\nu)\,\mu{\rm m}$ is small compared to the sizes $a\approx0.2\,\mu{\rm m}$ of the particles containing most of the grain mass. The result is that the x-ray scattering is very strongly peaked in the forward direction, with a characteristic scattering angle
+
+\begin{align*}
+    \theta \approx \frac{\lambda}{\pi a} \approx 800'' \left(\frac{{\rm keV}}{h\nu}\right) \left(\frac{0.1\,\mu{\rm m}}{a}\right) ~ [{\rm rad}].
+\end{align*}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=7.5cm]{figures/MgFeSiO4_top.png} \includegraphics[width=7.5cm]{figures/MgFeSiO4_bottom.png}
+    \caption{\footnotesize{Dielectric function $\epsilon$ for ${\rm Mg\,Fe\,Si\,O_4}$ material. Various absorption edges are labelled in the plot of ${\rm Im}(\epsilon)$. This dielectric function, and its continuation at lower energies, will be referred to as ``\textbf{astrosilicate}''. From Draine (2003b), reproduced by permission of the AAS. Figure taken from Draine (2011).}}
+    \label{fig:MgFeSiO4}
+\end{figure}
+
+{\noindent}Above we have discussed calculational methods for various regimes. We can now calculate scattering and absorption cross sections for micron- or submicron-sized grains from x-ray to sub-mm wavelengths. Figure \ref{fig:Qextgrainsizes} shows the extinction efficiency $Q_{\rm ext}$ calculated for grains of amorphous silicate (``astrosilicate'') from the x-ray to the submm, for four different sizes. There are several noteworthy features:
+
+\begin{itemize}
+    \item $Q_{\rm ext}$ shows sharp discontinuities at x-ray absorption edges. The amorphous silicate material is assumed to have composition ${\rm Mg\,Fe\,Si\,O_4}$. Two conspicuous edges are the ${\rm Fe\,K}$ edge at $1.75$\AA~($7.1\,{\rm keV}$) and the ${\rm O\,K}$ edge at $23$\AA~($528\,{\rm eV}$). Note that the appearance of these edges depends on grain size. As the grains become larger, scattering makes an appreciable contribution to $Q_{\rm ext}$, and the long-wavelength side of the ${\rm O\,K}$ edge is ``filled in'' by scattering.
+    \item $a=1\,\mu{\rm m}$ grains are, in effect, optically thick (with $Q_{\rm ext}\approx2$) for $0.001\lesssim\lambda\lesssim 2\,\mu{\rm m}$; for $\lambda < 10^{-3}\,\mu{\rm m}$ ($h\nu>1.24\,{\rm keV}$), the absorption length exceeds the grain diameter, and for $\lambda>2\,\mu{\rm m}$, the grain is smaller than the wavelength. Similarly, the $a=10\,\mu{\rm m}$ grain is optically thick for $10^{-4}\,\mu{\rm m} \lesssim\lambda\lesssim 10\,\mu{\rm m}$.
+    \item The silicate absorption features at $9.7$ and $18\,\mu{\rm m}$ are prominent absorption features for the $a=0.01,\,0.1,\,1\,\mu{\rm m}$ cases shown, but are suppressed in the $a=10\,\mu{\rm m}$ example, because the grain is, in effect, optically thick at wavelengths on either side of the silicate features.
+\end{itemize}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=10cm]{figures/Qext_grainsizes.png}
+    \caption{\footnotesize{$Q_{\rm ext}\equiv C_{\rm ext}/\pi a2$ for $a=0.01,0.1,1,~{\rm and}~10\,\mu{\rm m}$ amorphous silicate spheres, for wavelengths ranging from $\lambda=10^{-4}\,\mu{\rm m}=1$\AA\, $(h\nu=12.4\,{\rm keV}$) to $\lambda=10^3\,\mu{\rm m}=1\,{\rm mm}$. At short wavelengths, the $a=0.01$ and $0.10\,\mu{\rm m}$ grains show discontinuities in $Q_{\rm ext}$ at x-ray absorption edges. In the IR, the $a=0.01,0.1,1\,\mu{\rm m}$ grains show prominent silicate absorption features at $9.7$ and $18\,\mu{\rm m}$, but these features are suppressed when $a=10\,\mu{\rm m}$. Figure taken from Draine (2011).}}
+    \label{fig:Qextgrainsizes}
+\end{figure}
+
+\begin{figure}[b]
+    \centering
+    \includegraphics[width=7.5cm]{figures/Qext_BV_top.png}
+    \includegraphics[width=7.5cm]{figures/Qext_BV_bottom.png}
+    \caption{\footnotesize{$Q_{\rm ext}$ for astrosilicate spheres (left) and carbonaceous spheres (right) for wavelengths ranging from $\lambda=0.1,\mu{\rm m}$ to $\lambda=4,\mu{\rm m}$. The locations of the $B$ ($4405$\AA) and $V$ ($5470$\AA) bands are shown. Curves are labeled by radius $a$. Figure taken from Draine (2011).}}
+    \label{fig:QextBV}
+\end{figure}
+
+{\noindent}Figure \ref{fig:QextBV} shows the behavior of $Q_{\rm ext}$ for wavelengths running from the vacuum UV into the infrared. The upper panel shows the extinction efficiency factors $Q_{\rm ext}$ for spheres with the ``astrosilicate'' dielectric function. For the wavelength range shown here, there are no spectral features, although small particles do show a rise in extinction for $\lambda\lesssim0.2,\mu{\rm m}$ due to the onset of ultraviolet absorption in silicates. Scattering becomes important for $\lambda\lesssim2\pi a$ (i.e., $x=2\pi a/\lambda\gtrsim1$), and $Q_{\rm ext}\gtrsim2$ for $\lambda\lesssim4a$.
+
+{\noindent}For the adopted optical constants, the small ($a\lesssim0.02\,\mu{\rm m}$) carbonaceous particles show a strong absorption feature near $2175$\AA, closely matching the observed interstellar feature near this wavelength. However, the theoretically-calculated feature broadens as the grain size increases to $0.03\,\mu{\rm m}$, and disappears for larger grains because the grain becomes optically thick not only at the wavelength of the resonance, but also at wavelengths above and below the resonance.
+
+{\noindent}As discussed earlier, interstellar extinction curves are often characterized by $R_V\equiv A_V/(A_B-A_V)$, and it is of interest to see what value of RV would apply to the extinction produced by grains of a single size and composition. Because $R_V$ is singular when $A_B=A_V$, it is preferable to instead consider $1/R_V \equiv (A_B-A_V)/A_V$, which is proportional to the slope of the extinction curve between $V$ and $B$. Figure \ref{fig:RVinv} shows $1/R_V$ versus grain radius for carbonaceous grains and astrosilicate grains. For very small grains, scattering is negligible compared to absorption, and the value of $R_V$ in the limit $a\rightarrow0$ depends on the wavelength dependence of the optical constants-- hence the very different limiting values for PAHs and astrosilicates. As the grain radius is increased, scattering begins to contribute significantly to the extinction, but we see that neither the silicate nor carbonaceous particles ever reach the value of $1/R_V=1/0.726$ appropriate to Rayleigh scattering by particles with a polarizability that is wavelength independent. This is because, for our assumed dielectric functions, when the particles are small enough to be in the Rayleigh limit, absorption makes an important contribution to the extinction.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=10cm]{figures/RV_inv.png}
+    \caption{\footnotesize{$1/R_V \equiv (C_{\rm ext}(B) - C_{\rm ext}(V))/C_{\rm ext}(V)$ as a function of radius a for astrosilicate and carbonaceous spheres ($B=0.44\,\mu{\rm m},\,V=0.55\,\mu{\rm m}$). The carbonaceous spheres are assumed to be graphitic for $a>0.01\,\mu{\rm m}$, and PAHs for $a<0.005\,\mu{\rm m}$, with a continuous transition between $0.005$ and $0.01\,\mu{\rm m}$. For $a\lesssim0.02\,\mu{\rm m}$, scattering is unimportant, and $R_V$ is determined by the absorptive properties of the grain material. For $a\gtrsim0.12\,\mu{\rm m}$, scattering resonances move through the wavelength range between $B$ and $V$, and $1/R_V$ has oscillatory behavior. The dust in the diffuse ISM is observed to have $R_V\approx3.1$, shown by the dotted line. $R_V\approx3.1$ for $a\approx0.08\,\mu{\rm m}$ or $0.14\,\mu{\rm m}$ for graphitic and astrosilicate grains, respectively. Figure taken from Draine (2011).}}
+    \label{fig:RVinv}
+\end{figure}
+
+{\noindent}$R_V\approx3.1$ is attained by graphitic grains for $a\approx0.08\,\mu{\rm m}$, and by astrosilicate grains for $\approx0.15\,\mu{\rm m}$. Although a broad size distribution is required to match the full extinction curve, grain models that reproduce the observed extinction should have the extinction in the visible dominated by grains with $a\approx0.1\,\mu{\rm m}$.
+
 
 \subsubsection{Follow-up Questions}
 
