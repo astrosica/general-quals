@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 00:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1252,31 +1252,353 @@ Package pdftex.def Info: figures/GalaxySED_geometry.png used on input line 1622
 .
 (pdftex.def)             Requested size: 398.33858pt x 505.04092pt.
  [48 <./figures/GalaxySED_appmodel.png>]
-[49 <./figures/GalaxySED_geometry.png>] [50] [51] [52] [53] [54] [55] [56]
-[57] [58]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 1903--1904
+[49 <./figures/GalaxySED_geometry.png>] [50] [51] [52] [53] [54]
+Underfull \hbox (badness 5893) in paragraph at lines 1902--1902
+[]\OT1/cmr/m/n/10 Figure 29: |\OT1/cmr/m/n/8 Kip-pen-hahn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 and com-po-si-tion di-a-grams
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 for a pro-to-star ac-cret-ing at
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 10[] []$. In the top
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 the pro-to-stel-lar ra-dius as a
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 as in-di-cated. Thin dot-ted
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 in-di-cated. Shaded re-gions
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 lower panel, the solid line
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 shows the mean deu-terium
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 to the start-ing value, while
+ []
+
+<figures/RvsM_protostars.png, id=554, 681.54625pt x 749.80125pt>
+File: figures/RvsM_protostars.png Graphic file (type png)
+
+<use figures/RvsM_protostars.png>
+Package pdftex.def Info: figures/RvsM_protostars.png used on input line 1902.
+(pdftex.def)             Requested size: 284.52756pt x 313.02661pt.
+
+Underfull \hbox (badness 5893) in paragraph at lines 1902--1902
+[]\OT1/cmr/m/n/10 Figure 29: |\OT1/cmr/m/n/8 Kip-pen-hahn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 and com-po-si-tion di-a-grams
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 for a pro-to-star ac-cret-ing at
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 10[] []$. In the top
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 the pro-to-stel-lar ra-dius as a
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 as in-di-cated. Thin dot-ted
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 in-di-cated. Shaded re-gions
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 lower panel, the solid line
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 shows the mean deu-terium
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 to the start-ing value, while
+ []
+
+File: figures/RvsM_protostars.png Graphic file (type png)
+<use figures/RvsM_protostars.png>
+Package pdftex.def Info: figures/RvsM_protostars.png used on input line 1902.
+(pdftex.def)             Requested size: 284.52756pt x 313.02661pt.
+
+Underfull \hbox (badness 5893) in paragraph at lines 1902--1902
+[]\OT1/cmr/m/n/10 Figure 29: |\OT1/cmr/m/n/8 Kip-pen-hahn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 and com-po-si-tion di-a-grams
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 for a pro-to-star ac-cret-ing at
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 10[] []$. In the top
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 the pro-to-stel-lar ra-dius as a
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 as in-di-cated. Thin dot-ted
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 in-di-cated. Shaded re-gions
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 lower panel, the solid line
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 shows the mean deu-terium
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 1902--1902
+\OT1/cmr/m/n/8 to the start-ing value, while
+ []
+
+File: figures/RvsM_protostars.png Graphic file (type png)
+<use figures/RvsM_protostars.png>
+Package pdftex.def Info: figures/RvsM_protostars.png used on input line 1902.
+(pdftex.def)             Requested size: 284.52756pt x 313.02661pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55]
+Underfull \hbox (badness 2735) in paragraph at lines 1918--1918
+[]\OT1/cmr/m/n/10 Figure 30: |\OT1/cmr/m/n/8 Evo-lu-tion of
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1918--1918
+\OML/cmm/m/it/8 T$ \OT1/cmr/m/n/8 di-a-gram. Adi-a-batic col-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 1918--1918
+\OT1/cmr/m/n/8 re-duces the tem-per-a-ture in-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 1918--1918
+\OT1/cmr/m/n/8 has di-min-ished enough that
+ []
+
+<figures/Tvsrho_protostars.png, id=562, 543.02875pt x 407.5225pt>
+File: figures/Tvsrho_protostars.png Graphic file (type png)
+
+<use figures/Tvsrho_protostars.png>
+Package pdftex.def Info: figures/Tvsrho_protostars.png used on input line 1918.
+
+(pdftex.def)             Requested size: 284.52756pt x 213.53589pt.
+
+Underfull \hbox (badness 2735) in paragraph at lines 1918--1918
+[]\OT1/cmr/m/n/10 Figure 30: |\OT1/cmr/m/n/8 Evo-lu-tion of
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1918--1918
+\OML/cmm/m/it/8 T$ \OT1/cmr/m/n/8 di-a-gram. Adi-a-batic col-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 1918--1918
+\OT1/cmr/m/n/8 re-duces the tem-per-a-ture in-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 1918--1918
+\OT1/cmr/m/n/8 has di-min-ished enough that
+ []
+
+File: figures/Tvsrho_protostars.png Graphic file (type png)
+<use figures/Tvsrho_protostars.png>
+Package pdftex.def Info: figures/Tvsrho_protostars.png used on input line 1918.
+
+(pdftex.def)             Requested size: 284.52756pt x 213.53589pt.
+
+Underfull \hbox (badness 2735) in paragraph at lines 1918--1918
+[]\OT1/cmr/m/n/10 Figure 30: |\OT1/cmr/m/n/8 Evo-lu-tion of
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1918--1918
+\OML/cmm/m/it/8 T$ \OT1/cmr/m/n/8 di-a-gram. Adi-a-batic col-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 1918--1918
+\OT1/cmr/m/n/8 re-duces the tem-per-a-ture in-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 1918--1918
+\OT1/cmr/m/n/8 has di-min-ished enough that
+ []
+
+File: figures/Tvsrho_protostars.png Graphic file (type png)
+<use figures/Tvsrho_protostars.png>
+Package pdftex.def Info: figures/Tvsrho_protostars.png used on input line 1918.
+
+(pdftex.def)             Requested size: 284.52756pt x 213.53589pt.
+ [56 <./figures/RvsM_protostars.png>]
+[57 <./figures/Tvsrho_protostars.png>]
+<figures/swelling.png, id=579, 705.63625pt x 766.865pt>
+File: figures/swelling.png Graphic file (type png)
+
+<use figures/swelling.png>
+Package pdftex.def Info: figures/swelling.png used on input line 1959.
+(pdftex.def)             Requested size: 284.52756pt x 309.20956pt.
+File: figures/swelling.png Graphic file (type png)
+ <use figures/swelling.png>
+Package pdftex.def Info: figures/swelling.png used on input line 1959.
+(pdftex.def)             Requested size: 284.52756pt x 309.20956pt.
+File: figures/swelling.png Graphic file (type png)
+
+<use figures/swelling.png>
+Package pdftex.def Info: figures/swelling.png used on input line 1959.
+(pdftex.def)             Requested size: 284.52756pt x 309.20956pt.
+
+<figures/HR_models.png, id=583, 952.55875pt x 638.385pt>
+File: figures/HR_models.png Graphic file (type png)
+
+<use figures/HR_models.png>
+Package pdftex.def Info: figures/HR_models.png used on input line 1972.
+(pdftex.def)             Requested size: 284.52756pt x 190.68898pt.
+File: figures/HR_models.png Graphic file (type png)
+ <use figures/HR_models.png>
+Package pdftex.def Info: figures/HR_models.png used on input line 1972.
+(pdftex.def)             Requested size: 284.52756pt x 190.68898pt.
+File: figures/HR_models.png Graphic file (type png)
+
+<use figures/HR_models.png>
+Package pdftex.def Info: figures/HR_models.png used on input line 1972.
+(pdftex.def)             Requested size: 284.52756pt x 190.68898pt.
+ [58]
+Underfull \hbox (badness 1168) in paragraph at lines 1987--1987
+\OT1/cmr/m/n/8 re-sent the prop-er-ties of ob-
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 1987--1987
+\OT1/cmr/m/n/8 adapted from from Palla &
+ []
+
+<figures/birthline.png, id=594, 687.56876pt x 756.8275pt>
+File: figures/birthline.png Graphic file (type png)
+
+<use figures/birthline.png>
+Package pdftex.def Info: figures/birthline.png used on input line 1987.
+(pdftex.def)             Requested size: 227.62204pt x 250.55067pt.
+
+Underfull \hbox (badness 1168) in paragraph at lines 1987--1987
+\OT1/cmr/m/n/8 re-sent the prop-er-ties of ob-
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 1987--1987
+\OT1/cmr/m/n/8 adapted from from Palla &
+ []
+
+File: figures/birthline.png Graphic file (type png)
+<use figures/birthline.png>
+Package pdftex.def Info: figures/birthline.png used on input line 1987.
+(pdftex.def)             Requested size: 227.62204pt x 250.55067pt.
+
+Underfull \hbox (badness 1168) in paragraph at lines 1987--1987
+\OT1/cmr/m/n/8 re-sent the prop-er-ties of ob-
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 1987--1987
+\OT1/cmr/m/n/8 adapted from from Palla &
+ []
+
+File: figures/birthline.png Graphic file (type png)
+<use figures/birthline.png>
+Package pdftex.def Info: figures/birthline.png used on input line 1987.
+(pdftex.def)             Requested size: 227.62204pt x 250.55067pt.
+ [59 <./figures/swelling.png>] [60 <./figures/HR_models.png> <./figures/birthli
+ne.png>] [61] [62] [63] [64] [65] [66]
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 2152--2153
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
 
 
 AED: lastpage setting LastPage
-[59]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1907.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1907.
+[67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2156.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1907.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1907.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2156.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1907.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2156.
  ) 
 Here is how much of TeX's memory you used:
- 9677 strings out of 492995
- 147547 string characters out of 6132704
- 264864 words of memory out of 5000000
- 12899 multiletter control sequences out of 15000+600000
+ 9720 strings out of 492995
+ 148418 string characters out of 6132704
+ 271187 words of memory out of 5000000
+ 12924 multiletter control sequences out of 15000+600000
  15201 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1302,10 +1624,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (59 pages, 9378094 bytes).
+Output written on galactic.pdf (67 pages, 10817768 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 160 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 762 PDF objects out of 1000 (max. 8388607)
+ 572 compressed objects within 6 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
