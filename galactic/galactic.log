@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 NOV 2018 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 00:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1253,28 +1253,28 @@ Package pdftex.def Info: figures/GalaxySED_geometry.png used on input line 1622
 (pdftex.def)             Requested size: 398.33858pt x 505.04092pt.
  [48 <./figures/GalaxySED_appmodel.png>]
 [49 <./figures/GalaxySED_geometry.png>] [50] [51] [52] [53] [54] [55] [56]
-[57]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 1833--1834
+[57] [58]
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 1903--1904
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
 
 
 AED: lastpage setting LastPage
-[58]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1837.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1837.
+[59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1907.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1907.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1837.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1837.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1907.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1907.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1837.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1907.
  ) 
 Here is how much of TeX's memory you used:
- 9676 strings out of 492995
- 147540 string characters out of 6132704
+ 9677 strings out of 492995
+ 147547 string characters out of 6132704
  264864 words of memory out of 5000000
  12899 multiletter control sequences out of 15000+600000
  15201 words of font info for 56 fonts, out of 8000000 for 9000
@@ -1302,10 +1302,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (58 pages, 9370798 bytes).
+Output written on galactic.pdf (59 pages, 9378094 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 159 named destinations out of 1000 (max. 500000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 525 compressed objects within 6 object streams
+ 160 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
 
