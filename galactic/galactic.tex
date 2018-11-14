@@ -2041,7 +2041,83 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+Interstellar matter accounts for $\sim10-15\%$ of the total
+mass of the Galactic disk. It tends to concentrate near the Galactic plane and along the spiral arms, while being very inhomogeneously distributed at small scales. Roughly half the interstellar mass is confined to discrete clouds occupying only $\sim1-2\%$ of the interstellar volume. These interstellar clouds can be divided into three types: the \textbf{dark clouds}, which are essentially made of very cold ($T\sim10-20\,{\rm K}$) molecular gas and block off the light from background stars, the \textbf{diffuse clouds}, which consist of cold ($T\sim100\,{\rm K}$) atomic gas and are almost transparent to the background starlight, except at a number of specific wavelengths where they give rise to absorption lines, and the \textbf{translucent clouds}, which contain molecular and atomic gases and have intermediate visual extinctions. The rest of the interstellar matter, spread out between the clouds, exists in three different forms: \textbf{warm (mostly neutral) atomic}, \textbf{warm ionized}, and \textbf{hot ionized}, where warm refers to a temperature of $10^4\,{\rm K}$ and hot to a temperature of $10^6\,{\rm K}$ (see Table \ref{table:ISMphases}).
+
+\begin{table}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/ISMphases_table.png}
+    \caption{\footnotesize{Descriptive parameters of the different components of the interstellar gas. $T$ is the temperature, $n$ is the true (as opposed to space-averaged) number density of hydrogen nuclei near the Sun, $\Sigma_\odot$ is the azimuthally averaged mass density per unit area at the solar circle, and $\mathcal{M}$ is the mass contained in the entire Milky Way. Both $\Sigma_\odot$ and $\mathcal{M}$ include 70.4\% hydrogen, 28.1\% helium, and 1.5\% heavier elements. All values were rescaled to $R_\odot=8.5\,{\rm kpc}$. Figure taken from Ferri\`ere (2001).}}
+    \label{table:ISMphases}
+\end{table}
+
+{\noindent}\textbf{Molecular gas:} The H$_2$ molecule itself is not directly observable at radio wavelengths: because it possesses no permanent electric dipole moment and has a very small moment of inertia, all its permitted transitions lie outside the radio domain. The CO molecule, for its part, has a $J=1\rightarrow0$ rotational transition at a radio wavelength of $2.6\,{\rm mm}$; the corresponding emission line, which was first observed a few months before the detection of CO in UV absorption, has become the primary tracer of molecular interstellar gas.
+
+{\noindent}\textbf{Neutral atomic gas:} Neutral atomic hydrogen, usually denoted by HI (as opposed to HII for ionized hydrogen), is not directly observable at optical wavelengths. Under most interstellar conditions, particle collisions are so infrequent that nearly all hydrogen atoms have their electron in the ground energy level $n=1$. It turns out that all the electronic transitions between the ground level and an excited state (forming the Lyman series) lie in the UV, with the Lyman $\alpha$ (Ly$\alpha$) transition between the ground level and the first excited state $n=2$ occurring at a wavelength of $1216$\AA.
+
+{\noindent}The breakthrough event that opened the era of radio-astronomical observations of interstellar HI was the detection of the interstellar $21\,{\rm cm}$ line emission. The existence of the $21\,{\rm cm}$ line results from the ``hyperfine'' structure of the hydrogen atom. In brief, the interaction between the magnetic moment of the electron and that of the proton leads to a splitting of the electronic ground level into two extremely close energy levels, in which the electron spin is either parallel (upper level) or anti-parallel (lower level) to the proton spin. It is the ``spin-flip'' transition between these two energy levels that corresponds to the now famous $21\,{\rm cm}$ line. The major advantage of $21\,{\rm cm}$ photons resides in their ability to penetrate deep into the ISM, thereby offering a unique opportunity to probe the interstellar HI gas out to the edges of the MW. On the other hand, the highly forbidden spin-flip transition is intrinsically so rare (Einstein A coefficient $A_{21}=2.85\times10^{-15}\,{\rm s^{-1}}$) that very long paths are needed for the $21\,{\rm cm}$ line to be detectable.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{$21\,{\rm cm}$ spectra of HI gas. The $x$ axis is gas velocity along the line of sight (in ${\rm km\,s^{-1}}$) and the $y$ axis is intensity in arbitrary units. \textbf{(Top:)} Emission line profile nearby to the direction toward an HII region. \textbf{(Bottom:)} The absorption spectrum, which can represent only relatively cool gas exactly along the line of sight to the HII region. Figure taken from Ferri\`ere (2001).}}
+    \label{fig:21cmemissabs}}
+    {\includegraphics[width=10cm]{figures/21cm_emission_abs.png}}
+\end{figure}
+
+{\noindent}The $21\,{\rm cm}$ absorption spectra generally look quite different from emission spectra taken in a nearby direction: while the emission spectra contain both distinct narrow peaks and much broader features, only the narrow peaks are present in the absorption spectra (see Figure \ref{fig:21cmemissabs}). The conventional interpretation of this difference is that the narrow peaks seen in emission and in absorption are produced by discrete cold ($T\sim5-100\,{\rm K}$) H I clouds, whereas the broader features seen in emission only are due to a widespread HI gas that is too warm to give rise to detectable $21\,{\rm cm}$ absorption. The estimated temperature of the warm HI component is $T\sim6000-10000\,{\rm K}$.
+
+{\noindent}\textbf{Warm ionized gas:} O and B stars, the hottest and most massive stars in the MW, emit a strong UV radiation, which, below a wavelength of $912$\AA~(corresponding to an energy of $13.6\,{\rm eV}$), is sufficiently energetic to ionize hydrogen atoms. As a result, these stars are surrounded by a so-called ``\textbf{HII region}'' within which hydrogen is almost fully ionized. Given that the ionizing UV photons are promptly absorbed by neutral hydrogen, the transition between the HII region and the ambient ISM is rather abrupt. Inside the HII region, ions and free electrons keep recombining before being separated again by fresh UV photons from the central star. Thus the HII region grows until the rate of recombinations within it becomes large enough to balance the rate of photoionizations. In a uniform medium, this balance occurs when the radius of the HII region reaches the value of the \textbf{Str\"omgren radius},
+
+\begin{align*}
+    r_s = 30 \left(\frac{N_{48}}{n_{\rm H}n_e}\right)^{1/3} ~ [{\rm pc}],
+\end{align*}
+
+{\noindent}where $N_{48}$ is the number of ionizing photons emitted per unit time by the central star, in $10^{48}\,{\rm s^{-11}}$ (e.g., $N_{48}\approx34$ for an O5V star and $N_{48}\approx1.7$ for a B0V star), and $n_{\rm H}$ and $n_e$ are the free-proton and free-electron number densities in the HII region, in ${\rm cm^{-3}}$.
+
+{\noindent}The process of photoionization is accompanied by a
+net heating of the interstellar gas, as the ionizing photons transfer a fraction of their energy (the excess with respect to the ionization potential) to the ejected electrons. The equilibrium temperature, set by a balance between photoelectric heating and radiative cooling, has a typical value $\sim8000\,{\rm K}$, depending on density and metallicity. This theoretical estimate turns out to be in good agreement with observational determinations based on measurements of the radio continuum radiation and on studies of emission-line ratios from HII regions.
+
+{\noindent}The radio continuum radiation of an HII region arises
+from the \textbf{bremsstrahlung or} ``\textbf{free-free}'' emission generated as free electrons are accelerated in the Coulomb field of positive ions (H$^+$,He$^+$,He$^{2+}$). Emission lines, found at optical, IR, and radio wavelengths, are primarily due to radiative recombination of hydrogen and helium ions with free electrons and to radiative de-excitation of collisionally excited ionized metals. Of special importance are the optical hydrogen \textbf{Balmer lines} produced by electronic transitions from an excited state $n>2$ to the first excited state $n=2$. Because each recombination of a free proton with a free electron into an excited hydrogen atom leads sooner or later to the emission of one Balmer photon, and because the rate per unit volume of recombinations into an excited hydrogen atom is proportional to $N_{\rm H^+} + n_e \propto n_e^2$, the integrated intensity of the Balmer lines is directly proportional to the \textbf{emission measure}
+
+\begin{align*}
+    {\rm EM} = -\int\limits_{\rm source}^{\rm observer}n_e^2{\rm d}s ~ [{\rm pc\,cm^{-6}}],
+\end{align*}
+
+{\noindent}where ${\rm d}s$ is the length element along the line of sight through the HII region. For future reference, let us specify that the hydrogen Balmer transition between the electronic energy levels $n=3$ and $n=2$ is usually referred to as the $\mathbf{H\alpha}$ transition and has a wavelength of $6563$\,\AA.
+
+{\noindent}\textbf{Hot ionized gas:} The notion that hot interstellar gas exists in the MW dates back to Spitzer's (1956) paper on a possible Galactic corona, made of hot rarefied gas, which would provide the necessary pressure to confine the observed high-altitude interstellar clouds. The presence of such a hot gas was borne out almost two decades later by two independent types of observations: (1) the Copernicus satellite detected, in the spectrum of several bright stars, broad UV absorption lines of high-stage ions that form only at elevated temperatures, and (2) the observed soft-x-ray background radiation was found to be most likely due to thermal emission from a hot interstellar plasma.
+
+{\noindent}Amongst the high-stage ions accessible to UV observations, OVI (five-times-ionized oxygen, with a doublet at ($1032$\AA, $1038$\AA)) and NV (four-times-ionized nitrogen, with a doublet at ($1239$\AA, $1243$\AA)) are the best tracers of hot collisionally ionized gas, insofar as their high ionization potential makes them difficult to produce by photoionization.
+
+{\noindent}The soft-x-ray background radiation around $0.25\,{\rm keV}$ appears to arise predominantly from the Local Bubble. It is very likely that $0.25\,{\rm keV}$ x-ray-emitting regions exist throughout the MW, but because their radiation is efficiently absorbed by the intervening cool interstellar gas, the majority of them must escape detection. On the other hand, a number of bright features have been observed in the intermediate energy band $0.5-1.0\,{\rm keV}$, which is less affected by photoelectric absorption. Most of these features were shown to be associated either with individual supernova remnants (produced by isolated supernova explosions) or with ``\textbf{superbubbles}'' (produced by the joint action of stellar winds and supernova explosions in a group of massive stars), and their x-ray radiation was attributed to thermal emission from a hot plasma at a temperature of a few $10^6\,{\rm K}$.
+
+{\noindent}It is now widely accepted that the hot interstellar gas
+is generated by supernova explosions and, to a lesser extent, by the generally powerful winds from the progenitor stars.
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=15cm]{figures/ISM_disk.png}
+    \caption{\footnotesize{Various conceptions of the ISM within the disk. In this figure, purple indicates dark molecular clouds; solid green—cold HI clouds; hatched green—warm HI; hatched green on yellow background—diffuse warm HII; orange-hotter gas bearing OVI; red—material hot enough to emit X rays; and (in this figure only) black lines with arrowheads—the magnetic field. A blue star in the top panel is shown contributing to the ionization of the diffuse gas in its vicinity. None show the correct nature of the inhomogeneity. Figure taken from Cox (2005).}}
+    \label{fig:ISMdisk}
+\end{figure}
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=14cm]{figures/ISM_vertical.png}
+    \caption{\footnotesize{Various conceptions of the ISM within about $300\,{\rm pc}$ of the midplane. In this figure, purple indicates dark molecular clouds; solid green—cold HI clouds; hatched green—warm HI; hatched green on yellow background—diffuse warm HII; orange—hotter gas bearing OVI; and red—material hot enough to emit X rays. The green arrows in the fourth panel indicate material flowing into a spiral arm and encountering a combination shock and hydrualic jump (shown as a vertical squiggly green line with arcs enclosing it at high $|z|$). The red dots in the bottom panel represent microflares, releases of magnetic energy via localized reconnection events; whereas the gray region is a column of escaping cosmic rays and the associated distortions of the magnetic field. None show the correct nature of the inhomogeneity. Figure taken from Cox (2005).}}
+    \label{fig:ISMdisk}
+\end{figure}
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=14cm]{figures/ISM_global.png}
+    \caption{\footnotesize{Various conceptions of the larger scale structure of the Galactic atmosphere. In this figure, hatched green indicates warm HI; hatched green on yellow background—diffuse warm HII; orange—hotter gas bearing OVI; red—material hot enough to emit X rays; gray—plumes of escaping cosmic rays; and red dots-microflares. The lower two panels contain some elements of potentially greater realism. Figure taken from Cox (2005).}}
+    \label{fig:ISMdisk}
+\end{figure}
+
+\newpage
+\subsubsection{Follow-up Questions}
 
 \begin{itemize}
     \item Write down typical temperatures and densities for each phase.
@@ -2151,6 +2227,7 @@ Additional context.
     \item Principles of Star Formation, Bodenheimer (2011)
     \item Stellar Evolutionary Effects on the Abundances of Polycyclic Aromatic Hydrocarbons and Supernova-Condensed Dust in Galaxies, Galliano et al. (2008)
     \item Some insights on the dust properties of nearby galaxies, as seen with Herschel, Galliano (2017)
+    \item The Three Phase Interstellar Medium Revisited, Cox (2005)
 \end{itemize}
 
 \end{document}

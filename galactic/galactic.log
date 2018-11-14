@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,7 +452,14 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(./galactic.aux)
+(./galactic.aux
+
+LaTeX Warning: Label `fig:ISMdisk' multiply defined.
+
+
+LaTeX Warning: Label `fig:ISMdisk' multiply defined.
+
+)
 \openout1 = `galactic.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -469,8 +476,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count135
 \scratchdimen=\dimen156
@@ -1575,30 +1581,179 @@ File: figures/birthline.png Graphic file (type png)
 Package pdftex.def Info: figures/birthline.png used on input line 1987.
 (pdftex.def)             Requested size: 227.62204pt x 250.55067pt.
  [59 <./figures/swelling.png>] [60 <./figures/HR_models.png> <./figures/birthli
-ne.png>] [61] [62] [63] [64] [65] [66]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 2152--2153
+ne.png>] [61]
+<figures/ISMphases_table.png, id=617, 1004.75375pt x 283.0575pt>
+File: figures/ISMphases_table.png Graphic file (type png)
+
+<use figures/ISMphases_table.png>
+Package pdftex.def Info: figures/ISMphases_table.png used on input line 2049.
+(pdftex.def)             Requested size: 398.33858pt x 112.21895pt.
+
+<figures/21cm_emission_abs.png, id=618, 766.865pt x 602.25pt>
+File: figures/21cm_emission_abs.png Graphic file (type png)
+
+<use figures/21cm_emission_abs.png>
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2064.
+
+(pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
+File: figures/21cm_emission_abs.png Graphic file (type png)
+ <use figures/21cm_emission_abs.png>
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2064.
+
+(pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
+File: figures/21cm_emission_abs.png Graphic file (type png)
+
+<use figures/21cm_emission_abs.png>
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2064.
+
+(pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
+ [62 <./figures/ISMphases_table.png>]
+[63 <./figures/21cm_emission_abs.png>]
+<figures/ISM_disk.png, id=635, 506.89375pt x 767.86874pt>
+File: figures/ISM_disk.png Graphic file (type png)
+
+<use figures/ISM_disk.png>
+Package pdftex.def Info: figures/ISM_disk.png used on input line 2100.
+(pdftex.def)             Requested size: 426.79134pt x 646.54024pt.
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+
+<figures/ISM_vertical.png, id=636, 503.8825pt x 783.92876pt>
+File: figures/ISM_vertical.png Graphic file (type png)
+
+<use figures/ISM_vertical.png>
+Package pdftex.def Info: figures/ISM_vertical.png used on input line 2107.
+(pdftex.def)             Requested size: 398.33858pt x 619.72757pt.
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+
+<figures/ISM_global.png, id=637, 496.85625pt x 673.51625pt>
+File: figures/ISM_global.png Graphic file (type png)
+
+<use figures/ISM_global.png>
+Package pdftex.def Info: figures/ISM_global.png used on input line 2114.
+(pdftex.def)             Requested size: 398.33858pt x 539.97504pt.
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+ [64]
+
+LaTeX Warning: Text page 65 contains only floats.
+
+
+Overfull \vbox (0.55438pt too high) has occurred while \output is active []
+
+
+[65 <./figures/ISM_disk.png>]
+
+LaTeX Warning: Text page 66 contains only floats.
+
+[66 <./figures/ISM_vertical.png>] [67 <./figures/ISM_global.png>] [68] [69]
+[70] [71]
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 2228--2229
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
 
 
 AED: lastpage setting LastPage
-[67]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2156.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2156.
+[72]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2233.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2233.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2156.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2156.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2233.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2156.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2233.
  ) 
 Here is how much of TeX's memory you used:
- 9720 strings out of 492995
- 148418 string characters out of 6132704
- 271187 words of memory out of 5000000
- 12924 multiletter control sequences out of 15000+600000
+ 9761 strings out of 492995
+ 149286 string characters out of 6132704
+ 272664 words of memory out of 5000000
+ 12949 multiletter control sequences out of 15000+600000
  15201 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1624,10 +1779,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (67 pages, 10817768 bytes).
+Output written on galactic.pdf (72 pages, 14883414 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 173 named destinations out of 1000 (max. 500000)
- 369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 598 compressed objects within 6 object streams
+ 184 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
 
