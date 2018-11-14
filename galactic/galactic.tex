@@ -2155,11 +2155,138 @@ How can one determine the temperature of a HII region?
 
 \subsubsection{Short answer}
 
-Answer.
+The temperature of an HII region can be determined using three techniques:
+
+\begin{itemize}
+    \item Nebular diagnostics.
+    \item The Balmer jump in the emission spectrum of the recombining hydrogen.
+    \item Emission lines that follow dielectronic recombination.
+\end{itemize}
 
 \subsubsection{Additional context}
 
-Additional context.
+Hot stars photoionize the gas around them; the photoionized gas is referred to as an HII region, because the hydrogen is predominantly ionized. The dominant heating process is photoionization: ionizing photons have energies larger than the ionization threshold, and the resulting photoelectron will have nonzero kinetic energy, adding to the thermal energy of the gas. At the same time, recombination processes (primarily radiative recombination) are removing electrons from the plasma, along with the kinetic energy that they possessed just before the recombination event, and thermal energy is also lost when electron collisions excite ions from lower to higher energy levels, followed by emission of photons. The temperature of the gas is thus determined by a balance between the heating and cooling processes.
+
+{\noindent}\textbf{Nebular diagnostics:} The populations of excited states of atoms and ions depend on the local density and temperature. Therefore, if we can determine the level populations from observations, we can use atoms and ions as probes of interstellar space. Nebular diagnostics allow us to probe the density and temperature of photoionized gas (``\textbf{emission nebulae}'') in the temperature range $3000\lesssim T\lesssim3\times10^4\,{\rm K}$.
+
+{\noindent}To be a useful probe, an atom or ion must be sufficiently abundant to observe, must have energy levels that are at suitable energies, and must have radiative transitions that allow us to probe these levels, either through emission lines or absorption lines.
+
+{\noindent}There are two principal types of nebular diagnostics. The first type of diagnostic uses ions with two excited levels that are both ``energetically accessible'' at the temperatures of interest, but with an energy difference between them that is comparable to $k_BT$, so that the populations of these levels are sensitive to the gas temperature. The level populations are normally observed by their line emission.
+
+{\noindent}The second type of diagnostic uses ions with two or more ``energetically accessible'' energy levels that are at nearly the same energy, so that the relative rates for populating these levels by collisions are nearly independent of temperature. The ratio of the level populations will have one value in the low-density limit, where every collisional excitation is followed by spontaneous radiative decay, and another value in the high-density limit, where the levels are populated in proportion to their degeneracies. If the relative level populations in these two limits differ (as, in general, they will), then the relative level populations (determined from observed emission line ratios) can be used to determine the density in the emitting region.
+
+{\noindent}Once the temperature of the gas has been determined, abundances of emitting species can be estimated using the strengths of collisionally excited emission lines relative to the emission from the ionized hydrogen. When fine-structure emission lines are used, the inferred abundances are quite insensitive to uncertainties in the temperature determination.
+
+{\noindent}We will discuss two types of temperature diagnostics using collisionally excited optical/UV lines: $np^2$ and $np^4$ ions, and $np^3$ ions. But first, let's give a short overview of atomic structure.
+
+{\noindent}\textbf{Brief overview of atomic structure:} Atoms consist of three subatomic particles: protons, neutrons, and electrons. A proton has a positive charge and a neutron has no charge. Both protons and neutrons are found in the densely packed, positively charged nucleus. The nucleus contains essentially all of the mass of the atom. Electrons carry a negative charge and are found in electron shells surrounding the nucleus. The mass of the electron is considered to be negligible.
+
+{\noindent}All atoms have an atomic number, $Z$, and a mass number, $A$. The atomic number, $Z$, represents its number of protons and its mass number, $A$, represents its number of protons plus its number of neutrons. All atoms of a particular element will have the same atomic number, however they may differ in their number of neutrons and electrons. Two atoms with the same atomic number but different mass numbers (different numbers of neutrons) are referred to as \textbf{isotopes}. The average atomic mass found on the periodic table represents a weighted average of the naturally occurring isotopes for a particular element. Atoms with unequal numbers of protons and electrons produce charged atoms or \textbf{ions}.
+
+{\noindent}Electrons within an atom are found in particular \textbf{orbitals}. An atomic orbital is a mathematical function that describes the wave-like behavior of either one electron or a pair of electrons in an atom. This function can be used to calculate the probability of finding any electron of an atom in any specific region around the atom's nucleus. The term atomic orbital may also refer to the physical region or space where the electron can be calculated to be present, as defined by the particular mathematical form of the orbital. 
+
+{\noindent}Electrons within an atom can be assessed according to the shell, subshell, and orbital to which they are assigned. These assessments are based on the quantum mechanical model. \textbf{Shells} are numbered as $n=1$, $2$, $3$, $4$, etc. and increase in size and energy as they get further away from the nucleus. Shells can be subdivided into subshells.
+
+{\noindent}The maximum number of \textbf{subshells} is equivalent to the shell number. For example, when $n=1$ (first shell), only one subshell is possible and when $n=2$ (second shell), two subshells are possible. There are four different types of subshells. These various types of subshells are denoted by the letters $s$, $p$, $d$, and $f$. Each subshell has a maximum number of electrons which it can hold: $s$: $2$ electrons, $p$: $6$ electrons, $d$: $10$ electrons, and $f$: $14$ electrons. The $s$ subshell is the lowest energy subshell and the $f$ subshell is the highest energy subshell. As was mentioned previously, the shell number is equal to the possible number of subshells. Thus, when $n=1$, the only subshell possible is the $1s$ subshell. When $n=2$, two subshells are possible: the $2s$ and $2p$. When $n=3$, three subshells are possible: the $3s$, $3p$, and $3d$. This means that in the first shell only two electrons are possible and they would be found in the $1s$ ($2$ electrons) subshell. In the second shell, $8$ electrons are possible and would be found in the $2s$ ($2$ electrons) and the $2p$ ($6$ electrons) subshells.
+
+{\noindent}Each subshell is further divided into \textbf{orbitals}. An orbital is defined as a region of space in which an electron can be found. \textit{Only two electrons are possible per orbital}. Thus, the $s$ subshell may contain only one orbital and the $p$ subshell may contain three orbitals. Each orbital has its own distinct shape. An $s$ orbital found in an $s$ subshell is spherical, $p$ orbitals found in $p$ subshells are two-lobed, and $d$ orbitals found in $d$ subshells are four-lobed. Since there are three possible orbitals per $p$ subshell, each orbital adopts its own orientation. The $p_x$ orbital lies along the $x$ axis, the $p_y$ orbital lies along the $y$ axis, and the $p_z$ orbital lies along the $z$ axis.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=11cm]{figures/orbitals_3D.png}
+    \caption{\footnotesize{3D views of some hydrogen-like atomic orbitals. Figure taken from Wikipedia.}}
+    \label{fig:orbitals3D}
+\end{figure}
+
+{\noindent}When writing electron configurations for atoms, the shorthand symbol for a subshell followed by a super-scripted number which represents the number of electrons in that subshell is used. For example, a Carbon atom with $6$ electrons would have the electron configuration: $1s^22s^22p^2$. A possible arrangement within the $2p$ subshell would be to find one of the electrons in the $2p_x$ orbital and the second electron in the $2p_y$ orbital. 
+
+{\noindent}Figure \ref{fig:orbitals3D} shows hydrogen-like atomic structure for $s$, $p$, $d$, and $f$ orbitals.
+
+{\noindent}\textbf{$\mathbf{np^2}$ and $\mathbf{np^4}$ ions:} Atoms or ions with six electrons have $2p^2$ as their lowest configuration: the ground state term is $^3P$, and the first two excited terms are $^1D$ and $^1S$. If the $^1S$ term is at a low enough energy ($E/k_B\lesssim70000\,{\rm K}$), so that the rate for collisional excitation in gas with $T\approx10^4\,{\rm K}$ is not prohibitively slow, and the abundance of the ion itself is not too low, then the ion can produce observable line emission from both the $^1D$ and $^1S$ levels. Because these levels are at very different energies, the relative strengths of the emission lines will be very sensitive to the temperature; the measured intensity ratio can be used to determine the temperature in the nebula.
+
+{\noindent}Candidate $2p^2$ ions are CI, NII, OIII, FIV, NeV, and so on. CI is easily photoionized, and will have very low abundance in an HII region. The ionization potentials of FIV, NeV, and so on exceed $54.4\,{\rm eV}$, and we do not expect such high ionization stages to be abundant in H II regions excited by main-sequence stars with effective temperatures $k_BT_{\rm eff}\lesssim5\,{\rm eV}$. This leaves NII and OIII as the only $2p^2$ ions that will be available in normal HII regions.
+
+{\noindent}Systems with eight electrons will have $2p^4$ configurations that will also have $^1D$ and $^1S$ as the first two excited terms. For OI, FII, and NeIII, the $^1S$ term is at $E/k_B<70000\,{\rm K}$.
+
+{\noindent}Similar considerations for systems with $14$ or $16$ electrons in HII regions photoionized by main-sequence stars leave PII and SIII as the only $3p^2$ ions, and ClII, ArIII, and KIV as the only $3p^4$ ions, that can be used for temperature determination by comparison of emission lines from the $^1D$ and $^1S$ levels.
+
+\begin{table}[t!]
+    \centering
+    \includegraphics[width=11cm]{figures/ncrit_np2np4.png}
+    \caption{\footnotesize{Critical electron density $n_{\rm crit}(e^-)[~{\rm cm^{-3}}]$ for selected $np^2$ and $np^4$ ions.}}
+    \label{table:ncrit24}
+\end{table}
+
+\begin{table}[t!]
+    \centering
+    \includegraphics[width=11cm]{figures/ncrit_np3.png}
+    \caption{\footnotesize{Critical electron density $n_{\rm crit}(e^-)[~{\rm cm^{-3}}]$ for selected $np^3$ ions.}}
+    \label{table:ncrit3}
+\end{table}
+
+{\noindent}It is easy to calculate what happens in the limit of very low densities, in which case essentially all of the NII and OIII ions will be in the ground state $^3P_0$. Let $C_{03}$ and $C_{04}$ be the rates for collisional excitation from the ground state to the $^1D_2$ and $^1S_0$ excited states. At low densities, every collisional excitation will be followed by radiative decays returning the ion to the ground state, with branching ratios that are determined by the Einstein coefficients $A_{ul}$. For example, after excitation of level $4$, the probability of a $4\rightarrow3$ radiative transition is $A_{43}/(A_{41}+A_{43})$. Thus the power radiated per unit volume in the $4\rightarrow3$ and $3\rightarrow2$ transitions is
+
+\begin{align*}
+    P(4\rightarrow3) &= E_{43}[n_0C_{04}] \frac{A_{43}}{A_{43}+A_{41}}, \\
+    P(3\rightarrow2) &= E_{32}\left[n_0C_{03} + n_0C_{04}\frac{A_{43}}{A_{43}+A_{41}}\right] \frac{A_{32}}{A_{32}+A_{31}},
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    C_{lu} = 8.629\times10^{-8}T_4^{-1/2} \left(\frac{\Omega_{lu}}{g_{lu}}\right) e^{-E_{ul}/k_BT}n_e ~ [{\rm cm^3\,s^{-1}}].
+\end{align*}
+
+{\noindent}Thus, in the limit $n_e\rightarrow0$, the \textbf{emissivity ratio}
+
+\begin{align*}
+    \frac{j(4\rightarrow3)}{j(3\rightarrow2)} = \frac{A_{43}E_{43}}{A_{32}E_{32}} \frac{(A_{32}+A_{31}) \Omega_{04}e^{-E_{43}/k_BT}}{(A_{43}+A_{41})\Omega_{03} + A_{43}\Omega_{04}e^{-E_{43}/k_BT}} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}Therefore, in the low-density limit, the emissivity ratio depends only on the atomic physics ($A_{ul}$, $E_{ul}$, $\Omega_{ul}$) and the gas temperature $T$. If the atomic physics is known, the observed emissivity ratio can be used to determine $T$. The low-density limit applies when the density is below the critical density for both $^1D_2$ and $^1S_0$. The critical densities for NII and OIII are given in Table \ref{table:ncrit24}.
+
+{\noindent}The steady-state level populations have been calculated as a function of $T$ for NII and OIII, and the ratios of emission lines from the $^1S_0$ and $^1D_2$ levels are shown in Figure \ref{fig:lineratios_t}. We see that if $n_e\ll n_{\rm crit}$ for the $^1D_2$ level ($n_{\rm crit}=8\times1^04\,{\rm cm^{-3}}$ for NII, and $6\times10^5\,{cm^{-3}}$ for OIII), the line ratio is independent of the density, and depends only on the temperature. Fortunately, these values of $n_{\rm crit}$ are high enough so that these temperature diagnostics are useful in many ionized nebulae (e.g., the Orion Nebula, with $n_e\approx3000\,{\rm cm^{-3}}$).
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=14cm]{figures/LineRatios_T.png}
+    \caption{\footnotesize{Critical electron density $n_{\rm crit}(e^-)[~{\rm cm^{-3}}]$ for selected $np^2$ and $np^4$ ions.}}
+    \label{fig:lineratios_t}
+\end{figure}
+
+{\noindent}Note that the fine-structure excited states of the ground $^3P$ term have values of $n_{\rm crit}$ that are considerably lower than $n_{\rm crit}$ for $^1D_2$ and $^1S_0$ levels, because the fine-structure levels of the ground term have radiative lifetimes that are much longer than the excited terms.
+
+{\noindent}However, when \textbf{L-S coupling} is a good approximation, quantum-mechanical calculations of the collision strengths $\Omega_{ul}$ for different fine-structure levels $l$ within a single term (e.g., $^3P_0$,$1$,$2$) have $\Omega_{ul}/\Omega_{ul'}\approx g_l/g_{l'}$. When this is true, the collisional rate coefficients for excitation out of the different fine-structure levels will be nearly the same for the different fine-structure levels, so it does not matter whether these levels are populated thermally or whether the only level occupied is the ground state $^3P_0$.
+
+{\noindent}Ions with $14$ electrons (SIII is an example) have $1s^22s^22p^63s^23p^2$ configurations with the same term structure as $1s^22s^22p^2$, and therefore can be used for temperature determination in the same way. Figure \ref{fig:lineratios_t} shows how the ratio [SIII]$6313.8$/[SIII]$9533.7$ serves as a temperature diagnostic.
+
+{\noindent}A fundamental assumption is that the levels producing the observed lines are populated only by collisional excitation. The $^1D_2$ level is at sufficiently high energy that as the temperature $T$ is lowered below $\sim5000\,{\rm K}$, the rate of collisional excitation becomes very small. This means that the line becomes very weak and difficult to observe; it also means that if the next ionization state (NIII, OIV, SIV) has an appreciable abundance, radiative recombination with electrons may make a significant contribution to population of the $^1D_2$ level. As a result, the observed line ratios may not be suitable for temperature determination when the intensity $I(^1D_2\rightarrow^1S_0)\lesssim 10^{-3} I(^1S_0\rightarrow^3P_J)$.
+
+{\noindent}\textbf{$\mathbf{np^3}$ ions:} Atoms or ions with seven electrons have $1s^22s^22p^3$ as their lowest configuration: the ground term is $^4S_{3/2}^0$, and the first two excited terms are $^2D_{3/2,5/2}^0$ and $^2P_{1/2,3/2}^0$. Candidate ions are NI, OII, FIII, NeIV, and so on. NI will be photoionized in HII regions, leaving OII, FIII, and NeIV as the $2p_3$ ions suitable for observation in HII regions.
+
+{\noindent}Atoms or ions with $15$ electrons have $1s^22s^22p^63s^23p^3$ as their lowest configuration. Just as for $2p^3$, the ground term is $^4S_{3/2}^0$, and the first two excited terms are $^2D_{3/2,5/2}^0$ and $^2P_{1/2,3/2}^0$. Candidate ions are PI, SII, ClIII, and ArIV. PI is easily photoionized, leaving SII, ClIII, and ArIV as the $3p^3$ ions that will be present in regions with $h\nu>13.6\,{\rm eV}$ radiation extending possibly up to $54.4\,{\rm eV}$.
+
+{\noindent}The ratio of the intensities of lines emitted by the $^2P^0$ term to lines from the $^2D^0$ term is temperature-sensitive. Figure \ref{fig:lineratios_t} shows [OII]($7322+7332$)/($3730+3727$) and [SII]($6718+6733$)/($4070+4077$) as functions of temperature. For these two ions, the critical density for $^2D^0$ is relatively low (see Table \ref{table:ncrit3}), so that these $T$-sensitive line ratios are also sensitive to $n_e$ for $n_e\gtrsim300\,{\rm cm^{-3}}$. Because of this sensitivity, the $np^3$ ions are only useful if $n_e$ is known, or is known to be $\leq10^2\,{\rm cm^{-3}}$.
+
+{\noindent}\textbf{Balmer jump:} It is possible to determine the temperature from the strengths of the discontinuities in the recombination continuum relative to the strengths of recombination lines. The most commonly used discontinuity is the ``\textbf{Balmer jump}'' at $\lambda=3645.1$\AA: 
+
+\begin{align*}
+    {\rm BJ}\equiv I_\lambda(\lambda_{\rm BJ,blue}) - I_\lambda(\lambda_{\rm BJ,red}) ~ [{\rm erg\,s^{-1}\,cm^{-2}\,Hz^{-1}\,sr^{-1}}],
+\end{align*}
+
+{\noindent}where $\lambda_{\rm BJ,blue}$ is chosen to be just blueward of the jump, and $\lambda_{\rm BJ,red}$ is chosen to be slightly redward of the jump, and to be located between H recombination lines. For example, $\lambda_{\rm BJ,red}=3682.6$\AA~would fall between the H20 and H21 lines.
+
+{\noindent}The ``jump'' discontinuity is produced by recombining electrons with zero kinetic energy, and is therefore proportional to the electron energy distribution at $E=0$, and therefore ${\rm BJ}\propto{\rm EM}\times T^{-3/2}$, where $EM$ is the \textbf{emission measure}.
+
+{\noindent}The strength of a recombination line such as the H11 line ($n=11\rightarrow2$ at $\lambda=3769.7$\AA) is proportional to rates of radiative recombination to levels $n\geq11$. The effective recombination rate coefficient for emitting H11 will vary approximately as $T^{-0.8}$ near the temperatures of interest, and the intensity of the recombination line $I({\rm H11})\propto{\rm EM}\times T^{-0.8}$. Thus we expect ${\rm BJ}/I({\rm H11})\propto T^{-0.7}$: the dependence
+on $T$ is strong enough that this is a useful diagnostic.
+
+{\noindent}Allowance must be made for the contribution from helium: doubly ionized helium recombining to level $n=4$ contributes to the observed Balmer jump, and HeII $n=22\rightarrow4$ coincides with H11.
+
+{\noindent}This method has been used to determine the electron temperature in H II regions and planetary nebulae. In a sample of $23$ planetary nebulae, temperatures $T_{e,{\rm BJ}}$ derived from the Balmer jump are generally lower than the temperature $Te,{\rm [OIII]}$ determined from collisional excitation of [OIII] optical lines, with $T_{e,{\rm BJ}}/T_{e,{\rm CE}}\approx0.75\pm0.25$. The reason for the discrepancy is unclear; some suggests that cool, dense, metal-rich knots may be present in planetary nebulae.
+
+{\noindent}\textbf{Dielectronic recombination:} For some ions, it is possible to observe both collisionally excited lines and lines emitted following dielectronic recombination. For example, electrons colliding with CIV can produce collisionally excited levels of CIV, but can also produce excited levels of CIII by \textbf{dielectronic recombination}. Because the rate coefficients for collisional excitation and for dielectronic recombination will have different temperature dependences, the ratio of dielectronic lines to collisionally excited lines will be temperature-sensitive, and therefore useful as a temperature diagnostic. Examples of useful line ratios are [CIII]$2297$/[CIV]$1549$, [OII]$4705$/[OIII]$1665$, and [CII]$4267$/[CIII]$1909$.
+
 
 % --------------------------------------------------------------
 %               18. 

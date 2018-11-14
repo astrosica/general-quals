@@ -60,11 +60,11 @@
 \contentsline {subsection}{\numberline {1.17}Question 17}{69}{subsection.1.17}
 \contentsline {subsubsection}{\numberline {1.17.1}Short answer}{69}{subsubsection.1.17.1}
 \contentsline {subsubsection}{\numberline {1.17.2}Additional context}{69}{subsubsection.1.17.2}
-\contentsline {subsection}{\numberline {1.18}Question 18}{70}{subsection.1.18}
-\contentsline {subsubsection}{\numberline {1.18.1}Short answer}{70}{subsubsection.1.18.1}
-\contentsline {subsubsection}{\numberline {1.18.2}Additional context}{70}{subsubsection.1.18.2}
-\contentsline {subsubsection}{\numberline {1.18.3}Follow-up Questions}{70}{subsubsection.1.18.3}
-\contentsline {subsection}{\numberline {1.19}Question 19}{71}{subsection.1.19}
-\contentsline {subsubsection}{\numberline {1.19.1}Short answer}{71}{subsubsection.1.19.1}
-\contentsline {subsubsection}{\numberline {1.19.2}Additional context}{71}{subsubsection.1.19.2}
-\contentsline {subsection}{\numberline {1.20}Resources}{72}{subsection.1.20}
+\contentsline {subsection}{\numberline {1.18}Question 18}{75}{subsection.1.18}
+\contentsline {subsubsection}{\numberline {1.18.1}Short answer}{75}{subsubsection.1.18.1}
+\contentsline {subsubsection}{\numberline {1.18.2}Additional context}{75}{subsubsection.1.18.2}
+\contentsline {subsubsection}{\numberline {1.18.3}Follow-up Questions}{75}{subsubsection.1.18.3}
+\contentsline {subsection}{\numberline {1.19}Question 19}{76}{subsection.1.19}
+\contentsline {subsubsection}{\numberline {1.19.1}Short answer}{76}{subsubsection.1.19.1}
+\contentsline {subsubsection}{\numberline {1.19.2}Additional context}{76}{subsubsection.1.19.2}
+\contentsline {subsection}{\numberline {1.20}Resources}{77}{subsection.1.20}

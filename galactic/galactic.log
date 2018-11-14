@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 NOV 2018 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 NOV 2018 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1726,20 +1726,48 @@ Overfull \vbox (0.55438pt too high) has occurred while \output is active []
 LaTeX Warning: Text page 66 contains only floats.
 
 [66 <./figures/ISM_vertical.png>] [67 <./figures/ISM_global.png>] [68] [69]
-[70] [71]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 2228--2229
+<figures/orbitals_3D.png, id=674, 1606.0pt x 1606.0pt>
+File: figures/orbitals_3D.png Graphic file (type png)
+
+<use figures/orbitals_3D.png>
+Package pdftex.def Info: figures/orbitals_3D.png used on input line 2196.
+(pdftex.def)             Requested size: 312.9803pt x 312.98495pt.
+ [70 <./figures/orbitals_3D.png>]
+<figures/ncrit_np2np4.png, id=682, 1077.02374pt x 473.77pt>
+File: figures/ncrit_np2np4.png Graphic file (type png)
+
+<use figures/ncrit_np2np4.png>
+Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2215.
+(pdftex.def)             Requested size: 312.9803pt x 137.67894pt.
+
+<figures/ncrit_np3.png, id=683, 976.64874pt x 280.04625pt>
+File: figures/ncrit_np3.png Graphic file (type png)
+
+<use figures/ncrit_np3.png>
+Package pdftex.def Info: figures/ncrit_np3.png used on input line 2222.
+(pdftex.def)             Requested size: 312.9803pt x 89.74481pt.
+ [71 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
+s_T.png, id=695, 555.07375pt x 824.07875pt>
+File: figures/LineRatios_T.png Graphic file (type png)
+
+<use figures/LineRatios_T.png>
+Package pdftex.def Info: figures/LineRatios_T.png used on input line 2252.
+(pdftex.def)             Requested size: 398.33858pt x 591.3872pt.
+ [72] [73 <./figures/LineRatios_T.png>] [74]
+[75] [76]
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 2355--2356
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
 
 
 AED: lastpage setting LastPage
-[72]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2233.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2233.
+[77]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2360.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2233.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2360.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
@@ -1747,42 +1775,44 @@ Package rerunfilecheck Info: File `galactic.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2233.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2360.
  ) 
 Here is how much of TeX's memory you used:
- 9761 strings out of 492995
- 149286 string characters out of 6132704
- 272664 words of memory out of 5000000
- 12949 multiletter control sequences out of 15000+600000
+ 9794 strings out of 492995
+ 149954 string characters out of 6132704
+ 273149 words of memory out of 5000000
+ 12969 multiletter control sequences out of 15000+600000
  15201 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (72 pages, 14883414 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on galactic.pdf (77 pages, 16298224 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 598 compressed objects within 6 object streams
- 184 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 854 PDF objects out of 1000 (max. 8388607)
+ 633 compressed objects within 7 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 414 words of extra memory for PDF output out of 10000 (max. 10000000)
 
