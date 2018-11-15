@@ -1123,32 +1123,40 @@ Answer.
 
 \subsubsection{Additional context}
 
-In molecular clouds there are two main cooling processes: molecular lines and dust radiation. Dust can cool the gas efficiently because dust grains are solids, so they are thermal emitters. However, dust is only able to cool the gas if collisions between dust grains and hydrogen molecules occur often enough to keep them thermally well-coupled. Otherwise the grains cool off, but the gas stays hot. The density at which grains and gas become well-coupled is around $10^4-10^5\,{\rm cm^{-3}}$, which is higher than the typical density in a GMC, so we won't consider dust cooling further at this point. We'll return to it later when we discuss collapsing objects, where the densities do get high enough for dust cooling to be important.
+{\noindent}\textbf{Cooling of atomic gas:}
 
-{\noindent}The remaining cooling process is line emission, and by far the most important molecule for this purpose is CO. H$_2$ is the dominant species in molecular regions, but it is very hard to observe directly -- the temperatures are too low for it to be excited. Moreover, H$_2$ is also not the dominant coolant for the same reason. Instead, that role falls to the CO molecule. The physics is fairly simple. CO molecules are excited by inelastic collisions with hydrogen molecules, and such collisions convert kinetic energy to potential energy within the molecule. If the molecule de-excites radiatively, and the resulting photon escapes the cloud, the cloud loses energy and cools.
+{\noindent}Most of the interstellar gas in the Milky Way is neutral, and $\sim78\%$ of the neutral hydrogen is atomic, or HI. The most abundant elements in the Universe after H and He are O, C, and N. Just as in the bulk of the ISM hydrogen is mostly H, in the bulk of the ISM the oxygen is mostly O and the carbon is mostly C$^+$. It's C$^+$ rather than C because the ionization potential of carbon is less than that of hydrogen, and as a result it tends to be ionized by starlight.
 
-{\noindent}Why is CO so important? The main reason is abundances: the most abundant elements in the Universe after H and He are O, C, and N, and CO is the simplest (and, under ISM conditions, most energetically favorable) molecule that can be made from them. Moreover, CO can be excited at very low temperatures because its mass
-is much greater than that of H$_2$, and its dipole moment is weak but non-zero. (A weak dipole moment lowers the energy of radiation emitted, which in turn lowers the temperature needed for excitation.)
+{\noindent}An example of the ``\textbf{cooling function}'' $\Lambda$ for predominantly neutral gas, as a function of temperature, is shown in Figure \ref{fig:coolingfunction_HI} for abundances appropriate to diffuse HI in the Milky Way, and for two different fractional ionizations: $x_e=0.017$ (WNM conditions) and $x_e=4\times10^{-4}$ (CNM conditions). For $10\lesssim T\lesssim10^4\,{\rm K}$, the [CII]$158\,\mu{\rm m}$ fine structure line is a major coolant. The [OI]$63\,\mu{\rm m}$ fine structure line is important for $T\gtrsim100\,{\rm K}$. Lyman$\alpha$ cooling dominates only at $T\gtrsim1\times10^4{\rm K}$. 
 
-{\noindent}Just as in the bulk of the ISM, hydrogen is mostly H, in the bulk of the ISM the oxygen is mostly O and the carbon is mostly C$^+$. It's C$^+$ rather than C because the ionization potential of carbon is less than that of hydrogen, and as a result it tends to be ionized by starlight.
+{\noindent}The critical densities for [CII]$158\,\mu{\rm m}$ and [OI]$63\,\mu{\rm m}$ are $\sim4\times10^3\,{\rm cm^{-3}}$ and $\sim10^5\,{\rm cm^{-3}}$, respectively, implying that collisional de-excitation of these levels is unimportant in the diffuse ISM of the MW. Thus, for fixed composition (and ionization fraction $x_e$), the cooling power per volume $\Lambda\propto n_{\rm H}^2\times\lambda(T)$, where the cooling rate coefficient $\lambda$ depends only on $T$.
 
-{\noindent}Hydrogen is the most abundant element, and when it is in the form of free atomic hydrogen, it is relatively easy to observe. Hydrogen atoms have a hyperfine transition at $21\,{\rm cm}$ ($1.4\,{\rm GHz}$), associated with a transition from a state in which the spin of the electron is parallel to that of the proton to a state where it is anti-parallel. The energy associated with this transition is $\ll1\,{\rm K}$, so even in cold regions it can be excited. This line is seen in the Milky Way and in many nearby galaxies.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=7.5cm]{figures/CoolingFunction_HI_top.png} \includegraphics[width=7.5cm]{figures/CoolingFunction_HI_bottom.png}
+    \caption{\footnotesize{Cooling rate for neutral HI gas at temperatures $10\lesssim T\lesssim2\times10^4\,{\rm K}$ for two fractional ionizations. For $T<10^4\,{\rm K}$, the cooling is dominated by two fine structure lines: [CII]$158\,\mu{\rm m}$ and [OI]$63\,\mu{\rm m}$. Figure taken from Draine (2011).}}
+    \label{fig:coolingfunction_HI}
+\end{figure}
 
-{\noindent}However, at the high densities where stars form, hydrogen tends to be molecular rather than atomic, and H$_2$ is extremely hard to observe directly. To understand why, we can look at an energy level diagram for rotational levels of H$_2$ (Figure \ref{fig:Henergies}). A diatomic molecule like H$_2$ has three types of excitation: electronic (corresponding to excitations of one or more of the electrons), vibrational (corresponding to vibrational motion of the two nuclei), and rotational (corresponding to rotation of the two nuclei about the center of mass). Generally electronic excitations are highest in energy scale, vibrational are next, and rotational are the lowest in energy.
+{\noindent}\textbf{Cooling of molecular gas:}
 
-\begin{figure}[t]
+{\noindent}At the high densities where stars form, hydrogen tends to be molecular rather than atomic, and H$_2$ very rarely emits radiation via de-excitation. To understand why, we can look at an energy level diagram for rotational levels of H$_2$ (Figure \ref{fig:Henergies}). A diatomic molecule like H$_2$ has three types of excitation: \textbf{electronic} (corresponding to excitations of one or more of the electrons), \textbf{vibrational} (corresponding to vibrational motion of the two nuclei), and \textbf{rotational} (corresponding to rotation of the two nuclei about the center of mass). Generally electronic excitations are highest in energy scale, vibrational are next, and rotational are the lowest in energy.
+
+\begin{figure}[h]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{Level diagram for the rotational levels of para- and ortho-H$_2$, showing the energy of each level. Level data are taken from \href{http://www.gemini.edu/sciops/instruments/nir/wavecal/h2lines.dat}{http://www.gemini.edu/sciops\\/instruments/nir/wavecal\\/h2lines.dat}. Figure taken from Draine (2011).}}
     \label{fig:Henergies}}
     {\includegraphics[width=5cm]{figures/Henergies.png}}
 \end{figure}
 
-{\noindent}For H$_2$, the first thing to notice is that the first excited state, the $J=1$ rotational state, is $175\,{\rm K}$ above the ground state. Since the dense ISM where molecules form is often also cold, $T\sim10\,{\rm K}$, almost no molecules will be in this excited state. However, it gets even worse: H$_2$ is a homonuclear molecule, and for reasons of symmetry $\Delta J=1$ radiative transitions are forbidden in homonuclear molecules. Indeed, there is no electronic process by which a hydrogen molecule with odd $J$ to turn into one with even $J$, and vice versa, because the allowed parity of $J$ is determined by the spins of the hydrogen nuclei. We refer to the even $J$ state as para-H$_2$, and the odd $J$ state as ortho-H$_2$.
+{\noindent}For H$_2$, the first thing to notice is that the first excited state, the $J=1$ rotational state, is $175\,{\rm K}$ above the ground state. Since the dense ISM where molecules form is often also cold, $T\sim10\,{\rm K}$, almost no molecules will be in this excited state. However, it gets even worse: H$_2$ is a \textbf{homonuclear molecule}, and for reasons of symmetry $\Delta J=1$ radiative transitions are forbidden in homonuclear molecules. Indeed, there is no electronic process by which a hydrogen molecule with odd $J$ to turn into one with even $J$, and vice versa, because the allowed parity of $J$ is determined by the spins of the hydrogen nuclei. We refer to the even $J$ state as \textbf{para-H}$\mathbf{_2}$, and the odd $J$ state as \textbf{ortho-H}$\mathbf{_2}$.
 
-{\noindent}The observational significance of this is that there is no $J=1\rightarrow0$ emission. Instead, the lowest-lying transition is the $J=2\rightarrow0$ quadrupole. This is very weak, because it's a quadrupole. More importantly, however, the $J=2$ state is $510\,{\rm K}$ above the ground state. This means that, for a population in equilibrium at a temperature of $10\,{\rm K}$, the fraction of molecules in the $J=2$ state is
-$\sim e^{-510/10}\approx10^{-22}$! In effect, in a molecular cloud there are simply no H$_2$ molecules in states capable of emitting. The very high temperature required to excite the H$_2$ molecular is its low mass: for a quantum oscillator or rotor the level spacing varies with reduced mass as $m^{-1/2}$. It is the low mass of the hydrogen atom that creates our problems.
+{\noindent}The significance of this is that \textit{there is no $J=1\rightarrow0$ emission}. Instead, the lowest-lying transition is the $J=2\rightarrow0$ quadrupole. This is very weak, because it's a quadrupole. More importantly, however, the $J=2$ state is $510\,{\rm K}$ above the ground state. This means that, for a population in equilibrium at a temperature of $10\,{\rm K}$, the fraction of molecules in the $J=2$ state is $\sim e^{-510/10}\approx10^{-22}$! In effect, in a molecular cloud there are simply no H$_2$ molecules in states capable of emitting and therefore cannot cool the gas. The very high temperature required to excite the H$_2$ molecular is its low mass: for a quantum oscillator or rotor the level spacing varies with reduced mass as $m^{-1/2}$. It is the low mass of the hydrogen atom that creates our problems.
 
-{\noindent}Only in very rare circumstances is it possible to observe H$_2$ directly -- usually when there is a bright background UV source that allows us to see it in UV absorption rather than in emission. 
+{\noindent}In molecular clouds there are two main cooling processes: molecular lines and dust radiation. Dust can cool the gas efficiently because dust grains are solids, so they are thermal emitters. However, dust is only able to cool the gas if collisions between dust grains and hydrogen molecules occur often enough to keep them thermally well-coupled. Otherwise the grains cool off, but the gas stays hot. The density at which grains and gas become well-coupled is around $10^4-10^5\,{\rm cm^{-3}}$ which is higher than the typical density in a GMC.
+
+{\noindent}The remaining cooling process is line emission, and by far the most important molecule for this purpose is CO. H$_2$ is the dominant species in molecular regions, but it is very hard to observe directly -- the temperatures are too low for it to be excited. Moreover, H$_2$ is also not the dominant coolant for the same reason. Instead, that role falls to the CO molecule. The physics is fairly simple. CO molecules are excited by inelastic collisions with hydrogen molecules, and such collisions convert kinetic energy to potential energy within the molecule. If the molecule de-excites radiatively, and the resulting photon escapes the cloud, the cloud loses energy and cools.
+
 
 % --------------------------------------------------------------
 %               7. 
@@ -1178,7 +1186,15 @@ What are the main sources of heat in the interstellar medium?
 
 \subsubsection{Short answer}
 
-Answer.
+Possible mechanisms for heating HI regions include:
+
+\begin{itemize}
+    \item Ionization by cosmic rays
+    \item Photoionization of H and He by x rays
+    \item Photoionization of dust grains by starlight UV
+    \item Photoionization of C, Mg, Si, Fe, etc., by starlight UV
+    \item Heating by shock waves and other MHD phenomena
+\end{itemize}
 
 \subsubsection{Additional context}
 
@@ -2151,7 +2167,7 @@ Additional context.
 \newpage
 \subsection{Question 17}
 
-How can one determine the temperature of a HII region?
+How can one determine the temperature of an HII region?
 
 \subsubsection{Short answer}
 
@@ -2341,20 +2357,20 @@ Additional context.
 \subsection{Resources}
 
 \begin{itemize}
-    \item Galaxy Formation, Longair (2008)
-    \item Galaxies in the Universe, Sparke \& Gallagher (2007)
+    \item Galaxy Formation; Longair (2008)
+    \item Galaxies in the Universe; Sparke \& Gallagher (2007)
     \item The Galactic Bulge: A Review; Minniti \& Zoccali (2007)
     \item The Interstellar Environment of Our Galaxy; Ferrier (2001)
-    \item Galactic Dynamics, Binney \& Tremaine (2011)
-    \item Galaxies: Interactions and Induced Star Formation, Kennicutt, Schweizer \& Barnes (1996)
-    \item Stellar Populations, Greggio \& Renzini (2011)
-    \item Physics of the Interstellar and Intergalactic Medium, Draine (2011)
-    \item Astrophysics of the Interstellar Medium, Maciel (2013)
-    \item Notes on Star Formation, Krumholz (2015)
-    \item Principles of Star Formation, Bodenheimer (2011)
-    \item Stellar Evolutionary Effects on the Abundances of Polycyclic Aromatic Hydrocarbons and Supernova-Condensed Dust in Galaxies, Galliano et al. (2008)
-    \item Some insights on the dust properties of nearby galaxies, as seen with Herschel, Galliano (2017)
-    \item The Three Phase Interstellar Medium Revisited, Cox (2005)
+    \item Galactic Dynamics; Binney \& Tremaine (2011)
+    \item Galaxies: Interactions and Induced Star Formation; Kennicutt, Schweizer \& Barnes (1996)
+    \item Stellar Populations; Greggio \& Renzini (2011)
+    \item Physics of the Interstellar and Intergalactic Medium; Draine (2011)
+    \item Astrophysics of the Interstellar Medium; Maciel (2013)
+    \item Notes on Star Formation; Krumholz (2015)
+    \item Principles of Star Formation; Bodenheimer (2011)
+    \item Stellar Evolutionary Effects on the Abundances of Polycyclic Aromatic Hydrocarbons and Supernova-Condensed Dust in Galaxies; Galliano et al. (2008)
+    \item Some insights on the dust properties of nearby galaxies, as seen with Herschel; Galliano (2017)
+    \item The Three Phase Interstellar Medium Revisited; Cox (2005)
 \end{itemize}
 
 \end{document}
