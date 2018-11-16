@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 NOV 2018 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 NOV 2018 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1602,39 +1602,261 @@ File: figures/birthline.png Graphic file (type png)
 Package pdftex.def Info: figures/birthline.png used on input line 2012.
 (pdftex.def)             Requested size: 227.62204pt x 250.55067pt.
  [60 <./figures/swelling.png>] [61 <./figures/HR_models.png> <./figures/birthli
-ne.png>] [62]
-<figures/ISMphases_table.png, id=629, 1004.75375pt x 283.0575pt>
+ne.png>]
+Underfull \hbox (badness 5637) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 of the Milky Way. In-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 is at $\OML/cmm/m/it/8 R < R[]$\OT1/cmr/m/n/8 , the ra-
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 dial ve-loc-ity is de-ter-mined
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 un-cer-tain-ties. Source: D.
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 Stony Brook Galac-tic plane
+ []
+
+<figures/RotationCurve.png, id=620, 967.615pt x 665.48625pt>
+File: figures/RotationCurve.png Graphic file (type png)
+
+<use figures/RotationCurve.png>
+Package pdftex.def Info: figures/RotationCurve.png used on input line 2046.
+(pdftex.def)             Requested size: 284.52756pt x 195.68716pt.
+
+Underfull \hbox (badness 5637) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 of the Milky Way. In-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 is at $\OML/cmm/m/it/8 R < R[]$\OT1/cmr/m/n/8 , the ra-
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 dial ve-loc-ity is de-ter-mined
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 un-cer-tain-ties. Source: D.
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 Stony Brook Galac-tic plane
+ []
+
+File: figures/RotationCurve.png Graphic file (type png)
+<use figures/RotationCurve.png>
+Package pdftex.def Info: figures/RotationCurve.png used on input line 2046.
+(pdftex.def)             Requested size: 284.52756pt x 195.68716pt.
+
+Underfull \hbox (badness 5637) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 of the Milky Way. In-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 is at $\OML/cmm/m/it/8 R < R[]$\OT1/cmr/m/n/8 , the ra-
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 dial ve-loc-ity is de-ter-mined
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 un-cer-tain-ties. Source: D.
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 2046--2046
+\OT1/cmr/m/n/8 Stony Brook Galac-tic plane
+ []
+
+File: figures/RotationCurve.png Graphic file (type png)
+<use figures/RotationCurve.png>
+Package pdftex.def Info: figures/RotationCurve.png used on input line 2046.
+(pdftex.def)             Requested size: 284.52756pt x 195.68716pt.
+
+<figures/DifferentialRotation.png, id=623, 462.72874pt x 753.81625pt>
+File: figures/DifferentialRotation.png Graphic file (type png)
+
+<use figures/DifferentialRotation.png>
+Package pdftex.def Info: figures/DifferentialRotation.png used on input line 21
+04.
+(pdftex.def)             Requested size: 227.62204pt x 370.81099pt.
+File: figures/DifferentialRotation.png Graphic file (type png)
+ <use figures/DifferentialRotation.png>
+Package pdftex.def Info: figures/DifferentialRotation.png used on input line 21
+04.
+(pdftex.def)             Requested size: 227.62204pt x 370.81099pt.
+File: figures/DifferentialRotation.png Graphic file (type png)
+
+<use figures/DifferentialRotation.png>
+Package pdftex.def Info: figures/DifferentialRotation.png used on input line 21
+04.
+(pdftex.def)             Requested size: 227.62204pt x 370.81099pt.
+ [62 <./figures/RotationCurve.png>]
+[63 <./figures/DifferentialRotation.png>]
+<figures/vt_vr.png, id=642, 935.495pt x 675.52374pt>
+File: figures/vt_vr.png Graphic file (type png)
+ <use figures/vt_vr.png>
+Package pdftex.def Info: figures/vt_vr.png used on input line 2163.
+(pdftex.def)             Requested size: 284.52756pt x 205.46236pt.
+File: figures/vt_vr.png Graphic file (type png)
+
+<use figures/vt_vr.png>
+Package pdftex.def Info: figures/vt_vr.png used on input line 2163.
+(pdftex.def)             Requested size: 284.52756pt x 205.46236pt.
+File: figures/vt_vr.png Graphic file (type png)
+ <use figures/vt_vr.png>
+Package pdftex.def Info: figures/vt_vr.png used on input line 2163.
+(pdftex.def)             Requested size: 284.52756pt x 205.46236pt.
+ [64 <./figures/vt_vr.png>]
+<figures/TangentPoint.png, id=650, 987.69pt x 722.7pt>
+File: figures/TangentPoint.png Graphic file (type png)
+
+<use figures/TangentPoint.png>
+Package pdftex.def Info: figures/TangentPoint.png used on input line 2189.
+(pdftex.def)             Requested size: 341.43306pt x 249.828pt.
+ [65 <./figures/TangentPoint.png>]
+<figures/vLSRvslong.png, id=661, 677.53125pt x 524.96124pt>
+File: figures/vLSRvslong.png Graphic file (type png)
+
+<use figures/vLSRvslong.png>
+Package pdftex.def Info: figures/vLSRvslong.png used on input line 2228.
+(pdftex.def)             Requested size: 284.52756pt x 220.45819pt.
+File: figures/vLSRvslong.png Graphic file (type png)
+ <use figures/vLSRvslong.png>
+Package pdftex.def Info: figures/vLSRvslong.png used on input line 2228.
+(pdftex.def)             Requested size: 284.52756pt x 220.45819pt.
+File: figures/vLSRvslong.png Graphic file (type png)
+
+<use figures/vLSRvslong.png>
+Package pdftex.def Info: figures/vLSRvslong.png used on input line 2228.
+(pdftex.def)             Requested size: 284.52756pt x 220.45819pt.
+ [66 <./figures/vLSRvslong.png>]
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+
+Underfull \hbox (badness 1867) in paragraph at lines 2249--2249
+\OT1/cmr/m/n/8 ies. IVSys-tem-atic dy-nam-i-
+ []
+
+<figures/RotationCurves_spirals.png, id=670, 814.04124pt x 621.32124pt>
+File: figures/RotationCurves_spirals.png Graphic file (type png)
+
+<use figures/RotationCurves_spirals.png>
+Package pdftex.def Info: figures/RotationCurves_spirals.png used on input line 
+2249.
+(pdftex.def)             Requested size: 284.52756pt x 217.16231pt.
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+
+Underfull \hbox (badness 1867) in paragraph at lines 2249--2249
+\OT1/cmr/m/n/8 ies. IVSys-tem-atic dy-nam-i-
+ []
+
+File: figures/RotationCurves_spirals.png Graphic file (type png)
+<use figures/RotationCurves_spirals.png>
+Package pdftex.def Info: figures/RotationCurves_spirals.png used on input line 
+2249.
+(pdftex.def)             Requested size: 284.52756pt x 217.16231pt.
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ” in font cmr8!
+
+Underfull \hbox (badness 1867) in paragraph at lines 2249--2249
+\OT1/cmr/m/n/8 ies. IVSys-tem-atic dy-nam-i-
+ []
+
+File: figures/RotationCurves_spirals.png Graphic file (type png)
+<use figures/RotationCurves_spirals.png>
+Package pdftex.def Info: figures/RotationCurves_spirals.png used on input line 
+2249.
+(pdftex.def)             Requested size: 284.52756pt x 217.16231pt.
+ [67 <./figures/RotationCurves_spirals.png>] <figures/RotationCurve_decomp.png,
+ id=682, 781.92125pt x 579.16376pt>
+File: figures/RotationCurve_decomp.png Graphic file (type png)
+
+<use figures/RotationCurve_decomp.png>
+Package pdftex.def Info: figures/RotationCurve_decomp.png used on input line 22
+78.
+(pdftex.def)             Requested size: 341.43306pt x 252.89746pt.
+File: figures/RotationCurve_decomp.png Graphic file (type png)
+ <use figures/RotationCurve_decomp.png>
+Package pdftex.def Info: figures/RotationCurve_decomp.png used on input line 22
+78.
+(pdftex.def)             Requested size: 341.43306pt x 252.89746pt.
+File: figures/RotationCurve_decomp.png Graphic file (type png)
+
+<use figures/RotationCurve_decomp.png>
+Package pdftex.def Info: figures/RotationCurve_decomp.png used on input line 22
+78.
+(pdftex.def)             Requested size: 341.43306pt x 252.89746pt.
+
+Overfull \hbox (13.3333pt too wide) detected at line 2278
+ [] 
+ []
+
+[68 <./figures/RotationCurve_decomp.png>]
+<figures/ISMphases_table.png, id=691, 1004.75375pt x 283.0575pt>
 File: figures/ISMphases_table.png Graphic file (type png)
 
 <use figures/ISMphases_table.png>
-Package pdftex.def Info: figures/ISMphases_table.png used on input line 2074.
+Package pdftex.def Info: figures/ISMphases_table.png used on input line 2311.
 (pdftex.def)             Requested size: 398.33858pt x 112.21895pt.
 
-<figures/21cm_emission_abs.png, id=630, 766.865pt x 602.25pt>
+<figures/21cm_emission_abs.png, id=692, 766.865pt x 602.25pt>
 File: figures/21cm_emission_abs.png Graphic file (type png)
 
 <use figures/21cm_emission_abs.png>
-Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2089.
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2326.
 
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
 File: figures/21cm_emission_abs.png Graphic file (type png)
  <use figures/21cm_emission_abs.png>
-Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2089.
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2326.
 
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
 File: figures/21cm_emission_abs.png Graphic file (type png)
 
 <use figures/21cm_emission_abs.png>
-Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2089.
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2326.
 
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
- [63 <./figures/ISMphases_table.png>]
-[64 <./figures/21cm_emission_abs.png>]
-<figures/ISM_disk.png, id=646, 506.89375pt x 767.86874pt>
+ [69 <./figures/ISMphases_table.png>]
+[70 <./figures/21cm_emission_abs.png>]
+<figures/ISM_disk.png, id=708, 506.89375pt x 767.86874pt>
 File: figures/ISM_disk.png Graphic file (type png)
 
 <use figures/ISM_disk.png>
-Package pdftex.def Info: figures/ISM_disk.png used on input line 2125.
+Package pdftex.def Info: figures/ISM_disk.png used on input line 2362.
 (pdftex.def)             Requested size: 426.79134pt x 646.54024pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -1667,11 +1889,11 @@ Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ” in font cmr8!
 
-<figures/ISM_vertical.png, id=647, 503.8825pt x 783.92876pt>
+<figures/ISM_vertical.png, id=709, 503.8825pt x 783.92876pt>
 File: figures/ISM_vertical.png Graphic file (type png)
 
 <use figures/ISM_vertical.png>
-Package pdftex.def Info: figures/ISM_vertical.png used on input line 2132.
+Package pdftex.def Info: figures/ISM_vertical.png used on input line 2369.
 (pdftex.def)             Requested size: 398.33858pt x 619.72757pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -1704,11 +1926,11 @@ Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ” in font cmr8!
 
-<figures/ISM_global.png, id=648, 496.85625pt x 673.51625pt>
+<figures/ISM_global.png, id=710, 496.85625pt x 673.51625pt>
 File: figures/ISM_global.png Graphic file (type png)
 
 <use figures/ISM_global.png>
-Package pdftex.def Info: figures/ISM_global.png used on input line 2139.
+Package pdftex.def Info: figures/ISM_global.png used on input line 2376.
 (pdftex.def)             Requested size: 398.33858pt x 539.97504pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -1734,61 +1956,61 @@ Missing character: There is no ” in font cmr8!
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ” in font cmr8!
- [65]
+ [71]
 
-LaTeX Warning: Text page 66 contains only floats.
+LaTeX Warning: Text page 72 contains only floats.
 
 
 Overfull \vbox (0.55438pt too high) has occurred while \output is active []
 
 
-[66 <./figures/ISM_disk.png>]
+[72 <./figures/ISM_disk.png>]
 
-LaTeX Warning: Text page 67 contains only floats.
+LaTeX Warning: Text page 73 contains only floats.
 
-[67 <./figures/ISM_vertical.png>] [68 <./figures/ISM_global.png>] [69] [70]
-<figures/orbitals_3D.png, id=685, 1606.0pt x 1606.0pt>
+[73 <./figures/ISM_vertical.png>] [74 <./figures/ISM_global.png>] [75] [76]
+<figures/orbitals_3D.png, id=747, 1606.0pt x 1606.0pt>
 File: figures/orbitals_3D.png Graphic file (type png)
 
 <use figures/orbitals_3D.png>
-Package pdftex.def Info: figures/orbitals_3D.png used on input line 2221.
+Package pdftex.def Info: figures/orbitals_3D.png used on input line 2458.
 (pdftex.def)             Requested size: 312.9803pt x 312.98495pt.
- [71 <./figures/orbitals_3D.png>]
-<figures/ncrit_np2np4.png, id=693, 1077.02374pt x 473.77pt>
+ [77 <./figures/orbitals_3D.png>]
+<figures/ncrit_np2np4.png, id=755, 1077.02374pt x 473.77pt>
 File: figures/ncrit_np2np4.png Graphic file (type png)
 
 <use figures/ncrit_np2np4.png>
-Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2240.
+Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2477.
 (pdftex.def)             Requested size: 312.9803pt x 137.67894pt.
 
-<figures/ncrit_np3.png, id=694, 976.64874pt x 280.04625pt>
+<figures/ncrit_np3.png, id=756, 976.64874pt x 280.04625pt>
 File: figures/ncrit_np3.png Graphic file (type png)
 
 <use figures/ncrit_np3.png>
-Package pdftex.def Info: figures/ncrit_np3.png used on input line 2247.
+Package pdftex.def Info: figures/ncrit_np3.png used on input line 2484.
 (pdftex.def)             Requested size: 312.9803pt x 89.74481pt.
- [72 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
-s_T.png, id=705, 555.07375pt x 824.07875pt>
+ [78 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
+s_T.png, id=767, 555.07375pt x 824.07875pt>
 File: figures/LineRatios_T.png Graphic file (type png)
 
 <use figures/LineRatios_T.png>
-Package pdftex.def Info: figures/LineRatios_T.png used on input line 2277.
+Package pdftex.def Info: figures/LineRatios_T.png used on input line 2514.
 (pdftex.def)             Requested size: 398.33858pt x 591.3872pt.
- [73] [74 <./figures/LineRatios_T.png>] [75]
-[76] [77]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 2380--2381
+ [79] [80 <./figures/LineRatios_T.png>] [81]
+[82] [83]
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 2617--2618
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
 
 
 AED: lastpage setting LastPage
-[78]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2385.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2385.
+[84]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2623.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2623.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2385.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2385.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2623.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2623.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
@@ -1796,44 +2018,46 @@ Package rerunfilecheck Info: File `galactic.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2385.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2623.
  ) 
 Here is how much of TeX's memory you used:
- 9807 strings out of 492995
- 150379 string characters out of 6132704
- 272534 words of memory out of 5000000
- 12978 multiletter control sequences out of 15000+600000
- 15201 words of font info for 56 fonts, out of 8000000 for 9000
+ 9867 strings out of 492995
+ 151747 string characters out of 6132704
+ 277787 words of memory out of 5000000
+ 13014 multiletter control sequences out of 15000+600000
+ 15560 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (78 pages, 16588728 bytes).
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on galactic.pdf (84 pages, 20233522 bytes).
 PDF statistics:
- 864 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
- 195 named destinations out of 1000 (max. 500000)
- 424 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 934 PDF objects out of 1000 (max. 8388607)
+ 686 compressed objects within 7 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 459 words of extra memory for PDF output out of 10000 (max. 10000000)
 

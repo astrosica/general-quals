@@ -2039,11 +2039,248 @@ Sketch the rotation curve for a typical spiral galaxy. Show that a flat rotation
 
 \subsubsection{Short answer}
 
-Answer.
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Rotation curve of the Milky Way. Inside the ``Solar circle'', that is at $R<R_0$, the radial velocity is determined quite accurately using the tangent point method; the measurements outside have larger uncertainties. Source: D. Clemens 1985, Massachusetts-Stony Brook Galactic plane CO survey - The Galactic disk rotation curve ApJ 295, 422, p.429, Fig. 3. Figure taken from Schneider (2015).}}
+    \label{fig:rotationcurve}}
+    {\includegraphics[width=10cm]{figures/RotationCurve.png}}
+\end{figure}
 
 \subsubsection{Additional context}
 
-Additional context.
+From observations of the velocity of stars or gas around the Galactic center, the rotational velocity $V$ can be determined as a function of the distance $R$ from the Galactic center.
+
+{\noindent}\textbf{Decomposition of rotational velocity:} We consider an object at distance $R$ from the Galactic center which moves along a circular orbit in the Galactic plane, has a distance $D$ from the Sun, and is located at a Galactic longitude $\ell$ (see Figure \ref{fig:differentialrotation}). In a Cartesian coordinate system with the Galactic center at the origin, the positional and velocity vectors (we only consider the two components in the Galactic plane because we assume a motion in the plane) are given by
+
+\begin{align*}
+    \mathbf{r} = R\left(\frac{\sin\theta}{\cos\theta}\right) ~ [{\rm kpc}], ~~~ \mathbf{V} = \mathbf{\dot{r}} = V(R)\left(\frac{\cos\theta}{-\sin\theta}\right) ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}where $\theta$ denotes the angle between the Sun and the object as seen from the Galactic center. From the geometry shown in Figure \ref{fig:differentialrotation} it follows that
+
+\begin{align*}
+    \mathbf{r} = \left(\frac{D\sin\ell}{R_0-D\cos\ell}\right) ~ [{\rm kpc}].
+\end{align*}
+
+{\noindent}If we now identify the two expressions for the components of $\mathbf{r}$, we obtain
+
+\begin{align*}
+    \sin\theta=\left(\frac{D}{R}\right)\sin\ell ~ [{\rm dimensionless}], ~~~ \cos\theta=\left(\frac{R_0}{R}\right) - \left(\frac{D}{R}\right)\cos\ell ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}If we disregard the difference between the velocities of the Sun and the LSR we get $\mathbf{V}_\odot\approx\mathbf{V} = (V_0,0)$ in this coordinate system. Thus the relative velocity between the object and the Sun is, in Cartesian coordinates,
+
+\begin{align*}
+    \Delta\mathbf{V} = \mathbf{V}-\mathbf{V}_\odot = \left(\frac{V\left(\frac{R_0}{R}\right) - V\left(\frac{D}{R}\right)\cos\ell - V_0}{-V\left(\frac{D}{R}\right)\sin\ell}\right) ~ [{\rm km\,s^{-1}}].
+\end{align*}
+
+{\noindent}With the angular velocity defined as
+
+\begin{align*}
+    \Omega \equiv \frac{V(R)}{R} ~ [{\rm rad\,s^{-1}}]
+\end{align*}
+
+{\noindent}we obtain for the relative velocity
+
+\begin{align*}
+    \Delta\mathbf{V} = \left(\frac{R(\Omega-\Omega_0) - \Omega D\cos\ell}{-D\Omega\sin\ell}\right) ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=5cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Geometric derivation of the formalism of differential rotation:\\
+    $v_r=v_r^*-v_r^\odot=v_*\sin\ell^*-v_\odot\sin\ell$, \\
+    $v_t = v_t^*-v_t^\odot=v_*\cos\ell^*-v_\odot\cos\ell$. \\
+    One has: \\
+    $\frac{\sin\ell}{R}=\frac{\sin(\pi-\ell^*)}{R_0}=\frac{\sin\ell^*}{R_0}$, \\
+    $R\cos\ell^*+D=R_0\cos\ell$, \\
+    which implies\\
+    $v_r=R_0 \left(\frac{v_*}{R}-\frac{v_\odot}{R_0}\right) \sin\ell$ \\
+    $=(\Omega-\Omega_0)R_0\sin\ell$, \\ 
+    $v_t=R_0 \left(\frac{v_*}{R}-\frac{v_\odot}{R_0}\right) \cos\ell -D\frac{v_*}{R}$ \\
+    $=(\Omega-\Omega_0)R_0\cos\ell -\Omega D$. \\
+    Figure taken from Schneider (2015).}}
+    \label{fig:differentialrotation}}
+    {\includegraphics[width=8cm]{figures/DifferentialRotation.png}}
+\end{figure}
+
+{\noindent}where $\Omega_0=V_0/R_0$ is the angular velocity of the Sun. The radial and tangential velocities of this relative motion then follow by projection of $\Delta\mathbf{V}$ along the direction parallel or perpendicular, respectively, to the separation vector,
+
+\begin{align*}
+    v_r &= \Delta\mathbf{V}\cdot\left(\frac{\sin\ell}{-\cos\ell}\right) = (\Omega-\Omega_0)R_0\sin\ell ~ [{\rm km\,s^{-1}}], \\
+    v_t &= \Delta\mathbf{V}\cdot\left(\frac{\cos\ell}{\sin\ell}\right) = (\Omega-\Omega_0)R_0\cos\ell - \Omega D ~ [{\rm km\,s^{-1}}].
+\end{align*}
+
+{\noindent}A purely geometric derivation of these relations is given in Figure \ref{fig:differentialrotation}.
+
+{\noindent}\textbf{Rotation curve near $R_0$, Oort constants:} One can derive the angular velocity by means of measuring $v_r$ from the equation above, but not the radius $R$ to which it corresponds. Therefore, by measuring the radial velocity alone, $\Omega(R)$ cannot be determined. If one measures $v_r$ and, in addition, the proper motion $\mu=v_t/D$ of stars, then $\Omega$ and $D$ can be determined from the equations above, and from $D$ and $\ell$ one obtains $R=\sqrt{R_0^2+D^2-2R_0D\cos\ell}$. The effects of extinction prohibits the use of this method for large distances $D$, since we have considered objects in the Galactic disk. For small distances $D\ll R_0$, which implies $\lvert R-R_0\rvert\ll R_0$, we can make a local approximation by evaluating the expressions above only up to first order in $(R-R_0)/R_0$. In this linear approximation we get
+
+\begin{align*}
+    \Omega-\Omega_0\approx \left(\frac{{\rm d}\Omega}{{\rm d}R}\right)_{R_0} (R-R_0) ~ [{\rm km\,s^{-1}\,kpc^{-1}}],
+\end{align*}
+
+{\noindent}where the derivative has to be evaluated at $R=R_0$. Hence
+
+\begin{align*}
+    v_r = (R-R_0) \left(\frac{{\rm d}\Omega}{{\rm d}R}\right)_{R_0} R_0\sin\ell ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}and furthermore, with the definition of angular velocity $\Omega(R)$,
+
+\begin{align*}
+    R_0\left(\frac{{\rm d}\Omega}{{\rm d}R}\right)_{R_0} = \frac{R_0}{R} \left[\left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} - \frac{V}{R}\right] \approx \left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} - \frac{V_0}{R_0} ~ [{\rm km\,s^{-1}\,kpc^{-1}}],
+\end{align*}
+
+{\noindent}in zeroth order in $(R-R_0)/R_0$. Combining the last two equations yield
+
+\begin{align*}
+    v_r = \left[\left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} - \frac{V_0}{R_0}\right] (R-R_0)\sin\ell ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}in analogy to this, we obtain for the tangential velocity
+
+\begin{align*}
+    v_t = \left[\left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} - \frac{V_0}{R_0}\right] (R-R_0)\cos\ell - \Omega_0D ~ [{\rm km\,s^{-1}}].
+\end{align*}
+
+{\noindent}For $\lvert R-R_0\rvert\ll R_0$ it follows that $(R_0-R)\approx D\cos\ell$; if we insert this into $v_r$ and $v_t$ we get
+
+\begin{align*}
+    v_r \approx AD\sin2\ell ~ [{\rm km\,s^{-1}}], ~~~ v_t \approx AD\cos2\ell+BD ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}where $A$ and $B$ are the \textbf{Oort constants}:
+
+\begin{align*}
+    A \equiv -\frac{1}{2} \left[\left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} -\frac{V_0}{R_0}\right] ~ [{\rm km\,s^{-1}\,kpc^{-1}}],\\
+    B \equiv -\frac{1}{2} \left[\left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} +\frac{V_0}{R_0}\right] ~ [{\rm km\,s^{-1}\,kpc^{-1}}].
+\end{align*}
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The radial velocity $v_r$ of stars at a fixed distance $D$ is proportional to $\sin2\ell$; the tangential velocity $v_t$ is a linear function of $\cos2\ell$. From the amplitude of the oscillating curves and from the mean value of $v_t$ the Oort constants $A$ and $B$ can be derived. Figure taken from Schneider (2015).}}
+    \label{fig:vtvr}}
+    {\includegraphics[width=10cm]{figures/vt_vr.png}}
+\end{figure}
+
+{\noindent}The radial and tangential velocity fields relative to the Sun show a sine curve with period $\pi$, where $_vt$ and $v_r$ are phase-shifted by $\pi/4$. This behavior of the velocity field in the Solar neighborhood is indeed observed (see Figure \ref{fig:vtvr}). By fitting the data for $v_r(\ell)$ and $v_t(\ell)$ for stars of equal distance $D$ one can determine $A$ and $B$, and thus
+
+\begin{align*}
+    \Omega_0 = \frac{V_0}{R_0} ~ [{\rm rad\,s^{-1}}] = A-B ~ [{\rm km\,s^{-1}\,kpc^{-1}}], ~~~ \left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} = -(A+B) ~ [{\rm km\,s^{-1}\,kpc^{-1}}].
+\end{align*}
+
+{\noindent}The Oort constants thus yield the angular velocity of the Solar orbit and its derivative, and therefore the local kinematical information. If our Galaxy was rotating rigidly so that $\Omega$ was independent of the radius, $A=0$ would follow. But the Milky Way rotates differentially (i.e., the angular velocity depends on the radius). Measurements yield the following values for $A$ and $B$,
+
+\begin{align*}
+    A &= (14.8\pm0.8) ~ [{\rm km\,s^{-1}\,kpc^{-1}}] \\
+    B &= (-12.4\pm0.6) ~ [{\rm km\,s^{-1}\,kpc^{-1}}].
+\end{align*}
+
+{\noindent}\textbf{Galactic rotation curve for $R<R_0$; tangent point method:} To measure the rotation curve for radii that are significantly smaller than $R_0$, one has to turn to large wavelengths due to extinction in the disk. Usually the $21\,{\rm cm}$ emission line of neutral hydrogen is used, which can be observed over large distances, or the emission of CO in molecular gas. These gas components are found throughout the disk and are strongly concentrated towards the plane. Furthermore, the radial velocity can easily be measured from the Doppler effect. However, since the distance to a hydrogen cloud cannot be determined directly, a method is needed to link the measured radial velocities to the distance of the gas from the Galactic center. For this purpose the tangent point method is used.
+
+{\noindent}Consider a line-of-sight at fixed Galactic longitude $\ell$, with $\cos\ell>0$ (thus `inwards'). The radial velocity $v_r$ along this line-of-sight for objects moving on circular orbits is a function of the distance $D$, as found previously using the Oort constants. If $\Omega(R)$ is a monotonically decreasing function, $v_r$ attains a maximum where the line-of-sight is tangent to the local orbit, and thus its distance $R$ from the Galactic center attains the minimum value $R_{\rm min}$. This is the case at
+
+\begin{align*}
+    D = R_0\cos\ell ~ [{\rm kpc}], ~~~ R_{\rm min} = R_0\sin\ell ~ [{\rm kpc}]
+\end{align*}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=12cm]{figures/TangentPoint.png}
+    \caption{\footnotesize{The ISM is optically thin for $21\,{\rm cm}$ radiation, and thus we receive the $21\,{\rm cm}$ emission of HI regions from everywhere in the Galaxy. Due to the motion of an HI cloud relative to us, the wavelength is shifted. This can be used to measure the radial velocity of the cloud. With the assumption that the gas is moving on a circular orbit around the Galactic center, one expects that for the cloud in the tangent point (cloud 4), the full velocity is projected along the line-of-sight so that this cloud will therefore have the largest radial velocity. If the distance of the Sun to the Galactic center is known, the velocity of a cloud and its distance from the Galactic center can then be determined. Adopted from B.W. Carroll \& D.A. Ostlie 1996, Introduction to Modern Astrophysics, Addison-Wesley. Figure taken from Schneider (2015).}}
+    \label{fig:tangentpoint}
+\end{figure}
+
+{\noindent}(see Figure \ref{fig:tangentpoint}). The maximum radial velocity there, to equations derived above with the Oort constants, is
+
+\begin{align*}
+v_{r,\mathrm{max}} = [\Omega(R_{\rm min}-\Omega_0)] R_0\sin\ell = V(R_{\rm min}) - V_0\sin\ell ~[{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}so that from the measured value of $v_{r,{\rm max}}$ as a function of direction $\ell$, the rotation curve inside $R_0$ can be determined,
+
+\begin{align*}
+    V(R) = \left(\frac{R}{R_0}\right)V_0 + v_{r,{\rm max}}(\sin\ell=R/R_0) ~ [{\rm km\,s^{-1}}].
+\end{align*}
+
+{\noindent}In the optical regime of the spectrum this method can only be applied locally, i.e., for small $D$, due to extinction. This is the case if one observes in a direction nearly tangential to the orbit of the Sun, i.e., if $0<\pi/2-\ell\ll1$ or $0<\ell-3\pi/2\ll1$, or $\lvert\sin\ell\rvert\approx1$, so that $R_0-R_{\rm min}\ll R_0$. In this case we get, to first order in $(R_0-R_{\rm min})$,
+
+\begin{align}
+    V(R_{\rm min}) &\approx V_0 \left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0}(R_{\rm min}-R_0) \\
+    &= V_0 - \left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0} R_0(1-\sin\ell) ~ [{\rm km\,s^{-1}}],
+\end{align}
+
+{\noindent}Applying this to our equation for $v_{r,{\rm max}}$,
+
+\begin{align*}
+    v_{r,{\rm max}} &= \left[V_0-\left(\frac{{\rm d}V}{{\rm d}R}\right)_{R_0}R_0\right](1-\sin\ell) \\
+    &= 2AR_0(1-\sin\ell) ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}This relation can also be used for determining the Oort constant A.
+
+{\noindent}To determine $V(R)$ for smaller $R$ by employing the tangent point method, we have to observe in wavelength regimes in which the Galactic plane is transparent, using radio emission lines of gas. In Figure \ref{fig:vLSRvslong}, a typical intensity profile of the $21\,{\rm cm}$ line along a line-of-sight is sketched; according to the Doppler effect this can be converted directly into a velocity profile using $v_r=(\lambda-\lambda_0)\lambda_0$. It consists of several maxima that originate in individual gas clouds. The radial velocity of each cloud is defined by its distance $R$ from the Galactic center (if the gas follows the Galactic rotation), so that the largest radial velocity will occur for gas closest to the tangent point, which will be identified with $v_{r,{\rm max}}(\ell)$. Figure 2.28 shows the observed intensity profile of the $^{12}$CO line as a function of the Galactic longitude, from which the rotation curve for $R<R_0$ can be read off.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{$^{12}$CO emission of molecular gas in the Galactic disk. For each $\ell$, the intensity of the emission in the $\ell-v_r$ plane is plotted, integrated over the range $-2^\circ\leq b \leq2^\circ$ (i.e., very close to the middle of the Galactic plane). Since $v_r$ depends on the distance along each line- of-sight, characterized by $\ell$, this diagram contains information on the rotation curve of the Galaxy as well as on the spatial distribution of the gas. The maximum velocity at each $\ell$ is rather well defined and forms the basis for the tangent point method. Source: P. Englmaier \& O. Gerhard 1999, Gas dynamics and large-scale morphology of the Milky Way galaxy, MNRAS 304, 512, p. 514, Fig. 1. Figure taken from Schneider (2015).}}
+    \label{fig:vLSRvslong}}
+    {\includegraphics[width=10cm]{figures/vLSRvslong.png}}
+\end{figure}
+
+{\noindent}\textit{With the tangent point method, applied to the $21\,{\rm cm}$ line of neutral hydrogen or to radio emission lines of molecular gas, the rotation curve of the Galaxy inside the Solar orbit (i.e., for $R<R_0$) can be measured.}
+
+{\noindent}\textbf{Rotation curve for $R>R_0$:} The tangent point method cannot be applied for $R>R_0$ because for lines-of-sight at $\pi/2<\ell<3\pi/2$, the radial velocity $v_r$ attains no maximum. In this case, the line-of-sight is nowhere parallel to a circular orbit. 
+
+{\noindent}Measuring $V(R)$ for $R>R_0$ requires measuring $v_r$ for objects whose distance can be determined directly (e.g., Cepheids, for which the period-luminosity relation is used, or O- and B-stars in HII-regions). With $\ell$ and $D$ known, $R$ can then be calculated which allows us to obtain $\Omega(R)$ or $V(R)$, respectively. Any object with known $D$ and $v_r$ thus contributes one data point to the Galactic rotation curve. Since the distance estimates of individual objects are always affected by uncertainties, the rotation curve for large values of $R$ is less accurately known than that inside the Solar circle. Recent measurements of blue horizontal-branch stars within the outer halo of the MW by SDSS yielded an estimate of the rotation curve out to $r\sim60\,{\rm kpc}$. The situation will improve dramatically once the results from Gaia will become available: Gaia will measure distances via trigonometric parallaxes, and proper motions of many star outside the Solar circle.
+
+{\noindent}It turns out that the rotation curve for $R>R_0$ does not decline outwards (see Figure \ref{fig:rotationcurve}) as we would expect from the distribution of visible matter in the MW. Both the stellar density and the gas density of the Galaxy decline exponentially for large $R$. This steep radial decline of the visible matter density should imply that $M(R)$, the mass inside $R$, is nearly constant for $R\gtrsim R_0$, from which a velocity profile like $V\propto R^{-1/2}$ would follow, according to Kepler's law. However, this is not the case: $V(R)$ is virtually constant for $R>R_0$, indicating that $M(R)\propto R$. In fact, a small decrease to about $180,{\rm km\,s^{-1}}$ at $R=60\,{\rm kpc}$ was estimated, corresponding to a total mass of $(4.0\pm0.7)\times10^{11}\,{\rm M_\odot}$ enclosed within the inner $60\,{\rm kpc}$, but this decrease is much smaller than expected from Keplerian rotation. In order to get an almost constant rotational velocity of the Galaxy, much more matter has to be present than we observe in gas and stars.
+
+{\noindent}\textit{The MW contains, besides stars and gas, an additional component of matter that dominates the mass at $R\gtrsim R_0$. Its presence is known only by its gravitational effect, since it has not been observed directly yet, neither in emission nor in absorption. Hence, it is called \textbf{dark matter}.} This is a common phenomenon: the rotation curves of spiral galaxies are flat up to the maximum radius at which they can be measured; spiral galaxies contain dark matter. A better way of phrasing is would be to say that the visible galaxy is embedded in a dark matter halo, since the total mass of the MW (and other spiral galaxies) is dominated by dark matter.
+
+{\noindent}\textbf{Rotation curves and dark matter:} The rotation curves of other spiral galaxies are easier to measure than that of the MW because we are able to observe them `from outside'. These measurements are achieved by utilizing the Doppler effect, where the inclination of the disk (i.e., its orientation with respect to the line-of-sight) has to be accounted for. The inclination angle is determined from the observed axis ratio of the disk, assuming that disks are intrinsically axially symmetric (except for the spiral arms). Mainly the stars and HI gas in the galaxies are used as luminous tracers, where the observable HI disk is in general significantly more extended than the stellar disk. Therefore, the rotation curves measured from the $21\,{\rm cm}$ line typically extend to much larger radii than those from optical stellar spectroscopy.
+
+{\noindent}Like our MW, other spirals also rotate considerably faster in their outer regions than one would expect from Kepler's law and the distribution of visible matter (see Figure \ref{fig:rotationcurvesspirals}).
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Examples of rotation curves of spiral galaxies. They are all flat in the outer region and do not behave as expected from Kepler's law if the galaxy consisted only of luminous matter. Also striking is the fact that the amplitude of the rotation curve is higher for early-type than for late-type spirals. Source: V. Rubin et al. 1978, Extended rotation curves of high-luminosity spiral galaxies. IV—Systematic dynamical properties, SA through SC, ApJ 225, L107, p. L109, Fig. 3. Figure taken from Schneider (2015).}}
+    \label{fig:rotationcurvesspirals}}
+    {\includegraphics[width=10cm]{figures/RotationCurves_spirals.png}}
+\end{figure}
+
+{\noindent}\textit{The rotation curves of spirals do not decrease for $R\geq h_R$, as one would expect from the light distribution, but are basically flat. We therefore conclude that spirals are surrounded by a halo of dark matter. The density distribution of this dark halo can be derived from the rotation curves.}
+
+{\noindent}To see how the density distribution of the dark matter can be derived from the rotation curves, we employ the force balance between gravitation and centrifugal acceleration, as described by the Kepler rotation law,
+
+\begin{align*}
+    v^2(R) = \frac{GM(R)}{R} ~ [{\rm km^2\,s^{-2}}],
+\end{align*}
+
+{\noindent}from which one directly obtains the mass $M(R)$ within a radius $R$. The rotation curve expected from the visible matter distribution is\footnote{This consideration is strongly simplified insofar as the given relations are only valid in this form for spherical mass distributions. The rotational velocity produced by an oblate (disk-shaped) mass distribution is more complicated to calculate; for instance, for an exponential mass distribution in a disk, the maximum of $v_{\rm lum}$ occurs at   $\sim2.2h_R$, with a Kepler decrease, $v_{\rm lum}\propto R^{-1/2}$, at larger radii.}
+
+\begin{align*}
+    v_{\rm lum}^2 = \frac{GM_{\rm lum}(R)}{R} ~ [{\rm km^2\,s^{-2}}].
+\end{align*}
+
+{\noindent}$M_{\rm lum}(R)$ can be determined by assuming a plausible value for the mass-to-light ratio $M/L4$ of the luminous matter. This value is obtained either from the spectral light distribution of the stars, together with knowledge of the properties of stellar populations, or by fitting the innermost part of the rotation curve (where the mass contribution of dark matter can presumably be neglected), assuming that $M/L$ is independent of radius for the stellar population. From this estimate of the mass-to-light ratio, the discrepancy between $v_{\rm lum}^2$ and $v^2$ yields the distribution of the dark matter, $v_{\rm dark}^2=v^2-v_{\rm lum}^2=GM_{\rm dark}/R$, or
+
+\begin{align*}
+    M_{\rm dark}(R) = \frac{R}{G} [v^2(R) - v_{\rm lum}^2(R)] ~ [{\rm M_\odot}].
+\end{align*}
+
+{\noindent}An example of this decomposition of the mass contributions is shown in Figure \ref{fig:rotationcurvedecomp}.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The flat rotation curves of spiral galaxies cannot be explained by visible matter alone. The example of NGC 3198 demonstrates the rotation curve which would be expected from the visible matter alone (curve labeled `disk'). To explain the observed rotation curve, a dark matter component has to be present (curve labeled `halo'). However, the decomposition into disk and halo mass is not unambiguous because for it to be so it would be necessary to know the mass-to-light ratio of the disk. In the case considered here, a `maximum disk' was assumed (i.e., it was assumed that the innermost part of the rotation curve is produced solely by the visible matter in the disk). Source: T.S. van Albada et al. 1985, Distribution of dark matter in the spiral galaxy NGC 3198, ApJ 295, 305, p. 309, Fig. 4. Figure taken from Schneider (2015).}}
+    \label{fig:rotationcurvedecomp}}
+    {\includegraphics[width=12cm]{figures/RotationCurve_decomp.png}}
+\end{figure}
+
+{\noindent}The corresponding density profiles of the dark matter halos seem to be flat in the inner region, and decreasing as $R^{-2}$ at large radii. It is remarkable that $\rho\propto R^{-2}$ implies a mass profile $M\propto R$ (i.e., the mass of the halo increases linearly with the radius for large R). As long as the extent of the halo is undetermined the total mass of a galaxy will be unknown. Since the observed rotation curves are flat out to the largest radius for which $21\,{\rm cm}$ emission can still be observed, a lower limit for the radius of the dark halo can be obtained, $R_{\rm halo}\gtrsim30h^{-1}\,{\rm kpc}$. Inside the optical radius of a disk, the dark matter comprises about $2/3$ of the total mass.
+
+{\noindent}To derive the density profile out to even larger radii, other observable objects in an orbit around the galaxies are needed. Potential candidates for such luminous tracers are satellite galaxies -- companions of other spirals, like the Magellanic Clouds are for the MW. Because we cannot presume that these satellite galaxies move on circular orbits around their parent galaxy, conclusions can be drawn based only on a statistical sample of satellites. These analyses of the relative velocities of satellite galaxies around spirals still give no indication of an `edge' to the halo, leading to a lower limit for the radius of $R_{\rm halo}\gtrsim100h^{-1}\,{\rm kpc}$.
 
 \subsubsection{Follow-up Questions}
 
@@ -2380,6 +2617,7 @@ Additional context.
     \item Stellar Evolutionary Effects on the Abundances of Polycyclic Aromatic Hydrocarbons and Supernova-Condensed Dust in Galaxies; Galliano et al. (2008)
     \item Some insights on the dust properties of nearby galaxies, as seen with Herschel; Galliano (2017)
     \item The Three Phase Interstellar Medium Revisited; Cox (2005)
+    \item Extragalactic Astronomy and Cosmology; Schneider (2015)
 \end{itemize}
 
 \end{document}
