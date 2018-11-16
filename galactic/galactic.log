@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 NOV 2018 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 NOV 2018 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,17 +844,17 @@ File: figures/rosette.png Graphic file (type png)
  <use figures/rosette.png>
 Package pdftex.def Info: figures/rosette.png used on input line 642.
 (pdftex.def)             Requested size: 170.71652pt x 167.92778pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no ˆ in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no ˆ in font cmr10!
-Missing character: There is no ’ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no ˆ in font cmr10!
-Missing character: There is no ’ in font cmr10!
 
 [17 <./figures/rosette.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
@@ -1973,32 +1973,32 @@ LaTeX Warning: Text page 73 contains only floats.
 File: figures/orbitals_3D.png Graphic file (type png)
 
 <use figures/orbitals_3D.png>
-Package pdftex.def Info: figures/orbitals_3D.png used on input line 2458.
+Package pdftex.def Info: figures/orbitals_3D.png used on input line 2468.
 (pdftex.def)             Requested size: 312.9803pt x 312.98495pt.
  [77 <./figures/orbitals_3D.png>]
 <figures/ncrit_np2np4.png, id=755, 1077.02374pt x 473.77pt>
 File: figures/ncrit_np2np4.png Graphic file (type png)
 
 <use figures/ncrit_np2np4.png>
-Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2477.
+Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2487.
 (pdftex.def)             Requested size: 312.9803pt x 137.67894pt.
 
 <figures/ncrit_np3.png, id=756, 976.64874pt x 280.04625pt>
 File: figures/ncrit_np3.png Graphic file (type png)
 
 <use figures/ncrit_np3.png>
-Package pdftex.def Info: figures/ncrit_np3.png used on input line 2484.
+Package pdftex.def Info: figures/ncrit_np3.png used on input line 2494.
 (pdftex.def)             Requested size: 312.9803pt x 89.74481pt.
  [78 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
 s_T.png, id=767, 555.07375pt x 824.07875pt>
 File: figures/LineRatios_T.png Graphic file (type png)
 
 <use figures/LineRatios_T.png>
-Package pdftex.def Info: figures/LineRatios_T.png used on input line 2514.
+Package pdftex.def Info: figures/LineRatios_T.png used on input line 2524.
 (pdftex.def)             Requested size: 398.33858pt x 591.3872pt.
  [79] [80 <./figures/LineRatios_T.png>] [81]
 [82] [83]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 2617--2618
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 2639--2640
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
@@ -2006,11 +2006,11 @@ yclic Aro-matic Hy-dro-car-bons and Supernova-
 
 AED: lastpage setting LastPage
 [84]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2623.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2623.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2647.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2647.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2623.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2623.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2647.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2647.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
@@ -2018,13 +2018,13 @@ Package rerunfilecheck Info: File `galactic.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2623.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2647.
  ) 
 Here is how much of TeX's memory you used:
- 9867 strings out of 492995
- 151747 string characters out of 6132704
+ 9875 strings out of 492995
+ 151838 string characters out of 6132704
  277787 words of memory out of 5000000
- 13014 multiletter control sequences out of 15000+600000
+ 13018 multiletter control sequences out of 15000+600000
  15560 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2054,10 +2054,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (84 pages, 20233522 bytes).
+Output written on galactic.pdf (84 pages, 20237215 bytes).
 PDF statistics:
- 934 PDF objects out of 1000 (max. 8388607)
- 686 compressed objects within 7 object streams
- 211 named destinations out of 1000 (max. 500000)
+ 938 PDF objects out of 1000 (max. 8388607)
+ 690 compressed objects within 7 object streams
+ 215 named destinations out of 1000 (max. 500000)
  459 words of extra memory for PDF output out of 10000 (max. 10000000)
 
