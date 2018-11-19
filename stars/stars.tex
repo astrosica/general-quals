@@ -506,11 +506,67 @@ Answer.
 
 \subsubsection{Additional context}
 
-{\noindent}\textbf{Electron scattering:} 
+{\noindent}\textbf{Electron scattering:} If an EM wave passes an electron, the electric field makes the electron oscillate. The oscillating electron represents a classical dipole that radiates in other directions, (i.e., the electron scatters part of the energy of the incoming wave). The weakening of the original radiation due to scattering is equivalent to that by absorption, and we can describe it by way of a cross section at frequency $\nu$ per unit mass ($\kappa_\nu$). This can be calculated classically giving the result
 
-{\noindent}\textbf{Free-free:} 
+\begin{align*}
+    \kappa_\nu = \frac{8\pi}{3} \frac{e_e^2}{\mu_em_u} = 0.20(1+X) ~ [{\rm cm^2\,g^{-1}}],
+\end{align*}
 
-{\noindent}\textbf{Bound-free:} 
+{\noindent}where $r_e$ is the classical electron radius, $X$ the mass fraction of hydrogen, and the constant is in ${\rm cm^2\,g^{-1}}$. The term $\mu_em_u$ arises because $\kappa_\nu$ is taken per unit mass; and $\mu_e$ is replaced by (4.30). Since $\kappa_\nu$ does not depend on the frequency, we immediately obtain the \textbf{Rosseland mean for electron scattering}:
+
+\begin{align*}
+    \kappa_{\rm sc} = 0.20(1+X) ~ [{\rm cm^2\,g^{-1}}].
+\end{align*}
+
+{\noindent}The Thomson scattering just described neglects the exchange of momentum between electron and radiation. If this becomes important, then $\kappa_\nu$ will be reduced compared to the value given above, though this effect plays a role only at temperatures sufficiently high for the scattered photons to be very energetic. In fact, during the scattering process the electron must obtain such a large momentum that its velocity is comparable to $c$, say $v\gtrsim0.1c$ for the equation above to become a bad approximation. The momentum of the photon is $h\nu/c$, which after scattering is partly transferred to the electron, $m_ev\sim h\nu/c$. Therefore relativistic corrections (\textbf{Compton scattering}) become important if the average energy of the photons is $h\nu\gtrsim0.1\,m_ec^2$. For $h\nu$ we take the frequency at which the Planck function has a maximum; then according to Wien's law this is at $h\nu=4.965\,k_BT$, and the full Compton scattering cross section has to be taken into account if $T>0.1\,m_ec^2/(4.965\,{\rm K})$, or roughly $T>10^8\,{\rm K}$. In fact even at $T=10^8\,{\rm K}$ Compton scattering reduces the opacity by only 20\% of that given by the equation above.
+
+{\noindent}\textbf{Free-free:} If during its thermal motion a free electron passes an ion, the two charged particles form a system which can absorb and emit radiation. This mechanism is only effective as long as the electron and ion are sufficiently close. Now, the mean thermal velocity of the electrons is $v\sim\sqrt{T}$, and the time during which they form a system able to absorb or emit is proportional to $1/v\sim1/\sqrt{T}$; therefore, if in a mass element the numbers of electrons and ions are fixed, the number of systems temporarily able to absorb is proportional to $1/\sqrt{T}$.
+
+{\noindent}The absorption properties of such a system have been derived classically; the absorption coefficient per system is proportional to $Z^2\nu^{-3}$, where $Z$ is the charge number of the ion. We therefore expect the absorption coefficient $\kappa_\nu$ of a given mixture of (fully ionized) matter to be
+
+\begin{align*}
+    \kappa_\nu \sim Z^2\rho T^{-1/2}\nu^{-3} ~ [{\rm cm^2\,g^{-1}}].
+\end{align*}
+
+{\noindent}Here the factor $\rho$ appears because for a given mass element the probability that two particles are accidentally close together is proportional to the density.
+
+{\noindent}For the determination of the Rosseland mean $\kappa$ of this absorption coefficient we make use of a simple theorem: a factor $\nu^\alpha$ contained in $\kappa_\nu$ gives a factor $T^\alpha$ in $\kappa$. With this and the above equation for $\kappa_\nu$ we find
+
+\begin{align*}
+    \kappa_{\rm ff} \sim \rho T^{-7/2} ~ [{\rm cm^2\,g^{-1}}].
+\end{align*}
+
+{\noindent}All opacities of this form are called \textbf{Kramers opacities} and give only a classical approximation. One normally multiplies the Kramers formula by a correction factor $g$, the so-called \textbf{Gaunt factor}, in order to take care of the quantum-mechanical correction. In the equation for $\kappa_{ff}$, we have still omitted the factor $Z^2$ which appears in $\kappa_\nu$. In general, one has a mixture of different ions, and therefore one has to add the contributions of the different chemical species. The (weighted) sum over the values of $Z^2$ is taken into the constant of proportionality in $\kappa_{ff}$, which then depends on the chemical composition. For a fully ionized mixture a good approximation is given by
+
+\begin{align*}
+    \kappa_{ff} = 3.8\times10^{22} (1+X)[(X+Y)+B]\rho T^{-7/2} ~ [{\rm cm^2\,g^{-1}}],
+\end{align*}
+
+{\noindent}with the numerical constant in cgs. The mass fractions of H and He are $X$ and $Y$, respectively. Here the factor $(1+X)$ arises, since $\nu_{ff}$ must be proportional to the electron density which is proportional to $(1+X)\rho$. The term $(X+Y)$ in the brackets can be understood in the following way: there are $X/m_u$ hydrogen ions and $Y/(4m_u)$ helium ions. The former have the charge number $1$, the latter the charge number $2$. But since  $\kappa_\nu\sim Z^2$, when adding the contributions of H and He to the total absorption coefficient, we obtain the factor $X/m_u+4Y/(4m_u) = (X_Y)m_u$. Correspondingly the term $B$ gives the contribution of the heavier elements:
+
+\begin{align*}
+    B = \sum_i \frac{X_iZ_i^2}{A_i} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where the summation extends over all elements higher than helium and $A_i$ is the atomic mass number.
+
+{\noindent}\textbf{Bound-free:} We first consider a (neutral) hydrogen atom in its ground state, with an ionization energy of $\chi_0$ (i.e., a photon of energy $h\nu>X_0$ can ionize the atom). Energy conservation then demands that 
+
+\begin{align*}
+    h\nu = \chi_0 + \frac{1}{2}m_ev_e^2 ~ [{\rm eV}],
+\end{align*}
+
+{\noindent}where $v_e$ is the velocity of the electron released (relative to the ion, which is assumed to be at rest before and after ionization). 
+
+{\noindent}If we define an absorption coefficient $a_\nu$ per ion ($a_\nu=\kappa_\nu\rho/n_{\rm ion}$), we expect $a_\nu=0$ for $\nu<\chi_0/h$ and $a_\nu>0$ for $\nu\geq\chi_0/h$. Classical considerations similar to those which lead to the Kramers dependence of $\kappa_\nu$ for free–free transitions give a $a_\nu\sim\nu^{-3}$ for $\nu\geq\chi_0/h$. Quantum-mechanical corrections can again be taken into account by a Gaunt factor. But if we have neutral hydrogen atoms in different stages of excitation, the situation is different: an atom in the first excited stage has an absorption coefficient $a_\nu=0$ for $h\nu<\chi_1$, where $\chi_1$ is the energy necessary to ionize a hydrogen atom from the first excited state, while $a_\nu\sim\nu^{-3}$ for $h\nu\geq\chi_1$. The absorption coefficient $\kappa_\nu$ for a mixture of hydrogen atoms in different states of excitation is a superposition of the $a_\nu$ for different stages of excitation. The resulting $\kappa_\nu$ is a saw-tooth function. In order to obtain $\kappa_\nu$ for a certain value of the temperature $T$, one has to determine the relative numbers of atoms in the different stages of excitation by the Boltzmann formula; then their absorption coefficients $a_\nu$, weighted with their relative abundances, are to be summed.
+
+{\noindent}If there are ions of different chemical species with different degrees of ionization, one has to sum the functions $a_\nu$ for all species in all stages of excitation and all degrees of ionization before carrying out the Rosseland integration. An important source of opacity are bound-free transitions of neutral hydrogen atoms, in which case the opacity must be proportional to the number of neutral hydrogen atoms and $\kappa$ can be written in the form
+
+\begin{align*}
+    \kappa_{bf} = X(1-x)\tilde{\kappa}(T) ~ [{\rm cm^2\,g^{-1}}].
+\end{align*}
+
+{\noindent}Here $\tilde{\kappa}(T)$ is obtained by Rosseland integration over (weighted) sums of functions $a_\nu$ for the different stages of excitation, while $x$ is the degree of ionization.
 
 {\noindent}\textbf{H$^-$ ion:} Hydrogen atom has a bound state for a second electron in the field of the proton, though it has a very low ionization potential, $E_{{\rm H}^-}=0.75\,{\rm eV}$. The number density of negative hydrogen ions will be proportional to the electron density, which, in all but the most metal-poor stars, will be set by ionization of the metals (which have much lower ionization potentials that hydrogen and helium). Thus, the H$^-$ opacity will scale as $\kappa_{{\rm H}^-} \propto \rho XZ$ at low temperatures; H$^-$ is of course easily ionized at higher temperatures, and at very low temperatures even metals will not be ionized, so there will be no electrons to form H$^-$ by combining with H.
 
