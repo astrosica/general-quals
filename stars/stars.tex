@@ -657,11 +657,419 @@ Describe the condition for a star’s envelope to become convective. Why are low
 
 \subsubsection{Short answer}
 
-Answer.
+The radiation pressure gradient is given by 
+
+\begin{align*}
+    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = -\frac{\kappa\rho}{c}F_{\rm rad} ~ [{\rm P\,m}],
+\end{align*}
+
+{\noindent}where $F_{\rm rad}$ is the outward radiative flux. The radiation pressure may also be expressed as
+
+\begin{align*}
+    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = \frac{4}{3} aT^3 \frac{{\rm d}T}{{\rm d}r} ~ [{\rm P\,m}].
+\end{align*}
+
+{\noindent}Equating the two, we have
+
+\begin{align*}
+    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}F_{\rm rad} ~ [{\rm K\,m^{-1}}].
+\end{align*}
+
+{\noindent}If we use the expression for the radiative flux written in terms of the local radiative luminosity of the star at radius $r$, 
+
+\begin{align*}
+    F_{\rm rad} = \frac{L_r}{4\pi r^2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}],
+\end{align*}
+
+{\noindent}the temperature gradient for radiative transport becomes
+
+\begin{align*}
+    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}].
+\end{align*}
+
+{\noindent}As either the flux or the opacity increases, the temperature gradient must become steeper (i.e., more negative) if radiation transport is to carry all of the required luminosity outward. The same situation holds as the density increases or the temperature increases.
+
+{\noindent}We now consider a situation where a hot convective bubble of gas rises and expands \textbf{adiabatically}, meaning that the bubble does not exchange heat with its surroundings. After it has travelled some distance, it finally \textbf{thermalizes}, giving up any excess heat as it loses its identity and dissolves into the surrounding gas. Differentiating the \textbf{ideal gas law}
+
+\begin{align*}
+    P = \frac{\rho k_BT}{\mu m_{\rm H}} ~ [{\rm P}]
+\end{align*}
+
+{\noindent}yields an expression involving the bubble's \textbf{temperature gradient}
+
+\begin{align*}
+    \frac{{\rm d}P}{{\rm d}r} = -\frac{P}{\mu}\frac{{\rm d}\mu}{{\rm d}r} + \frac{P}{\rho}\frac{{\rm d}\rho}{{\rm d}r} + \frac{P}{T}\frac{{\rm d}T}{{\rm d}r}.
+\end{align*}
+
+{\noindent}Using the adiabatic relationship between pressure and density
+
+\begin{align*}
+    PV^\gamma = K ~ [{\rm P\,m^3}]
+\end{align*}
+
+{\noindent}and recalling that $V\equiv1/\rho$ is the \textbf{specific volume}, we have that
+
+\begin{align*}
+    P = K\rho^\gamma ~ [{\rm P}].
+\end{align*}
+
+{\noindent}Differentiating and re-writing, we obtain
+
+\begin{align*}
+    \frac{{\rm d}P}{{\rm d}r} = \gamma \frac{P}{\rho}\frac{{\rm d}\rho}{{\rm d}r} ~ [{\rm P\,m^{-1}}].
+\end{align*}
+
+{\noindent}If we assume for simplicity that the mean molecular weight $\mu$ is constant, we can combing equations for ${\rm d}P/{\rm d}r$ to give the \textbf{adiabatic temperature gradient}
+
+\begin{align*}
+    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{T}{P}\frac{{\rm d}P}{{\rm d}r} ~ [{\rm K\,m^{-1}}].
+\end{align*}
+
+{\noindent}Using the equation of \textbf{hydrostatic equilibrium}
+
+\begin{align*}
+    \frac{{\rm d}P}{{\rm d}r} = -\frac{GM_r\rho}{r^2} = -\rho g ~ [{\rm P\,m^{-1}}], ~~~ g \equiv \frac{GM_r}{r^2} ~ [{\rm m\,s^{-2}}]
+\end{align*}
+
+{\noindent}and the ideal gas law, we finally obtain
+
+\begin{align*}
+    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{\mu m_{\rm H}}{k}\frac{GM_r}{r^2} ~ [{\rm K\,m^{-1}}].
+\end{align*}
+
+{\noindent}If the star's actual temperature gradient is \textit{steeper} than the adiabatic temperature gradient,
+
+\begin{align*}
+    \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm act} > \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm ad} ~ [{\rm K\,m^{-1}}],
+\end{align*}
+
+{\noindent}the temperature gradient is said to be \textbf{super-adiabatic} (recall that ${\rm d}T/{\rm d}r<0$). In the deep interior of a star, if the actual temperature gradient is just \textit{slightly} larger than the adiabatic temperature gradient, this may be sufficient to carry nearly all of the luminosity by convection. Consequently, it is often the case that either radiation or convection dominates the energy transport in the deep interior of stars, while the other energy transport mechanism contributes very little to the total energy outflow. The particular mechanism in operation is determined by the temperature gradient. However, near the surface of the star, the situation is much more complicated: both radiation and convection can carry significant amounts of energy simultaneously.
+
+{\noindent}In general, convection will occur when
+
+\begin{enumerate}
+    \item the stellar opacity is large, implying that an unchievably steep temperature gradient would be necessary for radiative transport;
+    \item a region exists where ionization is occurring, causing a large specific heat and a low adiabatic temperature gradient; and
+    \item the temperature dependence of the nuclear energy generation rate is large, causing a steep radiative flux gradient and a large temperature gradient.
+\end{enumerate}
+
+{\noindent}In the atmosphere of many stars, the first two conditions can occur simultaneously, whereas the third condition would occur only deep in stellar interiors. In particular, the third condition can occur when the highly temperature-dependent CNO cycle or triple alpha processes are occuring.
 
 \subsubsection{Additional context}
 
-Additional context.
+Three different energy transport mechanisms operate in stellar interiors. \textbf{Radiation} allows the energy produced by nuclear reactions and gravitation to be carried to the surface via photons, the photons being absorbed and re-emitted in nearly random directions as they encounter matter. This suggests that the opacity of the material must play an important role, as one would expect. \textbf{Convection} can be a very efficient transport mechanism in many regions of a star, with hot, buoyant mass elements carrying excess energy outward while cool elements fall inward. Finally, \textbf{conduction} transports heat via collisions between particles. Although conduction can play an important role in some stellar environments, it is generally insignificant in most stars throughout the majority of their lifetimes. 
+
+{\noindent}\textbf{Radiative transport of energy: basic estimates} Rough estimates show important features of the radiative transfer in stellar interiors and justify an enormous simplification of the formalism. Let us first estimate the mean free path $\ell_{\rm mfp}$ of a photon at an ``average'' point inside a star like the Sun:
+
+\begin{align*}
+    \ell_{\rm mfp} = \frac{1}{\kappa\rho} ~ [{\rm m}].
+\end{align*}
+
+{\noindent}where $\kappa$ is a mean absorption coefficient (i.e., a radiative cross section per unit mass averaged over frequency). Typical values for stellar material are of order $\kappa\approx1\,{\rm cm^2\,g^{-1}}$; for the ionized hydrogen in stellar interiors, a lower limit is certainly the value for electron scattering, $\kappa\approx0.4\,{\rm cm^2\,g^{-1}}$. Using this and the mean density of matter in the Sun, $\bar{\rho}_\odot=1.4\,{\rm g\,cm^{-3}}$, we obtain a mean free path of only
+
+\begin{align*}
+    \ell_{\rm mfp} = \frac{1}{\kappa\rho} = \frac{1}{1\,{\rm cm^2\,g^{-1}}\cdot0.4\,{\rm g\,cm^{-3}}} \approx2 ~ [{\rm cm}],
+\end{align*}
+
+{\noindent}i.e., stellar matter is very opaque.
+
+{\noindent}The typical temperature gradient in the star can be roughly estimated by averaging between centre ($T_c\approx10^7\,{\rm K}$) and surface ($T_0\approx10^4\,{\rm K}$):
+
+\begin{align*}
+    \frac{\Delta T}{\Delta r} \approx \frac{T_c-T_0}{R_\odot} \approx 1.4\times10^{-4}\,[{\rm K\,cm^{-1}}].
+\end{align*}
+
+{\noindent}The radiation field at a given point is emitted from a small, nearly isothermal surrounding, the differences of temperature being only of order $\Delta T=\ell_{\rm mfp}({\rm d}T/{\rm d}r)\approx3\times10^{-4}\,{\rm K}$. Since the energy density of radiation is $u\sim T^4$, the relative anisotropy of the radiation at a point with $T=10^7\,{\rm K}$ is $\Delta T/T\sim10^{-10}$. The situation in stellar interiors must obviously be very close to TE, and the radiation very close to that of a blackbody. Nevertheless, the small remaining anisotropy can easily be the carrier of the stars' huge luminosity: this fraction of $10^{-10}$ of the flux emitted from ${\rm 1\,cm^2}$ of a blackbody of $T=10^7\,{\rm K}$ is still $10^3$ times larger than the flux at the solar surface ($6\times10^{10}\,{\rm erg\,cm^{-2}\,s^{-1}}$. Radiative transport of energy occurs via the non-vanishing net flux (i.e., via the surplus of the outwards-going radiation emitted from somewhat hotter material below over the inwards-going radiation emitted from less-hot material above).
+
+{\noindent}\textbf{Diffusion of radiative energy:} The above estimates have shown that for radiative transport in stars, the mean free path $\ell_{\rm mfp}$ of the ``transporting particles'' (i.e., photons) is very small compared to the characteristic length $R$ (stellar radius) over which the transport extends: $\ell_{\rm mfp,\odot}/R_\odot\approx3\times10^{-11}$. In this case, the transport can be treated as a diffusion process, which yields an enormous simplification of the formalism. We derive the corresponding equation by analogy to those for particle diffusion.
+
+{\noindent}The diffusive flux $j$ of particles (per unit area and time) between places of different particle density $n$ is given by
+
+\begin{align*}
+    \vec{j} = -D\nabla n ~ [{\rm ???}],
+\end{align*}
+
+{\noindent}where $D$ is the coefficient of diffusion,
+
+\begin{align*}
+    D = \frac{1}{3}v\ell_{\rm mfp} ~ [{\rm s^{-1}}],
+\end{align*}
+
+{\noindent}determined by the average values of mean velocity $v$ and mean free path $\ell_{\rm mfp}$ of the particles.
+
+{\noindent}In order to obtain the corresponding diffusive flux of radiative energy $\vec{F}$; we replace $n$ by the energy density of radiation $U$;
+
+\begin{align*}
+    u = aT^4 = \frac{4\sigma}{c}T^4 ~ [{\rm erg\,cm^{-3}}].
+\end{align*}
+
+{\noindent}Here, $a=7.57\times10^{-15}\,{\rm erg\,cm^{3}\,K^{-4}}$ is the \textbf{radiation density constant}. Owing to the spherical symmetry of the problem, $\vec{F}$ has only a radial component $F_r=\lvert\vec{F}\rvert=F$ and $\nabla U$ reduces to the derivative in the radial direction
+
+\begin{align*}
+    \frac{\partial u}{\partial r} = 4aT^3\frac{\partial T}{\partial r} ~ [{\rm erg\,cm^{-4}}].
+\end{align*}
+
+{\noindent}Using this result along with the equation for $\vec{j}$, this immediately gives us
+
+\begin{align*}
+    F = - \frac{4ac}{3} \frac{T^3}{\kappa\rho} \frac{\partial T}{\partial r} ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+\end{align*}
+
+{\noindent}Note that this can be interpreted formally as an \textbf{equation for heat conduction} by writing
+
+\begin{align*}
+    \vec{F} = -k_{\rm rad}\nabla T ~ [{\rm erg\,s^{-1}\,cm^{-2}}],
+\end{align*}
+
+{\noindent}where 
+
+\begin{align*}
+    k_{\rm rad} = \frac{4ac}{3} \frac{T^3}{\kappa\rho} ~ [{\rm erg\,cm^{-1}\,K^{-1}\,s^{-1}}]
+\end{align*}
+
+{\noindent}represents the \textbf{coefficient of conduction} for this radiative transport.
+
+{\noindent}We solve $F$ for the gradient of the temperature and replace it by the usual local luminosity $L=4\pi r^2F$; then
+
+\begin{align*}
+    \frac{\partial T}{\partial r} = - \frac{3}{16\pi ac} \frac{\kappa\rho L}{r^2T^3} ~ [{\rm K\,cm^{-1}}]
+\end{align*}
+
+{\noindent}Of course, this neat and simple equation becomes invalid when one approaches the surface of the star. Because of the decreasing density, the mean free path of the photons will there become comparable with (and finally larger than) the remaining distance to the surface; hence the whole diffusion approximation breaks down, and one has to solve the far more complicated full set of transport equations for radiation in the stellar atmosphere (these equations indeed yield our simple diffusion approximation as the proper limiting case for large optical depths).
+
+{\noindent}\textbf{The Rosseland mean for $\kappa_\nu$:} The above equations are independent of the frequency $\nu$; $F$ and $L$ are quantities integrated over all frequencies, so that the quantity   must represent a ``proper mean'' over $\nu$. We shall now prescribe a method for this averaging.
+
+{\noindent}In general the absorption coefficient depends on the frequency $\nu$. Let us denote this by adding a subscript $\nu$ to all quantities that thus become frequency dependent: $\kappa_\nu$, $\ell_\nu$, $D_\nu$, $u_\nu$ etc.
+
+{\noindent}For the diffusive energy flux $\vec{F}_\nu$ of radiation in the interval $[\nu,\nu+{\rm d}\nu]$, we write now
+
+\begin{align*}
+    \vec{F}_\nu &= -D_\nu \nabla u_\nu ~ [{\rm erg\,s^{-1}\,cm^{-2}}], \\
+    D_\nu &= \frac{1}{3}c\ell_\nu = \frac{c}{3\kappa_\nu\rho} ~ [{\rm m^2\,s^{-1}}],
+\end{align*}
+
+{\noindent}while the energy density in the same interval is given by
+
+\begin{align*}
+    u_\nu = \frac{4\pi}{c}B(\nu,T) = \frac{8\pi h}{c^3} \frac{\nu^3}{e^{h\nu/k_BT}-1}  ~ [{\rm erg\,cm^{-3}}].
+\end{align*}
+
+{\noindent}$B(\nu,T)$ denotes here the \textbf{Planck function} for the intensity of blackbody radiation (differing from the usual formula for the energy density simply by the factor $4\pi/c$. From this equation for $u_\nu$, we have
+
+\begin{align*}
+    \nabla u_\nu = \frac{4\pi}{c} \frac{\partial B}{\partial T}\nabla T,
+\end{align*}
+
+{\noindent}which together with $D_\nu$ is inserted into  $F_\nu$, the latter then being integrated over all frequencies to obtain the total flux $F$: 
+
+\begin{align*}
+    \vec{F} = -\left[ \frac{4\pi}{3\rho} \int\limits_0^\infty \frac{1}{\kappa_\nu} \frac{\partial B}{\partial T} {\rm d}\nu \right] \nabla T ~ [{\rm m^2\,s^{-1}}].
+\end{align*}
+
+{\noindent}We have thus regained $\vec{F}=-k_{\rm rad}\nabla T$ with
+
+\begin{align*}
+    k_{\rm rad} = \frac{4\pi}{3\rho} \int\limits_0^\infty \frac{1}{\kappa_\nu} \frac{\partial B}{\partial T} {\rm d}\nu ~ [{\rm erg\,cm^{-1}\,K^{-1}\,s^{-1}}].
+\end{align*}
+
+{\noindent}Equating this expression for $k_{\rm rad}$ with that in the averaged form, we have immediately the proper formula for averaging the absorption coefficient:
+
+\begin{align*}
+    \frac{1}{\kappa} = \frac{\pi}{acT^3} \int\limits_0^\infty \frac{\partial B}{\partial T} {\rm d}\nu ~ [{\rm cm^2\,g^{-1}}].
+\end{align*}
+
+{\noindent}This s the so-called \textbf{Rosseland mean}. Since
+
+\begin{align*}
+    \int\limits_0^\infty \frac{\partial B}{\partial T}{\rm d}\nu = \frac{acT^3}{\pi},
+\end{align*}
+
+{\noindent}the Rosseland mean is formally the harmonic mean of    with the weighting function $\partial B/\partial T$, and it can simply be calculated, once the function $\kappa_\nu$ is known from atomic physics.
+
+{\noindent}In order to see the physical interpretation of the Rosseland mean, we rewrite $\vec{F}_\nu=-D_\nu\nabla u_\nu$ as
+
+\begin{align*}
+    \vec{F}_\nu = -\left(\frac{1}{\kappa_\nu}\frac{\partial B(\nu,T)}{\partial T}\right)\frac{4\pi}{3\rho}\nabla T ~ [{\rm m^2\,s^{-1}}].
+\end{align*}
+
+{\noindent}This shows that, for a given point in the star ($\rho$ and $\nabla T$ given), the integrand in $1/\kappa$ is at all frequencies proportional to the net flux $\vec{F}_\nu$ of energy. The Rosseland mean therefore favours the frequency ranges of maximum energy flux. One could say that an average \textit{transparency} is evaluated rather than an \textit{opacity} -- which is plausible, since it is to be used in an equation describing the transfer of energy rather than its blocking.
+
+{\noindent}One can also easily evaluate the frequency where the weighting function $\partial B/\partial T$ has its maximum. One finds that, for given a temperature, $\partial B/\partial T\sim x^4e^x(e^x-1)^{-2}$ with $x=h\nu/k_BT$. Differentiation with respect to $x$ shows that the maximum of $\partial B/\partial T$ is close to $x=4$.
+
+{\noindent}The way we have defined the Rosseland mean $\kappa$, which is a kind of weighted harmonic mean value, has the uncomfortable consequence that the opacity $\kappa$ of a mixture of two gases having the opacities $\kappa_1,\kappa_2$ is not the sum of the opacities: $\kappa\neq\kappa_1\kappa_2$. Therefore, in order to find $\kappa$ for a mixture containing the weight fractions $X$ of hydrogen and $Y$ of helium, the mean opacities of the two single gases are of no use. Rather one has to add the frequency-dependent opacities $\kappa_\nu=X_{\kappa_\nu,{\rm H}}+Y_{\kappa_\nu,{\rm He}}$ before calculating the Rosseland mean. For any new abundance ratio $X/Y$ the averaging over the frequency has to be carried out separately.
+
+{\noindent}In the above we have characterized the energy flux due to the diffusion of photons by $F_\nu$. Since in the following we shall encounter other mechanisms for energy transport, from now on we shall specify this radiative flux by the vector $\vec{F}_{\rm rad}$. Correspondingly we shall use $\kappa_{\rm rad}$ instead of  $\kappa$, etc.
+
+{\noindent}\textbf{Conductive transport of energy:} In heat conduction, energy transfer occurs via collisions during the random thermal motion of the particles (electrons and nuclei in completely ionized matter, otherwise atoms or molecules). A basic estimate shows that in ``ordinary'' stellar matter (i.e., in a non-degenerate gas), conduction has no chance of taking over an appreciable part of the total energy transport. Although the collisional cross sections of these charged particles are rather small at the high temperatures in stellar interiors $(10^{-18}-10^{-20}\,cm^2$ per particle), the large density ($\rho=1.4\,{\rm g\,cm^{-3}}$ in the Sun) results in mean free paths several orders of magnitude less than those for photons; and the velocity of the particles is only a few per cent of $c$. Therefore the coefficient of diffusion is much smaller than that for photons.
+
+{\noindent}The situation becomes quite different, however, for the cores of evolved stars where the electron gas is highly degenerate. The density can be as large as $10^6\,{\rm g\,cm^{-3}}$. But degeneracy makes the electrons much faster, since they are pushed up close to the Fermi energy; and degeneracy increases the mean free path considerably, since the quantum cells of phase space are filled up such that collisions in which the momentum is changed become rather improbable. Then the coefficient of diffusion (which is proportional to the product of mean free path and particle velocity) is large, and heat conduction can become so efficient that it short-circuits the radiative transfer.
+
+{\noindent}The energy flux $\vec{F}_{\rm cd}$ due to heat conduction may be written as
+
+\begin{align*}
+    \vec{F}_{\rm cd} = -k_{\rm cd}\nabla T ~ [{\rm m^2\,s^{-1}}].
+\end{align*}
+
+{\noindent}The sum of the conductive flux $\vec{F}_{\rm cd}$ and the radiative flux $\vec{F}_{\rm rad}$ is
+
+\begin{align*}
+    \vec{F} = \vec{F}_{\rm rad}+\vec{F}_{\rm cd} = -(k_{\rm rad}+k_{\rm cd})\nabla T ~ [{\rm m^2\,s^{-1}}],
+\end{align*}
+
+{\noindent}On the other hand, we can just as well write the conductive coefficient $k_{\rm cd}$ formally in analogy to $k_{\rm rad}$ as
+
+\begin{align*}
+    k_{\rm cd} = \frac{4ac}{3}\frac{T^3}{\kappa_{\rm cd}\rho} ~ [{\rm cm^2\,g^{-1}}],
+\end{align*}
+
+{\noindent}hence defining the \textbf{conductive opacity} $\kappa_{\rm cd}$. Then the flux becomes
+
+\begin{align*}
+    \vec{F} = -\frac{4ac}{3}\frac{T^3}{\rho} \left(\frac{1}{\kappa_{\rm rad}}+\frac{1}{\kappa_{\rm cd}}\right) \nabla T,
+\end{align*}
+
+{\noindent}which shows that we arrive formally at the same type of equation as in the pure radiative case if we replace $1/\kappa$ by $1/\kappa_{\rm rad}+1/\kappa_{\rm cd}$. Again the result is plausible, since the mechanism of transport that provides the largest flux will dominate the sum (i.e., the mechanism for which the stellar matter has the highest ``transparency'').
+
+{\noindent}The basic equation for energy transport which, if we define properly, holds for radiative and conductive energy transport, can be rewritten in a convenient form. Starting with
+
+\begin{align*}
+    \frac{\partial T}{\partial r} = - \frac{3}{16\pi ac} \frac{\kappa\rho L}{r^2T^3} ~ [{\rm K\,cm^{-1}}],
+\end{align*}
+
+{\noindent}we can transform to the independent variable mass $m$ using the fact that $\partial r/\partial m = (4\pi r^2\rho)^{-1}$:
+
+\begin{align*}
+    \frac{\partial T}{\partial m} = - \frac{3}{64\pi^2 ac} \frac{\kappa L}{r^4T^3} ~ [{\rm K\,g^{-1}}].
+\end{align*}
+
+{\noindent}Assuming hydrostatic equilibrium, we can divide this by $\partial P/\partial r = -(Gm\rho)/r^2$ and obtain
+
+\begin{align*}
+    \frac{(\partial T/\partial m)}{(\partial P/\partial m)} = \frac{3}{16\pi acG}\frac{\kappa L}{mT^3} ~ [{\rm K\,P\,g^{-2}}].
+\end{align*}
+
+{\noindent}We call the ratio of the derivatives on the left $({\rm d}T/{\rm d}P)_{\rm rad}$, and we mean by this the variation of $T$ in the star with depth, where the depth is expressed by the pressure, which increases monotonically inwards. In this sense, in a star which is in hydrostatic equilibrium and transports the energy by radiation (and conduction), $({\rm d}T/{\rm d}P)_{\rm rad}$ is a gradient describing the temperature variation with depth. If we use the customary abbreviation
+
+\begin{align*}
+    \nabla_{\rm rad} \equiv \left(\frac{{\rm d}\ln T}{{\rm d}\ln P}\right)_{\rm rad} ~ [{\rm K\,P^{-1}}],
+\end{align*}
+
+{\noindent}which can be written in the form
+
+\begin{align*}
+    \nabla_{\rm rad} = \frac{3}{16\pi acG}\frac{\kappa LP}{mT^4} ~ [{\rm K\,P^{-1}}],
+\end{align*}
+
+{\noindent}in which conduction effects are now included. $\nabla_{\rm rad}$ means a spatial derivative (connecting $P$ and $T$ in two neighbouring mass shells), while $\nabla_{\rm ad}$ describes the thermal variation of one and the same mass element during its adiabatic compression. Only in special cases $({\rm d}\ln T/{\rm d}\ln P)$ and $\nabla_{\rm ad}$ will have the same value, and we then speak of an \textbf{adiabatic stratification}.
+
+{\noindent}\textbf{Transport of energy by convection:} Convective transport of energy means an exchange of energy between hotter and cooler layers in a dynamically unstable region through the exchange of macroscopic mass elements (``blobs'', ``bubbles'', ``convective elements''), the hotter of which move upwards while the cooler ones descend. The moving mass elements will finally dissolve in their new surroundings and thereby deliver their excess (or deficiency) of heat. Owing to the high density in stellar interiors, convective transport can be very efficient. However, this energy transfer can operate only if it finds a sufficient driving mechanism in the form of the buoyancy forces.
+
+{\noindent}A thorough theoretical treatment of convective motions and transport of energy is extremely difficult. It is the prototype of the many astrophysical problems in which the bottleneck preventing decisive progress is the difficulty involved in solving the well-known hydrodynamic equations. For simplifying assumptions, solutions are available that may even give reasonable approximations for certain convective flows in the laboratory. Unfortunately, convection in stars proceeds under rather malicious conditions: turbulent motion transports enormous fluxes of energy in a very compressible gas, which is stratified in density, pressure, temperature, and gravity over many powers of ten. Nevertheless, large efforts have been made over many years to solve this notorious problem, and they have partly arrived at promising results. None of the so-called Reynolds stress models, however, have reached a stage where it could provide a procedure easy enough to be handled in everyday stellar-structure calculations, and at the same time would describe the full properties of convection accurately enough. On the other hand, full two- and three-dimensional hydrodynamical simulations have also made large progress, thanks to the impressive advances in supercomputer technology and efficient numerical algorithms. They give valuable hints to the true nature of convection and often serve as numerical experiments to test the dynamical methods. Nevertheless, these numerical simulations are still limited in their size and thus can follow convection in most cases only for a limit time and only for thin convection zones. But even if these restrictions can be foreseen to get relaxed with time, such full hydrodynamical simulations will never be used in full stellar evolution models, as they would unnecessarily follow the star's evolution on a dynamical timescale, which is so much shorter than the dominant nuclear one. Therefore, we limit ourselves exclusively to the description of the old so-called \textbf{mixing-length} theory. The reason for this is not that we believe it to be sufficient, but it does provide at least a simple method for treating convection locally, at any given point of a star. Moreover, empirical tests of the resulting stellar models show a surprisingly good agreement with observations. And, finally, even this poor approximation shows without any doubt that in the very deep interior of a star, a detailed theory is normally not necessary.
+
+{\noindent}Note that in the following we are dealing only with convection in stars that are in hydrostatic equilibrium. We furthermore assume that the convection is time independent, which means that it is fully adjusted to the present state of the star. Otherwise, a convection theory for rapidly changing regions (time-dependent convection) has to be developed.
+
+{\noindent}The gradient $\nabla_{\rm rad}$ is what would be maintained in a star if the whole luminosity $L$ had to be transported outwards by radiation only. If convection contributes to the energy transport, the actual gradient $\nabla$ will be different (namely smaller). In the following, we will estimate $\nabla$ in the case of convection.
+
+{\noindent}\textbf{The basic picture:} The mixing-length theory goes back to Ludwig Prandtl, who in 1925 modelled a simple picture of convection in complete analogy to molecular heat transfer: the transporting ``particles'' are macroscopic mass elements (``blobs'') instead of molecules; their mean free path is the \textbf{mixing length} after which the blobs dissolve in their new surroundings. Prandtl's theory was adapted for stars afterwards.
+
+{\noindent}The total energy flux $L/4\pi r^2$ at a given point in the star consists of the radiative flux $F_{\rm rad}$ (in which the conductive flux may already be incorporated) plus the convective flux $F_{\rm rad}$. Their sum defines the gradient $\nabla_{\rm rad}$ that would be necessary to transport the whole flux by radiation:
+
+\begin{align*}
+    F_{\rm rad} + F_{\rm con} = \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla_{\rm rad} ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+\end{align*}
+
+{\noindent}However, part of the flux is transported by convection. If the actual gradient of the stratification is $\nabla$, then the radiative flux is only
+
+\begin{align*}
+    F_{\rm rad} = \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+\end{align*}
+
+{\noindent}Note that $\nabla$ is not yet known; in fact, we hope to obtain it as the result of this consideration. The first step is to derive an expression for $F_{\rm con}$.
+
+{\noindent} Consider a convective element (a blob) with an excess temperature $\Delta T$ over its surroundings. It moves radially with velocity $v$ and remains in complete balance of pressure, that is, $\Delta T=0$. This gives a local flux of convective energy
+
+\begin{align*}
+    F_{\rm con} = \rho vc_P\Delta T ~ [{\rm erg\,s^{-1}\,cm^{-2}}],
+\end{align*}
+
+{\noindent}which we can take immediately as the correct equation for the average convective flux, if we consider $v\Delta T$ replaced by the proper mean over the whole concentric sphere. One should be aware that this ``proper mean'' comprises most of the difficulties for a strict treatment. We adopt the following simple model.
+
+{\noindent}All elements may have started their motion as very small perturbations only, that is, with initial values that can be approximated by $\Delta T_0=0$ and $v_0=0$. Because of differences in temperature gradients and buoyancy forces, $\Delta T$ and $v$ increase as the element rises (or sinks) until, after moving over a distance $\ell_m$, the element mixes with the surroundings and loses its identity. $\ell_m$ is called the \textbf{mixing length}. The elements passing at a given moment through a sphere of constant $r$ will have different values of $v$ and $\Delta T$ since they have started their motion at quite different distances, from zero to $\ell_m$. We assume, therefore, that the ``average'' element has moved $\ell_m/2$ when passing through the sphere. Then,
+
+\begin{align*}
+    \frac{\Delta T}{T} &= \frac{1}{T} \frac{\partial(\Delta T)}{\partial r} \frac{\ell_m}{2} \\
+    &= (\nabla-\nabla_e)\frac{\ell_m}{2}\frac{1}{H_P} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}The density difference is simply $\Delta \rho/\rho=-\delta\Delta T/T$ and the (radial) buoyancy force (per unit mass), $k_r=-g\Delta\rho/\rho$. On average, half of this value may have acted on the element over the whole of its preceding motion ($\ell_m/2$); such that the work done is
+
+\begin{align*}
+    \frac{1}{2}k_r\frac{\ell_m}{2} = g\delta(\nabla-\nabla_e)\frac{\ell_m^2}{8H_P} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}Let us suppose that half of this work goes into the kinetic energy of the element $v^2/2$ per unit mass), while the other half is transferred to the surroundings, which have to be ``pushed aside''. Then, we have for the average velocity $v$ of the elements passing our sphere
+
+\begin{align*}
+    v^2 = g\delta(\nabla-\nabla_e)\frac{\ell_m^2}{8H_P} ~ [{\rm m^2\,s^{-2}}].
+\end{align*}
+
+{\noindent}Inserting this and $\Delta T/T$ into $F_{\rm conv}$, we obtain for the average convective flux
+
+\begin{align*}
+    F_{\rm conv} = \rho c_PT\sqrt{g\delta}\frac{\ell_m^2}{4\sqrt{2}} H_P^{-3/2}(\nabla-\nabla_e)^{3/2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+\end{align*}
+
+{\noindent}Finally, we shall consider the change of temperature $T_e$ inside the element (diameter $d$, surface $S$, volume $V$) when it moves with velocity $v$. This change has two causes, one being the adiabatic expansion (or compression), and the other being the radiative exchange of energy with the surroundings. The total energy loss $\lambda$ per unit time is given by
+
+\begin{align*}
+    \lambda = Sf = \frac{8acT^3}{3\kappa\rho}\Delta T\frac{S}{d}.
+\end{align*}
+
+{\noindent}The quantity $\lambda$ is a sort of ``luminosity'' of the blob, and it determines the rate by which the thermal energy of the blob of volume $V$ changes:
+
+\begin{align*}
+    \rho Vc_P \frac{\partial T}{\partial t} = -\lambda.
+\end{align*}
+
+The corresponding temperature decrease per unit length over which the element rises is $\lambda/\rho Vc_Pv$, and the total change per unit length is then
+
+\begin{align*}
+    \left(\frac{{\rm d}T}{{\rm d}r}\right)_e = \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} - \frac{\lambda}{\rho Vc_Pv}.
+\end{align*}
+
+{\noindent}Multiplying this by $H_P/T$, we have
+
+\begin{align*}
+    \nabla_e-\nabla_{\rm ad} = \frac{\lambda H_P}{\rho Vc_PvT}.
+\end{align*}
+
+{\noindent}Here, $\lambda$ may be replaced by the equation we have for $\lambda$ above, with the average $\Delta T$ given by the equation for $\Delta T/T$ also provided above. The resulting equation then contains a ``form factor'' $\ell_mS/Vd$, which would be $6/\ell_m$ for a sphere of diameter $\ell_m$: In the literature, one often finds 
+
+\begin{align*}
+    \frac{\ell_mS}{Vd} \approx \frac{9/2}{\ell_m},
+\end{align*}
+
+{\noindent}which we will use in the following.
+
+{\noindent}This equation along with that of ($\nabla_e-\nabla_{\rm ad}$) and $\lambda$ then becomes
+
+\begin{align*}
+    \frac{\nabla_e-\nabla_{\rm ad}}{\nabla-\nabla_e} = \frac{6acT^3}{\kappa\rho^2c_P\ell_mv}.
+\end{align*}
+
+{\noindent}Let us now summarize what we have achieved and describe what is still lacking. To start with the latter, we have obviously not yet used any physics that could determine the mixing length $\ell_m$. Since we do not know a reasonable approach for this, we shall simply treat it as a free parameter and make (more or less) plausible assumptions for its value (This is typical for all versions of the mixing-length approach and in fact also for many others that seem to be less arbitrary at a first glance.). In any case, the heat transfer mainly operates via the largest possible elements, and they can scarcely move over much more than their own diameter before differential forces destroy their identity.
+
+{\noindent}Now, however, the prospect looks quite favourable: we have obtained the five equations which we can solve for the five quantities $F_{\rm rad}$, $F_{\rm con}$, $v$, $\nabla_e$, and $\nabla$:
+
+\begin{align*}
+    F_{\rm rad} + F_{\rm con} &= \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla_{\rm rad} ~ [{\rm erg\,s^{-1}\,cm^{-2}}] \\
+    F_{\rm rad} &= \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla ~ [{\rm erg\,s^{-1}\,cm^{-2}}] \\
+    v^2 &= g\delta(\nabla-\nabla_e)\frac{\ell_m^2}{8H_P} ~ [{\rm m^2\,s^{-2}}] \\
+    F_{\rm conv} &= \rho c_PT\sqrt{g\delta} \frac{\ell_m^2}{4\sqrt{2}} H_P^{-3/2}(\nabla-\nabla_e)^{3/2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}] \\
+    \frac{\nabla_e-\nabla_{\rm ad}}{\nabla-\nabla_e} &= \frac{6acT^3}{\kappa\rho^2c_P\ell_mv},
+\end{align*}
+
+{\noindent}if the usual local quantities ($P$, $T$, $\rho$, $L$, $m$, $c_P$, $\nabla_{\rm ad}$, $\nabla_{\rm rad}$, and $g$) are given.
 
 \subsubsection{Follow-up Questions}
 
