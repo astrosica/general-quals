@@ -259,7 +259,228 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+If an absorber $X$ is in a level $\ell$ and there is radiation present with photons having an energy equal to $E_u-E_\ell$, where $E_\ell$ and $E_u$ are the energies of levels $\ell$ (for ``lower'') and $u$ (for ``upper''), the absorber can absorb a photon and undergo an upward transition:
+
+\begin{align*}
+    \mathbf{absorption:} ~~~ X_\ell+h\nu\rightarrow X_u, ~~~ h\nu=E_u-E_\ell.
+\end{align*}
+
+{\noindent}Suppose that we have number density $n_\ell$ of absorbers $X$ in level $\ell$. The rate per volume at which the absorbers absorb photons will obviously be proportional to both the density of photons of the appropriate energy and the number density $n_\ell$, so we can write the rate of change of $n_\ell$ due to photo-absorption by level $\ell$ as
+
+\begin{align*}
+    \left(\frac{{\rm d}n_u}{{\rm d}t}\right)_{\ell\rightarrow u} = -\left(\frac{{\rm d}n_\ell}{{\rm d}t}\right)_{\ell\rightarrow u} = n_\ell B_{\ell u}u_\nu, ~~~ \nu=\frac{E_u-E_\ell}{h},
+\end{align*}
+
+{\noindent}where $u_\nu$ is the \textbf{radiation energy density per unit frequency}, and the proportionality constant $B_{\ell u}$ is the \textbf{Einstein B coefficient} for the transition $\ell\rightarrow u$.
+
+{\noindent}An absorber $X$ in an excited level $u$ can decay to a lower level $\ell$ with emission of a photon. There are two ways this can happen:
+
+\begin{align*}
+    \mathbf{spontaneous~emission:} X_u&\rightarrow X_\ell+h\nu, ~~~ \nu=(E_u-E_\ell)/h, \\
+    \mathbf{stimulated~emission:} X_u+h\nu&\rightarrow X_\ell+2h\nu, ~~~ \nu=(E_u-E_\ell)/h.
+\end{align*}
+
+{\noindent}\textbf{Spontaneous emission} is a random process, independent of the presence of a radiation field, with a probability per unit time $A_{u\ell}$ -- the \textbf{Einstein A coefficient}.
+
+{\noindent}\textbf{Stimulated emission} occurs if photons of the identical frequency, polarization, and direction of propagation are already present, and the rate of stimulated emission is proportional to the density of these photons. Thus the total rate of depopulation of level $u$ due to emission of photons can be written
+
+\begin{align*}
+    \left(\frac{{\rm d}n_\ell}{{\rm d}t}\right)_{u\rightarrow\ell} = -\left(\frac{{\rm d}n_u}{{\rm d}t}\right)_{u\rightarrow\ell} = n_u(A_{u\ell}+B_{u\ell}u_\nu), ~~~ \nu=\frac{E_u-E_\ell}{h},
+\end{align*}
+
+{\noindent}where the coefficient $B_{u\ell}$ is the \textbf{Einstein B coefficient} for the downward transition $u\rightarrow\ell$. Thus we now have three coefficients characterizing radiative transitions between levels $u$ and $\ell$: $A_{u\ell}$, $B_{u\ell}$ and $B_{\ell u}$. We will now see that they are not independent of one another.
+
+{\noindent}In TE, the radiation field becomes the ``blackbody'' radiation field, with intensity given by the \textbf{blackbody spectrum}
+
+\begin{align*}
+    B_\nu(T) = \frac{2h\nu^2}{c^2} \frac{1}{\exp(h\nu/k_BT) - 1} ~ [{\rm erg\,s^{-1}\,cm^{-2}\,Hz^{-1}\,sr^{-1}}],
+\end{align*}
+
+{\noindent}with specific energy density
+
+\begin{align*}
+    (u_\nu)_{\rm LTE} = \frac{4\pi}{c}B_\nu(T) = \frac{8\pi h\nu^3}{c^3}\frac{1}{e^{h\nu/k_BT}-1} ~ [{\rm erg\,s^{-2}\,cm^{-1}\,Hz^{-1}\,sr^{-1}}].
+\end{align*}
+
+{\noindent}If we place absorbers $X$ into a blackbody radiation field, then the net rate of change of level $u$ is
+
+\begin{align*}
+    \frac{{\rm d}n_u}{{\rm d}t} &= \left(\frac{{\rm d}n_u}{{\rm d}t}\right)_{\ell\rightarrow u} + \left(\frac{{\rm d}n_u}{{\rm d}t}\right)_{u\rightarrow\ell} \\
+    &= n_\ell B_{\ell u}\frac{8\pi h\nu^3}{c^3} \frac{1}{\exp(h\nu/k_BT) - 1} - n_u \left(A_{u\ell}+B_{u\ell}\frac{8\pi h\nu^3}{c^3} \frac{1}{\exp(h\nu/k_BT) - 1}\right).
+\end{align*}
+
+{\noindent}If the absorbers are allowed to come to equilibrium with the radiation field, levels $\ell$ and $u$ must be populated according to $n_u/n_\ell = (g_u/g_\ell)e^{(E_\ell−E_u)/k_BT}$, with ${\rm d}n_u/{\rm d}t = 0$. From the equation above, it is easy to show that $B_{u\ell}$ and $B_{\ell u}$ must be related to $A_{u\ell}$ by
+
+\begin{align*}
+    B_{u\ell} &= \frac{c^3}{8\pi h\nu^3}A_{u\ell} ~ [{\rm s^{-1}}], \\
+    B_{\ell u} &= \frac{g_u}{g_\ell}B_{u\ell} = \frac{g_u}{g_\ell}\frac{c^3}{8\pi h\nu^3} A_{u\ell} ~ [{\rm s^{-1}}].
+\end{align*}
+
+{\noindent}Thus the strength of stimulated emission ($B_{u\ell}$) and absorption ($B_{\ell u}$) are both determined by $A_{u\ell}$ and the ratio $g_u/g_\ell$.
+
+{\noindent}Rather than discussing absorption and stimulated emission in terms of the radiation energy density $u_\nu$, it is helpful to characterize the intensity of the radiation field by a dimensionless quantity, the photon occupation number $n_\gamma$:
+
+\begin{align*}
+    n_\gamma &\equiv \frac{c^2}{2h\nu^3} I_\nu ~ [{\rm dimensionless}], \\
+    \bar{n}_\gamma &\equiv \frac{c^2}{2h\nu^3} \bar{I}_\nu = \frac{c^3}{8\pi h\nu^3} u_\nu ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where the bar denotes averaging over directions. With this definition of $n_\gamma$, we can rewrite equations for $({\rm d}n_u/{\rm d}t)_{\ell\rightarrow u}$ and $({\rm d}n_\ell/{\rm d}t)_{u\rightarrow\ell}$ as simply
+
+\begin{align*}
+    \left(\frac{{\rm d}n_\ell}{{\rm d}t}\right)_{u\rightarrow\ell} &= n_uA_{u\ell}(1+\bar{n}_\gamma),\\
+    \left(\frac{{\rm d}n_u}{{\rm d}t}\right)_{\ell\rightarrow u} &= n_\ell \frac{g_u}{g_\ell}A_{u\ell}\bar{n}_\gamma.
+\end{align*}
+
+{\noindent}If the radiation field depends on frequency in the vicinity of the transition frequency $\nu_{u\ell}$, then $n_\gamma$ needs to be averaged over the emission and absorption profiles in the above two equations.
+
+{\noindent}From the first of the above two equations, we immediately see that the photon occupation number $n_\gamma$ determines the relative importance of stimulated and spontaneous emission: stimulated emission is unimportant when $\bar{n}_\gamma\ll1$, but should otherwise be included in analyses of level excitation.
+
+{\noindent}\textbf{Absorption cross section:} Having determined the rate at which photons are absorbed by an absorber exposed to electromagnetic radiation, it is useful to recast this in terms of an absorption cross section. The photon density per unit frequency is just $u_\nu/h\nu$. Let $\sigma_{\ell u}(\nu)$ be the cross section for absorption of photons of frequency $\nu$ with resulting $\ell\rightarrow u$ transition. The absorption rate is then
+
+\begin{align*}
+    \left(\frac{{\rm d}n_u}{{\rm d}t}\right)_{\ell\rightarrow u}= n_\ell \int \sigma_{\ell u}(\nu)c \frac{u_\nu}{h\nu}{\rm d}\nu \approx n_\ell u_\nu \frac{c}{h\nu} \int \sigma_{\ell u}(\nu){\rm d}\nu ~ [{\rm s^{-1}}],
+\end{align*}
+
+{\noindent}where we have assumed that $u_\nu$ (and $h\nu$) do not vary appreciably over the line profile of $\sigma_{u\ell}$. Thus
+
+\begin{align*}
+    B_{\ell u} = \frac{c}{h\nu} \int \sigma_{\ell u}(\nu){\rm d}\nu ~ [{\rm s^{-1}}],
+\end{align*}
+
+{\noindent}and, using our equation that relates $B_{\ell u}$ to $A_{u\ell}$, we obtain the integral over the absorption cross section:
+
+\begin{align*}
+    \int \sigma_{\ell u}(\nu){\rm d}\nu = \frac{g_u}{g_\ell} \frac{c^2}{8\pi\nu_{\ell u}^2}A_{u\ell} ~ [{\rm Hz\,cm^2}].
+\end{align*}
+
+{\noindent}Thus we may relate the monochromatic absorption cross section $\sigma_{\ell u}(\nu)$ to a normalized line profile $\phi_\nu$:
+
+\begin{align*}
+    \sigma_{\ell u}(\nu) = \frac{g_u}{g_\ell} \frac{c^2}{8\pi\nu_{\ell u}^2}A_{u\ell} \phi_\nu ~ [{\rm cm^2}], ~~~ \int\phi_\nu{\rm d}\nu =1.
+\end{align*}
+
+{\noindent}\textbf{Intrinsic line profile:} The intrinsic line profile is characterized by a normalized profile function $\phi_\nu^{\rm intr}$:
+
+\begin{align*}
+    \sigma_\nu^{\rm intr} = \frac{\pi e^2}{m_ec^2}f_{\ell u} \phi_\nu^{\rm intr} ~ [{\rm cm^2}], ~~~ \int\phi_\nu^{\rm intr}{\rm d}\nu =1.
+\end{align*}
+
+{\noindent}The intrinsic line profile of an absorption line is normally described by the \textbf{Lorentz line profile} function:
+
+\begin{align*}
+    \phi_\nu^{\rm intr} = \frac{4\gamma_{u\ell}}{16\pi^2(\nu-\nu_{u\ell})^2+\gamma_{u\ell}^2} ~ [{\rm erg\,s^{-1}\,cm^{-2}\,sr^{-1}}],
+\end{align*}
+
+{\noindent}where $\nu_{u\ell} \equiv (E_u-E_\ell)/h$. The Lorentz profile provides an accurate (but not exact)\footnote{The line profile is more accurately given by the \textbf{Kramers-Heisenberg formula}; Lee (2003) discusses application of this formula to the Lyman $\alpha$ line.} approximation to the actual line profile. The Lorentz line profile has a \textbf{full width at half maximum} (FWHM) of
+
+\begin{align*}
+    (\Delta\nu)_{\rm FWHM}^{\rm intr} = \frac{\gamma_{u\ell}}{2\pi} ~ [{\rm Hz}].
+\end{align*}
+
+{\noindent}The intrinsic width of the absorption line reflects the uncertainty in the energies of levels $u$ and $\ell$ due to the finite lifetimes of these levels\footnote{The \textbf{Heisenberg uncertainty principle} $\Delta E\Delta t\geq\hbar$ implies that an energy level $u$ has a width $\Delta E_u\approx\hbar/\tau_u$, where $\tau_u$ is the level lifetime.} against transitions to all other levels, including both radiative and collisional transitions. If the primary process for depopulating levels $u$ and $\ell$ is spontaneous decay (as is often the case in the ISM), then
+
+\begin{align*}
+    \gamma_{u\ell} \equiv \gamma_{\ell u} = \sum_{E_j<E_u}A_{uj} + \sum_{E_j<E_\ell}A_{\ell j}.
+\end{align*}
+
+{\noindent}In the case of a \textbf{resonance line}, where $\ell$ is the ground state, the second sum vanishes.
+
+{\noindent}\textbf{Doppler broadening; The voigt line profile:} Atoms and ions are generally in motion, and the velocity distribution is often approximated by a Gaussian, this being of course the correct form if the velocities are entirely due to thermal motions:
+
+\begin{align*}
+    p_v = \frac{1}{\sqrt{2\pi}}\frac{1}{\sigma_v} e^{-(v-v_0)^2/2\sigma_v^2} = \frac{1}{\sqrt{\pi}}\frac{1}{b} e^{-(v-v_0)^2/b^2},
+\end{align*}
+
+{\noindent}where $p_v{\rm d}v$ is the probability of the velocity along the line of sight being in the interval $[v,v+{\rm d}v]$, $\sigma_v$ is the one-dimensional velocity dispersion, and $b$ is the the \textbf{broadening parameter}, $b\equiv\sqrt{2}\sigma_v$.
+
+{\noindent}The width of the velocity distribution is also sometimes specified in terms of the FWHM; for a Gaussian distribution of velocities, this is just
+
+\begin{align*}
+    (\Delta v)_{\rm FWHM} = \sqrt{8\ln2}\sigma_v = 2\sqrt{\ln2}b ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}If the velocity dispersion is entirely due to thermal motion with kinetic temperature $T=10^4T_4\,{\rm K}$, then
+
+\begin{align*}
+    \sigma_v &= \left(\frac{k_BT}{M}\right)^{1/2} = 9.12\left(\frac{T_4}{M/{\rm amu}}\right)^{1/2} ~ [{\rm km\,s^{-1}}] \\
+    b &= \left(\frac{2k_BT}{M}\right)^{1/2} = 12.90\left(\frac{T_4}{M/{\rm amu}}\right)^{1/2} ~ [{\rm km\,s^{-1}}] \\
+    (\Delta v)_{\rm FWHM}^{\rm therm} &= \left[\frac{(8\ln2)k_BT}{M}\right]^{1/2} = 21.47\left(\frac{T_4}{M/{\rm amu}}\right)^{1/2} ~ [{\rm km\,s^{-1}}].
+\end{align*}
+
+{\noindent}The intrinsic absorption line profile $\phi_\nu^{\rm intr}$ must be convolved with the velocity distribution of the absorbers to obtain the line profile
+
+\begin{align*}
+    \phi_\nu = \int p_v(v) \frac{4\gamma_{u\ell}}{16\pi^2[\nu-(1-v/c)\nu_{u\ell}]^2 + \gamma_{u\ell}^2}{\rm d}v ~ [{\rm erg\,s^{-1}\,cm^{-2}\,sr^{-1}}],
+\end{align*}
+
+{\noindent}where $p_v{\rm d}v$ is the probability of the absorber having radial velocity in the interval $[v,v+{\rm d}v]$. If the absorbers have a \textbf{Maxwellian} (i.e., Gaussian) one-dimensional velocity distribution $p_v$, then the absorption line will have a so-called \textbf{Voigt line profile}:
+
+\begin{align*}
+    \phi_\nu^{\rm Voigt} \equiv \frac{1}{\sqrt{2\pi}} \int \frac{e^{-v^2/2\sigma_v^2}}{\sigma_v} p_v(v) \frac{4\gamma_{u\ell}}{16\pi^2[\nu-(1-v/c)\nu_{u\ell}]^2 + \gamma_{u\ell}^2}{\rm d}v ~ [{\rm erg\,s^{-1}\,cm^{-2}\,sr^{-1}}].
+\end{align*}
+
+{\noindent}Unfortunately, the Voigt line profile cannot be obtained analytically except for limiting cases.5 However, if, as is generally the case, the one-dimensional velocity dispersion $\sigma_v\gg (\Delta v)_{\rm FWHM}^{\rm intr}$, the central core of the line profile is well-approximated by treating the intrinsic line profile as a $\delta$-function, so that the central core of the line has a Maxwellian profile:
+
+\begin{align*}
+    \phi_\nu \approx \frac{1}{\pi} \frac{1}{\nu_{u\ell}}\frac{c}{b} e^{-v^2/b^2} ~ [{\rm erg\,s^{-1}\,cm^{-2}\,sr^{-1}}], ~~~ b\equiv\sqrt{2}\sigma_v.
+\end{align*}
+
+{\noindent}\textbf{Selection rules for radiative transitions:} Some energy levels are connected by strong radiative transitions; in other cases, radiative transitions between the levels may be extremely slow. The strong transitions always satisfy what are referred to as the \textbf{selection rules for electric dipole transitions}. Here, we summarize the selection rules for the strong electric dipole transitions, and we also give the selection rules for \textbf{inter-system} and \textbf{forbidden transitions} that do not satisfy the electric dipole selection rules but nevertheless are strong enough to be astrophysically important. We will use the ion NII as an example; the first nine energy levels of NII are shown in Figure \ref{fig:NIIlevels}.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/NII_levels.png}
+    \caption{\footnotesize{First nine energy levels of NII. Forbidden transitions are indicated by broken lines, and allowed transitions by solid lines; forbidden decays are not shown from levels that have permitted decay channels. Fine-structure splitting is not to scale. Hyperfine splitting is not shown. Figure taken from Draine (2015).}}
+    \label{fig:NIIlevels}
+\end{figure}
+
+{\noindent}\textbf{Allowed: Electric dipole transitions:} The strongest transitions are electric dipole transitions. These are transitions satisfying the following selection rules:
+
+\newpage
+\begin{enumerate}
+    \item Parity must change.
+    \item $\Delta L = 0, \pm1$.
+    \item $\Delta J = 0, \pm1$, but $\Delta J = 0\rightarrow0$ is forbidden.
+    \item Only one single-electron wave function $n\ell$ changes, with $\Delta\ell=\pm1$.
+    \item $\Delta S=0$: Spin does not change.
+\end{enumerate}
+
+{\noindent}An allowed transition is denoted \textit{without} square brackets, for example,
+
+\begin{align*}
+    {\rm NII}\,1084.0{\rm \AA}\,^3P_0-^3D_1^o.
+\end{align*}
+
+{\noindent}This is a transition between the $\ell=1s^22s^22p^2\,3P_0$ and $u=1s^22s^22p3s\,^3D_1^o$ levels of NII, with a wavelength $\lambda_{u\ell}=1084.0$\,\AA. The transition has $A_{u\ell}=2.18\times10^8\,{s^{-1}}$. This decay is very fast -- the lifetime of the $^3D_1^o$ level against this decay is only $1/A_{u\ell}=4.6\,{\rm ns}$!
+
+{\noindent}\textbf{Spin-Forbidden or inter-system transitions:} These are transitions that fulfill the electric dipole selection rules $1$ to $4$ but have $\Delta S\neq0$. These transitions are considerably weaker than allowed transitions. Such transitions are sometimes referred to as \textbf{semi-forbidden}, or \textbf{inter-combination}, or \textbf{inter-system transitions}; the latter is the terminology that we will use. An inter-system transition is denoted with a single right bracket -- for example,
+
+\begin{align*}
+    {\rm NII]}\,2143.4{\rm \AA}\,^3P_2-^5S_2^o.
+\end{align*}
+
+{\noindent}This is a transition between the $\ell=1s^22s^22p^2\,3P_2$ and $u=1s^22s2p^3\,^5S_2^o$ levels of NII, with a wavelength $\lambda_{u\ell}=2143.4$\,\AA\,and $A_{u\ell}=1.27\times10^2\,{\rm s^{-1}}$.
+
+{\noindent}\textbf{Forbidden transitions:} Forbidden transitions are those that fail to fulfill at least one of the selection rules $1$ to $4$. The transition probabilities vary widely, depending on the values of the electric quadrupole or magnetic dipole matrix elements between the upper and lower states. A forbidden transition is denoted with two square brackets -- for example,
+
+\begin{align*}
+    {\rm [NII]}\,6549.9{\rm \AA}\,^3P_1-^1D_2^o.
+\end{align*}
+
+{\noindent}This is a transition between the $\ell=1s^22s^22p^2\,3P_1$ and $u=1s^22s^22p^2\,^1D_2^o$ levels of NII, with a wavelength $\lambda_{u\ell}=6549.9$\,\AA\,and $A_{u\ell}=9.20\times10^{-4}\,{\rm s^{-1}}$. This fails rule $1$ (parity is unchanged) and it fails rule $4$ (single electron wave functions are unchanged). This is an example of a \textbf{magnetic dipole transition}.
+
+{\noindent}Another example of a forbidden transition is the \textbf{electric quadrupole transition}
+
+\begin{align*}
+    {\rm [NII]}\,5756.2{\rm \AA}\,^1D_2-^1S_0^o.
+\end{align*}
+
+{\noindent}This is a transition between the $\ell=1s^22s^22p^2\,1D_2$ and $u=1s^22s^22p^2\,^1S_0^o$ levels of NII, with a wavelength $\lambda_{u\ell}=5756.2$\,\AA\,and $A_{u\ell}=1.17\,{\rm s^{-1}}$. This fails rules $1$ (parity is unchanged) and $4$ (single electron wave functions are unchanged) and it fails rules $2$ and $3$ ($\Delta L=-2$ and $\Delta J=-2$), yet its transition probability is three orders of magnitude larger than the magnetic dipole transition [NII]\,$6549.9$\AA!
+
+{\noindent}We see then that there is a hierarchy in the transition probabilities: very roughly speaking, inter-system lines are $\sim10^6$ times weaker than permitted transitions, and forbidden lines are $\sim10^2-10^6$ times weaker than inter-system transitions.
+
+{\noindent}Despite being very ``weak,'' forbidden transitions are important in astrophysics for the simple reason that every atom and ion has excited states that can only decay via forbidden transitions. At high densities, such excited states would be depopulated by collisions, but at the very low densities of interstellar space, collisions are sufficiently infrequent that there is time for forbidden radiative transitions to take place.
 
 \subsubsection{Follow-up Questions}
 
