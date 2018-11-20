@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 NOV 2018 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 NOV 2018 18:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -934,25 +934,25 @@ Missing character: There is no ™ in font cmr10!
 File: figures/SolarQuantities.png Graphic file (type png)
 
 <use figures/SolarQuantities.png>
-Package pdftex.def Info: figures/SolarQuantities.png used on input line 1174.
+Package pdftex.def Info: figures/SolarQuantities.png used on input line 1182.
 (pdftex.def)             Requested size: 398.33858pt x 139.06981pt.
  [31 <./figures/SolarQuantities.png>]
-Underfull \hbox (badness 1097) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1097) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 are due to re-ac-tions of the
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1052) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1200--1200
+Underfull \hbox (badness 2035) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 from most of the re-ac-tions
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1092) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 reaction. The flux for the
  []
 
@@ -960,55 +960,55 @@ Underfull \hbox (badness 1092) in paragraph at lines 1200--1200
 File: figures/NeutrinoSpectrum.png Graphic file (type png)
 
 <use figures/NeutrinoSpectrum.png>
-Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1200.
+Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1215.
 (pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1097) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 are due to re-ac-tions of the
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1052) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1200--1200
+Underfull \hbox (badness 2035) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 from most of the re-ac-tions
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1092) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 reaction. The flux for the
  []
 
 File: figures/NeutrinoSpectrum.png Graphic file (type png)
 <use figures/NeutrinoSpectrum.png>
-Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1200.
+Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1215.
 (pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1097) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 are due to re-ac-tions of the
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1052) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1200--1200
+Underfull \hbox (badness 2035) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 from most of the re-ac-tions
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1200--1200
+Underfull \hbox (badness 1092) in paragraph at lines 1215--1215
 \OT1/cmr/m/n/8 reaction. The flux for the
  []
 
 File: figures/NeutrinoSpectrum.png Graphic file (type png)
 <use figures/NeutrinoSpectrum.png>
-Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1200.
+Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1215.
 (pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
  [32 <./figures/NeutrinoSpectrum.png>]
 [33] [34] [35] [36] [37] [38]
@@ -1029,15 +1029,15 @@ Missing character: There is no ™ in font cmr10!
 
 AED: lastpage setting LastPage
 [43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1420.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1420.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1435.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1435.
  (./stars.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1420.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1420.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1435.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1435.
 
 Package rerunfilecheck Info: File `stars.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD4CBB8E71BC379CBB8C857C6207A6E;1329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1420.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1435.
  ) 
 Here is how much of TeX's memory you used:
  9512 strings out of 492995
@@ -1070,7 +1070,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on stars.pdf (43 pages, 2331755 bytes).
+Output written on stars.pdf (43 pages, 2332682 bytes).
 PDF statistics:
  569 PDF objects out of 1000 (max. 8388607)
  456 compressed objects within 5 object streams
