@@ -198,7 +198,7 @@ Answer.
     {\includegraphics[width=8cm]{figures/HRD_Z_int.png}}
 \end{figure}
 
-{\noindent}Figure \ref{fig:hrdz_int} shows some evolutionary tracks of intermediate-mass stars for three different initial compositions. The described trend of the ZAMS with metal content is readily visible, together with some other properties already mentioned: at very low metallicity (Figure \ref{fig:hrdz_int}a) the entire core helium burning phase occurs in the blue part of the HRD, and the thermal runaway in the envelope which brings the model star to the Hayashi track is delayed to the very latest stages. As metallicity increases, the luminosity decrease associated with the thermal runaway gets more and more pronounced: this reflects the progressively higher opacity, and then radiative energy trapping in the envelope. At the same time, at higher metallicity it is more difficult to produce extended blue loops: the $3$ and $4\,{\rm M_\odot}$ tracks at $Z\sim2\,{\rm Z_\odot}$ do not present a blue loop at all, and the loop of the $5\,{\rm M_\odot}$ track is just alluded to. The models in Figure 1.5 are computed adopting classical recipes for the input physics, and even slight modifications of the assumptions lead to dramatic variations of the tracks shape. For example, intermediate-mass models with $Z=0.04$, $Y=0.40$ which adopt a modest overshooting from the convective core lack the loops completely, and the core helium burning phase is totally spent close to the Hayashi line.
+{\noindent}Figure \ref{fig:hrdz_int} shows some evolutionary tracks of intermediate-mass stars for three different initial compositions. The described trend of the ZAMS with metal content is readily visible, together with some other properties already mentioned: at very low metallicity (Figure \ref{fig:hrdz_int}a) the entire core helium burning phase occurs in the blue part of the HRD, and the thermal runaway in the envelope which brings the model star to the Hayashi track is delayed to the very latest stages. As metallicity increases, the luminosity decrease associated with the thermal runaway gets more and more pronounced: this reflects the progressively higher opacity, and then radiative energy trapping in the envelope. At the same time, at higher metallicity it is more difficult to produce extended blue loops: the $3$ and $4\,{\rm M_\odot}$ tracks at $Z\sim2\,{\rm Z_\odot}$ do not present a blue loop at all, and the loop of the $5\,{\rm M_\odot}$ track is just alluded to. The models in Figure \ref{fig:hrdz_int} are computed adopting classical recipes for the input physics, and even slight modifications of the assumptions lead to dramatic variations of the tracks shape. For example, intermediate-mass models with $Z=0.04$, $Y=0.40$ which adopt a modest overshooting from the convective core lack the loops completely, and the core helium burning phase is totally spent close to the Hayashi line.
 
 {\noindent}Figure \ref{fig:hrdz_low} illustrates the effect of chemical composition on core helium burners of low-mass. The gray tracks in Figure \ref{fig:hrdz_low}a show that at solar composition this evolutionary phase is completely spent in the red, even for masses as low as $0.55\,{\rm M_\odot}$. Conversely, at low metallicity (black lines), low-mass core helium burners are blue, opening the possibility of producing extended HBs in old stellar populations. The tracks in Figure 1.6b show the effect of enhancing the helium abundance: at high metallicity the core helium burning phase is completely spent close to the Hayashi line for a solar helium abundance, but if the helium abundance is high, a blueward excursion occurs during the core helium burning phase which is very wide for low-mass stars. Therefore the production of blue HB stars in old stellar populations can be achieved either assuming heavy mass loss on the RGB, or a high helium content, or both. Actually, the existence of multiple stellar populations with different helium content in NGC 2808 has been first suggested on the basis of its HB stars distribution, and confirmed later from the multiple MSs. Mass loss and helium abundance have indeed an important impact on the HRD of stellar populations, as well as on their spectral energy distribution, since stars in the core helium burning phase provide an important contribution to the total light.
 
@@ -1110,15 +1110,95 @@ Additional context.
 \newpage
 \subsection{Question 10}
 
-Explain why we know what the Sun’s central temperature ought to be, and how we know what it actually is.
+Explain why we know what the Sun's central temperature ought to be, and how we know what it actually is.
 
 \subsubsection{Short answer}
 
-Answer.
+The hydrostatic condition
+
+\begin{align*}
+    \frac{\partial P}{\partial r} = -\frac{Gm\rho}{r^2} ~ [{\rm P\,m^{-1}}]
+\end{align*}
+
+{\noindent}together with an equation of state for a perfect gas
+
+\begin{align*}
+    P = \frac{\rho k_BT}{\mu m_{\rm H}} ~ [{\rm P}]
+\end{align*}
+
+{\noindent}enables us to estimate the pressure and the temperature in the interior of a star of given mass and radius.
+
+{\noindent}Let us replace the left-hand side of the equation for hydrostatic equilibrium by an average pressure gradient $(P_0-P_c)/$ where $P_0$ and $P_c$ are the pressures at the surface and at the centre, respectively. On the right-hand side, we can replace $m$ and $r$ by rough mean values $M/2$ and $R/2$, and obtain
+
+\begin{align*}
+    P_c \approx \frac{2GM^2}{\pi R^4} ~ [{\rm P}].
+\end{align*}
+
+{\noindent}From the equation of state for a perfect gas (our assumption of a perfect gas turns out to be fully justified for these values of $P$ and $T$), and with the mean density
+
+\begin{align*}
+    \bar{\rho} = \frac{3M}{4\pi R^3} ~ [{\rm g\,cm^{-3}}],
+\end{align*}
+
+{\noindent}we find with $P_c$ that
+
+\begin{align*}
+    T_c &= \frac{P_c\mu m_{\rm H}}{\bar{\rho} k_B} ~ [{\rm K}] \\
+    &= \frac{\left(\dfrac{2GM^2}{\pi R^4}\right)\mu m_{\rm H}}{\left(\dfrac{3M}{4\pi R^3}\right) k_B} ~ [{\rm K}] \\
+    &= \left(\frac{2GM^2}{\pi R^4}\mu m_{\rm H}\right) \cdot \left(\frac{3M}{4\pi R^3}k_B\right)^{-1} ~ [{\rm K}] \\
+    &= \left(\frac{2GM^2\mu m_{\rm H}}{\pi R^4}\right) \cdot \left(\frac{4\pi R^3}{3Mk_B}\right) ~ [{\rm K}] \\
+    &= \frac{8G\mu m_{\rm H}}{3k_B}\left(\frac{M}{R}\right) ~ [{\rm K}].
+\end{align*}
+
+{\noindent}Therefore,
+
+\begin{align*}
+    T_c \propto \frac{M}{R} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}With the mass and the radius of the Sun ($M_\odot=1.989\times10^{33}\,{\rm g}$, $R_\odot=6.96\times10^{10}\,{\rm cm}$) and with $\mu=0.5$, we find that
+
+\begin{align*}
+    T_c &= \frac{8G\mu m_{\rm H}}{3k_B}\left(\frac{1.989\times10^{33}\,{\rm g}}{6.96\times10^{10}\,{\rm cm}}\right) ~ [{\rm K}] \\
+    &= 3.1\times10^7 ~ [{\rm K}].
+\end{align*}
+
+{\noindent}Modern numerical solutions give $T_c=1.6\times10^7\,{\rm K}$.
 
 \subsubsection{Additional context}
 
-Additional context.
+Although the Sun is a very ordinary star of average mass and in a quiet state of MS hydrogen burning, it is a unique object for stellar evolution theorists. For no other star so many quantities are known with comparable accuracy obtained by so many different and independent methods. From Kepler's laws and known distances within the solar system we can derive its mass and radius as well as the total luminosity. This yields the effective temperature by application of the Stefan-Boltzmann law. Neutrino experiments on Earth allow the determination of conditions in the innermost energy producing core. And the art of (helio-)seismology has returned with high accuracy the run of the sound speed throughout most of the solar interior, the helium content of the outer convective envelope, and its depth. These quantities restrict the modelling of the present Sun and allow a comparison with stellar evolution theory at a degree of precision which is almost unique in astrophysics. Table \ref{table:solarquantities} summarizes the fundamental solar parameters and the method to derive them. Note that the rather large uncertainty in the solar mass is the result of the uncertainty in Newton's constant of gravity G. Kepler's third law returns their combination, $GM_\odot$, with a precision of $10^{-7}$!
+
+\begin{table}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/SolarQuantities.png}
+    \caption{\footnotesize{Solar quantities and how they are derived. Table taken from Kippenhahn, Weigert \& Weiss (2012).}}
+    \label{table:solarquantities}
+\end{table}
+
+{\noindent}\textbf{Solar neutrinos:} Some of the nuclear reactions of the pp chain, as well as of the CNO cycle, produce neutrinos. In addition, there are also neutrinos due to the very rare \textit{pep} and \textit{hep} reactions
+
+\begin{align*}
+    {\rm ^1H+^1H+e^- \rightarrow ^2H+\nu\,(\textit{pep})} \\
+    {\rm ^3He+^1H \rightarrow ^4He+e^++\nu\,(\textit{hep})},
+\end{align*}
+
+{\noindent}the latter one being the trivial way to produce $^4$He after the reactions of (18.61), but it is occurring in only $10^{-8}$ of all cases. However, the energy of the emitted neutrino is close to $10\,{\rm MeV}$, and it is therefore necessary to consider this reaction. The neutrinos leave the star practically without interacting with the stellar matter. The energy spectrum of neutrinos from $\beta$ decay is continuous, since the electrons can take part of the energy away, while neutrinos released after an inverse $\beta$ decay are essentially monochromatic. Therefore most reactions of the pp chain have a continuous spectrum, while the pep-reaction and the electron capture on $^7$Be have a line spectrum. Since $^7$Be can decay into $^7$Li either in the ground state or in an excited state, this reaction gives two spectral lines. The neutrino spectrum of the Sun as predicted from the reactions of the pp chain, computed from our standard solar model, is given in Figure \ref{fig:neutrinospectrum}. In order to obtain the neutrino spectrum of the present Sun one cannot use the simple (equilibrium) formulae (18.63) and (18.65), but must compute the rates of all the single reactions given in (18.62), (18.64) and in addition the reactions of (29.1) in a nuclear network.
+
+{\noindent}Since the solar neutrinos can leave the Sun almost unimpeded they can in principle be measured in terrestrial laboratories and thus be used to learn directly about conditions in the innermost solar core. This difficult task indeed has been undertaken since 1964, when John Bahcall and Raymond Davies began to plan for an underground neutrino detector in a mine in Homestead, North Dakota. Forty years later the experiments finally have confirmed the standard solar model, and R. Davies received the Nobel Prize for his work. The time in between, however, was characterized by the \textbf{solar neutrino problem}.
+
+{\noindent}The solar neutrino problem consisted in the fact that since the first results from the so-called chlorine experiment by Davies there was a lack of neutrinos compared to solar model predictions. The chlorine experiment is sensitive to neutrinos with energies above $0.814\,{\rm MeV}$ and therefore, as can be seen in Figure \ref{fig:neutrinospectrum} mainly to the $^8$B neutrinos, with some contribution from pep, hep, and $^7$Be neutrinos. The experiment is based on the reaction $^{37}Cl+\nu\rightarrow^{37}Ar$, where the decays of radioactive argon nuclei are counted. The rate of neutrino captures is commonly measured in solar neutrino units (SNU). One SNU corresponds to $10^{-36}$ captures per second and per target nucleus. The predicted counts amount to $7.5\,{\rm SNU}$ for the chlorine experiment, the measurements averaged over several decades to only $2.5\pm0.2\,{\rm SNU}$. The deficit could indicate that the solar centre is cooler than in the models.
+
+{\noindent}To improve the experimental evidence, additional experiments were started. First, another kind of radio-chemical detector using gallium in the detector fluid measured, due to a much lower energy threshold, the majority of neutrinos, including those from the pp-reaction. Later, electron-scattering detectors were developed, which are sensitive to the highest energies only, but which provide directional information about the neutrino source (for these detectors the \textit{hep}-neutrinos of have to be taken into account.). All experiments confirmed that the solar neutrino flux was of the right order of magnitude, and therefore that indeed the Sun shines by the nuclear fusion of hydrogen, but they also consistently measured a deficit of neutrinos. This deficit, however, varied between different kinds of detectors.
+
+{\noindent}With more and more experimental data it became evident that even hypothetical changes to the solar centre cannot solve the problem and that the solution is most likely to be found in the properties of neutrinos. All nuclear reactions emit electron neutrinos, and these are the only ones that were measured in terrestrial experiment, with the exception of the electron-scattering Sudbury Neutrino Observatory (SNO) experiment in Canada, where heavy water (with a high percentage of deuterium isotopes) was used as the detector. Here also reactions with the two other types (flavours) of neutrinos, muon and tau neutrinos can be detected. Summing these and the electron neutrinos up, the total number of detections is completely consistent with the solar model prediction, within a few percent. What created the apparent solar neutrino deficit is the fact that neutrinos can change their flavour, both while travelling through vacuum and more efficiently in the presence of electrons in the solar interior. A similar effect was also confirmed for muon neutrinos arising in the Earth's upper atmosphere from high-energy cosmic radiation, when measured before or after they have travelled through the Earth's interior. The modelling of the solar interior, together with sophisticated experiments, has therefore resulted in new knowledge about fundamental properties of neutrinos. In particular, these so-called \textbf{neutrino oscillations} are possible only if neutrinos have mass.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The neutrino spectrum of the Sun as predicted from the theoretical standard solar model. The solid lines belong to reactions of the pp chain while the broken lines are due to reactions of the CNO cycle. The neutrinos from most of the reactions have continuous spectra, while mono-energetic neutrinos come from $^7$Be and from the pep-reaction. The flux  for the continuum sources is given in $cm^2\,s^{-1}\,MeV^{-1}$ and for the line sources in $cm^2\,s^{-1}$. The sensitivity of the three types of neutrino experiments is indicated above the figure and by the shaded regions. Figure taken from Kippenhahn, Weigert \& Weiss (2012).}}
+    \label{fig:neutrinospectrum}}
+    {\includegraphics[width=10cm]{figures/NeutrinoSpectrum.png}}
+\end{figure}
 
 % --------------------------------------------------------------
 %               11. 
