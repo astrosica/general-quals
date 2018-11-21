@@ -608,7 +608,23 @@ Briefly describe the sources of thermal energy for stars and planets.
 
 \subsubsection{Short answer}
 
-Answer.
+The sources of thermal energy of stars include:
+
+\begin{itemize}
+    \item \textbf{gravitational energy}:
+    \item \textbf{rotational energy}: 
+    \item \textbf{nuclear energy}:
+\end{itemize}
+
+{\noindent}The sources of thermal energy of planets include:
+
+\begin{itemize}
+    \item \textbf{radioactive decay}:
+    \item \textbf{differentiation}: 
+    \item \textbf{solar radiation}:
+    \item \textbf{accretion/impact}:
+    \item \textbf{tidal heating}:
+\end{itemize}
 
 \subsubsection{Additional context}
 
@@ -616,11 +632,65 @@ Answer.
 
 {\noindent}One of the great mysteries of the late nineteenth and early twentieth centuries was the source of the energy required to sustain the luminosity of the sun. By then, the defining Solar parameters of mass, radius, and luminosity were known with sufficient precision to attempt to relate them. For instance, it was clear that if the Sun derived its energy from chemical processes typically yielding less that $10^{12}\,{\rm erg\,g^{-1}}$, it could shine no longer than about $10,000$ years at its current luminosity. It is said that Lord Kelvin, in noting that the liberation of gravitational energy could only keep the sun shining for about $10$ million years, found it necessary to reject Charles Darwin's theory of evolution because there would have been insufficient time for natural selection to provide the observed diversity of species.
 
-{\noindent}\textbf{Gravitational energy:} 
+{\noindent}\textbf{Gravitational energy:} It is generally conceded that the Sun has shone at roughly its present luminosity for at least the past $2$ billion years and has been in existence for nearly $5$ billion years. With this in mind, let us begin our study of the sources of stellar energy with an inventory of the stores of energy available to the sun. Perhaps the most obvious source of energy is that suggested by Lord Kelvin, namely gravitation:
 
-{\noindent}\textbf{Rotational energy:}
+\begin{align*}
+    E_p \leq -\frac{3}{5}\frac{GM^2}{R} ~ [{\rm J}].
+\end{align*}
 
-{\noindent}\textbf{Nuclear energy:}
+{\noindent}The right-hand side of the inequality is the gravitational potential energy for a uniform density sphere, which provides a sensible upper limit for the energy. Remember that the gravitational energy is considered negative by convention; a rather larger magnitude of energy may be available for a star that is more centrally concentrated than a uniform-density sphere. We may acquire a better estimate of the gravitational potential energy by using the results for a polytrope. Chandrasekhar obtains the following result for the gravitational potential energy of a polytrope:
+
+\begin{align*}
+    E_p = -\frac{3}{5-n}\frac{GM^2}{R} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}For a star in convective equilibrium (that is, $n=3/2$) the factor multiplying $GM^2/R$ becomes $6/7$ or nearly unity. Note that for a polytrope of index $5$, $U_g\rightarrow-\infty$ implying an infinite central concentration of material. This is also one of the polytropes for which there exists an analytic solution. Thus, one has the picture of a mass point surrounded by a massless envelope of infinite extent. This equation also tells us that as the polytropic index increases, so does the central concentration.
+
+{\noindent}It is not at all obvious that the total gravitational energy would be available to permit the star to shine. Some energy must be provided in the form of heat, to provide the pressure which supports the star. We may use the Virial theorem [equation (1.2.35)] to estimate how much of the gravitational energy can be utilized by the luminosity. Consider a star with no mass motions, so that the macroscopic kinetic energy T in equation (1.2.35) is zero. Let us also assume that the equilibrium state is good enough that we can replace the time averages by the instantaneous values. Then the \textbf{Virial theorem becomes}
+
+\begin{align*}
+    2E_k+E_p = 0 ~ [{\rm J}].
+\end{align*}
+
+{\noindent}Recall that $E_k$ is the total internal kinetic energy of the gas which includes all motions of the particles making up the gas. Now we know from thermodynamics that not all the internal kinetic energy is available to do work, and it is therefore not counted in the internal energy of the gas.
+
+{\noindent}For simplicity, let us assume that $\gamma$ is constant through out the star. Remembering that the total energy $E$ is the sum of the internal energy and the gravitational energy, we can express the Virial theorem in the following ways:
+
+\begin{align*}
+    E_k &= -\frac{E_p}{3(\gamma-1)} ~ [{\rm J}]\\
+    E_{\rm tot} &= -(3\gamma-4)E_{\rm th} ~ [{\rm J}]\\
+    E_{\rm tot} &= \frac{3\gamma-4}{3(\gamma-1)}E_p ~ [{\rm J}].
+\end{align*}
+
+{\noindent}It is clear that for $\gamma>4/3$ (that is, $n<3$), the total energy of the star will be negative. This simply says that the star is gravitationally bound and can be in equilibrium. So we can look for the physically reasonable polytropes to have indices less than or equal to $3$. The case of $n=3$ is an interesting one for it represents radiation dominated gas. In the limit of complete radiation dominance, the total energy of the configuration will be zero.
+
+{\noindent}\textbf{Rotational energy:} Stars do rotate, and we should not forget to count the rotational energy in the inventory of energies. We may place a reasonable upper limit on the magnitude of the rotational energy that we can expect by noting that (1) the moment of inertia of the star will always be less than that of a sphere of uniform density and (2) there is a limit to the angular velocity $\omega_c$ at which the star can rotate. Thus, for a centrally condensed star
+
+\begin{align*}
+    \omega^2 &= \frac{8GM}{27R^3} ~ [{\rm km^2\,s^{-2}\,kpc^{-2}}] \\
+    I_z &< \frac{2}{5}MR^2 ~ [{\rm kg\,km^2}],
+\end{align*}
+
+{\noindent}which implies that the rotational energy must be bounded by
+
+\begin{align*}
+    E_{\rm rot} = \frac{1}{2}I_z\omega^2 < \frac{8}{135}\frac{GM^2}{R} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}One may quibble that we have used the angular velocity limit for a centrally condensed star and the moment of inertia for a uniform-density star, but the fact remains that it is extremely difficult for a star to have more than about 10 percent of the magnitude of its gravitational energy stored in the form of rotational energy.
+
+{\noindent}\textbf{Nuclear energy:} Of course, the ultimate upper limit for stored energy is the energy associated with the rest mass itself. It is also the common way of estimating the energy available from nuclear sources. Indeed, that fraction of the rest mass which becomes energy when four hydrogen atoms are converted to one helium atom provides the energy to sustain the solar luminosity. Below in Table \ref{table:solarenergy} is a short table giving the mass loss for a few common elements involved in nuclear fusion processes.
+
+\begin{table}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/SolarEnergy.png}
+    \caption{\footnotesize{Possible sources of Solar energy. Table taken from Kippenhahn, Weigert \& Weiss (2012).}}
+    \label{table:solarenergy}
+\end{table}
+
+{\noindent}Clearly most of the energy to be gained from nuclear fusion occurs by the conversion of hydrogen to helium and less than one-half of that energy can be obtained by all other fusion processes that carry helium to iron. Nevertheless, $0.7\%$ of $mc^2$ is a formidable supply of energy. Table \ref{table:solarenergy} is a summary of the energy that one could consider as being available to the Sun. All these entries are generous upper limits. For example, the sun rotates at less than $0.5\%$ of its critical velocity, it was never composed of $100\%$ hydrogen and will begin to change significantly when a fraction of the core hydrogen is consumed, and not all the gravitational energy could ever be converted to energy for release. In any event, only nuclear processes hold the promise of providing the solar luminosity for the time required to bring about agreement with the age of the solar system as derived from rocks and meteorites. However, the time scales of Table \ref{table:solarenergy} are interesting because they provide an estimate of how long the various energy sources could be expected to maintain some sort of equilibrium configuration.
+
+{\noindent}\textbf{Planets:}
 
 \subsubsection{Follow-up Questions}
 
