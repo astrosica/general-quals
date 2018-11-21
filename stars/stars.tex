@@ -1163,7 +1163,7 @@ The corresponding temperature decrease per unit length over which the element ri
 \newpage
 \subsection{Question 9}
 
-What is Eddington’s luminosity limit? Explain why this limit is important for the properties and lifetimes of massive stars.
+What is Eddington's luminosity limit? Explain why this limit is important for the properties and lifetimes of massive stars.
 
 \subsubsection{Short answer}
 
@@ -1171,7 +1171,85 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+Sir Arthur Stanley Eddington observed that radiation and gravitation both obey inverse-square laws and so there would be instances when the two forces could be in balance irrespective of distance. Thus there should exist a maximum luminosity for a star of a given mass, where the force of radiation on the surface material would exactly balance the force of gravity.
+
+{\noindent}There exists a gradient of the radiation pressure
+
+\begin{align*}
+    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = \frac{a}{3}T^3\frac{{\rm d}T}{{\rm d}r} ~ [{\rm P\,m^{-1}}],
+\end{align*}
+
+{\noindent}which exerts, just like the gas pressure gradient, an outward acceleration (${\rm d}P_{\rm rad}/{\rm d}r<0$)
+
+\begin{align*}
+    g_{\rm rad} = -\frac{1}{\rho} \frac{{\rm d}P_{\rm rad}}{{\rm d}r} ~ [{\rm m\,s^{-2}}]
+\end{align*}
+
+{\noindent}Using 
+
+\begin{align*}
+    F = -\frac{4ac}{3} \frac{T^3}{\kappa\rho}\frac{\partial T}{\partial r} ~ [{\rm erg\,s^{-1}\,cm^{-2}}]
+\end{align*}
+
+we see that we can rewrite this as
+
+\begin{align*}
+    g_{\rm rad} = \frac{\kappa F_{\rm rad}}{c} = \frac{\kappa L_r}{4\pi r^2c} ~ [{\rm m\,s^{-2}}].
+\end{align*}
+
+{\noindent}In case that radiation pressure completely dominates over gas pressure, a star can no longer be in hydrostatic equilibrium if $g_{\rm rad}>g$. The sum of both accelerations can be written as
+
+\begin{align*}
+    g+g_{\rm rad} = -\frac{Gm}{r^2} \left[ 1-\frac{\kappa L_r}{4\pi cGm} \right] = -\frac{Gm}{r^2}[1-\Gamma_r] ~ [{\rm m\,s^{-2}}],
+\end{align*}
+
+{\noindent}where $\Gamma_r$ can be understood as the ratio of the luminosity relative to the critical luminosity at which the bracket changes sign, and thus the star becomes unbound. For $m=M$ this critical luminosity is called the \textbf{Eddington luminosity} and is
+
+\begin{align*}
+    L_E = \frac{4\pi cGM}{\kappa} ~ [{\rm J\,s^{-1}}].
+\end{align*}
+
+{\noindent}Expressed in Solar units it is
+
+\begin{align*}
+    \frac{L_E}{{\rm L_\odot}} = 1.3\times10^4\frac{1}{\kappa} \frac{M}{{\rm M_\odot}}
+\end{align*}
+
+{\noindent}and grows linearly with stellar mass. Since $L\propto M^3$, stars obviously reach a limit, where radiation pressure is able to drive a strong stellar wind, and which depends on the opacity.
+
+{\noindent}For hot, massive stars electron scattering is the dominating opacity source, which can be approximated by
+
+\begin{align*}
+    \kappa_\nu &= \frac{8\pi}{3} \frac{e_e^2}{\mu_em_u} \\
+    &= 0.20(1+X) ~ [{\rm cm^2\,g^{-1}}],
+\end{align*}
+
+and is $\kappa_{\rm sc}=0.20(1+X)$. For a mass fraction of hydrogen of $0.70$ this simplifies to
+
+\begin{align*}
+    \frac{L_E}{{\rm L_\odot}} = 3.824\times10^4\frac{M}{{\rm M_\odot}}.
+\end{align*}
+
+{\noindent}For $M\approx200\,{\rm M_\odot}$ the luminosity of massive main-sequence stars reach the Eddington limit and disperse. This is a rough estimate for an upper limit. In reality the instability of this mechanism occurs at lower mass. However, the Eddington limit can become quite important in other situations.
+
+{\noindent}Any object that has a luminosity greater than $L_E$ will be forced into instability by its own radiation pressure. This effectively provides a mass-luminosity relationship for super-massive stars since these radiation-dominated configurations will radiate near their limit. It is worth noting that \textbf{magnetars}, the source for \textbf{soft gamma repeaters}, are class of gamma-ray bursts that \textit{exceed the Eddington luminosity by far}, but are characterized by a comparably soft gamma spectrum. In a magnetar, the decaying magnetic field is the source of free energy (rather than rotation, as in pulsars).
+
+{\noindent}\textbf{Limiting masses for super-massive stars}: Any star with a mass less than about half a million solar masses can come to equilibrium burning hydrogen via the CNO cycle, albeit with a short lifetime. More massive stars are destined to continue to contract. Of course, more massive stars will produce nuclear energy at an ever-increasing rate as their central temperatures rise. However, the rate of energy production cannot increase without bound. This is suggested by the declining exponents of the temperature dependence shown in Table \ref{table:tempdependence}. The nuclear reactions that involve β decay set a limit on how fast the CNO cycle can run, and $\beta$ decay is independent of temperature. So there is a maximum rate at which energy can be produced by the CNO cycle operating in these stars.
+
+\begin{table}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/TempDependence.png}
+    \caption{\footnotesize{Table taken from Collins (2003).}}
+    \label{table:tempdependence}
+\end{table}
+
+{\noindent}If the nuclear energy produced is sufficient to bring the total energy above the binding energy curve, the star will explode. However, should the energy not be produced at a rate sufficient to catch the binding energy that is rising due to the relativistic collapse, the star will continue an unrestrained collapse to the Schwarzschild radius and become a black hole. Which scenario is played out will depend on the star's mass. For these stars, the temperature gradient will be above the adiabatic gradient, so convection will exist. However, the only energy transportable by convection is the kinetic energy of the gas, which is an insignificant fraction of the internal energy. Therefore, unlike normal main sequence stars, although it is present, convection will be a very inefficient vehicle for the transport of energy. This is why the star remains with a structure of a polytrope of index $n=3$ in the presence of convection. The pressure support that determines the density distribution comes entirely from radiation and is not governed by the mode of energy transport.
+
+{\noindent}The star will radiate at the Eddington luminosity, and that will set the time scale for collapse. The total energy of these stars is small compared to the gravitational energy. So most of the energy derived from gravitational contraction must go into supporting the star, and very little is available to supply the Eddington luminosity. This can be seen from the relativistic Virial theorem which indicates that any change in the gravitational energy is taken up by the kinetic energy. Relativistic particles (in this case, photons) are much more difficult to bind by gravitation than ordinary matter; thus little of the gravitational energy resulting from collapse will be available to let the star shine. The collapse will proceed very quickly on a time scale that is much nearer to the dynamical time scale than the Kelvin-Helmholtz time scale. The onset of nuclear reactions will slow the collapse, but will not stop it for the massive stars.
+
+{\noindent}A dynamical analysis shows that stars more massive than about $7.5\times10^5\,{\rm M_\odot}$ will undergo collapse to a black hole. Here the collapse proceeds so quickly and the gravity is so powerful that the nuclear reactions, being limited by $\beta$ decay at the resulting high temperatures, do not have the time to produce sufficient energy to arrest the collapse. For less massive stars, this is not the case. Stars in the narrow range of $5\times10^5M⊙\leq M\leq 7.5\times10^5\,{\rm M_\odot}$ will undergo explosive nuclear energy generation resulting in the probable destruction of the star.
+
+{\noindent}Nothing has been said about the role of chemical composition in the evolution of these stars. Clearly, if there is no carbon present, the CNO cycle is not available for the stabilization of the star. Model calculations show that the triple-alpha process cannot stop the collapse. For stars with low metal abundance, only the pp-cycle is available as an energy source. This has the effect of lowering the value of the maximum stable mass. Surprisingly, there is no range at which an explosion occurs. If the star cannot stabilize before reaching $R_m$, it will continue in a state of unrestrained gravitational collapse to a black hole. Thus, it seems unlikely that stars more massive than about a half million solar masses could exist. In addition, it seems unlikely that black holes exist with masses greater than a few solar masses and less than half a million solar masses. If they do, they must form by accretion and not as a single entity.
 
 \subsubsection{Follow-up Questions}
 

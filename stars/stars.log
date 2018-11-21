@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 NOV 2018 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 NOV 2018 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -930,96 +930,106 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-[23] [24] [25] [26] [27] [28] [29] [30]
+[23] [24] [25] [26] [27] [28] [29] [30] [31]
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ² in font cmr10!
+
+<figures/TempDependence.png, id=383, 948.54375pt x 330.23375pt>
+File: figures/TempDependence.png Graphic file (type png)
+
+<use figures/TempDependence.png>
+Package pdftex.def Info: figures/TempDependence.png used on input line 1241.
+(pdftex.def)             Requested size: 398.33858pt x 138.6821pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no Š in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [32 <./figures/TempDependence.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [31] [32]
-<figures/SolarQuantities.png, id=390, 741.77126pt x 258.9675pt>
+ [33]
+[34] <figures/SolarQuantities.png, id=402, 741.77126pt x 258.9675pt>
 File: figures/SolarQuantities.png Graphic file (type png)
 
 <use figures/SolarQuantities.png>
-Package pdftex.def Info: figures/SolarQuantities.png used on input line 1252.
+Package pdftex.def Info: figures/SolarQuantities.png used on input line 1330.
 (pdftex.def)             Requested size: 398.33858pt x 139.06981pt.
- [33 <./figures/SolarQuantities.png>]
-Underfull \hbox (badness 1097) in paragraph at lines 1285--1285
+ [35 <./figures/SolarQuantities.png>]
+Underfull \hbox (badness 1097) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 are due to re-ac-tions of the
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 1285--1285
+Underfull \hbox (badness 1052) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1285--1285
+Underfull \hbox (badness 2035) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 from most of the re-ac-tions
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1285--1285
+Underfull \hbox (badness 1092) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 reaction. The flux for the
  []
 
-<figures/NeutrinoSpectrum.png, id=400, 730.73pt x 473.77pt>
+<figures/NeutrinoSpectrum.png, id=412, 730.73pt x 473.77pt>
 File: figures/NeutrinoSpectrum.png Graphic file (type png)
 
 <use figures/NeutrinoSpectrum.png>
-Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1285.
+Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1363.
 (pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 1285--1285
+Underfull \hbox (badness 1097) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 are due to re-ac-tions of the
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 1285--1285
+Underfull \hbox (badness 1052) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1285--1285
+Underfull \hbox (badness 2035) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 from most of the re-ac-tions
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 1285--1285
-\OT1/cmr/m/n/8 reaction. The flux for the
- []
-
-File: figures/NeutrinoSpectrum.png Graphic file (type png)
-<use figures/NeutrinoSpectrum.png>
-Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1285.
-(pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
-
-Underfull \hbox (badness 1097) in paragraph at lines 1285--1285
-\OT1/cmr/m/n/8 are due to re-ac-tions of the
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 1285--1285
-\OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 1285--1285
-\OT1/cmr/m/n/8 from most of the re-ac-tions
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 1285--1285
+Underfull \hbox (badness 1092) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 reaction. The flux for the
  []
 
 File: figures/NeutrinoSpectrum.png Graphic file (type png)
 <use figures/NeutrinoSpectrum.png>
-Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1285.
+Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1363.
 (pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
- [34 <./figures/NeutrinoSpectrum.png>]
-[35] [36] [37] [38] [39] [40]
+
+Underfull \hbox (badness 1097) in paragraph at lines 1363--1363
+\OT1/cmr/m/n/8 are due to re-ac-tions of the
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 1363--1363
+\OT1/cmr/m/n/8 CNO cy-cle. The neu-tri-nos
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 1363--1363
+\OT1/cmr/m/n/8 from most of the re-ac-tions
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 1363--1363
+\OT1/cmr/m/n/8 reaction. The flux for the
+ []
+
+File: figures/NeutrinoSpectrum.png Graphic file (type png)
+<use figures/NeutrinoSpectrum.png>
+Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1363.
+(pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
+ [36 <./figures/NeutrinoSpectrum.png>]
+[37] [38] [39] [40] [41] [42]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -1029,29 +1039,29 @@ Missing character: There is no œ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
- [41] [42]
+ [43] [44]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [43] [44]
+ [45] [46]
 
 AED: lastpage setting LastPage
-[45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1505.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1505.
+[47]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1583.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1583.
  (./stars.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1505.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1505.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1583.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1583.
 
 Package rerunfilecheck Info: File `stars.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD4CBB8E71BC379CBB8C857C6207A6E;1329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1505.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1583.
  ) 
 Here is how much of TeX's memory you used:
- 9521 strings out of 492995
- 143927 string characters out of 6132704
- 258461 words of memory out of 5000000
- 12785 multiletter control sequences out of 15000+600000
+ 9530 strings out of 492995
+ 144120 string characters out of 6132704
+ 258528 words of memory out of 5000000
+ 12790 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,12n,51p,2632b,615s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1078,10 +1088,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on stars.pdf (45 pages, 2468939 bytes).
+Output written on stars.pdf (47 pages, 2578500 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 466 compressed objects within 5 object streams
- 142 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
