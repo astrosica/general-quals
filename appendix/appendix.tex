@@ -208,11 +208,15 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{LAE:} Lyman-alpha emitter
 
+{\noindent}\textbf{LAT:} linear adiabatic theory
+
 {\noindent}\textbf{LBG:} Lyman break galaxy
 
 {\noindent}\textbf{LG:} Local Group
 
 {\noindent}\textbf{LMC:} Large Magellanic Cloud
+
+{\noindent}\textbf{LNAT:} linear non-adiabatic theory
 
 {\noindent}\textbf{LTE:} local thermodynamic equilibrium
 
@@ -688,12 +692,6 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Gaunt factor}: $g ~ [{\rm dimensionless}]$
 
-{\noindent}\textbf{Gradient}: $\nabla ~ [{\rm function}]$
-
-{\noindent}\textbf{Gradient (adiabatic)}: $\nabla_{\rm ad} ~ [{\rm ???}]$
-
-{\noindent}\textbf{Gradient (radiative)}: $\nabla_{\rm rad} ~ [{\rm K\,P^{-1}}]$
-
 {\noindent}\textbf{Gravitational acceleration (norm)}: $g ~ [{\rm m\,s^{-2}}]$
 
 {\noindent}\textbf{Gravitational acceleration (vector)}: $\vec{g} ~ [{\rm m\,s^{-2}}]$
@@ -1107,7 +1105,13 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Temperature}: $T ~ [{\rm K}]$
 
-{\noindent}\textbf{Temperature gradient (radiative transport)}: $\dfrac{{\rm d}T}{{\rm d}r} ~ [{\rm K\,m6{-1}}]$
+{\noindent}\textbf{Temperature gradient}: $\nabla ~ [{\rm K\,P^{-1}}]$
+
+{\noindent}\textbf{Temperature gradient (actual)}: $\nabla\,{\rm or}\,\nabla_{\rm act} ~ [{\rm K\,P^{-1}}]$
+
+{\noindent}\textbf{Temperature gradient (adiabatic)}: $\nabla_{\rm ad} ~ [{\rm K\,P^{-1}}]$
+
+{\noindent}\textbf{Temperature gradient (radiative)}: $\nabla_{\rm rad} ~ [{\rm K\,P^{-1}}]$
 
 {\noindent}\textbf{Temperature of the CMB}: $T_{\rm CMB} ~ [{\rm K}]$
 
@@ -1982,12 +1986,6 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \left(\frac{H}{H_0}\right)^2 &= \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{\Lambda,0} + \frac{1-\Omega_0}{a^2}
 \end{align*}
 
-{\noindent}\textbf{Gradient (radiative)}:
-\begin{align*}
-    \nabla_{\rm rad} &\equiv \left(\frac{{\rm d}\ln T}{{\rm d}\ln P}\right)_{\rm rad} ~ [{\rm K\,P^{-1}}] \\
-    \nabla_{\rm rad} &= \frac{3}{16\pi acG}\frac{\kappa LP}{mT^4} ~ [{\rm K\,P^{-1}}]
-\end{align*}
-
 {\noindent}\textbf{Gravitational acceleration}:
 \begin{align*}
     g(r) = -\frac{{\rm d}\Phi}{{\rm d}r} ~ [{\rm m\,s^{-2}}]
@@ -2578,7 +2576,9 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Temperature gradient (adiabatic condition)}:
 \begin{align*}
-    \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm act} > \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm ad} ~ [{\rm K\,m^{-1}}]
+    \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm act} &> \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm ad} ~ [{\rm K\,m^{-1}}] \\
+    {\rm or} \\
+    \left\lvert\frac{{\rm d}T}{{\rm d}P}\right\rvert_{\rm act} &> \left\lvert\frac{{\rm d}T}{{\rm d}P}\right\rvert_{\rm ad} ~ [{\rm K\,P^{-1}}]
 \end{align*}
 
 {\noindent}\textbf{Temperature gradient (adiabatic transport)}:
@@ -2586,9 +2586,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{\mu m_{\rm H}}{k}\frac{GM_r}{r^2} ~ [{\rm K\,m^{-1}}]
 \end{align*}
 
-{\noindent}\textbf{Temperature gradient (radiative transport)}:
+{\noindent}\textbf{Temperature gradient (radiative)}:
 \begin{align*}
-    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}]
+    \nabla_{\rm rad} &\equiv \left(\frac{{\rm d}\ln T}{{\rm d}\ln P}\right)_{\rm rad} ~ [{\rm K\,P^{-1}}] \\
+    &= \frac{3}{16\pi acG}\frac{\kappa LP}{mT^4} ~ [{\rm K\,P^{-1}}] \\
+    &= -\frac{3}{4ac}\frac{\kappa\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}]
 \end{align*}
 
 {\noindent}\textbf{Temperature-redshift-scalefactor relation}:
@@ -2789,6 +2791,18 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \item One solar neutrino unit (SNU) corresponds to $10^{-36}$ captures per second and per target nucleus.
     \item What created the apparent solar neutrino deficit is the fact that neutrinos can change their flavour, both while travelling through vacuum and more efficiently in the presence of electrons in the solar interior. These so-called \textbf{neutrino oscillations} are possible only if neutrinos have mass.
     \item It is extremely difficult for a star to have more than about 10 percent of the magnitude of its gravitational energy stored in the form of rotational energy.
+    \item Most, but not all, large-amplitude variables pulsate in the fundamental mode.
+    \item Non-radial pulsation tends to produce smaller amplitudes than radial modes in the brightness and colour variation.
+    \item Linear adiabatic theory (LAT) shows that the relative amplitude of pulsation tends to be largest in the outer layers of the star, where the density is lowest.
+    \item Linear non-adiabatic theory (LNAT) of stellar pulsations gives periods which are slightly more realistic than the linear adiabatic theory (LAT), though they are about the same in most cases.
+    \item Non-linear non-adiabatic theory accurately predicts the amplitudes of Cepheids and RR Lyrae stars, which pulsate in one or two radial modes. It has not been able to explain stars like Delta Scuti stars, which can and do pulsate in many radial and non-radial modes.
+    \item The Cepheid instability strip extends from the top of the HR diagram to the bottom, at approximately constant temperature. That is because the instability mechanism occurs at a particular temperature -- the temperature at which there is a helium ionization zone in the outer layers of the star.
+    \item Aside from the stars of smallest mass ($M<0.25\,{\rm M_\odot}$), we can roughly distinguish between two types of radiative/convective models: (1) radiative core + convective envelope (lower MS) and (2) convective core + radiative envelope (upper MS.) The transition from one type to the other occurs near $M=1\,{\rm M)\odot}$.
+    \item For an ideal monatomic gas, $\gamma=5/3$ and convection will occur in some region of a star when ${\rm d}\ln P/{\rm d}\ln T<2.5$.
+    \item The base of the Sun's present-day convection zone is at $0.714\,{\rm R_\odot}$.
+    \item Many Herbig Ae stars are still contracting to the main sequence, and are thus either still surrounded by remnants of their stellar cocoons, or have developed massive stellar winds.
+    \item Many metallic-line A-type (Am) stars show the \textbf{anomalous luminosity effect} in which the luminosity criteria in certain spectral regions (in particular, the region from $4077-4200$\AA) may indicate a giant or even a supergiant luminosity, whereas other regions indicate a dwarf luminosity or even lower.
+    \item All T dwarfs are brown dwarfs.
     \end{itemize}
 
 \end{document}
