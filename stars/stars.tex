@@ -818,94 +818,6 @@ Describe the condition for a star's envelope to become convective. Why are low m
 
 \subsubsection{Short answer}
 
-The radiation pressure gradient is given by 
-
-\begin{align*}
-    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = -\frac{\kappa\rho}{c}F_{\rm rad} ~ [{\rm P\,m}],
-\end{align*}
-
-{\noindent}where $F_{\rm rad}$ is the outward radiative flux. The radiation pressure may also be expressed as
-
-\begin{align*}
-    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = \frac{4}{3} aT^3 \frac{{\rm d}T}{{\rm d}r} ~ [{\rm P\,m}].
-\end{align*}
-
-{\noindent}Equating the two, we have
-
-\begin{align*}
-    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}F_{\rm rad} ~ [{\rm K\,m^{-1}}].
-\end{align*}
-
-{\noindent}If we use the expression for the radiative flux written in terms of the local radiative luminosity of the star at radius $r$, 
-
-\begin{align*}
-    F_{\rm rad} = \frac{L_r}{4\pi r^2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}],
-\end{align*}
-
-{\noindent}the temperature gradient for radiative transport becomes
-
-\begin{align*}
-    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}].
-\end{align*}
-
-{\noindent}As either the flux or the opacity increases, the temperature gradient must become steeper (i.e., more negative) if radiation transport is to carry all of the required luminosity outward. The same situation holds as the density increases or the temperature increases.
-
-{\noindent}We now consider a situation where a hot convective bubble of gas rises and expands \textbf{adiabatically}, meaning that the bubble does not exchange heat with its surroundings. After it has travelled some distance, it finally \textbf{thermalizes}, giving up any excess heat as it loses its identity and dissolves into the surrounding gas. Differentiating the \textbf{ideal gas law}
-
-\begin{align*}
-    P = \frac{\rho k_BT}{\mu m_{\rm H}} ~ [{\rm P}]
-\end{align*}
-
-{\noindent}yields an expression involving the bubble's \textbf{temperature gradient}
-
-\begin{align*}
-    \frac{{\rm d}P}{{\rm d}r} = -\frac{P}{\mu}\frac{{\rm d}\mu}{{\rm d}r} + \frac{P}{\rho}\frac{{\rm d}\rho}{{\rm d}r} + \frac{P}{T}\frac{{\rm d}T}{{\rm d}r}.
-\end{align*}
-
-{\noindent}Using the adiabatic relationship between pressure and density
-
-\begin{align*}
-    PV^\gamma = K ~ [{\rm P\,m^3}]
-\end{align*}
-
-{\noindent}and recalling that $V\equiv1/\rho$ is the \textbf{specific volume}, we have that
-
-\begin{align*}
-    P = K\rho^\gamma ~ [{\rm P}].
-\end{align*}
-
-{\noindent}Differentiating and re-writing, we obtain
-
-\begin{align*}
-    \frac{{\rm d}P}{{\rm d}r} = \gamma \frac{P}{\rho}\frac{{\rm d}\rho}{{\rm d}r} ~ [{\rm P\,m^{-1}}].
-\end{align*}
-
-{\noindent}If we assume for simplicity that the mean molecular weight $\mu$ is constant, we can combing equations for ${\rm d}P/{\rm d}r$ to give the \textbf{adiabatic temperature gradient}
-
-\begin{align*}
-    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{T}{P}\frac{{\rm d}P}{{\rm d}r} ~ [{\rm K\,m^{-1}}].
-\end{align*}
-
-{\noindent}Using the equation of \textbf{hydrostatic equilibrium}
-
-\begin{align*}
-    \frac{{\rm d}P}{{\rm d}r} = -\frac{GM_r\rho}{r^2} = -\rho g ~ [{\rm P\,m^{-1}}], ~~~ g \equiv \frac{GM_r}{r^2} ~ [{\rm m\,s^{-2}}]
-\end{align*}
-
-{\noindent}and the ideal gas law, we finally obtain
-
-\begin{align*}
-    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{\mu m_{\rm H}}{k}\frac{GM_r}{r^2} ~ [{\rm K\,m^{-1}}].
-\end{align*}
-
-{\noindent}If the star's actual temperature gradient is \textit{steeper} than the adiabatic temperature gradient,
-
-\begin{align*}
-    \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm act} > \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm ad} ~ [{\rm K\,m^{-1}}],
-\end{align*}
-
-{\noindent}the temperature gradient is said to be \textbf{super-adiabatic} (recall that ${\rm d}T/{\rm d}r<0$). In the deep interior of a star, if the actual temperature gradient is just \textit{slightly} larger than the adiabatic temperature gradient, this may be sufficient to carry nearly all of the luminosity by convection. Consequently, it is often the case that either radiation or convection dominates the energy transport in the deep interior of stars, while the other energy transport mechanism contributes very little to the total energy outflow. The particular mechanism in operation is determined by the temperature gradient. However, near the surface of the star, the situation is much more complicated: both radiation and convection can carry significant amounts of energy simultaneously.
-
 {\noindent}In general, convection will occur when
 
 \begin{enumerate}
@@ -914,11 +826,13 @@ The radiation pressure gradient is given by
     \item the temperature dependence of the nuclear energy generation rate is large, causing a steep radiative flux gradient and a large temperature gradient.
 \end{enumerate}
 
-{\noindent}In the atmosphere of many stars, the first two conditions can occur simultaneously, whereas the third condition would occur only deep in stellar interiors. In particular, the third condition can occur when the highly temperature-dependent CNO cycle or triple alpha processes are occuring.
+{\noindent}In the atmosphere of many stars, the first two conditions can occur simultaneously, whereas the third condition would occur only deep in stellar interiors. In particular, the third condition can occur when the highly temperature-dependent CNO cycle or triple alpha processes are occurring.
+
+{\noindent}The base of the present-day convection zone is at $0.714\,{\rm R_\odot}$. Although the Sun remains purely radiative at the center, the large amounts of energy that must be transported outward pushes the temperature gradient in the direction of becoming super-adiabatic. Stars only slightly more massive than the Sun are convective in their centers because of the stronger temperature dependence of the CNO cycle as compared to the pp chain.
 
 \subsubsection{Additional context}
 
-Three different energy transport mechanisms operate in stellar interiors. \textbf{Radiation} allows the energy produced by nuclear reactions and gravitation to be carried to the surface via photons, the photons being absorbed and re-emitted in nearly random directions as they encounter matter. This suggests that the opacity of the material must play an important role, as one would expect. \textbf{Convection} can be a very efficient transport mechanism in many regions of a star, with hot, buoyant mass elements carrying excess energy outward while cool elements fall inward. Finally, \textbf{conduction} transports heat via collisions between particles. Although conduction can play an important role in some stellar environments, it is generally insignificant in most stars throughout the majority of their lifetimes. 
+{\noindent}Three different energy transport mechanisms operate in stellar interiors. \textbf{Radiation} allows the energy produced by nuclear reactions and gravitation to be carried to the surface via photons, the photons being absorbed and re-emitted in nearly random directions as they encounter matter. This suggests that the opacity of the material must play an important role, as one would expect. \textbf{Convection} can be a very efficient transport mechanism in many regions of a star, with hot, buoyant mass elements carrying excess energy outward while cool elements fall inward. Finally, \textbf{conduction} transports heat via collisions between particles. Although conduction can play an important role in some stellar environments, it is generally insignificant in most stars throughout the majority of their lifetimes. 
 
 {\noindent}\textbf{Radiative transport of energy: basic estimates} Rough estimates show important features of the radiative transfer in stellar interiors and justify an enormous simplification of the formalism. Let us first estimate the mean free path $\ell_{\rm mfp}$ of a photon at an ``average'' point inside a star like the Sun:
 
@@ -1039,7 +953,7 @@ Three different energy transport mechanisms operate in stellar interiors. \textb
     \frac{1}{\kappa} = \frac{\pi}{acT^3} \int\limits_0^\infty \frac{\partial B}{\partial T} {\rm d}\nu ~ [{\rm cm^2\,g^{-1}}].
 \end{align*}
 
-{\noindent}This s the so-called \textbf{Rosseland mean}. Since
+{\noindent}This is the so-called \textbf{Rosseland mean}. Since
 
 \begin{align*}
     \int\limits_0^\infty \frac{\partial B}{\partial T}{\rm d}\nu = \frac{acT^3}{\pi},
@@ -1133,104 +1047,139 @@ Three different energy transport mechanisms operate in stellar interiors. \textb
 
 {\noindent}\textbf{The basic picture:} The mixing-length theory goes back to Ludwig Prandtl, who in 1925 modelled a simple picture of convection in complete analogy to molecular heat transfer: the transporting ``particles'' are macroscopic mass elements (``blobs'') instead of molecules; their mean free path is the \textbf{mixing length} after which the blobs dissolve in their new surroundings. Prandtl's theory was adapted for stars afterwards.
 
-{\noindent}The total energy flux $L/4\pi r^2$ at a given point in the star consists of the radiative flux $F_{\rm rad}$ (in which the conductive flux may already be incorporated) plus the convective flux $F_{\rm rad}$. Their sum defines the gradient $\nabla_{\rm rad}$ that would be necessary to transport the whole flux by radiation:
+The radiation pressure gradient is given by 
 
 \begin{align*}
-    F_{\rm rad} + F_{\rm con} = \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla_{\rm rad} ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = -\frac{\kappa\rho}{c}F_{\rm rad} ~ [{\rm P\,m}],
 \end{align*}
 
-{\noindent}However, part of the flux is transported by convection. If the actual gradient of the stratification is $\nabla$, then the radiative flux is only
+{\noindent}where $F_{\rm rad}$ is the outward radiative flux. The radiation pressure may also be expressed as
 
 \begin{align*}
-    F_{\rm rad} = \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+    \frac{{\rm d}P_{\rm rad}}{{\rm d}r} = \frac{4}{3} aT^3 \frac{{\rm d}T}{{\rm d}r} ~ [{\rm P\,m}].
 \end{align*}
 
-{\noindent}Note that $\nabla$ is not yet known; in fact, we hope to obtain it as the result of this consideration. The first step is to derive an expression for $F_{\rm con}$.
-
-{\noindent} Consider a convective element (a blob) with an excess temperature $\Delta T$ over its surroundings. It moves radially with velocity $v$ and remains in complete balance of pressure, that is, $\Delta T=0$. This gives a local flux of convective energy
+{\noindent}Equating the two, we have
 
 \begin{align*}
-    F_{\rm con} = \rho vc_P\Delta T ~ [{\rm erg\,s^{-1}\,cm^{-2}}],
+    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}F_{\rm rad} ~ [{\rm K\,m^{-1}}].
 \end{align*}
 
-{\noindent}which we can take immediately as the correct equation for the average convective flux, if we consider $v\Delta T$ replaced by the proper mean over the whole concentric sphere. One should be aware that this ``proper mean'' comprises most of the difficulties for a strict treatment. We adopt the following simple model.
-
-{\noindent}All elements may have started their motion as very small perturbations only, that is, with initial values that can be approximated by $\Delta T_0=0$ and $v_0=0$. Because of differences in temperature gradients and buoyancy forces, $\Delta T$ and $v$ increase as the element rises (or sinks) until, after moving over a distance $\ell_m$, the element mixes with the surroundings and loses its identity. $\ell_m$ is called the \textbf{mixing length}. The elements passing at a given moment through a sphere of constant $r$ will have different values of $v$ and $\Delta T$ since they have started their motion at quite different distances, from zero to $\ell_m$. We assume, therefore, that the ``average'' element has moved $\ell_m/2$ when passing through the sphere. Then,
+{\noindent}If we use the expression for the radiative flux written in terms of the local radiative luminosity of the star at radius $r$, 
 
 \begin{align*}
-    \frac{\Delta T}{T} &= \frac{1}{T} \frac{\partial(\Delta T)}{\partial r} \frac{\ell_m}{2} \\
-    &= (\nabla-\nabla_e)\frac{\ell_m}{2}\frac{1}{H_P} ~ [{\rm dimensionless}].
+    F_{\rm rad} = \frac{L_r}{4\pi r^2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}],
 \end{align*}
 
-{\noindent}The density difference is simply $\Delta \rho/\rho=-\delta\Delta T/T$ and the (radial) buoyancy force (per unit mass), $k_r=-g\Delta\rho/\rho$. On average, half of this value may have acted on the element over the whole of its preceding motion ($\ell_m/2$); such that the work done is
+{\noindent}the temperature gradient for radiative transport becomes
 
 \begin{align*}
-    \frac{1}{2}k_r\frac{\ell_m}{2} = g\delta(\nabla-\nabla_e)\frac{\ell_m^2}{8H_P} ~ [{\rm J}].
+    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\kappa\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}].
 \end{align*}
 
-{\noindent}Let us suppose that half of this work goes into the kinetic energy of the element $v^2/2$ per unit mass), while the other half is transferred to the surroundings, which have to be ``pushed aside''. Then, we have for the average velocity $v$ of the elements passing our sphere
+{\noindent}As either the flux or the opacity increases, the temperature gradient must become steeper (i.e., more negative) if radiation transport is to carry all of the required luminosity outward. The same situation holds as the density increases or the temperature increases.
+
+{\noindent}We now consider a situation where a hot convective bubble of gas rises and expands \textbf{adiabatically}, meaning that the bubble does not exchange heat with its surroundings. After it has travelled some distance, it finally \textbf{thermalizes}, giving up any excess heat as it loses its identity and dissolves into the surrounding gas. Differentiating the \textbf{ideal gas law}
 
 \begin{align*}
-    v^2 = g\delta(\nabla-\nabla_e)\frac{\ell_m^2}{8H_P} ~ [{\rm m^2\,s^{-2}}].
+    P = \frac{\rho k_BT}{\mu m_{\rm H}} ~ [{\rm P}]
 \end{align*}
 
-{\noindent}Inserting this and $\Delta T/T$ into $F_{\rm conv}$, we obtain for the average convective flux
+{\noindent}yields an expression involving the bubble's \textbf{temperature gradient}
 
 \begin{align*}
-    F_{\rm conv} = \rho c_PT\sqrt{g\delta}\frac{\ell_m^2}{4\sqrt{2}} H_P^{-3/2}(\nabla-\nabla_e)^{3/2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}].
+    \frac{{\rm d}P}{{\rm d}r} = -\frac{P}{\mu}\frac{{\rm d}\mu}{{\rm d}r} + \frac{P}{\rho}\frac{{\rm d}\rho}{{\rm d}r} + \frac{P}{T}\frac{{\rm d}T}{{\rm d}r}.
 \end{align*}
 
-{\noindent}Finally, we shall consider the change of temperature $T_e$ inside the element (diameter $d$, surface $S$, volume $V$) when it moves with velocity $v$. This change has two causes, one being the adiabatic expansion (or compression), and the other being the radiative exchange of energy with the surroundings. The total energy loss $\lambda$ per unit time is given by
+{\noindent}Using the adiabatic relationship between pressure and density
 
 \begin{align*}
-    \lambda = Sf = \frac{8acT^3}{3\kappa\rho}\Delta T\frac{S}{d}.
+    PV^\gamma = K ~ [{\rm P\,m^3}]
 \end{align*}
 
-{\noindent}The quantity $\lambda$ is a sort of ``luminosity'' of the blob, and it determines the rate by which the thermal energy of the blob of volume $V$ changes:
+{\noindent}and recalling that $V\equiv1/\rho$ is the \textbf{specific volume}, we have that
 
 \begin{align*}
-    \rho Vc_P \frac{\partial T}{\partial t} = -\lambda.
+    P = K\rho^\gamma ~ [{\rm P}].
 \end{align*}
 
-The corresponding temperature decrease per unit length over which the element rises is $\lambda/\rho Vc_Pv$, and the total change per unit length is then
+{\noindent}Differentiating and re-writing, we obtain
 
 \begin{align*}
-    \left(\frac{{\rm d}T}{{\rm d}r}\right)_e = \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} - \frac{\lambda}{\rho Vc_Pv}.
+    \frac{{\rm d}P}{{\rm d}r} = \gamma \frac{P}{\rho}\frac{{\rm d}\rho}{{\rm d}r} ~ [{\rm P\,m^{-1}}].
 \end{align*}
 
-{\noindent}Multiplying this by $H_P/T$, we have
+{\noindent}If we assume for simplicity that the mean molecular weight $\mu$ is constant, we can combing equations for ${\rm d}P/{\rm d}r$ to give the \textbf{adiabatic temperature gradient}
 
 \begin{align*}
-    \nabla_e-\nabla_{\rm ad} = \frac{\lambda H_P}{\rho Vc_PvT}.
+    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{T}{P}\frac{{\rm d}P}{{\rm d}r} ~ [{\rm K\,m^{-1}}].
 \end{align*}
 
-{\noindent}Here, $\lambda$ may be replaced by the equation we have for $\lambda$ above, with the average $\Delta T$ given by the equation for $\Delta T/T$ also provided above. The resulting equation then contains a ``form factor'' $\ell_mS/Vd$, which would be $6/\ell_m$ for a sphere of diameter $\ell_m$: In the literature, one often finds 
+{\noindent}Using the equation of \textbf{hydrostatic equilibrium}
 
 \begin{align*}
-    \frac{\ell_mS}{Vd} \approx \frac{9/2}{\ell_m},
+    \frac{{\rm d}P}{{\rm d}r} = -\frac{GM_r\rho}{r^2} = -\rho g ~ [{\rm P\,m^{-1}}], ~~~ g \equiv \frac{GM_r}{r^2} ~ [{\rm m\,s^{-2}}]
 \end{align*}
 
-{\noindent}which we will use in the following.
-
-{\noindent}This equation along with that of ($\nabla_e-\nabla_{\rm ad}$) and $\lambda$ then becomes
+{\noindent}and the ideal gas law, we finally obtain
 
 \begin{align*}
-    \frac{\nabla_e-\nabla_{\rm ad}}{\nabla-\nabla_e} = \frac{6acT^3}{\kappa\rho^2c_P\ell_mv}.
+    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = \left(1-\frac{1}{\gamma}\right) \frac{\mu m_{\rm H}}{k}\frac{GM_r}{r^2} ~ [{\rm K\,m^{-1}}].
 \end{align*}
 
-{\noindent}Let us now summarize what we have achieved and describe what is still lacking. To start with the latter, we have obviously not yet used any physics that could determine the mixing length $\ell_m$. Since we do not know a reasonable approach for this, we shall simply treat it as a free parameter and make (more or less) plausible assumptions for its value (This is typical for all versions of the mixing-length approach and in fact also for many others that seem to be less arbitrary at a first glance.). In any case, the heat transfer mainly operates via the largest possible elements, and they can scarcely move over much more than their own diameter before differential forces destroy their identity.
-
-{\noindent}Now, however, the prospect looks quite favourable: we have obtained the five equations which we can solve for the five quantities $F_{\rm rad}$, $F_{\rm con}$, $v$, $\nabla_e$, and $\nabla$:
+{\noindent}If the star's actual temperature gradient is \textit{steeper} than the adiabatic temperature gradient,
 
 \begin{align*}
-    F_{\rm rad} + F_{\rm con} &= \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla_{\rm rad} ~ [{\rm erg\,s^{-1}\,cm^{-2}}] \\
-    F_{\rm rad} &= \frac{4acG}{3}\frac{mT^4}{\kappa Pr^2} \nabla ~ [{\rm erg\,s^{-1}\,cm^{-2}}] \\
-    v^2 &= g\delta(\nabla-\nabla_e)\frac{\ell_m^2}{8H_P} ~ [{\rm m^2\,s^{-2}}] \\
-    F_{\rm conv} &= \rho c_PT\sqrt{g\delta} \frac{\ell_m^2}{4\sqrt{2}} H_P^{-3/2}(\nabla-\nabla_e)^{3/2} ~ [{\rm erg\,s^{-1}\,cm^{-2}}] \\
-    \frac{\nabla_e-\nabla_{\rm ad}}{\nabla-\nabla_e} &= \frac{6acT^3}{\kappa\rho^2c_P\ell_mv},
+    \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm act} > \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm ad} ~ [{\rm K\,m^{-1}}],
 \end{align*}
 
-{\noindent}if the usual local quantities ($P$, $T$, $\rho$, $L$, $m$, $c_P$, $\nabla_{\rm ad}$, $\nabla_{\rm rad}$, and $g$) are given.
+{\noindent}the temperature gradient is said to be \textbf{super-adiabatic} (recall that ${\rm d}T/{\rm d}r<0$). In the deep interior of a star, if the actual temperature gradient is just \textit{slightly} larger than the adiabatic temperature gradient, this may be sufficient to carry nearly all of the luminosity by convection. Consequently, it is often the case that either radiation or convection dominates the energy transport in the deep interior of stars, while the other energy transport mechanism contributes very little to the total energy outflow. The particular mechanism in operation is determined by the temperature gradient. However, near the surface of the star, the situation is much more complicated: both radiation and convection can carry significant amounts of energy simultaneously.
+
+{\noindent}This condition for convection can be used to find another useful relation. Since ${\rm d}T/{\rm d}r<0$and $1/\gamma-1<0$ (recall that $\gamma>1$),
+
+\begin{align*}
+    \frac{T}{P}\left(\frac{{\rm d}T}{{\rm d}r}\right)^{-1} \frac{{\rm d}P}{{\rm d}r} < -\frac{1}{\gamma^{-1}-1} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}which may be simplified to give
+
+\begin{align*}
+    \frac{T}{P}\frac{{\rm d}P}{{\rm d}T} < \frac{\gamma}{\gamma-1} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}or, for convection to occur,
+
+\begin{align*}
+    \frac{{\rm d}\ln P}{{\rm d}\ln T} < \frac{\gamma}{\gamma-1} ~ [{\rm P\,K^{-1}}].
+\end{align*}
+
+{\noindent}For an ideal monatomic gas, $\gamma=5/3$ and convection will occur in some region of a star when ${\rm d}\ln P/{\rm d}\ln T<2.5$. In that case, the temperature gradient (${\rm d}T/{\rm d}r$) is given approximately by 
+
+\begin{align*}
+    \left(\frac{{\rm d}T}{{\rm d}r}\right)_{\rm ad} = -\left(1-\frac{1}{\gamma}\right) \frac{\mu m_{\rm H}}{k} \frac{GM_r}{r^2} ~ [{\rm K\,m^{-1}}].
+\end{align*}
+
+{\noindent}By comparing this with the temperature gradient for radiative transport
+
+\begin{align*}
+    \frac{{\rm d}T}{{\rm d}r} = - \frac{3}{4ac} \frac{\bar{\kappa}\rho}{T^3} \frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}]
+\end{align*}
+
+{\noindent}together with the condition for convection written in terms of the temperature gradient, 
+
+\begin{align*}
+    \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm act} > \left\lvert\frac{{\rm d}T}{{\rm d}r}\right\rvert_{\rm ad} ~ [{\rm K\,m^{-1}}],
+\end{align*}
+
+{\noindent}it is possible to develop some understanding of which conditions are likely to lead to convection over radiation. In general, convection will occur when
+
+\begin{enumerate}
+    \item the stellar opacity is large, implying that an unchievably steep temperature gradient would be necessary for radiative transport;
+    \item a region exists where ionization is occurring, causing a large specific heat and a low adiabatic temperature gradient; and
+    \item the temperature dependence of the nuclear energy generation rate is large, causing a steep radiative flux gradient and a large temperature gradient.
+\end{enumerate}
+
+{\noindent}In the atmosphere of many stars, the first two conditions can occur simultaneously, whereas the third condition would occur only deep in stellar interiors. In particular, the third condition can occur when the highly temperature-dependent CNO cycle or triple alpha processes are occurring.
 
 {\noindent}\textbf{Convective regions}: Knowledge of the extension of convective regions is very important in view of their influence on the ensuing chemical evolution. A rough overview can be obtained from Fig. 22.7, where $m/M$ and $\log M/{\rm M_\odot}$ are ordinate and abscissa. For any given stellar mass $M$ along a line parallel to the ordinate it is indicated what conditions we would encounter when drilling a radial borehole from the surface to the centre. In particular, one can see whether the corresponding mass elements are convective or radiative. Aside from the stars of smallest mass ($M<0.25\,{\rm M_\odot}$), we can roughly distinguish between two types of models:
 
@@ -1264,6 +1213,55 @@ The corresponding temperature decrease per unit length over which the element ri
 {\noindent}Outer convective envelopes can generally be expected to occur in stars of low effective temperature. When studying the different gradients in the outer layers of cool stars (Figure \ref{fig:delT}a), one finds a variety of complicated details. The variation of $\nabla_{\rm ad}$ clearly shows depressions in those regions where the most abundant elements, hydrogen ($T\gtrsim10^4\,{\rm K}$) and helium ($T\approx10^5\,{\rm K}$), are partially ionized. The most striking feature is that $\nabla_{\rm rad}$ reaches enormous values (more than $10^5$. This is due to the large opacity $\kappa$, which here increases by several powers of 10. Therefore the Schwarzschild criterion indicates convective instability: the models have an outer convective zone. In the largest part of it, the density is so high that convection is very effective and the actual gradient $\nabla$ is close to $\nabla_{\rm ad}$. Convective transport becomes ineffective only in the outermost, super-adiabatic part, where $\nabla$ is clearly above $\nabla_{\rm ad}$. Scarcely anything of all these features appears in the hot envelope of the $10\,{\rm M_\odot}$ star (Figure \ref{fig:delT}b). $\nabla_{\rm rad}$ remains nearly at the same level; even the photosphere is too hot for hydrogen to be neutral, and only the small dip from the second He ionization is seen immediately below the photosphere. This causes such a shallow zone with convective instability that only for special cases, depending on the detailed chemical composition, convective motions set it.
 
 {\noindent}The outer convection zone gradually penetrates deeper into the star with decreasing $T_{\rm eff}$. Its lower border finally reaches the centre at $M\lesssim0.25\,{\rm M_\odot}$ (left end of Figure \ref{fig:convectiveregions}), such that the main-sequence stars of even smaller masses are fully convective.
+
+{\noindent}\textbf{The present-day interior structure of the Sun}: Consistent with the current age of the Sun, a \textbf{solar model} may be constructed for the present-day Sun. Table \ref{table:solarconditions} gives the values of the central temperature, pressure, density, and composition for one such solar model, and a schematic diagram of the model is shown in Figure \ref{fig:solarinterior}. According to the evolutionary sequence leading to this model, during its lifetime the mass fraction of hydrogen ($X$) in the Sun's center has decreased from its initial value of $0.71$ to $0.34$, while the central mass fraction of helium ($Y$) has increased from $0.27$ to $0.64$. In addition, due to diffusive settling of elements heavier than hydrogen, the mass fraction of hydrogen near the surface has increased by approximately $0.03$, while the mass fraction of helium has decreased by $0.03$.
+
+\begin{table}[t]
+\floatbox[\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=5cm}]{table}
+{\caption{Central conditions in the Sun. (Data from Bahcall, Pinsonneault, and Basu, Ap. J., 555, 990, 2001.) Table taken from Carrol \& Ostlie (2007).}\label{table:solarconditions}}%
+{\begin{tabular}{ll}
+\hline
+ Temperature & $1.57\times10^7{\rm K}$ \\
+ Pressure    & $2.342\times10^{16}\,{\rm N\,m^{-2}}$ \\
+ Density     & $1.527\times10^5\,{\rm kg\,m^{-3}}$ \\
+ $X$         &  $0.3397$ \\
+ $Y$         & $0.6405$ \\
+ \hline
+\end{tabular}}
+\end{table}
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\Figure taken from \href{https://web.njit.edu/~gary/321/Lecture9.html}{https://web.njit.edu/~gary/321/Lecture9.html}.}}
+    \label{fig:solarinterior}}
+    {\includegraphics[width=6cm]{figures/SolarInterior.png}}
+\end{figure}
+
+{\noindent}Because of the Sun's past evolution, its composition is no longer homogeneous but instead shows the influence of ongoing nucleosynthesis, surface convection, and elemental diffusion (i.e., settling of heavier elements). The composition structure of the Sun is shown in Figure \ref{fig:solarinterior} for $_1^1$H, $^3_2$He, and $^4_2$He. Since the Sun's primary energy production mechanism is the pp chain, $^3_2$He is produced and then destroyed again. At the top of the hydrogen burning region where the temperature is lower, $^3_2$He is relatively more abundant because it is produced more easily than it is destroyed. At greater depths, the higher temperatures allow the $^3_2$He-$^3_2$He interactions to proceed more rapidly, and the $^3_2$He abundance again decreases (the temperature profile of the Sun is shown in Figure \ref{fig:massfracrad}). The slight ramp in the $^1_1$H and $^4_2$He curves near $0.7\,{\rm R_\odot}$ reflects evolutionary changes in the position of the base of the surface convection zone, combined with the effects of elemental diffusion. Within the convection zone, turbulence results in essentially complete mixing and a homogenous composition. The base of the present-day convection zone is at $0.714\,{\rm R_\odot}$.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\The abundance of $^1_1$H, $^3_2$He, and $^4_2$He as a function of radius for the Sun. Note that the abundance of $^3_2$He is multiplied by a factor of $100$. (Data from Bahcall, Pinsonneault, \& Basu, Ap. J., 555, 990, 2001.) Figure adapted from Carrol \& Ostlie (2007).}}
+    \label{fig:massfracrad}}
+    {\includegraphics[width=12cm]{figures/MassFractionRadius.png}}
+\end{figure}
+
+{\noindent}Figure HERE shows ${\rm d}\ln P/{\rm d}\ln T$ versus $r/{\rm R_\odot}$. As can be seen, the Sun is purely radiative below $r/{\rm D_\odot}=0.714$ and becomes convective above that point. Physically this occurs because the opacity in the outer portion of the Sun becomes large enough to inhibit the transport of energy by radiation; recall that the radiative temperature gradient is proportional to the opacity:
+
+\begin{align*}
+    \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\bar{\kappa}\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}].
+\end{align*}
+
+{\noindent}When the temperature gradient becomes too large, convection becomes the more efficient means of energy transport. Throughout most of the region of convective energy transport, ${\rm d}\ln P/{\rm d}\ln T\simeq2.5$, which is characteristic of the nearly adiabatic temperature gradient of most convection zones. The rapid rise in ${\rm d}\ln P/{\rm d}\ln T$ above $0.95\,{\rm R_\odot}$ is due to the significant departure of the actual temperature gradient from the adiabatic one. In this case convection must be described by a more detailed treatment, such as \textbf{mixing length theory}.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\The convection condition ${\rm d}\ln P/{\rm d}\ln T$ plotted versus $r/{\rm R_\odot}$. The dashed horizontal line represents the boundary between adiabatic convection and radiation for an ideal monatomic gas. The onset of convection does not exactly agree with the ideal adiabatic case because of the incorporation of a sophisticated equation of state and a more detailed treatment of convection physics. The rapid rise in ${\rm d}\ln P/{\rm d}\ln T$ near the surface is associated with a highly super-adiabatic nature of convection in that region (i.e., the adiabatic approximation that convection occurs when ${\rm d}\ln P/{\rm d}\ln T<2.5$ is invalid near the surface of the Sun.) [${\rm d}\ln P/{\rm d}\ln T$ was computed using data from Bahcall, Pinsonneault, and Basu, Ap. J., 555, 990, 2001. The data for the zones above $0.95\,{\rm R_\odot}$ are from Cox, Arthur N. (editor), Allen's Astrophysical Quantities, Fourth Edition, AIP Press, New York, 2000.] Figure adapted from Carrol \& Ostlie (2007).}}
+    \label{fig:solarconvection}}
+    {\includegraphics[width=12cm]{figures/SolarConvection.png}}
+\end{figure}
+
+{\noindent}Notice that ${\rm d}\ln P/{\rm d}\ln T$ also decreases to almost $2.5$ at the center of the Sun. Although the Sun remains purely radiative at the center, the large amounts of energy that must be transported outward pushes the temperature gradient in the direction of becoming super-adiabatic. Stars only slightly more massive than the Sun are convective in their centers because of the stronger temperature dependence of the CNO cycle as compared to the pp chain. 
 
 \subsubsection{Follow-up Questions}
 
