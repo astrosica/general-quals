@@ -588,7 +588,7 @@ Some classifications of stellar pulsations include:
 \begin{itemize}
     \item \textbf{Cepheids}: 
     \item \textbf{RR Lyrae variables}: 
-    \item \textbf{Mira variables}: 
+    \item \textbf{Mira variables}: The Mira variable stars are defined as M-type stars with periods of 80 – 1000 days and amplitudes greater than 2.5 magnitudes. The spectra of these giant pulsating stars show dramatic changes during the pulsation cycle, and even show spectral differences from cycle to cycle. Shock waves in the pulsating atmospheres of these stars produce emission lines in their spectra. The hydrogen lines are usually in emission, with the emission strength increasing toward maximum light, although the Balmer decrement is quite often unusual.
 \end{itemize}
 
 {\noindent}For a star to begin and continue to pulsate, there must be some mechanism which converts radiant energy into energy of motion in a timely way, overcoming friction and building up the motion. Such a mechanism can exist in a star: it is the thermodynamic effect of an ionization zone in a star. In a star of moderate surface temperature, the layers below the surface have temperatures up to a few tens of thousands of degrees. The helium tends to be singly-ionized; it has lost one of its two electrons but not the second. If the star contracts, it heats slightly which causes the helium to lose its second electron. This requires energy which comes from the radiation flowing outward through the gas; it is absorbed by the opacity of the gas. The energy then becomes stored in the form of ionization energy. When the star subsequently expands and cools, the electrons recombine with the helium atoms, and release the stored-up ionization energy. This is the `push' which maintains the pulsation in all of the pulsating stars in the Cepheid instability strip.
@@ -828,7 +828,7 @@ Describe the condition for a star's envelope to become convective. Why are low m
 
 {\noindent}In the atmosphere of many stars, the first two conditions can occur simultaneously, whereas the third condition would occur only deep in stellar interiors. In particular, the third condition can occur when the highly temperature-dependent CNO cycle or triple alpha processes are occurring.
 
-{\noindent}The base of the present-day convection zone is at $0.714\,{\rm R_\odot}$. Although the Sun remains purely radiative at the center, the large amounts of energy that must be transported outward pushes the temperature gradient in the direction of becoming super-adiabatic. Stars only slightly more massive than the Sun are convective in their centers because of the stronger temperature dependence of the CNO cycle as compared to the pp chain.
+{\noindent}The Sun is purely radiative below $r/{\rm D_\odot}=0.714$ and becomes convective above that point. Physically this occurs because the opacity in the outer portion of the Sun becomes large enough to inhibit the transport of energy by radiation Stars only slightly more massive than the Sun are convective in their centers because of the stronger temperature dependence of the CNO cycle as compared to the pp chain.
 
 \subsubsection{Additional context}
 
@@ -1246,7 +1246,7 @@ The radiation pressure gradient is given by
     {\includegraphics[width=12cm]{figures/MassFractionRadius.png}}
 \end{figure}
 
-{\noindent}Figure HERE shows ${\rm d}\ln P/{\rm d}\ln T$ versus $r/{\rm R_\odot}$. As can be seen, the Sun is purely radiative below $r/{\rm D_\odot}=0.714$ and becomes convective above that point. Physically this occurs because the opacity in the outer portion of the Sun becomes large enough to inhibit the transport of energy by radiation; recall that the radiative temperature gradient is proportional to the opacity:
+{\noindent}Figure \ref{fig:solarconvection} shows ${\rm d}\ln P/{\rm d}\ln T$ versus $r/{\rm R_\odot}$. As can be seen, the Sun is purely radiative below $r/{\rm D_\odot}=0.714$ and becomes convective above that point. Physically this occurs because the opacity in the outer portion of the Sun becomes large enough to inhibit the transport of energy by radiation; recall that the radiative temperature gradient is proportional to the opacity:
 
 \begin{align*}
     \frac{{\rm d}T}{{\rm d}r} = -\frac{3}{4ac}\frac{\bar{\kappa}\rho}{T^3}\frac{L_r}{4\pi r^2} ~ [{\rm K\,m^{-1}}].
@@ -1511,11 +1511,61 @@ Sketch the SED of an O, A, G, M, and T star. Give defining spectral characterist
 
 \subsubsection{Short answer}
 
-Answer.
+{\noindent}Figure \ref{fig:stellarspec_og} shows the spectral sequence from the hottest \textbf{early-type stars}, the O-type stars to spectral type G2. Figure \ref{fig:stellarspec_gm} shows the spectral sequence from the coolest \textbf{late-type} stars, the G2-type stars to spectral type M4.5. Figure \ref{fig:tdwarf} shows the spectrum of a typical mid-T dwarf from the red to the mid-infrared. In the red, the SED is shaped by the very extensive wings of the KI resonance line; in the far red and infrared, the most prominent features are due to CH$_4$ and H$_2$O. Indeed, T dwarfs are distinguished from the L dwarfs by the presence of CH$_4$ absorption in their near-infrared and infrared spectra. All T dwarfs are brown dwarfs.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/StellarSpectra_OG.png}
+    \caption{\footnotesize{The Main Sequence from O4 to G2, the ``early-type'' stars. Figure taken from Gray (2009).}}
+    \label{fig:stellarspec_og}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/StellarSpectra_GM.png}
+    \caption{\footnotesize{The Main Sequence from G2 to M4.5, the ``late-type'' stars. Figure taken from Gray (2009).}}
+    \label{fig:stellarspec_gm}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{figures/Tdwarf.png}
+    \caption{\footnotesize{The spectrum of a mid-T dwarf spanning the wavelengths $0.63-15\,\mu{\rm m}$. Prominent atomic and molecular features are labeled. Reproduced from Stellar Spectral Classification, courtesy Adam Burgasser. Figure taken from Gray (2009).}}
+    \label{fig:tdwarf}
+\end{figure}
+
+\newpage
 \subsubsection{Additional context}
 
-Additional context.
+The spectra of early-type stars are dominated by the Balmer lines of hydrogen. Note how they increase in strength and reach a maximum at A2, and then fade thereafter. The O- and B-type stars are characterized by lines of helium; the A-, F-, and
+G-type stars are characterized by lines of metals. The O-type stars constitute the hottest normal stars, and are characterized by moderately weak hydrogen lines, lines of neutral helium (HeI) and by lines of singly ionized helium (HeII). The spectral type can be judged easily by the ratio of the strengths of lines of HeI to HeII; HeI tends to increase in strength with decreasing temperature while HeII decreases in strength. The ratio HeI $4471$\AA\,to HeII $4542$\AA\,shows this trend clearly. As we move toward later (cooler) types, the helium lines continue to fade until they essentially disappear in spectra of this resolution ($1.8$\AA) at a spectral type of about A0.
+
+{\noindent}The definition of the break between the O-type stars and the B-type stars is the absence of lines of ionized helium (HeII) in the spectra of B-type stars. The lines of HeI pass through a maximum at approximately B2, and then decrease in strength towards later (cooler) types. Were it not for the presence of helium peculiarities in both the early and late B-type stars, the behavior of HeI would be sufficient to accurately estimate the spectral type in the B-type stars. However, because of these peculiarities, the spectral type in the early B-type stars is, instead, estimated on the basis of ratios of lines of silicon ions. For instance, between B0 and B1 (an interval which can be divided into B0, B0.2, B0.5, B0.7 and B1 classes), the SiIV $4089$\AA/SiIII $4552$\AA\,ratio may be used. Between B1 and B3 the SiIII $4552$\AA/SiII $4128.32$\AA\,ratio may be used.
+
+{\noindent}The \textbf{Be stars} are B-type stars that are characterized (or have been characterized in the past) by emission in one or more of the Balmer lines of hydrogen, sometimes accompanied by emission in lines of singly ionized metals, most commonly FeII. The Be class excludes B-type supergiants, as well as pre main-sequence stars such as the Herbig Ae/Be stars. Many Be stars may be classified without difficulty on the MK system, although the more extreme present significant difficulties. An extension to the MK system was introduced for the Be stars comprised of an \textbf{e index} (e1 $\rightarrow$ e4, in direction of increasing emission-line strength). Some typical Be spectra are illustrated in Figure \ref{fig:be}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm]{figures/Be.png}
+    \caption{\footnotesize{A selection of Be stars compared with a B2V secondary standard, HD 145482. The spectral types are on the Lesh (1968) system. Spectra from the Paranal Observatory spectral library. Figure taken from Gray (2009).}}
+    \label{fig:be}
+\end{figure}
+
+{\noindent}Near a spectral type of A0, the primary luminosity criterion is the progressive widening and strengthening of the hydrogen lines with decreasing luminosity. The hydrogen lines reach a maximum in the A-type stars. The CaII K-line increases significantly in strength through the A-type stars, and its absolute strength, or, more usefully, its ratio with H$\epsilon$ or H$\delta$ is a sensitive indicator of the temperature type, although one that is dependent on the metallicity. The general metallic-line spectrum also increases in strength through the A-type stars. These three criteria give a consistent temperature type in the normal A-type stars. Any disagreement between these three criteria indicates the star is peculiar in some way. \textbf{Ap stars} are A-type (actually more commonly late B-type) stars that show significant enhancements of certain elements. \textbf{Herbig Ae stars} generally show emission in the H$\alpha$ line (outside of the spectral range of most of the spectra used in this atlas), and quite often emission in H$\beta$ and even H$\gamma$. Many Herbig Ae stars are still contracting to the main sequence, and are thus either still surrounded by remnants of their stellar cocoons, or have developed massive stellar winds.
+
+{\noindent}Metallic-line A-type stars, or, for short, \textbf{Am stars}, are defined as stars that show a difference between the K-line type and the metallic-line type. Many Am stars show the \textbf{anomalous luminosity effect} in which the luminosity criteria in certain spectral regions (in particular, the region from $4077$\AA$-4200$\AA) may indicate a giant or even a supergiant luminosity, whereas other regions indicate a dwarf luminosity or even lower.
+
+{\noindent}The hydrogen lines continue to weaken through the F-type stars, and the CaII K-line strengthens, although it becomes essentially saturated by the late F-type stars. The general strength of the metallic-line spectrum grows dramatically. Around F2, depending upon the resolution of the spectrum, the G-band makes its first appearance. The G-band is a molecular band, composed of thousands of closely spaced lines due to the diatomic molecule CH. By F0, the hydrogen lines have lost most of their sensitivity to luminosity. Note, however, that they can still be used to distinguish the supergiant classes from lower luminosities. Near F0, the luminosity class is estimated from the strength of lines due to ionized iron and titanium. By F8, the hydrogen lines have lost all sensitivity to luminosity, and it is now necessary to rely solely on lines and blends of ionized species.
+
+{\noindent}Later than G0 along the main sequence, the hydrogen lines continue to fade, while the strength of the general metallic-line spectrum continues to increase. The G-band also increases in strength until the early K-type stars (about K3), and then begins to fade.
+
+{\noindent}Molecular features first appear in the spectra of F-type main sequence stars and grow to dominate the spectra of the late-type stars, especially those of types K and M. The main sequence does not end at M4.5, but continues through the late M-, the L- and the T-type dwarfs, a sequence that spans the transition from hydrogen-burning dwarf stars to brown dwarfs. Visible in a number of stars is a broad, shallow depression, centered near $4430$\AA. This is an example of a diffuse interstellar band, probably due to molecules in the
+ISM between us and the star. A number of G and K-type giants show either strong or weak molecular bands involving
+carbon.
+
+{\noindent}Almost all barium-rich stars are members of binary systems in which the companion is a white dwarf. It is believed that the enhanced abundances of s-process elements, such as barium, were gained from the companion star when it was on the AGB. The mass transfer came about either through \textbf{Roche-lobe overflow} or wind accretion. The \textbf{s-process elements} are the result of slow neutron capture, which occurs only at advanced stages of nuclear burning.
+
+{\noindent}Notice that H$\beta$ is in emission in the M4.5 star; many M dwarfs have active chromospheres and exhibit strong flares many times more energetic than solar flares. One of the manifestations of this is emission in the hydrogen lines.
 
 \subsubsection{Follow-up Questions}
 
@@ -1692,6 +1742,8 @@ Additional context.
     \item Opacity, Huebner \& Barfield (2014)
     \item Radiative Processes in Astrophysics, Rybicky \& Lightman (1979)
     \item Understanding Variable Stars, Percy (2007)
+    \item A Library of Stellar Spectra; Jacoby \& Hunter (1984)
+    \item A Digital Spectral Classification Atlas; Gray (2009)
 \end{itemize}
 
 \end{document}

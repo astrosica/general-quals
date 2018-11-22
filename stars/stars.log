@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 NOV 2018 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 NOV 2018 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -914,7 +914,11 @@ LaTeX Warning: Command \r invalid in math mode on input line 477.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [17] [18]
+ [17]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [18]
 <figures/NonradialPulsations.png, id=306, 865.2325pt x 395.4775pt>
 File: figures/NonradialPulsations.png Graphic file (type png)
 
@@ -922,12 +926,12 @@ File: figures/NonradialPulsations.png Graphic file (type png)
 Package pdftex.def Info: figures/NonradialPulsations.png used on input line 618
 .
 (pdftex.def)             Requested size: 398.33858pt x 182.07271pt.
- [19 <./figures/NonradialPulsations.png>]
+ [19] [20 <./figures/NonradialPulsations.png>]
 Underfull \hbox (badness 1067) in paragraph at lines 645--645
 []\OT1/cmr/m/n/10 Figure 9: |\OT1/cmr/m/n/8 Di-a-gram show-
  []
 
-<figures/VariableZones.png, id=315, 809.0225pt x 592.2125pt>
+<figures/VariableZones.png, id=319, 809.0225pt x 592.2125pt>
 File: figures/VariableZones.png Graphic file (type png)
 
 <use figures/VariableZones.png>
@@ -952,10 +956,6 @@ File: figures/VariableZones.png Graphic file (type png)
 Package pdftex.def Info: figures/VariableZones.png used on input line 645.
 (pdftex.def)             Requested size: 227.62204pt x 166.61357pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20]
 Underfull \hbox (badness 1484) in paragraph at lines 656--656
 \OT1/cmr/m/n/8 on the HR di-a-gram. The
  []
@@ -965,7 +965,7 @@ Underfull \hbox (badness 1418) in paragraph at lines 656--656
 \OT1/cmr/m/n/8 in-sta-bil-ity re-gions along the
  []
 
-<figures/HR_pulsating.png, id=322, 527.9725pt x 771.88374pt>
+<figures/HR_pulsating.png, id=321, 527.9725pt x 771.88374pt>
 File: figures/HR_pulsating.png Graphic file (type png)
 
 <use figures/HR_pulsating.png>
@@ -1004,7 +1004,7 @@ Underfull \hbox (badness 1215) in paragraph at lines 667--667
 \OT1/cmr/m/n/8 Cepheid pul-sa-tion in-sta-bil-ity
  []
 
-<figures/InstStripEvol.png, id=323, 617.30624pt x 798.985pt>
+<figures/InstStripEvol.png, id=322, 617.30624pt x 798.985pt>
 File: figures/InstStripEvol.png Graphic file (type png)
 
 <use figures/InstStripEvol.png>
@@ -1219,7 +1219,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 1261--1261
 \OT1/cmr/m/n/8 Quan-ti-ties, Fourth Edi-tion,
  []
 
-<figures/SolarConvection.png, id=449, 942.52126pt x 735.74875pt>
+<figures/SolarConvection.png, id=451, 942.52126pt x 735.74875pt>
 File: figures/SolarConvection.png Graphic file (type png)
 
 <use figures/SolarConvection.png>
@@ -1376,7 +1376,7 @@ Overfull \hbox (13.3333pt too wide) detected at line 1261
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ² in font cmr10!
 
-<figures/TempDependence.png, id=465, 948.54375pt x 330.23375pt>
+<figures/TempDependence.png, id=466, 948.54375pt x 330.23375pt>
 File: figures/TempDependence.png Graphic file (type png)
 
 <use figures/TempDependence.png>
@@ -1386,7 +1386,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no Š in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [39 <./figures/TempDependence.png>] [40]
-[41] <figures/SolarQuantities.png, id=485, 741.77126pt x 258.9675pt>
+[41] <figures/SolarQuantities.png, id=486, 741.77126pt x 258.9675pt>
 File: figures/SolarQuantities.png Graphic file (type png)
 
 <use figures/SolarQuantities.png>
@@ -1402,7 +1402,7 @@ Underfull \hbox (badness 3872) in paragraph at lines 1477--1477
 \OT1/cmr/m/n/8 dicted from the the-o-ret-i-cal
  []
 
-<figures/NeutrinoSpectrum.png, id=495, 730.73pt x 473.77pt>
+<figures/NeutrinoSpectrum.png, id=496, 730.73pt x 473.77pt>
 File: figures/NeutrinoSpectrum.png Graphic file (type png)
 
 <use figures/NeutrinoSpectrum.png>
@@ -1437,32 +1437,68 @@ File: figures/NeutrinoSpectrum.png Graphic file (type png)
 Package pdftex.def Info: figures/NeutrinoSpectrum.png used on input line 1477.
 (pdftex.def)             Requested size: 284.52756pt x 184.47316pt.
  [43 <./figures/NeutrinoSpectrum.png>]
-[44] [45] [46] [47] [48] [49]
+[44] <figures/StellarSpectra_OG.png, id=513, 727.71875pt x 966.61125pt>
+File: figures/StellarSpectra_OG.png Graphic file (type png)
+
+<use figures/StellarSpectra_OG.png>
+Package pdftex.def Info: figures/StellarSpectra_OG.png used on input line 1518.
+
+(pdftex.def)             Requested size: 398.33858pt x 529.1157pt.
+
+<figures/StellarSpectra_GM.png, id=514, 716.6775pt x 704.6325pt>
+File: figures/StellarSpectra_GM.png Graphic file (type png)
+
+<use figures/StellarSpectra_GM.png>
+Package pdftex.def Info: figures/StellarSpectra_GM.png used on input line 1525.
+
+(pdftex.def)             Requested size: 398.33858pt x 391.64552pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/Tdwarf.png, id=515, 1177.39874pt x 735.74875pt>
+File: figures/Tdwarf.png Graphic file (type png)
+
+<use figures/Tdwarf.png>
+Package pdftex.def Info: figures/Tdwarf.png used on input line 1532.
+(pdftex.def)             Requested size: 341.43306pt x 213.36166pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45 <./figures/StellarSpectra_OG.png>] [46 <./figures/StellarSpectra_GM.png> <.
+/figures/Tdwarf.png>] <figures/Be.png, id=533, 887.315pt x 639.38875pt>
+File: figures/Be.png Graphic file (type png)
+
+<use figures/Be.png>
+Package pdftex.def Info: figures/Be.png used on input line 1549.
+(pdftex.def)             Requested size: 398.33858pt x 287.02957pt.
+ [47 <./figures/Be.png>] [48] [49] [50] [51] [52]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
- [50] [51] [52] [53]
-
+ [53]
+[54] [55] [56] 
 AED: lastpage setting LastPage
-[54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1697.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1697.
+[57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1749.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1749.
  (./stars.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1697.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1697.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1749.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1749.
 
 Package rerunfilecheck Info: File `stars.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD4CBB8E71BC379CBB8C857C6207A6E;1329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1697.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1749.
  ) 
 Here is how much of TeX's memory you used:
- 9609 strings out of 492995
- 145904 string characters out of 6132704
- 264234 words of memory out of 5000000
- 12840 multiletter control sequences out of 15000+600000
+ 9640 strings out of 492995
+ 146547 string characters out of 6132704
+ 264000 words of memory out of 5000000
+ 12860 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,2632b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1489,10 +1525,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on stars.pdf (54 pages, 5962266 bytes).
+Output written on stars.pdf (57 pages, 6942797 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 
