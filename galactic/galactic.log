@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 NOV 2018 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 NOV 2018 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,14 +452,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(./galactic.aux
-
-LaTeX Warning: Label `fig:ISMdisk' multiply defined.
-
-
-LaTeX Warning: Label `fig:ISMdisk' multiply defined.
-
-)
+(./galactic.aux)
 \openout1 = `galactic.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -476,7 +469,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
- (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count135
 \scratchdimen=\dimen156
@@ -1852,11 +1846,28 @@ Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2326.
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
  [69 <./figures/ISMphases_table.png>]
 [70 <./figures/21cm_emission_abs.png>]
-<figures/ISM_disk.png, id=708, 506.89375pt x 767.86874pt>
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+ [71]
+Overfull \hbox (3.10376pt too wide) in paragraph at lines 2373--2374
+\OT1/cmr/m/n/10 For typ-i-cal in-ter-stel-lar pa-ram-e-ters, the shock speed at
+ the be-gin-ning of the snow-plow phase is $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/1
+0 150 []$,
+ []
+
+<figures/3phaseISM.png, id=720, 948.54375pt x 556.0775pt>
+File: figures/3phaseISM.png Graphic file (type png)
+
+<use figures/3phaseISM.png>
+Package pdftex.def Info: figures/3phaseISM.png used on input line 2383.
+(pdftex.def)             Requested size: 398.33858pt x 233.5255pt.
+ [72 <./figures/3phaseISM.png>]
+<figures/ISM_disk.png, id=727, 506.89375pt x 767.86874pt>
 File: figures/ISM_disk.png Graphic file (type png)
 
 <use figures/ISM_disk.png>
-Package pdftex.def Info: figures/ISM_disk.png used on input line 2362.
+Package pdftex.def Info: figures/ISM_disk.png used on input line 2402.
 (pdftex.def)             Requested size: 426.79134pt x 646.54024pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -1889,11 +1900,11 @@ Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ” in font cmr8!
 
-<figures/ISM_vertical.png, id=709, 503.8825pt x 783.92876pt>
+<figures/ISM_vertical.png, id=728, 503.8825pt x 783.92876pt>
 File: figures/ISM_vertical.png Graphic file (type png)
 
 <use figures/ISM_vertical.png>
-Package pdftex.def Info: figures/ISM_vertical.png used on input line 2369.
+Package pdftex.def Info: figures/ISM_vertical.png used on input line 2409.
 (pdftex.def)             Requested size: 398.33858pt x 619.72757pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -1926,11 +1937,11 @@ Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ” in font cmr8!
 
-<figures/ISM_global.png, id=710, 496.85625pt x 673.51625pt>
+<figures/ISM_global.png, id=729, 496.85625pt x 673.51625pt>
 File: figures/ISM_global.png Graphic file (type png)
 
 <use figures/ISM_global.png>
-Package pdftex.def Info: figures/ISM_global.png used on input line 2376.
+Package pdftex.def Info: figures/ISM_global.png used on input line 2416.
 (pdftex.def)             Requested size: 398.33858pt x 539.97504pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -1956,81 +1967,77 @@ Missing character: There is no ” in font cmr8!
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
 Missing character: There is no ” in font cmr8!
- [71]
+ [73]
 
-LaTeX Warning: Text page 72 contains only floats.
+LaTeX Warning: Text page 74 contains only floats.
 
 
 Overfull \vbox (0.55438pt too high) has occurred while \output is active []
 
 
-[72 <./figures/ISM_disk.png>]
+[74 <./figures/ISM_disk.png>]
 
-LaTeX Warning: Text page 73 contains only floats.
+LaTeX Warning: Text page 75 contains only floats.
 
-[73 <./figures/ISM_vertical.png>] [74 <./figures/ISM_global.png>] [75] [76]
-<figures/orbitals_3D.png, id=747, 1606.0pt x 1606.0pt>
+[75 <./figures/ISM_vertical.png>] [76 <./figures/ISM_global.png>] [77] [78]
+<figures/orbitals_3D.png, id=763, 1606.0pt x 1606.0pt>
 File: figures/orbitals_3D.png Graphic file (type png)
 
 <use figures/orbitals_3D.png>
-Package pdftex.def Info: figures/orbitals_3D.png used on input line 2468.
+Package pdftex.def Info: figures/orbitals_3D.png used on input line 2508.
 (pdftex.def)             Requested size: 312.9803pt x 312.98495pt.
- [77 <./figures/orbitals_3D.png>]
-<figures/ncrit_np2np4.png, id=755, 1077.02374pt x 473.77pt>
+ [79 <./figures/orbitals_3D.png>]
+<figures/ncrit_np2np4.png, id=772, 1077.02374pt x 473.77pt>
 File: figures/ncrit_np2np4.png Graphic file (type png)
 
 <use figures/ncrit_np2np4.png>
-Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2487.
+Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2527.
 (pdftex.def)             Requested size: 312.9803pt x 137.67894pt.
 
-<figures/ncrit_np3.png, id=756, 976.64874pt x 280.04625pt>
+<figures/ncrit_np3.png, id=773, 976.64874pt x 280.04625pt>
 File: figures/ncrit_np3.png Graphic file (type png)
 
 <use figures/ncrit_np3.png>
-Package pdftex.def Info: figures/ncrit_np3.png used on input line 2494.
+Package pdftex.def Info: figures/ncrit_np3.png used on input line 2534.
 (pdftex.def)             Requested size: 312.9803pt x 89.74481pt.
- [78 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
-s_T.png, id=767, 555.07375pt x 824.07875pt>
+ [80 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
+s_T.png, id=785, 555.07375pt x 824.07875pt>
 File: figures/LineRatios_T.png Graphic file (type png)
 
 <use figures/LineRatios_T.png>
-Package pdftex.def Info: figures/LineRatios_T.png used on input line 2524.
+Package pdftex.def Info: figures/LineRatios_T.png used on input line 2564.
 (pdftex.def)             Requested size: 398.33858pt x 591.3872pt.
- [79] [80 <./figures/LineRatios_T.png>] [81]
-[82] <figures/M81_spirals.png, id=799, 890.32625pt x 547.04375pt>
+ [81] [82 <./figures/LineRatios_T.png>] [83]
+[84] <figures/M81_spirals.png, id=815, 890.32625pt x 547.04375pt>
 File: figures/M81_spirals.png Graphic file (type png)
 
 <use figures/M81_spirals.png>
-Package pdftex.def Info: figures/M81_spirals.png used on input line 2622.
+Package pdftex.def Info: figures/M81_spirals.png used on input line 2662.
 (pdftex.def)             Requested size: 398.33858pt x 244.74838pt.
- [83 <./figures/M81_spirals.png>] [84]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 2660--2661
+ [85 <./figures/M81_spirals.png>] [86]
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 2700--2701
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
 
 
 AED: lastpage setting LastPage
-[85]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2669.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2669.
+[87]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2709.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2709.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2669.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2669.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2709.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2709.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2669.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2709.
  ) 
 Here is how much of TeX's memory you used:
- 9883 strings out of 492995
- 152004 string characters out of 6132704
- 278304 words of memory out of 5000000
- 13023 multiletter control sequences out of 15000+600000
+ 9894 strings out of 492995
+ 152198 string characters out of 6132704
+ 279975 words of memory out of 5000000
+ 13030 multiletter control sequences out of 15000+600000
  15560 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,1864b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2060,10 +2067,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (85 pages, 23087046 bytes).
+Output written on galactic.pdf (87 pages, 23321539 bytes).
 PDF statistics:
- 951 PDF objects out of 1000 (max. 8388607)
- 700 compressed objects within 7 object streams
- 217 named destinations out of 1000 (max. 500000)
- 464 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 968 PDF objects out of 1000 (max. 8388607)
+ 712 compressed objects within 8 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 469 words of extra memory for PDF output out of 10000 (max. 10000000)
 
