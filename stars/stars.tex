@@ -1593,7 +1593,100 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+Since we think star formation begins with a core that is purely gas, we expect to begin with a cloud that is cold and lacks a central point source. Once a protostar forms, it will begin gradually heating up the cloud, while the gas in the cloud collapses onto the protostar, reducing the opacity. Eventually enough material accretes from the envelope to render it transparent in the near infrared and eventually the optical, and we begin to be able to see the star directly for the first time. The star is left with an accretion disk, which gradually accretes and is then dispersed. Eventually the star contracts onto the main sequence.
+
+{\noindent}This theoretical cartoon has been formalized into a system of classification of young stars based on observational diagnostics. At one end of this sequence lies purely gaseous sources where there is no evidence at all for the presence of a star, and at the other end lies ordinary main sequence stars. In between, objects are classified based on their emission in the infrared and sub-mm parts of the spectrum. These classifications probably give more of an impression of discrete evolutionary stages than is really warranted, but they nonetheless serve as a useful rough guide to the evolutionary state of a forming star.
+
+{\noindent}Consider a core of mass $\sim M$, seen in dust or molecular line emission. When a star first forms at its center, the star will be very low mass and very low luminosity, and will heat up only the dust nearest to it, and only by a very small amount. Thus the total light output will still be dominated by the thermal emission of the dust at its equilibrium temperature. The spectral energy distribution of the source will therefore look just like that which prevailed before the star formed.
+
+{\noindent}However, there might be other indicators that a star has formed. For example, the density distribution might show a very sharp, unresolved peak. Another sign that a star has formed might be the presence of an outflow, which all protostars seem to generate. Outflows coming from the center of a core can be detected in a few ways. Most directly, one can see bipolar, high velocity structures in molecular emission (Figure \ref{fig:outflows}).
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\An integrated intensity map in CO($2\rightarrow1$), showing material at velocities between $\pm30-50\,{\rm km\,s^{-1}}$ (blue and red contours, respectively) relative to the mean (Tafalla et al., 2004). Contours are spaced at intensities of $1\,K\,km\,s^{-1}$. The outflow shown is in the Taurus star-forming region. Figure taken from Krumholtz (2015).}}
+    \label{fig:outflows}}
+    {\includegraphics[width=8cm]{figures/Outflows.png}}
+\end{figure}
+
+{\noindent}One can also detect indirect evidence of an \textbf{outflow}, from the presence of highly excited molecular line emission that is produced by shocks at hundreds of ${\rm km\,s^{-1}}$. One example of such a line is SiO($2\rightarrow1$) line, which is generally seen in gas moving at several tens of ${\rm km\,s^{-1}}$ with temperatures of several hundred ${\rm K}$ -- this is taken to be indication that emission in this line is produced in warm shocks. Since we know of no processes other than formation of a compact object with a $\gtrsim100\,{\rm km\,s^{-1}}$ escape velocity that can accelerate gas in molecular clouds to such speeds, the presence of such an outflow is taken to indicate that a compact object has formed.
+
+{\noindent}These are the earliest indications of star formation we have available to us. We call objects that show one of these signs, and do not fall into one of the other categories, \textbf{class 0 sources}. The dividing line between class 0 and class 1 is that the star begins to produce enough heating that there is non-trivial infrared emission. Before the advent of Spitzer and Herschel, the dividing line between class 0 and 1 was taken to be a non-detection in the IR, but as more sensitive IR telescopes became available, the detection limit went down of course. Today, the dividing line is taken to be a luminosity cut. A source is said to be class 0 if more than 0.5\% of its total bolometric output emerges at wavelengths longer than $350\,\mu{\rm m}$, i.e., if $L_{\rm smm}/L_{\rm bol}>0.5\%$, where $L_{\rm smm}$ is defined as the luminosity considering only wavelengths of $350\,\mu{\rm m}$ and longer (see Figure \ref{fig:protostellarseds}).
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=10.5cm]{figures/ProtostellarSEDs.png}
+    \caption{\footnotesize{Sample SEDs of protostellar cores, together with the assigned class, as collected by Dunham et al. (2014). Figure taken from Krumholtz (2015).}}
+    \label{fig:protostellarseds}
+\end{figure}
+
+{\noindent}In practice, measuring $L_{\rm smm}$ can be tricky because it can be hard to get absolute luminosities (as opposed to relative ones) correct in the sub-mm, so it is also common to define the class $0-1$ divide in terms of another quantity: the bolometric temperature $T_{\rm bol}$. This is defined as the temperature of a blackbody that has the same flux-weighted mean frequency as the observed SED. That is, if $F_\nu$ is the flux as a function of frequency from the observed source, then we define $T_{\rm bol}$ by the implicit equation 
+
+\begin{align*}
+    \frac{\int\nu F_\nu {\rm d}\nu}{\int F_\nu {\rm d}\nu} = \frac{\int\nu B_\nu(T_{\rm bol}){\rm d}\nu}{\int B_\nu(T_{\rm bol}){\rm d}\nu}.
+\end{align*}
+
+{\noindent}The class $0-1$ dividing line is also sometimes taken to be $T_{\rm bol}=70\,{\rm K}$. In cases where $L_{\rm smm}$ is accurately measured, $T_{\rm bol}$ is observed to be a reasonably good proxy for $L_{\rm smm}/L_{\rm bol}$.
+
+{\noindent}Once protostars reach \textbf{class I}, their evolution into further classes is defined in terms of the infrared SED. The motivating cartoon is a follows. At early times, the envelope of dust around the protostar is very optically thick at visible and even near infrared wavelengths. As a result, we don't get to see the stellar photosphere at all. All the radiation is absorbed by the envelope. The dust is in thermal equilibrium, so it re-radiates that energy. Since the radius of the sphere of dust is much larger than that of the star, and the luminosity radiated by the dust must ultimately be equal to that of the star, this emission must be at lower temperature and thus longer wavelengths. Thus as the radiation propagates outward through the dust it is shifted to longer and longer wavelengths. However, dust opacity decreases with wavelength, and thus eventually the radiation is shifted to wavelengths where the remaining dust is optically thin, and it escapes. What we observe is therefore not a stellar photosphere, but a ``dust photosphere''.
+
+{\noindent}Given this picture, the greater the column density of the dust around the star, the further it will have to diffuse in wavelength in order to escape. Thus the wavelength at which the emission peaks, or, roughly equivalently, the slope of the spectrum at a fixed wavelength, is a good diagnostic for the amount of circumstellar dust. Objects whose SEDs peak closer to the visible are presumed to be more evolved, because they have lost most of their envelopes.
+
+{\noindent}More formally, this classification scheme was based on fluxes as measured by the IRAS satellite. We define
+
+\begin{align*}
+    \alpha_{\rm IR} = \frac{{\rm d}\log\lambda F_\lambda}{{\rm d}\log \lambda} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}as the \textbf{IR spectral index}. In practice we measure $\alpha_{\rm IR}$ using two points from the IRAS SED: $2.2\,\mu{\rm m}$ and $10-25\,\mu{\rm m}$. More positive values of $\alpha_{\rm IR}$ indicate SEDs that peak at longer wavelengths, further into the IR, while more negative values indicate SEDs that peak closer to visible. We define sources with $\alpha_{\rm IR}\geq0.0$ (i.e., rising at longer wavelengths from $2-25\,\mu{\rm m}$, as class I sources. Alternately, in terms of bolometric temperature, the class I to class II transition is generally taken to be at 650 K.
+
+{\noindent}As more of the envelope accretes, it eventually becomes optically thin at the peak emitting wavelengths of the stellar photosphere. In this case we see the stellar blackbody spectrum, but there is also \textbf{excess infrared emission} coming from the disk of warm, dusty gas that till surrounds the star. Thus the SED looks like a stellar blackbody plus some extra emission at near- or mid-IR wavelengths. Stars in this class are also know as \textbf{classical T Tauri stars}, named for the first object of the class, although the observational definition of a T Tauri star is somewhat different than the IR classification scheme, so the alignment may not be perfect.
+
+{\noindent}In terms of $\alpha_{\rm IR}$, these stars have indices in the range  $-1.6<\alpha_{\rm IR}<0$. (Depending on the author, the break-point may be placed at $-1.5$ instead of $-1.6$. Some authors also introduce an intermediate classification between 0 and I, which they take to be $-0.3<\alpha_{\rm IR}<0.3$.) A slope of around $-1.6$ is what we expect for a bare stellar photosphere without any excess infrared emission coming from circumstellar material. Since the class II phase is the last one during which there is a disk of any significant mass, this is also presumably the phase where planet formation must occur.
+
+{\noindent}The final class is \textbf{class III}, which in terms of SED have $\alpha_{\rm IR}<-1.6$. Stars in this class correspond to \textbf{weak line T Tauri stars}. The SEDs of these stars look like bare stellar photospheres in the optical through the mid-infrared. If there is any IR excess at all, it is in the very far IR, indicating that the emitting circumstellar material is cool and located far from the star. The idea here is that the disk around them has begun to dissipate, and is either now optically thin at IR wavelengths or completely dissipated, so there is no strong IR excess.
+
+{\noindent}However, these stars are still not mature MS stars. First of all, their temperatures and luminosities do not correspond to those of MS stars. Instead, they are still puffed up to larger radii, so they tend to have either lower effective temperatures or higher bolometric luminosities (or both) than MS stars of the same mass. Second, they show extremely high levels of magnetic activity compared to MS stars, producing high levels of x-ray emission. Third, they show lithium absorption lines in their atmospheres. This is significant because lithium is easily destroyed by nuclear reactions at high temperatures, and no main sequence stars with convective photospheres show Li absorption. Young stars show it only because there has not yet been time for all the Li to burn.
+
+{\noindent}\textbf{Infall signatures}: The H$\alpha$ is particularly interesting, because it tells us something about the star's immediate environment. For MS stars, the H$\alpha$ line profile is a result of absorption at the stellar photosphere and emission from the chromosphere. At the photosphere there is a population of neutral hydrogen atoms in the $n=2$ level that absorbs photons at H$\alpha$ frequencies, producing absorption. Above that in the chromosphere is an optically thin, hot gas, which contains atoms in the $n=3$ level. Some of these emit H$\alpha$ photons, partially filling in the absorption trough, but leaving the line overall in absorption. 
+
+{\noindent}Producing Ha in emission is tricky, however. The emitting material must be above the stellar photosphere, so it can fill in the absorption trough created there. This gas must be at temperatures of $5,000-10,000\,{\rm K}$ to significantly populate the $n=3$ level. However, in order to produce enough H$\alpha$ photons to fill in the trough and produce net emission, this gas must also be dense enough for the collision rate to be high enough to force the $n=3$ level close to LTE. 
+
+{\noindent}Ordinary stellar chromospheres have densities that are much too low to meet this requirement. This H$\alpha$ emission implies the presence of material around the star at temperatures of $5,000-10,000\,{\rm K}$, but at densities much higher than found in an ordinary stellar chromosphere. Moreover, the width of the $H\alpha$ emission requires that this material be moving at velocities of hundreds of ${\rm km\,s^{-1}}$ relative to the stellar surface (i.e., comparable to the free-fall velocity). This cannot be thermal broadening, because this would require temperatures of $\sim10^6\,{\rm K}$ high enough to completely ionize hydrogen. It muse therefore be bulk motion.
+
+{\noindent}The standard inference is that this indicates the presence of gas infalling onto the stellar surface. Such gas would provide the high densities required to produce Ha in emission. The infall of this material would provide the requisite bulk motion. Internal shocks and the shocking of this gas against the stellar surface could easily heat gas to the required temperatures. Finally, this hot material would also produce continuum emission, explaining the continuum veiling.
+
+{\noindent}Quantitative radiative transfer calculations that attempt to fit the observed veiling and line emission can be used to infer the densities and velocities of the circumstellar gas, thereby constraining the accretion rate (Figure \ref{fig:ttinfall}). The inferred accretion rates depend on the strength of the H$\alpha$ emission, and are typically $10^8\,{\rm My\,yr^{-1}}$. There is a broad range, however, running from $10^{-11}-10^{-6}\,{\rm M\,yr^{-1}}$, with a very rough correlation $\dot{M}_*\propto M_*^2$.
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=8cm]{figures/TTinfall.png}
+    \caption{\footnotesize{Comparisons between observed (solid) and model (dashed) H$\alpha$ line profiles for a sample of T Tauri stars (Muzerolle et al., 2005). The $x$ axis shows velocity in ${\rm km\,s^{-1}}$. Each model curve is a fit in which the accretion rate is one of the free parameters. Figure taken from Krumholtz (2015).}}
+    \label{fig:ttinfall}
+\end{figure}
+
+{\noindent}These accretion rates are generally low enough so that accretion luminosity does not dominate over stellar surface emission. However, the estimated accretion rates are extremely uncertain, and the models used to make these estimates are very primitive. In general they simply assume that a uniform density slab of material arrives at the free-fall velocity, and covers some fraction of the stellar surface, and the accretion rate is inferred by determining the density of this material required to produce the observed spectral characteristics.
+
+{\noindent}Despite this caveat, though, the H$\alpha$ line and other optical properties do seem to indicate that there must be some dense infalling material even around these stars that lack obvious envelopes. This in turn requires a reservoir of circumstellar material not in the form of an envelope, which is most naturally provided by a disk. Indeed, before the advent of space-based IR observatories, optical indicators like this were the only real evidence we had for disks around T Tauri and Herbig Ae/Be stars.
+
+{\noindent}\textbf{Disk lifetimes}: We now turn to the disks that surround T Tauri and similar stars. Prior to the 2000s, we had very little direct information about such objects, since they are not visible in the optical. That changed dramatically with the launch of space-based IR observatories, and the developed of ground-based millimeter interferometers. These new techniques made it possible to observe disks directly for the first time.
+
+{\noindent}One of the most interesting properties of disks for those who are interested in planets is their lifetimes. This sets the limit on how long planets have to form in a disk before it is dispersed. In discussing disk lifetimes, it is important to be clear on how the presence or absence of a disk is to be inferred, since different techniques probe different parts and types of disks. In general what all these techniques have in common is that one uses some technique to survey young star clusters for disks. The clusters can be age-dated using pre-main sequence or main sequence HR diagrams. One then plots the disk fraction against age.
+
+{\noindent}One signature of disks we have already discussed: optical line emission associated with accretion in T Tauri stars, particularly H$\alpha$. Surveys of nearby groups find that H$\alpha$ line emission usually disappears at times between $1$ and $10\,{\rm Myr}$ (Figure 19.4). This tells us that the inner parts of disks ($\lesssim1\,{\rm AU}$) which feed stars disappear over this time scale. In contrast, ground-based near IR observations tell us about somewhat more distant parts of the disk, out to a few ${\rm AU}$. The timescales implied by these results are very similar those obtained from the H$\alpha$: roughly half the systems lose their disks within $\sim3\,{\rm Myr}$.
+
+{\noindent}These observations are sensitive primarily to the inner disk, and the IR techniques are generally sensitive only in cases where the dust in these regions is optically thick. Some optically thin material could still be present and would not have been detected. Observations at longer wavelengths, such as Spitzer's $24\,\mu{\rm m}$ band and in the ${\rm mm}$ regime from ground-based radio telescopes, probe further out in disks, at distances of $\sim10-100\,{\rm AU}$. They are also sensitive to much lower amounts of material. Interestingly, unlike the shorter wavelength observations, these measurements indicate that a small but non-zero fraction of systems retain some disks out to times of $\sim10^8\,{\rm yr}$. The amounts of mass needed to explain the long wavelength excess are only $\sim10^{-5}\,{\rm M_\odot}$ in dust. Thus the older systems are likely looking at an even later evolutionary phase than T Tauri disks, one in which almost all the gas and inner disk material is gone. These are \textbf{debris disks}, which are thought to originate from collisions between larger bodies than than to be made up of dust from interstellar gas.
+
+{\noindent}\textbf{Transition disks}: The observation that accreting disks and inner optically thick disks disappear on a few ${\rm Myr}$ timescales, but that some fraction leave behind very small amounts of mass in the outer disk is a very interesting one. Observationally, we would like to get some constraints on how the process of a gaseous, accreting T Tauri disk transitioning to a low-mass debris disk occurs. For this purpose, there is an intriguing class of objects known as \textbf{transition disks}. Spectrally, these are defined as objects that have a significant $24\,\mu{\rm m}$ excess (or excess at even longer wavelengths), but little or no IR excess (Figure \ref{fig:lkha330}, left). This SED suggests a natural physical picture: a disk with a hole in its center. The short wavelength emission normally comes from near the star, and the absence of material there produces the lack of short wavelength excess. Indeed, it is possible to fit the SEDs of some stars with models with holes.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7.5cm]{figures/LkHa330.png}
+    \includegraphics[width=7.5cm]{figures/LkHa330_cont.png}
+    \caption{\footnotesize{(\textbf{Left:}) The SED of the star ${\rm LkH}\alpha\,330$ (Brown et al., 2008). Plus signs indicate measurements. The black line is a model for a stellar photosphere. The blue line is a model for a star with a disk going all the way to the central star, while the red line is a model for disk with a $40\,{\rm AU}$ hole in its center. Figure taken from Krumholtz (2015). (\textbf{Right:}) Dust continuum image of the disk around ${\rm LkH}\alpha\,330$, taken at $340\,{\rm GHz}$ by the SMA (Brown et al., 2008). Colors show the detected signal, and contours show the signal to noise ratio, starting from S/N of $3$ and increasing by $1$ thereafter. The green plus marks the location of the star. The blue circle is the SMA beam. Figure taken from Krumholtz (2015).}}
+    \label{fig:lkha330}
+\end{figure}
+
+{\noindent}In the last decade it has become possible to confirm the presence of inner holes in transition disks directly, at least cases where the inferred hole is sufficiently large (Figure \ref{fig:lkha330}, right). The sizes of the holes inferred by the observations are generally very good matches to the values inferred by modeling the SEDs. The holes are remarkably devoid of dust: upper limits on the masses of small dust grains within the hole are often at the level of $\sim10^{-6}\,{\rm M_\odot}$. The sharp edges of the holes indicate that the effect driving them isn't simply the growth of dust grains to larger sizes, which should produce a more gradual transition. Instead, something else is at work. However, in some transition disks gas is still seen within the gap in molecular line emission, which also suggests that whatever mechanism is removing the dust does not necessarily get rid of all the gas as well.
 
 \subsubsection{Follow-up Questions}
 
@@ -1744,6 +1837,7 @@ Additional context.
     \item Understanding Variable Stars, Percy (2007)
     \item A Library of Stellar Spectra; Jacoby \& Hunter (1984)
     \item A Digital Spectral Classification Atlas; Gray (2009)
+    \item Notes on Star Formation; Krumholz (2015)
 \end{itemize}
 
 \end{document}

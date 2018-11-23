@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 NOV 2018 01:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 NOV 2018 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1473,32 +1473,88 @@ File: figures/Be.png Graphic file (type png)
 <use figures/Be.png>
 Package pdftex.def Info: figures/Be.png used on input line 1549.
 (pdftex.def)             Requested size: 398.33858pt x 287.02957pt.
- [47 <./figures/Be.png>] [48] [49] [50] [51] [52]
+ [47 <./figures/Be.png>] [48]
+Underfull \hbox (badness 1087) in paragraph at lines 1608--1608
+\OT1/cmr/m/n/8 star-forming re-gion. Fig-ure
+ []
+
+<figures/Outflows.png, id=546, 676.5275pt x 726.715pt>
+File: figures/Outflows.png Graphic file (type png)
+
+<use figures/Outflows.png>
+Package pdftex.def Info: figures/Outflows.png used on input line 1608.
+(pdftex.def)             Requested size: 227.62204pt x 244.50723pt.
+
+Underfull \hbox (badness 1087) in paragraph at lines 1608--1608
+\OT1/cmr/m/n/8 star-forming re-gion. Fig-ure
+ []
+
+File: figures/Outflows.png Graphic file (type png)
+<use figures/Outflows.png>
+Package pdftex.def Info: figures/Outflows.png used on input line 1608.
+(pdftex.def)             Requested size: 227.62204pt x 244.50723pt.
+
+Underfull \hbox (badness 1087) in paragraph at lines 1608--1608
+\OT1/cmr/m/n/8 star-forming re-gion. Fig-ure
+ []
+
+File: figures/Outflows.png Graphic file (type png)
+<use figures/Outflows.png>
+Package pdftex.def Info: figures/Outflows.png used on input line 1608.
+(pdftex.def)             Requested size: 227.62204pt x 244.50723pt.
+ [49 <./figures/Outflows.png>]
+<figures/ProtostellarSEDs.png, id=557, 571.13374pt x 1262.7175pt>
+File: figures/ProtostellarSEDs.png Graphic file (type png)
+
+<use figures/ProtostellarSEDs.png>
+Package pdftex.def Info: figures/ProtostellarSEDs.png used on input line 1617.
+(pdftex.def)             Requested size: 298.75394pt x 660.50893pt.
+ [50] [51 <./figures/ProtostellarSEDs.png>]
+<figures/TTinfall.png, id=569, 440.64626pt x 1237.62375pt>
+File: figures/TTinfall.png Graphic file (type png)
+
+<use figures/TTinfall.png>
+Package pdftex.def Info: figures/TTinfall.png used on input line 1662.
+(pdftex.def)             Requested size: 227.62204pt x 639.30016pt.
+ [52] [53 <./figures/TTinfall.png>]
+<figures/LkHa330.png, id=581, 764.8575pt x 565.11125pt>
+File: figures/LkHa330.png Graphic file (type png)
+
+<use figures/LkHa330.png>
+Package pdftex.def Info: figures/LkHa330.png used on input line 1683.
+(pdftex.def)             Requested size: 213.39566pt x 157.66095pt.
+
+<figures/LkHa330_cont.png, id=582, 615.29875pt x 486.81876pt>
+File: figures/LkHa330_cont.png Graphic file (type png)
+
+<use figures/LkHa330_cont.png>
+Package pdftex.def Info: figures/LkHa330_cont.png used on input line 1684.
+(pdftex.def)             Requested size: 213.39566pt x 168.83661pt.
+ [54 <./figures/LkHa330.png> <./figures/LkHa330_cont.png>] [55] [56] [57]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
- [53]
-[54] [55] [56] 
+ [58] [59] [60] [61] 
 AED: lastpage setting LastPage
-[57]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1749.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1749.
+[62]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1843.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1843.
  (./stars.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1749.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1749.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1843.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1843.
 
 Package rerunfilecheck Info: File `stars.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD4CBB8E71BC379CBB8C857C6207A6E;1329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1749.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1843.
  ) 
 Here is how much of TeX's memory you used:
- 9640 strings out of 492995
- 146547 string characters out of 6132704
- 264000 words of memory out of 5000000
- 12860 multiletter control sequences out of 15000+600000
+ 9678 strings out of 492995
+ 147323 string characters out of 6132704
+ 265649 words of memory out of 5000000
+ 12884 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,53p,2632b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1525,10 +1581,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on stars.pdf (57 pages, 6942797 bytes).
+Output written on stars.pdf (62 pages, 8243061 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
- 172 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 578 compressed objects within 6 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
