@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 NOV 2018 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 NOV 2018 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1510,49 +1510,58 @@ File: figures/ProtostellarSEDs.png Graphic file (type png)
 Package pdftex.def Info: figures/ProtostellarSEDs.png used on input line 1617.
 (pdftex.def)             Requested size: 298.75394pt x 660.50893pt.
  [50] [51 <./figures/ProtostellarSEDs.png>]
-<figures/TTinfall.png, id=569, 440.64626pt x 1237.62375pt>
+<figures/TTinfall.png, id=568, 440.64626pt x 1237.62375pt>
 File: figures/TTinfall.png Graphic file (type png)
 
 <use figures/TTinfall.png>
-Package pdftex.def Info: figures/TTinfall.png used on input line 1662.
-(pdftex.def)             Requested size: 227.62204pt x 639.30016pt.
- [52] [53 <./figures/TTinfall.png>]
+Package pdftex.def Info: figures/TTinfall.png used on input line 1667.
+(pdftex.def)             Requested size: 234.73523pt x 659.28004pt.
+ [52]
+
+LaTeX Warning: Text page 53 contains only floats.
+
+[53 <./figures/TTinfall.png>]
 <figures/LkHa330.png, id=581, 764.8575pt x 565.11125pt>
 File: figures/LkHa330.png Graphic file (type png)
 
 <use figures/LkHa330.png>
-Package pdftex.def Info: figures/LkHa330.png used on input line 1683.
+Package pdftex.def Info: figures/LkHa330.png used on input line 1694.
 (pdftex.def)             Requested size: 213.39566pt x 157.66095pt.
 
 <figures/LkHa330_cont.png, id=582, 615.29875pt x 486.81876pt>
 File: figures/LkHa330_cont.png Graphic file (type png)
 
 <use figures/LkHa330_cont.png>
-Package pdftex.def Info: figures/LkHa330_cont.png used on input line 1684.
+Package pdftex.def Info: figures/LkHa330_cont.png used on input line 1695.
 (pdftex.def)             Requested size: 213.39566pt x 168.83661pt.
- [54 <./figures/LkHa330.png> <./figures/LkHa330_cont.png>] [55] [56] [57]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54] [55 <./figures/LkHa330.png> <./figures/LkHa330_cont.png>] [56] [57]
+[58]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
- [58] [59] [60] [61] 
+ [59] [60] [61] [62] 
 AED: lastpage setting LastPage
-[62]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1843.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1843.
+[63]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1855.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1855.
  (./stars.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1843.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1843.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1855.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1855.
 
 Package rerunfilecheck Info: File `stars.out' has not changed.
 (rerunfilecheck)             Checksum: 7DD4CBB8E71BC379CBB8C857C6207A6E;1329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1843.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1855.
  ) 
 Here is how much of TeX's memory you used:
- 9678 strings out of 492995
- 147323 string characters out of 6132704
+ 9679 strings out of 492995
+ 147330 string characters out of 6132704
  265649 words of memory out of 5000000
  12884 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
@@ -1581,10 +1590,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on stars.pdf (62 pages, 8243061 bytes).
+Output written on stars.pdf (63 pages, 8245304 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 578 compressed objects within 6 object streams
- 181 named destinations out of 1000 (max. 500000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 581 compressed objects within 6 object streams
+ 182 named destinations out of 1000 (max. 500000)
  327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

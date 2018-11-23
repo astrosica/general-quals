@@ -1647,22 +1647,33 @@ Since we think star formation begins with a core that is purely gas, we expect t
 
 {\noindent}However, these stars are still not mature MS stars. First of all, their temperatures and luminosities do not correspond to those of MS stars. Instead, they are still puffed up to larger radii, so they tend to have either lower effective temperatures or higher bolometric luminosities (or both) than MS stars of the same mass. Second, they show extremely high levels of magnetic activity compared to MS stars, producing high levels of x-ray emission. Third, they show lithium absorption lines in their atmospheres. This is significant because lithium is easily destroyed by nuclear reactions at high temperatures, and no main sequence stars with convective photospheres show Li absorption. Young stars show it only because there has not yet been time for all the Li to burn.
 
+To summarize,
+
+\begin{itemize}
+    \item \textbf{Class 0} protostars are objects that are so heavily obscured that their spectra peak at $\lambda>100\,\mu{\rm m}$. For these sources, $\alpha_{\rm IR}$ is not a useful characteristic, because the source may be invisible at $2.2\,\mu{\rm m}$, and at $10\,\mu{\rm m}$ there may be deep absorption by cold foreground silicate dust. Inward motions of the gas are sometimes revealed by asymmetric profiles of molecular emission lines. The lifetime of a Class 0 object is short, $\sim1-3\times10^4\,{\rm yr}$.
+    \item \textbf{Class I} protostars have $\alpha_{\rm IR}>0$: there is more power being radiated near $10\,\mu{\rm m}$ than near $2\,\mu{\rm m}$. Blackbodies with $T<870\,{\rm K}$ have $\alpha_{\rm IR}>0$. Class I protostars are thought to have typical ages $\sim1-2\times10^5\,{\rm yr}$.
+    \item \textbf{Class II} YSOs have $-1.5<\alpha_{\rm IR}<0$. Blackbodies with $870<T<1540\,{\rm K}$ have such IR spectral indices. Class II YSOs correspond to classical T Tauri stars, which are pre-main-sequence stars, still undergoing gravitational contraction, with substantial accretion disks and accretion rates $\sim10^{-6}\,{\rm M_\odot\,yr^{-1}}$.
+    \item \textbf{Class III} protostars have $\alpha_{\rm IR}<-1.6$. Blackbodies with $T>1540\,{\rm K}$ have such spectral indices. Class III YSOs correspond to \textbf{weak-lined T Tauri stars}, which are pre-main-sequence stars still undergoing gravitational contraction, but where the accretion disk is either weak or perhaps entirely absent.
+\end{itemize}
+
+{\noindent}The observed flux ratios are determined by the temperature of the emitting regions (star and inner disk) and by wavelength-dependent extinction. Classification of a given object as either Class I or Class II may depend on the source orientation. If we are viewing the object face-on it, may be classified as Class II, but an identical disk viewed edge-on could heavily redden the light reaching the observer, so that the object could be classified as Class I or even Class 0.
+
 {\noindent}\textbf{Infall signatures}: The H$\alpha$ is particularly interesting, because it tells us something about the star's immediate environment. For MS stars, the H$\alpha$ line profile is a result of absorption at the stellar photosphere and emission from the chromosphere. At the photosphere there is a population of neutral hydrogen atoms in the $n=2$ level that absorbs photons at H$\alpha$ frequencies, producing absorption. Above that in the chromosphere is an optically thin, hot gas, which contains atoms in the $n=3$ level. Some of these emit H$\alpha$ photons, partially filling in the absorption trough, but leaving the line overall in absorption. 
 
 {\noindent}Producing Ha in emission is tricky, however. The emitting material must be above the stellar photosphere, so it can fill in the absorption trough created there. This gas must be at temperatures of $5,000-10,000\,{\rm K}$ to significantly populate the $n=3$ level. However, in order to produce enough H$\alpha$ photons to fill in the trough and produce net emission, this gas must also be dense enough for the collision rate to be high enough to force the $n=3$ level close to LTE. 
+
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=8.25cm]{figures/TTinfall.png}
+    \caption{\footnotesize{Comparisons between observed (solid) and model (dashed) H$\alpha$ line profiles for a sample of T Tauri stars (Muzerolle et al., 2005). The $x$ axis shows velocity in ${\rm km\,s^{-1}}$. Each model curve is a fit in which the accretion rate is one of the free parameters. Figure taken from Krumholtz (2015).}}
+    \label{fig:ttinfall}
+\end{figure}
 
 {\noindent}Ordinary stellar chromospheres have densities that are much too low to meet this requirement. This H$\alpha$ emission implies the presence of material around the star at temperatures of $5,000-10,000\,{\rm K}$, but at densities much higher than found in an ordinary stellar chromosphere. Moreover, the width of the $H\alpha$ emission requires that this material be moving at velocities of hundreds of ${\rm km\,s^{-1}}$ relative to the stellar surface (i.e., comparable to the free-fall velocity). This cannot be thermal broadening, because this would require temperatures of $\sim10^6\,{\rm K}$ high enough to completely ionize hydrogen. It muse therefore be bulk motion.
 
 {\noindent}The standard inference is that this indicates the presence of gas infalling onto the stellar surface. Such gas would provide the high densities required to produce Ha in emission. The infall of this material would provide the requisite bulk motion. Internal shocks and the shocking of this gas against the stellar surface could easily heat gas to the required temperatures. Finally, this hot material would also produce continuum emission, explaining the continuum veiling.
 
 {\noindent}Quantitative radiative transfer calculations that attempt to fit the observed veiling and line emission can be used to infer the densities and velocities of the circumstellar gas, thereby constraining the accretion rate (Figure \ref{fig:ttinfall}). The inferred accretion rates depend on the strength of the H$\alpha$ emission, and are typically $10^8\,{\rm My\,yr^{-1}}$. There is a broad range, however, running from $10^{-11}-10^{-6}\,{\rm M\,yr^{-1}}$, with a very rough correlation $\dot{M}_*\propto M_*^2$.
-
-\begin{figure}[t!]
-    \centering
-    \includegraphics[width=8cm]{figures/TTinfall.png}
-    \caption{\footnotesize{Comparisons between observed (solid) and model (dashed) H$\alpha$ line profiles for a sample of T Tauri stars (Muzerolle et al., 2005). The $x$ axis shows velocity in ${\rm km\,s^{-1}}$. Each model curve is a fit in which the accretion rate is one of the free parameters. Figure taken from Krumholtz (2015).}}
-    \label{fig:ttinfall}
-\end{figure}
 
 {\noindent}These accretion rates are generally low enough so that accretion luminosity does not dominate over stellar surface emission. However, the estimated accretion rates are extremely uncertain, and the models used to make these estimates are very primitive. In general they simply assume that a uniform density slab of material arrives at the free-fall velocity, and covers some fraction of the stellar surface, and the accretion rate is inferred by determining the density of this material required to produce the observed spectral characteristics.
 
@@ -1838,6 +1849,7 @@ Additional context.
     \item A Library of Stellar Spectra; Jacoby \& Hunter (1984)
     \item A Digital Spectral Classification Atlas; Gray (2009)
     \item Notes on Star Formation; Krumholz (2015)
+    \item Physics of the Interstellar and Intergalactic Medium; Draine (2011)
 \end{itemize}
 
 \end{document}
