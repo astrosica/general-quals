@@ -1716,11 +1716,123 @@ Sketch the spectral energy distribution (SED) of a T Tauri star surrounded by a 
 
 \subsubsection{Short answer}
 
-Answer.
+Figure \ref{fig:ttsed_flat} shows a schematic of what the SED of a T Tauri star surrounded by a protoplanetary disk would look like. It can be seen that the total SED is a composite of the stellar blackbody plus the protoplantary disk component.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\SED for the flat blackbody disk, with contributions from star and disk identified. Figure taken from Chiang \& Goldreich (1997).}}
+    \label{fig:ttsed_flat}}
+    {\includegraphics[width=12cm]{figures/TT_SED_flat.png}}
+\end{figure}
+
+{\noindent}Figure \ref{fig:lkha330} (left) shows the SED of a T Tauri star surrounded by a protoplanetary disk with a hole in its center. The short wavelength emission normally comes from near the star, and the absence of material there produces the lack of short wavelength excess. Figure \ref{fig:lkha330} (right) shows a continuum image of such a disk.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7.5cm]{figures/LkHa330.png}
+    \includegraphics[width=7.5cm]{figures/LkHa330_cont.png}
+    \caption{\footnotesize{(\textbf{Left:}) The SED of the star ${\rm LkH}\alpha\,330$ (Brown et al., 2008). Plus signs indicate measurements. The black line is a model for a stellar photosphere. The blue line is a model for a star with a disk going all the way to the central star, while the red line is a model for disk with a $40\,{\rm AU}$ hole in its center. Figure taken from Krumholtz (2015). (\textbf{Right:}) Dust continuum image of the disk around ${\rm LkH}\alpha\,330$, taken at $340\,{\rm GHz}$ by the SMA (Brown et al., 2008). Colors show the detected signal, and contours show the signal to noise ratio, starting from S/N of $3$ and increasing by $1$ thereafter. The green plus marks the location of the star. The blue circle is the SMA beam. Figure taken from Krumholtz (2015).}}
+    \label{fig:lkha330}
+\end{figure}
 
 \subsubsection{Additional context}
 
-Additional context.
+Excess infrared (IR) emission from T Tauri stars is thought to arise from circumstellar disks. The standard disk is modeled as a flat blackbody. In the simplest scenario, it lacks intrinsic luminosity and passively re-radiates the energy it absorbs from the central star. This blackbody model yields an IR spectral energy distribution (SED) of the form $\nu F_\nu\propto\nu^\alpha$, with spectral index $\alpha=4/3$. By coincidence, the steady state accretional luminosity from an opaque, thin disk yields an SED with identical spectral index. SEDs measured between $3$ and $100\,\mu{\rm m}$ are usually well fitted by power laws with $0\leq\alpha\leq4/3$. However, in contrast to the prediction of the standard model, most sources exhibit flattish spectra having $n\leq3/4$. 
+
+{\noindent}The failure of the standard disk model spawned a number of alternative proposals. One of these includes a blackbody disk whose surface flares outward with increasing radius as a consequence of vertical hydrostatic equilibrium. Flared disks intercept more stellar radiation than flat ones, especially at large distances from the star. Other models invoke either an ``active'' disk having a high intrinsic luminosity or a dusty component in addition to the disk.
+
+{\noindent}T Tauri stars have temperatures $T_{\rm TT}\sim4000\,{\rm K}$, masses $M_{\rm TT}\sim0.5\,{\rm M_\odot}$, and radii $R_{\rm TT}\sim2.5\,{\rm R_\odot}$. Dust, which is uniformly mixed with the gas, comprises about $1\%$ of the total mass. Dust grains dominate the continuum opacity from visible through millimeter wavelengths. Dust grains modelled as being spherical have a radius $r\sim0.1\,\mu{\rm m}$, mass density $\rho_d\sim2\,{g\,cm^{-3}}$, and negligible albedo. Their emissivity, which is unity for $\lambda\leq2\pi r$, decreases as $\epsilon_\lambda\sim(2\pi r/\lambda)^\beta$ for $\lambda>2\pi r$. We denote by $\epsilon_\lambda\sim(8\pi rk_BT/hc)^\beta\sim(T/T_{\rm TT})^\beta$ ($\beta\approx1$) the average dust emissivity at temperature $T$. The dust opacity at visual wavelengths is $\kappa_V\sim400\,{\rm cm^2\,g^{-1}}$, which implies an optical depth of $\tau_v\sim4\times10^5a_{\rm AU}^{-3/2}$, where $a_{\rm AU}$ is the disk radius measured in AU.
+
+{\noindent}SEDs are computed for disks viewed pole-on. We choose
+an inner cutoff radius, $a_i\sim6R_{\rm TT}\sim0.07\,{\rm AU}$, to mark the condensation boundary of common silicates. The outer cutff radius for flat disks, $a_0\sim2.3\times10^4R_{\rm TT}\sim2.7\times10^2\,{\rm AU}$, is fixed to facilitate comparisons among different disk models; $a_0$ is comparable to the size of the largest disks as seen in silhouette against the Orion Nebula.
+
+{\noindent}To begin, we review standard relations for the temperature and SED of a blackbody disk. The flux of stellar radiation incident upon the disk is $(\alpha/2)(R_{\rm TT}/a)^2\sigma T_{\rm TT}^4$ for $a\gg R_{\rm TT}$, where $\alpha$ is the grazing angle at which the starlight strikes the disk. Equating the emitted and absorbed fluxes yields the disk temperature 
+
+\begin{align*}
+    T_e \sim \left(\frac{\alpha}{2}\right)^{1/4} \left(\frac{R_{\rm TT}}{a}\right)^{1/2} T_{\rm TT} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}The SED is computed as
+
+\begin{align*}
+    L_\nu \equiv 4\pi d^2\nu F_\nu = 8\pi^2\nu \int\limits_{a_i}^{a_0} aB_\nu(T_e){\rm d}a ~ [{\rm erg\,s^{-1}}],
+\end{align*}
+
+{\noindent}where $B_\nu(T_)$ is the Planck function, and $d$ is the distance to the source. A scaling relation for $L_\nu$ at wavelengths between those that characterize the disk at $a_i$ and $a_0$ is derived as follows. $L_\nu$ is approximated as $8\pi^2a^2\nu BB_\nu(T_e)$, $\nu B_\nu(T_e)$ is replaced by $\sigma T_e^4/\pi$, $a$ is related to $T_e$ by $8\pi^2a^2\nu BB_\nu(T_e)$, and $T_e$ is expressed in terms of $\nu$ by $3k_BT_e\sim h\nu$. These yield
+
+\begin{align*}
+    L_\nu \sim 8\pi a^2 \sigma T_e^4 \sim \alpha L_{\rm TT} ~ [{\rm erg\,s^{-1}}].
+\end{align*}
+
+{\noindent}In other words, the fraction of the stellar luminosity $L_{\rm TT}$ that is reprocessed to frequencies in an octave centered on $\nu$ is approximately equal to the grazing angle $\alpha$ at the location where $3k_BT\sim h\nu$.
+
+{\noindent}\textbf{Flat geometry}: A flat disk is one whose \textbf{aspect ratio} (i.e., opening angle) is independent of $\alpha$; let's assume it to be much less than unity. The grazing angle appropriate to this geometry is $\alpha\sim0.4R_{\rm TT}/a\ll1$ for $a/R_{\rm TT}\ll1$. Thus, $T_e$ takes the form
+
+\begin{align*}
+    T_e \sim \left(\frac{2}{3\pi}\right)^{1/4} \left(\frac{R_{\rm TT}}{a}\right)^{3/4} T_{\rm TT} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}Application of the scaling relation given by $L_\nu \sim 8\pi a^2 \sigma T_e^4 \sim \alpha L_{\rm TT}$ to the flat disk gives $L_\nu\sim0.01(\nu/10^{13}\,{\rm Hz})^{4/3}L_{\rm TT}$. Figure 1 (left) confirms that $L_\nu$ obeys this relation for $30\lesssim\lambda\lesssim1000\,\mu{\rm m}$.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=7.5cm]{figures/TT_SED_flat.png}
+    \includegraphics[width=7.5cm]{figures/TT_SED_flared.png}
+    \caption{\footnotesize{(\textbf{Left}): SED for the flat blackbody disk, with contributions from star and disk identified. The $n=4/3$ law is evident between $30\,\mu{\rm m}$ and $1\,{\rm mm}$. The turnover near $1\,{\rm mm}$ is due to the truncation of the disk at $a_0=270\,{\rm AU}$. (\textbf{Right}): SED for the flared blackbody disk. At mid-IR wavelengths, $L_\nu\propto\nu^{-2/3}$. At longer wavelengths, $L_\nu\propto\nu^3$. Figure taken from Chiang \& Goldreich (1997).}}
+    \label{fig:ttsed}
+\end{figure}
+
+{\noindent}\textbf{Flared geometry}: We retain the assumption that the disk radiates as a blackbody and consider the consequences of vertical hydrostatic equilibrium in a gravitational field $g=\Omega^2z$.
+
+{\noindent}The disk temperature $T_e$ is still given by
+
+\begin{align*}
+    T_e \sim \left(\frac{\alpha}{2}\right)^{1/4} \left(\frac{R_{\rm TT}}{a}\right)^{1/2} T_{\rm TT} ~ [{\rm K}],
+\end{align*}
+
+{\noindent}but now the grazing angle $\alpha$ takes the more general form
+
+\begin{align*}
+    \alpha \sim \frac{0.4R_{\rm TT}}{a} + a\frac{{\rm d}}{{\rm d}a} \left(\frac{H}{a}\right) ~ [{\rm deg}],
+\end{align*}
+
+{\noindent}where $H$ is the height of the visible photosphere above the disk midplane.
+
+{\noindent}Taking the gas to be isothermal at temperature $T_e$ yields a Gaussian density profile
+
+\begin{align*}
+    \frac{n}{n_0} = \exp \left(-\frac{z^2}{2h^2}\right) ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    \frac{h}{a} = \left(\frac{T_e}{T_c}\right)^{1/2} \left(\frac{a}{R_{\rm TT}}\right)^{1/2} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}The temperature $T_c$ is a measure of the gravitational potential at the surface of the central star;
+
+\begin{align*}
+    T_c \equiv \frac{GM_{\rm TT}\mu}{k_BR_{\rm TT}} \sim 8\times10^6 ~ [{\rm K}],
+\end{align*}
+
+{\noindent}with $\mu$ being the mean molecular weight of the gas. Under the assumption that the dust-to-gas ratio if uniform throughout the disk, we have
+
+\begin{align*}
+    \frac{H}{h} = \left[2\ln\left(\frac{n_0}{n_{\rm ph}}\right)\right]^{1/2} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where $n_{\rm ph}$ is the number density of the photosphere. In the limit of large radius where $\alpha$ is dominated by the flaring term,
+
+\begin{align*}
+    \frac{H}{a} \sim 4\left(\frac{T_{\rm TT}}{T_c}\right)^{4/7} \left(\frac{a}{R_{\rm TT}}\right)^{2/7} \sim 0.18a_{\rm AU}^{2/7} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}It is assumed that $H/h=4$; in reality, this factor declines from about $5$ to $4$ between $a_{\rm AU}=3$ to $a_{\rm AU}=4$.
+
+{\noindent}It follows that $\alpha\sim0.005a_{\rm AU}^{-1}+0.05a_{\rm AU}^{2/7}$. Thus, $\alpha$ is minimal at the transition radius $a_{\rm tr}\sim0.4\,{\rm AU}$ with $\alpha_{\rm min}\sim0.05$. Beyond the transition radius, the disk flares until $H\sim a$ at $a_0\sim270\,{\rm AU}$.
+
+{\noindent}The SED for the flared blackbody disk truncated at $a_0$ is shown in Figure \ref{fig:ttsed} (right). At wavelengths between $10$ and $100\,\mu{\rm m}$, the disk emission follows the scaling relation $L_\nu\propto\alpha L_{\rm TT}\sim0.1(\nu/10^{13}\,{\rm Hz}^{-2/3}L_{\rm TT})$. Longward of $300\,\mu{\rm m}$ in the Rayleigh-Jeans regime, the SED varies as $\nu^3$.
 
 % --------------------------------------------------------------
 %               15. 
@@ -1850,6 +1962,7 @@ Additional context.
     \item A Digital Spectral Classification Atlas; Gray (2009)
     \item Notes on Star Formation; Krumholz (2015)
     \item Physics of the Interstellar and Intergalactic Medium; Draine (2011)
+    \item Spectral Energy Distributions of T Tauri Stars with Passive Circumstellar Disks; Chiang \& Goldreich (1997)
 \end{itemize}
 
 \end{document}
