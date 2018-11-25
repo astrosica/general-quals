@@ -1905,7 +1905,7 @@ Explain the process of nuclear fusion and give two examples of important fusion 
 
 \subsubsection{Short answer}
 
-Answer.
+Most observed stars (including the Sun) live on \textbf{thermonuclear fusion}. In such nuclear reactions, induced by the thermal motion, several lighter nuclei fuse to form a heavier one.
 
 \subsubsection{Additional context}
 
@@ -1915,17 +1915,102 @@ Answer.
 
 {\noindent}\textit{For a nucleus to be stable, its mass must be less than the sum of the masses of any possible combination of its constituents}. Thus, $^5$Li is not stable, whereas $^4$He is. However, note that the instability of mass-5 nuclei posed one of the greatest barriers of the century to the understanding of the evolution of stars. The nuclear evolution beyond mass 5 was finally solved by Fred Hoyle, who showed that the triple-$\alpha$ process could actually initiate synthesis of all the nuclei heavier than mass 12.
 
-{\noindent}Consider the reaction where a particle a hits a nucleus $X$, producing a nucleus $\Upsilon$ and other particle(s) b. In other words,
+{\noindent}Most observed stars (including the Sun) live on so-called thermonuclear fusion. In such nuclear reactions, induced by the thermal motion, several lighter nuclei fuse to form a heavier one. Before this process, the involved nuclei $j$ have a total mass ($\sum m_j$) different from that of the product nucleus ($m_y$). This difference is called the \textbf{mass defect}:
 
 \begin{align*}
-    a + X \rightarrow \Upsilon + b.
+    \Delta m = \sum m_j - m_y ~ [{\rm kg}].
 \end{align*}
 
-{\noindent}Such a reaction can be written $X(a,b)\Upsilon$. Usually for such a reaction to happen, it must be exothermic. That is, the rest energy of the initial constituents of the reaction must exceed that of the products:
+{\noindent}This mass defect is converted into energy according to Einstein's formula
 
 \begin{align*}
-    E_n \equiv (m_a+m_X-m_b-m_\Upsilon)c^2 >0 ~ [{\rm eV}].
+    E = \Delta m c^2 ~ [{\rm eV}]
 \end{align*}
+
+{\noindent}and is available (at least partly) for the star's energy balance. Usually for such a reaction to happen, it must be exothermic. That is, the rest energy of the initial constituents of the reaction must exceed that of the products:
+
+\begin{align*}
+    \Delta mc^2>0 ~ [{\rm eV}].
+\end{align*}
+
+{\noindent}An example is the series of reactions called \textbf{hydrogen burning}, where four hydrogen nuclei $^1$H with a total mass $4\times1.0079\,{\rm amu}$ (atomic mass units, physical scale) are transformed into one $^4$He nucleus of $4.0026\,{\rm amu}$. Atomic masses are given for the neutral atoms (i.e., for the nucleus plus all electrons). However, since the electron mass is only $1/1823\,{\rm amu}$, we will assume that masses of nuclei are the same as the atomic masses. Obviously $2.9\times10^{-2}\,{\rm amu}$ per produced $^4$He nucleus have ``disappeared'' during the fusion of the four protons, which is roughly $0.7\%$ of the original masses and which corresponds to an energy of about $27.0\,{\rm MeV}$. As usual in nuclear physics, as the unit of energy, we take the electron volt ${\rm eV}$ ($1\,{\rm eV}=1.6018\times10^{-12}\,{\rm erg}$) with the following equivalences:
+
+\begin{align*}
+    1\,{\rm keV} \equiv 1.1606\,{\rm K} \\
+    931.49\,{\rm MeV} \equiv 1\,{\rm amu}.
+\end{align*}
+
+{\noindent}The Sun's luminosity corresponds to a mass loss rate of $L_\odot/c2=4.26\times10^{12}\,{\rm g\,s^{-1}}$, which appears to be a lot, especially if it is read as ``more than four million metric tons per second''. If a total of $1\,{\rm M_\odot}$ of hydrogen were converted into $^4$He, then the disappearing $0.7\%$ of this mass would be $1.4\times10^{31}\,{\rm g}$, which could balance the Sun's present mass loss by radiation for about $3\times10^{18}\,{\rm s}\sim10^{11}\,{\rm yr}$.
+
+{\noindent}The deficiency of mass is just another aspect of the fact that the involved nuclei have different binding energies ($E_B$). This is the energy required to separate the nucleons (protons and neutrons in the nucleus) against their mutual attraction by the strong, but short-range, nuclear forces. Or else, the binding energy is the energy gained if they are brought together from infinity (which starts here at any distance large compared with, say, $10^{-12}\,{\rm cm}$, the scale of a nuclear size).
+
+{\noindent}Consider a nucleus of mass $M_{\rm nuc}$ and atomic mass number $A$ (the integer \textbf{atomic weight}): it may contain $Z$ protons of mass $m_p$ and $(A-Z)$ neutrons of mass $m_n$. Its binding energy is then related to these masses by
+
+\begin{align*}
+    E_B &= \Delta mc^2 ~ [{\rm MeV}] \\
+    E_B &= [(A-Z)m_n+Zm_p-M_{\rm nuc}]c^2  ~ [{\rm MeV}].
+\end{align*}
+
+{\noindent}When comparing different nuclei, it is more instructive to consider the average binding energy per nucleon,
+
+\begin{align*}
+    f = \frac{E_B}{A} ~ [{\rm MeV}]
+\end{align*}
+
+{\noindent}which is also called the \textbf{binding fraction}. With the exception of hydrogen, typical values are around $8\,{\rm MeV}$, with relatively small differences for nuclei of very different $A$. This shows that the short-range nuclear forces due to a nucleon mainly affect the nucleons in its immediate neighbourhood only, such that with increasing $A$, a saturation occurs rather than an increase of $f$ proportional to $A$. An idealized plot of $f$ against $A$ is shown in Figure \ref{fig:nucleonbindingenergy} (the curve zigzags around this smoothed curve as a consequence of the shell structure of the nucleus and pair effects).
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The average binding energy per nucleon $f$ as a function of atomic mass number $A$. Figure taken from \href{https://physics.stackexchange.com}{https://physics.stackexchange.com}.}}
+    \label{fig:nucleonbindingenergy}}
+    {\includegraphics[width=12cm]{figures/NucleonBindingEnergy.png}}
+\end{figure}
+
+{\noindent}With increasing $A$, $f(A)$ rises steeply from hydrogen, then flattens out and reaches a maximum of $8.5\,{\rm MeV}$ at $A=56(^{56}{\rm Fe})$, after which it drops slowly with increasing $A$. The increase for $A<56$ is a surface effect: particles at the surface of the nucleus experience less attraction by nuclear forces than those in the interior, which are completely surrounded by other particles. And in a densely packed nucleus, the surface area increases with radius slower than the volume (i.e. the number $A$) such that the fraction of surface particles drops. With increasing $A$, the number $Z$ of protons also increases (the addition of neutrons only would require higher energy states, because the Pauli exclusion principle excludes more than two identical neutrons, and the nuclei would be unstable). The positively charged protons experience a repulsive force which is far-reaching and therefore does not show the saturation of the nuclear forces. This increasing repulsion by the Coulomb forces brings the curve in Figure \ref{fig:nucleonbindingenergy} down again for $A>56$.
+
+{\noindent}Around the maximum, at $^{56}{\rm Fe}$, we have the most tightly bound nuclei. In other words, the nucleus of $^{56}{\rm Fe}$ has the smallest mass per nucleon, so that any nuclear reaction bringing the nucleus closer to this maximum will be exothermic (i.e., it will release energy). There are two ways of doing this:
+
+\begin{enumerate}
+    \item By fission of heavy nuclei, which happens, for example, in radioactivity.
+    \item By fusion of light nuclei, which is the prime energy source of stars (and possibly ours too in the future).
+\end{enumerate}
+
+{\noindent}Clearly, both reach an end when one tries to extend them over the maximum of $f$, which is therefore a natural finishing point for the stellar nuclear engine. So if a star initially consisted of pure hydrogen, it could gain a maximum of about $8.5\,{\rm MeV}$ per nucleon by fusion to $^{56}{\rm Fe}$, but $6.7\,{\rm MeV}$ of these are already used up when $^4$He is built up in the first step.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/CoulombBarrier.png}
+    \caption{\footnotesize{Sketch of the potential over the distance $r$ from the nuclear centre. Nuclear attraction dominates for $r<r_0$ and Coulomb repulsion for $r>r_0$. Figure adapted from Collins (2003) and \href{https://physics.stackexchange.com}{https://physics.stackexchange.com}.}}
+    \label{fig:coulombbarrier}
+\end{figure}
+
+{\noindent}In order to obtain a fusion of charged particles, they have to be brought so close to each other that the strong, but very short-ranged, nuclear forces dominate over the weaker, but far-reaching, Coulomb forces. The counteraction of these two forces leads to a sharp potential jump at the interaction radius (Figure \ref{fig:coulombbarrier}):
+
+\begin{align*}
+    r_0 \approx A^{1/3}1.44\times10^{-13} ~ [{\rm fm}]
+\end{align*}
+
+{\noindent}(the \textbf{nuclear radius} of the order of \textbf{femtometer}, $1\,{\rm fm}=10^{-13}\,{\rm cm}$). For distances less than $r_0$, the nuclear attraction dominates and provides a potential drop of roughly $30\,{\rm MeV}$, while beyond $r_0$, the repulsive Coulomb forces for particles with charges $Z_1$ and $Z_2$ yield
+
+\begin{align*}
+    E_{\rm Coul} = \frac{Z_1Z_2e^2}{r} ~ [{\rm MeV}].
+\end{align*}
+
+{\noindent}The height of the Coulomb barrier $E_{\rm Coul}(r_0)$ is typically of the order
+
+\begin{align*}
+    E_{\rm Coul}(r_0) \approx Z_1Z_2 ~ [{\rm MeV}].
+\end{align*}
+
+{\noindent}If, in the stationary reference frame of the nucleus, a particle at infinity has kinetic energy $E_1$, it can come classically only to a distance $r_1$ given by $E_1=E_{\rm Coul}(r_1)$, as indicated in Figure \ref{fig:coulombbarrier}. Now, the kinetic energy available to particles in stellar interiors is that of their thermal motion, and hence the reactions triggered by this motion are called thermonuclear. Since in normal stars we observe a slow energy release rather than a nuclear explosion, we must certainly expect the average kinetic energy of the thermal motion, $E_{\rm th}$, to be considerably smaller than $E_{\rm Coul}(r_0)$. For $T\sim10^7\,{\rm K}$ estimated for the solar centre, $k_BT$ is only $10^3\,{\rm eV}$ (i.e., $E_{\rm th}$ is smaller than the Coulomb barrier by a factor of roughly $10^3$. This is in fact so low that, with classical effects only, we can scarcely expect any reaction at all. In the high-energy tail of the Maxwell-Boltzmann distribution, the exponential factor drops here to $\exp(-1000)\approx10^{-434}$, which leaves no chance for the ``mere'' $10^{57}$ nucleons in the whole Sun (and even for the $\sim10^{80}$ nucleons in the whole visible Universe)!
+
+{\noindent}The only possibility for thermonuclear reactions in stars comes from a quantum-mechanical effect found by G. Gamow: there is a small but finite probability of penetrating (\textbf{quantum tunnelling}) through the Coulomb barrier, even for particles with $E<E_{\rm Coul}(r_0)$. This tunnelling probability varies as 
+
+\begin{align*}
+    P = CE^{-1/2}\exp^{-2\pi\eta}, ~~~ \eta=\sqrt{\frac{m}{2}}\frac{Z_1Z_2e^2}{\hbar\sqrt{E}}.
+\end{align*}
+
+{\noindent}Here $\hbar$ is the \textbf{reduced Planck constant} $h/2\pi$ and $m$ the \textbf{reduced mass}. The factor $C$ is a constant that depends only on the properties of the two colliding nuclei. The exponent $2\pi\eta$ is obtained as the only $E$-dependent term in an approximate evaluation of the integral over $\hbar^{-1}\sqrt{2m(E_{\rm Coul}-E)}$, which is extended from $r_0$ to the distance of closest approach (i.e., where $E=E_{\rm Coul}$). For $Z_1Z_2=1$ and $T=10^7\,{\rm K}$, $P$ is of the order of $10^{-20}$ for particles with average kinetic energy $E$ and steeply increases with $E$ and decreases with $Z_1Z_2$. Therefore, for temperatures as ``low'' as $10^7\,{\rm K}$, only the lightest nuclei (with smallest $Z_1Z_2$) have a chance to react. For reactions of heavier particles, with larger $Z_1Z_2$, the energy (i.e., the temperature) has to be correspondingly larger to provide a comparable quantum tunneling probability. This will result in well-separated phases of different nuclear burning during the star's evolution.
 
 {\noindent}\textbf{Nuclear reaction rates}: Consider collisions between two different kinds of particles with a number density in phase space of ${\rm d}N_1$ and ${\rm d}N_2$. To obtain the number of collisions per second per unit volume, we must integrate over all available velocity space. That is, we must sum over the collisions between particles so that the collision rate $r$ is
 
@@ -2109,7 +2194,7 @@ Fermi's paradox presents arguably the greatest challenge for any practical SETI 
 {\noindent}Tsiolkovsky, Fermi, Viewing, Hart, and their followers argue on the basis of two premises:
 
 \begin{enumerate}
-    \item  the absence of extraterrestrials in the Solar System; and
+    \item the absence of extraterrestrials in the Solar System; and
     \item the fact that they have had more than enough time in the history of Galaxy to visit, either in person or through their conventional or self-replicating probes.
 \end{enumerate}
 
@@ -2190,7 +2275,7 @@ Similar to r- and s-processes, rp-processes form elements heavier than iron by p
     {\rm s-process}\,(n,\gamma)\,&^a_ZX+n \rightarrow ^{a+1}_ZX\,(\rightarrow^{a+1}_{Z+1}X'+e^-).
 \end{align*}
 
-{\noindent}The r-process (which affords a particularly high neutron density) and the s-process (which goes on at lower neutron densities and intermediate temperatures) contribute about equally to the nucleosynthesis of heavy nuclei, but there are specific nuclei that are (almost) exclusively produced by either the r- or the s-process. Typical r-process elements are Ge, Zr, Te, Xe, Eu, Os, Pt, and Au, and typical s-process elements are Sr and Ba. Nuclei such as $^{232}$Th, $^{235}$U, and $^{238}$U can only be produced in the r-process. Further, since the s-process occurs later in galactic history than the r-process, elements produced by the s-process are delivered to the ISM at a later stage. So-called \textbf{halo stars}, which circle our galaxy in randomly oriented eccentric orbits, and which are among the very oldest stars (evidenced by their very low iron abundance), have a clear signature of elements made in the r-process. Figure HERE is a graphical representation of typical paths for an r- and s-processes.
+{\noindent}The r-process (which affords a particularly high neutron density) and the s-process (which goes on at lower neutron densities and intermediate temperatures) contribute about equally to the nucleosynthesis of heavy nuclei, but there are specific nuclei that are (almost) exclusively produced by either the r- or the s-process. Typical r-process elements are Ge, Zr, Te, Xe, Eu, Os, Pt, and Au, and typical s-process elements are Sr and Ba. Nuclei such as $^{232}$Th, $^{235}$U, and $^{238}$U can only be produced in the r-process. Further, since the s-process occurs later in galactic history than the r-process, elements produced by the s-process are delivered to the ISM at a later stage. So-called \textbf{halo stars}, which circle our galaxy in randomly oriented eccentric orbits, and which are among the very oldest stars (evidenced by their very low iron abundance), have a clear signature of elements made in the r-process. Figure \ref{fig:rsprocesses} is a graphical representation of typical paths for an r- and s-processes.
 
 \begin{figure}[t]
     \centering
