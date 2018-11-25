@@ -3,6 +3,8 @@
 \usepackage{caption}
 \usepackage{enumitem}
 \usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs}
 \usepackage{mathtools}
 \usepackage{amsmath,amsthm,amssymb,cancel,bm}
 \usepackage{floatrow}
@@ -1900,7 +1902,176 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+\textbf{General properties of the nucleus}: The notion that the atom can be viewed as being composed of a nucleus surrounded by a cloud of electrons which are confined to shells led to a very successful theory of atomic spectra. A very similar picture can be postulated for the nucleus itself, namely, that nucleons are arranged in shells within the nucleus and undergo transitions from one excited state (shell) to another subject to the same sort of selection rules that govern atomic transitions. The origin of the shell structure of any nucleus is that nucleons are fermions and therefore must obey the \textbf{Pauli Exclusion Principle}, just as the atomic electrons do. Thus, only two protons or two neutrons may occupy a specific cell in phase space (protons and neutrons have the same spin as electrons, so each species can have two of its kind in a quantum state characterized by the spatial quantum numbers).
+
+{\noindent}However, the nucleons are much more tightly bound in the nucleus than the electrons in the atom. Whereas the typical ionization energy of an atom can be measured in tens to thousands of electron volts, the typical binding energy of a nucleon in the nucleus is several million electron volts. This large binding energy and the Pauli Exclusion Principle can be used to explain the stability of the neutron in nuclei. Although free neutrons beta-decay to protons (and an electron and an electron anti-neutrino) with a half-life of about 10 min, neutrons appear to be stable when they are in nuclei. If neutrons did decay, the resulting proton would have to occupy one of the least tightly bound proton shells, which frequently costs more energy than is liberated by the beta decay of the neutron. Thus, unless the neutron decay can provide sufficient energy for the decay products to be ejected from the nucleus, the neutron must remain in the nucleus as a stable entity.
+
+{\noindent}\textit{For a nucleus to be stable, its mass must be less than the sum of the masses of any possible combination of its constituents}. Thus, $^5$Li is not stable, whereas $^4$He is. However, note that the instability of mass-5 nuclei posed one of the greatest barriers of the century to the understanding of the evolution of stars. The nuclear evolution beyond mass 5 was finally solved by Fred Hoyle, who showed that the triple-$\alpha$ process could actually initiate synthesis of all the nuclei heavier than mass 12.
+
+{\noindent}Consider the reaction where a particle a hits a nucleus $X$, producing a nucleus $\Upsilon$ and other particle(s) b. In other words,
+
+\begin{align*}
+    a + X \rightarrow \Upsilon + b.
+\end{align*}
+
+{\noindent}Such a reaction can be written $X(a,b)\Upsilon$. Usually for such a reaction to happen, it must be exothermic. That is, the rest energy of the initial constituents of the reaction must exceed that of the products:
+
+\begin{align*}
+    E_n \equiv (m_a+m_X-m_b-m_\Upsilon)c^2 >0 ~ [{\rm eV}].
+\end{align*}
+
+{\noindent}\textbf{Nuclear reaction rates}: Consider collisions between two different kinds of particles with a number density in phase space of ${\rm d}N_1$ and ${\rm d}N_2$. To obtain the number of collisions per second per unit volume, we must integrate over all available velocity space. That is, we must sum over the collisions between particles so that the collision rate $r$ is
+
+\begin{align*}
+    r = \int\int v\sigma(v){\rm d}N_1(\vec{v}_1){\rm d}N_2(\vec{v}_2) ~ [{\rm s^{-1}\,m^{-3}}].
+\end{align*}
+
+{\noindent}Let us assume that the velocity distributions of both kinds of particles are given by Maxwellian velocity distributions
+
+\begin{align*}
+    {\rm d}N = N \left(\frac{m}{2\pi k_BT}\right)^{3/2} e^{-mv^2/(2k_BT)}{\rm d}v,
+\end{align*}
+
+{\noindent}so that the collision rate equation becomes
+
+\begin{align*}
+    r = N_1N_2 \left(\frac{m_1}{2\pi k_BT}\right)^{3/2} \left(\frac{m_2}{2\pi k_BT}\right)^{3/2} \int\limits_{-\infty}^\infty \int\limits_{-\infty}^\infty \left(\frac{-m_1v_1^2}{2k_BT}+\frac{-m_2v_2^2}{2k_BT}\right) v\sigma(v){\rm d}\vec{v}_1{\rm d}\vec{v}_2 ~ [{\rm s^{-1}\,m^{-3}}].
+\end{align*}
+
+{\noindent}If we transform to the center-of-mass coordinate system, assuming the velocity field is isotropic, so that the triple integrals can be written as spherical ``velocity volumes'', then we can rewrite this in terms of the center of
+mass velocity $v_0$ and the relative velocity $v$ as
+
+\begin{align*}
+    r = N_1N_2 \left(\frac{m_1}{2\pi k_BT}\right)^{3/2} \left(\frac{m_2}{2\pi k_BT}\right)^{3/2} \int\limits_0^\infty \int\limits_0^\infty \exp\left[- \frac{(m_1+m_2)v_0^2+\tilde{m}v^2}{2k_BT} \right] v\sigma(v)4\pi v_0^2(4\pi v^2){\rm d}v_0{\rm d}v ~ [{\rm s^{-1}\,m^{-3}}],
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    \tilde{m} &= \frac{m_1m_2}{m_1+m_2} ~ [{\rm kg}] \\
+    \vec{v}   &= \vec{v}_1-\vec{v}_2 ~ [{\rm m\,s^{-1}}] \\
+    \vec{v}_0 &= \frac{m_1\vec{v}_1+m_2\vec{v}_2}{m_1+m_2} ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}The integral over $_0v$ is analytic and is
+
+\begin{align*}
+    \int\limits_0^\infty \exp\left[-\frac{(m_1+m_2)v_0^2}{2k_BT}\right] 4\pi v_0^2{\rm d}v_0 = \left(\frac{2\pi k_BT}{m_1+m_2}\right)^{3/2}
+\end{align*}
+
+{\noindent}which reduces $r$ to 
+
+\begin{align*}
+    r = N_1N_2 \left(\frac{\tilde{m}}{2\pi k_BT}\right)^{3/2} \int\limits_0^\infty \exp\left[-\frac{\tilde{m}v^2}{2k_BT}\right] v\sigma(v) (4\pi v^2) {\rm d}v ~ [{\rm s^{-1}\,m^{-3}}].
+\end{align*}
+
+{\noindent}Since the \textit{relative} kinetic energy in the center of mass system is $E=mv^2/2$, we can rewrite this in terms of an average reaction cross section $\langle\sigma(v)v\rangle$, so that
+
+\begin{align*}
+    r = N_1N_2\langle\sigma(v)v\rangle
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    \langle\sigma(v)v\rangle = \frac{2}{\sqrt{\pi}} \left(\frac{1}{k_BT}\right)^{3/2} \int\limits_0^\infty \exp\left(\frac{-E}{k_BT}\right)\sigma(v)v\sqrt{E}{\rm d}E = \int\limits_0^\infty n(E)v\sigma(v){\rm d}E.
+\end{align*}
+
+{\noindent}Thus $\langle\sigma(v)v\rangle$ is the ``relative energy'' weighted average of the collision probability of particle $1$ with particle $2$. When this average cross section is written, the explicit dependence on velocity is usually omitted, so that
+
+\begin{align*}
+    \langle\sigma v\rangle \equiv \langle\sigma(v)v\rangle.
+\end{align*}
+
+{\noindent}If the collisions involve identical particles, then the number of distinct pairs of particles is $N(N-1)/2$ so the factor of $N_1N_2$ is replaced by $N^2/2$.
+
+{\noindent}If we call the \textbf{energy produced per reaction} $Q$, we can write the energy produced per gram of stellar material as
+
+\begin{align*}
+    \epsilon = \frac{r_{1,2}Q}{\rho} = \frac{N_1N_2\langle\sigma v\rangle}{\rho} ~ [{\rm eV\,g^{-1}}].
+\end{align*}
+
+{\noindent}The number densities can be replaced with the more common fractional abundances by mass to get
+
+\begin{align*}
+    \epsilon = \left[ N_A^2Q \langle\sigma v\rangle \left(\frac{X_1}{m_1}\right) \left(\frac{X_2}{m_2}\right) \right] \rho ~ [{\rm eV\,g^{-1}}]
+\end{align*}
+
+{\noindent}where $N_A$ is \textbf{Avogadro's number}. Since $\langle\sigma v\rangle$ is a complicated function of temperature and must be obtained numerically, this is usually approximated numerically as
+
+\begin{align*}
+    \epsilon \approx \epsilon_0\rho T^\nu ~ [{\rm eV\,g^{-1}}]
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    \epsilon_0 = N_A^2Q \langle\sigma v\rangle \left(\frac{X_1}{m_1}\right) \left(\frac{X_2}{m_2}\right) \frac{1}{T_0^\nu} ~ [{\rm eV\,g^{-2}\,cm^3\,K^{-1}}].
+\end{align*}
+
+{\noindent}Here $\nu$ itself is very weakly dependent on the temperature. Most of the important energy production mechanisms have this form. The approximation $\epsilon\approx\epsilon_0\rho T^\nu$ expresses the energy generated for a specific energy generation mechanism in terms of the state variables $T$ and $\rho$. This is what we were after. Formulas such as these, where $\epsilon_0$ has been determined, will enable us to determine the energy produced throughout the star in terms of the state variables. Let us now consider a few of the specific nuclear reactions for which we have expressions of the type given by this equation of $\epsilon_0$.
+
+{\noindent}\textbf{Specific nuclear reactions}: The nuclear reactions that provide the energy for MS stars all revolve on the conversion of hydrogen to helium. However, this is accomplished by a variety of ways. We may divide these ways into two groups. The first is known as the \textbf{proton-proton cycle} (p-p cycle) and it begins with the conversion of two hydrogen atoms to deuterium. Several possibilities occur on the way to the production of $^4$He. These alternate options are known as \textbf{P2-P6 cycles}. In addition to the proton-proton cycle, a series of nuclear reactions involving carbon, nitrogen, and oxygen also can lead to the conversion of hydrogen to helium with no net change in the abundance of C, N, and O. For this reason, it is known as the \textbf{CNO cycle}. These reactions and their side chains are given below in Table \ref{table:nuclearreactions}:
+
+\begin{table}[t]
+\begin{tabular}{lll|lll}
+\hline
+Step & $Q$ [MeV] & Proton Cycles & Step & $Q$ [MeV] & CNO Cycles \\
+\hline
+ 1     & 1.18  & $^1{\rm H}(p,\beta,\nu)^2{\rm H}$     & 1       & 1.94  & $^{12}C(p,\gamma)^{13}{\rm N}$ \\
+ 2     & 5.49  & $^2{\rm H}(p,\gamma)^3{\rm He}$       & 2$^*$   & 1.51  & $^{13}{\rm N}\rightarrow^{13}{\rm C}+\beta^++\nu$ \\
+ 3     & 12.86 & $^3{\rm He}(^3{\rm He},2p)^4{\rm He}$ & 3       & 7.54  & $^{13}{\rm C}(p,\gamma)^{14}{\rm N}$ \\
+ or    &       &                                       & 4       & 7.29  & $^{14}{\rm N}(p,\gamma)^{15}{\rm O}$ \\
+ 3     & 1.59  & $^3{\rm He}(\alpha,\gamma)^7{\rm Be}$ & 5$^*$   & 1.76  & $^{15}{\rm O}\rightarrow^{15}{\rm N}+\beta^++\nu$ \\
+ 4     & 0.06  & $^7{\rm Be}(\beta^-,\bar{\nu})^7{\rm Li}\rightarrow^7{\rm Li}(p,\alpha)^4{\rm He}$ & 6     & 4.96 & $^{15}{\rm N}(p,\alpha)^{12}{\rm C}$ \\
+ or    &       &         ~~~~~~~~~~~~~~~~~~~~$Q=17.35$ &         &       & $^{15}{\rm N}(p,\gamma)^{16}{\rm O}$ \\
+ 4     & 0.13  & $^7{\rm Be}(p,\gamma)^8{\rm B}$       & 7       &       & $^{16}{\rm O}(p,\gamma)^{17}{\rm F}$ \\
+ 5$^*$ & 10.78 & $^8{\rm B}\rightarrow^8{\rm Be}+\beta^++\nu $    & 8$^*$ &  & $^{17}{\rm F}\rightarrow^{17}{\rm O}+\beta^++\nu$ \\
+ 6$^*$ & 0.09  & $^8{\rm Be}\rightarrow2^4{\rm He}$    & 9       &       & $^{17}{\rm O}(p,\alpha)^{14}{\rm N}$ \\
+ or    &       &                                       &         &       & $^{17}{\rm O}(p,\gamma)^{18}{\rm F}$ \\
+ 3     &       & $^3{\rm He}(\beta^-,\nu^3{\rm H})$    & 10$^*$  &       & $^{18}{\rm F}\rightarrow^{18}{\rm O}+\beta^++\nu$ \\
+       &       & $^3{\rm H}(p,\gamma)^4{\rm He}$       & 11      &       & $^{18}{\rm O}(p,\alpha)^{15}{\rm N}$ \\
+ 4     &       & $^3{\rm H}(^3{\rm He},np)^4{\rm He}$  &         &       & $^{18}{\rm O}(p,\gamma)^{19}{\rm F}$ \\
+       &       & $^3{\rm H}(^3{\rm H},2n)^4{\rm He}$   & 12      &       & $^{19}{\rm F}(p,\alpha)^{16}{\rm O}$ \\
+\cline{1-3}
+\multicolumn{3}{c|}{Triple-$\alpha$ process} \\
+\cline{1-3}
+ 1     & \multicolumn{2}{c|}{$2(^4{\rm He})+(\sim100\,{\rm KeV})\rightarrow^8{\rm Be}^*$} \\
+ 2     & \multicolumn{2}{c|}{$^8{\rm Be}^*(\alpha,^{12}{\rm C}^*)$} \\
+ 3     & \multicolumn{2}{c|}{$^{12}{\rm C}^*\rightarrow^{12}{\rm C}+2\gamma+7.656\,{\rm MeV}$} \\
+ \hline
+\end{tabular}
+\caption{Nuclear reactions of the p-p chain and CNO cycle. Asterisk (*) denotes reactions that occur by spontaneous decay and do not depend on the local values of the state variables. Table taken from Collins (2003).}
+\label{table:nuclearreactions}
+\end{table}
+
+{\noindent}Besides the steps marked with asterisks which denote reactions that occur by spontaneous decay and do not depend on local values of the state variables, the steps that are the important contributors to the energy supply have their contribution (their $Q$ value) indicated. The energy of the neutrinos has not been included since they play no role in determining the structure of normal stars. When the p-p cycle dominates on the lower MS, most of the energy is produced by means of the \textbf{P1 cycle}. \textit{The neutrino produced in the fifth step of the P2 cycle is the high energy neutrino which has been detected, but in unexpectedly low numbers, by the neutrino detection experiments}. In general, the relative importance of the P1 cycle relative to P2 and P3 is determined by the helium abundance, since this governs the branching ratio at step $3$ in the p-p cycle. If $^4$He is absent, it will not be possible to make $^7$Be by capture on $^3$He.
+
+{\noindent}Virtually all the energy of the CNO cycle is produced by step 6 as the production of $^{12}$C from $^{15}$N is strongly favored. However, all the higher chains close with only the net production of $^4$He. The first stage of the P4 cycle is endothermic by $18\,{\rm keV}$ so unless the density is high enough to produce a Fermi energy of $18\,{\rm keV}$, the reaction does not take place. This requires a density of $\rho>2\times10^4\,{\rm g\,cm^{-3}}$ and so will not be important in MS stars. Once $^3$H is produced it can be converted to $^4$He by a variety of processes given in step 4. The last two are sometimes denoted \textbf{P5} and \textbf{P6}, respectively, and are rare.
+
+{\noindent}While the so-called \textbf{triple-$\mathbf{\alpha}$ process} is not operative in MS stars, it does provide a major source of energy during the red-giant phase of stellar evolution. The extreme temperature dependence of the triple-$\alpha$ process plays a crucial role in the formation of low-mass red giants. The $^8$Be$^*$ is unstable and decays in an extremely short time. However, if during its existence it collides with another $^4$He nucleus, $^{12}$C can form, which is stable. The very short lifetime for $^8$Be$^*$ basically accounts for the large temperature dependence since a very high collision frequency is required to make the process productive.
+
+{\noindent}The exponent of the temperature dependence given in $\epsilon\approx\epsilon_0\rho T^\nu$ and the constant $\epsilon_0$ both vary slowly with temperature. This dependence is shown in Table \ref{table:tempdepen}.
+
+\begin{table}[]
+\begin{tabular}{llllllll}
+\hline
+\multicolumn{3}{c}{Proton-Proton} & \multicolumn{2}{c}{CNO Cycle} & \multicolumn{3}{c}{Triple-$\alpha$ Process} \\
+\cmidrule(l){1-3} \cmidrule(l){4-5} \cmidrule(l){6-8}
+$T_6$ & $\epsilon_0$ & $\nu$ & $\epsilon_0$ & $\nu$ & $T_8$ & $\epsilon_0$ & $\nu$ \\
+\hline
+$10$  & $7\times10^{-2}$ & $4.60$ & $3\times10^{-4}$ & $22.9$ & $0.8$ & $2\times10^{-12}$ & $49$ \\
+$20$  & $1$              & $3.54$ & $4.5\times10^2$  & $18.0$ & $1.0$ & $4\times10^{-8}$ & $41$ \\
+$40$  & $9$              & $2.72$ & $3\times10^7$    & $14.1$ & $2.0$ & $15.0$ & $19$ \\
+$80$  & $43$             & $2.08$ & $2\times10^{11}$ & $11.1$ & $3.0$ & $6\times10^3$ & $12$ \\
+$100$ & --               & --     & $2\times10^{12}$ & $10.2$ & $4.0$ & $10^5$ & $7.9$ \\
+\hline
+\end{tabular}
+\caption{Temperature dependence of $\nu$ and $\epsilon_0$.}
+\label{table:tempdepen}
+\end{table}
+
+{\noindent}The temperature $T_6$ in Table \ref{table:tempdepen} is given in units of $10^6$. Thus $T_6=1$ is $10^6\,{\rm K}$. It is a general property of these types of reaction rates that the temperature dependence $T^\nu$ ``weakens'' as the temperature increases, while the efficiency $\epsilon_0$ increases. In general, the efficiency of the nuclear cycles rate is governed by the slowest process taking place. In the case of p-p cycles, this is always the production of deuterium given in step 1. For the CNO cycle, the limiting reaction rate depends on the temperature. At moderate temperatures, the production of $^{15}$O (step 4) limits the rate at which the cycle can proceed. However, as the temperature increases, the reaction rates of all the capture processes increase, but the steps involving inverse $\beta$ decay (particularly step 5), which do not depend on the state variables, do not and therefore limit the reaction rate. So there is an upper limit to the rate at which the CNO cycle can produce energy independent of the conditions which prevail in the star. However, at temperatures approaching a billion degrees, other reaction processes not indicated above will begin to dominate the energy generation and will circumvent even the beta-decay limitation.
 
 % --------------------------------------------------------------
 %               19. 
