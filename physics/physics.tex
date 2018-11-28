@@ -829,7 +829,62 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+{\noindent}Electromagnetic waves can be characterized by four properties: intensity, frequency, direction of propagation, and polarization state. Figure \ref{fig:empol} shows why polarization is considered an important characteristic of an EM wave. The oscillating electric and magnetic field vectors will have a particular orientation at a given instant in time (Figure \ref{fig:empol}a). Figure \ref{fig:empol}b shows how the polarization state of a wave changes its orientation over time. If the wave oscillates in a single plane, the wave is said to be \textbf{linearly polarized} (see Figure \ref{fig:polarizationtypes}b), while a wave composed of two plane waves of equal amplitude but differing in phase by $90^\circ$ is \textbf{circularly polarized} (Figure \ref{fig:polarizationtypes}a). If two plane waves have differing amplitudes or a phase difference that is not $90^\circ$, then the resultant wave is \textbf{elliptically polarized} (Figure \ref{fig:polarizationtypes}c).
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\This figure shows (a) an EM wave and (b) how its polarization changes as it propagates along the $z$-axis. At position $1$, the electric vector is pointing in the $x$-direction, but at point $2$, some time in the future, the electric vector is pointing in the $y$-direction. One complete revolution has been completed by point $4$, and points $5-8$ repeat the cycle. The wave is circularly polarized as there are equal amplitude components in both the $x$ and $y$ planes. This figure is reproduced from \href{http://astronomyonline.org}{http://astronomyonline.org}. Figure taken from Newton-McGee (2009).}}
+    \label{fig:empol}}
+    {\includegraphics[width=10cm]{figures/EMpol.png}}
+\end{figure}
+
+{\noindent}There are many ways of describing the polarization state of an EM wave. If we begin with a quasi-monochromatic wave propagating in the $z$-direction, it can be resolved into three Cartesian components ($x,y,z$):
+
+\begin{align*}
+    E_x &= a_1(t)\exp[i(\phi_1(t)-2\pi\nu t)] ~ [{\rm N\,C^{-1}}], \\
+    E_y &= a_2(t)\exp[i(\phi_2(t)-2\pi\nu t)] ~ [{\rm N\,C^{-1}}], \\
+    E_z &= 0 ~ [{\rm N\,C^{-1}}],
+\end{align*}
+
+{\noindent}where $E$ is the magnitude of the electric field vector, $a_1$ and $a_2$ are the amplitudes, and $\phi_1$ and $\phi_2$ are the phases of the component waves.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=12cm]{figures/PolarizationTypes.png}
+    \caption{\footnotesize{End on view of the trace of the tip of the electric vector for: (a) circularly polarized radiation, (b) linearly polarized radiation, and (c) elliptically polarized radiation. This figure is adapted from Cotton (1999). Figure taken from Newton-McGee (2009).}}
+    \label{fig:polarizationtypes}
+\end{figure}
+
+{\noindent}The polarization states of the wave are described by the \textbf{Stokes parameters} are:
+
+\begin{align*}
+    I &= \langle{a_1^2}\rangle + \langle{a_2^2}\rangle ~ [{\rm N\,C^{-1}}] \\
+    Q &= \langle{a_1^2}\rangle - \langle{a_2^2}\rangle ~ [{\rm N\,C^{-1}}] \\
+    U &= 2\langle{a_1a_2\cos\phi}\rangle ~ [{\rm N\,C^{-1}}] \\
+    V &= 2\langle{a_1a_2\sin\phi}\rangle ~ [{\rm N\,C^{-1}}].
+\end{align*}
+
+{\noindent}where $\langle\rangle$ represents the time averaged quantity. \textbf{Stokes} $\mathbf{I}$ is a measurement of the total intensity of the wave, \textbf{Stokes} $\mathbf{Q}$ and $\mathbf{U}$ together describe the linearly polarized components while \textbf{Stokes} $\mathbf{V}$ represents the circularly polarized component of the wave. If $V>0$ then the wave is right-handed circularly polarized (RCP), while if $V<0$ then the polarization is left-handed circularly polarized (LCP). 
+
+{\noindent}From correctly calibrated Stokes images, useful polarization images can be produced. Customarily, three linear polarization parameters are constructed: the \textbf{polarized intensity} ($P$) image, the \textbf{polarization angle} ($\chi$) image, and the \textbf{polarization fraction} ($p$) image. These are formed from the Stokes $Q$ and $U$ images in the following manner:
+
+\begin{align*}
+    P &= \sqrt{Q^2+U^2} ~ [{\rm Jy}] \\
+    \chi &= \frac{1}{2} \arctan \left(\frac{U}{Q}\right) ~ [{\rm rad}] \\
+    p &= \frac{\sqrt{Q^2+U^2}}{I} ~ [{\rm dimensionless}].
+\end{align*}
+
+The polarization of electromagnetic radiation is fundamental to many physical processes including: how bees view the world, why rainbows exist, and many astrophysical phenomena including:
+
+\begin{itemize}
+    \item synchrotron radiation (linear polarization);
+    \item CMB polarization (linear and circular polarization);
+    \item dust polarization (linear polarization);
+    \item starlight polarization (linear polarization);
+    \item astrophysical magnetic fields (linear polarization);
+    \item Faraday rotation (linear polarization).
+\end{itemize}
+
 
 % --------------------------------------------------------------
 %               14. 
