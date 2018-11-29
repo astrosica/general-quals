@@ -924,7 +924,378 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+\textbf{Accuracy versus precision}: It is important to distinguish between the terms \textit{accuracy} and \textit{precision}. The \textbf{accuracy} of an experiment is a measure of how close the result of the experiment is to the true value; the \textbf{precision} is a measure of how well the result has been determined, without reference to its agreement with the true value. The precision is also a measure of the \textbf{reproducibility} of the result in a given experiment. The distinction between \textit{accuracy} and \textit{precision} is illustrated by the two sets of measurements in Figure \ref{fig:precisionaccuracy} where the straight line on each graph shows the expected relation between the dependent variable $y$ and the independent variable $x$. In both graphs, the scatted of the data points is a reflection of uncertainties in the measurements, consistent with the error bars on the points. The data in Figure \ref{fig:precisionaccuracy}a have been measured to a high degree of \textit{precision} as illustrated by the small error bars, and are in excellent agreement with the expected variation of $y$ with $x$, but are clearly \textit{inaccurate}, deviating from the line by a constant offset. On the other hand, the data points in Figure \ref{fig:precisionaccuracy}b are rather \textit{imprecise} as illustrated by the large error bars, but are scattered around the predicted distribution.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\Illustration of the difference between precision and accuracy. \textbf{(a)} Precise but inaccurate data. \textbf{(b)} Accurate but imprecise data. True values are represented by the straight lines. Figure taken from Bevington \& Robinson (2003).}}
+    \label{fig:precisionaccuracy}}
+    {\includegraphics[width=12cm]{figures/PrecisionAccuracy.png}}
+\end{figure}
+
+{\noindent}It is obvious that we must consider the accuracy and precision simultaneously for any experiment. It would be a waste of time and energy to determine a result with high precision if we knew that the result would be highly inaccurate. Conversely, a result cannot be considered to be extremely accurate if the precision is low. In general, when we know the \textbf{uncertainty} or \textbf{error} of an experimental result, we are referring to the precision with which that result has been determined. \textbf{Absolute precision} indicates the magnitude of the uncertainty in the result in the same units as the result; \textbf{relative precision} indicates the uncertainty in terms of a fraction of the value of the result.
+
+{\noindent}\textbf{Systematic errors}: The accuracy of an experiment, as we have defined it, is generally dependent on how well we can control or compensate for \textbf{systematic errors}, or errors that will make our result different from the ``true'' value with reproducible discrepancies. Errors of this type are not easy to detect and not easily studied by statistical analysis. They may result from faulty calibration of equipment or bias on the part of the observer. They must be estimated from an analysis of the experimental conditions and techniques. A major part of the planning of an experiment should be devoted to understanding and reproducing sources of systematic errors.
+
+{\noindent}\textbf{Random errors}: The precision of an experiment depends upon how well we can overcome \textbf{random errors}, or fluctuations in observations that yield different results each time the experiment is repeated, and thus requires repeated experimentation to yield precise results. A given accuracy implies an equivalent precision and, therefore, also depends to some extent on random errors. 
+
+{\noindent}The problem or reducing random errors is essentially one of improving the experimental method and refining the techniques, as well as simply repeating experiment. If the random errors result from instrumental uncertainties, they may be reduced by using more reliable and more precise measuring techniques. If the random errors result from statistical fluctuations in a limited number of measurements, they may be reduced by making more measurements. There are, however, practical limits to these improvements. 
+
+{\noindent}\textbf{Mean, median, and mode}: The \textbf{mean} $\bar{x}$ of an experimental distribution is given as the sum of $N$ determinations of $x_i$ od the quantity $x$ divided by the number of determinations
+
+\begin{align*}
+    \bar{x} \equiv \frac{1}{N} \sum x_i ~ [{\rm function}],
+\end{align*}
+
+{\noindent}and the \textbf{mean of the parent population} $\mu$ is defined as the limit
+
+\begin{align*}
+    \mu \equiv \lim_{N\rightarrow\infty}\left( \frac{1}{N} \sum x_i \right) ~ [{\rm function}].
+\end{align*}
+
+{\noindent}The mean is therefore equivalent to the \textbf{centroid} or \textbf{average} value of the quantity $x$.
+
+{\noindent}\textbf{Deviations}: The deviation $d_i$ of any measurement $x_i$ from the mean $\mu$ of the parent population is defined as the difference between $x_i$ and $\mu$:
+
+\begin{align*}
+    d_i \equiv x_i - \mu ~ [{\rm function}].
+\end{align*}
+
+{\noindent}For computational purposes, deviations are generally defined with respect to the mean, rather than the median or most probable value. If $\mu$ is the true value of the quantity, $d_i$ is also the true error in $x_i$.
+
+{\noindent}The average of the deviations $d_i$ must vanish by virtue of the definition of the mean:
+
+\begin{align*}
+    \lim_{N\rightarrow\infty} \bar{d_i} = \lim_{N\rightarrow\infty} \left[ \frac{1}{N} \sum(x_i-\mu) \right] = \lim_{N\rightarrow\infty}\left(\frac{1}{N}\sum x_i\right) - \mu = 0 ~ [{\rm function}].
+\end{align*}
+
+{\noindent}The \textbf{average deviation} $\alpha$, therefore, is defined as the absolute values of the deviations:
+
+\begin{align*}
+    \alpha \equiv \lim_{N\rightarrow\infty}\left[ \frac{1}{N} \sum \left\lvert x_i-\mu\right\rvert \right] ~ [{\rm function}].
+\end{align*}
+
+{\noindent}The average deviation is a measure of the \textbf{dispersion}of the expected observations about the mean. The presence of the absolute value signs makes its use inconvenient for statistical analysis.
+
+{\noindent}A parameter that is easier to use analytically and that can be justified fairly well on theoretical grounds to be a more appropriate measure of the dispersion of the observations is the \textbf{standard deviation} $\sigma$. The \textbf{variance} $\sigma^2$ is defined as the limit of the average of the squares of the deviations from the mean $\mu$:
+
+\begin{align*}
+    \sigma^2 \equiv \lim{N\rightarrow\infty} \left[\frac{1}{N}\sum(x_i-\mu)^2\right] = \lim_{N\rightarrow\infty} \left(\frac{1}{N}\sum x_i^2\right)-\mu^2 ~ [{\rm function}]
+\end{align*}
+
+{\noindent}and the standard deviation $\sigma$ is the square root if the variance. Note that the second form of the variance shown above is often described as the ``average of the squares minus the square of the average''. The standard deviation of the \textbf{root mean square} of the deviation, and is associated with the \textbf{second moment} of the date about the mean. The corresponding expression for the variance $s^2$ of the sample population is given by
+
+\begin{align*}
+    s^2 \equiv \frac{1}{N} \sum (x_i-\bar{x})^2 ~ [{\rm function}]
+\end{align*}
+
+{\noindent}where the factor of $N-1$, rather than $N$, is required in the denominator to account for the fact that the parameter $\bar{x}$ has been determined from the data and not independently. We note that the symbol $\sigma$ (instead of $s$) is often used to represent the best estimate of the standard deviation of the parent distribution determined from a sample distribution.
+
+{\noindent}\textbf{Significance}: The mean $\mu$ and the standard deviation $\sigma$, as well as the median, the most probable value, and the average deviation, are all parameters that characterize the information we are seeking when we perform an experiment. Often we wish to describe our distribution in terms of just the mean and standard deviation. Th mean may not be exactly equal to the datum in question if the parent distribution is not symmetrical about the mean, but it should have the same characteristics. If a more detailed description is desired, it may be useful to compute \textbf{higher moments about the mean}.
+
+{\noindent}In general, the best we can say about the mean is that it is one of the parameters that specifies the probability distribution: it has the same units as the ``true'' value and, in accordance with convention, we shall consider it to be the best estimate of the ``true'' value under the prevailing experimental conditions.
+
+{\noindent}The variance $s^2$ and the standard deviation $s$ characterize the uncertainties associated with our experimental attempts to determine the ``true'' values. For a given number of observations, the uncertainty in determining the mean of the parent distribution is proportional to the standard deviation of that distribution. The standard deviation $s$ is, therefore, an appropriate measure of the uncertainty due to fluctuations in the observations in our attempt to determine the ``true'' value.
+
+{\noindent}Although, in general, the distribution resulting from purely statistical errors can be described well by the two parameters, the mean and the standard deviation, we should be aware that, at distances of a few standard deviations from the mean of an experimental distribution, non-statistical errors may dominate. In especially severe cases, it may be preferable to describe the spread of the distribution in terms of the average deviation, rather than the standard deviation, because the latter tends to de-emphasize measurements that are far from the mean. There are also distributions for which the variance does not exist. The average deviation or some other quantity must be used as a parameter to indicate the spread of the distribution in such cases. 
+
+{\noindent}\textbf{Probability distributions}: Of the many probability distributions that are involved in the analysis of experimental data, three play a fundamental role: the binomial distribution, the Poisson distribution, and the Gaussian distribution. Of these, the \textbf{Gaussian, or normal error, distribution}, is undoubtedly the most important in statistical analysis of data. Practically, it is useful because it seems to describe the distribution of random observations for many experiments, as well as describing the distributions obtained when we try to estimate the parameters of most other probability distributions. 
+
+{\noindent}The \textbf{Poisson distribution} is generally appropriate for counting experiments where the data represents the number of items or events observed per unit time interval. It is important in the study of random processes such as those associated with the radioactive decay of elementary particles or nuclear states, and is also applied to data that have been sorted into ranges to form a frequency table or a histogram. 
+
+{\noindent}The \textbf{binomial distribution} is generally applied to experiments in which the result is one of a small number of possible final states, such as the number of ``heads'' or ``tails'' in a series of coin tosses, or the number of particles scattered forward or backwards relative to the direction of the incident particle in a particle physics experiment. Because both the Poisson and the Gaussian distribution can be considered as limiting cases of the binomial distribution, we shall devote some attention to the derivation of the binomial distribution from basic considerations.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7.5cm]{figures/binomial.png}
+    \includegraphics[width=7.5cm]{figures/poisson.png}
+    \includegraphics[width=7.5cm]{figures/gaussian.png}
+    \includegraphics[width=7.5cm]{figures/log-normal.png}
+    \caption{\footnotesize{\textbf{(Top left)}: Binomial distribution. \textbf{(Top right)}: Poisson distributions. \textbf{(Bottom left)}: Gaussian distributions. \textbf{(Bottom right)}: Log-normal distributions. Figures taken from Wikipedia.}}
+    \label{fig:distributions}
+\end{figure}
+
+{\noindent}\textbf{Binomial distribution}: Suppose we toss a coin in the air and let it land. There is a $50\%$ probability that it will land heads up and a $50\%$ probability that it will land tails up. by this, we can that if we continue tossing a coin repeatedly, the fraction of times that it lands with heads up will asymptotically approach $1/2$, indicating that there was a probability of $1/2$ in doing so. For any given coin toss, the probability cannot determine whether or not it will lands heads up; it can only describe how we should expect a large number of tosses to be divided into these two possibilities.
+
+{\noindent}Suppose we toss two coins at a time. There are now four different possible permutations of the way in which they can land: both heads up, both tails up, and two mixtures of heads and tails depending on which one is heads up. Because each of these permutations is equally probable, the probability for any choice of them is $1/4$ or $25\%$. To find the probability for obtaining a particular mixture of heads and tails, without differentiating between the two kinds of mixtures, we must add the probabilities corresponding to each possible kind. Thus, the total probability of finding either heads up and the other tails up is $1/2$. Note that the sum of the probabilities for all possibilities ($1/4+1/4+1/4+1/4$) is always equal to $1$ because \textit{something} is bound to happen.
+
+{\noindent}Let us extrapolate these ideas to the general case. Suppose we toss $n$ coins into the air, where $n$ is some integer. Alternatively, suppose that we toss one coin $n$ times. What is the probability that exactly $x$ of these coins will land heads up, without distinguishing which of the coins actually belongs to which group? We can consider the probability $P(x;n)$ to be a function of the number of coins tossed $n$ and of the number of coins that land heads up $x$. For a given experiment in which $n$ coins are tossed, this probability $P(x;n)$ will vary as a function of $x$. Of course, $x$ must be an integer for any physical experiment, but we can consider the probability to be smoothly varying with $x$ as a continuous variable for mathematical purposes.
+
+{\noindent}\textit{Permutations and combinations}: If $n$ coins are tossed, there are $2^n$ different possible ways in which they can land. This follows from the fact that the first coin has two possible orientations, for each of these the second coin also has two such orientations, for each of these the third coin also has two, and so on. Because each of these possibilities is equally probable, the probability for any one of these possibilities to occur at any toss of $n$ coins has to be $1/2^n$.
+
+{\noindent}How many of these possibilities will contribute to our observation of $x$ coins with heads up? Imagine two boxes, one labeled ``heads'' and divided into $x$ slots, and the other labeled ``tails''. We shall considered first the question of how many permutations of the coins result in the proper separation of $x$ in one box and $n-x$ in the other; then we shall consider the question of how many combinations of these permutations should be considered different from each other.
+
+{\noindent}In order to enumerate the number of \textbf{permutations} $Pm(n,x)$, let us pick up the coins one at a time from the collection of $n$ coins and put $x$ of them into the ``heads'' box. We have a choice of $n$ coins for the first one we pick up. For our second selection, we can choose from the remaining $n-1$ coins. The range of choice is diminished until the last selection of the $x$th coin can be made from only $n-x+1$ remaining coins. The total number of choices for coins to fill the $x$ slots in the ``heads'' box is the product of the numbers of individual choices:
+
+\begin{align*}
+    Pm(n,x) = n(n-1)(n-2) \cdot\cdot\cdot (n-x+2)(n-x+1).
+\end{align*}
+
+{\noindent}This expansion can be expressed more easily in terms of factorials:
+
+\begin{align*}
+    Pm(n,x) &= \frac{n!}{(n-x)!} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}So far we have calculated the number of permutations $Pm(n,x)$ that will yield $x$ coins in the ``heads'' box and $n-x$ coins in the ``tails'' box, with the provision that we have identified which coin was places in the ``heads'' box first, which was placed in the second, and so on. That is, we have \textit{ordered} the $x$ coins in the ``heads'' box. In our computation of $2^n$ different possible permutations of the $n$ coins, we are only interested in which coins landed heads up or heads down, not which landed first. Therefore, we must consider contributions different only if there are different coins in the two boxes, not if the $x$ coins within the ``heads'' box are permuted into different time orderings.
+
+{\noindent}The number of different \textbf{combinations} $C(n,x)$ of the permutations in the preceding enumeration results from combining the $x!$ different ways in which $x$ coins in the ``heads'' box can be permuted within the box. For ever $x!$ permutations, there will be only one new combination. Thus, the number of different combinations $C(n,x)$ is the number of permutations $Pm(n,x)$ divided by the degeneracy factor $x!$ of the permutations:
+
+\begin{align*}
+    C(n,x) = \frac{Pm(n,x)}{x!} = \frac{n!}{x!(n-x)!} = \binom{n}{x} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}where $q=1-p$. The name for the binomial distribution comes from the fact that the coefficients $P_B(x;n,p)$ are closely related to the binomial theorem for the expansion of a power of a sum. According to the \textbf{binomial theorem},
+
+\begin{align*}
+    (p+q)^n = \sum _{x=0}^n \left[ \binom{n}{x}p^xq^{n-x} \right] ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}This is the number of different possible combinations of $n$ items taken $x$ at a time, commonly referred to as $\binom{n}{x}$ or ``$n$ over $x$''.
+
+{\noindent}\textit{Probability}: The probability $P(x;n)$ that we should observe $x$ coins with heads up and $n-x$ with tails up is the product of different combinations $C(n,x)$ that contribute to that set of observations multiplied by the probability for each of the combinations to occur, which we have found to be $(1/2)^n$.
+
+{\noindent}Actually, we should separate the probability for each combination into two parts: one part is the probability $p^x=(1/2)^x$ for $x$ coins to be heads up; the other part is the probability $q^{n-x} = (1-1/2)^{n-x} = (1/2)^{n-x}$ for the other $n-x$ coins to be tails up. For symmetrical coins, the product of these two parts $p^xq^{n-x}=(1/2)^n$ is the probability of the combination with $x$ coins heads up and $n-x$ coins tails up. In the general case, the probability $p$ of success for each item is not equal in magnitude to the probability $q=1-p$ for failure. For example, when tossing a die, the probability that a particular number will show up is $p=1/6$, while the probability of it now showing is $q=1-1/6=5/6$ so that $p^xq^{n-x}=(1/6)^x\times(5/6)^n$.
+
+{\noindent}With these definitions of $p$ and $q$, the probability $P_B(x;n,p)$ for observing $x$ of the $n$ items to be in the state with probability $p$ is given by the \textbf{binomial distribution}:
+
+\begin{align*}
+    P_B(x;n,p) = \binom{n}{x}p^xq^{n-x} = \frac{n!}{x!(n-x)!}p^x(1-p)^{n-x} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}Figure \ref{fig:distributions} (top left) shows an example binomial distribution.
+
+{\noindent}\textbf{Poisson distribution}: The Poisson distribution represents an approximation to the binomial distribution for the special case where the average number of successes is much smaller than the possible number; that is, when $\mu\ll n$ because $p\ll1$. For such experiments the binomial distribution correctly describes the probability $P_B(x;n,p)$ of observing $x$ events per unit time interval out of $n$ possible events, each of which has a probability $p$ of occurring, but the large number of $n$ possible events makes exact evaluation from the binomial distribution impractical. Furthermore, neither the number $n$ of possible events nor the probability $p$ for each is usually known. What may be known instead is the average number of events $\mu$ expected in each time interval or its estimate $\bar{x}$. The Poisson distribution provides an analytical form appropriate to such investigations that describes the probability distribution in terms of just the variable $x$ and the parameter $\mu$. 
+
+{\noindent}Let us consider the binomial distribution in the limiting case of $p\ll1$. We are interested in its behaviour as $n$ becomes infinitely large while the mean $\mu=np$ remains constant. The equation for the probability function of the binomial distribution can be written as
+
+\begin{align*}
+    P_B(x;n,p) = \frac{1}{x!} \frac{n!}{(n-x)!} p^x(1-p)^{-x}(1-p)^n ~ [{\rm function}].
+\end{align*}
+
+{\noindent}If we expand the second factor,
+
+\begin{align*}
+    \frac{n!}{(n-x)!} = n(n-1)(n-2) \cdot\cdot\cdot (n-x-2)(n-x-1) ~ [{\rm function}]
+\end{align*}
+
+{\noindent}we can consider it to be the product of $x$ individual factors, each of which is very nearly equal to $n$ because $x\ll n$ in the region of interest. The second factor in $P_B(x;n,p)$ above thus asymptotically approaches $n^x$. The product of the second and third factors then becomes $(np)^x=\mu^x$. The fourth factor is approximately equal to $(1+px)$ which tends to $1$ as $p$ tends to $0$.
+
+{\noindent}The last factor can be rearranged by substituting $\mu/p$ for $n$ and expanding the expression to show that it asymptotically approaches $e^{-\mu}$:
+
+\begin{align*}
+    \lim_{p\rightarrow0}(1-p)^x = \lim_{p\rightarrow0} [(1-p)^{1/p}]^\mu = \left(\frac{1}{e}\right)^\mu = e^{-\mu} ~ [{\rm function}].
+\end{align*}
+
+{\noindent}Combining these approximation, we find that the binomial distribution probability function $P_B(x;n,p)$ asymptotically approaches the \textbf{Poisson distribution} $P_B(x;\mu)$ as $p$ approaches $0$:
+
+\begin{align*}
+    \lim_{p\rightarrow0}P_B(x;n,p) = P_P(x;\mu) \equiv \frac{\mu^x}{x!}e^{-\mu} ~ [{\rm function}].
+\end{align*}
+
+{\noindent}Because this distribution is an approximation to the binomial distribution for $p\ll1$, the distribution is asymmetric about its mean $\mu$. Note that $P_P(x;\mu)$ does not become $0$ for $x=0$ and is not defined for negative values of $x$. This restriction is not troublesome for counting experiments because the number of counts per unit time interval can never be negative.
+
+{\noindent}\textit{Derivation}: The Poisson distribution can also be derived for the case where the number of events observed is small compared to the total possible number of events. Assume that the average rate at which events of interest occur is constant over a given interval of time and that event occurrences are randomly distributed over that interval. Then, the probability ${\rm d}P$ of observing no events in a time interval ${\rm d}t$ is given by
+
+\begin{align*}
+    {\rm d}P(0;t\tau) = -P(0;t,\tau)\frac{{\rm d}t}{\tau} ~ [{\rm function}]
+\end{align*}
+
+{\noindent}where $P(x;t,\tau)$ is the probability of observing $x$ events in the time interval ${\rm d}t$, $\tau$ is a constant proportionality factor that is associated with the mean time between events, and the minus sign accounts for the fact that increasing the differential time interval ${\rm d}t$ decreases the probability proportionality. Integrating this equation yields the probability of observing no events within a time $t$ to be
+
+\begin{align*}
+    P(0;t,\tau) = P_0e^{-t/\tau} ~ [{\rm function}]
+\end{align*}
+
+{\noindent}where $P_0$, the constant of integration, is equal to $1$ because $P(0;t,\tau)=1$ at $t=0$.
+
+{\noindent}The probability $P(x;t,\tau)$ for observing $x$ events in the time interval $\tau$ can be evaluated by integrating the differential probability
+
+\begin{align*}
+    {\rm d}^xP(x;t,\tau) = \frac{e^{-t/\tau}}{x!} \prod_{i=1}^x \frac{{\rm d}t_i}{\tau} ~ [{\rm function}]
+\end{align*}
+
+{\noindent}which is the product of the probabilities of observing each events in a different interval ${\rm d}t_i$ and the probability $e^{-t/\tau}$ of not observing any other events in the remaining time. The factor of $x!$ in the denominator compensates for the ordering implicit in the probabilities ${\rm d}P_i(l,t,\tau)$.
+
+{\noindent}Thus, the probability of observing $x$ events in the time interval $t$ is obtained by integration
+
+\begin{align*}
+    P_P(x;\mu) = P(x;t,\tau) = \frac{e^{-t/\tau}}{x!} \left(\frac{t}{\tau}\right)^x ~ [{\rm function}]
+\end{align*}
+
+{\noindent}or
+
+\begin{align*}
+    P_P(x;\mu) = \frac{\mu^x}{x!} e^{-\mu} ~ [{\rm function}]
+\end{align*}
+
+{\noindent}which is the expression for the Poisson distribution, where $\mu=t/\tau$ is the average number of events observed in the time interval $t$. This equation represents a \textbf{normalized probability function}; that is, the sum of the function evaluated at each of the allowed values of the variable $x$ is unity:
+
+\begin{align*}
+    \sum_{x=0}^\infty P_P(x,\mu) = \sum_{x=0}^\infty \frac{\mu^x}{x!} e^{-\mu} = e^{-\mu} \sum_{x=0}^\infty \frac{\mu^x}{x!} = e^{-\mu}e^{\mu} = 1.
+\end{align*}
+
+{\noindent}\textit{Mean and standard deviation}: The Poisson distribution, like the binomial distribution, is a \textit{discrete} distribution. That is, it is only defined only at integral values of the variable $x$, although the parameter $\mu$is a positive, real number. The mean of the Poisson distribution is actually the parameter $\mu$ that appears in the probability function $P_P(x;\mu)$. To verify this, we can evaluate the expectation value $\langle x\rangle$ of $x$: 
+
+\begin{align*}
+    \langle x\rangle = \sum_{x=0}^\infty \left(x\frac{\mu^x}{x!}e^{-\mu}\right) = \mu e^{-\mu} \sum_{x=1}^\infty \frac{\mu^{x-1}}{(x-1)!} = \mu e^{-\mu} \sum_{y=0}^\infty \frac{\mu^y}{y!} = \mu.
+\end{align*}
+
+{\noindent}To find the standard deviation $\sigma$, the expectation value of the square of the deviations can be evaluated:
+
+\begin{align*}
+    \sigma^2 = \langle (x-\mu)^2 \rangle = \sum_{x=0}^\infty \left[ (x-\mu)^2\frac{\mu^x}{x!}e^{-\mu} \right] = \mu ~ [{\rm function}].
+\end{align*}
+
+{\noindent}Thus, the standard deviation $\sigma$ is is equal to the square root of the mean $\mu$ and the Poisson distribution has only a single parameter, $\mu$.
+
+{\noindent}Computation of the Poisson distribution by
+
+\begin{align*}
+    P_P(x;\mu) = \frac{\mu^x}{x!} e^{-\mu} ~ [{\rm function}]
+\end{align*}
+
+{\noindent}can be limited by the factorial function in the denominator. The problem can be avoided by using logarithms or by using the recursive relations
+
+\begin{align*}
+    P(0;\mu)=e^{-\mu}, ~~~ P(x;\mu)=\frac{\mu}{x}(x-1;\mu).
+\end{align*}
+
+{\noindent}This form has the disadvantage that, in order to calculate the function for particular values of $x$ and $\mu$, the function must be calculated at all lower values of $x$ as well. However, if the function is to be summed from $x=0$ to some upper limit to obtain the summed probability or to generate the distribution for a Monte Carlo calculation, the function must be calculated at all lower values of $x$ anyway.
+
+{\noindent}\textit{Summed probability}: We may want to know the probability of obtaining a sample value of $x$ between limits $x_1$ and $x_2$ from a Poisson distribution with mean $\mu$. This probability is obtained by summing the values of the function calculated at the integral values of $x$ between the two integral limits $x_1$ and $x_2$,
+
+\begin{align*}
+    S_P(x_1,x_2;\mu) = \sum_{x_1}^{x_2} P_P(x;\mu).
+\end{align*}
+
+{\noindent}More likely, we may want to find the probability of recording $n$ or more events in a given interval when the mean number of events is $\mu$. This is just the sum 
+
+\begin{align*}
+    S_P(n,\infty;\mu) = \sum_{x=n}^\infty P_P(x;\mu)= 1-\sum_{x=0}^{n-1} P_P(x;\mu) = 1-e^{-\mu} \sum_{x=0}^{n-1} \frac{\mu^x}{x!} ~ [{\rm function}].
+\end{align*}
+
+{\noindent}So, this distribution has the special property that the mean is equal to the variance.
+
+{\noindent}The first four moments of the Poisson distribution are given by:
+
+\begin{enumerate}
+    \item ${\rm Mean} = \mu$
+    \item ${\rm Variance} = \mu$
+    \item ${\rm Skewness} = \mu$
+    \item ${\rm Kurtosis} = 3\mu^2+\mu$.
+\end{enumerate}
+
+{\noindent}For large values of $\mu$, the probability sum may be approximated by an integral of the Gaussian function.
+
+{\noindent}Figure \ref{fig:distributions} (top right) shows an example Poisson distribution.
+
+{\noindent}\textit{Application}: A steady celestial source of constant luminosity produces on average a finite number of counts in a detector every second. The photons do not arrive with equal intervals. The average rate of arrival is controlled by a fixed probability of an event occur- ring in some fixed interval of time. There is some chance of an event occurring in every millisecond, but no certainty that the event will indeed arrive in any specific millisecond. This randomness leads to a variation in the number of counts detected in successive intervals.
+
+{\noindent}\textbf{Gaussian (or normal error) distribution}: The Gaussian distribution is an approximation to the binomial distribution for the special limiting case where the number of possible different observations $n$ becomes infinitely large and the probability of success for each is finitely large so $np\gg1$. It is also the limiting case for the Poisson distribution as $\mu$ becomes large.
+
+{\noindent}There are several derivations of the Gaussian distribution from first principles, none of them as convincing as the fact that the distribution is reasonable, that it has a fairly simple analytic form, and that it is accepted by convention and experimentation to be the most likely distribution for most experiments. In addition, it has the satisfying characteristic that the most probable estimate of the mean $\mu$ from a random sample of observations $x$ is the average of those observations $\bar{x}$.
+
+{\noindent}\textit{Characteristics}: The Gaussian probability density is defined as
+
+\begin{align*}
+    p_G = \frac{1}{\sigma\sqrt{2\pi}}\exp \left[-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2 \right] ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}This distribution is \textbf{symmetrical} and \textbf{mesokurtic}. It is a continuous function describing the probability of obtaining the value $x$ in a random observation from a parent distribution with parameters $\mu$ and $\sigma$, corresponding to the mean and standard deviation, respectively. Because the distribution is continuous, we must define an interval in which the value of the observation $x$ will fall. The probability density function is properly defined such that the probability that the value of a random observation ${\rm d}P_G(x;\mu,\sigma)$ will fall within an interval ${\rm d}x$ around $x$ is given by
+
+\begin{align*}
+    {\rm d}P_G(x;\mu,\sigma) = p_G(x;\mu,\sigma){rm d}x ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}considering ${\rm d}x$ to be an infinitesimal differential, and the probability density function to be normalized, so that
+
+\begin{align*}
+    \int\limits_{x=-\infty}^{x=\infty} {\rm d}P_G(x;\mu,\sigma) = \int\limits_{x=-\infty}^{x=\infty} p_G(x;\mu,\sigma){\rm d}x ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}The width of the curve is determined by the value of $\sigma$, such that for $x=\mu+\sigma$, the height of the curve is reduced to $e^{-1/2}$ of its value at the peak:
+
+\begin{align*}
+    p_G(x;\mu\pm\sigma,\sigma) = e^{-1/2}p_G(\mu;\mu,\sigma) ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}We can characterize a distribution by its \textbf{full-width at half maximum} (FWHM) $\Gamma$, often referred to as the \textbf{half-width}, defined as the range of $x$ between values at which the probability $p_G(x;\mu,\sigma)$ is half its maximum value:
+
+\begin{align*}
+    p_G(\mu\pm\frac{1}{2}\Gamma,\mu,\sigma) = \frac{1}{2}p_G(\mu;\mu,\sigma) ~ [{\rm function}].
+\end{align*}
+
+{\noindent}With this definition, we can determine from the Gaussian probability density $p_G$ that
+
+\begin{align*}
+    \Gamma=2\sqrt{2\ln2}\sigma \approx 2.354\sigma ~ [{\rm function}].
+\end{align*}
+
+{\noindent}Tangents drawn along a portion of steepest descent of the curve intersect the curve at the $e^{-1/2}$ points $x=\mu\pm\sigma$ and intersect the $x$ axis at the points $x=\mu\pm2\sigma$.
+
+{\noindent}The first four moments of the Gaussian distribution are given by:
+
+\begin{enumerate}
+    \item ${\rm Mean} = \mu$
+    \item ${\rm Variance} = \sigma^2$
+    \item ${\rm Skewness} = 0$
+    \item ${\rm Kurtosis} = 3\sigma^4$.
+\end{enumerate}
+
+{\noindent}Figure \ref{fig:distributions} (bottom left) shows an example Gaussian distribution.
+
+{\noindent}\textit{Application}: Gaussian function approximates the shapes of many observables in astronomy, such as the profiles of seeing disks, the width of spectral lines and the distribution of noise in radio receivers. In error analysis, the Gaussian distribution is often used to determine the significance of a measurement is the presence of noise.
+
+{\noindent}\textbf{Log-normal distribution}: A set of observations $x$ is said to have a log-normal distribution if $\ln(x)$ or $\log(x)$ is \textit{normally distributed}. Here, the range of $x$ is $0<x<\infty$. It is also known as a \textbf{Galton distribution}. A variable might be modelled as log-normal if it can be thought of as the multiplicative product of many independent random variables each of which is positive. This distribution is \textbf{positively skewed} and \textbf{leptokurtic}.
+
+{\noindent}The log-normal probability distribution is defined as
+
+\begin{align*}
+    p_L = \frac{1}{x\sqrt{2\pi\sigma^2}} \exp \left[-\frac{(\ln x-\mu)^2}{2\sigma^2}\right] ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}which has the following descriptors:
+
+\begin{enumerate}
+    \item ${\rm Mean} = e^{\mu+\sigma^2/2}$
+    \item ${\rm Median} = e^\mu$
+    \item ${\rm Mode} = e^{\mu-\sigma^2}$
+    \item ${\rm Variance} = (e^{\sigma^2}-1)e^{2\mu+\sigma^2}$
+    \item ${\rm Skewness} = (e^{\sigma^2}+2)\sqrt{e^{\sigma^2}-1}$.
+\end{enumerate}
+
+{\noindent}Figure \ref{fig:distributions} (bottom right) shows an example log-normal distribution.
+
+{\noindent}\textit{Application}:
+
+{\noindent}\textbf{Summary}:
+
+\begin{itemize}
+    \item \textbf{Binomial distribution}: describes the probability of observing $x$ successes out of $n$ tries when the probability for success in each try is $p$:
+\end{itemize}
+
+\begin{align*}
+    p_B(x;n,p) = \binom{n}{x}p^xq^{n-x} &= \frac{n!}{x!(n-x)!}p^x(1-p)^{n-x} \\
+    \mu=np ~~~~~~ \sigma^2&=np(1-p)
+\end{align*}
+
+\begin{itemize}
+    \item \textbf{Poisson distribution}: Limiting case of the binomial distribution for large $n$ and constant $\mu$; appropriate for describing small samples from large populations:
+\end{itemize}
+
+\begin{align*}
+    p_P(x;\mu) = \frac{\mu^x}{x!}e^{-\mu}  ~~~ \sigma^2=\mu
+\end{align*}
+
+\begin{itemize}
+    \item \textbf{Gaussian distribution}: Limiting case of the binomial distribution for large $n$ and finite $\mu$; appropriate for smooth symmetric distributions:
+\end{itemize}
+
+\begin{align*}
+    p_G(x;\mu,\sigma) = \frac{1}{\sigma\sqrt{2\pi}} \exp \left[-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2\right] \\
+    {\rm (FWHM)}\,\Gamma=2\sqrt{2\ln2}\sigma \approx 2.354\sigma
+\end{align*}
 
 \subsubsection{Follow-up Questions}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 NOV 2018 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 NOV 2018 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -928,49 +928,132 @@ Package pdftex.def Info: figures/PolarizationTypes.png used on input line 853.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [29] [30] [31] [32] [33] [34] [35] [36]
+ [29]
+Underfull \hbox (badness 1342) in paragraph at lines 933--933
+\OT1/cmr/m/n/8 Illustration of the dif-fer-ence
+ []
 
+
+Underfull \hbox (badness 1158) in paragraph at lines 933--933
+\OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
+ []
+
+<figures/PrecisionAccuracy.png, id=351, 907.39pt x 671.50874pt>
+File: figures/PrecisionAccuracy.png Graphic file (type png)
+
+<use figures/PrecisionAccuracy.png>
+Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 933.
+(pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
+
+Underfull \hbox (badness 1342) in paragraph at lines 933--933
+\OT1/cmr/m/n/8 Illustration of the dif-fer-ence
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 933--933
+\OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
+ []
+
+File: figures/PrecisionAccuracy.png Graphic file (type png)
+<use figures/PrecisionAccuracy.png>
+Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 933.
+(pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
+
+Underfull \hbox (badness 1342) in paragraph at lines 933--933
+\OT1/cmr/m/n/8 Illustration of the dif-fer-ence
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 933--933
+\OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
+ []
+
+File: figures/PrecisionAccuracy.png Graphic file (type png)
+<use figures/PrecisionAccuracy.png>
+Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 933.
+(pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
+
+Overfull \hbox (13.3333pt too wide) detected at line 933
+ [] 
+ []
+
+[30 <./figures/PrecisionAccuracy.png>] [31]
+<figures/binomial.png, id=366, 1927.2pt x 1838.87pt>
+File: figures/binomial.png Graphic file (type png)
+
+<use figures/binomial.png>
+Package pdftex.def Info: figures/binomial.png used on input line 1010.
+(pdftex.def)             Requested size: 213.39566pt x 203.5951pt.
+ <figures/poisson.png, id=367, 1927.2pt x 1541.76pt>
+File: figures/poisson.png Graphic file (type png)
+
+<use figures/poisson.png>
+Package pdftex.def Info: figures/poisson.png used on input line 1011.
+(pdftex.def)             Requested size: 213.39566pt x 170.69981pt.
+
+<figures/gaussian.png, id=368, 2569.6pt x 1642.135pt>
+File: figures/gaussian.png Graphic file (type png)
+
+<use figures/gaussian.png>
+Package pdftex.def Info: figures/gaussian.png used on input line 1012.
+(pdftex.def)             Requested size: 213.39566pt x 136.3598pt.
+
+<figures/log-normal.png, id=369, 1284.8pt x 1284.8pt>
+File: figures/log-normal.png Graphic file (type png)
+
+<use figures/log-normal.png>
+Package pdftex.def Info: figures/log-normal.png used on input line 1013.
+(pdftex.def)             Requested size: 213.39566pt x 213.39436pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32] [33 <./figures/binomial.png> <./figures/poisson.png> <./figures/gaussian.p
+ng> <./figures/log-normal.png>] [34] [35] [36] [37] [38] [39] [40] [41]
+[42] [43] [44] 
 AED: lastpage setting LastPage
-[37]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1077.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1077.
+[45]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1448.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1448.
  (./physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1077.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1077.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1448.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1448.
 
 Package rerunfilecheck Info: File `physics.out' has not changed.
 (rerunfilecheck)             Checksum: 3BA848F7071CF56887F10D170B83A7B6;1378.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1077.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1448.
  ) 
 Here is how much of TeX's memory you used:
- 9488 strings out of 492995
- 143586 string characters out of 6132704
- 257365 words of memory out of 5000000
- 12767 multiletter control sequences out of 15000+600000
+ 9538 strings out of 492995
+ 144412 string characters out of 6132704
+ 257864 words of memory out of 5000000
+ 12789 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,53p,1520b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on physics.pdf (37 pages, 3489239 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on physics.pdf (45 pages, 4136437 bytes).
 PDF statistics:
- 485 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 130 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 563 PDF objects out of 1000 (max. 8388607)
+ 461 compressed objects within 5 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
