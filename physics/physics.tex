@@ -1245,9 +1245,19 @@ Answer.
 
 {\noindent}Figure \ref{fig:distributions} (bottom left) shows an example Gaussian distribution.
 
+{\noindent}Regardless of statistical considerations, there are a number of reasons why the normal distribution is much better known than the log-normal. A major one appears to be symmetry, one of the basic principles realized in nature as well as in our culture and thinking. Thus, probability distributions based on symmetry may have more inherent appeal than skewed ones. Two other reasons relate to simplicity. First, as Aitchison and Brown states, ``Man has found addition an easier operation than multiplication, and so it is not surprising that an additive law of errors was the first to be formulated.'' Second, the established, concise description of a normal sample is handy, well-known, and sufficient to represent the underlying distribution, which made it easier, until now, to handle normal distributions than to work with log-normal distributions. Another reason relates to the history of distributions: The normal distribution has been known and applied more than twice as long as its log-normal counterpart. Finally, the very notion of ``normal'' conjures more positive associations for non-statisticians than does ``log-normal.'' For all of these reasons, the normal or Gaussian distribution is far more familiar than the log-normal distribution is to most people.
+
 {\noindent}\textit{Application}: Gaussian function approximates the shapes of many observables in astronomy, such as the profiles of seeing disks, the width of spectral lines and the distribution of noise in radio receivers. In error analysis, the Gaussian distribution is often used to determine the significance of a measurement is the presence of noise.
 
-{\noindent}\textbf{Log-normal distribution}: A set of observations $x$ is said to have a log-normal distribution if $\ln(x)$ or $\log(x)$ is \textit{normally distributed}. Here, the range of $x$ is $0<x<\infty$. It is also known as a \textbf{Galton distribution}. A variable might be modelled as log-normal if it can be thought of as the multiplicative product of many independent random variables each of which is positive. This distribution is \textbf{positively skewed} and \textbf{leptokurtic}.
+{\noindent}\textbf{Log-normal distribution}: Many measurements show a more or less skewed distribution. Skewed distributions are particularly common when mean values are low, variance large, and values cannot be negative. Such skewed distributions often closely fit the log-normal distribution. What is the difference between normal and log-normal variability? Both forms of variability are based on a variety of forces acting independently of one another. A major difference, however, is that the effects can be additive or multiplicative, thus leading to normal or log-normal distributions, respectively.
+
+{\noindent}Some basic principles of additive and multiplicative effects can easily be demonstrated with the help of two ordinary dice with sides numbered from $1$ to $6$. Adding the two numbers, which is the principle of most games, leads to values of $2$ to $12$, with a mean of $7$, and a symmetrical frequency distribution. The total range can be described as $7$ plus or minus $5$ (i.e., $7\pm5$); note that in this case, $5$ is not the standard deviation. Multiplying the two numbers, however, leads to values between $1$ and $36$ with a highly skewed distribution. The total variability can be described as $6$ multiplied or divided by $6$. In this case, the symmetry has moved to the multiplicative level.
+
+{\noindent}Although these examples are neither normal nor log-normal distributions, they do clearly indicate that additive and multiplicative effects give rise to different distributions. Thus, we cannot describe both types of distributions in the same way. Unfortunately, however, common belief has it that quantitative variability is generally bell shaped and symmetrical. The current practice in science is to use symmetrical error bars in graphs to indicate standard deviations or errors, and the sign $\pm$ to summarize data, even though the data or underlying principles may suggest skewed distributions.
+
+{\noindent}Log-normal distributions are usually characterized in terms of the log-transformed variable, using as parameters the expected value, or mean, of its distribution and its standard deviation. This characterization can be advantageous as, by definition, log-normal distributions are symmetrical again at the log level. Unfortunately, the widespread aversion to statistics becomes even more pronounced as soon as logarithms are involved. This may be the major reason that the log-normal distributions are so little understood in general, which leads to frequent misunderstandings and errors. Plotting the data can help, but graphs are difficult to communicate orally. In short, current ways of handling log-normal distributions are often unwieldy. To get an idea of a sample, most people prefer to think in terms of the original rather than the log-transformed data. This conception is indeed feasible and advisable for log-normal data too, because the familiar properties of the normal distribution have their analogies in the log-normal distribution.
+
+{\noindent}A set of observations $x$ is said to have a log-normal distribution if $\ln(x)$ or $\log(x)$ is \textit{normally distributed}. Here, the range of $x$ is exclusively positive (i.e., $0<x<\infty$) and skewed towards the left. It is also known as a \textbf{Galton distribution}. A variable might be modelled as log-normal if it can be thought of as the multiplicative product of many independent random variables each of which is positive. This distribution is \textbf{positively skewed} and \textbf{leptokurtic}.
 
 {\noindent}The log-normal probability distribution is defined as
 
@@ -1592,7 +1602,7 @@ detector in Japan sometime during the next decade.
 \newpage
 \subsection{Question 20}
 
-Self-similarity is a useful idealization of many astrophysical systems. Explain what self- similarity means, when it works, and why it is so useful, and provide two examples from any field.
+Self-similarity is a useful idealization of many astrophysical systems. Explain what self-similarity means, when it works, and why it is so useful, and provide two examples from any field.
 
 \subsubsection{Short answer}
 
@@ -1646,6 +1656,9 @@ Additional context.
     \item The Evolution of Neutrino Astronomy; Bahcall \& Davies (2000)
     \item Observation of Gravitational Waves from a Binary Black Hole Merger; Abbott et al. (2016)
     \item LIGO: the Laser Interferometer Gravitational-Wave Observatory; Abbott et al. (2009)
+    \item Self-similar Collapse of Isothermal Spheres and Star Formation; Shu (1977)
+    \item Beyond the Diffraction Limit via Optical Amplification; Kellerer \& Ribak (2016)
+    \item Log-Normal Distributions Across the Sciences: Keys and Clues; Limpert et al. (2001)
 \end{itemize}
 
 \end{document}
