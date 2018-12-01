@@ -162,6 +162,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{E-AGB:} early asymptotic giant branch
 
+{\noindent}\textbf{ELF}: extremely low frequency
+
 {\noindent}\textbf{EM:} electromagnetic
 
 {\noindent}\textbf{EOM:} equation of motion
@@ -188,9 +190,15 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{GP:} Gunn-Peterson
 
+{\noindent}\textbf{GR:} general relativity
+
 {\noindent}\textbf{GUT:} grand unified theory
 
+{\noindent}\textbf{GW:} gravitational wave
+
 {\noindent}\textbf{HB:} horizontal branch
+
+{\noindent}\textbf{HF}: high frequency
 
 {\noindent}\textbf{HIM}: hot ionized medium
 
@@ -222,7 +230,11 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{LBG:} Lyman break galaxy
 
+{\noindent}\textbf{LF}: low frequency
+
 {\noindent}\textbf{LG:} Local Group
+
+{\noindent}\textbf{LIGO:} Laser Interferometer Gravitational-Wave Observatory
 
 {\noindent}\textbf{LMC:} Large Magellanic Cloud
 
@@ -273,6 +285,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{RGB:} red giant branch
 
 {\noindent}\textbf{RJ:} Rayleigh-Jeans
+
+{\noindent}\textbf{rms:} root-mean-square
 
 {\noindent}\textbf{RT:} radiative transfer
 
@@ -329,6 +343,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{TRGB:} red giant branch tip
 
 {\noindent}\textbf{VLBI:} Very Long Baseline Interferometry
+
+{\noindent}\textbf{VLF}: very low frequency
 
 {\noindent}\textbf{WD:} white dwarf
 
@@ -746,6 +762,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Gravitational potential}: $\Phi(r) ~ [{\rm J\,kg^{-1}}]$
 
+{\noindent}\textbf{Gravitational radius}: $R_g ~ [{\rm km}]$
+
 {\noindent}\textbf{Guiding center radius}: $R_g ~ [{\rm AU}]$
 
 {\noindent}\textbf{GUT age}: $t_\mathrm{GUT} ~ [{\rm s}]$
@@ -755,6 +773,13 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{GUT temperature}: $T_\mathrm{GUT} ~ [{\rm K}]$
 
 {\noindent}\textbf{Gravitational constant}: $G ~ [{\rm m^3\,kg^{-1}\,s^{-2}}]$
+
+{\noindent}\textbf{Gravitational wave fields}: $h_+\,{\rm and}\,h_\times ~
+[{\rm dimensionless}]$
+
+{\noindent}\textbf{Gravitational wave phase shift}: $\Delta\Phi ~ [{\rm rad}]$
+
+{\noindent}\textbf{Gravitational wave strain}: $h(t) ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Grazing angle}: $\alpha ~ [{\rm deg}]$
 
@@ -806,6 +831,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Intensity}: $I ~ [{\rm erg\,s^{-1}\,cm^{-2}\,sr^{-1}}]$
 
+{\noindent}\textbf{Interferometer arm-length difference}: $\Delta L ~ [{\rm m}]$
+
 {\noindent}\textbf{Isochrone potential}: $\Phi(r) ~ [{\rm J}]$
 
 {\noindent}\textbf{Jeans mass}: $M_J ~ [{\rm M_\odot}]$
@@ -827,6 +854,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 {\noindent}\textbf{Lagrangian per unit mass}: $\mathcal{L} ~ [{\rm J}]$
 
 {\noindent}\textbf{Lagrangian per unit mass}: $\mathcal{L} ~ [{\rm J\,kg^{-1}}]$
+
+{\noindent}\textbf{Light travel time}: $t ~ [{\rm yr}]$
 
 {\noindent}\textbf{Line profile}: $\phi(\nu) ~ [{\rm erg\,s^{-1}\,cm^{-2}\,sr^{-1}}]$
 
@@ -2206,6 +2235,22 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     E = -\frac{GMm}{R} ~ [{\rm J}]
 \end{align*}
 
+{\noindent}\textbf{Gravitational radius}:
+\begin{align*}
+    R_g = \frac{2GM}{c^2} ~ [{\rm km}]
+\end{align*}
+
+{\noindent}\textbf{Gravitational wave phase shift}:
+\begin{align*}
+    \Delta\Phi \propto \Delta L ~ [{\rm rad}]
+\end{align*}
+
+{\noindent}\textbf{Gravitational wave strain}:
+\begin{align*}
+    h &\equiv \frac{\Delta L}{L} = F_+h_+(t) + F_\times h_\times(t) ~ [{\rm dimensionless}] \\
+    h &\sim \frac{1}{c^2} \frac{4G(E_{\rm kin}^{\rm ns}/c^2)}{r}  ~ [{\rm dimensionless}]
+\end{align*}
+
 {\noindent}\textbf{Growth factor}:
 \begin{align*}
     D_+(t) \propto \frac{H(a)}{H_0}\int\limits_0^a \frac{da'}{[\Omega_m/a'+\Omega_\Lambda a'^2-(\Omega_m+\Omega_\Lambda-1)]^{3/2}} ~ [{\rm dimensionless}]
@@ -2283,6 +2328,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \xi(m) \propto m^{-2.35} ~ [{\rm dimensionless}]
 \end{align*}
 
+{\noindent}\textbf{Interferometer arm-length difference}:
+\begin{align*}
+    \Delta L &\equiv L_1 - L_2 ~ [{\rm m}] \\
+    \frac{\Delta L}{L} &= F_+h_+(t) + F_\times h_\times(t) \equiv h(t) ~ [{\rm dimensionless}]
+\end{align*}
 
 {\noindent}\textbf{Isochrone potential}:
 \begin{align*}
@@ -2334,6 +2384,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     P_0(x) = 1 ~ [{\rm dimensionless}] \\
     P_1(x) = x ~ [{\rm dimensionless}] \\
     P_2(x) = \frac{1}{2}(3x^2-1) ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}\textbf{Light travel time}:
+\begin{align*}
+    t = \frac{4GM}{c^3} ~ [{\rm yr}]
 \end{align*}
 
 {\noindent}\textbf{Line profile (intrinsic)}:
@@ -3139,6 +3194,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \item The Gaussian distribution is an approximation to the binomial distribution for the special limiting case where the number of possible different observations $n$ becomes infinitely large and the probability of success for each is finitely large so $np\gg1$. It is also the limiting case for the Poisson distribution as $\mu$ becomes large.
     \item The width of the Gaussian curve is determined by the value of $\sigma$, such that for $x=\mu+\sigma$, the height of the curve is reduced to $e^{-1/2}$ of its value at the peak.
     \item The binomial distribution has the special property that the mean is equal to the variance.
+    \item The principle of mass conservation rules out monopole radiation, and the principles of linear and angular momentum conservation rule out gravitational dipole radiation.
+    \item The gravitational wave field strength is proportional to the second time derivative of the quadrupole moment of the source.
+    \item At the targeted LIGO strain sensitivity of $10^{-21}$, the resulting arm length change is only $\sim10^{-18}\,{\rm m}$, a thousand times smaller than the diameter of a proton.
+    \item In the long-wavelength approximation, the interferometer directional response is maximal for GWs propagating orthogonally to the plane of the interferometer arms and linearly polarized along the arms.
+    \item The LIGO interferometers were supplemented with a set of sensors to monitor the local environment. Seismometers and accelerometers measure vibrations of the ground and various interferometer components; microphones monitor acoustic noise at critical locations; magnetometers monitor fields that could couple to the test masses or electronics; radio receivers monitor RF power around the modulation frequencies. These sensors are used to detect environmental disturbances that can couple to the GW channel.
     \end{itemize}
 
 \end{document}
