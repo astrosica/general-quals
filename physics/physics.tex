@@ -87,7 +87,68 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+The first written account of the deflection of light by gravity appeared in the article ``On The Deflection Of Light Ray From Its Straight Motion Due To The Attraction Of A World Body Which It Passes Closely,'' by Johann Soldner in 1804. In his article Soldner predicted that a light ray passing close to the solar limb would be deflected by an angle  $\alpha=0.84\,{\rm arcsec}$. More than a century later,in 1919, Albert Einstein directly addressed
+the influence of gravity on light. At this time Einstein's General Theory of Relativity was not fully developed. This is the reason why Einstein obtained (unaware of the earlier result) the same value for the deflection angle as Soldner had calculated with Newtonian physics. In this paper Einstein found $\alpha=2GM_\odot/c^2R_\odot=0.83\,{\rm arcsec}$ for the deflection angle of a light ray grazing the Sun (here $M_\odot$ and $R_\odot$ are the mass and radius of the Sun, $c$ and $G$ are the speed of light and the gravitational constant respectively). 
+
+{\noindent}Einstein emphasized his wish that astronomers investigate this equation. In 1913 Einstein contacted the director of Mount Wilson observatory, George Hale, and asked if it will be possible to measure the positions of stars near the Sun during the day in order to establish the angular deflection effect of the Sun. The first observational attempt to test Einstein's prediction for the deflection angle was in 1914. This attempt was never accomplished which was fortunate for Einstein whose predicted value for the angular deflection was actually wrong. With the completion of the General Theory of Relativity in 1916, Einstein was the first to derive the correct formula for the deflection angle $\alpha$ of a light passing at a distance $r$ from an object with mass $M$ as
+
+\begin{align*}
+    \alpha = \frac{4GM}{c^2}\frac{1}{r^2} ~ [{\rm arcsec}].
+\end{align*}
+
+{\noindent}The additional factor of two (compared to the ``Newtonian'' value) is due to the spatial curvature which is missed if photons are just treated as particles.
+
+{\noindent}For the Sun, Einstein obtained
+
+\begin{align*}
+    \alpha_\odot = \frac{4GM_\odot}{c^2}\frac{1}{R_\odot^2} = 1.74 ~ [{\rm arcsec}].
+\end{align*}
+
+{\noindent}This value was first confirmed to within $20\%$ by Arthur Eddington and his group during a Solar total eclipse in 1919. Recently this value was confirmed to within $0.02\%$.
+
+{\noindent}In 1924 Chwolson mentioned the idea of a ``factious double star.'' He also mentioned the symmetric case of one star exactly behind another star, resulting in a circular image. In 1936 Einstein also reported about the appearance of a ``luminous'' circle of perfect alignment between the source and the lens, such a configuration is called \textbf{Einstein Ring}. In 1937 Fritz Zwicky pointed out that galaxies are more likely to be gravitationally lensed than a star and that one can use the gravitational lens as natural telescope.
+
+{\noindent}\textbf{The geometry of gravitational lensing}: Gravitational lensing results when light follows the straightest possible worldline (ie., a \textbf{geodesic}) as it travels though the curved spacetime around a massive object. It is analogous to the normal refraction of light by a glass lens that occurs as the light crosses the lens surface, passing from one index of refraction $n$ to another, where $n\equiv c/v$ is just the ratio of the speed of light in a vacuum to its speed $v$ in the medium. 
+
+{\noindent}The apparent speed of light, the rate at which the spatial coordinates of a photon change, is called the \textbf{coordinate speed of light}. Starting with the Schwarzschild metric with ${\rm d}s=0$,
+
+\begin{align*}
+    0 = \left(c{\rm d}t \sqrt{1-\frac{2GM}{rc^2}}\right)^2 - \left(\frac{{\rm d}r}{\sqrt{1-\frac{2GM}{rc^2}}}\right)^2 - (r{\rm d}\theta)^2 - (2\sin\theta{\rm d}\alpha)^2,
+\end{align*}
+
+{\noindent}we can calculate the coordinate speed of a vertically travelling photon. Inserting ${\rm d}\theta={\rm d}\alpha=0$ shows that, in general, the coordinate speed of light in the radial direction is
+
+\begin{align*}
+    \frac{{\rm d}r}{{\rm d}t} = c\left(1-\frac{2GM}{rc^2}\right) = c\left(1-\frac{r_S}{r}\right) ~ [{\rm m\,s^{-1}}],
+\end{align*}
+
+{\noindent}When $r\gg r_S$, ${\rm d}r/{\rm d}t\simeq c$, as expected in flat spacetime. However, at $r=r_S$, ${\rm d}r/{\rm d}t=0$.
+
+{\noindent}Thus, the effective ``index of refraction'' is
+
+\begin{align*}
+    n = \frac{c}{{\rm d}r/{\rm d}t} = \left(1-\frac{2GM}{rc^2}\right)^{-1} \simeq 1+ \frac{2GM}{rc^2} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}for radially travelling light, assuming that $r_S/r\ll1$. At a distance of $10^4\,{\rm pc}$ from a galaxy with a mass of $10^11\,{\rm M_\odot}$, the effective index of refraction is $n=1+9.6\times10^{-7}$. (Of course, the light passing by the point mass will never be travelling exactly radially. This was merely used to estimate the magnitude of the effect of gravity in a gravitational lens.) Obviously, the deviation of the light from a straight line will be extremely small. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=7.5cm]{figures/GravitationalLens.png}
+    \includegraphics[width=5.5cm]{figures/GravitationalLensAngles.png}
+    \caption{\footnotesize{\textbf{(Left)}: Setup of a gravitational lens. Figure taken from Abdo. \textbf{(Right)}: The geometry for a gravitational lens. The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$. Figure taken from Carroll \& Ostlie (2007).}}
+    \label{fig:gravitationallens}
+\end{figure}
+
+{\noindent}Figure \ref{fig:gravitationallens} shows the setup of a gravitational lens (left) as well as its detailed geometry (right). The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$.
+
+{\noindent}The angular deviation of a photon passing a distance $r_0$ (very nearly the distance of closest approach) from a mass $M$ is
+
+\begin{align*}
+    \alpha = \frac{4GM}{r_0c^2} ~ [{\rm rad}].
+\end{align*}
+
+
 
 \subsubsection{Follow-up Questions}
 
@@ -103,8 +164,7 @@ Additional context.
 \newpage
 \subsection{Question 2}
 
-A two-element interferometer consists of two telescopes whose light is combined and interfered. Sketch the response of such an interferometer to a nearby red giant star, as a function
-of the (projected) separation between the two telescopes. The red giant subtends one-fiftieth of an arc second on the sky, and the telescope operates at a wavelength of 2 microns.
+A two-element interferometer consists of two telescopes whose light is combined and interfered. Sketch the response of such an interferometer to a nearby red giant star, as a function of the (projected) separation between the two telescopes. The red giant subtends one-fiftieth of an arc second on the sky, and the telescope operates at a wavelength of 2 microns.
 
 \subsubsection{Short answer}
 
@@ -1573,7 +1633,7 @@ detector in Japan sometime during the next decade.
     {\includegraphics[width=10cm]{figures/StrainNoise.png}}
 \end{figure}
 
-{\noindent}The primary noise sources contributing to the H1 strain noise spectrum are shown in Figure HERE. Understanding and controlling these instrumental noise components has been the major technical challenge in the development of the detectors. The noise terms can be broadly divided into two classes: displacement noise and sensing noise. \textbf{Displacement noises} cause motions of the test masses or their mirrored surfaces. \textbf{Sensing noises}, on the other hand, are phenomena that limit the ability to measure those motions; they are present even in the absence of test mass motion. The strain noises shown in Figure \ref{fig:strainnoise} consist of spectral lines superimposed on a continuous broadband noise spectrum. The majority of the lines are due to power lines ($60$, $120$, $180\,{\rm Hz}$, etc.), ``violin mode'' mechanical resonances ($350$, $700\,{\rm Hz}$, etc) and calibration lines ($55$, $400$ and $1100\,{\rm Hz}$). These narrow noise lines are easily excluded from analysis; the broadband noise dominates the instrument sensitivity.
+{\noindent}The primary noise sources contributing to the H1 strain noise spectrum are shown in Figure \ref{fig:strainnoise}. Understanding and controlling these instrumental noise components has been the major technical challenge in the development of the detectors. The noise terms can be broadly divided into two classes: displacement noise and sensing noise. \textbf{Displacement noises} cause motions of the test masses or their mirrored surfaces. \textbf{Sensing noises}, on the other hand, are phenomena that limit the ability to measure those motions; they are present even in the absence of test mass motion. The strain noises shown in Figure \ref{fig:strainnoise} consist of spectral lines superimposed on a continuous broadband noise spectrum. The majority of the lines are due to power lines ($60$, $120$, $180\,{\rm Hz}$, etc.), ``violin mode'' mechanical resonances ($350$, $700\,{\rm Hz}$, etc) and calibration lines ($55$, $400$ and $1100\,{\rm Hz}$). These narrow noise lines are easily excluded from analysis; the broadband noise dominates the instrument sensitivity.
 
 {\noindent}The left panel of Figure \ref{fig:ligonoise} shows the displacement noise. At the lowest frequencies the largest such noise is \textbf{seismic noise} -- motions of the Earth's surface driven by wind, ocean waves, human activity and low-level earthquakes; filtered by the isolation stacks and pendulums. The seismic contribution is estimated using accelerometers to measure the vibration at the isolation stack support points, and propagating this motion to the test masses using modeled transfer functions of the stack and pendulum. The seismic wall frequency, below which seismic noise dominates, is approximately $45\,{\rm Hz}$, a bit higher than the goal of $40\,{\rm Hz}$, as the actual environmental vibrations around these frequencies are $\sim10$ times higher than what was estimated in the design.
 
@@ -1659,6 +1719,7 @@ Additional context.
     \item Self-similar Collapse of Isothermal Spheres and Star Formation; Shu (1977)
     \item Beyond the Diffraction Limit via Optical Amplification; Kellerer \& Ribak (2016)
     \item Log-Normal Distributions Across the Sciences: Keys and Clues; Limpert et al. (2001)
+    \item Microlensing; Encyclopedia of Astronomy and Astrophysics (2001)
 \end{itemize}
 
 \end{document}
