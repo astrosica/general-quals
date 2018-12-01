@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 NOV 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 NOV 2018 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,27 +1010,117 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32] [33 <./figures/binomial.png> <./figures/poisson.png> <./figures/gaussian.p
 ng> <./figures/log-normal.png>] [34] [35] [36] [37] [38] [39] [40] [41]
-[42] [43] [44] 
+[42]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ <figures/StrainDiagram.png, id=451, 867.24pt x 474.77374pt>
+File: figures/StrainDiagram.png Graphic file (type png)
+
+<use figures/StrainDiagram.png>
+Package pdftex.def Info: figures/StrainDiagram.png used on input line 1419.
+(pdftex.def)             Requested size: 284.52756pt x 155.76302pt.
+ [43] [44 <./figures/StrainDiagram.png>]
+<figures/ForceLines.png, id=465, 1081.03876pt x 387.4475pt>
+File: figures/ForceLines.png Graphic file (type png)
+
+<use figures/ForceLines.png>
+Package pdftex.def Info: figures/ForceLines.png used on input line 1472.
+(pdftex.def)             Requested size: 426.79134pt x 152.96027pt.
+ [45 <./figures/ForceLines.png>]
+<figures/interferometer.png, id=475, 983.675pt x 488.82625pt>
+File: figures/interferometer.png Graphic file (type png)
+
+<use figures/interferometer.png>
+Package pdftex.def Info: figures/interferometer.png used on input line 1495.
+(pdftex.def)             Requested size: 341.43306pt x 169.6671pt.
+ [46 <./figures/interferometer.png>] [47]
+<figures/LIGO_Washington.png, id=489, 807.015pt x 540.0175pt>
+File: figures/LIGO_Washington.png Graphic file (type png)
+
+<use figures/LIGO_Washington.png>
+Package pdftex.def Info: figures/LIGO_Washington.png used on input line 1525.
+(pdftex.def)             Requested size: 213.39566pt x 142.79083pt.
+
+<figures/LIGO_Louisiana.png, id=490, 810.02625pt x 552.0625pt>
+File: figures/LIGO_Louisiana.png Graphic file (type png)
+
+<use figures/LIGO_Louisiana.png>
+Package pdftex.def Info: figures/LIGO_Louisiana.png used on input line 1526.
+(pdftex.def)             Requested size: 213.39566pt x 145.43663pt.
+
+<figures/LIGO_PSF.png, id=492, 1059.96pt x 381.425pt>
+File: figures/LIGO_PSF.png Graphic file (type png)
+
+<use figures/LIGO_PSF.png>
+Package pdftex.def Info: figures/LIGO_PSF.png used on input line 1550.
+(pdftex.def)             Requested size: 341.43306pt x 122.86165pt.
+ [48 <./figures/LIGO_Washington.png> <./figures/LIGO_Louisiana.png>]
+Underfull \hbox (badness 2253) in paragraph at lines 1563--1563
+\OT1/cmr/m/n/8 along with the de-sign goal
+ []
+
+<figures/StrainNoise.png, id=501, 907.39pt x 719.68875pt>
+File: figures/StrainNoise.png Graphic file (type png)
+
+<use figures/StrainNoise.png>
+Package pdftex.def Info: figures/StrainNoise.png used on input line 1563.
+(pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
+
+Underfull \hbox (badness 2253) in paragraph at lines 1563--1563
+\OT1/cmr/m/n/8 along with the de-sign goal
+ []
+
+File: figures/StrainNoise.png Graphic file (type png)
+<use figures/StrainNoise.png>
+Package pdftex.def Info: figures/StrainNoise.png used on input line 1563.
+(pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
+
+Underfull \hbox (badness 2253) in paragraph at lines 1563--1563
+\OT1/cmr/m/n/8 along with the de-sign goal
+ []
+
+File: figures/StrainNoise.png Graphic file (type png)
+<use figures/StrainNoise.png>
+Package pdftex.def Info: figures/StrainNoise.png used on input line 1563.
+(pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
+ [49 <./figures/LIGO_PSF.png> <./figures/StrainNoise.png>] <figures/Displacemen
+tNoise.png, id=516, 903.375pt x 696.6025pt>
+File: figures/DisplacementNoise.png Graphic file (type png)
+
+<use figures/DisplacementNoise.png>
+Package pdftex.def Info: figures/DisplacementNoise.png used on input line 1582.
+
+(pdftex.def)             Requested size: 213.39566pt x 164.55194pt.
+
+<figures/SensingNoise.png, id=517, 905.3825pt x 699.61375pt>
+File: figures/SensingNoise.png Graphic file (type png)
+
+<use figures/SensingNoise.png>
+Package pdftex.def Info: figures/SensingNoise.png used on input line 1583.
+(pdftex.def)             Requested size: 213.39566pt x 164.88963pt.
+ [50 <./figures/DisplacementNoise.png> <./figures/SensingNoise.png>] [51] [52] 
+
 AED: lastpage setting LastPage
-[45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1448.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1448.
+[53]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1651.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1651.
  (./physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1448.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1448.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1651.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1651.
 
 Package rerunfilecheck Info: File `physics.out' has not changed.
 (rerunfilecheck)             Checksum: 3BA848F7071CF56887F10D170B83A7B6;1378.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1448.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1651.
  ) 
 Here is how much of TeX's memory you used:
- 9538 strings out of 492995
- 144412 string characters out of 6132704
- 257864 words of memory out of 5000000
- 12789 multiletter control sequences out of 15000+600000
+ 9607 strings out of 492995
+ 145920 string characters out of 6132704
+ 261216 words of memory out of 5000000
+ 12832 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,53p,1520b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,53p,1537b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1049,11 +1139,12 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on physics.pdf (45 pages, 4136437 bytes).
+-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on physics.pdf (53 pages, 14533761 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 153 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 647 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
