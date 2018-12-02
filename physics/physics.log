@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 DEC 2018 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 DEC 2018 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,7 +682,7 @@ File: figures/MicrolensingLightcurve.png Graphic file (type png)
 <use figures/MicrolensingLightcurve.png>
 Package pdftex.def Info: figures/MicrolensingLightcurve.png used on input line 
 232.
-(pdftex.def)             Requested size: 170.71652pt x 137.50844pt.
+(pdftex.def)             Requested size: 284.52756pt x 229.17744pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
 \OT1/cmr/m/n/8 light curves (mag-ni-fi-ca-tion
@@ -729,7 +729,7 @@ File: figures/MicrolensingLightcurve.png Graphic file (type png)
 <use figures/MicrolensingLightcurve.png>
 Package pdftex.def Info: figures/MicrolensingLightcurve.png used on input line 
 232.
-(pdftex.def)             Requested size: 170.71652pt x 137.50844pt.
+(pdftex.def)             Requested size: 284.52756pt x 229.17744pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
 \OT1/cmr/m/n/8 light curves (mag-ni-fi-ca-tion
@@ -776,7 +776,7 @@ File: figures/MicrolensingLightcurve.png Graphic file (type png)
 <use figures/MicrolensingLightcurve.png>
 Package pdftex.def Info: figures/MicrolensingLightcurve.png used on input line 
 232.
-(pdftex.def)             Requested size: 170.71652pt x 137.50844pt.
+(pdftex.def)             Requested size: 284.52756pt x 229.17744pt.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 238.
 
 
@@ -1337,7 +1337,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on physics.pdf (58 pages, 15171169 bytes).
+Output written on physics.pdf (58 pages, 15171170 bytes).
 PDF statistics:
  692 PDF objects out of 1000 (max. 8388607)
  547 compressed objects within 6 object streams
