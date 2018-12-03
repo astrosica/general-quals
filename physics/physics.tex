@@ -391,6 +391,33 @@ Answer.
     \mathcal{V} = \int I(\hat{s}) \exp (-i2\pi\vec{b}\cdot\hat{s}/\lambda){\rm d}\Omega ~ [{\rm V^2}].
 \end{align*}
 
+{\noindent}\textbf{Fringe patterns and Fourier transforms}: Interferometry begins with the Young’s slits fringe pattern (Fig. 1). With a single point source emitting coherent radiation, interference fringes are observed, with constructive and destructive interference observed as the relative delay of the two interfering rays changes; the separation of the fringes is λ/d, the wavelength of the light divided by the slit separation.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=5cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{Young's slits in various situations. In each panel the source is shown on the left, and on the right of the slit are shown the fringe patterns separately for each part of the source and then the added fringe pattern. \textbf{(a)}: The basic two-slit pattern, showing fringes an angular distance $\lambda/d$ apart. \textbf{(b)}: The effect of increasing the source size. An angular shift of the source position by $\theta$ shifts the fringe patterns by $\theta$ the other way. Since the patterns come from mutually incoherent sources, the intensity patterns add to give a pattern of reduced visibility. \textbf{(c)}: When the size of the source reaches $\lambda/d$, the fringes add to give zero visibility. \textbf{(d)}: If the slit spacing is then reduced, the fringe spacing increases, and the same size of source is still able to give visible fringes: the source would need to be increased in size to $\lambda/d_{\rm new}$ in order to wash out the fringes. Figure taken from Jackson.}}
+    \label{fig:slitpatterns}}
+    {\includegraphics[width=10cm]{figures/SlitPatterns.png}}
+\end{figure}
+
+{\noindent}If the source is made wider (Figure \ref{fig:slitpatterns}b), we can think of it as a sequence of point sources each of which emit radiation which is uncorrelated with the emission from the others. It follows that the total interference intensity pattern is the sum of the individual patterns. Since an angular displacement in the source produces an equal angular displacement in the fringe pattern, as the source size approaches $\lambda/d$ the fringe patterns will add to give a constant illumination (Figure \ref{fig:slitpatterns}c). In this case, the fringe visibility (defined as the difference between maximum and minimum intensity, normalized by the sum of maximum and minimum intensity) drops to zero. Conversely, when the angular size of the source is $\lambda/d$, the fringe visibility is $1$; this corresponds to a situation in which the source size is smaller than the angular resolution of the interferometer, and only an upper limit of order $\lambda/d$ can be obtained on it.
+
+{\noindent}Now suppose that the slit spacing $d$ is decreased. For the same size of source, this produces less ``washing-out'' of the fringes, because the same displacement of the source now produces much less displacement of the fringe patterns as a fraction of the fringe separation $\lambda/d$ (Figure \ref{fig:slitpatterns}d). The smaller the slit separation, the larger the source size that can be probed using interferometry.
+
+{\noindent}The situation is summarized in Figure \ref{fig:fringevisibility}. If we plot, for a given source distribution, the way in which visibility varies with slit separation, it can be seen that for small sources the visibility remains high out to large slit separation (in the limit of point sources, to infinite slit separation), whereas large sources produce visibility patterns which fall off quickly as the slit separation increases.
+
+{\noindent}The relation between $I(\theta)$ and $V(d)$ represented here is one which maps a
+large Gaussian into a small Gaussian, and vice versa, and it is fairly obvious that it is a Fourier transform\footnote{This is known as the Van \textbf{Cittert-Zernicke theorem}.}.
+
+discussion that follows.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\Relation between source brightness as a function of angular distance and visibility of interference fringes as a function of slit separation (baseline length). Figure taken from Jackson.}}
+    \label{fig:fringevisibility}}
+    {\includegraphics[width=10cm]{figures/FringeVisibility.png}}
+\end{figure}
+
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
@@ -1939,6 +1966,7 @@ Additional context.
     \item Microlensing; Encyclopedia of Astronomy and Astrophysics (2001)
     \item Interferometry and Synthesis in Radio Astronomy; Thompson et al. (2017)
     \item Essential Radio Astronomy; Condon \& Ransom (2016)
+    \item Principles of Interferometry; Jackson
 \end{itemize}
 
 \end{document}
