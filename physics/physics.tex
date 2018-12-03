@@ -280,7 +280,116 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+{\noindent}\textbf{The two-element quasi-monochromatic interferometer}: The simplest radio interferometer is a pair of radio telescopes whose voltage outputs are correlated (multiplied and averaged), and even the most elaborate interferometers with $N\gg2$ antennas, often called \textbf{elements}, can be treated as $N(N-1)/2$ independent two-element interferometers. Figure \ref{fig:radiointerferometer} shows two identical dishes separated by the \textbf{baseline vector} $\vec{b}$ of length $b$ that points from antenna $1$ to antenna $2$. Both dishes point in the same direction specified by the unit vector $\hat{s}$, and $\theta$ is the angle between $\vec{}b$ and $\hat{s}$. Plane waves from a distant point source in this direction must travel an extra distance $\vec{b}\cdot\hat{s}=b\cos\theta$ to reach antenna $1$, so the output of antenna $1$ is the same as that of antenna $2$, but it lags in time by the geometric delay
+
+\begin{align*}
+    \tau_g = \frac{\vec{b}\cdot\hat{s}}{c} ~ [{\rm s}].
+\end{align*}
+
+{\noindent}For simplicity, we first consider a quasi-monochromatic interferometer, one that responds only to radiation in a very narrow band $\Delta\nu\ll2\pi/\tau_g$ centered on frequency $\nu=\omega/(2\pi)$. Then the output voltages of antennas $1$ and $2$ at time $t$ can be written as
+
+\begin{align*}
+    V_1 &= V\cos[\omega(t-\tau_g)] ~ [{\rm V}] \\
+    V_2 &= V\cos(\omega t) ~ [{\rm V}].
+\end{align*}
+
+{\noindent}These output voltages are amplified versions of the antenna input voltages; they have not passed through square-law detectors. Instead, a \textbf{correlator} multiplies these two voltages to yield the product
+
+\begin{align*}
+    V_1V_2 = V^2\cos[\omega(t-\tau_g)]\cos(\omega t) = \left(\frac{V^2}{2}\right) [\cos(2\omega t-\omega \tau)g)+\cos(\omega\tau_g)] ~ [{\rm V}]
+\end{align*}
+
+{\noindent}which follows directly from the trigonometric identity $\cos x\cos y = [\cos(x+y)+\cos(x-y)]/2$. The correlator also takes a time average long enough ($\Delta t\gg(2\omega)^{-1}$) to remove the high-frequency term $\cos(2\omega t-\omega\tau_g)$ from the \textbf{correlator response} (output voltage) $R$ and keep only the slowly varying term
+
+\begin{align*}
+    R = \langle V_1V_2 \rangle = \left(\frac{V^2}{2}\right)\cos(\omega\tau_g) ~ [{\rm V^2}].
+\end{align*}
+
+{\noindent}The voltages $V_1$ and $V_2$ are proportional to the electric field produced by the source multiplied by the voltage gains of the two antennas and receivers. Thus the correlator output amplitude $V^2/2$ is proportional to the flux density $S$ of the point source multiplied by $\sqrt{A_1A_2}$, where $A_1$ and $A_2$ are the effective collecting areas of the two antennas.
+
+{\noindent}Notice that the time-averaged response $R$ of a multiplying interferometer is zero. There is no DC output, so fluctuations in receiver gain do not act on the whole system temperature $T_s$ as for a total-power observation with a single dish. Uncorrelated noise power from very extended radio sources such as the CMB and the atmosphere over the telescopes, also averages to zero in the correlator response. Short interference pulses with duration $t\ll \lvert b\rvert/c$ are also suppressed because each pulse does not reach both telescopes simultaneously. Likewise, a multiplying radio interferometer differs from a classical \textbf{adding interferometer}, such as the optical Michelson interferometer, that adds the uncorrelated noise power contributions.
+
+{\noindent}The correlator output voltage $R=(V^2/2)\cos(\omega\tau_g)$ varies sinusoidally as the Earth's rotation changes the source direction relative to the baseline vector. These sinusoids are called \textbf{fringes}, and the \textbf{fringe phase}
+
+\begin{align*}
+    \phi = \omega\tau_g = \frac{\omega}{c} b\cos\theta ~ [{\rm rad}]
+\end{align*}
+
+{\noindent}depends on $\theta$ as follows:
+
+\begin{align*}
+    \frac{{\rm d\phi}}{{\rm d}\theta} = \frac{\omega}{c} b\sin\theta = 2\pi \left(\frac{b\sin\theta}{\lambda}\right) ~ [{\rm dimensionless}].
+\end{align*}
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=6cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{This block diagram shows the components of a two-element quasi-monochromatic \textbf{multiplying interferometer} observing in a very narrow radio frequency range centered on $\nu=\omega/(2\pi)$. $\hat{s}$ is the unit vector in the direction of a distant point source and $\vec{b}$ is the baseline vector pointing from antenna $1$ to antenna $2$. The output voltage $V_1$ of antenna $1$ is the same as the output voltage $V_2$ of antenna $2$, but it is retarded by the geometric delay $\tau_g=\vec{b}\cdot\hat{s}/c$ representing the additional light-travel delay to antenna $1$ for a plane wavefront from a source at angle $\theta$ from the \textbf{baseline vector}. These voltages are amplified, multiplied ($\times$), and time averaged ($\vert\rvert$) by the \textbf{correlator} to yield an output response whose amplitude $R$ is proportional to the flux density of the point source and whose phase ($\omega\tau_g$) depends on the delay and the frequency. The quasi-sinusoidal output \textbf{fringe} shown occurs if the source direction in the interferometer frame is changing at a constant rate ${\rm d}\theta/{\rm d}t$. The broad Gaussian envelope of the fringe shows the primary-beam attenuation as the source passes through the beam of the dishes. Figure taken from Condon \& Random (2016).}}
+    \label{fig:radiointerferometer}}
+    {\includegraphics[width=10cm]{figures/RadioInterferometer.png}}
+\end{figure}
+
+{\noindent}The \textbf{fringe period} $\phi=2\pi$ corresponds to an angular shift $\theta=\lambda/(b\sin\theta)$. The fringe phase is an exquisitely sensitive measure of source position if the \textbf{projected baseline} $b\sin\theta$ is many wavelengths long. Note that fringe phase and hence measured source position is not affected by small tracking errors of the individual telescopes. It depends on time, and times can be measured by clocks with much higher accuracy than angles (ratios of lengths of moving telescope parts) can be measured by rulers. Also, an interferometer whose baseline is horizontal is not affected by the plane-parallel component of atmospheric refraction, which delays the signals reaching both telescopes equally. Consequently, interferometers can determine the positions of compact radio sources with unmatched accuracy. Absolute positions with errors as small as $\sigma_\theta\approx10^{-3}\,{\rm arcsec}$ and differential positions with errors down to $\sigma_\theta\approx10^{-5}\,{\rm arcsec}<10^{-10}\,{\rm rad}$ have frequently been measured.
+
+{\noindent}If the individual antennas comprising an interferometer were isotropic, the interferometer point-source response would be a sinusoid spanning the sky. Such an interferometer is sensitive to only one Fourier component of the sky brightness distribution: the component with angular period $\lambda/(b\sin\theta$). The response $R$ of a two-element interferometer with directive antennas is that sinusoid multiplied by the product of the voltage patterns of the individual antennas. Normally the two antennas are identical, so this product is the power pattern of the individual antennas and is called the \textbf{primary beam} of the interferometer. The primary beam is usually a Gaussian much wider than a fringe period, as indicated in Figure \ref{fig:radiointerferometer}. The convolution theorem states that the Fourier transform of the product of two functions is the convolution of their Fourier transforms, so the interferometer with directive antennas responds to a finite range of angular frequencies centered on $b\sin\theta/\lambda$. Because the antenna diameters $D$ must be smaller than the baseline $b$ (else the antennas would overlap), the angular frequency response cannot extend to zero and the interferometer cannot detect an isotropic source -- the bulk of the $3\,{\rm K}$ CMB for example. The missing short spacings ($b<D$) can be provided by a single-dish telescope with diameter $D>b$. Thus the $D=100\,{\rm m}$ GBT can fill in the missing baselines $b<25\,{\rm m}$ that the $D=25\,{\rm m}$ VLA dishes cannot obtain.
+
+{\noindent}Improving the instantaneous point-source response pattern of an interferometer requires more Fourier components; that is, more baselines. An interferometer with $N$ antennas contains $N(N-1)/2$ pairs of antennas, each of which is a two-element interferometer, so the instantaneous \textbf{synthesized beam} (the point-source response obtained by averaging the outputs of all of the two-element interferometers) rapidly approaches a Gaussian as $N$ increases. The instantaneous point-source responses of a two-element interferometer with projected baseline length $b$, a three-element interferometer with three baselines (projected lengths $b/3,2b/3$, and $b$), and a four-element interferometer with six baselines (projected lengths $b/6,2b/6,3b/6,4b/6,5b/6$, and $b$) are shown in Figure \ref{fig:interferometerbeam}.
+
+{\noindent}Most radio sources are stationary; that is, their brightness distributions do not change significantly on the timescales of astronomical observations. For stationary sources, a two-element interferometer with movable antennas could make $N(N-1)/2$ observations to duplicate one observation with an $N$-element interferometer.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=6cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{The instantaneous point-source responses of interferometers with overall projected length $b$ and two, three, or four antennas distributed as shown are indicated by the thick curves. The synthesized main beam of the four-element interferometer is nearly Gaussian with angular resolution $\theta\approx\lambda/b$, but the sidelobes are still significant and there is a broad negative ``bowl'' caused by the lack of spacings shorter than the diameter of an individual antenna. Thus the \textbf{synthesized beam} is sometimes called the \textbf{dirty beam}. The instantaneous dirty beam of the multi-element interferometer is the arithmetic mean of the individual responses of its component two-element interferometers. The individual responses of the three two-element interferometers comprising the three-element interferometer and of the six two-element interferometers comprising the four-element interferometer are plotted as thin curves. Figure taken from Condon \& Random (2016).}}
+    \label{fig:interferometerbeam}}
+    {\includegraphics[width=10cm]{figures/InterferometerBeam.png}}
+\end{figure}
+
+{\noindent}\textbf{Slightly extended sources and the complex correlator}: The response $R=(V^2/2)\cos(\omega\tau_g)$ of the quasi-monochromatic two-element interferometer with a ``cosine'' correlator (Figure \ref{fig:radiointerferometer}) to a spatially incoherent slightly extended (much smaller than the primary beamwidth) source with sky brightness distribution $I_\nu(\hat{s})$ near frequency $\nu=\omega/(2\pi)$ is obtained by treating the extended source as the sum of independent point sources:
+
+\begin{align*}
+    R_c = \int I(\hat{s})\cos(2\pi\nu\vec{b}\cdot\hat{s}/c){\rm d}\Omega = \int I(\hat{s})\cos(2\pi\vec{b}\cdot\hat{s}/\lambda){\rm d}\Omega ~ [{\rm V^2}].
+\end{align*}
+
+{\noindent}Notice that the even cosine function in this response is sensitive only to the even (inversion-symmetric) part $I_E$ of an arbitrary source brightness distribution, which can be written as the sum of even and odd (anti-symmetric) parts: $I=I_E+I_O$. To detect the odd part $I_O$ we need a ``sine'' correlator whose output is odd, $R=(V^2/2)\sin(\omega\tau_g)$. This can be implemented by a second correlator that follows a $\pi/2\,{\rm rad}=90^\circ$ phase delay inserted into the output of one antenna because $\sin(\omega\tau_g)=\cos(\omega\tau_g-\pi/2)$. Then
+
+\begin{align*}
+    R_s = \int I(\hat{s})\sin(2\pi\vec{b}\cdot\hat{s}/\lambda){\rm d}\Omega ~ [{\rm V^2}]
+\end{align*}
+
+{\noindent}The combination of cosine and sine correlators is called a \textbf{complex correlator} because it is mathematically convenient to treat the cosines and sines as complex exponentials using Euler's formula
+
+\begin{align*}
+    e^{i\phi} = \cos\phi + i\sin\phi ~ [{\rm rad}].
+\end{align*}
+
+{\noindent}The \textbf{complex visibility} is defined by
+
+\begin{align*}
+    \mathcal{V} \equiv R_c - i R_s ~ [{\rm V^2}]
+\end{align*}
+
+{\noindent}which can be written in the form
+
+\begin{align*}
+    \mathcal{V} = Ae^{-i\phi} ~ [{\rm rad}],
+\end{align*}
+
+{\noindent}where 
+
+\begin{align*}
+    A = \sqrt{R_c^2 + R_s^2} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}is the \textbf{visibility amplitude} and
+
+\begin{align*}
+    \phi = \arctan \left(\frac{R_s}{c}\right) ~ [{\rm rad}]
+\end{align*}
+
+{\noindent}is the \textbf{visibility phase}. The response to an extended source with brightness distribution $I(\hat{s})$ of the two-element quasi-monochromatic interferometer with a complex correlator is the complex visibility
+
+\begin{align*}
+    \mathcal{V} = \int I(\hat{s}) \exp (-i2\pi\vec{b}\cdot\hat{s}/\lambda){\rm d}\Omega ~ [{\rm V^2}].
+\end{align*}
 
 \subsubsection{Follow-up Questions}
 
@@ -1828,6 +1937,8 @@ Additional context.
     \item Beyond the Diffraction Limit via Optical Amplification; Kellerer \& Ribak (2016)
     \item Log-Normal Distributions Across the Sciences: Keys and Clues; Limpert et al. (2001)
     \item Microlensing; Encyclopedia of Astronomy and Astrophysics (2001)
+    \item Interferometry and Synthesis in Radio Astronomy; Thompson et al. (2017)
+    \item Essential Radio Astronomy; Condon \& Ransom (2016)
 \end{itemize}
 
 \end{document}
