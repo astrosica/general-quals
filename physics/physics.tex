@@ -1294,7 +1294,7 @@ Answer.
 \begin{figure}[t]
     \centering
     \includegraphics[width=12cm]{figures/ppchain.png}
-    \caption{\footnotesize{The three branches of the pp chain along with the branching ratios appropriate for conditions in the core of the Sun. Figures taken from Carroll \& Ostlie (2006).}}
+    \caption{\footnotesize{The three branches of the pp chain along with the branching ratios appropriate for conditions in the core of the Sun. Figures taken from Carroll \& Ostlie (2007).}}
     \label{fig:ppchain}
 \end{figure}
 
@@ -1429,7 +1429,99 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+{\noindent}\textbf{The Pauli exclusion principle and electron degeneracy}: Any system (whether an atom of hydrogen, an oven filled with blackbody photons, or a box filled with gas particles) consists of quantum states that are identified by a set of quantum numbers. Just as the oven is filled with standing waves of EM radiation that are described by three quantum numbers (specifying the number of photons of wavelength $\lambda$ traveling in the $x-$, $y-$, and $z-$ directions), a box of gas particles is filled with standing \textbf{de Broglie} waves that are also described by three quantum numbers (specifying the particle's component of momentum in each of three directions). If the gas particles are fermions (such as electrons or neutrons), then the \textbf{Pauli exclusion principle} allows at most one fermion in each quantum state because no two fermions can have the same set of quantum numbers.
+
+{\noindent}In an everyday gas at standard temperature and pressure, only one of every $10^7$ quantum states is occupied by a gas particle, and the limitations imposed by the Pauli exclusion principle become insignificant. Ordinary gas has a \textit{thermal} pressure that is related to its temperature by the ideal gas law. However, as energy is removed from the gas and its temperature falls, an increasingly large fraction of the particles are forced into the lower energy states. If the gas particles are fermions, only one particle is allowed into each state; thus all the particles cannot crowd into the ground state. Instead, as the temperature of the gas is lowered, the fermions will fill up the lowest available unoccupied states, starting with the ground state, and then successively occupy the excited states with the lowest energy. Even in the limit $T\rightarrow\,0\,{\rm K}$, the vigorous motion of all the fermions in excited states produces a pressure in the fermion gas. At zero temperature, \textit{all} of the lower energy states and \textit{none} of the higher energy states are occupied. Such a fermion gas is said to be completely \textbf{degenerate}.
+
+{\noindent}\textbf{The Fermi energy}: The maximum energy $E_F$ of any electron in a completely degenerate gas at $T=0\,{\rm K}$ is known as the \textbf{Fermi energy} given by
+
+\begin{align*}
+    E_F = \frac{\hbar^2}{2m} (3\pi^2n)^{2/3} ~ [{\rm J}],
+\end{align*}
+
+{\noindent}where $m$ is the mass of the fermion and $n\equiv N/L^3$ is the number of fermions per unit volume. For electrons, the average energy per fermion at zero temperature of $(3/5)E_F$.
+
+{\noindent}\textbf{The condition for degeneracy}: At any temperature above absolute zero, some of the states with an energy less than $E_F$ will become vacant as fermions use their thermal energy to occupy other, more energetic states. Although the degeneracy will not be precisely complete when $T>0\,{\rm K}$, the assumption of complete degeneracy is a good approximation at the densities encountered in the interior of e.g., white dwarfs. All but the most energetic particles will have an energy less than the Fermi energy.
+
+{\noindent}The condition for degeneracy is the following:
+
+\begin{align*}
+    \frac{T}{\rho^{2/3}} < \mathcal{D} ~ [{\rm K\,m^2\,kg^{-2/3}}], ~~~ \mathcal{D} \equiv 1261\,{\rm K\,m^2\,kg^{-2/3}}. 
+\end{align*}
+
+{\noindent}The smaller the value of $T/\rho^{2/3}$, the more degenerate the gas. Figure \ref{fig:solardegeneracyevolution} shows the degree of degeneracy in the Sun's center as it evolves.
+
+\begin{figure}[t]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{\\Degeneracy in the Sun's center as it evolves. (Data from Mazzitelli and D'Antona, Ap. J., 311, 762, 1896.) Figure taken from Carroll \& Ostlie (2007).}}
+    \label{fig:solardegeneracyevolution}}
+    {\includegraphics[width=12cm]{figures/SolarDegeneracyEvolution.png}}
+\end{figure}
+
+{\noindent}If the initial mass of the star on the MS was not too large (perhaps $M_{\rm ZAMS}<25\,{\rm M_\odot}$, the remnant in the inner core will stabilize and become a \textbf{neutron star} supported by \textbf{degeneracy pressure}\footnote{The upper mass limit of the progenitor that results in the formation of a neutron star depends on how metal-rich the original star was. A sufficiently meta-rich star may form a neutron star even it its initial mass is much greater than $25\,{\rm M_\odot}$}.
+
+{\noindent}\textbf{Neutron degeneracy}: Because neutron stars are formed when the degenerate core of an aging supergiant star nears the \textbf{Chandrasekhar limit} and collapses, we take the \textbf{Chandrasekhar mass} to be that of a typical neutron star. A $1.4\,{\rm M_\odot}$ neutron star would consist of $1.4\,{\rm M_\odot}/m_n\approx10^{57}$ neutrons -- in effect, a huge nucleus with a mass number of $A\approx10^{57}$ that is held together by gravity and supported by \textbf{neutron degeneracy pressure}.
+
+{\noindent}The radius of a neutron star is given by
+
+\begin{align*}
+    R_{\rm ns} \approx \frac{(18\pi)^{2/3}}{10} \frac{\hbar^2}{GM_{\rm ns}^{1/3}} \left(\frac{1}{m_{\rm H}}\right)^{8/3} ~ [{\rm km}].
+\end{align*}
+
+{\noindent}For $M_{\rm ns}=1.4\,{\rm M_\odot}$, this yields a value of $R_{\rm ns}=4.4\,{\rm km}$.
+
+{\noindent}This estimate is too small by a factor about about $3$ -- that is, the actual radius of a $1.4\,{\rm M_\odot}$ neutron star lies roughly between $10$ and $15\,{\rm km}$.
+
+{\noindent}\textbf{Density of a neutron star}: This incredibly compact stellar remnant would have an average density of $6.65\times10^{17}\,{\rm km\,m^{-3}}$, greater than the typical density of an atomic nucleus, $\rho_{\rm nuc}\approx2.3\times10^{17}\,{\rm kg\,m^{-3}}$. In some sense, the neutrons in a neutron star must be ``touching'' one another. At the density of a neutron star, all of Earth's human inhabitants would be crowded into a cube $1.5\,{\rm cm}$ on each side.
+
+{\noindent}The pull of gravity at the surface of a neutron star is fierce. For a $1.4\,{\rm M_\odot}$ neutron star with a radius of $10\,{\rm km}$, $g=1.86\times10^{12}\,{\rm m\,s^{-2}}$, $190$ billion times stronger than the acceleration of gravity on Earth's surface. An object dropped from a height of one meter would arrive at the star's surface with a speed of $1.93\times10^6\,{\rm m\,s^{-1}}$.
+
+{\noindent}\textbf{The equation of state}: To appreciate the exotic nature of the material constituting a neutron star and the difficulties involved in calculating the equation of state, imagine compressing the mixture of iron nuclei and degenerate electrons that make up an iron white dwarf at the center of a massive supergiant star. Because the mechanical and thermal properties of degenerate matter are independent of one another, we will assume for convenience that $T=0\,{\rm K}$. The iron nuclei are then arranged in a crystalline lattice. We are interested in the equilibrium configuration of $10^{57}$ nucleons (protons and neutrons), together with enough free electrons to provide zero net charge. The equilibrium arrangement is the one that involves the least energy.
+
+{\noindent}Initially, at low densities the nucleons are found in iron nuclei. This is the outcome of the minimum-energy compromise between the repulsive Coulomb force between the protons and the attractive nuclear force between all of the nucleons. However, when $\rho\approx10^9\,{\rm kg\,m^{-3}}$ the electrons become relativistic. Soon thereafter, the minimum-energy arrangement of protons and neutrons changes because the energetic electrons can convert protons in the iron nuclei into neutrons by the process of \textbf{electron capture},
+
+\begin{align*}
+    p^+ +e^- \rightarrow\,n + \nu_e.
+\end{align*}
+
+{\noindent}Because the neutron mass is slightly greater than the sum of the proton and electron masses, and the neutrino's rest-mass energy is negligible, the electron must supply the kinetic energy to make up the difference in energy: $m_nc^2 - m_pc^2 - m_ec^2 = 0.78\,{\rm MeV}$.
+
+{\noindent}A careful calculation that takes into account the surrounding nuclei and relativistic regenerate electrons, as well as the complexities of nuclear physics, reveals that the density must exceed $10^{12}\,{\rm kg\,m^{-3}}$ for the protons in iron nuclei to capture electrons. At still higher densities, the most stable arrangement of nucleons is one where the neutrons and protons are found in a lattice of increasingly neutron-rich nuclei so as to decrease the energy due to the Coulomb repulsion between protons. This process is known as \textbf{neutronization} and produces a sequence of nuclei such as ${\rm ^{56}_{26}Fe, ^{62}_{28}Ni, ^{64}_{28}Ni, ^{66}_{28}Ni, ^{86}_{36}Kr, ... ^{118}_{36}Kr.}$. Ordinarily, these supernumary neutrons would revert to protons via the standard $\mathbf{\beta}$-\textbf{decay} process,
+
+\begin{align*}
+    n \rightarrow\,p^+ + e^- + \bar{\nu}_e.
+\end{align*}
+
+{\noindent}However, under the condition of complete electron degeneracy, there are no vacant states for an emitted electron to occupy, so the neutrons cannot decay back into protons. In \textit{isolation}, a neutron decays into a proton in about $10.2$ minutes.
+
+{\noindent}When the density reaches about $4\times10^{14}\,{\rm kg\,m^{-3}}$, the minimum-energy arrangement is one in which some of the neutrons are found \textit{outside} the nuclei. The appearance of these free neutrons is called \textbf{neutron drip} and marks the start of a three-component mixture of a lattice of neutron-rich nuclei, non-relativistic degenerate free neutrons, and relativistic degenerate electrons. The fluid of free neutrons has the striking property that is has no viscosity. This occurs because a spontaneous pairing of the degenerate neutrons has taken place. The resulting combination of two fermions (the neutrons) is a boson and so it is not subject to the restrictions of the Pauli exclusion principle. Because degenerate bosons can \textit{all} crowd into the lowest energy state, the fluid of paired neutrons can lose no energy. It is a \textbf{superfluid} that flows without resistance. Any whirlpools or vortices in the fluid will continue to spin forever without stopping.
+
+{\noindent}As the density increases further, the number of free neutrons increases as the number of electrons declines. The neutron degeneracy pressure exceeds the electron degeneracy pressure when the density reaches roughly $4\times10^{15}\,{\rm kg\,m^{-3}}$. As the density approaches $\rho_{\rm nuc}$, the nuclei effectively dissolve as the distinction between neutrons inside and outside of nuclei becomes meaningless. This results in a fluid mixture of free neutrons, protons, and electrons dominated by neutron degeneracy pressure, with both the neutrons and protons paired to form superfluids. The fluid of pairs of positively charged protons is also \textbf{superconducting}, with zero electrical resistance. As the density increases further, the ratio of neutrons:protons:electrons approaches a limiting value of $8:1:1$, as determined by the balance between the competing process of electron capture and $\beta$-decay inhibited by the presence of degenerate electrons.
+
+{\noindent}The properties of the neutron star material when $\rho>\rho_{\rm nuc}$ are still poorly understood. A complete theoretical description of the behaviour of a sea of free neutrons interacting via the strong nuclear force in the presence of protons and electrons is not yet available, and there is little experimental data on the behaviour of matter in this density range. A further complication is the appearance of sub-nuclear particles such as \textbf{pions} ($\pi$) produced by the decay of a neutron into a proton and a negatively charged pion, $n\rightarrow\,p^++\pi^-$, which occurs spontaneously in neutron stars with $\rho>2\rho_{\rm nuc}$. Nevertheless, these are the values of the density encountered in the interiors of neutron stars, and the difficulties mentioned are the primary reasons for uncertainties in the stricture calculated for model neutron stars.
+
+{\noindent}Table \ref{table:neutronstartable} summarizes the composition of the neutron star material at various densities.
+
+\begin{table}[t]
+    \centering
+    \includegraphics[width=10cm]{figures/NeutronStar_table.png}
+    \caption{\footnotesize{Composition of neutron star material. Table taken from Carroll \& Ostlie (2007).}}
+    \label{table:neutronstartable}
+\end{table}
+
+{\noindent}\textbf{Rapid rotation and conservation of angular momentum}: Several properties of neutron stars were anticipated before they were observed. For example, neutron stars must rotate very rapidly. If the iron core of the pre-SN supergiant star were rotating even slowly, the decrease in radius would be so great that the conservation of angular momentum would guarantee the formation of a rapidly rotating neutron star. Assuming that the progenitor core is characteristic of a white dwarf composed entirely of iron, the ratio of the core radius to that of the resulting neutron star is given by
+
+\begin{align*}
+    \frac{}{} \approx \frac{}{} \left(\frac{}{}\right)^{5/3} = 512,
+\end{align*}
+
+{\noindent}where $Z/A=26/56$ has been used for iron. After applying conservation of angular momentum to the collapsing core (which is assumed to lose no mass, so $M_{\rm core}=M_{\rm wd}=M_{\rm ns}$), we obtain for the rotation period $P$
+
+\begin{align*}
+    P_{\rm ns} \approx 3.8\times10^{-6}P_{\rm core}.
+\end{align*}
+
+{\noindent}The question of how fast the progenitor core may be rotating is difficult to answer. As a star evolves, its contracting core is not completely isolated from the surrounding envelope, so one cannot generally use this simple approach of conservation of angular momentum. Taking the white dwarf $40$ Eridani B as an example, the observed rotation period of the core is $P_{\rm core}=1350\,{\rm s}$. Using this to estimate the resulting neutron star rotation period, $P_{ns}=5\times10^{-3}\,{\rm s}$. Thus neutron stars will be rotating very rapidly when they are formed, with rotation periods on the order of a few milliseconds.
 
 \subsubsection{Follow-up Questions}
 

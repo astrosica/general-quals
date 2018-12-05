@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 DEC 2018 00:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 DEC 2018 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,635 +1172,668 @@ File: figures/ppchain.png Graphic file (type png)
 <use figures/ppchain.png>
 Package pdftex.def Info: figures/ppchain.png used on input line 1296.
 (pdftex.def)             Requested size: 341.43306pt x 267.76727pt.
- [36 <./figures/ppchain.png>] [37] [38] [39] [40]
-[41]
-Underfull \hbox (badness 3168) in paragraph at lines 1496--1496
+ [36 <./figures/ppchain.png>] [37] [38]
+<figures/SolarDegeneracyEvolution.png, id=413, 864.22874pt x 706.64pt>
+File: figures/SolarDegeneracyEvolution.png Graphic file (type png)
+
+<use figures/SolarDegeneracyEvolution.png>
+Package pdftex.def Info: figures/SolarDegeneracyEvolution.png used on input lin
+e 1458.
+(pdftex.def)             Requested size: 341.43306pt x 279.16826pt.
+File: figures/SolarDegeneracyEvolution.png Graphic file (type png)
+
+<use figures/SolarDegeneracyEvolution.png>
+Package pdftex.def Info: figures/SolarDegeneracyEvolution.png used on input lin
+e 1458.
+(pdftex.def)             Requested size: 341.43306pt x 279.16826pt.
+File: figures/SolarDegeneracyEvolution.png Graphic file (type png)
+
+<use figures/SolarDegeneracyEvolution.png>
+Package pdftex.def Info: figures/SolarDegeneracyEvolution.png used on input lin
+e 1458.
+(pdftex.def)             Requested size: 341.43306pt x 279.16826pt.
+
+Overfull \hbox (13.3333pt too wide) detected at line 1458
+ [] 
+ []
+
+[39] [40 <./figures/SolarDegeneracyEvolution.png>]
+<figures/NeutronStar_table.png, id=430, 727.71875pt x 769.87625pt>
+File: figures/NeutronStar_table.png Graphic file (type png)
+
+<use figures/NeutronStar_table.png>
+Package pdftex.def Info: figures/NeutronStar_table.png used on input line 1507.
+
+(pdftex.def)             Requested size: 284.52756pt x 301.0141pt.
+ [41 <./figures/NeutronStar_table.png>]
+[42] [43] [44]
+Underfull \hbox (badness 3168) in paragraph at lines 1588--1588
 \OT1/cmr/m/n/8 in a field and col-lect wa-
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 1496--1496
+Underfull \hbox (badness 1348) in paragraph at lines 1588--1588
 \OT1/cmr/m/n/8 (1987). Fig-ure taken from
  []
 
-<figures/CCDoperation.png, id=438, 809.0225pt x 568.1225pt>
+<figures/CCDoperation.png, id=463, 809.0225pt x 568.1225pt>
 File: figures/CCDoperation.png Graphic file (type png)
 
 <use figures/CCDoperation.png>
-Package pdftex.def Info: figures/CCDoperation.png used on input line 1496.
+Package pdftex.def Info: figures/CCDoperation.png used on input line 1588.
 (pdftex.def)             Requested size: 284.52756pt x 199.80809pt.
 
-Underfull \hbox (badness 3168) in paragraph at lines 1496--1496
+Underfull \hbox (badness 3168) in paragraph at lines 1588--1588
 \OT1/cmr/m/n/8 in a field and col-lect wa-
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 1496--1496
+Underfull \hbox (badness 1348) in paragraph at lines 1588--1588
 \OT1/cmr/m/n/8 (1987). Fig-ure taken from
  []
 
 File: figures/CCDoperation.png Graphic file (type png)
 <use figures/CCDoperation.png>
-Package pdftex.def Info: figures/CCDoperation.png used on input line 1496.
+Package pdftex.def Info: figures/CCDoperation.png used on input line 1588.
 (pdftex.def)             Requested size: 284.52756pt x 199.80809pt.
 
-Underfull \hbox (badness 3168) in paragraph at lines 1496--1496
+Underfull \hbox (badness 3168) in paragraph at lines 1588--1588
 \OT1/cmr/m/n/8 in a field and col-lect wa-
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 1496--1496
+Underfull \hbox (badness 1348) in paragraph at lines 1588--1588
 \OT1/cmr/m/n/8 (1987). Fig-ure taken from
  []
 
 File: figures/CCDoperation.png Graphic file (type png)
 <use figures/CCDoperation.png>
-Package pdftex.def Info: figures/CCDoperation.png used on input line 1496.
+Package pdftex.def Info: figures/CCDoperation.png used on input line 1588.
 (pdftex.def)             Requested size: 284.52756pt x 199.80809pt.
 
-Underfull \hbox (badness 2452) in paragraph at lines 1507--1507
+Underfull \hbox (badness 2452) in paragraph at lines 1599--1599
 \OT1/cmr/m/n/8 a typ-i-cal three-phase CCD.
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 1507--1507
+Underfull \hbox (badness 2042) in paragraph at lines 1599--1599
 \OT1/cmr/m/n/8 One clock cy-cle causes the
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1507--1507
+Underfull \hbox (badness 1509) in paragraph at lines 1599--1599
 \OT1/cmr/m/n/8 through the A/D con-verter.
  []
 
-<figures/CCDgate.png, id=441, 555.07375pt x 698.61pt>
+<figures/CCDgate.png, id=466, 555.07375pt x 698.61pt>
 File: figures/CCDgate.png Graphic file (type png)
 
 <use figures/CCDgate.png>
-Package pdftex.def Info: figures/CCDgate.png used on input line 1507.
+Package pdftex.def Info: figures/CCDgate.png used on input line 1599.
 (pdftex.def)             Requested size: 284.52756pt x 358.10922pt.
 
-Underfull \hbox (badness 2452) in paragraph at lines 1507--1507
+Underfull \hbox (badness 2452) in paragraph at lines 1599--1599
 \OT1/cmr/m/n/8 a typ-i-cal three-phase CCD.
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 1507--1507
+Underfull \hbox (badness 2042) in paragraph at lines 1599--1599
 \OT1/cmr/m/n/8 One clock cy-cle causes the
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1507--1507
-\OT1/cmr/m/n/8 through the A/D con-verter.
- []
-
-File: figures/CCDgate.png Graphic file (type png)
-<use figures/CCDgate.png>
-Package pdftex.def Info: figures/CCDgate.png used on input line 1507.
-(pdftex.def)             Requested size: 284.52756pt x 358.10922pt.
-
-Underfull \hbox (badness 2452) in paragraph at lines 1507--1507
-\OT1/cmr/m/n/8 a typ-i-cal three-phase CCD.
- []
-
-
-Underfull \hbox (badness 2042) in paragraph at lines 1507--1507
-\OT1/cmr/m/n/8 One clock cy-cle causes the
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 1507--1507
+Underfull \hbox (badness 1509) in paragraph at lines 1599--1599
 \OT1/cmr/m/n/8 through the A/D con-verter.
  []
 
 File: figures/CCDgate.png Graphic file (type png)
 <use figures/CCDgate.png>
-Package pdftex.def Info: figures/CCDgate.png used on input line 1507.
+Package pdftex.def Info: figures/CCDgate.png used on input line 1599.
 (pdftex.def)             Requested size: 284.52756pt x 358.10922pt.
- [42 <./figures/CCDoperation.png>] [43 <./figures/CCDgate.png>] <figures/SiAbso
-rptionLength.png, id=457, 595.22375pt x 734.745pt>
+
+Underfull \hbox (badness 2452) in paragraph at lines 1599--1599
+\OT1/cmr/m/n/8 a typ-i-cal three-phase CCD.
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 1599--1599
+\OT1/cmr/m/n/8 One clock cy-cle causes the
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 1599--1599
+\OT1/cmr/m/n/8 through the A/D con-verter.
+ []
+
+File: figures/CCDgate.png Graphic file (type png)
+<use figures/CCDgate.png>
+Package pdftex.def Info: figures/CCDgate.png used on input line 1599.
+(pdftex.def)             Requested size: 284.52756pt x 358.10922pt.
+ [45 <./figures/CCDoperation.png>] [46 <./figures/CCDgate.png>] <figures/SiAbso
+rptionLength.png, id=480, 595.22375pt x 734.745pt>
 File: figures/SiAbsorptionLength.png Graphic file (type png)
 
 <use figures/SiAbsorptionLength.png>
-Package pdftex.def Info: figures/SiAbsorptionLength.png used on input line 1530
+Package pdftex.def Info: figures/SiAbsorptionLength.png used on input line 1622
 .
 (pdftex.def)             Requested size: 170.71652pt x 210.72743pt.
 File: figures/SiAbsorptionLength.png Graphic file (type png)
  <use figures/SiAbsorptionLength.png>
-Package pdftex.def Info: figures/SiAbsorptionLength.png used on input line 1530
+Package pdftex.def Info: figures/SiAbsorptionLength.png used on input line 1622
 .
 (pdftex.def)             Requested size: 170.71652pt x 210.72743pt.
 File: figures/SiAbsorptionLength.png Graphic file (type png)
 
 <use figures/SiAbsorptionLength.png>
-Package pdftex.def Info: figures/SiAbsorptionLength.png used on input line 1530
+Package pdftex.def Info: figures/SiAbsorptionLength.png used on input line 1622
 .
 (pdftex.def)             Requested size: 170.71652pt x 210.72743pt.
- [44 <./figures/SiAbsorptionLength.png>]
-<figures/QE.png, id=467, 719.68875pt x 574.145pt>
+ [47 <./figures/SiAbsorptionLength.png>]
+<figures/QE.png, id=490, 719.68875pt x 574.145pt>
 File: figures/QE.png Graphic file (type png)
  <use figures/QE.png>
-Package pdftex.def Info: figures/QE.png used on input line 1539.
+Package pdftex.def Info: figures/QE.png used on input line 1631.
 (pdftex.def)             Requested size: 213.39566pt x 170.23862pt.
 
-<figures/QE_CCDs.png, id=468, 760.8425pt x 461.725pt>
+<figures/QE_CCDs.png, id=491, 760.8425pt x 461.725pt>
 File: figures/QE_CCDs.png Graphic file (type png)
 
 <use figures/QE_CCDs.png>
-Package pdftex.def Info: figures/QE_CCDs.png used on input line 1540.
+Package pdftex.def Info: figures/QE_CCDs.png used on input line 1632.
 (pdftex.def)             Requested size: 227.62204pt x 138.13107pt.
 
-<figures/QE_temp.png, id=470, 766.865pt x 572.1375pt>
+<figures/QE_temp.png, id=493, 766.865pt x 572.1375pt>
 File: figures/QE_temp.png Graphic file (type png)
 
 <use figures/QE_temp.png>
-Package pdftex.def Info: figures/QE_temp.png used on input line 1551.
+Package pdftex.def Info: figures/QE_temp.png used on input line 1643.
 (pdftex.def)             Requested size: 284.52756pt x 212.2812pt.
 File: figures/QE_temp.png Graphic file (type png)
  <use figures/QE_temp.png>
-Package pdftex.def Info: figures/QE_temp.png used on input line 1551.
+Package pdftex.def Info: figures/QE_temp.png used on input line 1643.
 (pdftex.def)             Requested size: 284.52756pt x 212.2812pt.
 File: figures/QE_temp.png Graphic file (type png)
  <use figures/QE_temp.png>
-Package pdftex.def Info: figures/QE_temp.png used on input line 1551.
+Package pdftex.def Info: figures/QE_temp.png used on input line 1643.
 (pdftex.def)             Requested size: 284.52756pt x 212.2812pt.
 
-[45 <./figures/QE.png> <./figures/QE_CCDs.png>]
-Underfull \hbox (badness 7397) in paragraph at lines 1564--1564
+[48 <./figures/QE.png> <./figures/QE_CCDs.png>]
+Underfull \hbox (badness 7397) in paragraph at lines 1656--1656
 \OT1/cmr/m/n/8 Schematic view of a sin-
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 1564--1564
+Underfull \hbox (badness 2096) in paragraph at lines 1656--1656
 \OT1/cmr/m/n/8 pixel. The square la-beled
  []
 
-<figures/CCDschematic.png, id=481, 871.255pt x 361.35pt>
+<figures/CCDschematic.png, id=504, 871.255pt x 361.35pt>
 File: figures/CCDschematic.png Graphic file (type png)
 
 <use figures/CCDschematic.png>
-Package pdftex.def Info: figures/CCDschematic.png used on input line 1564.
+Package pdftex.def Info: figures/CCDschematic.png used on input line 1656.
 (pdftex.def)             Requested size: 341.43306pt x 141.60413pt.
 
-Underfull \hbox (badness 7397) in paragraph at lines 1564--1564
+Underfull \hbox (badness 7397) in paragraph at lines 1656--1656
 \OT1/cmr/m/n/8 Schematic view of a sin-
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 1564--1564
-\OT1/cmr/m/n/8 pixel. The square la-beled
- []
-
-File: figures/CCDschematic.png Graphic file (type png)
-<use figures/CCDschematic.png>
-Package pdftex.def Info: figures/CCDschematic.png used on input line 1564.
-(pdftex.def)             Requested size: 341.43306pt x 141.60413pt.
-
-Underfull \hbox (badness 7397) in paragraph at lines 1564--1564
-\OT1/cmr/m/n/8 Schematic view of a sin-
- []
-
-
-Underfull \hbox (badness 2096) in paragraph at lines 1564--1564
+Underfull \hbox (badness 2096) in paragraph at lines 1656--1656
 \OT1/cmr/m/n/8 pixel. The square la-beled
  []
 
 File: figures/CCDschematic.png Graphic file (type png)
 <use figures/CCDschematic.png>
-Package pdftex.def Info: figures/CCDschematic.png used on input line 1564.
+Package pdftex.def Info: figures/CCDschematic.png used on input line 1656.
 (pdftex.def)             Requested size: 341.43306pt x 141.60413pt.
 
-Overfull \hbox (13.3333pt too wide) detected at line 1564
+Underfull \hbox (badness 7397) in paragraph at lines 1656--1656
+\OT1/cmr/m/n/8 Schematic view of a sin-
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 1656--1656
+\OT1/cmr/m/n/8 pixel. The square la-beled
+ []
+
+File: figures/CCDschematic.png Graphic file (type png)
+<use figures/CCDschematic.png>
+Package pdftex.def Info: figures/CCDschematic.png used on input line 1656.
+(pdftex.def)             Requested size: 341.43306pt x 141.60413pt.
+
+Overfull \hbox (13.3333pt too wide) detected at line 1656
  [] 
  []
 
-[46 <./figures/QE_temp.png> <./figures/CCDschematic.png>]
-Underfull \hbox (badness 2495) in paragraph at lines 1577--1577
+[49 <./figures/QE_temp.png> <./figures/CCDschematic.png>]
+Underfull \hbox (badness 2495) in paragraph at lines 1669--1669
 \OT1/cmr/m/n/8 Experimental (sym-bols) and
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 1577--1577
+Underfull \hbox (badness 1533) in paragraph at lines 1669--1669
 \OT1/cmr/m/n/8 trons gen-er-ated within each
  []
 
-<figures/CCD_darkcurrent.png, id=489, 629.35126pt x 746.79pt>
+<figures/CCD_darkcurrent.png, id=513, 629.35126pt x 746.79pt>
 File: figures/CCD_darkcurrent.png Graphic file (type png)
 
 <use figures/CCD_darkcurrent.png>
-Package pdftex.def Info: figures/CCD_darkcurrent.png used on input line 1577.
+Package pdftex.def Info: figures/CCD_darkcurrent.png used on input line 1669.
 (pdftex.def)             Requested size: 227.62204pt x 270.09764pt.
 
-Underfull \hbox (badness 2495) in paragraph at lines 1577--1577
+Underfull \hbox (badness 2495) in paragraph at lines 1669--1669
 \OT1/cmr/m/n/8 Experimental (sym-bols) and
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 1577--1577
-\OT1/cmr/m/n/8 trons gen-er-ated within each
- []
-
-File: figures/CCD_darkcurrent.png Graphic file (type png)
-<use figures/CCD_darkcurrent.png>
-Package pdftex.def Info: figures/CCD_darkcurrent.png used on input line 1577.
-(pdftex.def)             Requested size: 227.62204pt x 270.09764pt.
-
-Underfull \hbox (badness 2495) in paragraph at lines 1577--1577
-\OT1/cmr/m/n/8 Experimental (sym-bols) and
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 1577--1577
+Underfull \hbox (badness 1533) in paragraph at lines 1669--1669
 \OT1/cmr/m/n/8 trons gen-er-ated within each
  []
 
 File: figures/CCD_darkcurrent.png Graphic file (type png)
 <use figures/CCD_darkcurrent.png>
-Package pdftex.def Info: figures/CCD_darkcurrent.png used on input line 1577.
+Package pdftex.def Info: figures/CCD_darkcurrent.png used on input line 1669.
 (pdftex.def)             Requested size: 227.62204pt x 270.09764pt.
- [47 <./figures/CCD_darkcurrent.png>]
-Underfull \hbox (badness 1460) in paragraph at lines 1592--1592
+
+Underfull \hbox (badness 2495) in paragraph at lines 1669--1669
+\OT1/cmr/m/n/8 Experimental (sym-bols) and
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 1669--1669
+\OT1/cmr/m/n/8 trons gen-er-ated within each
+ []
+
+File: figures/CCD_darkcurrent.png Graphic file (type png)
+<use figures/CCD_darkcurrent.png>
+Package pdftex.def Info: figures/CCD_darkcurrent.png used on input line 1669.
+(pdftex.def)             Requested size: 227.62204pt x 270.09764pt.
+ [50 <./figures/CCD_darkcurrent.png>]
+Underfull \hbox (badness 1460) in paragraph at lines 1684--1684
 \OT1/cmr/m/n/8 in up-looking, down-looking,
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 1592--1592
+Underfull \hbox (badness 1648) in paragraph at lines 1684--1684
 \OT1/cmr/m/n/8 From Brar (1984). Fig-ure
  []
 
-<figures/dewar.png, id=500, 586.19pt x 710.655pt>
+<figures/dewar.png, id=524, 586.19pt x 710.655pt>
 File: figures/dewar.png Graphic file (type png)
  <use figures/dewar.png>
-Package pdftex.def Info: figures/dewar.png used on input line 1592.
+Package pdftex.def Info: figures/dewar.png used on input line 1684.
 (pdftex.def)             Requested size: 284.52756pt x 344.93835pt.
 
-Underfull \hbox (badness 1460) in paragraph at lines 1592--1592
+Underfull \hbox (badness 1460) in paragraph at lines 1684--1684
 \OT1/cmr/m/n/8 in up-looking, down-looking,
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 1592--1592
+Underfull \hbox (badness 1648) in paragraph at lines 1684--1684
 \OT1/cmr/m/n/8 From Brar (1984). Fig-ure
  []
 
 File: figures/dewar.png Graphic file (type png)
 <use figures/dewar.png>
-Package pdftex.def Info: figures/dewar.png used on input line 1592.
+Package pdftex.def Info: figures/dewar.png used on input line 1684.
 (pdftex.def)             Requested size: 284.52756pt x 344.93835pt.
 
-Underfull \hbox (badness 1460) in paragraph at lines 1592--1592
+Underfull \hbox (badness 1460) in paragraph at lines 1684--1684
 \OT1/cmr/m/n/8 in up-looking, down-looking,
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 1592--1592
+Underfull \hbox (badness 1648) in paragraph at lines 1684--1684
 \OT1/cmr/m/n/8 From Brar (1984). Fig-ure
  []
 
 File: figures/dewar.png Graphic file (type png)
 <use figures/dewar.png>
-Package pdftex.def Info: figures/dewar.png used on input line 1592.
+Package pdftex.def Info: figures/dewar.png used on input line 1684.
 (pdftex.def)             Requested size: 284.52756pt x 344.93835pt.
- [48 <./figures/dewar.png>] [49] [50]
-Underfull \hbox (badness 4060) in paragraph at lines 1639--1639
+ [51 <./figures/dewar.png>] [52] [53]
+Underfull \hbox (badness 4060) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 in the $\OML/cmm/m/it/8 x$\OT1/cmr/m/n/8 -direction, but at
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1881) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 point $2$, some time in the
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 1639--1639
+Underfull \hbox (badness 3168) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 point-ing in the $\OML/cmm/m/it/8 y$\OT1/cmr/m/n/8 -direction.
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1077) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 been com-pleted by point $4$,
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1057) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 the $\OML/cmm/m/it/8 x$ \OT1/cmr/m/n/8 and $\OML/cmm/m/it/8 y$ \
 OT1/cmr/m/n/8 planes. This
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 fig-ure is re-pro-duced from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
 [][]\OT1/cmr/m/n/8 http://astronomyonline.org[][].
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 1639--1639
+Underfull \hbox (badness 2478) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 Fig-ure taken from Newton-
  []
 
-<figures/EMpol.png, id=528, 715.67375pt x 674.52pt>
+<figures/EMpol.png, id=551, 715.67375pt x 674.52pt>
 File: figures/EMpol.png Graphic file (type png)
  <use figures/EMpol.png>
-Package pdftex.def Info: figures/EMpol.png used on input line 1639.
+Package pdftex.def Info: figures/EMpol.png used on input line 1731.
 (pdftex.def)             Requested size: 284.52756pt x 268.16673pt.
 
-Underfull \hbox (badness 4060) in paragraph at lines 1639--1639
+Underfull \hbox (badness 4060) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 in the $\OML/cmm/m/it/8 x$\OT1/cmr/m/n/8 -direction, but at
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1881) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 point $2$, some time in the
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 1639--1639
+Underfull \hbox (badness 3168) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 point-ing in the $\OML/cmm/m/it/8 y$\OT1/cmr/m/n/8 -direction.
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1077) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 been com-pleted by point $4$,
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1057) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 the $\OML/cmm/m/it/8 x$ \OT1/cmr/m/n/8 and $\OML/cmm/m/it/8 y$ \
 OT1/cmr/m/n/8 planes. This
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 fig-ure is re-pro-duced from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
 [][]\OT1/cmr/m/n/8 http://astronomyonline.org[][].
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 1639--1639
+Underfull \hbox (badness 2478) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 Fig-ure taken from Newton-
  []
 
 File: figures/EMpol.png Graphic file (type png)
 <use figures/EMpol.png>
-Package pdftex.def Info: figures/EMpol.png used on input line 1639.
+Package pdftex.def Info: figures/EMpol.png used on input line 1731.
 (pdftex.def)             Requested size: 284.52756pt x 268.16673pt.
 
-Underfull \hbox (badness 4060) in paragraph at lines 1639--1639
+Underfull \hbox (badness 4060) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 in the $\OML/cmm/m/it/8 x$\OT1/cmr/m/n/8 -direction, but at
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1881) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 point $2$, some time in the
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 1639--1639
+Underfull \hbox (badness 3168) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 point-ing in the $\OML/cmm/m/it/8 y$\OT1/cmr/m/n/8 -direction.
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1077) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 been com-pleted by point $4$,
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 1639--1639
+Underfull \hbox (badness 1057) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 the $\OML/cmm/m/it/8 x$ \OT1/cmr/m/n/8 and $\OML/cmm/m/it/8 y$ \
 OT1/cmr/m/n/8 planes. This
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 fig-ure is re-pro-duced from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
 [][]\OT1/cmr/m/n/8 http://astronomyonline.org[][].
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 1639--1639
+Underfull \hbox (badness 2478) in paragraph at lines 1731--1731
 \OT1/cmr/m/n/8 Fig-ure taken from Newton-
  []
 
 File: figures/EMpol.png Graphic file (type png)
 <use figures/EMpol.png>
-Package pdftex.def Info: figures/EMpol.png used on input line 1639.
+Package pdftex.def Info: figures/EMpol.png used on input line 1731.
 (pdftex.def)             Requested size: 284.52756pt x 268.16673pt.
 
-<figures/PolarizationTypes.png, id=533, 1014.79124pt x 358.33875pt>
+<figures/PolarizationTypes.png, id=556, 1014.79124pt x 358.33875pt>
 File: figures/PolarizationTypes.png Graphic file (type png)
 
 <use figures/PolarizationTypes.png>
-Package pdftex.def Info: figures/PolarizationTypes.png used on input line 1654.
+Package pdftex.def Info: figures/PolarizationTypes.png used on input line 1746.
 
 (pdftex.def)             Requested size: 341.43306pt x 120.56503pt.
- [51 <./figures/EMpol.png>] [52 <./figures/PolarizationTypes.png>]
+ [54 <./figures/EMpol.png>] [55 <./figures/PolarizationTypes.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [53]
-Underfull \hbox (badness 1342) in paragraph at lines 1734--1734
+ [56]
+Underfull \hbox (badness 1342) in paragraph at lines 1826--1826
 \OT1/cmr/m/n/8 Illustration of the dif-fer-ence
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1734--1734
+Underfull \hbox (badness 1158) in paragraph at lines 1826--1826
 \OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
  []
 
-<figures/PrecisionAccuracy.png, id=558, 907.39pt x 671.50874pt>
+<figures/PrecisionAccuracy.png, id=582, 907.39pt x 671.50874pt>
 File: figures/PrecisionAccuracy.png Graphic file (type png)
 
 <use figures/PrecisionAccuracy.png>
-Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 1734.
+Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 1826.
 
 (pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
 
-Underfull \hbox (badness 1342) in paragraph at lines 1734--1734
+Underfull \hbox (badness 1342) in paragraph at lines 1826--1826
 \OT1/cmr/m/n/8 Illustration of the dif-fer-ence
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1734--1734
-\OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
- []
-
-File: figures/PrecisionAccuracy.png Graphic file (type png)
-<use figures/PrecisionAccuracy.png>
-Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 1734.
-
-(pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
-
-Underfull \hbox (badness 1342) in paragraph at lines 1734--1734
-\OT1/cmr/m/n/8 Illustration of the dif-fer-ence
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 1734--1734
+Underfull \hbox (badness 1158) in paragraph at lines 1826--1826
 \OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
  []
 
 File: figures/PrecisionAccuracy.png Graphic file (type png)
 <use figures/PrecisionAccuracy.png>
-Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 1734.
+Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 1826.
 
 (pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
 
-Overfull \hbox (13.3333pt too wide) detected at line 1734
+Underfull \hbox (badness 1342) in paragraph at lines 1826--1826
+\OT1/cmr/m/n/8 Illustration of the dif-fer-ence
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 1826--1826
+\OT1/cmr/m/n/8 be-tween pre-ci-sion and ac-cu-
+ []
+
+File: figures/PrecisionAccuracy.png Graphic file (type png)
+<use figures/PrecisionAccuracy.png>
+Package pdftex.def Info: figures/PrecisionAccuracy.png used on input line 1826.
+
+(pdftex.def)             Requested size: 341.43306pt x 252.67586pt.
+
+Overfull \hbox (13.3333pt too wide) detected at line 1826
  [] 
  []
 
-[54 <./figures/PrecisionAccuracy.png>] [55]
-<figures/binomial.png, id=572, 1927.2pt x 1838.87pt>
+[57 <./figures/PrecisionAccuracy.png>] [58]
+<figures/binomial.png, id=596, 1927.2pt x 1838.87pt>
 File: figures/binomial.png Graphic file (type png)
 
 <use figures/binomial.png>
-Package pdftex.def Info: figures/binomial.png used on input line 1811.
+Package pdftex.def Info: figures/binomial.png used on input line 1903.
 (pdftex.def)             Requested size: 213.39566pt x 203.5951pt.
- <figures/poisson.png, id=573, 1927.2pt x 1541.76pt>
+ <figures/poisson.png, id=597, 1927.2pt x 1541.76pt>
 File: figures/poisson.png Graphic file (type png)
 
 <use figures/poisson.png>
-Package pdftex.def Info: figures/poisson.png used on input line 1812.
+Package pdftex.def Info: figures/poisson.png used on input line 1904.
 (pdftex.def)             Requested size: 213.39566pt x 170.69981pt.
 
-<figures/gaussian.png, id=574, 2569.6pt x 1642.135pt>
+<figures/gaussian.png, id=598, 2569.6pt x 1642.135pt>
 File: figures/gaussian.png Graphic file (type png)
 
 <use figures/gaussian.png>
-Package pdftex.def Info: figures/gaussian.png used on input line 1813.
+Package pdftex.def Info: figures/gaussian.png used on input line 1905.
 (pdftex.def)             Requested size: 213.39566pt x 136.3598pt.
 
-<figures/log-normal.png, id=575, 1284.8pt x 1284.8pt>
+<figures/log-normal.png, id=599, 1284.8pt x 1284.8pt>
 File: figures/log-normal.png Graphic file (type png)
 
 <use figures/log-normal.png>
-Package pdftex.def Info: figures/log-normal.png used on input line 1814.
+Package pdftex.def Info: figures/log-normal.png used on input line 1906.
 (pdftex.def)             Requested size: 213.39566pt x 213.39436pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[56] [57 <./figures/binomial.png> <./figures/poisson.png> <./figures/gaussian.p
-ng> <./figures/log-normal.png>] [58] [59] [60] [61] [62] [63] [64] [65]
-[66] [67]
+[59] [60 <./figures/binomial.png> <./figures/poisson.png> <./figures/gaussian.p
+ng> <./figures/log-normal.png>] [61] [62] [63] [64] [65] [66] [67] [68]
+[69] [70]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- <figures/StrainDiagram.png, id=661, 867.24pt x 474.77374pt>
+ <figures/StrainDiagram.png, id=684, 867.24pt x 474.77374pt>
 File: figures/StrainDiagram.png Graphic file (type png)
 
 <use figures/StrainDiagram.png>
-Package pdftex.def Info: figures/StrainDiagram.png used on input line 2230.
+Package pdftex.def Info: figures/StrainDiagram.png used on input line 2322.
 (pdftex.def)             Requested size: 284.52756pt x 155.76302pt.
- [68] [69 <./figures/StrainDiagram.png>]
-<figures/ForceLines.png, id=674, 1081.03876pt x 387.4475pt>
+ [71] [72 <./figures/StrainDiagram.png>]
+<figures/ForceLines.png, id=697, 1081.03876pt x 387.4475pt>
 File: figures/ForceLines.png Graphic file (type png)
 
 <use figures/ForceLines.png>
-Package pdftex.def Info: figures/ForceLines.png used on input line 2283.
+Package pdftex.def Info: figures/ForceLines.png used on input line 2375.
 (pdftex.def)             Requested size: 426.79134pt x 152.96027pt.
- [70 <./figures/ForceLines.png>]
-<figures/interferometer.png, id=684, 983.675pt x 488.82625pt>
+ [73 <./figures/ForceLines.png>]
+<figures/interferometer.png, id=708, 983.675pt x 488.82625pt>
 File: figures/interferometer.png Graphic file (type png)
 
 <use figures/interferometer.png>
-Package pdftex.def Info: figures/interferometer.png used on input line 2306.
+Package pdftex.def Info: figures/interferometer.png used on input line 2398.
 (pdftex.def)             Requested size: 341.43306pt x 169.6671pt.
- [71 <./figures/interferometer.png>] [72]
-<figures/LIGO_Washington.png, id=698, 807.015pt x 540.0175pt>
+ [74 <./figures/interferometer.png>] [75]
+<figures/LIGO_Washington.png, id=722, 807.015pt x 540.0175pt>
 File: figures/LIGO_Washington.png Graphic file (type png)
 
 <use figures/LIGO_Washington.png>
-Package pdftex.def Info: figures/LIGO_Washington.png used on input line 2336.
+Package pdftex.def Info: figures/LIGO_Washington.png used on input line 2428.
 (pdftex.def)             Requested size: 213.39566pt x 142.79083pt.
 
-<figures/LIGO_Louisiana.png, id=699, 810.02625pt x 552.0625pt>
+<figures/LIGO_Louisiana.png, id=723, 810.02625pt x 552.0625pt>
 File: figures/LIGO_Louisiana.png Graphic file (type png)
 
 <use figures/LIGO_Louisiana.png>
-Package pdftex.def Info: figures/LIGO_Louisiana.png used on input line 2337.
+Package pdftex.def Info: figures/LIGO_Louisiana.png used on input line 2429.
 (pdftex.def)             Requested size: 213.39566pt x 145.43663pt.
 
-<figures/LIGO_PSF.png, id=701, 1059.96pt x 381.425pt>
+<figures/LIGO_PSF.png, id=725, 1059.96pt x 381.425pt>
 File: figures/LIGO_PSF.png Graphic file (type png)
 
 <use figures/LIGO_PSF.png>
-Package pdftex.def Info: figures/LIGO_PSF.png used on input line 2361.
+Package pdftex.def Info: figures/LIGO_PSF.png used on input line 2453.
 (pdftex.def)             Requested size: 341.43306pt x 122.86165pt.
- [73 <./figures/LIGO_Washington.png> <./figures/LIGO_Louisiana.png>]
-Underfull \hbox (badness 2253) in paragraph at lines 2374--2374
+ [76 <./figures/LIGO_Washington.png> <./figures/LIGO_Louisiana.png>]
+Underfull \hbox (badness 2253) in paragraph at lines 2466--2466
 \OT1/cmr/m/n/8 along with the de-sign goal
  []
 
-<figures/StrainNoise.png, id=711, 907.39pt x 719.68875pt>
+<figures/StrainNoise.png, id=735, 907.39pt x 719.68875pt>
 File: figures/StrainNoise.png Graphic file (type png)
 
 <use figures/StrainNoise.png>
-Package pdftex.def Info: figures/StrainNoise.png used on input line 2374.
+Package pdftex.def Info: figures/StrainNoise.png used on input line 2466.
 (pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
 
-Underfull \hbox (badness 2253) in paragraph at lines 2374--2374
-\OT1/cmr/m/n/8 along with the de-sign goal
- []
-
-File: figures/StrainNoise.png Graphic file (type png)
-<use figures/StrainNoise.png>
-Package pdftex.def Info: figures/StrainNoise.png used on input line 2374.
-(pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
-
-Underfull \hbox (badness 2253) in paragraph at lines 2374--2374
+Underfull \hbox (badness 2253) in paragraph at lines 2466--2466
 \OT1/cmr/m/n/8 along with the de-sign goal
  []
 
 File: figures/StrainNoise.png Graphic file (type png)
 <use figures/StrainNoise.png>
-Package pdftex.def Info: figures/StrainNoise.png used on input line 2374.
+Package pdftex.def Info: figures/StrainNoise.png used on input line 2466.
 (pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
- [74 <./figures/LIGO_PSF.png> <./figures/StrainNoise.png>] <figures/Displacemen
-tNoise.png, id=726, 903.375pt x 696.6025pt>
+
+Underfull \hbox (badness 2253) in paragraph at lines 2466--2466
+\OT1/cmr/m/n/8 along with the de-sign goal
+ []
+
+File: figures/StrainNoise.png Graphic file (type png)
+<use figures/StrainNoise.png>
+Package pdftex.def Info: figures/StrainNoise.png used on input line 2466.
+(pdftex.def)             Requested size: 284.52756pt x 225.67088pt.
+ [77 <./figures/LIGO_PSF.png> <./figures/StrainNoise.png>] <figures/Displacemen
+tNoise.png, id=750, 903.375pt x 696.6025pt>
 File: figures/DisplacementNoise.png Graphic file (type png)
 
 <use figures/DisplacementNoise.png>
-Package pdftex.def Info: figures/DisplacementNoise.png used on input line 2393.
+Package pdftex.def Info: figures/DisplacementNoise.png used on input line 2485.
 
 (pdftex.def)             Requested size: 213.39566pt x 164.55194pt.
 
-<figures/SensingNoise.png, id=727, 905.3825pt x 699.61375pt>
+<figures/SensingNoise.png, id=751, 905.3825pt x 699.61375pt>
 File: figures/SensingNoise.png Graphic file (type png)
 
 <use figures/SensingNoise.png>
-Package pdftex.def Info: figures/SensingNoise.png used on input line 2394.
+Package pdftex.def Info: figures/SensingNoise.png used on input line 2486.
 (pdftex.def)             Requested size: 213.39566pt x 164.88963pt.
- [75 <./figures/DisplacementNoise.png> <./figures/SensingNoise.png>] [76] [77] 
+ [78 <./figures/DisplacementNoise.png> <./figures/SensingNoise.png>] [79] [80] 
 
 AED: lastpage setting LastPage
-[78]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2469.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2469.
+[81]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2561.
  (./physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2469.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2469.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2561.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2561.
 
 Package rerunfilecheck Info: File `physics.out' has not changed.
 (rerunfilecheck)             Checksum: 3BA848F7071CF56887F10D170B83A7B6;1378.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2469.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2561.
  ) 
 Here is how much of TeX's memory you used:
- 9770 strings out of 492995
- 149374 string characters out of 6132704
- 274626 words of memory out of 5000000
- 12925 multiletter control sequences out of 15000+600000
+ 9791 strings out of 492995
+ 149878 string characters out of 6132704
+ 274927 words of memory out of 5000000
+ 12938 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,53p,1979b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1827,10 +1860,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on physics.pdf (78 pages, 18492426 bytes).
+Output written on physics.pdf (81 pages, 19150250 bytes).
 PDF statistics:
- 879 PDF objects out of 1000 (max. 8388607)
- 681 compressed objects within 7 object streams
- 221 named destinations out of 1000 (max. 500000)
- 390 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 903 PDF objects out of 1000 (max. 8388607)
+ 698 compressed objects within 7 object streams
+ 227 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
