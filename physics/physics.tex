@@ -1028,7 +1028,383 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+{\noindent}\textbf{Hydrostatic equilibrium}: The gravitational force is always attractive, implying that an opposing force must exist if a star is to avoid collapse. This force is provided by pressure. For a star to be supported against its own self-gravity, it must satisfy \textbf{hydrostatic equilibrium}:
+
+\begin{align*}
+    \frac{{\rm d}P}{{\rm d}r} = -\frac{GM_r\rho}{r^2} = -\rho g ~ [{\rm P\,m^{-1}}], ~~~ g \equiv \frac{GM_r}{r^2} ~ [{\rm m\,s^{-2}}],
+\end{align*}
+
+{\noindent}where $g$ is the local acceleration of gravity at radius $r$. This equation represents one of the fundamental equations of stellar structure for spherically symmetric objects under the assumption that accelerations are negligible. It clearly indicates that in order for a star to be static, a \textit{pressure gradient} ${\rm d}P/{\rm d}r$ must exist to counteract the force of gravity. It is not the pressure that supports a star, but the change in pressure with radius. Furthermore, the pressure must \textit{decrease} with increasing radius; the pressure is necessarily larger in the interior than it is near the surface.
+
+{\noindent}\textbf{The equation of mass conservation}: A second relationship involving mass, radius, and density also exists called the \textbf{mass conservation equation}: 
+
+\begin{align*}
+    \frac{{\rm d}M_r}{{\rm d}r} = 4\pi r^2\rho ~ [{\rm kg\,m^{-1}}],
+\end{align*}
+
+{\noindent}which dictates how the interior of the mass of a star must change with distance from the center. This is the second of the fundamental equations of stellar structure. 
+
+{\noindent}\textbf{Pressure equation of state}: So far, no information has been provided about the origin of the pressure term required by the equation of hydrostatic equilibrium. To describe this macroscopic manifestation of particle interactions, it is necessary to know the pressure \textbf{equation of state} of the material. Such an equation of state relates the dependence of pressure on other fundamental parameters of the material. One well-know example of a pressure equation of state if the \textbf{ideal gas law}, often expressed as
+
+\begin{align*}
+    PV = Nk_BT ~ [{\rm P\,m^{-3}}],
+\end{align*}
+
+{\noindent}where $V$ is the volume of the gas, $N$ is the number of particles, $T$ is the temperature, and $k_B$ is Boltzmann's constant.
+
+{\noindent}In astrophysical applications, it is often convenient to express the ideal gas law in alternative form. We know that $n$ is the particle number density which must be related to the mass density of the gas. Allowing for a variety of particles of different masses, it is then possible to express $n$ as
+
+\begin{align*}
+    n = \frac{\rho}{\bar{m}} = \frac{\rho}{\mu m_H} ~ [{\rm m^{-3}}],
+\end{align*}
+
+{\noindent}where $\bar{m}$ is the average mass of a gas particle. Substituting into the ideal gas this, we get
+
+\begin{align*}
+    P = \frac{\rho k_BT}{\bar{m}} ~ [{\rm P}].
+\end{align*}
+
+{\noindent}We can define a new quantity, the \textbf{mean molecular weight}, as
+
+\begin{align*}
+    \mu \equiv \frac{\bar{m}}{m_{\rm H}} = \frac{\rho}{nm_{\rm H}} ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where $m_{\rm H}=1.67\times10^{-27}\,{\rm kg}$ is the mass of the hydrogen atom. \textit{The mean molecular weight is just the average mass of a free particle in the gas, in units of the mass of hydrogen}. The ideal gas law can now be written in terms of the mean molecular weight as
+
+\begin{align*}
+    P = \frac{\rho k_BT}{\mu m_{\rm H}} ~ [{\rm P}].
+\end{align*}
+
+{\noindent}The mean molecular weight depends on the composition of the gas as well as on the state of ionization of each species. The level of ionization enters because free electrons must be included in the average pass per particle $\bar{m}$. This implies that a detailed analysis of the Saha equation is necessary to calculate the relative numbers of ionization states. When the gas is either completely neutral or completely ionized, the calculation simplifies significantly.
+
+{\noindent}For a completely neutral gas,
+
+\begin{align*}
+    \bar{m}_n = \dfrac{\sum_j N_jm_j}{\sum_j N_j} ~ [{\rm kg}],
+\end{align*}
+
+{\noindent}where $m_j$ and $N_j$ are, respectively, the mass and total number of atoms of type $j$ that are present in the gas, and the sums are assumed to be carried out over all types of atoms. Dividing by $m_{\rm H}$ yields
+
+\begin{align*}
+    \mu_n = \dfrac{\sum_j N_jA_j}{\sum_j N_j} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}where $A_j\equiv m_j/m_{\rm H}$. Similarly, for a completely ionized gas,
+
+
+\begin{align*}
+    \mu_i \simeq \dfrac{\sum_j N_jA_j}{\sum_j N_j(1+z_j)} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}where $(1+z_j)$ accounts for the nucleus plus the number of free electrons that result from completely ionizing an atom of type $j$. (Do not confuse $z_j$ with $Z$, the mass fraction of metals.)
+
+{\noindent}By inverting the expression for $\bar{m}$, it is possible to write alternative equations for $\mu$ in terms of mass fractions. Recalling that $\bar{m}=\mu m_{\rm H}$, for a neutral gas we get
+
+\begin{align*}
+    \frac{1}{\mu_nm_{\rm H}} &= \dfrac{\sum_j N_j}{\sum_j N_jm_j} \\
+    &= \frac{\rm total\,number\,of\,particles}{\rm total\,mass\,of\,gas} \\
+    &= \sum_j \frac{\rm number\,of\,particles\,from\,j}{\rm mass\,of\,particles\,from\,j} \cdot \frac{\rm mass\,of\,particles\,from\,j}{\rm total\,mass\,of\,gas} \\
+    &= \sum \frac{N_j}{N_jA_jm_{\rm H}} X_j \\
+    &= \sum \frac{1}{A_jm_{\rm H}} X_j ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where $X_j$ is the mass fraction of atoms of type $j$. Solving for $1/\mu_n$, we have
+
+\begin{align*}
+    \frac{1}{\mu_n} = \sum \frac{1}{A_j} X_j ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}Thus, for a neutral gas,
+
+\begin{align*}
+    \frac{1}{\mu_n} \simeq X + \frac{1}{4}Y + \left\langle\frac{1}{A}\right\rangle_n Z ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}$\langle1/A\rangle_n$ is a weighted average of all elements in the gas heavier than helium. For solar abundances, $\langle1/A\rangle_n\sim1/15.5$.
+
+{\noindent}The mean molecular weight of a completely ionized gas may be determined in a similar way. It is necessary only to include the \textit{total}number of particles contained in the sample, both nuclei and electrons. For instance, each hydrogen atom contributes one free electron, together with its nucleus, to the total number of particles. Similarly, one helium atom contributes two free electrons plus its nucleus. Therefore, for a completely ionized gas we have
+
+\begin{align*}
+    \frac{1}{\mu_i} = \sum \frac{1+z_j}{A_j} X_j ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}Including hydrogen and helium explicitly, we have
+
+\begin{align*}
+    \frac{1}{\mu_i} \simeq 2X + \frac{3}{4}Y + \left\langle\frac{1+z}{A}\right\rangle_i Z ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}For elements heavier than helium, $1+z_j\simeq z_j$, where $z_j\gg1$ represents the number of protons (or electrons) in an atom of type $j$. It also holds that $A_j\simeq2z_j$, the relation being based on the facts that sufficiently massive atoms have approximately the same number of protons and neutrons in their nuclei and that protons and neutrons have very similar masses. Thus
+
+\begin{align*}
+    \left\langle\frac{1+z}{A}\right\rangle_i \simeq \frac{1}{2} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}If we assume that $X=0.70$, $Y=0.28$, and $Z=0.02$, a composition typical of younger stars, then with these expressions for the mean molecular weight, $\mu_n=1.30$ and $\mu_i=0.62$. 
+
+{\noindent}\textbf{The average kinetic energy per particle}: It is possible to combine the ideal gas law with the pressure integral to find the average kinetic energy per particle: 
+
+\begin{align*}
+    \frac{1}{2}m\bar{v^2} = \frac{3}{2}k_BT ~ [{\rm J}].
+\end{align*}
+
+{\noindent}The factor of $3$ arises from averaging particle velocities over three coordinate directions (i.e., degrees of freedom). Thus the average kinetic energy of a particle is $(1/2)k_BT$ per degree of freedom.
+
+{\noindent}\textbf{The contribution due to radiation pressure}: Because photons possess momentum $p=h\nu/c$, they are capable of delivering an impulse to other particles during absorption or reflection. Consequently, EM radiation results in another form of pressure called the \textbf{radiation pressure}: 
+
+\begin{align*}
+    P_{\rm rad} = \frac{1}{3}aT^4 ~ [{\rm P}],
+\end{align*}
+
+{\noindent}where $a=7.57\times10^{-15}~{\rm erg\,cm^{-3}\,K^{-4}}$ is the \textbf{radiation density constant}.
+
+{\noindent}In many astrophysical situations, the pressure due to photons can actually exceed by a significant amount the pressure produced by the gas. In fact, it is possible that the magnitude of the force due to radiation pressure can become sufficiently great that it surpasses the gravitational force, resulting in an overall expansion of the system.
+
+{\noindent}Combining both the ideal gas and radiation pressure terms, the total pressure becomes
+
+\begin{align*}
+    P_t &= P_g + P_{\rm rad} \\
+    P_t &= \frac{\rho k_BT}{\mu m_{\rm H}} + \frac{1}{3}aT^4 ~ [{\rm P}].
+\end{align*}
+
+{\noindent}\textbf{Gravitation potential energy}: One likely source of stellar energy is gravitational potential energy. Recall that the gravitational potential of a system of two particles is given by
+
+\begin{align*}
+    E_g = -G\frac{Mm}{r} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}As the distance between $M$ and $m$ diminishes, the gravitational potential energy becomes \textit{more negative}, implying that energy must have been converted to other forms, such as kinetic energy. If a star can manage to convert its gravitational potential energy into heat and then radiate that heat into space, the star may be able to shine for a significant period of time. However, we must also remember that by the \textbf{virial theorem}, the total energy of a system of particles in equilibrium is one-half of the system's potential energy. Therefore, only one-half of the change in gravitational potential energy of a star is actually available to be radiated away.
+
+{\noindent}The total gravitational potential energy can be calculated by integrating over all mass shells from the center to the surface of the star
+
+\begin{align*}
+    E_g = -4\pi G\int\limits_0^R M_r\rho r{\rm d}r ~ [{\rm J}],
+\end{align*}
+
+{\noindent}where $R$ is the radius of the star.
+
+{\noindent}An exact calculation of $E_g$ requires knowledge of how $\rho$ and consequently $M_r$ depend on $r$. Nevertheless, an approximate value can be obtained by assuming that $\rho$ is constant and equal to its average value,
+
+\begin{align*}
+    \rho \sim \bar{\rho} = \frac{M}{\frac{4}{3}\pi R^3} ~ [{\rm kg\,m^{-3}}],
+\end{align*}
+
+{\noindent}$M$ being the total mass of the star. Now we may also approximate $M_r$ as
+
+\begin{align*}
+    M_r \sim \frac{4}{3} \pi r^3 \bar{rho} ~ [{\rm M_\odot}].
+\end{align*}
+
+{\noindent}Substituting this into our equation for the gravitational potential energy, we get
+
+\begin{align*}
+    E_g \sim -\frac{16\pi^2}{15}G\bar{\rho}^2R^5 \sim -\frac{3}{5}\frac{GM^2}{R} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}Lastly, applying the virial theorem, we can obtain the total mechanical energy of the star
+
+\begin{align*}
+    E \sim -\frac{3}{10}\frac{GM^2}{R} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}\textbf{Nuclear reaction rates}: Writing the nuclear reaction rates in the form of a power law centered at a particular temperature, the reaction rate becomes
+
+
+\begin{align*}
+    r_i \simeq r_0X_iX_x\rho^{\alpha'} T^\beta,
+\end{align*}
+
+{\noindent}where $r_0$ is a constant, $X_i$ and $X_x$ are the mass fractions of the two particles, and $\alpha$ and $\beta$ are determined from the power law expansion of the reaction rate equations. Usually, $\alpha=2$ for a two-body collision, and $\beta$ can range from near unit to $40$ or more.
+
+{\noindent}By combining the reaction rate equation with the amount of energy released per reaction, we can calculate the amount of energy released per second in each kilogram of stellar material. If $\epsilon_0$ is the amount of energy released per reaction, the amount of energy liberated per kilogram of material per second becomes
+
+\begin{align*}
+    \epsilon_i = \left(\frac{\epsilon_0}{\rho}\right) r_i,
+\end{align*}
+
+{\noindent}or, in the form of a power law,
+
+\begin{align*}
+    \epsilon_i = \epsilon_0X_iX_x\rho^\alpha T^\beta,
+\end{align*}
+
+{\noindent}where $\alpha=\alpha'-1$, $\epsilon$ has units of ${\rm W\,kg^{-1}}$, and the sum of $\epsilon_i$ for all reactions is the total nuclear energy generation rate. 
+
+{\noindent}\textbf{The luminosity gradient equation}: To determine the luminosity of a star, we must consider all of the energy generated by stellar material. The interior luminosity due to all of the energy generated within the star's interior out to some radius $r$ is given by the \textbf{luminosity gradient equation}
+
+\begin{align*}
+    \frac{{\rm d}L_r}{{\rm d}r} = 4\pi r^2\rho\epsilon ~ [{\rm erg\,s^{-1}\,m^{-1}}],
+\end{align*}
+
+{\noindent}where $\epsilon$ is the \textit{total} energy released per kilogram per second by \textit{all} nuclear reactions and by gravity, or $\epsilon=\epsilon_{\rm nuclear}+\epsilon_{\rm gravity}$. It is worth noting that $\epsilon_{\rm gravity}$ could be negative if the star is expanding. This equation for the luminosity gradient is another one of the fundamental stellar structure equations.
+
+{\noindent}\textbf{Stellar nucleosynthesis and conservation laws}: The process by which one element is converted into another is a process known as \textbf{nucleosynthesis}. It is highly unlikely that four hydrogen nuclei are directly converted into helium (i.e., all nuclei hitting simultaneously). For hydrogen fusion to occur, the final product must be created by a chain of reactions, each involving more probable two-body interactions. The process by which a chain of nuclear reactions leads to the final product cannot happen in a completely arbitrary way, however; a series of \textbf{particle conservation laws} must be obeyed. In particular, during every reaction it is necessary to conserve:
+
+\begin{itemize}
+    \item electric charge,
+    \item the number of nucleons, and
+    \item the number of leptons.
+\end{itemize}
+
+{\noindent}The term \textbf{lepton} means a ``light thing'' and includes electrons, positrons, neutrinos, and anti-neutrinos.
+
+{\noindent}Although anti-matter is extremely rare in comparison with matter, it plays an important role in subatomic physics, including nuclear reactions. Antimatter particles are identical to their matter counterparts but have opposite attributes, such as electric charge. Anti-matter also has the characteristic that a collision with its matter counterpart results in complete annihilation of both particles, accompanied by the production of energetic photons. For instance,
+
+\begin{align*}
+    e^- + e^+ \rightarrow 2\gamma,
+\end{align*}
+
+{\noindent}where $e^-$, $e^+$, and $\gamma$ denote an electron, positron, and photon, respectively. Note that two photons are required to conserve both momentum and energy simultaneously. Since electrons and positrons have charges equal in magnitude to that of a proton, these leptons will contribute to the charge conservation requirement while their total \textbf{lepton number} must also be conserved. Note that in counting the number of leptons involved in a nuclear reaction, we treat matter and anti-matter differently. Specifically, the total number of matter leptons \textit{minus} the total number of anti-matter leptons must remain constant.
+
+{\noindent}\textbf{The proton-proton chains}: Applying the conservation laws, one chain of reactions that can convert hydrogen into helium is the first \textbf{proton-proton chain} (PPI). It involved a reaction sequence that ultimately results in
+
+\begin{align*}
+    {\rm 4^1_1H \rightarrow\,^4_2He + 2e^+ + 2\nu_e + 2\gamma}
+\end{align*}
+
+{\noindent}through the intermediate production of \textbf{deuterium} $^2_1H$ and helium-$3$ $^3_2He$. The entire PPI reaction chain is
+
+\begin{align*}
+    {\rm ^1_1H + ^1_1H} &\rightarrow {\rm ^2_1H + e^+ + \nu_s} \\
+    {\rm ^2_1H + ^1_1H} &\rightarrow {\rm ^3_2H + \gamma} \\
+    {\rm ^3_2He + ^3_2He} &\rightarrow {\rm ^4_2He + 2^1_1H}.
+\end{align*}
+
+{\noindent}Each step of the PPI chain has its own reaction rate, since different Coulomb barriers and cross sections are involved. The slowest step in the sequence is the initial one, because it involves the \textit{decay} of a proton into a neutron via $p^+\rightarrow\,n+e^++\nu_e$. Such a decay involves the \textbf{weak force}.
+
+{\noindent}The production of helium-$3$ nuclei in the PPI chain also provides for the possibility of their interaction directly with helium-$4$ nuclei, resulting in a second branch of the proton-proton chain. In an environment characteristic of the center of the Sun, $69\%$ of the time a helium-$3$ interacts with another helium-$3$ in the PPI chain, whereas $31\%$ of the time the \textbf{PPII} chain occurs:
+
+\begin{align*}
+    {\rm ^3_2He + ^4_2He} &\rightarrow {\rm ^7_4Be + \gamma} \\
+    {\rm ^7_4Be + e^-} &\rightarrow {\rm ^7_3Li + \nu_e} \\
+    {\rm ^7_3Li + ^1_1H} &\rightarrow {\rm 2^4_2He}.
+\end{align*}
+
+{\noindent}Yet another branch, the \textbf{PPIII} chain, is possible because the capture of an electron by the beryllium-$7$ nucleus in the PPII chain competes with the capture of a proton (a proton is captured only $0.3\%$ of the time in the center of the Sun):
+
+\begin{align*}
+    {\rm ^7_4Be + ^1_1H} &\rightarrow {\rm ^8_5B + \gamma} \\
+    {\rm ^8_5B} &\rightarrow {\rm ^8_4Be + e^+ + \nu_e} \\
+    {\rm ^8_4Be} &\rightarrow {\rm 2^4_2He}.
+\end{align*}
+
+{\noindent}The three branches of the proton-proton chain, along with their branching ratios, are summarized in Figure \ref{fig:ppchain}.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=12cm]{figures/ppchain.png}
+    \caption{\footnotesize{The three branches of the pp chain along with the branching ratios appropriate for conditions in the core of the Sun. Figures taken from Carroll \& Ostlie (2006).}}
+    \label{fig:ppchain}
+\end{figure}
+
+{\noindent}The nuclear energy generation rate for the combined pp chain is
+
+\begin{align*}
+    \epsilon_{pp} = 0.241\rho X^2 f_{pp}\psi_{pp}C_{pp}T_6^{-2/3}e^{-33.80T_6^{-1/3}} ~ [{\rm W\,kg^{-1}}],
+\end{align*}
+
+{\noindent}where $T_6$is a dimensionless expression of temperature in units of $10^6\,{\rm K}$ (i.e., $T_6\equiv T/10^6\,{\rm K}$), $f_{pp}=f_{pp}(X,Y,\rho,T)\simeq1$ is the \textbf{pp chain screening factor}, $\psi_{pp}=\psi_{pp}(X,Y,T)\simeq1$ is a correction factor that accounts for the simultaneous occurence of PPI, PPII, and PPIII, and $C_{pp}\simeq1$ involves higher-order correction terms.
+
+{\noindent}When written as a power law near $T=1.5\times10^7\,{\rm K}$, the energy generation rate has the form
+
+\begin{align*}
+    \epsilon_{pp} \simeq \epsilon_{0,pp} \rho X^2 f_{pp}\psi_{pp}C_{pp}T_6^4 ~ [{\rm W\,kg^{-1}}],
+\end{align*}
+
+{\noindent}where $\epsilon_{0,pp}=1.08\times10^{-12}\,{\rm W\,m^3\,kg^{-2}}$. The power law form of the energy generation rate demonstrates a modest temperature dependence of $T^4$ near $T_6=15$.
+
+{\noindent}\textbf{The CNO cycle}: A second, independent cycle also exists for the production of helium-$4$ from hydrogen. In the \textbf{CNO cycle}, carbon, nitrogen, and oxygen are used as catalysts, being consumed and then regenerated during the process. Just as with the pp chain, the CNO cycle has competing branches. The first branch \textbf{CNO-1} culminates with the production of carbon-$12$ and helium-$4$:
+
+\begin{align*}
+    {\rm ^{12}_6C + ^1_1H} &\rightarrow {\rm ^{13}_7N + \gamma} \\
+    {\rm ^{13}_7N} &\rightarrow {\rm ^{13}_6C + e^+ + \nu_e} \\
+    {\rm ^{13}_6C + ^1_1H} &\rightarrow {\rm ^{14}_7N + \gamma} \\
+    {\rm ^{14}_7N + ^1_1H} &\rightarrow {\rm ^{15}_8O + \gamma} \\
+    {\rm ^{15}_8O} &\rightarrow {\rm ^{15}_7N + e^+ + \nu_e} \\
+    {\rm ^{15}_7N + ^1_1H} &\rightarrow {\rm ^{12}_6C + ^4_2He}.
+\end{align*}
+
+{\noindent}The second branch occurs only about $0.04\%$ of the time and arises when the last reaction produces oxygen-$16$ and a photon, rather than carbon-$12$ and helium-$4$:
+
+\begin{align*}
+    {\rm ^{15}_7N + ^1_1H} &\rightarrow {\rm ^{16}_8O + \gamma} \\
+    {\rm ^{16}_8O + ^1_1H} &\rightarrow {\rm ^{17}_9F +\gamma} \\
+    {\rm ^{17}_9F} &\rightarrow {\rm ^{17}_8O + e^+ + \nu_e} \\
+    {\rm ^{17}_8O + ^1_1H} &\rightarrow {\rm ^{14}_7N + ^4_2He}.
+\end{align*}
+
+{\noindent}The energy generation rate for the CNO cycle is given by
+
+\begin{align*}
+    \epsilon_{\rm CNO} = 8.67\times10^{20}\rho XX_{\rm CNO} C_{\rm CNO}T_6^{-2/3}e^{-152.28T_6^{-1/3}} ~ [{\rm W\,kg^{-1}}],
+\end{align*}
+
+{\noindent}where $C_{\rm CNO}$ is the total mass fraction of carbon, nitrogen, and oxygen, and $C_{\rm CNO}$ is a higher-order correction term. When written as a power law centered about $T=1.5\times10^7\,{\rm K}$, this energy equation becomes
+
+\begin{align*}
+    \epsilon_{\rm CNO} \simeq \epsilon_{\rm 0,CNO}\rho XX_{\rm CNO} C_{\rm CNO}T_6^{19.9} ~ [{\rm W\,kg^{-1}}],
+\end{align*}
+
+{\noindent}where $\epsilon_{\rm 0,CNO}=8.24\times10^{-31}\,{\rm W\,m^3\,kg^{-2}}$. As shown by the power law dependence, the CNO cycle is much more strongly temperature-dependent than the pp chain is. This property implies that low-mass stars, which have smaller central temperatures, are dominated by the pp chain during their ``hydrogen burning'' evolution, whereas more massive stars, with their higher central temperatures, convert hydrogen to helium by the CNO cycle. The transition in stellar mass between stars dominated by the pp chain and those dominated by the CNO cycle occurs for stars slightly more massive than our Sun. This difference in nuclear reaction processes plays an important role in the structure of stellar interiors. 
+
+{\noindent}When hydrogen is converted into helium by either the pp chain or the CNO cycle, the mean molecular weight $\mu$ of the gas increases. If neither the temperature nor the density of the gas changes, the ideal gas law predicts that the central pressure will necessarily decrease. As a result, the star will no longer be in hydrostatic equilibrium and would begin to collapse. This collapse has the effect of actually raising both the temperature and the density to compensate for the increase in $\mu$. When the temperature and density become sufficiently high, helium nuclei can overcome their \textbf{Coulomb repulsion} and begin to ``burn''.
+
+{\noindent}\textbf{Triple alpha process of helium burning}: The reaction sequence by which helium is converted into carbon is known as the \textbf{triple alpha process}. The process takes its name from the historical result that the mysterious alpha particles detected in some types of radioactive decay were shown by Rutherford to be helium-$4$ nuclei. The triple alpha process is as follows:
+
+\begin{align*}
+    {\rm ^4_2He + ^4_2He} &\leftrightarrow {\rm ^8_4Be} \\
+    {\rm ^8_4Be + ^4_2He} &\rightarrow {\rm ^{12}_6C + \gamma}.
+\end{align*}
+
+{\noindent}In the triple alpha process, the first step produces an unable beryllium nucleus that will rapidly decay back into two separate helium nuclei if not immediately struck by another alpha particle. As a result, this reaction may be thought of as a three-body interaction, and therefore, the reaction rate depends on $(\rho Y)^3$. The nuclear energy generation rate is given by
+
+\begin{align*}
+    \epsilon_{3\alpha} = 50.9\rho^2Y^3T_8^{-3}f_{3\alpha}e^{-44.027T_8^{-1}} ~ [{\rm W\,kg^{-1}}],
+\end{align*}
+
+{\noindent}where $T_8\equiv T/10^8\,{\rm K}$ and $f_{3\alpha}$ is the screening factor for the triple alpha process. Written as a power law centered on $T=10^8\,{\rm K}$, it demonstrates a very dramatic temperature dependence:
+
+\begin{align*}
+    \epsilon_{3\alpha} = \epsilon_{0,3\alpha}\rho^2Y^3f_{3\alpha}T_8^{41.0} ~ [{\rm W\,kg^{-1}}].
+\end{align*}
+
+{\noindent}With such a strong dependence, even a small increase in temperature will produce a large increase in the amount of energy generated per second. For instance, an increase of only $10\%$ in temperature raises the energy output rate by more than $50$ times!
+
+{\noindent}\textbf{Carbon and oxygen burning}: In the high-temperature environment of helium burning, other competing processes are also at work. After sufficient carbon has been generated by the triple alpha process, it becomes possible for carbon nuclei to capture alpha particles, producing oxygen. Some of the oxygen in turn can capture alpha particles to produce neon.
+
+\begin{align*}
+    {\rm ^{12}_6C + ^4_2He} &\rightarrow {\rm ^{16}_8O + \gamma} \\
+    {\rm {16}_8O + ^4_2He} &\rightarrow {\rm ^{20}_{10}Ne + \gamma}.
+\end{align*}
+
+{\noindent}At helium-burning temperatures, the continued capture of alpha particles leading to progressively more massive nuclei quickly becomes prohibitive due to the ever higher Coulomb barrier.
+
+{\noindent}If a star is sufficiently massive, still higher temperatures can be obtained and many other nuclear products become possible. Examples of available reactions include carbon burning reactions near $6\times10^8\,{\rm K}$,
+
+\begin{equation*}
+^{12}_6{\rm C} + ^{12}_6{\rm C} \rightarrow 
+\begin{cases}
+    {\rm ^{16}_8O + 2^4_2He} \\
+    {\rm ^{20}_{10}Ne + ^4_2He} \\
+    {\rm ^{23}_{11}Na + p^+} \\
+    {\rm ^{23}_{12}Mg + n} \\
+    {\rm ^{24}_{12}Mg + \gamma},
+\end{cases}
+\end{equation*}
+
+{\noindent}and oxygen burning reactions near $10^9\,{\rm K}$,
+
+\begin{equation*}
+^{16}_8{\rm O} + ^{16}_8{\rm O} \rightarrow 
+\begin{cases}
+    {\rm ^{24}_{12}Mg + 2^4_2He} \\
+    {\rm ^{28}_{14}Si + ^4_2He} \\
+    {\rm ^{31}_{15}P + p^+} \\
+    {\rm ^{31}_{16}S + n} \\
+    {\rm ^{32}_{16}S + \gamma}.
+\end{cases}
+\end{equation*}
 
 \subsubsection{Follow-up Questions}
 
@@ -1166,7 +1542,7 @@ Answer.
     \label{fig:qe}
 \end{figure}
 
-{\noindent}The quantum efficiency of a CCD is temperature sensitive especially in the red wavelength region. It has long been known that measurement of the QE at room temperature is a poor approximation to that which it will have when operated cold. Thus QE curves should be measured at or near the operating temperature at which the CCD will be used. As an example of the temperature sensitivity of the efficiency of a CCD, Figure HERE shows three QE measurements of the same CCD for temperatures of $+20^\circ\,{\rm C}$ ($\sim$ room temperature), $-40^\circ\,{\rm C}$, and $-100^\circ\,{\rm C}$ ($\sim$ operating temperature). Note that the variations are small at $8000$\AA\,but increase to $20\%$ at $9000-10000$\AA. The curves in this plot would lead one to the conclusion that operating a CCD at room temperature is the best thing to do. However, this is \textit{not} the case and a compromise between operating temperature (i.e., dark current) and delivered QE must be used.
+{\noindent}The quantum efficiency of a CCD is temperature sensitive especially in the red wavelength region. It has long been known that measurement of the QE at room temperature is a poor approximation to that which it will have when operated cold. Thus QE curves should be measured at or near the operating temperature at which the CCD will be used. As an example of the temperature sensitivity of the efficiency of a CCD, Figure \ref{fig:qetemp} shows three QE measurements of the same CCD for temperatures of $+20^\circ\,{\rm C}$ ($\sim$ room temperature), $-40^\circ\,{\rm C}$, and $-100^\circ\,{\rm C}$ ($\sim$ operating temperature). Note that the variations are small at $8000$\AA\,but increase to $20\%$ at $9000-10000$\AA. The curves in this plot would lead one to the conclusion that operating a CCD at room temperature is the best thing to do. However, this is \textit{not} the case and a compromise between operating temperature (i.e., dark current) and delivered QE must be used.
 
 \begin{figure}[t]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
