@@ -1705,7 +1705,27 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+{\noindent}\textbf{Signal-to-noise ratio}: The equation for the S/N of a measurement made with a CCD is given by
+
+\begin{align*}
+    \frac{\rm S}{\rm N} = \frac{N_*}{\sqrt{N_*+n_{\rm pix}(N_s+N_D+N_R^2)}} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}the ``signal'' term, $N_*$, is the total number of photons (i.e., signal) collected from the object of interest. $N_*$ may be from one pixel (if determining the S/N of a single pixel is done for a background measurement), or $N_*$ may be from several pixels, such as all those contained within a stellar profile (if determining the S/N for the measurements of a star), or $N_*$ may even be from say a rectangular area of $X$ by $Y$ pixels (if determining the S/N in a portion of the continuum of a spectrum). 
+
+{\noindent}The ``noise'' terms in the above equation are the square roots of $N_*$, plus $N_{\rm pix}$ (the number of pixels under consideration for the S/N calculation) times the contributions from $N_S$ (the total number of photons per pixel from the background or sky), ND (the total number of dark current electrons per pixel), and $N_R^2$ (the total number of electrons per pixel resulting from the read noise. Note that this noise source is not a Poisson noise source but a \textbf{shot noise}; therefore it enters into the noise calculation as the value itself, not the square root of the value as Poisson noise sources do.
+
+{\noindent}The CCD Equation above provides the formulation for a S/N calculation given typical conditions and a well-behaved CCD. For some CCD observations, particularly those that have high background levels, faint sources of interest, poor spatial sampling, or large gain values, a more complete version of the error analysis is required. We can write the complete S/N equation as
+
+\begin{align*}
+    \frac{S}{N} = \frac{N_*}{\sqrt{N_*+n_{\rm pix}\left(1+\frac{n_{\rm pix}}{n_B}\right)(N_S+N_D+N_R^2+G^2\sigma_f^2)}} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}This form of the S/N equation is essentially the same as that given above, but two additional terms have been added. The first term,  ($1+n_{\rm pix}/n_B$), provides a measure of the noise incurred as a result of any error introduced in the estimation of the background level on the CCD image. The term $n_B$ is the total number of background pixels used to estimate the mean background (sky) level. One can see that small values of $n_B$ will introduce the largest error as they will provide a poor estimate of the mean level of the background distribution. Thus, very large values of $n_B$ are to be preferred but clearly some trade-off must be made between providing a good estimate of the mean background level and the use of pixels from areas on the CCD image that are far from the source of interest or possibly of a different character.
+
+{\noindent}The second new term added into the complete S/N equation accounts for the error introduced by the digitization noise within the A/D converter. The error introduced by this process can be considerable if the CCD gain has a large value. In this term, $G^2\sigma_f^2,$, $G$ is the gain of the CCD (in electrons/ADU) and $\sigma_f$ is an estimate of the $1$ sigma error introduced within the A/D converter and has a value of approximately $0.289$. The parameter $\sigma_f$ and its value depend on the actual internal electrical workings of a given A/D converter.
+
+{\noindent}In practice for most CCD systems in use and for most observational projects, the two additional terms in the complete S/N equation are often very small error contributors and can be ignored. In the instances for which they become important -- for example, cases in which the CCD gain has a high value (e.g., $100$ electrons/ADU), the background level can only be estimated with a few pixels (e.g., less than $200$), or the CCD data are of poor pixel sampling -- ignoring these additional error terms will lead to an overestimation of the S/N value obtained from the CCD data.
 
 % --------------------------------------------------------------
 %               13. 
