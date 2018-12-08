@@ -83,7 +83,7 @@ What is a stellar Initial Mass Function (IMF)? Sketch it. Give a couple of examp
 
 \subsubsection{Short answer}
 
-Answer.
+The initial mass function is an empirical description of the number of stars that form per unit mass interval per unit volume. 
 
 \subsubsection{Additional context}
 
@@ -95,7 +95,7 @@ The IMF is perhaps the single most important distribution in stellar and galacti
 
 \begin{figure}[h]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
-    {\caption{\footnotesize{$M\mathrm{d}N/\mathrm{d}lnM$, the mass formed per logarithmic interval in stellar mass $M$, for IMFs of Kroupa (2001) and Chabrier (2003), normalized to the value at $M=1\,{M_\odot}$. Figure taken from Draine (2011).}}
+    {\caption{\footnotesize{$M\mathrm{d}N/\mathrm{d}\ln M$, the mass formed per logarithmic interval in stellar mass $M$, for IMFs of Kroupa (2001) and Chabrier (2003), normalized to the value at $M=1\,{M_\odot}$. Figure taken from Draine (2011).}}
     \label{fig:KroupaChabrier}}
     {\includegraphics[width=10cm]{figures/KroupaChabrier.png}}
 \end{figure}
@@ -111,7 +111,7 @@ The IMF is perhaps the single most important distribution in stellar and galacti
 
 {\noindent}As with theoretical models of the star formation rate, there is at present no completely satisfactory theory for the origin of the IMF, just different ideas that do better or worse at various aspects of the problem. To recall, the things we would really like to explain most are (1) the slope of the power-law at high masses, and (2) the location of the peak mass. We would also like to explain the little-to-zero variation in these quantities with galactic environment. Furthermore, we would like to explain the origin of the distribution of binary properties.
 
-{\noindent}\textbf{The power-law tail}: Let us begin by considering the power-law tail at high masses, $\mathrm{d}N/\mathrm{d}M\propto M-\alpha$ with $\alpha\approx2.3$. There are two main classes of theories for how this power-law tail is set: competitive accretion, and turbulence. Both are scale-free processes that could plausibly produce a power-law distribution of masses comparable to what is observed.
+{\noindent}\textbf{The power-law tail}: Let us begin by considering the power-law tail at high masses, $\mathrm{d}N/\mathrm{d}M\propto M^{-\alpha}$ with $\alpha\approx2.3$. There are two main classes of theories for how this power-law tail is set: competitive accretion, and turbulence. Both are scale-free processes that could plausibly produce a power-law distribution of masses comparable to what is observed.
 
 {\noindent}\textit{Competitive accretion}: One hypothesis for how to produce a power-law mass distribution is to consider what will happen in a region where a bunch of small ``seed'' stars are formed, but then begin to accrete at a rate that is a function of their current mass. Quantitatively, and for simplicity, suppose that every star accretes at a rate proportional to some power of its current mass, i.e.,
 
@@ -214,7 +214,7 @@ and $\rho+d\rho$ is
 {\noindent}We can see this in a few ways. First we'll demonstrate it in a more intuitive but not rigorous manner, and then we can demonstrate it rigorously. The intuitive arguments is as follows. In the system we have described, there are four energies in the problem: thermal energy, bulk kinetic energy, magnetic energy, and gravitational potential energy. From these energies we can define three dimensionless ratios, and the behavior of the system will be determined by these three ratios. As an example, we might define
 
 \begin{align*}
-    \mathcal{M}=\frac{\sigma_v}{c_s} ~ [{\rm dimensionless}] ~~~~~ \beta=\frac{8\pi\rho c_c^2}{b^2} ~ [{\rm dimensionless}] ~~~~~ n_J=\frac{\rho L^2}{c_s^3/\sqrt{G^3\rho}} ~ [{\rm dimensionless}].
+    \mathcal{M}=\frac{\sigma_v}{c_s} ~ [{\rm dimensionless}] ~~~~~ \beta=\frac{8\pi\rho c_c^2}{B^2} ~ [{\rm dimensionless}] ~~~~~ n_J=\frac{\rho L^2}{c_s^3/\sqrt{G^3\rho}} ~ [{\rm dimensionless}].
 \end{align*}
 
 {\noindent}The ratios describe the ratio of kinetic to thermal energy, the ratio of thermal to magnetic energy, and the ratio of thermal to gravitational energy. (This last quantity is called the Jeans number: it is the ratio of the cloud mass to the Jeans mass.) Other ratios can be derived from these, e.g., the Alfv\'enic Mach number $\mathcal{M}=\mathcal{M}\sqrt{\beta/2}$ is the ratio of the kinetic to magnetic energy.
@@ -296,7 +296,7 @@ and $\rho+d\rho$ is
 
 {\noindent}In both cases, at low density the gas is slightly below the critical density of the line, so the cooling rate per nucleus or per molecule is an increasing function of density. Since heating per nucleus is constant but cooling per nucleus increases, the equilibrium temperature decreases with density. As one goes to higher density and passes the CO critical density this effect ceases. At that point one generally starts to reach densities such that shielding against UV photons is significant, so the heating rate goes down and thus the temperature continues to drop with density.
 
-{\noindent}This begins to change at a density of around $10^{18}\,{g\,cm^{-3}}$, $n\sim10^5--10^6\,{cm^{-3}}$. By this point the gas and dust have been thermally well-coupled by collisions, and the molecular lines are extremely optically thick, so dust is the main thermostat. As long as the gas is optically thin to thermal dust emission, which it is at these densities, the dust cooling rate per molecule is fixed, since the cooling rate just depends on the number of dust grains. Heating at these densities comes primarily from compression as the gas collapses, i.e., it is just $PdV$ work. If the compression were at a constant rate, the heating rate per molecule would be constant. However, the free-fall time decreases with density, so the collapse rate and thus the heating rate per molecule increase with density. The combination of fixed cooling rate and increasing heating rate causes the temperature to begin rising with density. At still higher densities, $10^{13}\,{\rm g\,cm^{-3}}$, the gas becomes optically thick to dust thermal emission. At this point the gas simply acts adiabatically, with all the $PdV$ work being retained, so the heating rate with density rises again.
+{\noindent}This begins to change at a density of around $10^{18}\,{\rm g\,cm^{-3}}$, $n\sim10^5--10^6\,{\rm cm^{-3}}$. By this point the gas and dust have been thermally well-coupled by collisions, and the molecular lines are extremely optically thick, so dust is the main thermostat. As long as the gas is optically thin to thermal dust emission, which it is at these densities, the dust cooling rate per molecule is fixed, since the cooling rate just depends on the number of dust grains. Heating at these densities comes primarily from compression as the gas collapses, i.e., it is just $P{\rm d}V$ work. If the compression were at a constant rate, the heating rate per molecule would be constant. However, the free-fall time decreases with density, so the collapse rate and thus the heating rate per molecule increase with density. The combination of fixed cooling rate and increasing heating rate causes the temperature to begin rising with density. At still higher densities, $10^{13}\,{\rm g\,cm^{-3}}$, the gas becomes optically thick to dust thermal emission. At this point the gas simply acts adiabatically, with all the $PdV$ work being retained, so the heating rate with density rises again.
 
 {\noindent}Larson (2005) pointed out that deviations from isothermality are particularly significant for filamentary structures, which dominate in turbulent flows. It is possible to show that a filament cannot go into runaway collapse if $T$ varies with $\rho$ to a positive number, while it can collapse if $T$ varies as $\rho$ to a negative number. This suggests that filaments will collapse indefinitely in the low-density regime, but that their collapse will then halt around $10^{18}\,{\rm g\,cm^{-3}}$, forcing them to break up into spheres in order to collapse further. The upshot of all these arguments is that the Jeans or Bonnor-Ebert mass one should be using to estimate the peak of the stellar mass spectrum is the one corresponding to the point where there is a changeover from sub-isothermal to super-isothermal.
 
@@ -1100,6 +1100,8 @@ Our strongest constraints on interstellar dust come from observations of its int
 
 {\noindent}Other elements (e.g., Ti, Cr) are also present in interstellar grains, but, because of their low abundances, they contribute only a minor fraction of the grain mass.
 
+{\noindent}\textbf{The sources of dust grains}: It is apparent that even though dust grains make up only about one percent of the mass of the ISM, they are important constituents in determining its chemistry and physics. The question of the source of these grains then naturally arises. Although observations indicate that grains can be formed in the enveloped of very cool stars, aided by the enhanced density in those environments relative to molecular clouds, grains can also be easily destroyed by UV and X-ray photons. Dust grains are also formed as a product of SN explosions and stellar winds. However, none of these sources appear to be able to provide the abundance of massive grains found in molecular clouds. Rather, it appears that grains probably grow by a process of coagulation within the molecular clouds themselves. Dust grain formation represents just one of many active areas of research into the nature of dust grains and ISM physics.
+
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
@@ -1175,7 +1177,7 @@ Answer.
 
 {\noindent}\textbf{Age-metallicity relation:} Assuming that at the beginning of its evolution the MW had a chemical composition with only low metal content, the metallicity should be strongly related to the age of a stellar population. With each new generation of stars, more metals are produced and ejected into the ISM, partially by stellar winds, but mainly by SN explosions. Stars that are formed later should therefore have a higher metal content than those that were formed in the early phase of the Galaxy. One would thus expect that a relation exists between the age of a star and its metallicity.
 
-{\noindent}For instance, under this assumption the iron abundance [Fe/H] can be used as an age indicator for a stellar population, with the iron predominantly being produced and ejected in SNe of Type Ia. Therefore, a newly formed generation of stars has a higher fraction of iron than their predecessors, and the youngest stars should have the highest iron abundance. Indeed one finds [FeH]$=4.5$ (i.e., $3\times10^{-5}$ of the Solar iron abundance) for extremely old stars, whereas very young stars have [FeH]$=1$, so their metallicity can significantly exceed that of the Sun.
+{\noindent}For instance, under this assumption the iron abundance [Fe/H] can be used as an age indicator for a stellar population, with the iron predominantly being produced and ejected in SNe of Type Ia. Therefore, a newly formed generation of stars has a higher fraction of iron than their predecessors, and the youngest stars should have the highest iron abundance. Indeed one finds [Fe/H]$=4.5$ (i.e., $3\times10^{-5}$ of the Solar iron abundance) for extremely old stars, whereas very young stars have [Fe/H]$=1$, so their metallicity can significantly exceed that of the Sun.
 
 {\noindent}However, this age-metallicity relation is not very tight. On the one hand, SNe Ia occur only $\gtrsim10^9\,{\rm yr}$ after the formation of a stellar population. The exact time-span is not known because even if one accepts the accretion scenario for SN Ia described above, it is unclear in what form and in what systems the accretion of material onto the white dwarf takes place and how long it typically takes until the limiting mass is reached. On the other hand, the mixing of the SN ejecta in the ISM occurs only locally, so that large inhomogeneities of the [Fe/H] ratio may be present in the ISM, and thus even for stars of the same age. An alternative measure for metallicity is [O/H], because oxygen is produced and ejected mainly in supernova explosions of massive stars. These happen just $\sim10^7\,{\rm yr}$ after the formation of a stellar population, which is virtually instantaneous.
 
@@ -1230,7 +1232,7 @@ Possible mechanisms for heating HI regions include:
 
 {\noindent}At FUV wavelengths, typical dust opacities are $\kappa_d\approx500\,{\rm cm^2\,g^{-1}}$, so at a typical molecular cloud surface density $\Sigma\approx50-100\,{\rm M_\odot\,pc^2}$, $\tau_d\sim5-10$, and thus $e^{-\tau_d}\approx10^{-3}$. Thus in the interiors of molecular clouds, photoelectric heating is strongly suppressed simply because the FUV photons cannot get in. Typical photoelectric heating rates are therefore of order a few $10^{29}\,{\rm erg\,s^{-1}}$ per H atom deep in cloud interiors, though they can obviously be much larger at cloud surfaces or in regions with stronger radiation fields.
 
-{\noindent}\textbf{Shocks:}Before discussing individual feedback mechanisms in detail, it is also helpful to lay out two general categories that can be used to understand them. Let us consider a population of stars surrounded by initially-uniform interstellar gas. Those stars eject both photons and baryons (in the form of stellar winds) into the surrounding gas, and these photons and baryons carry both momentum and energy. We want to characterize how the ISM will respond. One important consideration is that it is very hard to raise the temperature of molecular gas (or even dense atomic gas) because it is able to radiate so efficiently. A factor of 10 increase in the radiative heating rate might yield only a tens of percent increase in temperature. This is true as long as the gas is cold and dense, but at sufficiently high temperatures or if the gas is continuously illuminated then the cooling rate begins to drop off, and it is possible for gas to remain hot.
+{\noindent}\textbf{Shocks:} Before discussing individual feedback mechanisms in detail, it is also helpful to lay out two general categories that can be used to understand them. Let us consider a population of stars surrounded by initially-uniform interstellar gas. Those stars eject both photons and baryons (in the form of stellar winds) into the surrounding gas, and these photons and baryons carry both momentum and energy. We want to characterize how the ISM will respond. One important consideration is that it is very hard to raise the temperature of molecular gas (or even dense atomic gas) because it is able to radiate so efficiently. A factor of 10 increase in the radiative heating rate might yield only a tens of percent increase in temperature. This is true as long as the gas is cold and dense, but at sufficiently high temperatures or if the gas is continuously illuminated then the cooling rate begins to drop off, and it is possible for gas to remain hot.
 
 {\noindent}A critical distinction is therefore between mechanisms that are able to keep the gas hot for a time that is long enough to be significant (generally of order the crossing time of the cloud or longer), and those where the cooling time is much shorter. For the latter case, the energy delivered by the photons and baryons will not matter, only the momentum delivered will. The momentum cannot be radiated away. We refer to feedback mechanism where the energy is lost rapidly as momentum-driven feedback, and to the opposite case where the energy is retained for at least some time as energy-driven, or explosive, feedback. 
 
@@ -1248,7 +1250,7 @@ Possible mechanisms for heating HI regions include:
     E = \dot{p}_{\rm sh}^2 2M_{\rm sh} = \frac{1}{2}v_{\rm sh}\dot{p}_wt ~ [{\rm J}].
 \end{align*}
 
-For comparison, if none of the energy is radiated away, the energy is simply
+{\noindent}For comparison, if none of the energy is radiated away, the energy is simply
 
 \begin{align*}
     E = \dot{E}_wt ~ [{\rm J}].
@@ -1300,7 +1302,7 @@ Dust plays an important role in astrophysics, and the need to characterize and u
 
 {\noindent}Barnard was apparently the first to realize that some stars were dimmed by an “absorbing medium.” This was confirmed by Trumpler who showed that the stars in distant open clusters were dimmed by something in addition to the inverse square law, and concluded that interstellar space in the galactic plane contained ``fine cosmic dust particles of various sizes... producing the observed selective absorption.'' Over the succeeding eight decades, we have built on these pioneering studies, but many aspects of interstellar dust (including its chemical composition!) remain uncertain. Let us, therefore, begin by reviewing the different ways in which nature permits us to study interstellar dust.
 
-{\noindent}Trumpler analyzed the interaction of light with interstellar dust, and this remains our most direct way to study interstellar dust. Using stars as ``standard candles,'' we study the ``selective extinctio'' (or “reddening'') of starlight by the dust. It is assumed that we know what the spectrum of the star is before reddening by dust takes place; this is usually accomplished by observation of another star with similar spectral features in its atmosphere but with negligible obscuration between us and the star. (This is known as the ``\textbf{pair method}''.)
+{\noindent}Trumpler analyzed the interaction of light with interstellar dust, and this remains our most direct way to study interstellar dust. Using stars as ``standard candles,'' we study the ``selective extinction'' (or “reddening'') of starlight by the dust. It is assumed that we know what the spectrum of the star is before reddening by dust takes place; this is usually accomplished by observation of another star with similar spectral features in its atmosphere but with negligible obscuration between us and the star. (This is known as the ``\textbf{pair method}''.)
 
 {\noindent}With the assumption that the extinction ($\equiv$ absorption + scattering) goes to zero at wavelengths $\lambda\rightarrow\infty$, and including observations of the star at sufficiently long wavelength where extinction is negligible, one can determine the attenuation of the starlight by dust as a function of wavelength. Because atomic hydrogen absorbs strongly for $h\nu>13.6\,{\rm eV}$, it is possible to measure the contribution of dust to the attenuation of light only at $h\nu<13.6\,{\rm eV}$, or $\lambda>912$\,\AA. Astronomers customarily characterize the attenuating effects of dust by the ``extinction'' $A_\lambda$ at wavelength $\lambda$. The extinction $A_\lambda$ (measured in ``magnitudes'') is defined by
 
@@ -1597,7 +1599,7 @@ Sketch the SED, from the radio to Gamma, of a spiral galaxy like the Milky Way. 
 \begin{itemize}
     \item \textbf{Stars.} Young OB stars are strong UV emitters, while older stellar populations dominate the visible/near-IR range. The weights of these two main components depend on the SF history of the galaxy. The fraction of light absorbed by dust is represented by the hatched area on Figure \ref{fig:galaxySED}.
     \item \textbf{Gas.} Atomic and molecular lines are numerous, but the gas also emits continuum radiation (Figure \ref{fig:galaxySED}): (i) thermal continuum in the form of free-bound and free-free emission; and (ii) non-thermal continuum, mainly synchrotron.
-    \item \textbf{Dust.} Dust radiates thermally over the whole IR domain. Several molecular and solid state features can be seen, mainly in the mid-IR. Figure \ref{fig:galaxySED} represents the aromatic feature emission believed to be carried by polycyclic aromatic hydrocarbons (PAH). The whole power emitted by the dust equals the absorbed stellar power (hatched areas of Figure \ref{fig:galaxySED}).
+    \item \textbf{Dust.} Dust radiates thermally over the whole IR domain. Several molecular and solid state features can be seen, mainly in the mid-IR. Figure \ref{fig:dustpah} represents the aromatic feature emission believed to be carried by polycyclic aromatic hydrocarbons (PAH). The whole power emitted by the dust equals the absorbed stellar power (hatched areas of Figure \ref{fig:galaxySED}).
 \end{itemize}
 
 \subsubsection{Additional context}
@@ -1616,10 +1618,10 @@ Although only accounting for 1\% of the ISM mass, dust plays a crucial role in g
     \centering
     \includegraphics[width=14cm]{figures/GalaxySED_model.jpg}
     \caption{\footnotesize{Dust SED modelling. \textbf{Left:} Dust model of Jones et al. (2017) uniformly illuminated by the solar neighborhood radiation field ($U=1$). \textbf{Right:} An example of SED fit. The observations are the open circles with error bars (simulated data, for demonstration). The filled circles are the synthetic photometry of the model. The total model is the sum of uniformly illuminated SEDs with radiation field intensity ranging between $U_{\rm min}$ and $U_{\rm max}$ (rainbow curves). Figure taken from Galliano (2017).}}
-    \label{fig:galaxySEDmodel}
+    \label{fig:dustpah}
 \end{figure}
 
-{\noindent}The left panel of Figure \ref{fig:galaxySEDmodel} shows the dust mixture, heated by the solar neighborhood radiation field ($U=1$). The far-IR bump is emitted by the large grains (silicates and ${\rm a-C(:H)}$), at thermal equilibrium with the radiation field. The mid-IR continuum is carried by out-of-equilibrium small ${\rm a-C(:H)}$ (radius  $a\lesssim20\,{\rm nm}$). The aromatic features are carried by the smallest ${\rm a-C(:H)}$ (radius $a\lesssim1.5\,{\rm nm}$).
+{\noindent}The left panel of Figure \ref{fig:dustpah} shows the dust mixture, heated by the solar neighborhood radiation field ($U=1$). The far-IR bump is emitted by the large grains (silicates and ${\rm a-C(:H)}$), at thermal equilibrium with the radiation field. The mid-IR continuum is carried by out-of-equilibrium small ${\rm a-C(:H)}$ (radius  $a\lesssim20\,{\rm nm}$). The aromatic features are carried by the smallest ${\rm a-C(:H)}$ (radius $a\lesssim1.5\,{\rm nm}$).
 
 {\noindent}Such a dust model can not be used, as is, to fit the SED of galaxies, since there can be significant mixing of physical conditions in the beam or along the line of sight. Ideally, we should model the radiative transfer inside the object, but we usually lack the knowledge of its actual 3D structure. An alternative is to empirically account for the mixing, focusing only on quantities that are weakly dependent on radiative transfer processes.
 
@@ -1712,8 +1714,8 @@ Gravity is responsible for gathering gas into self-gravitating structures rangin
 {\noindent}where
 
 \begin{align*}
-    k_J \equiv \sqrt{\frac{4\pi G\rho_0}{c_s^2}} ~ [{\rm m^{-1}}]
-\end{align*}.
+    k_J \equiv \sqrt{\frac{4\pi G\rho_0}{c_s^2}} ~ [{\rm m^{-1}}].
+\end{align*}
 
 {\noindent}The \textbf{Jeans mass} is defined as
 
