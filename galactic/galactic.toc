@@ -57,14 +57,14 @@
 \contentsline {subsection}{\numberline {1.16}Question 16}{78}{subsection.1.16}
 \contentsline {subsubsection}{\numberline {1.16.1}Short answer}{78}{subsubsection.1.16.1}
 \contentsline {subsubsection}{\numberline {1.16.2}Additional context}{78}{subsubsection.1.16.2}
-\contentsline {subsection}{\numberline {1.17}Question 17}{79}{subsection.1.17}
-\contentsline {subsubsection}{\numberline {1.17.1}Short answer}{79}{subsubsection.1.17.1}
-\contentsline {subsubsection}{\numberline {1.17.2}Additional context}{79}{subsubsection.1.17.2}
-\contentsline {subsection}{\numberline {1.18}Question 18}{85}{subsection.1.18}
-\contentsline {subsubsection}{\numberline {1.18.1}Short answer}{85}{subsubsection.1.18.1}
-\contentsline {subsubsection}{\numberline {1.18.2}Additional context}{85}{subsubsection.1.18.2}
-\contentsline {subsubsection}{\numberline {1.18.3}Follow-up Questions}{85}{subsubsection.1.18.3}
-\contentsline {subsection}{\numberline {1.19}Question 19}{86}{subsection.1.19}
-\contentsline {subsubsection}{\numberline {1.19.1}Short answer}{86}{subsubsection.1.19.1}
-\contentsline {subsubsection}{\numberline {1.19.2}Additional context}{86}{subsubsection.1.19.2}
-\contentsline {subsection}{\numberline {1.20}Resources}{88}{subsection.1.20}
+\contentsline {subsection}{\numberline {1.17}Question 17}{82}{subsection.1.17}
+\contentsline {subsubsection}{\numberline {1.17.1}Short answer}{82}{subsubsection.1.17.1}
+\contentsline {subsubsection}{\numberline {1.17.2}Additional context}{82}{subsubsection.1.17.2}
+\contentsline {subsection}{\numberline {1.18}Question 18}{88}{subsection.1.18}
+\contentsline {subsubsection}{\numberline {1.18.1}Short answer}{88}{subsubsection.1.18.1}
+\contentsline {subsubsection}{\numberline {1.18.2}Additional context}{88}{subsubsection.1.18.2}
+\contentsline {subsubsection}{\numberline {1.18.3}Follow-up Questions}{88}{subsubsection.1.18.3}
+\contentsline {subsection}{\numberline {1.19}Question 19}{89}{subsection.1.19}
+\contentsline {subsubsection}{\numberline {1.19.1}Short answer}{89}{subsubsection.1.19.1}
+\contentsline {subsubsection}{\numberline {1.19.2}Additional context}{89}{subsubsection.1.19.2}
+\contentsline {subsection}{\numberline {1.20}Resources}{91}{subsection.1.20}
