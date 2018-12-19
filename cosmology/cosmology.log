@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 OCT 2018 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2018 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -435,7 +435,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip70
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
@@ -452,28 +452,25 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(./cosmology.aux
-
-LaTeX Warning: Label `fig:hubblediagram_modern' multiply defined.
-
-)
+(./cosmology.aux)
 \openout1 = `cosmology.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
- (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count135
 \scratchdimen=\dimen156
@@ -537,12 +534,12 @@ Package color Info: Driver file: pdftex.def on input line 147.
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -553,7 +550,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 54.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -562,9 +559,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (./cosmology.out) (./cosmology.out)
 \@outlinefile=\write3
@@ -572,7 +569,7 @@ LaTeX Info: Redefining \nameref on input line 51.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 51.
+(lastpage)             ! on input line 54.
  (./cosmology.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
@@ -590,47 +587,64 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Missing character: There is no ‚ in font cmr8!
+Missing character: There is no ‚ in font cmr7!
 Missing character: There is no à in font cmr10!
 Missing character: There is no ó in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
  [4]
-[5] [6] <figures/blackbody.png, id=163, 801.99625pt x 876.27374pt>
+[5] <figures/blackbody.png, id=154, 801.99625pt x 876.27374pt>
 File: figures/blackbody.png Graphic file (type png)
 
 <use figures/blackbody.png>
-Package pdftex.def Info: figures/blackbody.png used on input line 188.
+Package pdftex.def Info: figures/blackbody.png used on input line 191.
 (pdftex.def)             Requested size: 341.43306pt x 373.05989pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 199.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 202.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 199.
- [7 <./figures/blackbody.png>]
-Overfull \hbox (0.88484pt too wide) in paragraph at lines 222--223
-\OT1/cmr/m/n/10.95 In de-vel-op-ing a math-e-mat-i-cal the-ory of gen-eral rel-
-a-tiv-ity, in which space-time ge-om-e-try/curvature
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 202.
+ [6] [7 <./figures/blackbody.png>]
+Underfull \hbox (badness 1052) in paragraph at lines 255--255
+\OT1/cmr/m/n/8 ^^A[] = \OML/cmm/m/it/8  \OT1/cmr/m/n/8 + \OML/cmm/m/it/8 ^^L \
+OT1/cmr/m/n/8 + \OML/cmm/m/it/8 ^^M \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 ^^Y$\OT1/c
+mr/m/n/8 .
  []
 
 <figures/geometries.png, id=179, 719.68875pt x 489.83pt>
 File: figures/geometries.png Graphic file (type png)
 
 <use figures/geometries.png>
-Package pdftex.def Info: figures/geometries.png used on input line 252.
+Package pdftex.def Info: figures/geometries.png used on input line 255.
 (pdftex.def)             Requested size: 284.52756pt x 193.65637pt.
-File: figures/geometries.png Graphic file (type png)
- <use figures/geometries.png>
-Package pdftex.def Info: figures/geometries.png used on input line 252.
-(pdftex.def)             Requested size: 284.52756pt x 193.65637pt.
-File: figures/geometries.png Graphic file (type png)
 
+Underfull \hbox (badness 1052) in paragraph at lines 255--255
+\OT1/cmr/m/n/8 ^^A[] = \OML/cmm/m/it/8  \OT1/cmr/m/n/8 + \OML/cmm/m/it/8 ^^L \
+OT1/cmr/m/n/8 + \OML/cmm/m/it/8 ^^M \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 ^^Y$\OT1/c
+mr/m/n/8 .
+ []
+
+File: figures/geometries.png Graphic file (type png)
 <use figures/geometries.png>
-Package pdftex.def Info: figures/geometries.png used on input line 252.
+Package pdftex.def Info: figures/geometries.png used on input line 255.
+(pdftex.def)             Requested size: 284.52756pt x 193.65637pt.
+
+Underfull \hbox (badness 1052) in paragraph at lines 255--255
+\OT1/cmr/m/n/8 ^^A[] = \OML/cmm/m/it/8  \OT1/cmr/m/n/8 + \OML/cmm/m/it/8 ^^L \
+OT1/cmr/m/n/8 + \OML/cmm/m/it/8 ^^M \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 ^^Y$\OT1/c
+mr/m/n/8 .
+ []
+
+File: figures/geometries.png Graphic file (type png)
+<use figures/geometries.png>
+Package pdftex.def Info: figures/geometries.png used on input line 255.
 (pdftex.def)             Requested size: 284.52756pt x 193.65637pt.
 
 
@@ -644,254 +658,138 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
  [9 <./figures/geometries.png>] [10]
-Underfull \hbox (badness 2343) in paragraph at lines 362--362
-[]\OT1/cmr/m/n/10.95 Figure 3: |\OT1/cmr/m/n/9 The spa-tial
+Underfull \hbox (badness 1253) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 tri-bu-tion of galax-ies in two
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 362--362
-\OT1/cmr/m/n/9 dis-tri-bu-tion of galax-ies in
+Underfull \hbox (badness 1342) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 Red-shift Sur-vey. Note the
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 362--362
-\OT1/cmr/m/n/9 two four-degree strips on
+Underfull \hbox (badness 1112) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 100 []$ fil-a-men-tary fea-tures
  []
 
 <figures/2df.png, id=201, 1075.01625pt x 641.39626pt>
 File: figures/2df.png Graphic file (type png)
  <use figures/2df.png>
-Package pdftex.def Info: figures/2df.png used on input line 362.
+Package pdftex.def Info: figures/2df.png used on input line 365.
 (pdftex.def)             Requested size: 284.52756pt x 169.75388pt.
 
-Underfull \hbox (badness 2343) in paragraph at lines 362--362
-[]\OT1/cmr/m/n/10.95 Figure 3: |\OT1/cmr/m/n/9 The spa-tial
+Underfull \hbox (badness 1253) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 tri-bu-tion of galax-ies in two
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 362--362
-\OT1/cmr/m/n/9 dis-tri-bu-tion of galax-ies in
+Underfull \hbox (badness 1342) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 Red-shift Sur-vey. Note the
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 362--362
-\OT1/cmr/m/n/9 two four-degree strips on
+Underfull \hbox (badness 1112) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 100 []$ fil-a-men-tary fea-tures
  []
 
 File: figures/2df.png Graphic file (type png)
 <use figures/2df.png>
-Package pdftex.def Info: figures/2df.png used on input line 362.
+Package pdftex.def Info: figures/2df.png used on input line 365.
 (pdftex.def)             Requested size: 284.52756pt x 169.75388pt.
 
-Underfull \hbox (badness 2343) in paragraph at lines 362--362
-[]\OT1/cmr/m/n/10.95 Figure 3: |\OT1/cmr/m/n/9 The spa-tial
+Underfull \hbox (badness 1253) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 tri-bu-tion of galax-ies in two
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 362--362
-\OT1/cmr/m/n/9 dis-tri-bu-tion of galax-ies in
+Underfull \hbox (badness 1342) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 Red-shift Sur-vey. Note the
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 362--362
-\OT1/cmr/m/n/9 two four-degree strips on
+Underfull \hbox (badness 1112) in paragraph at lines 365--365
+\OT1/cmr/m/n/8 100 []$ fil-a-men-tary fea-tures
  []
 
 File: figures/2df.png Graphic file (type png)
 <use figures/2df.png>
-Package pdftex.def Info: figures/2df.png used on input line 362.
+Package pdftex.def Info: figures/2df.png used on input line 365.
 (pdftex.def)             Requested size: 284.52756pt x 169.75388pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11] [12 <./figures/2df.png>]
-Underfull \hbox (badness 6758) in paragraph at lines 405--405
-[]\OT1/cmr/m/n/10.95 Figure 4: |\OT1/cmr/m/n/9 The vari-
+ [11 <./figures/2df.png>]
+Underfull \hbox (badness 4072) in paragraph at lines 378--378
+[]\OT1/cmr/m/n/10 Figure 4: |\OT1/cmr/m/n/8 The vari-ance
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 ance $^^A[] \OMS/cmsy/m/n/9 ^^Q \OML/cmm/m/it/9 k[]P\OT1/cmr/m/n
-/9 (\OML/cmm/m/it/9 k\OT1/cmr/m/n/9 )\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 2\OML/cmm/
-m/it/9 ^^Y[]$
+Underfull \hbox (badness 2617) in paragraph at lines 378--378
+\OT1/cmr/m/n/8 ^^A[] \OMS/cmsy/m/n/8 ^^Q \OML/cmm/m/it/8 k[]P\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 k\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 =\OT1/cmr/m/n/8 2\OML/cmm/m/it/8
+ ^^Y[]$ \OT1/cmr/m/n/8 of the
  []
 
-
-Underfull \hbox (badness 1210) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 a func-tion of scale. On
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 Tegmark (2001). Fig-ure
- []
-
-<figures/GalaxyPowerSpectrum.png, id=217, 877.2775pt x 663.47874pt>
+<figures/GalaxyPowerSpectrum.png, id=212, 877.2775pt x 663.47874pt>
 File: figures/GalaxyPowerSpectrum.png Graphic file (type png)
 
 <use figures/GalaxyPowerSpectrum.png>
-Package pdftex.def Info: figures/GalaxyPowerSpectrum.png used on input line 405
+Package pdftex.def Info: figures/GalaxyPowerSpectrum.png used on input line 378
 .
-(pdftex.def)             Requested size: 341.43306pt x 258.22922pt.
+(pdftex.def)             Requested size: 256.0748pt x 193.66939pt.
 
-Underfull \hbox (badness 6758) in paragraph at lines 405--405
-[]\OT1/cmr/m/n/10.95 Figure 4: |\OT1/cmr/m/n/9 The vari-
+Underfull \hbox (badness 4072) in paragraph at lines 378--378
+[]\OT1/cmr/m/n/10 Figure 4: |\OT1/cmr/m/n/8 The vari-ance
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 ance $^^A[] \OMS/cmsy/m/n/9 ^^Q \OML/cmm/m/it/9 k[]P\OT1/cmr/m/n
-/9 (\OML/cmm/m/it/9 k\OT1/cmr/m/n/9 )\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 2\OML/cmm/
-m/it/9 ^^Y[]$
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 a func-tion of scale. On
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 Tegmark (2001). Fig-ure
+Underfull \hbox (badness 2617) in paragraph at lines 378--378
+\OT1/cmr/m/n/8 ^^A[] \OMS/cmsy/m/n/8 ^^Q \OML/cmm/m/it/8 k[]P\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 k\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 =\OT1/cmr/m/n/8 2\OML/cmm/m/it/8
+ ^^Y[]$ \OT1/cmr/m/n/8 of the
  []
 
 File: figures/GalaxyPowerSpectrum.png Graphic file (type png)
 <use figures/GalaxyPowerSpectrum.png>
-Package pdftex.def Info: figures/GalaxyPowerSpectrum.png used on input line 405
+Package pdftex.def Info: figures/GalaxyPowerSpectrum.png used on input line 378
 .
-(pdftex.def)             Requested size: 341.43306pt x 258.22922pt.
+(pdftex.def)             Requested size: 256.0748pt x 193.66939pt.
 
-Underfull \hbox (badness 6758) in paragraph at lines 405--405
-[]\OT1/cmr/m/n/10.95 Figure 4: |\OT1/cmr/m/n/9 The vari-
+Underfull \hbox (badness 4072) in paragraph at lines 378--378
+[]\OT1/cmr/m/n/10 Figure 4: |\OT1/cmr/m/n/8 The vari-ance
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 ance $^^A[] \OMS/cmsy/m/n/9 ^^Q \OML/cmm/m/it/9 k[]P\OT1/cmr/m/n
-/9 (\OML/cmm/m/it/9 k\OT1/cmr/m/n/9 )\OML/cmm/m/it/9 =\OT1/cmr/m/n/9 2\OML/cmm/
-m/it/9 ^^Y[]$
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 a func-tion of scale. On
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 405--405
-\OT1/cmr/m/n/9 Tegmark (2001). Fig-ure
+Underfull \hbox (badness 2617) in paragraph at lines 378--378
+\OT1/cmr/m/n/8 ^^A[] \OMS/cmsy/m/n/8 ^^Q \OML/cmm/m/it/8 k[]P\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 k\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 =\OT1/cmr/m/n/8 2\OML/cmm/m/it/8
+ ^^Y[]$ \OT1/cmr/m/n/8 of the
  []
 
 File: figures/GalaxyPowerSpectrum.png Graphic file (type png)
 <use figures/GalaxyPowerSpectrum.png>
-Package pdftex.def Info: figures/GalaxyPowerSpectrum.png used on input line 405
+Package pdftex.def Info: figures/GalaxyPowerSpectrum.png used on input line 378
 .
-(pdftex.def)             Requested size: 341.43306pt x 258.22922pt.
+(pdftex.def)             Requested size: 256.0748pt x 193.66939pt.
+ [12 <./figures/GalaxyPowerSpectrum.png>]
+<figures/CMBPowerSpectrum.png, id=220, 880.28876pt x 654.445pt>
+File: figures/CMBPowerSpectrum.png Graphic file (type png)
 
-Overfull \hbox (13.64996pt too wide) detected at line 405
+<use figures/CMBPowerSpectrum.png>
+Package pdftex.def Info: figures/CMBPowerSpectrum.png used on input line 415.
+(pdftex.def)             Requested size: 341.43306pt x 253.83447pt.
+File: figures/CMBPowerSpectrum.png Graphic file (type png)
+ <use figures/CMBPowerSpectrum.png>
+Package pdftex.def Info: figures/CMBPowerSpectrum.png used on input line 415.
+(pdftex.def)             Requested size: 341.43306pt x 253.83447pt.
+File: figures/CMBPowerSpectrum.png Graphic file (type png)
+
+<use figures/CMBPowerSpectrum.png>
+Package pdftex.def Info: figures/CMBPowerSpectrum.png used on input line 415.
+(pdftex.def)             Requested size: 341.43306pt x 253.83447pt.
+
+Overfull \hbox (13.3333pt too wide) detected at line 415
  [] 
  []
 
-
-Underfull \hbox (badness 1320) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 quadrupole) so that large
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 low $\OML/cmm/m/it/9 `$\OT1/cmr/m/n/9 ; y-axis is the root
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 cor-re-la-tion func-tion) as a
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 and troughs, a sig-na-ture
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 ex-per-i-ment. Fig-ure from
- []
-
-<figures/CMBPowerSpectrum.png, id=218, 880.28876pt x 654.445pt>
-File: figures/CMBPowerSpectrum.png Graphic file (type png)
-
-<use figures/CMBPowerSpectrum.png>
-Package pdftex.def Info: figures/CMBPowerSpectrum.png used on input line 412.
-(pdftex.def)             Requested size: 341.43306pt x 253.83447pt.
-
-Underfull \hbox (badness 1320) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 quadrupole) so that large
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 low $\OML/cmm/m/it/9 `$\OT1/cmr/m/n/9 ; y-axis is the root
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 cor-re-la-tion func-tion) as a
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 and troughs, a sig-na-ture
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 ex-per-i-ment. Fig-ure from
- []
-
-File: figures/CMBPowerSpectrum.png Graphic file (type png)
-<use figures/CMBPowerSpectrum.png>
-Package pdftex.def Info: figures/CMBPowerSpectrum.png used on input line 412.
-(pdftex.def)             Requested size: 341.43306pt x 253.83447pt.
-
-Underfull \hbox (badness 1320) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 quadrupole) so that large
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 low $\OML/cmm/m/it/9 `$\OT1/cmr/m/n/9 ; y-axis is the root
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 cor-re-la-tion func-tion) as a
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 and troughs, a sig-na-ture
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 412--412
-\OT1/cmr/m/n/9 ex-per-i-ment. Fig-ure from
- []
-
-File: figures/CMBPowerSpectrum.png Graphic file (type png)
-<use figures/CMBPowerSpectrum.png>
-Package pdftex.def Info: figures/CMBPowerSpectrum.png used on input line 412.
-(pdftex.def)             Requested size: 341.43306pt x 253.83447pt.
-
-Overfull \hbox (13.64996pt too wide) detected at line 412
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13] [14 <./figures/GalaxyPowerSpectrum.png>] [15 <./figures/CMBPowerSpectrum.p
-ng>] [16]
+[13 <./figures/CMBPowerSpectrum.png>] [14] [15]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -899,929 +797,493 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 5711) in paragraph at lines 511--511
-[]\OT1/cmr/m/n/10.95 Figure 6: |\OT1/cmr/m/n/9 A den-sity
+Underfull \hbox (badness 1024) in paragraph at lines 514--514
+\OT1/cmr/m/n/8 that en-ters the hori-zon dur-ing the
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 per-tur-ba-tion that en-ters
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 the hori-zon dur-ing the
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 radiation-dominated epoch
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 of the Uni-verse ceases to
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 grow un-til mat-ter starts
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 to dom-i-nate the en-ergy
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 con-tent of the Uni-verse.
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 In com-par-i-son to a per-
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 tur-ba-tion that en-ters the
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 hori-zon later, dur-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 matter-dominated epoch,
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 per-tur-ba-tion is sup-pressed
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 by a fac-tor $(\OML/cmm/m/it/9 a[]=a[]\OT1/cmr/m/n/9 )[]$,
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 2001, Weak Grav-i-ta-tional
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 291. Im-age taken from
- []
-
-<figures/DensityContrast.png, id=243, 451.6875pt x 351.3125pt>
+<figures/DensityContrast.png, id=240, 451.6875pt x 351.3125pt>
 File: figures/DensityContrast.png Graphic file (type png)
 
 <use figures/DensityContrast.png>
-Package pdftex.def Info: figures/DensityContrast.png used on input line 511.
-(pdftex.def)             Requested size: 284.52756pt x 221.31195pt.
+Package pdftex.def Info: figures/DensityContrast.png used on input line 514.
+(pdftex.def)             Requested size: 227.62204pt x 177.0442pt.
 
-Underfull \hbox (badness 5711) in paragraph at lines 511--511
-[]\OT1/cmr/m/n/10.95 Figure 6: |\OT1/cmr/m/n/9 A den-sity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 per-tur-ba-tion that en-ters
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 the hori-zon dur-ing the
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 radiation-dominated epoch
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 of the Uni-verse ceases to
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 grow un-til mat-ter starts
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 to dom-i-nate the en-ergy
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 con-tent of the Uni-verse.
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 In com-par-i-son to a per-
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 tur-ba-tion that en-ters the
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 hori-zon later, dur-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 matter-dominated epoch,
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 per-tur-ba-tion is sup-pressed
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 by a fac-tor $(\OML/cmm/m/it/9 a[]=a[]\OT1/cmr/m/n/9 )[]$,
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 2001, Weak Grav-i-ta-tional
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 291. Im-age taken from
+Underfull \hbox (badness 1024) in paragraph at lines 514--514
+\OT1/cmr/m/n/8 that en-ters the hori-zon dur-ing the
  []
 
 File: figures/DensityContrast.png Graphic file (type png)
 <use figures/DensityContrast.png>
-Package pdftex.def Info: figures/DensityContrast.png used on input line 511.
-(pdftex.def)             Requested size: 284.52756pt x 221.31195pt.
+Package pdftex.def Info: figures/DensityContrast.png used on input line 514.
+(pdftex.def)             Requested size: 227.62204pt x 177.0442pt.
 
-Underfull \hbox (badness 5711) in paragraph at lines 511--511
-[]\OT1/cmr/m/n/10.95 Figure 6: |\OT1/cmr/m/n/9 A den-sity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 per-tur-ba-tion that en-ters
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 the hori-zon dur-ing the
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 radiation-dominated epoch
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 of the Uni-verse ceases to
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 grow un-til mat-ter starts
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 to dom-i-nate the en-ergy
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 con-tent of the Uni-verse.
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 In com-par-i-son to a per-
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 tur-ba-tion that en-ters the
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 hori-zon later, dur-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 matter-dominated epoch,
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 per-tur-ba-tion is sup-pressed
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 by a fac-tor $(\OML/cmm/m/it/9 a[]=a[]\OT1/cmr/m/n/9 )[]$,
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 2001, Weak Grav-i-ta-tional
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 511--511
-\OT1/cmr/m/n/9 291. Im-age taken from
+Underfull \hbox (badness 1024) in paragraph at lines 514--514
+\OT1/cmr/m/n/8 that en-ters the hori-zon dur-ing the
  []
 
 File: figures/DensityContrast.png Graphic file (type png)
 <use figures/DensityContrast.png>
-Package pdftex.def Info: figures/DensityContrast.png used on input line 511.
-(pdftex.def)             Requested size: 284.52756pt x 221.31195pt.
- [17] [18 <./figures/DensityContrast.png>]
-[19] <figures/PerturbationEvolution.png, id=263, 745.78625pt x 781.92125pt>
+Package pdftex.def Info: figures/DensityContrast.png used on input line 514.
+(pdftex.def)             Requested size: 227.62204pt x 177.0442pt.
+ [16 <./figures/DensityContrast.png>] [17]
+<figures/PerturbationEvolution.png, id=255, 745.78625pt x 781.92125pt>
 File: figures/PerturbationEvolution.png Graphic file (type png)
 
 <use figures/PerturbationEvolution.png>
 Package pdftex.def Info: figures/PerturbationEvolution.png used on input line 5
-79.
+80.
 (pdftex.def)             Requested size: 426.79134pt x 447.46556pt.
- [20] [21 <./figures/PerturbationEvolution.png>] [22]
-Underfull \hbox (badness 1303) in paragraph at lines 656--656
-[]\OT1/cmr/m/n/10.95 Figure 8: |\OT1/cmr/m/n/9 The orig-i-nal
+ [18] [19 <./figures/PerturbationEvolution.png>] [20]
+Overfull \hbox (19.26813pt too wide) in paragraph at lines 651--652
+\OT1/cmr/m/n/10 citing the-o-ret-i-cal pre-dic-tions as a pos-si-ble ex-pla-na-
+tion. At the time, Hub-ble es-ti-mated $\OML/cmm/m/it/10 H[] \OMS/cmsy/m/n/10 ^
+^Y \OT1/cmr/m/n/10 500 []$
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 Hub-ble di-a-gram (Hub-ble,
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
+\OT1/cmr/m/n/8 plot-ted vs dis-tance (units
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 1929). Ve-loc-i-ties of dis-
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
+\OT1/cmr/m/n/8 should be $[]$). Solid
  []
 
-
-Underfull \hbox (badness 1810) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 dis-tance (units should be
- []
-
-<figures/HubbleDiagram.png, id=279, 633.36626pt x 386.44376pt>
+<figures/HubbleDiagram.png, id=272, 633.36626pt x 386.44376pt>
 File: figures/HubbleDiagram.png Graphic file (type png)
 
 <use figures/HubbleDiagram.png>
-Package pdftex.def Info: figures/HubbleDiagram.png used on input line 656.
-(pdftex.def)             Requested size: 284.52756pt x 173.60324pt.
+Package pdftex.def Info: figures/HubbleDiagram.png used on input line 657.
+(pdftex.def)             Requested size: 341.43306pt x 208.32861pt.
 
-Underfull \hbox (badness 1303) in paragraph at lines 656--656
-[]\OT1/cmr/m/n/10.95 Figure 8: |\OT1/cmr/m/n/9 The orig-i-nal
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
+\OT1/cmr/m/n/8 plot-ted vs dis-tance (units
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 Hub-ble di-a-gram (Hub-ble,
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 1929). Ve-loc-i-ties of dis-
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 dis-tance (units should be
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
+\OT1/cmr/m/n/8 should be $[]$). Solid
  []
 
 File: figures/HubbleDiagram.png Graphic file (type png)
 <use figures/HubbleDiagram.png>
-Package pdftex.def Info: figures/HubbleDiagram.png used on input line 656.
-(pdftex.def)             Requested size: 284.52756pt x 173.60324pt.
+Package pdftex.def Info: figures/HubbleDiagram.png used on input line 657.
+(pdftex.def)             Requested size: 341.43306pt x 208.32861pt.
 
-Underfull \hbox (badness 1303) in paragraph at lines 656--656
-[]\OT1/cmr/m/n/10.95 Figure 8: |\OT1/cmr/m/n/9 The orig-i-nal
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
+\OT1/cmr/m/n/8 plot-ted vs dis-tance (units
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 Hub-ble di-a-gram (Hub-ble,
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 1929). Ve-loc-i-ties of dis-
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 656--656
-\OT1/cmr/m/n/9 dis-tance (units should be
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
+\OT1/cmr/m/n/8 should be $[]$). Solid
  []
 
 File: figures/HubbleDiagram.png Graphic file (type png)
 <use figures/HubbleDiagram.png>
-Package pdftex.def Info: figures/HubbleDiagram.png used on input line 656.
-(pdftex.def)             Requested size: 284.52756pt x 173.60324pt.
+Package pdftex.def Info: figures/HubbleDiagram.png used on input line 657.
+(pdftex.def)             Requested size: 341.43306pt x 208.32861pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23]
-Underfull \hbox (badness 2326) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 con-tents in the Uni-verse,
- []
-
-
-Underfull \hbox (badness 5985) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 Uni-verse over a matter-
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 dominated one. Fig-ure
- []
-
-<figures/HubbleDiagram_modern.png, id=290, 565.11125pt x 772.8875pt>
-File: figures/HubbleDiagram_modern.png Graphic file (type png)
-
-<use figures/HubbleDiagram_modern.png>
-Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 67
-9.
-(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
-
-Underfull \hbox (badness 2326) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 con-tents in the Uni-verse,
- []
-
-
-Underfull \hbox (badness 5985) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 Uni-verse over a matter-
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 dominated one. Fig-ure
- []
-
-File: figures/HubbleDiagram_modern.png Graphic file (type png)
-<use figures/HubbleDiagram_modern.png>
-Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 67
-9.
-(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
-
-Underfull \hbox (badness 2326) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 con-tents in the Uni-verse,
- []
-
-
-Underfull \hbox (badness 5985) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 Uni-verse over a matter-
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 679--679
-\OT1/cmr/m/n/9 dominated one. Fig-ure
- []
-
-File: figures/HubbleDiagram_modern.png Graphic file (type png)
-<use figures/HubbleDiagram_modern.png>
-Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 67
-9.
-(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-
-Underfull \hbox (badness 3009) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 the cor-re-spond-ing den-sity
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 He$[]$, cen-ter: D, bot-tom:
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 sure-ments yield the most
- []
-
-<figures/BBN_prediction.png, id=294, 581.17125pt x 746.79pt>
-File: figures/BBN_prediction.png Graphic file (type png)
-
-<use figures/BBN_prediction.png>
-Package pdftex.def Info: figures/BBN_prediction.png used on input line 692.
-(pdftex.def)             Requested size: 284.52756pt x 365.61124pt.
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-
-Underfull \hbox (badness 3009) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 the cor-re-spond-ing den-sity
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 He$[]$, cen-ter: D, bot-tom:
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 sure-ments yield the most
- []
-
-File: figures/BBN_prediction.png Graphic file (type png)
-<use figures/BBN_prediction.png>
-Package pdftex.def Info: figures/BBN_prediction.png used on input line 692.
-(pdftex.def)             Requested size: 284.52756pt x 365.61124pt.
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-
-Underfull \hbox (badness 3009) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 the cor-re-spond-ing den-sity
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 He$[]$, cen-ter: D, bot-tom:
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 692--692
-\OT1/cmr/m/n/9 sure-ments yield the most
- []
-
-File: figures/BBN_prediction.png Graphic file (type png)
-<use figures/BBN_prediction.png>
-Package pdftex.def Info: figures/BBN_prediction.png used on input line 692.
-(pdftex.def)             Requested size: 284.52756pt x 365.61124pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[24 <./figures/HubbleDiagram.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-
-Underfull \hbox (badness 1436) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 wave-length $1216$ []A cor-re-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 spond-ing to the (n = 1)
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 to (n = 2) state of hy-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 the the pres-ence of deu-
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 ure taken from Do-del-son
- []
-
-<figures/deuterium.png, id=304, 574.145pt x 713.66624pt>
-File: figures/deuterium.png Graphic file (type png)
-
-<use figures/deuterium.png>
-Package pdftex.def Info: figures/deuterium.png used on input line 703.
-(pdftex.def)             Requested size: 284.52756pt x 353.67424pt.
-
-Underfull \hbox (badness 1436) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 wave-length $1216$ []A cor-re-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 spond-ing to the (n = 1)
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 to (n = 2) state of hy-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 the the pres-ence of deu-
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 ure taken from Do-del-son
- []
-
-File: figures/deuterium.png Graphic file (type png)
-<use figures/deuterium.png>
-Package pdftex.def Info: figures/deuterium.png used on input line 703.
-(pdftex.def)             Requested size: 284.52756pt x 353.67424pt.
-
-Underfull \hbox (badness 1436) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 wave-length $1216$ []A cor-re-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 spond-ing to the (n = 1)
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 to (n = 2) state of hy-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 the the pres-ence of deu-
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 703--703
-\OT1/cmr/m/n/9 ure taken from Do-del-son
- []
-
-File: figures/deuterium.png Graphic file (type png)
-<use figures/deuterium.png>
-Package pdftex.def Info: figures/deuterium.png used on input line 703.
-(pdftex.def)             Requested size: 284.52756pt x 353.67424pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25 <./figures/HubbleDiagram_modern.png>]
-<figures/CMB_COBE.png, id=318, 691.58376pt x 519.9425pt>
-File: figures/CMB_COBE.png Graphic file (type png)
-
-<use figures/CMB_COBE.png>
-Package pdftex.def Info: figures/CMB_COBE.png used on input line 716.
-(pdftex.def)             Requested size: 284.52756pt x 213.91563pt.
-File: figures/CMB_COBE.png Graphic file (type png)
- <use figures/CMB_COBE.png>
-Package pdftex.def Info: figures/CMB_COBE.png used on input line 716.
-(pdftex.def)             Requested size: 284.52756pt x 213.91563pt.
-File: figures/CMB_COBE.png Graphic file (type png)
-
-<use figures/CMB_COBE.png>
-Package pdftex.def Info: figures/CMB_COBE.png used on input line 716.
-(pdftex.def)             Requested size: 284.52756pt x 213.91563pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[26 <./figures/BBN_prediction.png>] [27 <./figures/deuterium.png>]
-Underfull \hbox (badness 3815) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 relativistic mat-ter, ra-di-a-
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 tion, and a cos-mo-log-i-cal
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 and cos-mo-log-i-cal con-stant
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 dom-i-nate to-day, at early
- []
-
-<figures/EnergyDensityScaling.png, id=334, 642.4pt x 615.29875pt>
-File: figures/EnergyDensityScaling.png Graphic file (type png)
-
-<use figures/EnergyDensityScaling.png>
-Package pdftex.def Info: figures/EnergyDensityScaling.png used on input line 74
-1.
-(pdftex.def)             Requested size: 284.52756pt x 272.52553pt.
-
-Underfull \hbox (badness 3815) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 relativistic mat-ter, ra-di-a-
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 tion, and a cos-mo-log-i-cal
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 and cos-mo-log-i-cal con-stant
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 dom-i-nate to-day, at early
- []
-
-File: figures/EnergyDensityScaling.png Graphic file (type png)
-<use figures/EnergyDensityScaling.png>
-Package pdftex.def Info: figures/EnergyDensityScaling.png used on input line 74
-1.
-(pdftex.def)             Requested size: 284.52756pt x 272.52553pt.
-
-Underfull \hbox (badness 3815) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 relativistic mat-ter, ra-di-a-
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 tion, and a cos-mo-log-i-cal
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 and cos-mo-log-i-cal con-stant
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 741--741
-\OT1/cmr/m/n/9 dom-i-nate to-day, at early
- []
-
-File: figures/EnergyDensityScaling.png Graphic file (type png)
-<use figures/EnergyDensityScaling.png>
-Package pdftex.def Info: figures/EnergyDensityScaling.png used on input line 74
-1.
-(pdftex.def)             Requested size: 284.52756pt x 272.52553pt.
- [28 <./figures/CMB_COBE.png> <./figures/EnergyDensityScaling.png>]
-Missing character: There is no ‚ in font cmr8!
-Missing character: There is no à in font cmr8!
-Missing character: There is no í in font cmr8!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no Œ in font cmr10!
-Missing character: There is no ª in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no º in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [29] [30] [31]
-Missing character: There is no ‚ in font cmr8!
-Missing character: There is no à in font cmr8!
-Missing character: There is no í in font cmr8!
- [32] [33] [34] [35] [36]
-Underfull \hbox (badness 1546) in paragraph at lines 999--999
-[]\OT1/cmr/m/n/10.95 Figure 14: |\OT1/cmr/m/n/9 Hub-ble di-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 a-gram from dis-tant Type
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 (an in-di-ca-tor of the dis-
- []
-
-
-Underfull \hbox (badness 8000) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 over a matter-dominated
- []
-
-File: figures/HubbleDiagram_modern.png Graphic file (type png)
-<use figures/HubbleDiagram_modern.png>
-Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 99
-9.
-(pdftex.def)             Requested size: 227.62204pt x 311.3077pt.
-
-Underfull \hbox (badness 1546) in paragraph at lines 999--999
-[]\OT1/cmr/m/n/10.95 Figure 14: |\OT1/cmr/m/n/9 Hub-ble di-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 a-gram from dis-tant Type
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 (an in-di-ca-tor of the dis-
- []
-
-
-Underfull \hbox (badness 8000) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 over a matter-dominated
- []
-
-File: figures/HubbleDiagram_modern.png Graphic file (type png)
-<use figures/HubbleDiagram_modern.png>
-Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 99
-9.
-(pdftex.def)             Requested size: 227.62204pt x 311.3077pt.
-
-Underfull \hbox (badness 1546) in paragraph at lines 999--999
-[]\OT1/cmr/m/n/10.95 Figure 14: |\OT1/cmr/m/n/9 Hub-ble di-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 a-gram from dis-tant Type
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 (an in-di-ca-tor of the dis-
- []
-
-
-Underfull \hbox (badness 8000) in paragraph at lines 999--999
-\OT1/cmr/m/n/9 over a matter-dominated
- []
-
-File: figures/HubbleDiagram_modern.png Graphic file (type png)
-<use figures/HubbleDiagram_modern.png>
-Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 99
-9.
-(pdftex.def)             Requested size: 227.62204pt x 311.3077pt.
- [37]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [38]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [39]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr8!
-Missing character: There is no à in font cmr8!
-Missing character: There is no í in font cmr8!
-Missing character: There is no Œ in font cmr10!
-Missing character: There is no ª in font cmr10!
- [40]
-Underfull \hbox (badness 1199) in paragraph at lines 1128--1128
-\OT1/cmr/m/n/9 the re-sult for the Bench-
- []
-
-<figures/LuminosityDistance.png, id=405, 523.9575pt x 394.47375pt>
-File: figures/LuminosityDistance.png Graphic file (type png)
-
-<use figures/LuminosityDistance.png>
-Package pdftex.def Info: figures/LuminosityDistance.png used on input line 1128
-.
-(pdftex.def)             Requested size: 341.43306pt x 257.06097pt.
-
-Underfull \hbox (badness 1199) in paragraph at lines 1128--1128
-\OT1/cmr/m/n/9 the re-sult for the Bench-
- []
-
-File: figures/LuminosityDistance.png Graphic file (type png)
-<use figures/LuminosityDistance.png>
-Package pdftex.def Info: figures/LuminosityDistance.png used on input line 1128
-.
-(pdftex.def)             Requested size: 341.43306pt x 257.06097pt.
-
-Underfull \hbox (badness 1199) in paragraph at lines 1128--1128
-\OT1/cmr/m/n/9 the re-sult for the Bench-
- []
-
-File: figures/LuminosityDistance.png Graphic file (type png)
-<use figures/LuminosityDistance.png>
-Package pdftex.def Info: figures/LuminosityDistance.png used on input line 1128
-.
-(pdftex.def)             Requested size: 341.43306pt x 257.06097pt.
-
-Overfull \hbox (13.64996pt too wide) detected at line 1128
+Overfull \hbox (13.3333pt too wide) detected at line 657
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41]
+[21]
+Underfull \hbox (badness 2582) in paragraph at lines 680--680
+\OT1/cmr/m/n/8 Type la su-per-novae. Top
+ []
+
+<figures/HubbleDiagram_modern.png, id=284, 565.11125pt x 772.8875pt>
+File: figures/HubbleDiagram_modern.png Graphic file (type png)
+
+<use figures/HubbleDiagram_modern.png>
+Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 68
+0.
+(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
+
+Underfull \hbox (badness 2582) in paragraph at lines 680--680
+\OT1/cmr/m/n/8 Type la su-per-novae. Top
+ []
+
+File: figures/HubbleDiagram_modern.png Graphic file (type png)
+<use figures/HubbleDiagram_modern.png>
+Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 68
+0.
+(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
+
+Underfull \hbox (badness 2582) in paragraph at lines 680--680
+\OT1/cmr/m/n/8 Type la su-per-novae. Top
+ []
+
+File: figures/HubbleDiagram_modern.png Graphic file (type png)
+<use figures/HubbleDiagram_modern.png>
+Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 68
+0.
+(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
+ [22 <./figures/HubbleDiagram.png> <./figures/HubbleDiagram_modern.png>]
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no ô in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no ô in font cmr8!
+
+<figures/BBN_prediction.png, id=297, 581.17125pt x 746.79pt>
+File: figures/BBN_prediction.png Graphic file (type png)
+
+<use figures/BBN_prediction.png>
+Package pdftex.def Info: figures/BBN_prediction.png used on input line 693.
+(pdftex.def)             Requested size: 284.52756pt x 365.61124pt.
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no ô in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no ô in font cmr8!
+File: figures/BBN_prediction.png Graphic file (type png)
+ <use figures/BBN_prediction.png>
+Package pdftex.def Info: figures/BBN_prediction.png used on input line 693.
+(pdftex.def)             Requested size: 284.52756pt x 365.61124pt.
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no ô in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no Ä in font cmr8!
+Missing character: There is no ô in font cmr8!
+File: figures/BBN_prediction.png Graphic file (type png)
+
+<use figures/BBN_prediction.png>
+Package pdftex.def Info: figures/BBN_prediction.png used on input line 693.
+(pdftex.def)             Requested size: 284.52756pt x 365.61124pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [23 <./figures/BBN_prediction.png>]
+<figures/deuterium.png, id=307, 574.145pt x 713.66624pt>
+File: figures/deuterium.png Graphic file (type png)
+
+<use figures/deuterium.png>
+Package pdftex.def Info: figures/deuterium.png used on input line 704.
+(pdftex.def)             Requested size: 284.52756pt x 353.67424pt.
+File: figures/deuterium.png Graphic file (type png)
+ <use figures/deuterium.png>
+Package pdftex.def Info: figures/deuterium.png used on input line 704.
+(pdftex.def)             Requested size: 284.52756pt x 353.67424pt.
+File: figures/deuterium.png Graphic file (type png)
+
+<use figures/deuterium.png>
+Package pdftex.def Info: figures/deuterium.png used on input line 704.
+(pdftex.def)             Requested size: 284.52756pt x 353.67424pt.
+
+Underfull \hbox (badness 4441) in paragraph at lines 717--717
+[]\OT1/cmr/m/n/10 Figure 12: |\OT1/cmr/m/n/8 In-ten-sity of
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 cos-mic mi-crowave ra-di-a-tion
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 as a func-tion of wavenum-
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 ber from Far In-fraRed Ab-
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 the thick-ness of the curve!
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 Fig-ure taken from Do-del-son
+ []
+
+<figures/CMB_COBE.png, id=311, 691.58376pt x 519.9425pt>
+File: figures/CMB_COBE.png Graphic file (type png)
+
+<use figures/CMB_COBE.png>
+Package pdftex.def Info: figures/CMB_COBE.png used on input line 717.
+(pdftex.def)             Requested size: 284.52756pt x 213.91563pt.
+
+Underfull \hbox (badness 4441) in paragraph at lines 717--717
+[]\OT1/cmr/m/n/10 Figure 12: |\OT1/cmr/m/n/8 In-ten-sity of
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 cos-mic mi-crowave ra-di-a-tion
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 as a func-tion of wavenum-
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 ber from Far In-fraRed Ab-
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 the thick-ness of the curve!
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 Fig-ure taken from Do-del-son
+ []
+
+File: figures/CMB_COBE.png Graphic file (type png)
+<use figures/CMB_COBE.png>
+Package pdftex.def Info: figures/CMB_COBE.png used on input line 717.
+(pdftex.def)             Requested size: 284.52756pt x 213.91563pt.
+
+Underfull \hbox (badness 4441) in paragraph at lines 717--717
+[]\OT1/cmr/m/n/10 Figure 12: |\OT1/cmr/m/n/8 In-ten-sity of
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 cos-mic mi-crowave ra-di-a-tion
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 as a func-tion of wavenum-
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 ber from Far In-fraRed Ab-
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 the thick-ness of the curve!
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 717--717
+\OT1/cmr/m/n/8 Fig-ure taken from Do-del-son
+ []
+
+File: figures/CMB_COBE.png Graphic file (type png)
+<use figures/CMB_COBE.png>
+Package pdftex.def Info: figures/CMB_COBE.png used on input line 717.
+(pdftex.def)             Requested size: 284.52756pt x 213.91563pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./figures/deuterium.png>]
+Underfull \hbox (badness 2941) in paragraph at lines 742--742
+[]\OT1/cmr/m/n/10 Figure 13: |\OT1/cmr/m/n/8 En-ergy den-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 sity vs scale fac-tor for dif-
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 fer-ent con-stituents of a flat
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 Uni-verse. Shown are non-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 times, the ra-di-a-tion den-sity
+ []
+
+<figures/EnergyDensityScaling.png, id=322, 642.4pt x 615.29875pt>
+File: figures/EnergyDensityScaling.png Graphic file (type png)
+
+<use figures/EnergyDensityScaling.png>
+Package pdftex.def Info: figures/EnergyDensityScaling.png used on input line 74
+2.
+(pdftex.def)             Requested size: 284.52756pt x 272.52553pt.
+
+Underfull \hbox (badness 2941) in paragraph at lines 742--742
+[]\OT1/cmr/m/n/10 Figure 13: |\OT1/cmr/m/n/8 En-ergy den-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 sity vs scale fac-tor for dif-
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 fer-ent con-stituents of a flat
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 Uni-verse. Shown are non-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 times, the ra-di-a-tion den-sity
+ []
+
+File: figures/EnergyDensityScaling.png Graphic file (type png)
+<use figures/EnergyDensityScaling.png>
+Package pdftex.def Info: figures/EnergyDensityScaling.png used on input line 74
+2.
+(pdftex.def)             Requested size: 284.52756pt x 272.52553pt.
+
+Underfull \hbox (badness 2941) in paragraph at lines 742--742
+[]\OT1/cmr/m/n/10 Figure 13: |\OT1/cmr/m/n/8 En-ergy den-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 sity vs scale fac-tor for dif-
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 fer-ent con-stituents of a flat
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 Uni-verse. Shown are non-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 742--742
+\OT1/cmr/m/n/8 times, the ra-di-a-tion den-sity
+ []
+
+File: figures/EnergyDensityScaling.png Graphic file (type png)
+<use figures/EnergyDensityScaling.png>
+Package pdftex.def Info: figures/EnergyDensityScaling.png used on input line 74
+2.
+(pdftex.def)             Requested size: 284.52756pt x 272.52553pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <./figures/CMB_COBE.png>]
+Missing character: There is no ‚ in font cmr7!
+Missing character: There is no à in font cmr7!
+Missing character: There is no í in font cmr7!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [26 <./figures/EnergyDensityScaling.png>]
+[27]
+Missing character: There is no ‚ in font cmr7!
+Missing character: There is no à in font cmr7!
+Missing character: There is no í in font cmr7!
+ [28] [29] [30] [31] [32]
+File: figures/HubbleDiagram_modern.png Graphic file (type png)
+ <use figures/HubbleDiagram_modern.png>
+Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 99
+4.
+(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
+File: figures/HubbleDiagram_modern.png Graphic file (type png)
+
+<use figures/HubbleDiagram_modern.png>
+Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 99
+4.
+(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
+File: figures/HubbleDiagram_modern.png Graphic file (type png)
+ <use figures/HubbleDiagram_modern.png>
+Package pdftex.def Info: figures/HubbleDiagram_modern.png used on input line 99
+4.
+(pdftex.def)             Requested size: 284.52756pt x 389.14346pt.
+
+[33]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [34]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [35]
+Missing character: There is no ‚ in font cmr7!
+Missing character: There is no à in font cmr7!
+Missing character: There is no í in font cmr7!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ª in font cmr10!
 
-Underfull \hbox (badness 1173) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 (Perl-mut-ter et al. 1999,
- []
+<figures/LuminosityDistance.png, id=387, 523.9575pt x 394.47375pt>
+File: figures/LuminosityDistance.png Graphic file (type png)
+
+<use figures/LuminosityDistance.png>
+Package pdftex.def Info: figures/LuminosityDistance.png used on input line 1123
+.
+(pdftex.def)             Requested size: 284.52756pt x 214.21648pt.
+File: figures/LuminosityDistance.png Graphic file (type png)
+ <use figures/LuminosityDistance.png>
+Package pdftex.def Info: figures/LuminosityDistance.png used on input line 1123
+.
+(pdftex.def)             Requested size: 284.52756pt x 214.21648pt.
+File: figures/LuminosityDistance.png Graphic file (type png)
+
+<use figures/LuminosityDistance.png>
+Package pdftex.def Info: figures/LuminosityDistance.png used on input line 1123
+.
+(pdftex.def)             Requested size: 284.52756pt x 214.21648pt.
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 ApJ, 517, 565) and the
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 7116) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 High-z Su-per-nova Search
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 (from Riess 2000, PASP,
- []
-
-<figures/DistanceModulus.png, id=412, 603.25375pt x 769.87625pt>
+[36] <figures/DistanceModulus.png, id=394, 603.25375pt x 769.87625pt>
 File: figures/DistanceModulus.png Graphic file (type png)
 
 <use figures/DistanceModulus.png>
-Package pdftex.def Info: figures/DistanceModulus.png used on input line 1164.
+Package pdftex.def Info: figures/DistanceModulus.png used on input line 1159.
 (pdftex.def)             Requested size: 312.9803pt x 399.42166pt.
-
-Underfull \hbox (badness 1173) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 (Perl-mut-ter et al. 1999,
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 ApJ, 517, 565) and the
- []
-
-
-Underfull \hbox (badness 7116) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 High-z Su-per-nova Search
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 (from Riess 2000, PASP,
- []
-
 File: figures/DistanceModulus.png Graphic file (type png)
-<use figures/DistanceModulus.png>
-Package pdftex.def Info: figures/DistanceModulus.png used on input line 1164.
+ <use figures/DistanceModulus.png>
+Package pdftex.def Info: figures/DistanceModulus.png used on input line 1159.
 (pdftex.def)             Requested size: 312.9803pt x 399.42166pt.
-
-Underfull \hbox (badness 1173) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 (Perl-mut-ter et al. 1999,
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 ApJ, 517, 565) and the
- []
-
-
-Underfull \hbox (badness 7116) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 High-z Su-per-nova Search
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 1164--1164
-\OT1/cmr/m/n/9 (from Riess 2000, PASP,
- []
-
 File: figures/DistanceModulus.png Graphic file (type png)
+
 <use figures/DistanceModulus.png>
-Package pdftex.def Info: figures/DistanceModulus.png used on input line 1164.
+Package pdftex.def Info: figures/DistanceModulus.png used on input line 1159.
 (pdftex.def)             Requested size: 312.9803pt x 399.42166pt.
 
 
@@ -1831,159 +1293,36 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
 
-Underfull \hbox (badness 1400) in paragraph at lines 1173--1173
-[]\OT1/cmr/m/n/10.95 Figure 17: |\OT1/cmr/m/n/9 The val-ues
+Underfull \hbox (badness 3826) in paragraph at lines 1168--1168
+\OT1/cmr/m/n/8 
+[]$ (hor-i-zon-tal axis) and
  []
 
-
-Underfull \hbox (badness 2856) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 of $
-[]$ (hor-i-zon-tal axis)
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 and $
-[]$ (ver-ti-cal axis)
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 which best fit the data
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 the best-fitting val-ues for
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 the Su-per-nova Cos-mol-ogy
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 Project data (from Riess
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 2000, PASP, 112, 1284)
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 Fig-ure taken from Ry-den
- []
-
-<figures/OmegaModel.png, id=417, 553.06625pt x 691.58376pt>
+<figures/OmegaModel.png, id=399, 553.06625pt x 691.58376pt>
 File: figures/OmegaModel.png Graphic file (type png)
 
 <use figures/OmegaModel.png>
-Package pdftex.def Info: figures/OmegaModel.png used on input line 1173.
+Package pdftex.def Info: figures/OmegaModel.png used on input line 1168.
 (pdftex.def)             Requested size: 284.52756pt x 355.78444pt.
 
-Underfull \hbox (badness 1400) in paragraph at lines 1173--1173
-[]\OT1/cmr/m/n/10.95 Figure 17: |\OT1/cmr/m/n/9 The val-ues
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 of $
-[]$ (hor-i-zon-tal axis)
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 and $
-[]$ (ver-ti-cal axis)
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 which best fit the data
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 the best-fitting val-ues for
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 the Su-per-nova Cos-mol-ogy
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 Project data (from Riess
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 2000, PASP, 112, 1284)
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 Fig-ure taken from Ry-den
+Underfull \hbox (badness 3826) in paragraph at lines 1168--1168
+\OT1/cmr/m/n/8 
+[]$ (hor-i-zon-tal axis) and
  []
 
 File: figures/OmegaModel.png Graphic file (type png)
 <use figures/OmegaModel.png>
-Package pdftex.def Info: figures/OmegaModel.png used on input line 1173.
+Package pdftex.def Info: figures/OmegaModel.png used on input line 1168.
 (pdftex.def)             Requested size: 284.52756pt x 355.78444pt.
 
-Underfull \hbox (badness 1400) in paragraph at lines 1173--1173
-[]\OT1/cmr/m/n/10.95 Figure 17: |\OT1/cmr/m/n/9 The val-ues
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 of $
-[]$ (hor-i-zon-tal axis)
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 and $
-[]$ (ver-ti-cal axis)
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 which best fit the data
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 the best-fitting val-ues for
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 the Su-per-nova Cos-mol-ogy
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 Project data (from Riess
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 2000, PASP, 112, 1284)
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 1173--1173
-\OT1/cmr/m/n/9 Fig-ure taken from Ry-den
+Underfull \hbox (badness 3826) in paragraph at lines 1168--1168
+\OT1/cmr/m/n/8 
+[]$ (hor-i-zon-tal axis) and
  []
 
 File: figures/OmegaModel.png Graphic file (type png)
 <use figures/OmegaModel.png>
-Package pdftex.def Info: figures/OmegaModel.png used on input line 1173.
+Package pdftex.def Info: figures/OmegaModel.png used on input line 1168.
 (pdftex.def)             Requested size: 284.52756pt x 355.78444pt.
 
 
@@ -1992,1186 +1331,1048 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[42 <./figures/LuminosityDistance.png>]
+[37 <./figures/LuminosityDistance.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [43 <./figures/DistanceModulus.png>]
-[44 <./figures/OmegaModel.png>] [45] [46]
-Underfull \hbox (badness 2653) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 tion func-tion of galax-ies,
+ [38 <./figures/DistanceModulus.png>]
+[39 <./figures/OmegaModel.png>] [40]
+Underfull \hbox (badness 2884) in paragraph at lines 1239--1239
+[]\OT1/cmr/m/n/10 Figure 18: |\OT1/cmr/m/n/8 The cor-re-la-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 shows a clear in-di-ca-tion
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 tion func-tion of galax-ies,
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 co-mov-ing scale of about
+Underfull \hbox (badness 4940) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 as ob-served in the SDSS,
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 100\OML/cmm/m/it/9 h[] [] \OMS/cmsy/m/n/9 ^^X \OT1/cmr/m/n/9 150
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 shows a clear in-di-ca-tion
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 of a sec-ondary peak on a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 co-mov-ing scale of about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 100\OML/cmm/m/it/8 h[] [] \OMS/cmsy/m/n/8 ^^X \OT1/cmr/m/n/8 150
  []$.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 Curves show mod-els
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 Curves show mod-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 with slightly dif-fer-
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 with slightly dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 ent den-sity pa-ram-e-ter
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 ent den-sity pa-ram-e-ter
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 
-[]\OML/cmm/m/it/9 h[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 12; 0\O
-ML/cmm/m/it/9 :\OT1/cmr/m/n/9 13; 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 14$,
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 
+[]\OML/cmm/m/it/8 h[] \OT1/cmr/m/n/8 = 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 12; 0\O
+ML/cmm/m/it/8 :\OT1/cmr/m/n/8 13; 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 14$,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 with fixed baryon den-sity
+Underfull \hbox (badness 1418) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 with-out baryons which thus
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 of $
-[]\OML/cmm/m/it/9 h[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 024$. T
-he
+Underfull \hbox (badness 5878) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 shows no fea-tures due to
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 low-est, smooth curve is
+Underfull \hbox (badness 1253) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 D. Eisen-stein et al. 2005,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 a CDM model with-out
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 De-tec-tion of the Baryon
  []
 
-
-Underfull \hbox (badness 1681) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 os-cil-la-tions. Source: D.
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 Eisen-stein et al. 2005,
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 De-tec-tion of the Baryon
- []
-
-
-Underfull \hbox (badness 6725) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 of SDSS Lu-mi-nous Red
- []
-
-<figures/CorrelationFunction.png, id=463, 611.28375pt x 623.32875pt>
+<figures/CorrelationFunction.png, id=438, 611.28375pt x 623.32875pt>
 File: figures/CorrelationFunction.png Graphic file (type png)
 
 <use figures/CorrelationFunction.png>
-Package pdftex.def Info: figures/CorrelationFunction.png used on input line 124
-4.
+Package pdftex.def Info: figures/CorrelationFunction.png used on input line 123
+9.
 (pdftex.def)             Requested size: 284.52756pt x 290.1302pt.
 
-Underfull \hbox (badness 2653) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 tion func-tion of galax-ies,
+Underfull \hbox (badness 2884) in paragraph at lines 1239--1239
+[]\OT1/cmr/m/n/10 Figure 18: |\OT1/cmr/m/n/8 The cor-re-la-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 shows a clear in-di-ca-tion
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 tion func-tion of galax-ies,
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 co-mov-ing scale of about
+Underfull \hbox (badness 4940) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 as ob-served in the SDSS,
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 100\OML/cmm/m/it/9 h[] [] \OMS/cmsy/m/n/9 ^^X \OT1/cmr/m/n/9 150
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 shows a clear in-di-ca-tion
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 of a sec-ondary peak on a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 co-mov-ing scale of about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 100\OML/cmm/m/it/8 h[] [] \OMS/cmsy/m/n/8 ^^X \OT1/cmr/m/n/8 150
  []$.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 Curves show mod-els
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 Curves show mod-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 with slightly dif-fer-
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 with slightly dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 ent den-sity pa-ram-e-ter
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 ent den-sity pa-ram-e-ter
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 
-[]\OML/cmm/m/it/9 h[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 12; 0\O
-ML/cmm/m/it/9 :\OT1/cmr/m/n/9 13; 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 14$,
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 
+[]\OML/cmm/m/it/8 h[] \OT1/cmr/m/n/8 = 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 12; 0\O
+ML/cmm/m/it/8 :\OT1/cmr/m/n/8 13; 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 14$,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 with fixed baryon den-sity
+Underfull \hbox (badness 1418) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 with-out baryons which thus
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 of $
-[]\OML/cmm/m/it/9 h[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 024$. T
-he
+Underfull \hbox (badness 5878) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 shows no fea-tures due to
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 low-est, smooth curve is
+Underfull \hbox (badness 1253) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 D. Eisen-stein et al. 2005,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 a CDM model with-out
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 os-cil-la-tions. Source: D.
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 Eisen-stein et al. 2005,
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 De-tec-tion of the Baryon
- []
-
-
-Underfull \hbox (badness 6725) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 of SDSS Lu-mi-nous Red
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 De-tec-tion of the Baryon
  []
 
 File: figures/CorrelationFunction.png Graphic file (type png)
 <use figures/CorrelationFunction.png>
-Package pdftex.def Info: figures/CorrelationFunction.png used on input line 124
-4.
+Package pdftex.def Info: figures/CorrelationFunction.png used on input line 123
+9.
 (pdftex.def)             Requested size: 284.52756pt x 290.1302pt.
 
-Underfull \hbox (badness 2653) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 tion func-tion of galax-ies,
+Underfull \hbox (badness 2884) in paragraph at lines 1239--1239
+[]\OT1/cmr/m/n/10 Figure 18: |\OT1/cmr/m/n/8 The cor-re-la-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 shows a clear in-di-ca-tion
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 tion func-tion of galax-ies,
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 co-mov-ing scale of about
+Underfull \hbox (badness 4940) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 as ob-served in the SDSS,
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 100\OML/cmm/m/it/9 h[] [] \OMS/cmsy/m/n/9 ^^X \OT1/cmr/m/n/9 150
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 shows a clear in-di-ca-tion
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 of a sec-ondary peak on a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 co-mov-ing scale of about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 100\OML/cmm/m/it/8 h[] [] \OMS/cmsy/m/n/8 ^^X \OT1/cmr/m/n/8 150
  []$.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 Curves show mod-els
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 Curves show mod-els
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 with slightly dif-fer-
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 with slightly dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 ent den-sity pa-ram-e-ter
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 ent den-sity pa-ram-e-ter
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 
-[]\OML/cmm/m/it/9 h[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 12; 0\O
-ML/cmm/m/it/9 :\OT1/cmr/m/n/9 13; 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 14$,
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 
+[]\OML/cmm/m/it/8 h[] \OT1/cmr/m/n/8 = 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 12; 0\O
+ML/cmm/m/it/8 :\OT1/cmr/m/n/8 13; 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 14$,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 with fixed baryon den-sity
+Underfull \hbox (badness 1418) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 with-out baryons which thus
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 of $
-[]\OML/cmm/m/it/9 h[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 024$. T
-he
+Underfull \hbox (badness 5878) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 shows no fea-tures due to
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 low-est, smooth curve is
+Underfull \hbox (badness 1253) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 D. Eisen-stein et al. 2005,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 a CDM model with-out
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 os-cil-la-tions. Source: D.
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 Eisen-stein et al. 2005,
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 De-tec-tion of the Baryon
- []
-
-
-Underfull \hbox (badness 6725) in paragraph at lines 1244--1244
-\OT1/cmr/m/n/9 of SDSS Lu-mi-nous Red
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
+\OT1/cmr/m/n/8 De-tec-tion of the Baryon
  []
 
 File: figures/CorrelationFunction.png Graphic file (type png)
 <use figures/CorrelationFunction.png>
-Package pdftex.def Info: figures/CorrelationFunction.png used on input line 124
-4.
+Package pdftex.def Info: figures/CorrelationFunction.png used on input line 123
+9.
 (pdftex.def)             Requested size: 284.52756pt x 290.1302pt.
 
-<figures/BAOs.png, id=465, 955.57pt x 346.29375pt>
+<figures/BAOs.png, id=440, 955.57pt x 346.29375pt>
 File: figures/BAOs.png Graphic file (type png)
  <use figures/BAOs.png>
-Package pdftex.def Info: figures/BAOs.png used on input line 1252.
+Package pdftex.def Info: figures/BAOs.png used on input line 1247.
 (pdftex.def)             Requested size: 455.24408pt x 164.97736pt.
 
-[47 <./figures/CorrelationFunction.png>] [48 <./figures/BAOs.png>] [49]
-Underfull \hbox (badness 1270) in paragraph at lines 1303--1303
-\OT1/cmr/m/n/9 po-lar-iza-tion. Blue col-ors
+[41] [42 <./figures/CorrelationFunction.png> <./figures/BAOs.png>]
+Overfull \hbox (9.97781pt too wide) in paragraph at lines 1282--1283
+\OT1/cmr/m/n/10 Why should we be con-cerned with the po-lar-iza-tion of the cos
+-mic mi-crowave back-ground (CMB) anisotropies?
  []
 
-<figures/ThomsonScattering.png, id=486, 428.60126pt x 434.62375pt>
+
+Underfull \hbox (badness 6542) in paragraph at lines 1298--1298
+\OT1/cmr/m/n/8 Thomson scat-ter-ing of ra-
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 1298--1298
+\OT1/cmr/m/n/8 di-a-tion with a quadrupole
+ []
+
+<figures/ThomsonScattering.png, id=457, 428.60126pt x 434.62375pt>
 File: figures/ThomsonScattering.png Graphic file (type png)
 
 <use figures/ThomsonScattering.png>
-Package pdftex.def Info: figures/ThomsonScattering.png used on input line 1303.
+Package pdftex.def Info: figures/ThomsonScattering.png used on input line 1298.
 
 (pdftex.def)             Requested size: 227.62204pt x 230.82034pt.
 
-Underfull \hbox (badness 1270) in paragraph at lines 1303--1303
-\OT1/cmr/m/n/9 po-lar-iza-tion. Blue col-ors
+Underfull \hbox (badness 6542) in paragraph at lines 1298--1298
+\OT1/cmr/m/n/8 Thomson scat-ter-ing of ra-
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 1298--1298
+\OT1/cmr/m/n/8 di-a-tion with a quadrupole
  []
 
 File: figures/ThomsonScattering.png Graphic file (type png)
 <use figures/ThomsonScattering.png>
-Package pdftex.def Info: figures/ThomsonScattering.png used on input line 1303.
+Package pdftex.def Info: figures/ThomsonScattering.png used on input line 1298.
 
 (pdftex.def)             Requested size: 227.62204pt x 230.82034pt.
 
-Underfull \hbox (badness 1270) in paragraph at lines 1303--1303
-\OT1/cmr/m/n/9 po-lar-iza-tion. Blue col-ors
+Underfull \hbox (badness 6542) in paragraph at lines 1298--1298
+\OT1/cmr/m/n/8 Thomson scat-ter-ing of ra-
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 1298--1298
+\OT1/cmr/m/n/8 di-a-tion with a quadrupole
  []
 
 File: figures/ThomsonScattering.png Graphic file (type png)
 <use figures/ThomsonScattering.png>
-Package pdftex.def Info: figures/ThomsonScattering.png used on input line 1303.
+Package pdftex.def Info: figures/ThomsonScattering.png used on input line 1298.
 
 (pdftex.def)             Requested size: 227.62204pt x 230.82034pt.
- [50 <./figures/ThomsonScattering.png>]
-[51] <figures/CMBCOBE.png, id=501, 441.65pt x 710.655pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43] [44 <./figures/ThomsonScattering.png>]
+Underfull \hbox (badness 1270) in paragraph at lines 1356--1356
+\OT1/cmr/m/n/8 get the map in the mid-dle
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 1356--1356
+\OT1/cmr/m/n/8 team, NASA. Fig-ure taken
+ []
+
+<figures/CMBCOBE.png, id=475, 441.65pt x 710.655pt>
 File: figures/CMBCOBE.png Graphic file (type png)
+ <use figures/CMBCOBE.png>
+Package pdftex.def Info: figures/CMBCOBE.png used on input line 1356.
+(pdftex.def)             Requested size: 284.52756pt x 457.85388pt.
 
+Underfull \hbox (badness 1270) in paragraph at lines 1356--1356
+\OT1/cmr/m/n/8 get the map in the mid-dle
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 1356--1356
+\OT1/cmr/m/n/8 team, NASA. Fig-ure taken
+ []
+
+File: figures/CMBCOBE.png Graphic file (type png)
 <use figures/CMBCOBE.png>
-Package pdftex.def Info: figures/CMBCOBE.png used on input line 1361.
+Package pdftex.def Info: figures/CMBCOBE.png used on input line 1356.
 (pdftex.def)             Requested size: 284.52756pt x 457.85388pt.
+
+Underfull \hbox (badness 1270) in paragraph at lines 1356--1356
+\OT1/cmr/m/n/8 get the map in the mid-dle
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 1356--1356
+\OT1/cmr/m/n/8 team, NASA. Fig-ure taken
+ []
+
 File: figures/CMBCOBE.png Graphic file (type png)
- <use figures/CMBCOBE.png>
-Package pdftex.def Info: figures/CMBCOBE.png used on input line 1361.
+<use figures/CMBCOBE.png>
+Package pdftex.def Info: figures/CMBCOBE.png used on input line 1356.
 (pdftex.def)             Requested size: 284.52756pt x 457.85388pt.
-File: figures/CMBCOBE.png Graphic file (type png)
- <use figures/CMBCOBE.png>
-Package pdftex.def Info: figures/CMBCOBE.png used on input line 1361.
-(pdftex.def)             Requested size: 284.52756pt x 457.85388pt.
-
-Overfull \hbox (2.16235pt too wide) in paragraph at lines 1366--1367
-\OT1/cmr/m/n/10.95 Temperature fluc-tu-a-tions orig-i-nat-ing at the time of la
-st scat-ter-ing are called pri-mary anisotropies.
+ [45] [46 <./figures/CMBCOBE.png>]
+Underfull \hbox (badness 1270) in paragraph at lines 1385--1385
+[]\OT1/cmr/m/n/10 Figure 22: |\OT1/cmr/m/n/8 The in-flu-ence
  []
 
-[52] [53 <./figures/CMBCOBE.png>]
-Underfull \hbox (badness 6758) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 of the Sunyaev-Zeldovich
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 ground ra-di-a-tion. The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 dashed curve rep-re-sents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 the Planck dis-tri-bu-tion
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 of the un-per-turbed CMB
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 spec-trum, the solid curve
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 shows the spec-trum af-ter
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 the ra-di-a-tion has passed
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 through a cloud of hot
- []
-
-<figures/SZeffect.png, id=515, 456.70625pt x 474.77374pt>
+<figures/SZeffect.png, id=489, 456.70625pt x 474.77374pt>
 File: figures/SZeffect.png Graphic file (type png)
 
 <use figures/SZeffect.png>
-Package pdftex.def Info: figures/SZeffect.png used on input line 1390.
+Package pdftex.def Info: figures/SZeffect.png used on input line 1385.
 (pdftex.def)             Requested size: 227.62204pt x 236.62561pt.
 
-Underfull \hbox (badness 6758) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 of the Sunyaev-Zeldovich
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 ground ra-di-a-tion. The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 dashed curve rep-re-sents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 the Planck dis-tri-bu-tion
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 of the un-per-turbed CMB
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 spec-trum, the solid curve
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 shows the spec-trum af-ter
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 the ra-di-a-tion has passed
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 through a cloud of hot
+Underfull \hbox (badness 1270) in paragraph at lines 1385--1385
+[]\OT1/cmr/m/n/10 Figure 22: |\OT1/cmr/m/n/8 The in-flu-ence
  []
 
 File: figures/SZeffect.png Graphic file (type png)
 <use figures/SZeffect.png>
-Package pdftex.def Info: figures/SZeffect.png used on input line 1390.
+Package pdftex.def Info: figures/SZeffect.png used on input line 1385.
 (pdftex.def)             Requested size: 227.62204pt x 236.62561pt.
 
-Underfull \hbox (badness 6758) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 of the Sunyaev-Zeldovich
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 ground ra-di-a-tion. The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 dashed curve rep-re-sents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 the Planck dis-tri-bu-tion
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 of the un-per-turbed CMB
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 spec-trum, the solid curve
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 shows the spec-trum af-ter
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 the ra-di-a-tion has passed
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 1390--1390
-\OT1/cmr/m/n/9 through a cloud of hot
+Underfull \hbox (badness 1270) in paragraph at lines 1385--1385
+[]\OT1/cmr/m/n/10 Figure 22: |\OT1/cmr/m/n/8 The in-flu-ence
  []
 
 File: figures/SZeffect.png Graphic file (type png)
 <use figures/SZeffect.png>
-Package pdftex.def Info: figures/SZeffect.png used on input line 1390.
+Package pdftex.def Info: figures/SZeffect.png used on input line 1385.
 (pdftex.def)             Requested size: 227.62204pt x 236.62561pt.
- [54 <./figures/SZeffect.png>]
-<figures/SZrealistic.png, id=522, 846.16125pt x 405.515pt>
+ [47 <./figures/SZeffect.png>]
+<figures/SZrealistic.png, id=496, 846.16125pt x 405.515pt>
 File: figures/SZrealistic.png Graphic file (type png)
 
 <use figures/SZrealistic.png>
-Package pdftex.def Info: figures/SZrealistic.png used on input line 1432.
+Package pdftex.def Info: figures/SZrealistic.png used on input line 1427.
 (pdftex.def)             Requested size: 455.24408pt x 218.17043pt.
- [55] [56 <./figures/SZrealistic.png>] [57]
-Underfull \hbox (badness 2269) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 tially; see (4.83). This
+ [48 <./figures/SZrealistic.png>] [49]
+Underfull \hbox (badness 1960) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 by the gray bar, the Uni-
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 a phase tran-si-tion trans-
+Underfull \hbox (badness 2600) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 verse ex-pands ex-po-nen-tially.
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 forms the vac-uum en-ergy
+Underfull \hbox (badness 2486) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 mat-ter and ra-di-a-tion, af-ter
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 fla-tion-ary Uni-verse, Ba-sic
+Underfull \hbox (badness 2150) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 Adapted from: Alan Guth
  []
 
-<figures/Inflation.png, id=541, 609.27625pt x 501.875pt>
+
+Underfull \hbox (badness 1895) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 1998, The in-fla-tion-ary Uni-
+ []
+
+<figures/Inflation.png, id=512, 609.27625pt x 501.875pt>
 File: figures/Inflation.png Graphic file (type png)
 
 <use figures/Inflation.png>
-Package pdftex.def Info: figures/Inflation.png used on input line 1513.
-(pdftex.def)             Requested size: 284.52756pt x 234.38031pt.
+Package pdftex.def Info: figures/Inflation.png used on input line 1508.
+(pdftex.def)             Requested size: 256.0748pt x 210.93921pt.
 
-Underfull \hbox (badness 2269) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 tially; see (4.83). This
+Underfull \hbox (badness 1960) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 by the gray bar, the Uni-
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 a phase tran-si-tion trans-
+Underfull \hbox (badness 2600) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 verse ex-pands ex-po-nen-tially.
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 forms the vac-uum en-ergy
+Underfull \hbox (badness 2486) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 mat-ter and ra-di-a-tion, af-ter
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 fla-tion-ary Uni-verse, Ba-sic
- []
-
-File: figures/Inflation.png Graphic file (type png)
-<use figures/Inflation.png>
-Package pdftex.def Info: figures/Inflation.png used on input line 1513.
-(pdftex.def)             Requested size: 284.52756pt x 234.38031pt.
-
-Underfull \hbox (badness 2269) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 tially; see (4.83). This
+Underfull \hbox (badness 2150) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 Adapted from: Alan Guth
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 a phase tran-si-tion trans-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 forms the vac-uum en-ergy
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 1513--1513
-\OT1/cmr/m/n/9 fla-tion-ary Uni-verse, Ba-sic
+Underfull \hbox (badness 1895) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 1998, The in-fla-tion-ary Uni-
  []
 
 File: figures/Inflation.png Graphic file (type png)
 <use figures/Inflation.png>
-Package pdftex.def Info: figures/Inflation.png used on input line 1513.
-(pdftex.def)             Requested size: 284.52756pt x 234.38031pt.
+Package pdftex.def Info: figures/Inflation.png used on input line 1508.
+(pdftex.def)             Requested size: 256.0748pt x 210.93921pt.
+
+Underfull \hbox (badness 1960) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 by the gray bar, the Uni-
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 2600) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 verse ex-pands ex-po-nen-tially.
+ []
 
-[58] [59 <./figures/Inflation.png>]
-<figures/GUT.png, id=555, 748.7975pt x 344.28625pt>
+
+Underfull \hbox (badness 2486) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 mat-ter and ra-di-a-tion, af-ter
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 Adapted from: Alan Guth
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 1508--1508
+\OT1/cmr/m/n/8 1998, The in-fla-tion-ary Uni-
+ []
+
+File: figures/Inflation.png Graphic file (type png)
+<use figures/Inflation.png>
+Package pdftex.def Info: figures/Inflation.png used on input line 1508.
+(pdftex.def)             Requested size: 256.0748pt x 210.93921pt.
+ [50 <./figures/Inflation.png>]
+<figures/HorizonProblem.png, id=522, 731.73375pt x 687.56876pt>
+File: figures/HorizonProblem.png Graphic file (type png)
+
+<use figures/HorizonProblem.png>
+Package pdftex.def Info: figures/HorizonProblem.png used on input line 1551.
+(pdftex.def)             Requested size: 227.62204pt x 213.87851pt.
+File: figures/HorizonProblem.png Graphic file (type png)
+ <use figures/HorizonProblem.png>
+Package pdftex.def Info: figures/HorizonProblem.png used on input line 1551.
+(pdftex.def)             Requested size: 227.62204pt x 213.87851pt.
+File: figures/HorizonProblem.png Graphic file (type png)
+
+<use figures/HorizonProblem.png>
+Package pdftex.def Info: figures/HorizonProblem.png used on input line 1551.
+(pdftex.def)             Requested size: 227.62204pt x 213.87851pt.
+ [51] [52 <./figures/HorizonProblem.png>]
+<figures/GUT.png, id=534, 748.7975pt x 344.28625pt>
 File: figures/GUT.png Graphic file (type png)
  <use figures/GUT.png>
-Package pdftex.def Info: figures/GUT.png used on input line 1527.
-(pdftex.def)             Requested size: 455.24408pt x 209.3156pt.
+Package pdftex.def Info: figures/GUT.png used on input line 1606.
+(pdftex.def)             Requested size: 398.33858pt x 183.15378pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-[60 <./figures/GUT.png>]
+[53 <./figures/GUT.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [61]
+ [54]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [62] [63] [64] [65]
+ [55] [56] [57]
 Missing character: There is no Œ in font cmr10!
 Missing character: There is no ∏ in font cmr10!
- [66] [67]
-Underfull \hbox (badness 3209) in paragraph at lines 1783--1783
-[]\OT1/cmr/m/n/10.95 Figure 26: |\OT1/cmr/m/n/9 The scale
+ [58]
+Underfull \hbox (badness 2913) in paragraph at lines 1856--1856
+\OT1/cmr/m/n/8 of radiation-matter equal-ity,
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 1783--1783
-\OT1/cmr/m/n/9 The dot-ted lines in-di-cate
+Underfull \hbox (badness 4819) in paragraph at lines 1856--1856
+\OML/cmm/m/it/8 a[] \OT1/cmr/m/n/8 = 2\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8 \OMS/cm
+sy/m/n/8 ^^B \OT1/cmr/m/n/8 10[]$, the
  []
 
-<figures/avst.png, id=606, 698.61pt x 522.95375pt>
+
+Underfull \hbox (badness 1092) in paragraph at lines 1856--1856
+\OT1/cmr/m/n/8 ity, $\OML/cmm/m/it/8 a[] \OT1/cmr/m/n/8 = 0\OML/cmm/m/it/8 :\OT
+1/cmr/m/n/8 75$, and the
+ []
+
+<figures/avst.png, id=572, 698.61pt x 522.95375pt>
 File: figures/avst.png Graphic file (type png)
  <use figures/avst.png>
-Package pdftex.def Info: figures/avst.png used on input line 1783.
+Package pdftex.def Info: figures/avst.png used on input line 1856.
 (pdftex.def)             Requested size: 284.52756pt x 212.98407pt.
 
-Underfull \hbox (badness 3209) in paragraph at lines 1783--1783
-[]\OT1/cmr/m/n/10.95 Figure 26: |\OT1/cmr/m/n/9 The scale
+Underfull \hbox (badness 2913) in paragraph at lines 1856--1856
+\OT1/cmr/m/n/8 of radiation-matter equal-ity,
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 1783--1783
-\OT1/cmr/m/n/9 The dot-ted lines in-di-cate
+Underfull \hbox (badness 4819) in paragraph at lines 1856--1856
+\OML/cmm/m/it/8 a[] \OT1/cmr/m/n/8 = 2\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8 \OMS/cm
+sy/m/n/8 ^^B \OT1/cmr/m/n/8 10[]$, the
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 1856--1856
+\OT1/cmr/m/n/8 ity, $\OML/cmm/m/it/8 a[] \OT1/cmr/m/n/8 = 0\OML/cmm/m/it/8 :\OT
+1/cmr/m/n/8 75$, and the
  []
 
 File: figures/avst.png Graphic file (type png)
 <use figures/avst.png>
-Package pdftex.def Info: figures/avst.png used on input line 1783.
+Package pdftex.def Info: figures/avst.png used on input line 1856.
 (pdftex.def)             Requested size: 284.52756pt x 212.98407pt.
 
-Underfull \hbox (badness 3209) in paragraph at lines 1783--1783
-[]\OT1/cmr/m/n/10.95 Figure 26: |\OT1/cmr/m/n/9 The scale
+Underfull \hbox (badness 2913) in paragraph at lines 1856--1856
+\OT1/cmr/m/n/8 of radiation-matter equal-ity,
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 1783--1783
-\OT1/cmr/m/n/9 The dot-ted lines in-di-cate
+Underfull \hbox (badness 4819) in paragraph at lines 1856--1856
+\OML/cmm/m/it/8 a[] \OT1/cmr/m/n/8 = 2\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8 \OMS/cm
+sy/m/n/8 ^^B \OT1/cmr/m/n/8 10[]$, the
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 1856--1856
+\OT1/cmr/m/n/8 ity, $\OML/cmm/m/it/8 a[] \OT1/cmr/m/n/8 = 0\OML/cmm/m/it/8 :\OT
+1/cmr/m/n/8 75$, and the
  []
 
 File: figures/avst.png Graphic file (type png)
 <use figures/avst.png>
-Package pdftex.def Info: figures/avst.png used on input line 1783.
+Package pdftex.def Info: figures/avst.png used on input line 1856.
 (pdftex.def)             Requested size: 284.52756pt x 212.98407pt.
- [68 <./figures/avst.png>] [69]
-Underfull \hbox (badness 1210) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 Sloan Dig-i-tal Sky Sur-vey.
+ [59 <./figures/avst.png>] [60] [61] [62]
+Underfull \hbox (badness 2012) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 shifts $\OML/cmm/m/it/8 z > \OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT
+1/cmr/m/n/8 7$, dis-cov-ered
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 marked. Par-tic-u-larly re-
+Underfull \hbox (badness 1609) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 tion is not com-plete in all
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 for dif-fer-ent lines-of-sight,
+Underfull \hbox (badness 1527) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 vari-a-tions in the den-sity of
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 or the de-gree of ion-iza-
+Underfull \hbox (badness 2213) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 the hy-dro-gen den-sity varies
  []
 
-<figures/QSOabsorption.png, id=622, 473.77pt x 643.40375pt>
+<figures/QSOabsorption.png, id=602, 473.77pt x 643.40375pt>
 File: figures/QSOabsorption.png Graphic file (type png)
 
 <use figures/QSOabsorption.png>
-Package pdftex.def Info: figures/QSOabsorption.png used on input line 1844.
+Package pdftex.def Info: figures/QSOabsorption.png used on input line 1995.
 (pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
 
-Underfull \hbox (badness 1210) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 Sloan Dig-i-tal Sky Sur-vey.
+Underfull \hbox (badness 2012) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 shifts $\OML/cmm/m/it/8 z > \OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT
+1/cmr/m/n/8 7$, dis-cov-ered
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 marked. Par-tic-u-larly re-
+Underfull \hbox (badness 1609) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 tion is not com-plete in all
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 for dif-fer-ent lines-of-sight,
+Underfull \hbox (badness 1527) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 vari-a-tions in the den-sity of
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 or the de-gree of ion-iza-
- []
-
-File: figures/QSOabsorption.png Graphic file (type png)
-<use figures/QSOabsorption.png>
-Package pdftex.def Info: figures/QSOabsorption.png used on input line 1844.
-(pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
-
-Underfull \hbox (badness 1210) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 Sloan Dig-i-tal Sky Sur-vey.
- []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 marked. Par-tic-u-larly re-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 for dif-fer-ent lines-of-sight,
- []
-
-
-Underfull \hbox (badness 3657) in paragraph at lines 1844--1844
-\OT1/cmr/m/n/9 or the de-gree of ion-iza-
+Underfull \hbox (badness 2213) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 the hy-dro-gen den-sity varies
  []
 
 File: figures/QSOabsorption.png Graphic file (type png)
 <use figures/QSOabsorption.png>
-Package pdftex.def Info: figures/QSOabsorption.png used on input line 1844.
+Package pdftex.def Info: figures/QSOabsorption.png used on input line 1995.
 (pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
- [70 <./figures/QSOabsorption.png>]
-Underfull \hbox (badness 1502) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 mor-dial com-po-si-tion (blue
+
+Underfull \hbox (badness 2012) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 shifts $\OML/cmm/m/it/8 z > \OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT
+1/cmr/m/n/8 7$, dis-cov-ered
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 metal-lic-ity (green dashed
+Underfull \hbox (badness 1609) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 tion is not com-plete in all
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 to as-sume an equi-lib-rium
+Underfull \hbox (badness 1527) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 vari-a-tions in the den-sity of
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 is as-sumed that the gas
+Underfull \hbox (badness 2213) in paragraph at lines 1995--1995
+\OT1/cmr/m/n/8 the hy-dro-gen den-sity varies
+ []
+
+File: figures/QSOabsorption.png Graphic file (type png)
+<use figures/QSOabsorption.png>
+Package pdftex.def Info: figures/QSOabsorption.png used on input line 1995.
+(pdftex.def)             Requested size: 256.0748pt x 347.76665pt.
+ [63 <./figures/QSOabsorption.png>]
+Underfull \hbox (badness 1199) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 1/3 of the So-lar metal-lic-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 is in ther-mo-dy-nam-i-cal
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 (green dashed curve) and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 equi-lib-rium, where the
+Underfull \hbox (badness 2189) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 curve). On the top axis,
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 func-tion shown here is a
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 one needs to as-sume an
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 su-per-po-si-tion of dif-fer-ent
+Underfull \hbox (badness 5288) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 gas is in ther-mo-dy-nam-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 gas cool-ing pro-cesses,
+Underfull \hbox (badness 3118) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 of ion-iza-tion states of any
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 and bremsstrahlung, the
+Underfull \hbox (badness 4647) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 here is a su-per-po-si-tion of
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 hi-er-ar-chi-cal galaxy for-ma-
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 in-clud-ing atomic pro-cesses
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 tion: the semi-analytical
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 and bremsstrahlung, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 ap-proach, arXiv:astro-
+Underfull \hbox (badness 4072) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 lat-ter of which dom-i-nat-ing
  []
 
-<figures/CoolingFunction.png, id=628, 617.30624pt x 625.33624pt>
+
+Underfull \hbox (badness 3260) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 Baugh 2006, A primer on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 arXiv:astro-ph/0610031,
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 Fig.9. Fig-ure taken from
+ []
+
+<figures/CoolingFunction.png, id=608, 617.30624pt x 625.33624pt>
 File: figures/CoolingFunction.png Graphic file (type png)
 
 <use figures/CoolingFunction.png>
-Package pdftex.def Info: figures/CoolingFunction.png used on input line 1882.
+Package pdftex.def Info: figures/CoolingFunction.png used on input line 2033.
 (pdftex.def)             Requested size: 312.9803pt x 317.0566pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 mor-dial com-po-si-tion (blue
+Underfull \hbox (badness 1199) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 1/3 of the So-lar metal-lic-ity
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 metal-lic-ity (green dashed
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 (green dashed curve) and
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 to as-sume an equi-lib-rium
+Underfull \hbox (badness 2189) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 curve). On the top axis,
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 is as-sumed that the gas
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 one needs to as-sume an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 is in ther-mo-dy-nam-i-cal
+Underfull \hbox (badness 5288) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 gas is in ther-mo-dy-nam-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 equi-lib-rium, where the
+Underfull \hbox (badness 3118) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 of ion-iza-tion states of any
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 func-tion shown here is a
+Underfull \hbox (badness 4647) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 here is a su-per-po-si-tion of
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 su-per-po-si-tion of dif-fer-ent
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 in-clud-ing atomic pro-cesses
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 gas cool-ing pro-cesses,
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 and bremsstrahlung, the
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 and bremsstrahlung, the
+Underfull \hbox (badness 4072) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 lat-ter of which dom-i-nat-ing
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 hi-er-ar-chi-cal galaxy for-ma-
+Underfull \hbox (badness 3260) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 Baugh 2006, A primer on
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 tion: the semi-analytical
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 arXiv:astro-ph/0610031,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 ap-proach, arXiv:astro-
- []
-
-File: figures/CoolingFunction.png Graphic file (type png)
-<use figures/CoolingFunction.png>
-Package pdftex.def Info: figures/CoolingFunction.png used on input line 1882.
-(pdftex.def)             Requested size: 312.9803pt x 317.0566pt.
-
-Underfull \hbox (badness 1502) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 mor-dial com-po-si-tion (blue
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 metal-lic-ity (green dashed
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 to as-sume an equi-lib-rium
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 is as-sumed that the gas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 is in ther-mo-dy-nam-i-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 equi-lib-rium, where the
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 func-tion shown here is a
- []
-
-
-Underfull \hbox (badness 6944) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 su-per-po-si-tion of dif-fer-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 gas cool-ing pro-cesses,
- []
-
-
-Underfull \hbox (badness 8056) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 and bremsstrahlung, the
- []
-
-
-Underfull \hbox (badness 2012) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 hi-er-ar-chi-cal galaxy for-ma-
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 tion: the semi-analytical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1882
-\OT1/cmr/m/n/9 ap-proach, arXiv:astro-
+Underfull \hbox (badness 2875) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 Fig.9. Fig-ure taken from
  []
 
 File: figures/CoolingFunction.png Graphic file (type png)
 <use figures/CoolingFunction.png>
-Package pdftex.def Info: figures/CoolingFunction.png used on input line 1882.
+Package pdftex.def Info: figures/CoolingFunction.png used on input line 2033.
 (pdftex.def)             Requested size: 312.9803pt x 317.0566pt.
- [71]
-Underfull \hbox (badness 1009) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 ing of atomic and molec-
+
+Underfull \hbox (badness 1199) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 1/3 of the So-lar metal-lic-ity
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 u-lar hy-dro-gen (with 0.1%
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 (green dashed curve) and
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 u-lar hy-dro-gen; thus, the
+Underfull \hbox (badness 2189) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 curve). On the top axis,
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 for-ma-tion can take place.
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 one needs to as-sume an
  []
 
-<figures/CoolingFunctionHydrogen.png, id=633, 549.05125pt x 544.0325pt>
+
+Underfull \hbox (badness 5288) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 gas is in ther-mo-dy-nam-i-cal
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 of ion-iza-tion states of any
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 here is a su-per-po-si-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 in-clud-ing atomic pro-cesses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 and bremsstrahlung, the
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 lat-ter of which dom-i-nat-ing
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 Baugh 2006, A primer on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 arXiv:astro-ph/0610031,
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 2033--2033
+\OT1/cmr/m/n/8 Fig.9. Fig-ure taken from
+ []
+
+File: figures/CoolingFunction.png Graphic file (type png)
+<use figures/CoolingFunction.png>
+Package pdftex.def Info: figures/CoolingFunction.png used on input line 2033.
+(pdftex.def)             Requested size: 312.9803pt x 317.0566pt.
+ [64 <./figures/CoolingFunction.png>]
+Underfull \hbox (badness 1199) in paragraph at lines 2048--2048
+\OT1/cmr/m/n/8 sid-er-ably lower tem-per-a-tures
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 2048--2048
+\OT1/cmr/m/n/8 Source: R. Barkana & A.
+ []
+
+<figures/CoolingFunctionHydrogen.png, id=615, 549.05125pt x 544.0325pt>
 File: figures/CoolingFunctionHydrogen.png Graphic file (type png)
 
 <use figures/CoolingFunctionHydrogen.png>
 Package pdftex.def Info: figures/CoolingFunctionHydrogen.png used on input line
- 1897.
+ 2048.
 (pdftex.def)             Requested size: 256.0748pt x 253.7362pt.
 
-Underfull \hbox (badness 1009) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 ing of atomic and molec-
+Underfull \hbox (badness 1199) in paragraph at lines 2048--2048
+\OT1/cmr/m/n/8 sid-er-ably lower tem-per-a-tures
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 u-lar hy-dro-gen (with 0.1%
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 u-lar hy-dro-gen; thus, the
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 for-ma-tion can take place.
+Underfull \hbox (badness 2189) in paragraph at lines 2048--2048
+\OT1/cmr/m/n/8 Source: R. Barkana & A.
  []
 
 File: figures/CoolingFunctionHydrogen.png Graphic file (type png)
 <use figures/CoolingFunctionHydrogen.png>
 Package pdftex.def Info: figures/CoolingFunctionHydrogen.png used on input line
- 1897.
+ 2048.
 (pdftex.def)             Requested size: 256.0748pt x 253.7362pt.
 
-Underfull \hbox (badness 1009) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 ing of atomic and molec-
+Underfull \hbox (badness 1199) in paragraph at lines 2048--2048
+\OT1/cmr/m/n/8 sid-er-ably lower tem-per-a-tures
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 u-lar hy-dro-gen (with 0.1%
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 u-lar hy-dro-gen; thus, the
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 1897--1897
-\OT1/cmr/m/n/9 for-ma-tion can take place.
+Underfull \hbox (badness 2189) in paragraph at lines 2048--2048
+\OT1/cmr/m/n/8 Source: R. Barkana & A.
  []
 
 File: figures/CoolingFunctionHydrogen.png Graphic file (type png)
 <use figures/CoolingFunctionHydrogen.png>
 Package pdftex.def Info: figures/CoolingFunctionHydrogen.png used on input line
- 1897.
+ 2048.
 (pdftex.def)             Requested size: 256.0748pt x 253.7362pt.
- [72 <./figures/CoolingFunction.png>]
-<figures/reionization.png, id=644, 898.35625pt x 462.72874pt>
+ [65 <./figures/CoolingFunctionHydrogen.png>] <figures/reionization.png, id=625
+, 898.35625pt x 462.72874pt>
 File: figures/reionization.png Graphic file (type png)
 
 <use figures/reionization.png>
-Package pdftex.def Info: figures/reionization.png used on input line 1913.
+Package pdftex.def Info: figures/reionization.png used on input line 2064.
 (pdftex.def)             Requested size: 455.24408pt x 234.48462pt.
- [73 <./figures/CoolingFunctionHydrogen.png>]
-[74 <./figures/reionization.png>]
-Underfull \hbox (badness 4279) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 QSO ULAS J1120+0641)
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 at the Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 emis-sion
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 tran-si-tion is ex-
- []
-
-<figures/QSOreionization.png, id=657, 534.99875pt x 537.00626pt>
-File: figures/QSOreionization.png Graphic file (type png)
-
-<use figures/QSOreionization.png>
-Package pdftex.def Info: figures/QSOreionization.png used on input line 1939.
-(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
-
-Underfull \hbox (badness 4279) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 QSO ULAS J1120+0641)
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 at the Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 emis-sion
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 tran-si-tion is ex-
- []
-
-File: figures/QSOreionization.png Graphic file (type png)
-<use figures/QSOreionization.png>
-Package pdftex.def Info: figures/QSOreionization.png used on input line 1939.
-(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
-
-Underfull \hbox (badness 4279) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 QSO ULAS J1120+0641)
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 at the Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 emis-sion
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 1939--1939
-\OT1/cmr/m/n/9 Lyman$\OML/cmm/m/it/9 $ \OT1/cmr/m/n/9 tran-si-tion is ex-
- []
-
-File: figures/QSOreionization.png Graphic file (type png)
-<use figures/QSOreionization.png>
-Package pdftex.def Info: figures/QSOreionization.png used on input line 1939.
-(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
- [75 <./figures/QSOreionization.png>]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ® in font cmr10!
-Missing character: There is no Œ in font cmr10!
-Missing character: There is no ± in font cmr10!
-
-<figures/SDSSQSO.png, id=665, 629.35126pt x 754.82pt>
-File: figures/SDSSQSO.png Graphic file (type png)
-
-<use figures/SDSSQSO.png>
-Package pdftex.def Info: figures/SDSSQSO.png used on input line 1973.
-(pdftex.def)             Requested size: 398.33858pt x 477.7505pt.
-
-Underfull \hbox (badness 2680) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 lu-tion of the mean neu-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 the ab-sorp-tion of ion-iz-ing
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 QSOs (Gunn-Peterson ef-
- []
-
-<figures/HIvsz.png, id=667, 613.29124pt x 576.1525pt>
-File: figures/HIvsz.png Graphic file (type png)
- <use figures/HIvsz.png>
-Package pdftex.def Info: figures/HIvsz.png used on input line 1985.
-(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
-
-Underfull \hbox (badness 2680) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 lu-tion of the mean neu-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 the ab-sorp-tion of ion-iz-ing
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 QSOs (Gunn-Peterson ef-
- []
-
-File: figures/HIvsz.png Graphic file (type png)
-<use figures/HIvsz.png>
-Package pdftex.def Info: figures/HIvsz.png used on input line 1985.
-(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
-
-Underfull \hbox (badness 2680) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 lu-tion of the mean neu-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 the ab-sorp-tion of ion-iz-ing
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 1985--1985
-\OT1/cmr/m/n/9 QSOs (Gunn-Peterson ef-
- []
-
-File: figures/HIvsz.png Graphic file (type png)
-<use figures/HIvsz.png>
-Package pdftex.def Info: figures/HIvsz.png used on input line 1985.
-(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
- [76] [77 <./figures/SDSSQSO.png>]
-<figures/LyaForest.png, id=684, 558.085pt x 272.01625pt>
+ [66 <./figures/reionization.png>]
+<figures/LyaForest.png, id=632, 558.085pt x 272.01625pt>
 File: figures/LyaForest.png Graphic file (type png)
 
 <use figures/LyaForest.png>
-Package pdftex.def Info: figures/LyaForest.png used on input line 1993.
+Package pdftex.def Info: figures/LyaForest.png used on input line 2087.
 (pdftex.def)             Requested size: 398.33858pt x 194.15808pt.
- [78 <./figures/HIvsz.png> <./figures/LyaForest.png>] <figures/21cm_annotated.j
-pg, id=694, 2164.085pt x 1108.14pt>
+ [67 <./figures/LyaForest.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ® in font cmr10!
+
+Underfull \hbox (badness 3407) in paragraph at lines 2103--2103
+[]\OT1/cmr/m/n/10 Figure 33: |\OT1/cmr/m/n/8 The spec-tra
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 2103--2103
+\OT1/cmr/m/n/8 of three high-redshift QSOs
+ []
+
+<figures/QSOreionization.png, id=642, 534.99875pt x 537.00626pt>
+File: figures/QSOreionization.png Graphic file (type png)
+
+<use figures/QSOreionization.png>
+Package pdftex.def Info: figures/QSOreionization.png used on input line 2103.
+(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
+
+Underfull \hbox (badness 3407) in paragraph at lines 2103--2103
+[]\OT1/cmr/m/n/10 Figure 33: |\OT1/cmr/m/n/8 The spec-tra
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 2103--2103
+\OT1/cmr/m/n/8 of three high-redshift QSOs
+ []
+
+File: figures/QSOreionization.png Graphic file (type png)
+<use figures/QSOreionization.png>
+Package pdftex.def Info: figures/QSOreionization.png used on input line 2103.
+(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
+
+Underfull \hbox (badness 3407) in paragraph at lines 2103--2103
+[]\OT1/cmr/m/n/10 Figure 33: |\OT1/cmr/m/n/8 The spec-tra
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 2103--2103
+\OT1/cmr/m/n/8 of three high-redshift QSOs
+ []
+
+File: figures/QSOreionization.png Graphic file (type png)
+<use figures/QSOreionization.png>
+Package pdftex.def Info: figures/QSOreionization.png used on input line 2103.
+(pdftex.def)             Requested size: 256.0748pt x 257.0472pt.
+ [68 <./figures/QSOreionization.png>]
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ± in font cmr10!
+
+<figures/SDSSQSO.png, id=649, 629.35126pt x 754.82pt>
+File: figures/SDSSQSO.png Graphic file (type png)
+
+<use figures/SDSSQSO.png>
+Package pdftex.def Info: figures/SDSSQSO.png used on input line 2131.
+(pdftex.def)             Requested size: 398.33858pt x 477.7505pt.
+
+<figures/HIvsz.png, id=651, 613.29124pt x 576.1525pt>
+File: figures/HIvsz.png Graphic file (type png)
+ <use figures/HIvsz.png>
+Package pdftex.def Info: figures/HIvsz.png used on input line 2143.
+(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
+File: figures/HIvsz.png Graphic file (type png)
+
+<use figures/HIvsz.png>
+Package pdftex.def Info: figures/HIvsz.png used on input line 2143.
+(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
+File: figures/HIvsz.png Graphic file (type png)
+ <use figures/HIvsz.png>
+Package pdftex.def Info: figures/HIvsz.png used on input line 2143.
+(pdftex.def)             Requested size: 284.52756pt x 267.29274pt.
+ [69 <./figures/SDSSQSO.png>]
+[70 <./figures/HIvsz.png>]
+<figures/21cm_annotated.jpg, id=671, 2164.085pt x 1108.14pt>
 File: figures/21cm_annotated.jpg Graphic file (type jpg)
 
 <use figures/21cm_annotated.jpg>
-Package pdftex.def Info: figures/21cm_annotated.jpg used on input line 2037.
+Package pdftex.def Info: figures/21cm_annotated.jpg used on input line 2188.
 (pdftex.def)             Requested size: 455.24408pt x 233.10516pt.
- [79] [80 <./figures/21cm_annotated.jpg>]
-<figures/21cm.png, id=709, 883.3pt x 390.45876pt>
-File: figures/21cm.png Graphic file (type png)
- <use figures/21cm.png>
-Package pdftex.def Info: figures/21cm.png used on input line 2066.
-(pdftex.def)             Requested size: 455.24408pt x 201.24042pt.
+ [71] [72 <./figures/21cm_annotated.jpg>]
+Overfull \hbox (3.40555pt too wide) in paragraph at lines 2222--2223
+\OT1/cmr/m/n/10 where $(\OML/cmm/m/it/10 g[]=g[]\OT1/cmr/m/n/10 ) = 3$ is the r
+a-tio of the sta-tis-ti-cal de-gen-er-acy fac-tors of the two lev-els, and $\OM
+L/cmm/m/it/10 T[] \OMS/cmsy/m/n/10 ^^Q \OML/cmm/m/it/10 hc=k[]^^U[] \OT1/cmr/m/
+n/10 =
+ []
 
-[81 <./figures/21cm.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
- [82]
-<figures/21cm_schematic.png, id=720, 924.45375pt x 383.4325pt>
+[73] <figures/21cm_schematic.png, id=690, 924.45375pt x 383.4325pt>
 File: figures/21cm_schematic.png Graphic file (type png)
 
 <use figures/21cm_schematic.png>
-Package pdftex.def Info: figures/21cm_schematic.png used on input line 2115.
+Package pdftex.def Info: figures/21cm_schematic.png used on input line 2258.
 (pdftex.def)             Requested size: 455.24408pt x 188.81967pt.
- [83 <./figures/21cm_schematic.png>]
-Overfull \hbox (28.22195pt too wide) in paragraph at lines 2138--2139
-\OT1/cmr/m/n/10.95 We may ex-press the $21 []$ bright-ness tem-per-a-ture as a 
-func-tion of four vari-ables $\OML/cmm/m/it/10.95 T[] \OT1/cmr/m/n/10.95 = \OML
-/cmm/m/it/10.95 T[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 T[]; x[]; J[]; n[]\O
-T1/cmr/m/n/10.95 )$,
- []
-
-[84] <figures/EBmodes.png, id=734, 600.2425pt x 355.3275pt>
+ [74 <./figures/21cm_schematic.png>]
+<figures/EBmodes.png, id=699, 600.2425pt x 355.3275pt>
 File: figures/EBmodes.png Graphic file (type png)
 
 <use figures/EBmodes.png>
-Package pdftex.def Info: figures/EBmodes.png used on input line 2162.
+Package pdftex.def Info: figures/EBmodes.png used on input line 2305.
 (pdftex.def)             Requested size: 455.24408pt x 269.49866pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -3179,289 +2380,192 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [85 <./figures/EBmodes.png>]
-<figures/ScalarQuadrupole.png, id=746, 683.55376pt x 578.16pt>
+ [75 <./figures/EBmodes.png>]
+<figures/ScalarQuadrupole.png, id=710, 683.55376pt x 578.16pt>
 File: figures/ScalarQuadrupole.png Graphic file (type png)
 
 <use figures/ScalarQuadrupole.png>
-Package pdftex.def Info: figures/ScalarQuadrupole.png used on input line 2183.
+Package pdftex.def Info: figures/ScalarQuadrupole.png used on input line 2324.
 (pdftex.def)             Requested size: 227.62204pt x 192.52249pt.
 
-<figures/QuadrupolarAnisotropies.png, id=747, 1195.46625pt x 404.51125pt>
+<figures/QuadrupolarAnisotropies.png, id=711, 1195.46625pt x 404.51125pt>
 File: figures/QuadrupolarAnisotropies.png Graphic file (type png)
 
 <use figures/QuadrupolarAnisotropies.png>
 Package pdftex.def Info: figures/QuadrupolarAnisotropies.png used on input line
- 2184.
+ 2325.
 (pdftex.def)             Requested size: 426.79134pt x 144.41415pt.
 
-<figures/ScalarPattern.png, id=748, 1165.35374pt x 436.63126pt>
+<figures/ScalarPattern.png, id=712, 1165.35374pt x 436.63126pt>
 File: figures/ScalarPattern.png Graphic file (type png)
 
 <use figures/ScalarPattern.png>
-Package pdftex.def Info: figures/ScalarPattern.png used on input line 2185.
+Package pdftex.def Info: figures/ScalarPattern.png used on input line 2326.
 (pdftex.def)             Requested size: 426.79134pt x 159.90541pt.
-Missing character: There is no Œ in font cmr9!
-Missing character: There is no ∏ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no Œ in font cmr9!
-Missing character: There is no ∏ in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no º in font cmr9!
- [86] [87 <./figures/ScalarQuadrupole.png> <./figures/QuadrupolarAnisotropies.p
-ng> <./figures/ScalarPattern.png>]
-<figures/VectorQuadrupole.png, id=770, 451.6875pt x 363.3575pt>
+Missing character: There is no Œ in font cmr8!
+Missing character: There is no ∏ in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no º in font cmr8!
+Missing character: There is no Œ in font cmr8!
+Missing character: There is no ∏ in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no º in font cmr8!
+ [76 <./figures/ScalarQuadrupole.png> <./figures/QuadrupolarAnisotropies.png> <
+./figures/ScalarPattern.png>]
+<figures/VectorQuadrupole.png, id=729, 451.6875pt x 363.3575pt>
 File: figures/VectorQuadrupole.png Graphic file (type png)
 
 <use figures/VectorQuadrupole.png>
-Package pdftex.def Info: figures/VectorQuadrupole.png used on input line 2218.
+Package pdftex.def Info: figures/VectorQuadrupole.png used on input line 2357.
 (pdftex.def)             Requested size: 227.62204pt x 183.11429pt.
 
-<figures/VectorPattern.png, id=771, 810.02625pt x 335.2525pt>
+<figures/VectorPattern.png, id=730, 810.02625pt x 335.2525pt>
 File: figures/VectorPattern.png Graphic file (type png)
 
 <use figures/VectorPattern.png>
-Package pdftex.def Info: figures/VectorPattern.png used on input line 2219.
+Package pdftex.def Info: figures/VectorPattern.png used on input line 2358.
 (pdftex.def)             Requested size: 426.79134pt x 176.64452pt.
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no º in font cmr9!
- [88 <./figures/VectorQuadrupole.png> <./figures/VectorPattern.png>]
-
-LaTeX Warning: Reference `fig:tensorquadrupole' on page 89 undefined on input l
-ine 2239.
-
-<figures/TensorQuadrupole.png, id=784, 451.6875pt x 381.425pt>
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no º in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no º in font cmr8!
+ [77]
+<figures/TensorQuadrupole.png, id=743, 451.6875pt x 381.425pt>
 File: figures/TensorQuadrupole.png Graphic file (type png)
 
 <use figures/TensorQuadrupole.png>
-Package pdftex.def Info: figures/TensorQuadrupole.png used on input line 2249.
+Package pdftex.def Info: figures/TensorQuadrupole.png used on input line 2388.
 (pdftex.def)             Requested size: 227.62204pt x 192.21942pt.
 
-<figures/TensorPattern.png, id=785, 799.98875pt x 337.26pt>
+<figures/TensorPattern.png, id=744, 799.98875pt x 337.26pt>
 File: figures/TensorPattern.png Graphic file (type png)
 
 <use figures/TensorPattern.png>
-Package pdftex.def Info: figures/TensorPattern.png used on input line 2250.
+Package pdftex.def Info: figures/TensorPattern.png used on input line 2389.
 (pdftex.def)             Requested size: 426.79134pt x 179.93056pt.
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no º in font cmr9!
- [89]
-<figures/CMBquad.png, id=799, 527.9725pt x 355.3275pt>
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no º in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no º in font cmr8!
+ [78 <./figures/VectorQuadrupole.png> <./figures/VectorPattern.png>] [79 <./fig
+ures/TensorQuadrupole.png> <./figures/TensorPattern.png>] <figures/CMBquad.png,
+ id=768, 527.9725pt x 355.3275pt>
 File: figures/CMBquad.png Graphic file (type png)
 
 <use figures/CMBquad.png>
-Package pdftex.def Info: figures/CMBquad.png used on input line 2273.
+Package pdftex.def Info: figures/CMBquad.png used on input line 2412.
 (pdftex.def)             Requested size: 284.52756pt x 191.48361pt.
- [90 <./figures/TensorQuadrupole.png> <./figures/TensorPattern.png>] <figures/P
-olPatterns.png, id=815, 762.85pt x 428.60126pt>
+
+<figures/PolPatterns.png, id=777, 762.85pt x 428.60126pt>
 File: figures/PolPatterns.png Graphic file (type png)
 
 <use figures/PolPatterns.png>
-Package pdftex.def Info: figures/PolPatterns.png used on input line 2288.
+Package pdftex.def Info: figures/PolPatterns.png used on input line 2427.
 (pdftex.def)             Requested size: 455.24408pt x 255.77626pt.
- [91 <./figures/CMBquad.png>] [92 <./figures/PolPatterns.png>] [93]
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-[]\OT1/cmr/m/n/10.95 Figure 44: |\OT1/cmr/m/n/9 Al-lowed
+ [80 <./figures/CMBquad.png>] [81 <./figures/PolPatterns.png>] [82]
+Underfull \hbox (badness 1442) in paragraph at lines 2498--2498
+\OT1/cmr/m/n/8 re-sults. XVI. Cos-mo-log-i-cal
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 re-gion in the pa-ram-e-ter
+Underfull \hbox (badness 3179) in paragraph at lines 2498--2498
+\OT1/cmr/m/n/8 pa-ram-e-ters, arXiv:1303.5076,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 of neu-trino masses and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 the ef-fec-tive num-ber of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 neu-trino fam-i-lies $\OML/cmm/m/it/9 N[]$\OT1/cmr/m/n/9 .
- []
-
-
-Underfull \hbox (badness 4467) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 in com-bi-na-tion with the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 Cos-mo-log-i-cal pa-ram-e-ters,
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 the Planck Col-lab-o-ra-tion.
- []
-
-<figures/neutrinomasses.png, id=841, 597.23125pt x 477.785pt>
+<figures/neutrinomasses.png, id=803, 597.23125pt x 477.785pt>
 File: figures/neutrinomasses.png Graphic file (type png)
 
 <use figures/neutrinomasses.png>
-Package pdftex.def Info: figures/neutrinomasses.png used on input line 2360.
-(pdftex.def)             Requested size: 284.52756pt x 227.62094pt.
+Package pdftex.def Info: figures/neutrinomasses.png used on input line 2498.
+(pdftex.def)             Requested size: 256.0748pt x 204.8603pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-[]\OT1/cmr/m/n/10.95 Figure 44: |\OT1/cmr/m/n/9 Al-lowed
+Underfull \hbox (badness 1442) in paragraph at lines 2498--2498
+\OT1/cmr/m/n/8 re-sults. XVI. Cos-mo-log-i-cal
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 re-gion in the pa-ram-e-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 of neu-trino masses and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 the ef-fec-tive num-ber of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 neu-trino fam-i-lies $\OML/cmm/m/it/9 N[]$\OT1/cmr/m/n/9 .
- []
-
-
-Underfull \hbox (badness 4467) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 in com-bi-na-tion with the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 Cos-mo-log-i-cal pa-ram-e-ters,
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 the Planck Col-lab-o-ra-tion.
+Underfull \hbox (badness 3179) in paragraph at lines 2498--2498
+\OT1/cmr/m/n/8 pa-ram-e-ters, arXiv:1303.5076,
  []
 
 File: figures/neutrinomasses.png Graphic file (type png)
 <use figures/neutrinomasses.png>
-Package pdftex.def Info: figures/neutrinomasses.png used on input line 2360.
-(pdftex.def)             Requested size: 284.52756pt x 227.62094pt.
+Package pdftex.def Info: figures/neutrinomasses.png used on input line 2498.
+(pdftex.def)             Requested size: 256.0748pt x 204.8603pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-[]\OT1/cmr/m/n/10.95 Figure 44: |\OT1/cmr/m/n/9 Al-lowed
+Underfull \hbox (badness 1442) in paragraph at lines 2498--2498
+\OT1/cmr/m/n/8 re-sults. XVI. Cos-mo-log-i-cal
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 re-gion in the pa-ram-e-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 of neu-trino masses and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 the ef-fec-tive num-ber of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 neu-trino fam-i-lies $\OML/cmm/m/it/9 N[]$\OT1/cmr/m/n/9 .
- []
-
-
-Underfull \hbox (badness 4467) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 in com-bi-na-tion with the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 Cos-mo-log-i-cal pa-ram-e-ters,
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 2360--2360
-\OT1/cmr/m/n/9 the Planck Col-lab-o-ra-tion.
+Underfull \hbox (badness 3179) in paragraph at lines 2498--2498
+\OT1/cmr/m/n/8 pa-ram-e-ters, arXiv:1303.5076,
  []
 
 File: figures/neutrinomasses.png Graphic file (type png)
 <use figures/neutrinomasses.png>
-Package pdftex.def Info: figures/neutrinomasses.png used on input line 2360.
-(pdftex.def)             Requested size: 284.52756pt x 227.62094pt.
- [94] [95 <./figures/neutrinomasses.png>]
-[96] [97] 
+Package pdftex.def Info: figures/neutrinomasses.png used on input line 2498.
+(pdftex.def)             Requested size: 256.0748pt x 204.8603pt.
+ [83 <./figures/neutrinomasses.png>] [84]
+[85] 
 AED: lastpage setting LastPage
-[98]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2485.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2485.
+[86]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2622.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2622.
  (./cosmology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2485.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2485.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2622.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2622.
 
 Package rerunfilecheck Info: File `cosmology.out' has not changed.
 (rerunfilecheck)             Checksum: 9B306CF90C64BDFC4E707B7B255DB0F7;1376.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2485.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2622.
  ) 
 Here is how much of TeX's memory you used:
- 9840 strings out of 492995
- 150782 string characters out of 6132704
- 286161 words of memory out of 5000000
- 12971 multiletter control sequences out of 15000+600000
- 17586 words of font info for 64 fonts, out of 8000000 for 9000
+ 9817 strings out of 492995
+ 150611 string characters out of 6132704
+ 285971 words of memory out of 5000000
+ 12964 multiletter control sequences out of 15000+600000
+ 15553 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,51p,3063b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,18n,51p,3060b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on cosmology.pdf (98 pages, 16382446 bytes).
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on cosmology.pdf (86 pages, 16029502 bytes).
 PDF statistics:
- 1005 PDF objects out of 1200 (max. 8388607)
- 770 compressed objects within 8 object streams
- 234 named destinations out of 1000 (max. 500000)
+ 970 PDF objects out of 1000 (max. 8388607)
+ 744 compressed objects within 8 object streams
+ 222 named destinations out of 1000 (max. 500000)
  420 words of extra memory for PDF output out of 10000 (max. 10000000)
 
