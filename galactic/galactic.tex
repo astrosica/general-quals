@@ -83,7 +83,47 @@ What is a stellar Initial Mass Function (IMF)? Sketch it. Give a couple of examp
 
 \subsubsection{Short answer}
 
-The initial mass function is an empirical description of the number of stars that form per unit mass interval per unit volume. 
+The initial mass function is an empirical description of the number of stars that form per unit mass interval per unit volume often parameterized as $\xi(M)\propto{\rm d}N/{\rm d}M$.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{$M\mathrm{d}N/\mathrm{d}\ln M$, the mass formed per logarithmic interval in stellar mass $M$, for IMFs of Kroupa (2001) and Chabrier (2003), normalized to the value at $M=1\,{M_\odot}$. Figure taken from Draine (2011).}}
+    \label{fig:KroupaChabrier}}
+    {\includegraphics[width=10cm]{figures/KroupaChabrier.png}}
+\end{figure}
+
+{\noindent}The \textbf{Kroupa IMF} is parameterized as
+
+\begin{equation*}
+\xi(M) \propto
+\left\{
+\begin{aligned}
+M^{0.3}, ~~~~~& \mathrm{if}\,M<0.08\,{\rm M_\odot} \\
+M^{1.3}, ~~~~~& \mathrm{if}\,0.08<M<0.5\,{\rm M_\odot} \\
+M^{-2.3}, ~~~~~& \mathrm{if}\,M>0.5\,{\rm M_\odot}
+\end{aligned}
+\right.
+,
+\end{equation*}
+
+{\noindent}while the \textbf{Chabrier IMF} is parameterized as
+
+\begin{equation*}
+\xi(M) \propto
+\left\{
+\begin{aligned}
+\frac{\exp(\log M)}{M}, ~~~~~& \mathrm{if}\,M<1.0\,{\rm M_\odot} \\
+M^{-2.3}, ~~~~~& \mathrm{if}\,M>1.0\,{\rm M_\odot}
+\end{aligned}
+\right.
+.
+\end{equation*}
+
+{\noindent}Both of these are equal to the \textbf{Salpeter IMF} at large masses:
+
+\begin{equation*}
+\xi(M) \propto M^{-2.3}.
+\end{equation*}
 
 \subsubsection{Additional context}
 
@@ -92,13 +132,6 @@ The IMF is perhaps the single most important distribution in stellar and galacti
 {\noindent}If we sum over the stars formed in a large star-forming region (e.g., the Orion Nebula Cluster), we can discuss the distribution of initial stellar masses -- the \textbf{initial mass function}, or IMF. Beginning with the pioneering work of Salpeter (1955), there have been many studies of the IMF in different regions of the Milky Way, and in other galaxies. There is no reason to think that the IMF should be universal, yet it shows remarkable uniformity from region to region. There may be systematic variations in the IMF depending on environmental conditions, but the variations are surprisingly small. It is difficult to determine the IMF at the high-mass end because massive stars are rare, and at the low-mass end because low-mass stars are faint. Nevertheless, for $0.01$ to $50\,{\rm M_\odot}$, there is reasonable agreement between different studies.
 
 {\noindent}Figure \ref{fig:KroupaChabrier} shows two recent estimates (Kroupa 2001; Chabrier 2003) for the IMF in the disk of the MW. For $M\gtrsim1\,{\rm M_\odot}$, the observations are consistent with a power law $\mathrm{d}N/\mathrm{d}M\propto M^{-2.3}$, very close to the slope $\mathrm{d}N/\mathrm{d}M\propto M^{-2.35}$ originally found in the pioneering study by Salpeter (1955). The Kroupa and Chabrier estimates for the IMF differ only in detail. While appreciable numbers of low-mass stars are formed, the mass per logarithmic mass interval peaks near $\sim0.5-1\,{\rm M_\odot}$. Table \ref{table:chabrier} provides some useful integral properties of the IMF. For example, for a total star formation rate $\dot{M}$, the rate of formation of $M>8\,{M_\odot}$ stars is $\dot{M}\times0.2118/19.14\,{\rm M_\odot}$. If $M>8\,{M_\odot}$ stars become Type II supernovae, then the Milky Way star formation rate $\sim1.3\,{\rm M_\odot\,yr^{-1}}$corresponds to a Type II SN rate $0.014\,{\rm yr^{-1}}=1/70\,{\rm yr}$.
-
-\begin{figure}[h]
-    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
-    {\caption{\footnotesize{$M\mathrm{d}N/\mathrm{d}\ln M$, the mass formed per logarithmic interval in stellar mass $M$, for IMFs of Kroupa (2001) and Chabrier (2003), normalized to the value at $M=1\,{M_\odot}$. Figure taken from Draine (2011).}}
-    \label{fig:KroupaChabrier}}
-    {\includegraphics[width=10cm]{figures/KroupaChabrier.png}}
-\end{figure}
 
 {\noindent}Since the observable signatures for star formation are obtained only from massive stars, their formation rate needs to be extrapolated to lower masses to obtain the full SFR by assuming an IMF. Typically, a Salpeter-IMF is chosen between $0.1\,M_\odot\leq M\leq 100\,M_\odot$. However, there are clear indications that the IMF may be flatter for $M\lesssim1\,M_\odot$ than described by the Salpeter law, and several descriptions for such modified IMFs have been developed over the years, mainly based on observations and interpretation of star-forming regions in our MW or in nearby galaxies. The total stellar mass, obtained by integration over the IMF, is up to a factor of $\sim2$ lower in these modified IMFs than for the Salpeter IMF. Thus, this factor provides a characteristic uncertainty in the determination of the SFR from observations; a similar, though somewhat smaller uncertainty applies to the stellar mass density whose estimation also is mainly based on the more massive stars of a galaxy which dominate the luminosity. Furthermore, the IMF need not be universal, but may in principle vary between different environments, or depend on the metallicity of the gas from which stars are formed. Whereas there has not yet been unambiguous evidence for variations of the IMF, this possibility must always be taken into account.
 
@@ -289,14 +322,14 @@ and $\rho+d\rho$ is
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{Temperature versus density found in a one-dimensional calculation of the collapse of a $1\,{\rm M_\odot}$ gas cloud, at the moment immediately before a central protostar forms. Figure taken from Draine (2011).}}
     \label{fig:sf_tvsrho}}
-    {\includegraphics[width=12cm]{figures/SF_TvsRho.png}}
+    {\includegraphics[width=10cm]{figures/SF_TvsRho.png}}
 \end{figure}
 
 {\noindent}At low density the main heating source is cosmic rays and UV photons, both of which produce a constant heating rate per nucleus if attenuation is not significant. This is because the flux of CRs and UV photons is about constant, and the rate of energy deposition is just proportional to the number of target atoms or dust grains for them to interact with. Cooling is primarily by lines, either of CO once the gas is mostly molecular, or of C$_\mathrm{II}$ or O where it is significantly atomic.
 
 {\noindent}In both cases, at low density the gas is slightly below the critical density of the line, so the cooling rate per nucleus or per molecule is an increasing function of density. Since heating per nucleus is constant but cooling per nucleus increases, the equilibrium temperature decreases with density. As one goes to higher density and passes the CO critical density this effect ceases. At that point one generally starts to reach densities such that shielding against UV photons is significant, so the heating rate goes down and thus the temperature continues to drop with density.
 
-{\noindent}This begins to change at a density of around $10^{18}\,{\rm g\,cm^{-3}}$, $n\sim10^5--10^6\,{\rm cm^{-3}}$. By this point the gas and dust have been thermally well-coupled by collisions, and the molecular lines are extremely optically thick, so dust is the main thermostat. As long as the gas is optically thin to thermal dust emission, which it is at these densities, the dust cooling rate per molecule is fixed, since the cooling rate just depends on the number of dust grains. Heating at these densities comes primarily from compression as the gas collapses, i.e., it is just $P{\rm d}V$ work. If the compression were at a constant rate, the heating rate per molecule would be constant. However, the free-fall time decreases with density, so the collapse rate and thus the heating rate per molecule increase with density. The combination of fixed cooling rate and increasing heating rate causes the temperature to begin rising with density. At still higher densities, $10^{13}\,{\rm g\,cm^{-3}}$, the gas becomes optically thick to dust thermal emission. At this point the gas simply acts adiabatically, with all the $PdV$ work being retained, so the heating rate with density rises again.
+{\noindent}This begins to change at a density of around $10^{18}\,{\rm g\,cm^{-3}}$, $n\sim10^5-10^6\,{\rm cm^{-3}}$. By this point the gas and dust have been thermally well-coupled by collisions, and the molecular lines are extremely optically thick, so dust is the main thermostat. As long as the gas is optically thin to thermal dust emission, which it is at these densities, the dust cooling rate per molecule is fixed, since the cooling rate just depends on the number of dust grains. Heating at these densities comes primarily from compression as the gas collapses, i.e., it is just $P{\rm d}V$ work. If the compression were at a constant rate, the heating rate per molecule would be constant. However, the free-fall time decreases with density, so the collapse rate and thus the heating rate per molecule increase with density. The combination of fixed cooling rate and increasing heating rate causes the temperature to begin rising with density. At still higher densities, $10^{13}\,{\rm g\,cm^{-3}}$, the gas becomes optically thick to dust thermal emission. At this point the gas simply acts adiabatically, with all the $PdV$ work being retained, so the heating rate with density rises again.
 
 {\noindent}Larson (2005) pointed out that deviations from isothermality are particularly significant for filamentary structures, which dominate in turbulent flows. It is possible to show that a filament cannot go into runaway collapse if $T$ varies with $\rho$ to a positive number, while it can collapse if $T$ varies as $\rho$ to a negative number. This suggests that filaments will collapse indefinitely in the low-density regime, but that their collapse will then halt around $10^{18}\,{\rm g\,cm^{-3}}$, forcing them to break up into spheres in order to collapse further. The upshot of all these arguments is that the Jeans or Bonnor-Ebert mass one should be using to estimate the peak of the stellar mass spectrum is the one corresponding to the point where there is a changeover from sub-isothermal to super-isothermal.
 
@@ -477,11 +510,11 @@ Once the mass-magnitude relationship and any bias corrections have been applied,
 \newpage
 \subsection{Question 2}
 
-Describe the orbits of stars in a galactic disk and in galactic spheroid.
+Describe the orbits of stars in a Galactic disk and in galactic spheroid.
 
 \subsubsection{Short answer}
 
-As a first approximation, the stars in the disk move around the Galactic center on circular orbits. However, these orbits are not perfectly circular: besides the orbital velocity (which is about $220\,{km\,s^{-1}}$ in the Solar vicinity), they have additional random velocity components. 
+As a first approximation, the stars in the disk move around the Galactic center on circular orbits in the same direction. However, these orbits are not perfectly circular: besides the orbital velocity (which is about $220\,{\rm km\,s^{-1}}$ in the Solar vicinity), they have additional random velocity components both in the radial direction and in the vertical direction within the disk. In contrast, stars in the Galactic spheroid move around the Galactic center on highly elliptical orbits with high inclinations from the galactic plane in random directions (these are very similar to the stellar dynamics within the Galactic bulge).
 
 \subsubsection{Additional context}
 
@@ -948,11 +981,31 @@ Every now and then a supernova explosion occurs within $3\,\mathrm{pc}$ of the E
 
 \subsubsection{Short answer}
 
-Answer.
+Using the definition of the IMF, the number of stars that form with masses between $M$ and $M+{\rm d}M$ is $\xi(M){\rm d}M$. To determine the total number of stars formed with masses between $M_1$ and $M_2$, we can simply integrate the IMF between these limits. Let's consider, for simplicity, the mass range of Type II SNe of $8\lesssim M\lesssim 50\,{\rm M_\odot}$ along with a total solar mass range of $0.1\lesssim M\lesssim 120\,{\rm M_\odot}$:
 
-\subsubsection{Additional context}
+\begin{align*}
+    \frac{N}{\rm M_\odot} &\sim \frac{\int\limits_8^{50}\xi(M)\,{\rm d}M}{\int\limits_{0.1}^{120}M\xi(M)\,{\rm d}M} = \frac{\int\limits_8^{50}M^{-2.35}\,{\rm d}M}{\int\limits_{0.1}^{120}MM^{-2.35}\,{\rm d}M} \\
+    &= \dfrac{\left[\dfrac{M^{-1.35}}{-1.35}\right]_8^{50}}{\left[\dfrac{M^{0.35}}{0.35}\right]_{0.1}^{120}} = \frac{0.35}{-1.35} \dfrac{\left[M^{-1.35}\right]_8^{50}}{\left[M^{0.35}\right]_{0.1}^{120}} \\
+    &= \frac{-0.35}{1.35} \left(\dfrac{50^{-1.35}-8^{-1.35}}{120^{0.35}-0.1^{0.35}}\right) \\
+    &\approx 0.005\,{\rm M_\odot^{-1}}.
+\end{align*}
 
-Additional context.
+{\noindent}If we know that the average SFR of the MWG is roughly $1\,{\rm M_\odot\,yr^{-1}}$, we can use this to scale the SNR down to the volume of interest:
+
+\begin{align*}
+    \frac{\rm SNR}{V_{\rm SNR}} &= \frac{\rm SFR}{V_{\rm SFR}} \\
+    {\rm SNR} &= {\rm SFR} \left(\frac{V_{\rm SNR}}{V_{\rm SFR}}\right) = {\rm SFR} \left(\frac{\frac{4}{3}\pi(3\,{\rm pc})^3}{\pi(30000\,{\rm pc})^2\,300\,{\rm pc}}\right) \sim {\rm SFR} \left(\frac{(3\,{\rm pc})^3}{(30000\,{\rm pc})^2(300\,{\rm pc})}\right) \sim 10^{-7}\,{\rm SFR}.
+\end{align*}
+
+{\noindent}Given a frequency of SNe events $f$, the duration of time between SNe events is $\Delta t=1/f$:
+
+\begin{align*}
+    \Delta t &= \frac{1}{f} \sim \frac{1}{N\cdot{\rm SFR}} \sim \frac{1}{(0.005\,{\rm M_\odot^{-1}})(10^{-7}\,{\rm M_\odot\,yr^{-1}})} \\
+    \Delta t &\approx 10^{11}\,{\rm yr}.
+\end{align*}
+
+{\noindent}Thus, one would have to wait $\sim100\,{\rm Gyr}$ to witness a SN explosion. Newborn stars are likely to experience this even though they are much longer than this wait time because they are generally found within star forming environment within which high mass stars are forming which increases the SNe rate.
+
 
 % --------------------------------------------------------------
 %               4. 
@@ -965,11 +1018,121 @@ Galactic stars are described as a collision-less system. Why? (Don’t forget th
 
 \subsubsection{Short answer}
 
-Answer.
+Galactic stars are described as a collisionless system because their dynamics can be described by being under the influence of a gravitational field generated by a \textit{smooth mass distribution}, rather than a collection of point masses. For example, the relaxation time (i.e., the time it takes for encounters to change a star's velocity by order of itself) of the Galaxy can be determined to be much longer than the age of the Universe,
+
+\begin{align*}
+    t_{\rm relax} &= n_{\rm cross} t_{\rm cross} = \left(\frac{N}{8\ln N}\right) \left(\frac{R}{v}\right) \\
+    &\approx \left(\frac{10^{11}}{8\ln10^{11}}\right) 100\,{\rm Myr} \approx 10^{16}\,{\rm yr} \gg t_{\rm Universe},
+\end{align*}
+
+{\noindent}implying that it must be a collisionless system.
 
 \subsubsection{Additional context}
 
-Additional context.
+Consider the force from the stars in the cone shown in Figure \ref{fig:apex} on a star at the apex of the cone. The force from any one star falls off with distance $r$ as $r^{-2}$, but if the density of stars is uniform, the number of attracting stars per unit length of the cone increases as $r^2$. Let us call a factor of two interval in radius an \textbf{octave}, by analogy with the musical octave. Then each octave in radius, from $r$ to $2r$, has a length proportional to $r$, so each octave attracts the star at the apex with a force proportional to $r^{-2} \times r^2 \times r = r$. This simple argument shows that the force on the star at the apex is dominated by the most distant stars in the system, rather than by its closest neighbors. Of course, if the density of attracting stars were exactly spherical, the star at the apex would experience no net force because it would be pulled equally in all directions. But in general the density of attracting stars falls off in one direction more slowly than in the opposing direction, so the star at the apex is subject to a net force, and this force is determined by the structure of the galaxy on the largest scale. Consequently (in contrast to the situation for molecules) the force on a star does not vary rapidly, and each star may be supposed to accelerate smoothly through the force field that is generated by the galaxy as a whole. In other words, for most purposes we can treat the gravitational force on a star as arising from a smooth density distribution rather than a collection of mass points.
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{If the density of stars were everywhere the same, the stars in each of the shaded segments of a cone would contribute equally to the force on a star at the cone's apex. Thus the acceleration of a star at the apex is determined mainly by the large-scale distribution of stars in the galaxy, not by the star's nearest neighbors. Figure taken from Binney \& Tremaine (2011).}} 
+    \label{fig:apex}}
+    {\includegraphics[width=8cm]{figures/apex.png}}
+\end{figure}
+
+{\noindent}How accurately can we approximate a galaxy composed of $N$ identical stars of mass $m$ as a smooth density distribution and gravitational field? To answer this question, we follow the motion of an individual star, called the \textbf{subject star}, as its orbit carries it once across the galaxy, and seek an order-of-magnitude estimate of the difference between the actual velocity of this star after this interval and the velocity that it would have had if the mass of the other stars were smoothly distributed. Suppose the subject star passes within distance $b$ of another star, called the \textbf{field star} (Figure \ref{fig:fieldstar}). We want to estimate the amount $\delta v$ by which the encounter deflects the velocity $v$ of the subject star. To make this estimate we shall assume that $\lvert\delta v\rangle/v\ll1$, and that the field star is stationary during the encounter. In this case $\delta v$ is perpendicular to $v$, since the accelerations parallel to $v$ average to zero. We may calculate the magnitude of the velocity change, $\delta δv\equiv\lvert\delta v\rvert$, by assuming that the subject star passes the field star on a straight-line trajectory, and integrating the perpendicular force $F_\perp$ along this trajectory. We place the origin of time at the instant of closest approach of the two stars, and find in the notation of Figure \ref{fig:fieldstar},
+
+\begin{figure}[h]
+    \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
+    {\caption{\footnotesize{A field star approaches the subject star at speed $v$ and impact parameter $b$. We estimate the resulting impulse to the subject star by approximating the field star's trajectory as a straight line. Figure taken from Binney \& Tremaine (2011).}} 
+    \label{fig:fieldstar}}
+    {\includegraphics[width=8cm]{figures/FieldStar.png}}
+\end{figure}
+
+\begin{align*}
+    F_\perp = \frac{Gm^2}{b^2+x^2}\cos\theta = \frac{Gm^2b}{(b^2+x^2)^{3/2}} = \frac{Gm^2}{b^2} \left[ 1+\left(\frac{vt}{b}\right)^2 \right]^{-3/2} ~ [{\rm N}].
+\end{align*}
+
+{\noindent}But by Newton's laws,
+
+\begin{align*}
+    m\mathbf{\dot{v}} = \mathbf{F} ~ [{\rm N}],
+\end{align*}
+
+{\noindent}so
+
+\begin{align*}
+    \delta v = \frac{1}{m} \int\limits_{-\infty}^\infty F_\perp\,{\rm d}t ~ [{\rm km\,s^{-1}}],
+\end{align*}
+
+{\noindent}and we have
+
+\begin{align*}
+    \delta v = \frac{Gm}{b^2} \int\limits_{-\infty}^\infty \frac{{\rm d}t}{\left[ 1+\left(\dfrac{vt}{b}\right)\right]^{3/2}} = \frac{Gm}{bv} \int\limits_{-\infty}^\infty \frac{{\rm d}s}{(1+s^2)^{3/2}} = \frac{2Gm}{bv} ~ [{\rm km\,s^{-1}}].
+\end{align*}
+
+{\noindent}In words, $\delta v$ is roughly equal to the acceleration at closest approach, $Gm/b^2$, times the duration of this acceleration $2b/v$. Notice that our assumption of a straight-line trajectory breaks down and this equation becomes invalid when $\delta v\simeq v$; from our equation, this occurs if the impact parameter $b\lesssim b_{90}\equiv2Gm/v^2$. The subscript $90$ stands for a $90$-degree deflection.
+
+{\noindent}Now the surface density of field stars in the host galaxy is of order $N/\pi R^2$, where $N$ is the number of stars and $R$ is the galaxy's radius, so in crossing the galaxy once the subject star suffers
+
+\begin{align*}
+    \delta n = \frac{N}{\pi R^2}2\pi b\,{\rm d}b = \frac{2N}{R^2}b{\rm d}b ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}encounters with impact parameters in the range $b$ to $b+{\rm d}b$. Each such encounter produces a perturbation $\delta v$ to the subject star's velocity, but because these small perturbations are randomly oriented in the plane perpendicular to $v$, their mean is zero.\footnote{Strictly, the mean change in velocity is zero only if the distribution of perturbing stars is the same in all directions. A more precise statement is that the mean change in velocity is due to the smoothed-out mass distribution, and we ignore this because the goal of our calculation is to determine the difference between the acceleration due to the smoothed mass distribution and the actual stars.} Although the mean velocity change is zero, the mean-square change is not: after one crossing this amounts to
+
+\begin{align*}
+    \sum\delta v^2 \simeq \delta v^2 \delta n = \left(\frac{2Gm}{bv}\right) \frac{2N}{R^2} b\,{\rm d}b ~ [{\rm km^2\,s^{-2}}].
+\end{align*}
+
+{\noindent}Integrating this equation over all impact parameters from $b_{\rm min}$ to $b_{\rm max}$, we
+find the mean-square velocity change per crossing,
+
+\begin{align*}
+    \Delta v^2 \equiv \int\limits_{b_{\rm min}}^{b_{\rm max}} \sum\delta v^2 \simeq 8N \left(\frac{Gm}{Rv}\right)^2 \ln \Lambda ~ [{\rm km^2\,s^{-2}}],
+\end{align*}
+
+{\noindent}where the factor
+
+\begin{align*}
+    \ln\Lambda \equiv \ln \left(\frac{b_{\rm min}}{b_{\rm max}}\right) ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}is called the \textbf{Coulomb logarithm}. Our assumption of a straight-line trajectory breaks down for impact parameters smaller than $b_{90}$, so we set $b_{\rm min}=f_1b_{90}$, where $f_1$ is a factor of order unity. Our assumption of a homogeneous distribution of field stars breaks down for impact parameters of order $R$, so we set $b_{\rm max}=f_2R$. Then
+
+\begin{align*}
+    \ln\Lambda = \ln \left(\frac{R}{b_{90}}\right) + \ln \left(\frac{f_2}{f_1}\right) ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}In most systems of interest $R\gg b_{90}$ (for example, in a typical elliptical galaxy $R/b_{90}\geq10^{10}$), so the fractional uncertainty in $\ln\Lambda$ arising from the uncertain values of $f_1$ and $f_2$ is quite small, and we lose little accuracy by setting $f_2/f_1=1$.
+
+{\noindent}Thus encounters between the subject star and field stars cause a kind of diffusion of the subject star's velocity that is distinct from the steady acceleration caused by the overall mass distribution in the stellar system. This diffusive process is sometimes called \textbf{two-body relaxation} since it arises from the cumulative effect of myriad two-body encounters between the subject star and passing field stars.
+
+{\noindent}The typical speed $v$ of a field star is roughly that of a particle in a circular orbit at the edge of the galaxy,
+
+\begin{align*}
+    v^2 \approx \frac{GNm}{R} ~ [{\rm km^2\,s^{-2}}].
+\end{align*}
+
+{\noindent}If we eliminate R from our equation for $\Delta v^2$ using this equation, we have
+
+\begin{align*}
+    \frac{\Delta v^2}{v^2} \approx \frac{8\ln\Lambda}{N} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}If the subject star makes many crossings of the galaxy, the velocity $v$ will change by roughly $\Delta v^2$ at each crossing, so the number of crossings $n_{\rm relax}$ that is required for its velocity to change by of order itself is given by
+
+\begin{align*}
+    n_{\rm relax} \simeq \frac{N}{8\ln\Lambda} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}The \textbf{relaxation time} may be defined as $t_{\rm relax}=n_{\rm relax} t_{\rm cross}$, where $t_{\rm cross}=R/v$ is the \textbf{crossing time}, the time needed for a typical star to cross the galaxy once. Moreover $\Lambda=R/b_{90}\approx Rv^2/(Gm)$, which is $\approx N$. Thus our final result is
+
+\begin{align*}
+    t_{\rm relax} \simeq \frac{0.1N}{\ln N} t_{\rm cross} ~ [{\rm yr}].
+\end{align*}
+
+{\noindent}After one relaxation time, the cumulative small kicks from many encounters with passing stars have changed the subject star's orbit significantly from the one it would have had if the gravitational field had been smooth. In effect, after a relaxation time a star has lost its memory of its initial conditions. Galaxies typically have $N\approx10^{11}$ stars and are a few hundred crossing times old, so for these systems stellar encounters are unimportant, except very near their centers. In a globular cluster, on the other hand, $N\approx10^5$ and the crossing time $t_{\rm cross}\approx1\,{\rm Myr}$, so relaxation strongly influences the cluster structure over its lifetime of $10\,{\rm Gyr}$.
+
+{\noindent}In all of these systems the dynamics over timescales $\lesssim t_{\rm relax}$ is that of a \textbf{collisionless system} in which the constituent particles move under the influence of the gravitational field generated by a smooth mass distribution, rather than a collection of mass points. Non-baryonic dark matter is also collisionless, since both weak interactions and gravitational interactions between individual wimps are negligible in any galactic context.
 
 \subsubsection{Follow-up Questions}
 
@@ -1015,7 +1178,7 @@ Our strongest constraints on interstellar dust come from observations of its int
     \item The temperature of interstellar diffuse HI and H$_2$, in part a result of heating by photo-electrons ejected from interstellar grains.
 \end{itemize}
 
-{\noindent}\textbf{Interstellar extinction}: 
+{\noindent}\textbf{Interstellar extinction}: The wavelength-dependent attenuation (``extinction'') of starlight by absorption and scattering. Barnard (1907, 1910) was apparently the first to realize that some stars were dimmed by an ``absorbing medium.'' This was confirmed by Trumpler (1930), who showed that the stars in distant open clusters were dimmed by something in addition to the inverse square law, and concluded that interstellar space in the galactic plane contained ``fine cosmic dust particles of various sizes... producing the observed selective absorption.'' Over the succeeding eight decades, we have built on these pioneering studies, but many aspects of interstellar dust (including its chemical composition!) remain uncertain. 
 
 {\noindent}\textbf{Starlight polarization}: The polarization of starlight was discovered serendipitously in 1949. When it was realized that the degree of polarization tended to be larger for stars with greater reddening, and that stars in a given region of the sky tended to have similar polarization directions, it became obvious that the polarization is produced by the ISM: initially upolarized light propagating through the ISM becomes linearly polarized as a result of preferential extinction of one linear polarization mode relative to the other. Figure \ref{fig:starpol} shows the direction of polarization and the strength of polarization for 5453 stars with galactic latitudes $b$ between $-80^\circ$ and $+80^\circ$. The large-scale organization of the polarization vectors can be understood if dust grains are somehow aligned by the interstellar magnetic field. 
 
@@ -1116,12 +1279,11 @@ Our strongest constraints on interstellar dust come from observations of its int
 \newpage
 \subsection{Question 6}
 
-The ISM mainly consists of hydrogen and helium, which are very poor coolants. How, then, do molecular cloud cores ever manage to lose enough heat to collapse and form stars? Why are H
-and He such poor coolants?
+The ISM mainly consists of hydrogen and helium, which are very poor coolants. How, then, do molecular cloud cores ever manage to lose enough heat to collapse and form stars? Why are H and He such poor coolants?
 
 \subsubsection{Short answer}
 
-Answer.
+In molecular clouds, the two main cooling processes are via molecular lines and dust thermal radiation. While there is plenty of H$_2$, its first excited state $J=1\rightarrow0$ is $175\,{\rm K}$ above the ground state; since the molecular medium has a temperature of $T\sim10\,{\rm K}$, almost no molecules will be in this excited state. Additionally, since H$_2$ is a \textbf{homonuclear molecule}, $\Delta J=1$ radiative transitions are forbidden. Instead, the lowest-lying transition is the $J=2\rightarrow0$ quadrupole which is $510\,{\rm K}$ above the ground state. This means that, for a population in equilibrium at a temperature of $10\,{\rm K}$, the fraction of molecules in the $J=2$ state is $\sim e^{-510/10}\approx10^{-22}$! In effect, in a molecular cloud there are simply no H$_2$ molecules in states capable of emitting and therefore cannot cool the gas.
 
 \subsubsection{Additional context}
 
@@ -1167,11 +1329,19 @@ Answer.
 \newpage
 \subsection{Question 7}
 
-The stars in the solar neighbourhood, roughly the $300\,\mathrm{pc}$ around us, have a range of ages, metallicities and orbital properties. How are those properties related?
+The stars in the Solar neighbourhood, roughly the $300\,\mathrm{pc}$ around us, have a range of ages, metallicities and orbital properties. How are those properties related?
 
 \subsubsection{Short answer}
 
-Answer.
+The stars in the Solar neighborhood are related using the following:
+
+\begin{itemize}
+    \item \textbf{Age-metallicity relation}: The empirical correlation between age and chemical composition which suggests that older stellar populations have lower metallicities.
+    \item \textbf{Velocity-metallicity relation}: The empirical correlation between velocity dispersion and metallicity which suggests that stellar populations with higher metallicities have larger velocity dispersions. When combined with the age-metallicity relation, this suggests that the oldest stars have the highest peculiar velocities.
+    \item \textbf{Stellar populations}: There is a clear morphological tendency for high metallicity stars to lie in the Galactic disk while low metallicity stars lie in the halo.
+\end{itemize}
+
+{\noindent}Together, these imply that the Galactic disk contains young stellar populations with high metallicities and low velocity dispersions while the Galactic halo contains older stellar populations with low metallicities and high velocity dispersions.
 
 \subsubsection{Additional context}
 
@@ -1195,7 +1365,7 @@ Answer.
 
 {\noindent}However, this age-metallicity relation is not very tight. On the one hand, SNe Ia occur only $\gtrsim10^9\,{\rm yr}$ after the formation of a stellar population. The exact time-span is not known because even if one accepts the accretion scenario for SN Ia described above, it is unclear in what form and in what systems the accretion of material onto the white dwarf takes place and how long it typically takes until the limiting mass is reached. On the other hand, the mixing of the SN ejecta in the ISM occurs only locally, so that large inhomogeneities of the [Fe/H] ratio may be present in the ISM, and thus even for stars of the same age. An alternative measure for metallicity is [O/H], because oxygen is produced and ejected mainly in supernova explosions of massive stars. These happen just $\sim10^7\,{\rm yr}$ after the formation of a stellar population, which is virtually instantaneous.
 
-{\noindent}\textbf{Velocity dispersion of stars:} The dispersion of stellar velocities relative to the LSR can be determined, i.e., the mean square deviation of their velocities from the velocity of the LSR. For young stars (A stars, for example), this dispersion happens to be small. For older K giants it is larger, and is larger still for old, metal-poor red dwarf stars. We observe a very well-defined velocity-metallicity relation which, when combined with the age-metallicity relation, suggests that the oldest stars have the highest peculiar velocities. This effect is observed in all three coordinates and is in agreement with the relation between the age of a stellar population and its scale-height, the latter being linked to the velocity dispersion via $\sigma_z$.
+{\noindent}\textbf{Velocity-metallicity relation:} The dispersion of stellar velocities relative to the LSR can be determined, i.e., the mean square deviation of their velocities from the velocity of the LSR. For young stars (A stars, for example), this dispersion happens to be small. For older K giants it is larger, and is larger still for old, metal-poor red dwarf stars. We observe a very well-defined velocity-metallicity relation which, when combined with the age-metallicity relation, suggests that the oldest stars have the highest peculiar velocities. This effect is observed in all three coordinates and is in agreement with the relation between the age of a stellar population and its scale-height, the latter being linked to the velocity dispersion via $\sigma_z$.
 
 {\noindent}\textbf{Stellar populations:} The chemical composition of stars in the thin and the thick disks differs: we observe the clear tendency that stars in the thin disk have a higher metallicity than those in the thick disk. In contrast, the metallicity of stars in the Galactic halo and in the bulge is smaller. To paraphrase these trends, one distinguishes between stars of population I (pop I) which have a Solar-like metallicity ($Z\sim0.02$) and are mainly located in the thin disk, and stars of population II (pop II) that are metal-poor ($Z\sim0.001$) and predominantly found in the thick disk, in the halo, and in the bulge. In reality, stars cover a wide range in $Z$, and the figures above are only characteristic values. For stellar populations a somewhat finer separation was also introduced, such as ``extreme population I'', ``intermediate population II'', and so on. The populations also differ in age (stars of pop I are younger than those of pop II), in scale height (as mentioned above), and in the velocity dispersion perpendicular to the disk ($\sigma_z$ is larger for pop II stars than for pop I stars).
 
@@ -1584,11 +1754,82 @@ What is dynamical friction? Explain how this operates in the merger of a small g
 
 \subsubsection{Short answer}
 
-Answer.
+Dynamical friction is the systematic transfer of energy from the relative orbital motion of stellar systems into random motions of their constituent particles. The moving subject mass perturbs the
+distribution of field particles causing a trailing enhancement (or ``wake'') in their density. The gravitational force of this
+wake on the subject mass then slows it down.
 
 \subsubsection{Additional context}
 
-Additional context.
+This process is simplest to understand in the limiting case of minor mergers, in which one system is much smaller than the other. We consider a body of mass $M$ traveling through a population of particles of individual mass $m_a\ll M$. We call $M$ the \textbf{subject body} and the particles of mass $m_a$ \textbf{field stars}. The subject body usually is a small galaxy or other stellar system and thus has non-zero radius, but we shall temporarily assume that it is a point mass. The field stars are members of a much larger host system of mass $\mathcal{M}\gg M$, which we assume to be so large that it can be approximated as infinite and homogeneous. The influence of encounters with the field stars on the subject body can then be characterized using the diffusion coefficients. Because the test body is much more massive than the field stars, the first-order diffusion coefficients are much larger than the second-order coefficients. Thus the dominant effect of the encounters is to exert dynamical friction, which decelerates the subject body at a rate
+
+\begin{align*}
+    \frac{{\rm d}\vec{v}_M}{{\rm }t} = D[\Delta\vec{v}] = -4\pi G^2Mm_a\ln\Lambda \int{\rm d}^3\vec{v}_af(\vec{v}_a) \frac{\vec{v}_M-\vec{v}_a}{|\vec{v}_M-\vec{v}_a|^3} ~ [{\rm km\,s^{-2}}],
+\end{align*}
+
+{\noindent}where
+
+\begin{align*}
+    \Lambda \approx \frac{b_{\rm max}}{b_{90}} \approx \frac{b_{\rm max}v_{\rm typ}^2}{GM} \gg 1,
+\end{align*}
+
+{\noindent}and $b_{90}$ is the $90^\circ$ is the deflection radius. The field-star $f(\vec{x},\vec{v}_a)$ is normalized so ${\rm d}^3\vec{v}_af(\vec{x},\vec{v}_a)=n(\vec{x})$, where $n$ is the number density of field stars in the vicinity of the subject body.
+
+{\noindent}We now estimate the typical value of the factor $\Lambda$ in the Coulomb logarithm. When a subject body of mass $M$ orbits in a host system of mass $\mathcal{M}\gg M$ and radius $\mathcal{R}$, the typical relative velocity is given by $v_{\rm typ}^2\approx G\mathcal{M}/\mathcal{R}$. To within a factor of order unity, the maximum impact parameter $b_{\rm max}\approx R$, where $R$ is the orbital radius of the subject body. Then $\Lambda\approx(\mathcal{M}/M)(R/\mathcal{R})$, which is large whenever $M\ll\mathcal{M}$, unless the subject body is very close to the center of the host.
+
+{\noindent}If the subject body has a non-zero radius, the appropriate value for the Coulomb logarithm is modified to
+
+\begin{align*}
+    \ln\Lambda = \ln \left(\frac{b_{\rm max}}{{\rm max}(r_h,GM/v_{\rm typ}^2)}\right) ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}where $r_h$ is the half-mass radius of the subject system.
+
+{\noindent}If the field stars have an isotropic velocity distribution, we get a simpler expression for the dynamical friction:
+
+\begin{align*}
+    \frac{{\rm d}\vec{v}_M}{{\rm d}t} = -16\pi^2G^2Mm_a\ln\Lambda \left[\int\limits_0^{v_M} {\rm d}v_a v_a^2f(v_a)\right]\frac{\vec{v}_M}{v_M^3} ~ [{\rm km\,s^{-2}}],
+\end{align*}
+
+{\noindent}thus, only stars moving slower than$ $M contribute to the friction. Like an ordinary frictional drag, the force described by this equation always opposes the motion (${\rm d}\vec{v}_M/{\rm d}t$ is anti-parallel to $\vec{v}_M$). This equation is usually called \textbf{Chandrasekhar's dynamical friction formula}.
+
+{\noindent}If the subject mass is moving slowly, so $\vec{v}_M$ is sufficiently small, we may replace $f(\vec{v}_a)$ in the integral by $f(0)$ to find
+
+\begin{align*}
+    \frac{{\rm d}\vec{v}_M}{{\rm d}t} \simeq -\frac{16\pi^2}{3} G^2Mm_a\ln\Lambda \vec{v}_M ~ [{\rm km\,s^{-2}}].
+\end{align*}
+
+{\noindent}Thus at low velocity the drag is proportional to $\vec{v}_M$ (just as in Stokes's law for the drag on a marble falling through honey). On the other hand, for sufficiently large $\vec{v}_M$, the integral converges to a definite limit equal to the number density $n$ divided by $4\pi$:
+
+\begin{align*}
+    \frac{{\rm d}\vec{v}_M}{{\rm d}t} = -4\pi G^2Mm_an\ln\Lambda \frac{\vec{v}_M}{v_M^3} ~ [{\rm km\,s^{-2}}].
+\end{align*}
+
+{\noindent}Thus the frictional force \textit{falls} like $\vec{v}_M^{-2}$ (in contrast to the motion of solid bodies through fluids, where the drag force \textit{grows} as the velocity increases).
+
+{\noindent}If $f(\vec{v}_a)$ is Maxwellian with dispersion $\sigma$, then the dynamical friction equation becomes
+
+\begin{align*}
+    \frac{{\rm d}\vec{v}_M}{{\rm d}t} = -\frac{4\pi G^2Mnm\ln\Lambda}{v_M^3} \left[{\rm erf}(X)-\frac{2X}{\sqrt{x}} e^{-X^2}\right] \vec{v}_M ~ [{\rm km\,s^{-2}}],
+\end{align*}
+
+{\noindent}where $X\equiv v_M/(\sqrt{2}\sigma)$ and ${\rm erf}$ is the error function. This important formula illustrates two features of dynamical friction:
+
+\begin{itemize}
+    \item The frictional drag is proportional to the mass density $nm$ of the stars being scattered, but independent of the mass of each individual star. In particular, if we replace $nm$ by the overall background density $\rho$, we obtain a formula that is equally valid for a host system containing a spectrum of different stellar masses:
+    
+    \begin{align*}
+        \frac{{\rm d}\vec{v}_M}{{\rm d}t} = -\frac{4\pi G^2M\rho\ln\Lambda}{v_M^3} \left[{\rm erf}(X)-\frac{2X}{\sqrt{x}} e^{-X^2}\right] \vec{v}_M ~ [{\rm km\,s^{-2}}]
+    \end{align*}
+    
+    \item The frictional acceleration is proportional to $M$ and thus the frictional force must be proportional to $M^2$. It is instructive to consider why this is so. Stars are deflected by $M$ in such a way that the density of background stars behind $M$ is greater than in front of it (see Figure \ref{fig:dynamicalfriction}). The amplitude of this density enhancement or wake is proportional to $M$ and the gravitational force that it exerts on $M$ is proportional to $M$ times its amplitude. Hence the force is proportional to $M^2$.
+\end{itemize}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/DynamicalFriction.png}
+    \caption{\footnotesize{A mass $M$ travels from left to right at speed $v_M$, through a homogeneous Maxwellian distribution of stars with one-dimensional dispersion $\sigma$. Deflection of the stars by the mass enhances the stellar density downstream, and the gravitational attraction of this wake on $M$ leads to dynamical friction. The contours show lines of equal stellar density in a plane containing the mass $M$ and the velocity vector $\vec{v}M$; the velocities are $v_M=\sigma$ (left panel) and $v_M=3\sigma$ (right panel). The fractional overdensities shown are $0.1,0.2, ... 0.9,1$. The unit of length is chosen so that $GM/\sigma2=1$. The shaded circle has unit radius and is centered at $M$. Figure taken from Binney \& Tremaine (2011).}}
+    \label{fig:dynamicalfriction}
+\end{figure}
 
 % --------------------------------------------------------------
 %               11. 
@@ -1711,7 +1952,7 @@ Describe what happens as a cloud starts to collapse and form a star. What is the
 
 \subsubsection{Short answer}
 
-Answer.
+If an overdensity (``core'') satisfies the Jeans criteria, it will begin the star formation process and undergo free-fall collapse. Assuming constant density, all radial shells within the collapsing core will reach the center simultaneously; if, however, there is some non-constant density profile, collapse will proceed inside-out. As the density increases, there will be come characteristic density ($\rho\sim10^{-14}-10^{-13}\,{\rm g\,cm^{-3}}$) at which the gas becomes adiabatic and can no longer radiate. At this point, the equation of state reaches $\gamma>4/3$ and becomes stable to collapse: this is the protostellar phase. Here, outer regions are cool enough to remain isothermal and continue to collapse on the free-fall timescale. This first core is very short lived. As temperatures rise above $1000\,{\rm K}$, molecular hydrogen becomes dissociated, each dissociation absorbing $4.5\,{\rm eV}$ of energy, and brings the equation of state back down to $\gamma=1.1<4/3$ and therefore undergoes a second collapse (this continues until all molecular hydrogen is dissociated). The protostar will continue its evolution and undergo contraction towards the main sequence until nuclear fusion begins.
 
 \subsubsection{Additional context}
 
@@ -2010,7 +2251,7 @@ $\sim0.25\,{\rm M}$ and $3-4\,{\rm M}$, a factor of more than $10$ in mass, the 
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{Solid lines show tracks taken by stars of varying masses from $0.1\,{\rm M_\odot}$ (rightmost line) to $7\,{\rm M_\odot}$ (leftmost line) in the theoretical HR diagram of luminosity versus effective temperature. Stars begin at the upper right of the tracks and evolve to the lower left; tracks end at the main sequence. Dashed lines represent isochrones corresponding to $10^6$, $10^7$, and $10^8$ years from top right to bottom left. Figure taken from Krumholtz (2015).}}
     \label{fig:HRmodels}}
-    {\includegraphics[width=10cm]{figures/HR_models.png}}
+    {\includegraphics[width=12cm]{figures/HR_models.png}}
 \end{figure}
 
 {\noindent}\textbf{The birthline:} Before delving into the tracks themselves, we have to ask what is actually observable. As long as a star is accreting from its parent core, it will probably not be visible in the optical, due to the high opacity of the dusty gas in the core. Thus we are most concerned with stars' appearance in the HR diagram only after they have finished their main accretion phase. We refer to stars that are still accreting and thus not generally optically-observable as \textbf{protostars}, and those that are in this post-accretion phase as \textbf{pre-main sequence stars}.
@@ -2061,6 +2302,22 @@ Sketch the rotation curve for a typical spiral galaxy. Show that a flat rotation
     \label{fig:rotationcurve}}
     {\includegraphics[width=10cm]{figures/RotationCurve.png}}
 \end{figure}
+
+{\noindent}Using Kepler's third law, we can balance the gravitational and centrifugal accelerations:
+
+\begin{align*}
+    v^2(r) &= \frac{GM(r)}{r} \\
+    v(r) &= \sqrt{\frac{GM(DrR)}{r}} ~ [{\rm km^2\,s^{-1}}].
+\end{align*}
+
+{\noindent}A flat rotation curve implies a constant $v(r)$; for this to be true, $M(r)\sim r$. Such a density profile would have to follow
+
+\begin{align*}
+    \rho &= \frac{M}{\frac{4}{3}\pi r^3}  \sim \frac{r}{r^3} \sim R^{-2} \\
+    \rho &\sim r^{-2},
+\end{align*}
+
+{\noindent}as expected.
 
 \subsubsection{Additional context}
 
@@ -2315,7 +2572,15 @@ What thermal phases are postulated to exist in the interstellar medium? Describe
 
 \subsubsection{Short answer}
 
-Answer.
+The following thermal phases are believed to exist in the ISM:
+
+\begin{itemize}
+    \item \textbf{Molecular gas}: fine structure lines (21 cm, CO)
+    \item \textbf{Cold neutral medium (CNM)}: fine structure lines (CO)
+    \item \textbf{Warm neutral medium (WNM)}: optical lines and fine structure lines (CO)
+    \item \textbf{Warm ionized medium (WIM)}: optical lines, fine structure lines, continuum/free-free emission
+    \item \textbf{Hot ionized medium (HIM)}: adiabatic expansion, x-ray emission
+\end{itemize}
 
 \subsubsection{Additional context}
 
@@ -2752,7 +3017,7 @@ Describe the general characteristics of spiral structure in galaxies.
 
 \subsubsection{Short answer}
 
-Short answer.
+Most galaxies have a multiple-arm spiral structure, or even a highly chaotic or flocculent spiral-like  structure. Spiral arms are the bluest regions in spirals, containing young stars and HII regions. The spiral structure itself varies from galaxy to galaxy, even within a Hubble type. Several ideas have been proposed to explain the formation of spiral arms, one suggesting that they are large-scale density waves, regions of higher density (possibly $10-20\%$ higher than the local disk environment), continuing to propagate in a differentially rotating disk. In particular, this theory argues that the matter in the galaxy (stars and gas) can maintain a density wave through gravitational interactions even in the presence of shear. This density wave remains at least quasi-stationary in a frame of reference rotating around the center of the galaxy at a fixed angular speed, identified with the pattern speed of the spirals, and covers the entire disk. If the gas, on its orbit around the center of the galaxy, enters a region of higher density, it is compressed, and this compression of molecular clouds results in an enhanced star formation rate.  This accounts for the blue color of spiral arms. Since low-mass (thus red) stars live longer, the brightness contrast of spiral arms is lower in red light, whereas massive blue stars are born in the spiral arms and soon after explode there as SNe.
 
 \subsubsection{Additional context}
 
