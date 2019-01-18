@@ -83,17 +83,30 @@ Draw the geometry of gravitational microlensing of one star by another, and esti
 
 \subsubsection{Short answer}
 
-Answer.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7.5cm]{figures/GravitationalLens.png}
+    \includegraphics[width=5.5cm]{figures/GravitationalLensAngles.png}
+    \caption{\footnotesize{\textbf{(Left)}: Setup of a gravitational lens. Figure taken from Abdo. \textbf{(Right)}: The geometry for a gravitational lens. The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$. Figures adapted from Carroll \& Ostlie (2007).}}
+    \label{fig:gravitationallens}
+\end{figure}
+
+{\noindent}The angular displacement of the background star's image from a mass $M$ is
+
+\begin{align*}
+    \alpha = \frac{4GM}{r_0c^2} ~ [{\rm rad}],
+\end{align*}
+
+{\noindent}which includes the factor of $2$ as a correction from the ``Newtonian'' value.
 
 \subsubsection{Additional context}
 
-The first written account of the deflection of light by gravity appeared in the article ``On The Deflection Of Light Ray From Its Straight Motion Due To The Attraction Of A World Body Which It Passes Closely,'' by Johann Soldner in 1804. In his article Soldner predicted that a light ray passing close to the solar limb would be deflected by an angle  $\alpha=0.84\,{\rm arcsec}$. More than a century later,in 1919, Albert Einstein directly addressed
-the influence of gravity on light. At this time Einstein's General Theory of Relativity was not fully developed. This is the reason why Einstein obtained (unaware of the earlier result) the same value for the deflection angle as Soldner had calculated with Newtonian physics. In this paper Einstein found $\alpha=2GM_\odot/c^2R_\odot=0.83\,{\rm arcsec}$ for the deflection angle of a light ray grazing the Sun (here $M_\odot$ and $R_\odot$ are the mass and radius of the Sun, $c$ and $G$ are the speed of light and the gravitational constant respectively). 
+The first written account of the deflection of light by gravity appeared in the article ``On The Deflection Of Light Ray From Its Straight Motion Due To The Attraction Of A World Body Which It Passes Closely,'' by Johann Soldner in 1804. In his article Soldner predicted that a light ray passing close to the solar limb would be deflected by an angle  $\alpha=0.84\,{\rm arcsec}$. More than a century later,in 1919, Albert Einstein directly addressed the influence of gravity on light. At this time Einstein's General Theory of Relativity was not fully developed. This is the reason why Einstein obtained (unaware of the earlier result) the same value for the deflection angle as Soldner had calculated with Newtonian physics. In this paper Einstein found $\alpha=2GM_\odot/c^2R_\odot=0.83\,{\rm arcsec}$ for the deflection angle of a light ray grazing the Sun (here $M_\odot$ and $R_\odot$ are the mass and radius of the Sun, $c$ and $G$ are the speed of light and the gravitational constant respectively). 
 
 {\noindent}Einstein emphasized his wish that astronomers investigate this equation. In 1913 Einstein contacted the director of Mount Wilson observatory, George Hale, and asked if it will be possible to measure the positions of stars near the Sun during the day in order to establish the angular deflection effect of the Sun. The first observational attempt to test Einstein's prediction for the deflection angle was in 1914. This attempt was never accomplished which was fortunate for Einstein whose predicted value for the angular deflection was actually wrong. With the completion of the General Theory of Relativity in 1916, Einstein was the first to derive the correct formula for the deflection angle $\alpha$ of a light passing at a distance $r$ from an object with mass $M$ as
 
 \begin{align*}
-    \alpha = \frac{4GM}{c^2}\frac{1}{r^2} ~ [{\rm arcsec}].
+    \alpha = \frac{4GM}{c^2}\frac{1}{r} ~ [{\rm arcsec}].
 \end{align*}
 
 {\noindent}The additional factor of two (compared to the ``Newtonian'' value) is due to the spatial curvature which is missed if photons are just treated as particles.
@@ -101,7 +114,7 @@ the influence of gravity on light. At this time Einstein's General Theory of Rel
 {\noindent}For the Sun, Einstein obtained
 
 \begin{align*}
-    \alpha_\odot = \frac{4GM_\odot}{c^2}\frac{1}{R_\odot^2} = 1.74 ~ [{\rm arcsec}].
+    \alpha_\odot = \frac{4GM_\odot}{c^2}\frac{1}{R_\odot} = 1.74 ~ [{\rm arcsec}].
 \end{align*}
 
 {\noindent}This value was first confirmed to within $20\%$ by Arthur Eddington and his group during a Solar total eclipse in 1919. Recently this value was confirmed to within $0.02\%$.
@@ -132,20 +145,12 @@ the influence of gravity on light. At this time Einstein's General Theory of Rel
 
 {\noindent}for radially travelling light, assuming that $r_S/r\ll1$. At a distance of $10^4\,{\rm pc}$ from a galaxy with a mass of $10^11\,{\rm M_\odot}$, the effective index of refraction is $n=1+9.6\times10^{-7}$. (Of course, the light passing by the point mass will never be travelling exactly radially. This was merely used to estimate the magnitude of the effect of gravity in a gravitational lens.) Obviously, the deviation of the light from a straight line will be extremely small. 
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=7.5cm]{figures/GravitationalLens.png}
-    \includegraphics[width=5.5cm]{figures/GravitationalLensAngles.png}
-    \caption{\footnotesize{\textbf{(Left)}: Setup of a gravitational lens. Figure taken from Abdo. \textbf{(Right)}: The geometry for a gravitational lens. The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$. Figure taken from Carroll \& Ostlie (2007).}}
-    \label{fig:gravitationallens}
-\end{figure}
-
 {\noindent}Figure \ref{fig:gravitationallens} shows the setup of a gravitational lens (left) as well as its detailed geometry (right). The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$.
 
 {\noindent}The angular deviation of a photon passing a distance $r_0$ (very nearly the distance of closest approach) from a mass $M$ is
 
 \begin{align*}
-    \alpha = \frac{4GM}{r_0c^2} ~ [{\rm rad}].
+    \alpha = \frac{4GM}{r_0c^2} ~ [{\rm rad}],
 \end{align*}
 
 {\noindent}which includes the factor of $2$ as a correction from the ``Newtonian'' value. The distance to the source is $d_S/\cos\beta\simeq d_S$ where $\beta\ll1$, and $d_L$ is the distance to the lensing mass. It is then a matter of simple trigonometry to show that the angle $\theta$ between between the lensing mass and the image of the source must satisfy the equation
@@ -154,7 +159,7 @@ the influence of gravity on light. At this time Einstein's General Theory of Rel
     \theta^2 - \beta\theta - \frac{4GM}{c^2} \left(\frac{d_S-d_L}{d_Sd_L}\right) = 0
 \end{align*}
 
-{\noindent}where $\theta$and $\beta$ are measured in radians.
+{\noindent}where $\theta$ and $\beta$ are measured in radians.
 
 {\noindent}This quadratic equation indicates that for the geometry shown in Figure \ref{fig:gravitationallens} (left) there will be two solutions for $\theta$, and so two images will be formed by the gravitational lens. Designating these solutions as $\theta_1$ and $\theta_2$, these angles can be measured observationally and then used to find the values of $\beta$ and $M$. The results are
 
@@ -276,7 +281,28 @@ A two-element interferometer consists of two telescopes whose light is combined 
 
 \subsubsection{Short answer}
 
-Answer.
+In a similar way that a single slit experiment results in an interference pattern depending on the slit size, an analogous interference pattern will emerge from a two-element interferometer and will depend on the projected baseline. Since the red giant star is resolved to $1/50$ arcseconds, let's determine the projected baseline this corresponds to. Before we can do this, we must first convert the angular size from arcseconds into radians:
+
+\begin{align*}
+    \theta = \left(\frac{1}{50}\,{\rm arcsec}\,\right) \left(\frac{1\,{\rm deg}}{3600\,{\rm arcsec}}\right) \left(\frac{1\,{\rm rad}}{57\,{\rm deg}}\right) = 10^{-7}\,{\rm rad}.
+\end{align*}
+
+{\noindent}Now to determine the projected baseline:
+
+\begin{align*}
+    \theta &\sim 2.2\left(\frac{\lambda}{D}\right) ~ [{\rm rad}] \\
+         D &\sim 2.2\left(\frac{\lambda}{\theta}\right) ~ [{\rm m}] \\
+           &= 2.2\left(\frac{2\times10^{-6}\,{\rm m}}{10^{-7}\,{\rm rad}}\right) = 44 ~ [{\rm m}].
+\end{align*}
+
+{\noindent}Thus, the resulting response function will be a Bessel function whose minima are at integer multiples of the $44\,{\rm m}$ projected baseline:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=12cm]{figures/BesselVisibility.png}
+    \caption{\footnotesize{Response function of a two-element interferometer as a function of the projected baseline observing a resolved red giant star with an angular resolution of $1/50$ arcseconds.}}
+    \label{fig:besselvisibility}
+\end{figure}
 
 \subsubsection{Additional context}
 
@@ -409,8 +435,6 @@ Answer.
 {\noindent}The relation between $I(\theta)$ and $V(d)$ represented here is one which maps a
 large Gaussian into a small Gaussian, and vice versa, and it is fairly obvious that it is a Fourier transform.\footnote{This is known as the Van \textbf{Cittert-Zernicke theorem}.}
 
-discussion that follows.
-
 \begin{figure}[t]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{\\Relation between source brightness as a function of angular distance and visibility of interference fringes as a function of slit separation (baseline length). Figure taken from Jackson.}}
@@ -418,7 +442,6 @@ discussion that follows.
     {\includegraphics[width=12cm]{figures/FringeVisibility.png}}
 \end{figure}
 
-\newpage
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
@@ -436,11 +459,31 @@ What's the minimum mass of a black hole you could survive a fall through the eve
 
 \subsubsection{Short answer}
 
-Answer.
+We can find the minimum mass using the equation for the tidal force one would experience:
 
-\subsubsection{Additional context}
+\begin{align*}
+    F_T = \left(\frac{{\rm d}g}{{\rm d}r}\right)\ell = \frac{\rm d}{{\rm d}r} \left(-\frac{GM}{r^2}\right)\ell = -GM\ell \frac{\rm d}{{\rm d}r}r^{-2} = -GM\ell(-2)r^{-3} = \frac{2GM\ell}{r^3} ~ [{\rm N}].
+\end{align*}
 
-Additional context.
+{\noindent}Setting the radius equal to the Schwarzschild radius $r_s\equiv2GM/c^2$,
+
+\begin{align*}
+    F_T &= \frac{2GM\ell}{r_S^3} = 2GM\ell \left(\frac{c^2}{2GM}\right)^3 = \frac{\ell c^6}{4G^2M^2} ~ [{\rm N}],
+\end{align*}
+
+{\noindent}we can now solve for the mass of the black hole $M$:
+
+\begin{align*}
+    M = \sqrt{\frac{\ell c^6}{4G^2F_T}} ~ [{\rm kg}].
+\end{align*}
+
+{\noindent}Let's set $\ell\sim1\,{\rm m}$ for an order-of-magnitude length of the human body, and $F_T\sim100\,{\rm g}=10^4\,{\rm N}$ for the maximum force that the body can withstand. We can now use this to find the minimum mass of a black hole that you could survive a fall through the event horizon without being ripped to shreds:
+
+\begin{align*}
+    M = \sqrt{\frac{(1\,{\rm m})(2.998\times10^8\,{\rm m\,s^{-1}})^6}{4(6.67\time10^{-11}\,{\rm m^3\,kg^{-1}\,s^{-2}})^2(10^4\,{\rm N})}} = 10^{34}\,{\rm kg} \sim 10^3\,{\rm M_\odot}.
+\end{align*}
+
+{\noindent}Since we can see that the tidal force $F_T\sim M^{-2}$, you would be ripped to shreds for smaller black holes because the resulting tidal force on the body would be greater the smaller the black hole mass is.
 
 \subsubsection{Follow-up Questions}
 
@@ -460,7 +503,7 @@ How is synchrotron radiation generated, and how was it used to demonstrate the e
 
 \subsubsection{Short answer}
 
-Answer.
+Synchrotron radiation is generated by relativistic cosmic rays being accelerated by local magnetic fields via the Lorentz force. The non-relativistic limit is cyclotron radiation, but at the relativistic speeds of cosmic rays, the Lorentz factor $\gamma$ must be included for the relativistic case of synchrotron radiation. This type of radiation is non-thermal and linearly polarized. As cosmic rays are accelerated by local magnetic fields, they emit dipole radiation which is beamed in the direction of its velocity vector with an opening angle $\sim1/\gamma$.
 
 \subsubsection{Additional context}
 
@@ -578,7 +621,19 @@ What are ``forbidden lines'' of atomic spectra? In what conditions are they obse
 
 \subsubsection{Short answer}
 
-Answer.
+First, ``allowed'' transitions are those that obey the following selection rules for electric dipole transitions:
+
+\begin{enumerate}
+    \item parity ($\sum_i\ell_i$) must change;
+    \item $\Delta L=0,\pm1$;
+    \item $\Delta J=0,\pm1$, but $\Delta J=0\rightarrow0$ is forbidden;
+    \item only 1 electron wave function $n\ell$ changes with $\Delta\ell=\pm1$;
+    \item spin does not change: $\Delta S=0$.
+\end{enumerate}
+
+{\noindent}``Spin-forbidden'' transitions (i.e., semi-forbidden, inter-combination, inter-system transitions) are those that satisfy the first four selections rules but not the fifth (i.e., $\Delta S\neq0$). These transitions are considerably weaker than the allowed transitions and are denoted with a single square bracket.
+
+{\noindent}``Forbidden'' transitions are those that fail to satisfy at least one of the first four selection rules. Such transition probabilities vary wildly and are denoted with two square brackets.
 
 \subsubsection{Additional context}
 
@@ -690,6 +745,8 @@ What is a polytropic equation of state? Give examples of objects for which this 
 Answer.
 
 \subsubsection{Additional context}
+
+\textbf{CHAPTER 10.5 OF CARROLL AND OSTLIE.}
 
 {\noindent}\textbf{Eulerian description}: For gaseous, non-rotating, single stars without strong magnetic fields, the only forces acting on a mass element come from pressure and gravity. This results in a spherically symmetric configuration. All functions will then be constant on concentric spheres, and we need only one spatial variable to describe them. It seems natural to use the distance r from the stellar centre as the spatial coordinate, which varies from r D 0 at the centre to the total radius r D R at the surface of the star. In addition, the evolution in time t requires a dependence of all functions on t: If we thus take r and t as independent variables, we have a typical ``Eulerian'' treatment in the sense of classical hydrodynamics. Then all other variables are considered to depend on these two, for example, the density $\rho=\rho(r,t)$.
 
@@ -912,11 +969,11 @@ Answer.
 \newpage
 \subsection{Question 7}
 
-What was the solar neutrino problem, and how was it resolved?
+What was the Solar neutrino problem, and how was it resolved?
 
 \subsubsection{Short answer}
 
-Answer.
+The Solar neutrino problem arose when the number of detected Solar neutrinos was lower by a factor of $\sim3$ compared to theoretical predictions ($2.5\,{\rm SNU}$ instead of $7.5\,{\rm SNU}$). If this was correct, this could have implied that the Solar interior was cooler than they thought and that their Solar models were wrong. The solution to this problem came with the discovery that neutrinos could oscillate between three different ``flavours'': the electron, muon, and tau neutrino. Original measurements were only sensitive to neutrinos with energies above $0.814\,{\rm MeV}$, and thus were not sensitive to two of the neutrino flavours (explaining the detection deficit). In order for the neutrinos to be able to oscillate between flavours, the neutrinos must therefore have non-zero rest mass.
 
 \subsubsection{Additional context}
 
@@ -1425,7 +1482,7 @@ Why do neutrons inside a neutron star not decay into protons and electrons?
 
 \subsubsection{Short answer}
 
-Answer.
+Neutrons inside a neutron star do not decay because all lower energy levels are already occupied since they are supported by neutron degeneracy pressure. If the neutrons underwent $\beta$-decay ($n\rightarrow p^++e^-+\nu_e$), the resulting electron would have an energy exceeding the Fermi energy which is energetically unfavourable.
 
 \subsubsection{Additional context}
 
@@ -1455,7 +1512,7 @@ Answer.
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{\\Degeneracy in the Sun's center as it evolves. (Data from Mazzitelli and D'Antona, Ap. J., 311, 762, 1896.) Figure taken from Carroll \& Ostlie (2007).}}
     \label{fig:solardegeneracyevolution}}
-    {\includegraphics[width=12cm]{figures/SolarDegeneracyEvolution.png}}
+    {\includegraphics[width=10cm]{figures/SolarDegeneracyEvolution.png}}
 \end{figure}
 
 {\noindent}If the initial mass of the star on the MS was not too large (perhaps $M_{\rm ZAMS}<25\,{\rm M_\odot}$, the remnant in the inner core will stabilize and become a \textbf{neutron star} supported by \textbf{degeneracy pressure}\footnote{The upper mass limit of the progenitor that results in the formation of a neutron star depends on how metal-rich the original star was. A sufficiently meta-rich star may form a neutron star even it its initial mass is much greater than $25\,{\rm M_\odot}$}.
@@ -1509,20 +1566,6 @@ Answer.
     \label{table:neutronstartable}
 \end{table}
 
-{\noindent}\textbf{Rapid rotation and conservation of angular momentum}: Several properties of neutron stars were anticipated before they were observed. For example, neutron stars must rotate very rapidly. If the iron core of the pre-SN supergiant star were rotating even slowly, the decrease in radius would be so great that the conservation of angular momentum would guarantee the formation of a rapidly rotating neutron star. Assuming that the progenitor core is characteristic of a white dwarf composed entirely of iron, the ratio of the core radius to that of the resulting neutron star is given by
-
-\begin{align*}
-    \frac{}{} \approx \frac{}{} \left(\frac{}{}\right)^{5/3} = 512,
-\end{align*}
-
-{\noindent}where $Z/A=26/56$ has been used for iron. After applying conservation of angular momentum to the collapsing core (which is assumed to lose no mass, so $M_{\rm core}=M_{\rm wd}=M_{\rm ns}$), we obtain for the rotation period $P$
-
-\begin{align*}
-    P_{\rm ns} \approx 3.8\times10^{-6}P_{\rm core}.
-\end{align*}
-
-{\noindent}The question of how fast the progenitor core may be rotating is difficult to answer. As a star evolves, its contracting core is not completely isolated from the surrounding envelope, so one cannot generally use this simple approach of conservation of angular momentum. Taking the white dwarf $40$ Eridani B as an example, the observed rotation period of the core is $P_{\rm core}=1350\,{\rm s}$. Using this to estimate the resulting neutron star rotation period, $P_{ns}=5\times10^{-3}\,{\rm s}$. Thus neutron stars will be rotating very rapidly when they are formed, with rotation periods on the order of a few milliseconds.
-
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
@@ -1565,7 +1608,7 @@ You don't usually need to cool down the detectors for short wavelength (e.g., X-
 
 \subsubsection{Short answer}
 
-Answer.
+IR detectors use CCDs which are made up of semi-conducting silicon material; these detectors, when hit with a photon of the `right' energy, will release a photoelectron which is later read by the CCD. The required energy for an incoming photon to release a photoelectron must be greater than silicon's band gap energy ($>1.14\,{\rm eV}$). Silicon has a useful photoelectric effect range of $1.1-10\,{\rm eV}$, covering the range of near-IR to soft x-ray. While CCDs are generally more sensitive at higher temperatures, this results in a dark current of photoelectrons which cannot be distinguished from astrophysical sources. Thus, cooling detectors for short wavelength observations is necessary to reduce these dark currents specifically because they are sensitive to the IR whereas short wavelength observations are not. This is not necessary for radio observations because these observations use bolometers (instead of CCDs) which detect electromagnetic fields (instead of photons).
 
 \subsubsection{Additional context}
 
@@ -1701,31 +1744,32 @@ Compare the S/N ratios between the following two cases where photon noise is dom
 
 \subsubsection{Short answer}
 
-Answer.
-
-\subsubsection{Additional context}
-
-{\noindent}\textbf{Signal-to-noise ratio}: The equation for the S/N of a measurement made with a CCD is given by
+Since we're in the photon-noise regime, the SNR can be written as:
 
 \begin{align*}
-    \frac{\rm S}{\rm N} = \frac{N_*}{\sqrt{N_*+n_{\rm pix}(N_s+N_D+N_R^2)}} ~ [{\rm dimensionless}].
+    {\rm SNR} = \frac{N}{\sqrt{N}} = \frac{N}{\sqrt{N}} \frac{\sqrt{N}}{\sqrt{N}} = \frac{N\sqrt{N}}{N} = \sqrt{N}.
 \end{align*}
 
-{\noindent}the ``signal'' term, $N_*$, is the total number of photons (i.e., signal) collected from the object of interest. $N_*$ may be from one pixel (if determining the S/N of a single pixel is done for a background measurement), or $N_*$ may be from several pixels, such as all those contained within a stellar profile (if determining the S/N for the measurements of a star), or $N_*$ may even be from say a rectangular area of $X$ by $Y$ pixels (if determining the S/N in a portion of the continuum of a spectrum). 
-
-{\noindent}The ``noise'' terms in the above equation are the square roots of $N_*$, plus $N_{\rm pix}$ (the number of pixels under consideration for the S/N calculation) times the contributions from $N_S$ (the total number of photons per pixel from the background or sky), ND (the total number of dark current electrons per pixel), and $N_R^2$ (the total number of electrons per pixel resulting from the read noise. Note that this noise source is not a Poisson noise source but a \textbf{shot noise}; therefore it enters into the noise calculation as the value itself, not the square root of the value as Poisson noise sources do.
-
-{\noindent}The CCD Equation above provides the formulation for a S/N calculation given typical conditions and a well-behaved CCD. For some CCD observations, particularly those that have high background levels, faint sources of interest, poor spatial sampling, or large gain values, a more complete version of the error analysis is required. We can write the complete S/N equation as
+{\noindent}To get the total number of photons $N$, we can divide the flux by the photon energy and multiply by the product of collecting area and integration time:
 
 \begin{align*}
-    \frac{S}{N} = \frac{N_*}{\sqrt{N_*+n_{\rm pix}\left(1+\frac{n_{\rm pix}}{n_B}\right)(N_S+N_D+N_R^2+G^2\sigma_f^2)}} ~ [{\rm dimensionless}].
+    N = \left(\frac{F}{h\nu}\right)A\Delta t = \left(\frac{F}{h\nu}\right) (\pi R^2)\Delta t ~ [{\rm dimensionless}].
 \end{align*}
 
-{\noindent}This form of the S/N equation is essentially the same as that given above, but two additional terms have been added. The first term,  ($1+n_{\rm pix}/n_B$), provides a measure of the noise incurred as a result of any error introduced in the estimation of the background level on the CCD image. The term $n_B$ is the total number of background pixels used to estimate the mean background (sky) level. One can see that small values of $n_B$ will introduce the largest error as they will provide a poor estimate of the mean level of the background distribution. Thus, very large values of $n_B$ are to be preferred but clearly some trade-off must be made between providing a good estimate of the mean background level and the use of pixels from areas on the CCD image that are far from the source of interest or possibly of a different character.
+{\noindent}Plugging this back into our equation for the SNR, we get:
 
-{\noindent}The second new term added into the complete S/N equation accounts for the error introduced by the digitization noise within the A/D converter. The error introduced by this process can be considerable if the CCD gain has a large value. In this term, $G^2\sigma_f^2,$, $G$ is the gain of the CCD (in electrons/ADU) and $\sigma_f$ is an estimate of the $1$ sigma error introduced within the A/D converter and has a value of approximately $0.289$. The parameter $\sigma_f$ and its value depend on the actual internal electrical workings of a given A/D converter.
+\begin{align*}
+    {\rm SNR} = \sqrt{\frac{F\pi R^2\Delta t}{h\nu}} ~ [{\rm dimensionless}]
+\end{align*}
 
-{\noindent}In practice for most CCD systems in use and for most observational projects, the two additional terms in the complete S/N equation are often very small error contributors and can be ignored. In the instances for which they become important -- for example, cases in which the CCD gain has a high value (e.g., $100$ electrons/ADU), the background level can only be estimated with a few pixels (e.g., less than $200$), or the CCD data are of poor pixel sampling -- ignoring these additional error terms will lead to an overestimation of the S/N value obtained from the CCD data.
+{\noindent}We can now use this to find the SNR ratio of a one-minute expose with a $10\,{\rm m}$ telescope to that of a ten-minute exposure with a $1\,{\rm m}$ telescope:
+
+\begin{align*}
+    \frac{\rm SNR_{1\,min}}{\rm SNR_{10\,min}} &= \frac{\sqrt{\dfrac{F_{1\,min}\pi R_{1\,min}^2\Delta t_{1\,min}}{h\nu_{1\,min}}}}{\sqrt{\dfrac{F_{10\,min}\pi R_{10\,min}^2\Delta t_{10\,min}}{h\nu_{10\,min}}}} = \frac{\sqrt{R_{1\,min}^2\Delta t_{1\,min}}}{\sqrt{R_{10\,min}^2\Delta t_{10\,min}}} = \frac{\sqrt{(10\,{\rm m})^2(1\,{\rm min})}}{\sqrt{(1\,{\rm m})^2(10\,{\rm min})}} \\
+    &= \frac{10}{\sqrt{10}} = \frac{10}{\sqrt{10}} \left(\frac{\sqrt{10}}{\sqrt{10}}\right) = \frac{10\sqrt{10}}{10} = \sqrt{10} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}Thus, the SNR of a one-minute exposure with a $10\,{\rm m}$ telescope is $\sqrt{10}$ that of a ten-minute exposure with a $1\,{\rm m}$ telescope.
 
 % --------------------------------------------------------------
 %               13. 
@@ -1738,7 +1782,7 @@ Describe linear and circular polarizations of electromagnetic waves and give exa
 
 \subsubsection{Short answer}
 
-Answer.
+An electromagnetic wave is said to be linearly polarized if it oscillates in a single plane; circularly polarized electromagnetic waves, on the other hand, are composed of two plane waves of equal amplitude with a phase difference of $90^\circ$. Circular polarization can either be right- or left-handed circularly polarized with the electric field vector rotating in a clockwise or counter-clockwise direction, respectively. Astrophysical examples of linear polarization include synchrotron radiation, dust polarization, and starlight polarization; those of circular polarization include starlight polarization and dust polarization (though generally very weak).
 
 \subsubsection{Additional context}
 
@@ -1810,11 +1854,38 @@ What's the field of view of a $2{\rm K}\,\times\,2{\rm K}$ CCD camera on a $5\,{
 
 \subsubsection{Short answer}
 
-Answer.
+The FOV of a telescope operating with a CCD is given as follows:
 
-\subsubsection{Additional context}
+\begin{align*}
+    {\rm FOV} = \frac{1\,{\rm rad}}{\rm focal\,length} \cdot (\#\,{\rm pixels}) \cdot ({\rm pixel\,size}) = \frac{206265''}{f^{\#}D}N\Delta x,
+\end{align*}
 
-Additional context.
+{\noindent}where we have used the fact that $1\,{\rm rad}=206265''$ and that the focal length is given by $f=f^{\#}D$, where $D$ is the telescope diameter.
+
+{\noindent}Using this to find the FOV for a $2{\rm K}\,\times\,2{\rm K}$ CCD camera on a $5\,{\rm m}$ telescope with $f/16$ focal ratio:
+
+\begin{align*}
+    {\rm FOV} = \frac{206265''}{(16)(5\,{\rm m})} (2000)(20\times10^{-6}\,{\rm m}) \sim 100''.
+\end{align*}
+
+{\noindent}We can now use the Etendue conservation rule to find the FOV at a $10\,{\rm m}$ telescope. Etendue is a property of light which characterizes how ``spread out'' the light is in an area and solid angle, and the Etendue conservation rule says that this property is conserved following the equation
+
+\begin{align*}
+    \epsilon = {\rm FOV}^2 \cdot D^2 = {\rm const} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}This allows us to equate the etendue of the first telescope setup to that of the second in order to solve for the new FOV:
+
+\begin{align*}
+    \epsilon_{5\,{\rm m}} &= \epsilon_{10\,{\rm m}} \\
+    {\rm FOV}_{5\,{\rm m}}^2 \cdot D_{5\,{\rm m}}^2 &= {\rm FOV}_{10\,{\rm m}}^2 \cdot D_{10\,{\rm m}}^2 \\
+    {\rm FOV}_{10\,{\rm m}} &= \left(\frac{D_{5\,{\rm m}}}{D_{10\,{\rm m}}}\right) {\rm FOV}_{5\,{\rm m}} \\
+    {\rm FOV}_{10\,{\rm m}} &= \left(\frac{5\,{\rm m}}{10\,{\rm m}}\right) 100'' \\
+    {\rm FOV}_{10\,{\rm m}} &= \frac{1}{2} 100'' \\
+    {\rm FOV}_{10\,{\rm m}} &= 50''.
+\end{align*}
+
+{\noindent}Thus, using Etendue conservation, we can see that the FOV is reduced by a factor of 2 when brought to a telescope twice the diameter.
 
 \subsubsection{Follow-up Questions}
 
@@ -1833,7 +1904,23 @@ Sketch and give the equations for each of the following distributions: 1. Gaussi
 
 \subsubsection{Short answer}
 
-Answer.
+The Gaussian (normal) distribution:
+
+\begin{align*}
+    f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} \exp \left[-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2\right]
+\end{align*}
+
+{\noindent}The Poisson distribution:
+
+\begin{align*}
+    f(x;\mu) = \frac{\mu^x}{x!} e^{-\mu}
+\end{align*}
+
+{\noindent}The log-normal distribution:
+
+\begin{align*}
+    f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} \frac{1}{x} \exp \left[-\frac{1}{2}\left(\frac{\ln x-\mu}{\sigma}\right)^2\right]
+\end{align*}
 
 \subsubsection{Additional context}
 
@@ -2051,7 +2138,7 @@ Answer.
 {\noindent}\textit{Mean and standard deviation}: The Poisson distribution, like the binomial distribution, is a \textit{discrete} distribution. That is, it is only defined only at integral values of the variable $x$, although the parameter $\mu$is a positive, real number. The mean of the Poisson distribution is actually the parameter $\mu$ that appears in the probability function $P_P(x;\mu)$. To verify this, we can evaluate the expectation value $\langle x\rangle$ of $x$: 
 
 \begin{align*}
-    \langle x\rangle = \sum_{x=0}^\infty \left(x\frac{\mu^x}{x!}e^{-\mu}\right) = \mu e^{-\mu} \sum_{x=1}^\infty \frac{\mu^{x-1}}{(x-1)!} = \mu e^{-\mu} \sum_{y=0}^\infty \frac{\mu^y}{y!} = \mu.
+    \langle x\rangle = \sum_{x=0}^\infty \left(x\frac{\mu^x}{x!}e^{-\mu}\right) = \mu e^{-\mu} \sum_{x=1}^\infty \frac{\mu^{x-1}}{(x-1)!} = \mu e^{-\mu} \sum_{y=0}^\infty \frac{\mu^y}{y!} = \mu ~ [{\rm dimensionless}].
 \end{align*}
 
 {\noindent}To find the standard deviation $\sigma$, the expectation value of the square of the deviations can be evaluated:
@@ -2071,7 +2158,7 @@ Answer.
 {\noindent}can be limited by the factorial function in the denominator. The problem can be avoided by using logarithms or by using the recursive relations
 
 \begin{align*}
-    P(0;\mu)=e^{-\mu}, ~~~ P(x;\mu)=\frac{\mu}{x}(x-1;\mu).
+    P(0;\mu)=e^{-\mu}, ~~~ P(x;\mu)=\frac{\mu}{x}(x-1;\mu) ~ [{\rm dimensionless}].
 \end{align*}
 
 {\noindent}This form has the disadvantage that, in order to calculate the function for particular values of $x$ and $\mu$, the function must be calculated at all lower values of $x$ as well. However, if the function is to be summed from $x=0$ to some upper limit to obtain the summed probability or to generate the distribution for a Monte Carlo calculation, the function must be calculated at all lower values of $x$ anyway.
@@ -2079,7 +2166,7 @@ Answer.
 {\noindent}\textit{Summed probability}: We may want to know the probability of obtaining a sample value of $x$ between limits $x_1$ and $x_2$ from a Poisson distribution with mean $\mu$. This probability is obtained by summing the values of the function calculated at the integral values of $x$ between the two integral limits $x_1$ and $x_2$,
 
 \begin{align*}
-    S_P(x_1,x_2;\mu) = \sum_{x_1}^{x_2} P_P(x;\mu).
+    S_P(x_1,x_2;\mu) = \sum_{x_1}^{x_2} P_P(x;\mu) ~ [{\rm dimensionless}].
 \end{align*}
 
 {\noindent}More likely, we may want to find the probability of recording $n$ or more events in a given interval when the mean number of events is $\mu$. This is just the sum 
@@ -2112,25 +2199,25 @@ Answer.
 {\noindent}\textit{Characteristics}: The Gaussian probability density is defined as
 
 \begin{align*}
-    p_G = \frac{1}{\sigma\sqrt{2\pi}}\exp \left[-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2 \right] ~ [{\rm dimensionless}].
+    p_G = \frac{1}{\sigma\sqrt{2\pi}}\exp \left[-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^2 \right] ~ [{\rm function}].
 \end{align*}
 
 {\noindent}This distribution is \textbf{symmetrical} and \textbf{mesokurtic}. It is a continuous function describing the probability of obtaining the value $x$ in a random observation from a parent distribution with parameters $\mu$ and $\sigma$, corresponding to the mean and standard deviation, respectively. Because the distribution is continuous, we must define an interval in which the value of the observation $x$ will fall. The probability density function is properly defined such that the probability that the value of a random observation ${\rm d}P_G(x;\mu,\sigma)$ will fall within an interval ${\rm d}x$ around $x$ is given by
 
 \begin{align*}
-    {\rm d}P_G(x;\mu,\sigma) = p_G(x;\mu,\sigma){rm d}x ~ [{\rm dimensionless}],
+    {\rm d}P_G(x;\mu,\sigma) = p_G(x;\mu,\sigma){rm d}x ~ [{\rm function}],
 \end{align*}
 
 {\noindent}considering ${\rm d}x$ to be an infinitesimal differential, and the probability density function to be normalized, so that
 
 \begin{align*}
-    \int\limits_{x=-\infty}^{x=\infty} {\rm d}P_G(x;\mu,\sigma) = \int\limits_{x=-\infty}^{x=\infty} p_G(x;\mu,\sigma){\rm d}x ~ [{\rm dimensionless}].
+    \int\limits_{x=-\infty}^{x=\infty} {\rm d}P_G(x;\mu,\sigma) = \int\limits_{x=-\infty}^{x=\infty} p_G(x;\mu,\sigma){\rm d}x ~ [{\rm function}].
 \end{align*}
 
 {\noindent}The width of the curve is determined by the value of $\sigma$, such that for $x=\mu+\sigma$, the height of the curve is reduced to $e^{-1/2}$ of its value at the peak:
 
 \begin{align*}
-    p_G(x;\mu\pm\sigma,\sigma) = e^{-1/2}p_G(\mu;\mu,\sigma) ~ [{\rm dimensionless}].
+    p_G(x;\mu\pm\sigma,\sigma) = e^{-1/2}p_G(\mu;\mu,\sigma) ~ [{\rm function}].
 \end{align*}
 
 {\noindent}We can characterize a distribution by its \textbf{full-width at half maximum} (FWHM) $\Gamma$, often referred to as the \textbf{half-width}, defined as the range of $x$ between values at which the probability $p_G(x;\mu,\sigma)$ is half its maximum value:
@@ -2175,7 +2262,7 @@ Answer.
 {\noindent}The log-normal probability distribution is defined as
 
 \begin{align*}
-    p_L = \frac{1}{x\sqrt{2\pi\sigma^2}} \exp \left[-\frac{(\ln x-\mu)^2}{2\sigma^2}\right] ~ [{\rm dimensionless}]
+    p_L = \frac{1}{x\sqrt{2\pi\sigma^2}} \exp \left[-\frac{(\ln x-\mu)^2}{2\sigma^2}\right] ~ [{\rm function}]
 \end{align*}
 
 {\noindent}which has the following descriptors:
@@ -2195,12 +2282,11 @@ Answer.
 {\noindent}\textbf{Summary}:
 
 \begin{itemize}
-    \item \textbf{Binomial distribution}: describes the probability of observing $x$ successes out of $n$ tries when the probability for success in each try is $p$:
+    \item \textbf{Log-normal distribution}: if $\ln(x)$ or $\log(x)$ is \textit{normally distributed}:
 \end{itemize}
 
 \begin{align*}
-    p_B(x;n,p) = \binom{n}{x}p^xq^{n-x} &= \frac{n!}{x!(n-x)!}p^x(1-p)^{n-x} \\
-    \mu=np ~~~~~~ \sigma^2&=np(1-p)
+    p_L = \frac{1}{x\sqrt{2\pi\sigma^2}} \exp \left[-\frac{(\ln x-\mu)^2}{2\sigma^2}\right] ~ [{\rm function}]
 \end{align*}
 
 \begin{itemize}
@@ -2247,7 +2333,27 @@ Answer.
 
 \subsubsection{Additional context}
 
-Additional context.
+{\noindent}\textbf{Signal-to-noise ratio}: The equation for the S/N of a measurement made with a CCD is given by
+
+\begin{align*}
+    \frac{\rm S}{\rm N} = \frac{N_*}{\sqrt{N_*+n_{\rm pix}(N_s+N_D+N_R^2)}} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}the ``signal'' term, $N_*$, is the total number of photons (i.e., signal) collected from the object of interest. $N_*$ may be from one pixel (if determining the S/N of a single pixel is done for a background measurement), or $N_*$ may be from several pixels, such as all those contained within a stellar profile (if determining the S/N for the measurements of a star), or $N_*$ may even be from say a rectangular area of $X$ by $Y$ pixels (if determining the S/N in a portion of the continuum of a spectrum). 
+
+{\noindent}The ``noise'' terms in the above equation are the square roots of $N_*$, plus $N_{\rm pix}$ (the number of pixels under consideration for the S/N calculation) times the contributions from $N_S$ (the total number of photons per pixel from the background or sky), $N_D$ (the total number of dark current electrons per pixel), and $N_R^2$ (the total number of electrons per pixel resulting from the read noise. Note that this noise source is not a Poisson noise source but a \textbf{shot noise}; therefore it enters into the noise calculation as the value itself, not the square root of the value as Poisson noise sources do.
+
+{\noindent}The CCD Equation above provides the formulation for a S/N calculation given typical conditions and a well-behaved CCD. For some CCD observations, particularly those that have high background levels, faint sources of interest, poor spatial sampling, or large gain values, a more complete version of the error analysis is required. We can write the complete S/N equation as
+
+\begin{align*}
+    \frac{S}{N} = \frac{N_*}{\sqrt{N_*+n_{\rm pix}\left(1+\frac{n_{\rm pix}}{n_B}\right)(N_S+N_D+N_R^2+G^2\sigma_f^2)}} ~ [{\rm dimensionless}].
+\end{align*}
+
+{\noindent}This form of the S/N equation is essentially the same as that given above, but two additional terms have been added. The first term,  ($1+n_{\rm pix}/n_B$), provides a measure of the noise incurred as a result of any error introduced in the estimation of the background level on the CCD image. The term $n_B$ is the total number of background pixels used to estimate the mean background (sky) level. One can see that small values of $n_B$ will introduce the largest error as they will provide a poor estimate of the mean level of the background distribution. Thus, very large values of $n_B$ are to be preferred but clearly some trade-off must be made between providing a good estimate of the mean background level and the use of pixels from areas on the CCD image that are far from the source of interest or possibly of a different character.
+
+{\noindent}The second new term added into the complete S/N equation accounts for the error introduced by the digitization noise within the A/D converter. The error introduced by this process can be considerable if the CCD gain has a large value. In this term, $G^2\sigma_f^2,$, $G$ is the gain of the CCD (in electrons/ADU) and $\sigma_f$ is an estimate of the $1$ sigma error introduced within the A/D converter and has a value of approximately $0.289$. The parameter $\sigma_f$ and its value depend on the actual internal electrical workings of a given A/D converter.
+
+{\noindent}In practice for most CCD systems in use and for most observational projects, the two additional terms in the complete S/N equation are often very small error contributors and can be ignored. In the instances for which they become important -- for example, cases in which the CCD gain has a high value (e.g., $100$ electrons/ADU), the background level can only be estimated with a few pixels (e.g., less than $200$), or the CCD data are of poor pixel sampling -- ignoring these additional error terms will lead to an overestimation of the S/N value obtained from the CCD data.
 
 % --------------------------------------------------------------
 %               17. 
@@ -2256,7 +2362,7 @@ Additional context.
 \newpage
 \subsection{Question 17}
 
-Suppose you measure the brightness of a star ten times (in a regime where source- noise dominates. (1) How do you calculate the mean, median, and mode and standard deviation? (2) How can you tell if any points are outliers? Say some points are outliers, what do you do now (i.e., how does this impact the calculation of the quantities in part 1)?
+Suppose you measure the brightness of a star ten times (in a regime where source-noise dominates. (1) How do you calculate the mean, median, and mode and standard deviation? (2) How can you tell if any points are outliers? Say some points are outliers, what do you do now (i.e., how does this impact the calculation of the quantities in part 1)?
 
 \subsubsection{Short answer}
 
@@ -2301,7 +2407,14 @@ What are the primary wavelength bands at which searches for gravitational waves 
 
 \subsubsection{Short answer}
 
-Answer.
+Four gravitational-wave frequency bands are being explored experimentally:
+
+\begin{itemize}
+    \item The high-frequency band (HF; $\nu\sim1\,{\rm Hz}$ to $\nu\sim10^4\,{\rm Hz}$) is the domain of Earth-based gravitational wave detectors or laser interferometers and resonant mass antennas.
+    \item The low-frequency band (LF; $1\,{\rm Hz}$ to $10^4\,{\rm Hz}$) is the domain of detectors flown in space (Earth orbit or interplanetary orbit).
+    \item The very-low frequency band (VLF; $10^7\,{\rm Hz}$ is the domain of millisecond pulsar timing.
+    \item The extremely-low-frequency band (ELF; $10^{15}\,{\rm Hz}$ to $10^{18}\,{\rm Hz}$) is the domain of quadrupolar anisotropies in the CMB.
+\end{itemize}
 
 \subsubsection{Additional context}
 
@@ -2345,7 +2458,6 @@ In 1916, the year after the final formulation of the field equations of general 
 \end{figure}
 
 {\noindent}GWs differ from electromagnetic waves in that they propagate essentially unperturbed through space, as they interact only very weakly with matter. Furthermore, GWs are intrinsically non-linear, because the wave energy density itself generates additional curvature of space-time. This phenomenon is only significant, however, very close to strong sources of waves, where the wave amplitude is relatively large. More usually, GWs distinguish themselves from EM waves by the fact that they are very weak. One cannot hope to detect any waves of terrestrial origin, whether naturally occurring or man-made; instead one must look for very massive compact astrophysical objects, moving at relativistic velocities. For example, strong sources of GWs that may exist in our Galaxy or nearby galaxies are expected to produce wave strengths on Earth that do not exceed strain levels of one part in $10^{21}$. Finally, it is important to appreciate that GW detectors respond directly to GW amplitude rather than GW power; therefore the volume of space that is probed for potential sources increases as the cube of the strain sensitivity.
-
 
 {\noindent}\textbf{Frequency bands, sources, and detection methods}: Four gravitational-wave frequency bands are being explored experimentally: the high-frequency band (HF; $\nu\sim1\,{\rm Hz}$ to $\nu\sim10^4\,{\rm Hz}$), the low-frequency band (LF; $1\,{\rm Hz}$ to $10^4\,{\rm Hz}$), the very-low frequency band (VLF; $10^7\,{\rm Hz}$ to $10^9\,{\rm Hz}$), and the extremely-low-frequency band (ELF; $10^{15}\,{\rm Hz}$ to $10^{18}\,{\rm Hz}$).
 
