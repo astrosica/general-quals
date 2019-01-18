@@ -334,11 +334,13 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{S/N:} signal-to-noise
 
-{\noindent}\textbf{SNO:} Sudbury Neutrion Observatory
+{\noindent}\textbf{SNO:} Sudbury Neutrino Observatory
 
-{\noindent}\textbf{SNR:} signal-to-noise ratio
+{\noindent}\textbf{SNR} or \textbf{S/N:} signal-to-noise ratio
 
 {\noindent}\textbf{SNU:} solar neutrino unit
+
+{\noindent}\textbf{SST:} Spitzer Space Telescope
 
 {\noindent}\textbf{STMD:} spectral type - magnitude diagram
 
@@ -565,6 +567,8 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Coulomb energy}: $E_{\rm Coul} ~ [{\rm MeV}]$
 
+{\noindent}\textbf{Coulomb logarithm}: $\ln\Lambda ~ [{\rm dimensionless}]$
+
 {\noindent}\textbf{Coupling coefficient of collisions}: $x_c ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Coupling coefficient of Ly$\alpha$ scattering}: $x_\alpha ~ [{\rm dimensionless}]$
@@ -688,7 +692,7 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Effective number of neutrino families}: $N_\mathrm{eff} ~ [{\rm dimensionless}]$
 
-{\noindent}\textbf{Effective radius}: $R_e ~ [{\rm Mpc}]$
+{\noindent}\textbf{Effective radius}: $R_e~{\rm or}~r_e ~ [{\rm Mpc}]$
 
 {\noindent}\textbf{Einstein A coefficient (spontaneous emission)}: $A_{ul} ~ [{\rm s^{-1}}]$
 
@@ -861,11 +865,15 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Hydrogen (molecular)}: ${\rm H_2} ~ [{\rm element}]$
 
+{\noindent}\textbf{Gain}: $G ~ [{\rm electrons\,ADU^{-1}}]$
+
 {\noindent}\textbf{Gyration frequency of charged particles in $\vec{B}$}: $\omega_B ~ [{\rm Hz}]$
 
 {\noindent}\textbf{IMF}: $\xi(m) ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{IMF peak mass}: $M_\mathrm{peak} ~ [{\rm M_\odot}]$
+
+{\noindent}\textbf{Impact parameter}: $b ~ [{\rm pc}]$
 
 {\noindent}\textbf{Index of refraction}: $n ~ [{\rm dimensionless}]$
 
@@ -987,7 +995,7 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 {\noindent}\textbf{Megaelectronvolt}: ${\rm MeV} ~ [{\rm unit}]$
 
-{\noindent}\textbf{Metallicity}: $Z ~ [{\rm dimensionless}]$
+{\noindent}\textbf{Metallicity}: $Z~{\rm or}~[{\rm Fe/H}] ~ [{\rm dimensionless}]$
 
 {\noindent}\textbf{Mixing length}: $\ell_m ~ [{\rm cm}]$
 
@@ -2034,6 +2042,11 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
     E_{\rm Coul} = \frac{Z_1Z_2e^2}{r} ~ [{\rm MeV}]
 \end{align*}
 
+{\noindent}\textbf{Coulomb logarithm}:
+\begin{align*}
+    \ln\Lambda \equiv \ln \left(\frac{b_{\rm min}}{b_{\rm max}}\right) ~ [{\rm dimensionless}]
+\end{align*}
+
 {\noindent}\textbf{Coupling coefficient (total)}:
 \begin{align*}
     x_\mathrm{tot} \equiv x_c + x_\alpha ~ [{\rm dimensionless}]
@@ -2716,6 +2729,11 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 
 {\noindent}\textbf{Metallicity index}:
 \begin{align*}
+    [{\rm Fe/H}] \equiv \log_{10} \left[\frac{(N_{\rm Fe}/N_{\rm H})_{\rm star}}{(N_{\rm Fe}/N_{\rm H})_\odot}\right] ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}\textbf{Metallicity index}:
+\begin{align*}
     [\mathrm{X}/\mathrm{H}] \equiv \log\left(\frac{n(\mathrm{X})}{n(\mathrm{H})}\right)_* -\log\left(\frac{n(\mathrm{X})}{n(\mathrm{H})}\right)_\odot ~ [{\rm dimensionless}]
 \end{align*}
 
@@ -3044,7 +3062,8 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Relaxation time}:
 \begin{align*}
     t_\mathrm{relax} &\approx \frac{R}{6v} \frac{N}{\ln(N/2)} ~ [{\rm yr}] \\
-    t_\mathrm{relax} &= \frac{t_\mathrm{cross}}{6} \frac{N}{\ln(N/2)} ~ [{\rm yr}]
+    t_\mathrm{relax} &= \frac{t_\mathrm{cross}}{6} \frac{N}{\ln(N/2)} ~ [{\rm yr}] \\
+    t_{\rm relax} &\simeq \frac{0.1N}{\ln N} t_{\rm cross} ~ [{\rm yr}]
 \end{align*}
 
 {\noindent}\textbf{Robertson-Walker metric}:
@@ -3131,6 +3150,12 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
 {\noindent}\textbf{Spin temperature of $21\,{\rm cm}$}:
 \begin{align*}
     \frac{n_1}{n_2} = \frac{g_1}{g_2}\exp\left(-\frac{0.068\,{\rm K}}{T_s}\right) ~ [{\rm dimensionless}],
+\end{align*}
+
+{\noindent}\textbf{S/N (CCD)}:
+\begin{align*}
+    \frac{\rm S}{\rm N} &= \frac{N_*}{\sqrt{N_*+n_{\rm pix}(N_s+N_D+N_R^2)}} ~ [{\rm dimensionless}] \\
+    \frac{S}{N} &= \frac{N_*}{\sqrt{N_*+n_{\rm pix}\left(1+\frac{n_{\rm pix}}{n_B}\right)(N_S+N_D+N_R^2+G^2\sigma_f^2)}} ~ [{\rm dimensionless}]
 \end{align*}
 
 {\noindent}\textbf{Standard deviation (of distribution)}:
@@ -3502,6 +3527,8 @@ R\sinh(r/R),~~~~~& (\kappa = -1)
     \item By the \textbf{virial theorem}, the total energy of a system of particles in equilibrium is one-half of the system's potential energy. Therefore, only one-half of the change in gravitational potential energy of a star is actually available to be radiated away.
     \item In counting the number of leptons involved in a nuclear reaction, we treat matter and anti-matter differently. Specifically, the total number of matter leptons \textit{minus} the total number of anti-matter leptons must remain constant.
     \item The CNO cycle ($\epsilon_{\rm CNO}\propto T_6^{19.9}$) is much more strongly temperature-dependent than the pp chain ($\epsilon_{pp}\propto T_6^4$) is. This property implies that low-mass stars, which have smaller central temperatures, are dominated by the pp chain during their ``hydrogen burning'' evolution, whereas more massive stars, with their higher central temperatures, convert hydrogen to helium by the CNO cycle. The transition in stellar mass between stars dominated by the pp chain and those dominated by the CNO cycle occurs for stars slightly more massive than our Sun.
+    \item Since core-collapse SNe appear after only $10^7$ years following the onset of star formation (recall that they are the result of massive star evolution) and they produce a higher abundance of oxygen relative to iron, $[{\rm O/H}]$ may also be used to determine the ages of Galactic components in addition to $[{\rm Fe/H}]$. 
+    \item The younger a stellar population is, the smaller its scale height.
     \end{itemize}
 
 \end{document}
