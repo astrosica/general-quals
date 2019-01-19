@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JAN 2019 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 JAN 2019 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,7 +603,7 @@ File: figures/KroupaChabrier.png Graphic file (type png)
 Package pdftex.def Info: figures/KroupaChabrier.png used on input line 92.
 (pdftex.def)             Requested size: 284.52756pt x 208.40268pt.
  [2 <./figures/KroupaChabrier.png>]
-<figures/ChabrierTable.png, id=142, 369.38pt x 201.75375pt>
+<figures/ChabrierTable.png, id=141, 369.38pt x 201.75375pt>
 File: figures/ChabrierTable.png Graphic file (type png)
 
 <use figures/ChabrierTable.png>
@@ -677,11 +677,10 @@ Overfull \hbox (13.3333pt too wide) detected at line 238
  [] 
  []
 
-[5 <./figures/IMFmodel.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [6]
+[5] [6 <./figures/IMFmodel.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -781,14 +780,14 @@ File: figures/IMFmodels.png Graphic file (type png)
 <use figures/IMFmodels.png>
 Package pdftex.def Info: figures/IMFmodels.png used on input line 355.
 (pdftex.def)             Requested size: 455.24408pt x 542.24036pt.
- [8 <./figures/SF_TvsRho.png>]
-<figures/TvsRho_feeback.png, id=188, 907.39pt x 634.37pt>
+ [8 <./figures/SF_TvsRho.png>] [9 <./figures/IMFmodels.png>] <figures/TvsRho_fe
+eback.png, id=193, 907.39pt x 634.37pt>
 File: figures/TvsRho_feeback.png Graphic file (type png)
 
 <use figures/TvsRho_feeback.png>
 Package pdftex.def Info: figures/TvsRho_feeback.png used on input line 366.
 (pdftex.def)             Requested size: 455.24408pt x 318.26834pt.
- [9 <./figures/IMFmodels.png>] [10 <./figures/TvsRho_feeback.png>]
+ [10 <./figures/TvsRho_feeback.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 428.
 
 
@@ -2210,7 +2209,7 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (97 pages, 23764980 bytes).
+Output written on galactic.pdf (97 pages, 23765418 bytes).
 PDF statistics:
  1034 PDF objects out of 1200 (max. 8388607)
  760 compressed objects within 8 object streams
