@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JAN 2019 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 JAN 2019 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3856,11 +3856,10 @@ Overfull \hbox (13.3333pt too wide) detected at line 4298
  [] 
  []
 
-[145 <./figures/galactic/IMFmodel.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [146]
+[145] [146 <./figures/galactic/IMFmodel.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -3935,15 +3934,15 @@ Package pdftex.def Info: figures/galactic/IMFmodels.png used on input line 4415
 .
 (pdftex.def)             Requested size: 455.24408pt x 542.24036pt.
  [148 <./figures/galactic/SF_TvsRho.png>]
-<figures/galactic/TvsRho_feeback.png, id=1754, 907.39pt x 634.37pt>
+[149 <./figures/galactic/IMFmodels.png>]
+<figures/galactic/TvsRho_feeback.png, id=1759, 907.39pt x 634.37pt>
 File: figures/galactic/TvsRho_feeback.png Graphic file (type png)
 
 <use figures/galactic/TvsRho_feeback.png>
 Package pdftex.def Info: figures/galactic/TvsRho_feeback.png used on input line
  4426.
 (pdftex.def)             Requested size: 455.24408pt x 318.26834pt.
- [149 <./figures/galactic/IMFmodels.png>] [150 <./figures/galactic/TvsRho_feeba
-ck.png>] [151]
+ [150 <./figures/galactic/TvsRho_feeback.png>] [151]
 <figures/galactic/lumfunc_before.png, id=1772, 524.96124pt x 494.84875pt>
 File: figures/galactic/lumfunc_before.png Graphic file (type png)
 
@@ -7727,7 +7726,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 15769.
 Here is how much of TeX's memory you used:
  11964 strings out of 492995
  199442 string characters out of 6132704
- 378091 words of memory out of 5000000
+ 378090 words of memory out of 5000000
  14044 multiletter control sequences out of 15000+600000
  16610 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7763,7 +7762,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on quals.pdf (433 pages, 86974704 bytes).
+Output written on quals.pdf (433 pages, 86975131 bytes).
 PDF statistics:
  4248 PDF objects out of 4296 (max. 8388607)
  3232 compressed objects within 33 object streams
