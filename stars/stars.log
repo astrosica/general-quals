@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 JAN 2019 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 JAN 2019 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1160,8 +1160,8 @@ File: figures/SNeIa_corrected.png Graphic file (type png)
 Package pdftex.def Info: figures/SNeIa_corrected.png used on input line 898.
 (pdftex.def)             Requested size: 455.24408pt x 162.45673pt.
  [30 <./figures/ChemicalElements.png>]
-[31 <./figures/SNeIa.png>] [32 <./figures/SNeIa_corrected.png>] [33] [34]
-[35] [36] [37]
+[31 <./figures/SNeIa.png> <./figures/SNeIa_corrected.png>] [32] [33] [34]
+[35] [36]
 Overfull \hbox (2.55862pt too wide) in paragraph at lines 1258--1259
 \OT1/cmr/m/n/10 For an ideal monatomic gas, $\OML/cmm/m/it/10 ^^M \OT1/cmr/m/n/
 10 = 5\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 3$ and con-vec-tion will oc-cur in some
@@ -1169,12 +1169,12 @@ Overfull \hbox (2.55862pt too wide) in paragraph at lines 1258--1259
 m/it/10 T <
  []
 
-[38]
+[37]
 Underfull \hbox (badness 1337) in paragraph at lines 1305--1305
 \OT1/cmr/m/n/8 ``Cloudy'' ar-eas in-di-cate the
  []
 
-<figures/ConvectiveRegions.png, id=459, 776.9025pt x 610.28pt>
+<figures/ConvectiveRegions.png, id=451, 776.9025pt x 610.28pt>
 File: figures/ConvectiveRegions.png Graphic file (type png)
 
 <use figures/ConvectiveRegions.png>
@@ -1202,13 +1202,13 @@ Package pdftex.def Info: figures/ConvectiveRegions.png used on input line 1305.
 
 (pdftex.def)             Requested size: 227.62204pt x 178.80183pt.
 
-<figures/DelT.png, id=460, 859.21pt x 397.485pt>
+<figures/DelT.png, id=452, 859.21pt x 397.485pt>
 File: figures/DelT.png Graphic file (type png)
  <use figures/DelT.png>
 Package pdftex.def Info: figures/DelT.png used on input line 1310.
 (pdftex.def)             Requested size: 398.33858pt x 184.27669pt.
 
-[39 <./figures/ConvectiveRegions.png> <./figures/DelT.png>]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 1339--1339
 \OT1/cmr/m/n/8 Figure taken from
  []
@@ -1218,7 +1218,7 @@ Overfull \hbox (59.43591pt too wide) in paragraph at lines 1339--1339
 [][]\OT1/cmr/m/n/8 https://web.njit.edu/ gary/321/Lecture9.html[][].| 
  []
 
-<figures/SolarInterior.png, id=477, 471.7625pt x 415.5525pt>
+<figures/SolarInterior.png, id=471, 471.7625pt x 415.5525pt>
 File: figures/SolarInterior.png Graphic file (type png)
 
 <use figures/SolarInterior.png>
@@ -1252,8 +1252,8 @@ File: figures/SolarInterior.png Graphic file (type png)
 <use figures/SolarInterior.png>
 Package pdftex.def Info: figures/SolarInterior.png used on input line 1339.
 (pdftex.def)             Requested size: 170.71652pt x 150.3787pt.
-
-<figures/MassFractionRadius.png, id=484, 958.58125pt x 761.84625pt>
+ [39 <./figures/ConvectiveRegions.png> <./figures/DelT.png>]
+<figures/MassFractionRadius.png, id=487, 958.58125pt x 761.84625pt>
 File: figures/MassFractionRadius.png Graphic file (type png)
 
 <use figures/MassFractionRadius.png>
@@ -1276,10 +1276,7 @@ Overfull \hbox (13.3333pt too wide) detected at line 1348
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+[40 <./figures/SolarInterior.png> <./figures/MassFractionRadius.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 The con-vec-tion con-di-tion
  []
@@ -1346,7 +1343,7 @@ Underfull \hbox (badness 5652) in paragraph at lines 1363--1363
 \OT1/cmr/m/n/8 Quan-ti-ties, Fourth Edi-tion,
  []
 
-<figures/SolarConvection.png, id=486, 942.52126pt x 735.74875pt>
+<figures/SolarConvection.png, id=497, 942.52126pt x 735.74875pt>
 File: figures/SolarConvection.png Graphic file (type png)
 
 <use figures/SolarConvection.png>
@@ -1499,11 +1496,7 @@ Overfull \hbox (13.3333pt too wide) detected at line 1363
  [] 
  []
 
-[40 <./figures/SolarInterior.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41 <./figures/MassFractionRadius.png>] [42 <./figures/SolarConvection.png>]
+[41 <./figures/SolarConvection.png>] [42]
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ² in font cmr10!
 
@@ -1513,11 +1506,10 @@ File: figures/TempDependence.png Graphic file (type png)
 <use figures/TempDependence.png>
 Package pdftex.def Info: figures/TempDependence.png used on input line 1457.
 (pdftex.def)             Requested size: 398.33858pt x 138.6821pt.
- [43 <./figures/TempDependence.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no Š in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [44]
+ [43 <./figures/TempDependence.png>] [44]
 [45] <figures/SolarQuantities.png, id=531, 741.77126pt x 258.9675pt>
 File: figures/SolarQuantities.png Graphic file (type png)
 
@@ -1856,7 +1848,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2471.
 Here is how much of TeX's memory you used:
  9911 strings out of 492995
  151130 string characters out of 6132704
- 284226 words of memory out of 5000000
+ 278446 words of memory out of 5000000
  13044 multiletter control sequences out of 15000+600000
  15899 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1884,7 +1876,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on stars.pdf (78 pages, 11457708 bytes).
+Output written on stars.pdf (78 pages, 11457239 bytes).
 PDF statistics:
  929 PDF objects out of 1000 (max. 8388607)
  704 compressed objects within 8 object streams
