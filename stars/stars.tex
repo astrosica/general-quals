@@ -644,21 +644,54 @@ Stellar pulsations can occur when a star's surface is expanding and contracting 
 
 \subsubsection{Additional context}
 
-{\noindent}For a star to begin and continue to pulsate, there must be some mechanism which converts radiant energy into energy of motion in a timely way, overcoming friction and building up the motion. Such a mechanism can exist in a star: it is the thermodynamic effect of an ionization zone in a star. In a star of moderate surface temperature, the layers below the surface have temperatures up to a few tens of thousands of degrees. The helium tends to be singly-ionized; it has lost one of its two electrons but not the second. If the star contracts, it heats slightly which causes the helium to lose its second electron. This requires energy which comes from the radiation flowing outward through the gas; it is absorbed by the opacity of the gas. The energy then becomes stored in the form of ionization energy. When the star subsequently expands and cools, the electrons recombine with the helium atoms, and release the stored-up ionization energy. This is the `push' which maintains the pulsation in all of the pulsating stars in the Cepheid instability strip.
-
-{\noindent}\textbf{CHAPTER 14 OF CARROLL AND OSTLIE}.
-
 {\noindent}Variable stars are stars which change in brightness. The change may be as small as a few parts in a million, or it may be a factor of a thousand or more. It may occur in a second or less, or it may take years, decades, or centuries. These are extremes, but astronomers have developed an array of techniques for discovering, measuring, and analyzing the full range of possible variable stars. Why? Because the variations provide important and often unique information about the nature and evolution of the stars. This information can be used to deduce even more fundamental knowledge about our universe in general.
 
-{\noindent}The variations may be due to the rotation of a spotted star, or to an eclipse of a star by a companion star, or even by an unseen planet. The variations may be due to the vibrations of a star; if they are complex enough (as they are in our Sun), they may provide an internal `picture' of the star. The variations may be due to eruptions on a star (flares), an accretion disc (dwarf novae), major explosions on a star (novae), or to the total disruption of a star in a supernova. SNe are the most violent events in our Universe, yet we owe our existence to them, because they help to recycle the atoms, created in stars, into space where some of them became part of our Sun, our planet, and our biosphere. Also, the elements heavier than iron were mostly created in SNe explosions. SNe may be dramatic and extreme, but they represent only one of the many roles that variable stars play in modern astrophysics, and in our understanding of the Universe and the processes which govern it.
+{\noindent}For a star to begin and continue to pulsate, there must be some mechanism which converts radiant energy into energy of motion in a timely way, overcoming friction and building up the motion. Such a mechanism can exist in a star: it is the thermodynamic effect of an ionization zone in a star. In a star of moderate surface temperature, the layers below the surface have temperatures up to a few tens of thousands of degrees. The helium tends to be singly-ionized; it has lost one of its two electrons but not the second. If the star contracts, it heats slightly which causes the helium to lose its second electron. This requires energy which comes from the radiation flowing outward through the gas; it is absorbed by the opacity of the gas. The energy then becomes stored in the form of ionization energy. When the star subsequently expands and cools, the electrons recombine with the helium atoms, and release the stored-up ionization energy. This is the `push' which maintains the pulsation in all of the pulsating stars in the Cepheid instability strip.
 
 {\noindent}\textbf{Classification of variable stars}: The earliest classification scheme dates back nearly two centuries: Pigott divided variables according to the nature of their light curve into novae, long- period variables, and short-period variables. A century later, Pickering devised a more detailed scheme: (la) normal novae, primarily nearby ones in our own galaxy; (lb) novae in nebulae: now known to be primarily SNe in distant galaxies; (IIa) long-period variables, cool, large-amplitude pulsating variables; (IIb) U Geminorum stars, dwarf novae; (IIc) R Coronae Borealis stars, stars which suddenly and unpredictably decline in brightness; (III) irregular variables, a motley collection; (IVa) short-period variables, such as Cepheids and later including the cluster-type or RR Lyrae stars; (IVb) Beta Lyrae type eclipsing variables; and (V) Algol type eclipsing variables.
 
 {\noindent}Pickering's classification scheme contains some hints as to the nature and cause of the variability. Classification and explanation go hand in hand (in principle), and in the late nineteenth and early twentieth centuries, progress was made in understanding the physical nature and the physical processes in variable stars, and in stars in general.
 
-{\noindent}\textbf{Pulsating variable stars}: Pulsation is the astronomer's word for \textit{vibration or oscillation}. Every physical object has natural patterns or modes of vibration, each with a corresponding period -- the time required for one vibration.
+{\noindent}\textbf{Pulsating variable stars}: Pulsation is the astronomer's word for \textit{vibration or oscillation}. Every physical object has natural patterns or modes of vibration, each with a corresponding period -- the time required for one vibration. The radial oscillations of a pulsating star are the result of sound waves resonating in the star's interior. A rough estimate of the pulsation period may be obtained by considering ho w long it would take a sound wave to cross the diameter of a model star of radius $R$ and constant density $\rho$. The adiabatic sound speed is given by
 
-{\noindent}\textbf{Pulsation modes}: Stars are, to a first approximation, spherical. The simplest form of pulsation is radial pulsation -- a simple, spherically symmetric in-and-out expansion and contraction. A star has an infinite number of modes of radial pulsation. The simplest is called the \textbf{fundamental mode}. In this mode, all parts of the star expand together and contract together, in unison. The next simplest mode is the \textbf{first overtone}. In this mode, there is a nodal sphere in the star, where the material remains at rest. When the part of the star outside this sphere is expanding, the part inside is contracting, and vice versa. In the \textbf{second overtone mode}, there are two nodal spheres, where the material remains at rest. The large-amplitude pulsating stars -- \textbf{Cepheids}, \textbf{RR Lyrae variables}, and \textbf{Mira variables} -- pulsate primarily in radial modes. Radial pulsation produces substantial changes in luminosity (and therefore brightness), temperature (and therefore colour), and radial velocity; these are observed, and provide direct evidence for the radial pulsation. Through techniques such as the \textbf{Baade-Wesselink method}, they can be used to determine the average radius of the star.
+\begin{align*}
+    v_s = \sqrt{\frac{\gamma P}{\rho}} ~ [{\rm m\,s^{-1}}].
+\end{align*}
+
+{\noindent}The pressure may be found using hydrostatic equilibrium along with (again) the assumption of constant density:
+
+\begin{align*}
+    \frac{{\rm d}P}{{\rm d}r} = -\frac{GM_r\rho}{r^2} = -\frac{G(\frac{4}{3}\pi r^3\rho)\rho}{r^2} = -\frac{4}{3}\pi G\rho^2r ~ [{\rm P\,m^{-1}}]
+\end{align*}
+
+{\noindent}This is readily integrated using the boundary condition that $P=0$ at the surface to obtain the pressure $P$ as a function of radius $r$: 
+
+\begin{align*}
+    P(r) = \frac{2}{3}\pi G\rho^2(R^2-r^2) ~ [{\rm P}].
+\end{align*}
+
+{\noindent}Thus, the pulsation period is roughly,
+
+\begin{align*}
+    T \approx 2\int\limits_0^R \frac{{\rm d}r}{v_s} \approx 2\int\limits_0^R \frac{{\rm d}r}{\sqrt{\frac{2}{3}\gamma G\rho(R^2-r^2)}} ~ [{\rm yr}],
+\end{align*}
+
+{\noindent}or,
+
+\begin{align*}
+    T \approx \sqrt{\frac{3\pi}{2\gamma G\rho}} ~ [{\rm yr}].
+\end{align*}
+
+{\noindent}Quantitatively, this shows that the pulsation period of a star is inversely proportional to the square root of its mean density. This \textbf{period-mean density relation} explains why the pulsation period decreases as we move down the instability strip from the tenuous supergiants to the very dense WDs.\footnote{Pulsating WDs exhibit non-radial oscillations, and their periods are longer than predicted by the period-mean density relation.} The tight period-luminosity relation discovered by Leavitt exists because the instability strip is roughly parallel to the luminosity axis of the HR diagram, the finite width of the instability strip being reflected in the $\pm0.5\,{\rm mag}$ uncertainty in the period-luminosity relation. 
+
+\begin{figure}[b!]
+    \centering
+    \includegraphics[width=10cm]{figures/StellarOvertones.png}
+    \caption{\footnotesize{Standing sound waves in an organ pipe and in a star for (a) the fundamental mode, (b) the first overtone, and (c) the second overtone. Figure taken from Carroll \& Ostlie (2007).}}
+    \label{fig:stellarovertones}
+\end{figure}
+
+{\noindent}\textbf{Pulsation modes}: Stars are, to a first approximation, spherical. The simplest form of pulsation is radial pulsation -- a simple, spherically symmetric in-and-out expansion and contraction. A star has an infinite number of modes of radial pulsation. The simplest is called the \textbf{fundamental mode}. In this mode, all parts of the star expand together and contract together, in unison. The next simplest mode is the \textbf{first overtone}. In this mode, there is a nodal sphere in the star, where the material remains at rest. When the part of the star outside this sphere is expanding, the part inside is contracting, and vice versa. In the \textbf{second overtone mode}, there are two nodal spheres, where the material remains at rest. Figure \ref{fig:stellarovertones} shows the fractional displacement, $\delta r/R$, of the stellar material from its equilibrium position for several radial modes of a $12\,{\rm M_\odot}$ main-sequence star. Note that $\delta r/R$ has been arbitrarily scaled to unity at the stellar surface. The large-amplitude pulsating stars -- \textbf{Cepheids}, \textbf{RR Lyrae variables}, and \textbf{Mira variables} -- pulsate primarily in radial modes. Radial pulsation produces substantial changes in luminosity (and therefore brightness), temperature (and therefore colour), and radial velocity; these are observed, and provide direct evidence for the radial pulsation. Through techniques such as the \textbf{Baade-Wesselink method}, they can be used to determine the average radius of the star.
 
 {\noindent}It is less easy to tell which radial mode a star is pulsating in. Most, but not all, large-amplitude variables pulsate in the fundamental mode. If the radius and mass of the star can be estimated, the observed period can be compared with the theoretical or expected period for each mode. If the star pulsates in two or more radial modes, then the period ratio can be used to deduce the modes.
 
@@ -683,33 +716,25 @@ Stellar pulsations can occur when a star's surface is expanding and contracting 
 
 {\noindent}\textbf{Non-linear effects}: The pulsation waves in a star are not reflected perfectly from the surface, but move outward in an atmosphere of decreasing density. In many variables, such as Mira stars, this creates \textbf{shock waves} as the atmospheric layers pile up against each other. In Mira stars, this creates layers of higher density where gases condense into dust. The dust absorbs the star's radiation and is pushed outward, carrying gas along with it. The result is mass loss which has a profound effect on the star and the space around it. In the largest, most luminous supergiants, the outward radiation pressure almost balances or perhaps even exceeds gravity; the star borders on instability; and non-linear effects may be significant.
 
-{\noindent}\textbf{The instability strip(s)}: Normally, stars are stable. The inward pull of gravity is balanced by the outward pressure of the hot gas in the star. If the star begins to contract, its internal pressure and temperature increase and reverse the contraction. If the star begins to expand, its internal pressure and temperature decrease and gravity restores the initial balance. Furthermore, if a star expands or contracts, the energy of motion is dissipated by friction. Eventually the star returns to rest.
-
-{\noindent}For a star to begin and continue to pulsate, there must be some mechanism which converts radiant energy into energy of motion in a timely way, overcoming friction and building up the motion. Such a mechanism can exist in a star: it is the thermodynamic effect of an ionization zone in a star.
-
-{\noindent}In a star of moderate surface temperature, the layers below the surface have temperatures up to a few tens of thousands of degrees. The helium tends to be singly-ionized; it has lost one of its two electrons but not the second. If the star contracts, it heats slightly which causes the helium to lose its second electron. This requires energy which comes from the radiation flowing outward through the gas; it is absorbed by the opacity of the gas. The energy then becomes stored in the form of ionization energy. When the star subsequently expands and cools, the electrons recombine with the helium atoms, and release the stored-up ionization energy. This is the `push' which maintains the pulsation in all of the pulsating stars in the Cepheid instability strip (Figure \ref{fig:variablezones}). If there is sufficient mass in the ionization zone to store up significant radiant energy during the pulsation cycle, then the star will pulsate. This mechanism is referred to as \textbf{self-exciting}, in contrast to the pulsations of the Sun and other Sun-like stars, which are excited by the turbulence in their convection zones.
-
-\begin{figure}[h]
+\begin{figure}[t]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{Diagram showing the zones in an unstable star which convert radiant energy into kinetic energy, and vice versa, in a model of a pulsating RR Lyrae star, expressed as the fractional energy production (positive) or dissipation (negative) per period. The centre of the star is at the left, the atmosphere at the right. The two energizing zones (the hydrogen zone and the ionized helium (He II) zone) are shown, along with the principal dissipation zone, deeper in the star. (From Christy, 1966.) Figure taken from Percy (2007).}}
     \label{fig:variablezones}}
     {\includegraphics[width=8cm]{figures/VariableZones.png}}
 \end{figure}
 
-{\noindent}But what about the other types of pulsating stars? The Beta Cephei stars were a real mystery, because they are much hotter than the Cepheid instability strip. Only in the 1980s was it realized that the ionization of iron, at temperatures near $150,000\,{\rm K}$ deep within the star had sufficient effect to maintain the pulsation. This realization came about as a result of physicists' recalculation of the opacity of iron at these temperatures. This solved the long-standing mystery of the Beta Cephei stars, and some other nagging problems in pulsation theory as well.
+{\noindent}\textbf{The instability strip(s)}: Normally, stars are stable. The inward pull of gravity is balanced by the outward pressure of the hot gas in the star. If the star begins to contract, its internal pressure and temperature increase and reverse the contraction. If the star begins to expand, its internal pressure and temperature decrease and gravity restores the initial balance. Furthermore, if a star expands or contracts, the energy of motion is dissipated by friction. Eventually the star returns to rest.
 
-{\noindent}Figure \ref{fig:hrpulsating} shows the location of various types of pulsating variable stars in the HR diagram. There is a misconception often included in astronomy textbooks that pulsation is something that happens only in evolved stars such as giants and supergiants. In fact, the Cepheid instability strip extends from the top of the HR diagram to the bottom, at approximately constant temperature. That is because the instability mechanism occurs at a particular temperature -- the temperature at which there is a helium ionization zone in the outer layers of the star. So supergiant Cepheids pulsate, main-sequence Delta Scuti stars pulsate, and white dwarfs pulsate -- all as a result of the same mechanism.
+{\noindent}For a star to begin and continue to pulsate, there must be some mechanism which converts radiant energy into energy of motion in a timely way, overcoming friction and building up the motion. Such a mechanism can exist in a star: it is the thermodynamic effect of an ionization zone in a star.
+
+{\noindent}In a star of moderate surface temperature, the layers below the surface have temperatures up to a few tens of thousands of degrees. The helium tends to be singly-ionized; it has lost one of its two electrons but not the second. If the star contracts, it heats slightly which causes the helium to lose its second electron. This requires energy which comes from the radiation flowing outward through the gas; it is absorbed by the opacity of the gas. The energy then becomes stored in the form of ionization energy. When the star subsequently expands and cools, the electrons recombine with the helium atoms, and release the stored-up ionization energy. This is the `push' which maintains the pulsation in all of the pulsating stars in the Cepheid instability strip (Figure \ref{fig:variablezones}). If there is sufficient mass in the ionization zone to store up significant radiant energy during the pulsation cycle, then the star will pulsate. This mechanism is referred to as \textbf{self-exciting}, in contrast to the pulsations of the Sun and other Sun-like stars, which are excited by the turbulence in their convection zones.
 
 \begin{figure}[t]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
     {\caption{\footnotesize{The location of various types of pulsating star on the HR diagram. The main instability regions are the Cepheid strip, including its intersection with the main sequence (dashed line), the region of the coolest stars (Miras and their relatives), and the region of the Beta Cephei and SPB stars. There are also instability regions along the white dwarf cooling track (dotted line) at the bottom of the diagram, including the nuclei of planetary nebulae (PNNV) and the DOV, DBV, and DAV pulsating white dwarfs. (From J. Christensen-Dalsgaard, private communication.) Figure taken from Percy (2007).}}
     \label{fig:hrpulsating}}
-    {\includegraphics[width=8cm]{figures/HR_pulsating.png}}
+    {\includegraphics[width=7cm]{figures/HR_pulsating.png}}
 \end{figure}
-
-{\noindent}The Cepheid instability strip is not exactly vertical: its temperature is cooler at its high-luminosity end. That is because more luminous stars have outer regions of lower density; at lower density, ionization can occur at a lower temperature because there is lots of `room' for the electrons that are released.
-
-{\noindent}Stars can evolve into the instability strip in different ways (figure 6.4). Massive young stars can evolve quickly from left to right in the HR diagram; old low-mass stars can evolve slowly to the same position. So there may be Population I and II stars in the same region of the instability strip.
 
 \begin{figure}[t!]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
@@ -718,9 +743,16 @@ Stellar pulsations can occur when a star's surface is expanding and contracting 
     {\includegraphics[width=8cm]{figures/InstStripEvol.png}}
 \end{figure}
 
+{\noindent}But what about the other types of pulsating stars? The Beta Cephei stars were a real mystery, because they are much hotter than the Cepheid instability strip. Only in the 1980s was it realized that the ionization of iron, at temperatures near $150,000\,{\rm K}$ deep within the star had sufficient effect to maintain the pulsation. This realization came about as a result of physicists' recalculation of the opacity of iron at these temperatures. This solved the long-standing mystery of the Beta Cephei stars, and some other nagging problems in pulsation theory as well.
+
+{\noindent}Figure \ref{fig:hrpulsating} shows the location of various types of pulsating variable stars in the HR diagram. There is a misconception often included in astronomy textbooks that pulsation is something that happens only in evolved stars such as giants and supergiants. In fact, the Cepheid instability strip extends from the top of the HR diagram to the bottom, at approximately constant temperature. That is because the instability mechanism occurs at a particular temperature -- the temperature at which there is a helium ionization zone in the outer layers of the star. So supergiant Cepheids pulsate, main-sequence Delta Scuti stars pulsate, and white dwarfs pulsate -- all as a result of the same mechanism.
+
+{\noindent}The Cepheid instability strip is not exactly vertical: its temperature is cooler at its high-luminosity end. That is because more luminous stars have outer regions of lower density; at lower density, ionization can occur at a lower temperature because there is lots of `room' for the electrons that are released.
+
+{\noindent}Stars can evolve into the instability strip in different ways Figure \ref{fig:inststripevol}. Massive young stars can evolve quickly from left to right in the HR diagram; old low-mass stars can evolve slowly to the same position. So there may be Population I and II stars in the same region of the instability strip.
+
 {\noindent}Stars can evolve into the instability strip in different ways (Figure \ref{fig:inststripevol}). Massive young stars can evolve quickly from left to right in the HR diagram; old low-mass stars can evolve slowly to the same position. So there may be Population I and II stars in the same region of the instability strip.
 
-\newpage
 \subsubsection{Follow-up Questions}
 
 \begin{itemize}
