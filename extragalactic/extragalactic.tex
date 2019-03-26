@@ -828,15 +828,175 @@ Describe three different methods used in the determination of the mass of a gala
 
 \subsubsection{Short answer}
 
-Three methods used in the determination of the mass of a galaxy cluster includes: the virial theorem, hot ICM X-ray gas, and gravitational lensing.
-
-\subsubsection{Additional context} 
-
-{\noindent}\textbf{Virial equilibrium}: 
+{\noindent}\textbf{Virial equilibrium}: Assuming the number of galaxies is large and are in virial equilibrium, the mass can be estimated via the virial mass.
 
 {\noindent}\textbf{X-ray gas}: This gas temperature is a measure for the depth of the cluster's potential well, since the hotter the gas is, the deeper the potential well has to be to prevent the gas from escaping via evaporation.
 
 {\noindent}\textbf{Gravitational lensing}: Utilizes the fact that light is deflected in a gravitational field. The angle through which light rays are bent due to the presence of a massive object depends on the mass of that object.
+
+\subsubsection{Additional context}
+
+{\noindent}\textbf{Virial equilibrium}: The time-averaged kinetic and potential energies are related by
+
+\begin{align*}
+    \frac{1}{2} \left\langle\frac{{\rm d^2}I}{{\rm d}t^2}\right\rangle - 2\langle K\rangle = \langle U\rangle,
+\end{align*}
+
+{\noindent}where $I$ is the region's moment of inertia. If the galaxy cluster is in equilibrium, then $\langle{\rm d}^2I/{\rm d}t^2\rangle$=0, resulting in the usual statement of the virial theorem:
+
+\begin{align*}
+    -2\langle K\rangle = \langle U\rangle.
+\end{align*}
+
+{\noindent}Furthermore, for a large number of galaxies, the galaxy cluster will look the same (in a statistical sense) at any time, and the time-averaging can be dropped. So for $N$ galaxies, 
+
+\begin{align*}
+    -2\sum_{i=1}^N \frac{1}{2}m_iv_i^2 = U,
+\end{align*}
+
+{\noindent}where $U$ is the total potential energy given by
+
+\begin{align*}
+    \sum_i \vec{F}_i\cdot\vec{r}_i = -\frac{1}{2}\sum_i\sum_{j\neq i} G\frac{m_im_j}{r_{ij}} = \frac{1}{2}\sum_i\sum_{j\neq i}U_{ij} = U.
+\end{align*}
+
+{\noindent}For simplicity, we restrict our attention to a spherical cluster of radius $R$ with $N$ galaxies, each of mass $m$, so the total mass of the galaxy cluster is $M=Nm$. Dividing the above expression by $N$ produces
+
+\begin{align*}
+    -\frac{m}{N}\sum_{i=1}^Nv_i^2 = \frac{U}{N}.
+\end{align*}
+
+{\noindent}Of course, astronomers actually measure the radial component of the velocity vector (galaxies are too far away to allow for detection of proper motions). Moreover, an astronomer is just as likely to see a star moving in the radial direction as in either of the two other perpendicular directions. With the brackets denoting an average value,
+
+\begin{align*}
+    \langle v^2\rangle = \langle v_r^2\rangle + \langle v_\theta^2\rangle + \langle v_\phi^2\rangle = 3\langle v_2^2\rangle,
+\end{align*}
+
+{\noindent}so,
+
+\begin{align*}
+    \frac{1}{N}\sum_{i=1}^Nv_i^2 = \langle v^2\rangle = 3\langle v_r^2\rangle = 3\sigma_r^2,
+\end{align*}
+
+{\noindent}where $\sigma_r$ is the dispersion in the radial velocity. Inserting this result into our equation for $U/N$, and using
+
+\begin{align*}
+    U \sim -\frac{16\pi^2}{15}G\bar{\rho}^2R^5 \sim -\frac{3}{5}\frac{GM^2}{R}
+\end{align*}
+
+for the approximate potential energy of a spherical distribution of total mass $M$ and radius $R$, leads to
+
+\begin{align*}
+    -3m\sigma_r^2 \approx -\frac{3}{5}\frac{GM^2}{NR}.
+\end{align*}
+
+{\noindent}Using $M=Nm$ and solving for mass gives
+
+\begin{align*}
+    M_{\rm vir} \approx \frac{5R\sigma_r^2}{G},
+\end{align*}
+
+{\noindent}where the mass obtained in this way is called the virial mass.
+
+{\noindent}\textbf{Hot intracluster X-ray gas}: A portion of Zwicky's ``missing mass'' was discovered with the High Energy Astronomical Observatory (HEAO) series of satellites that were first launched in 1977. They revealed that many clusters of galaxies emit X-rays from much of the cluster's volume. These satellites, together with optical observations, indicated that clusters of galaxies contain an intracluster medium. The intracluster medium has two components. One is a diffuse, irregular distribution of stars. The other component is a hot intracluster gas that is distributed more or less homogeneously, occupying the space between the galaxies and filling the cluster's gravitational well. This gas temperature is a measure for the depth of the cluster's potential well, since the hotter the gas is, the deeper the potential well has to be to prevent the gas from escaping via evaporation. The X-ray luminosities lie in the range of $10^{36}$ to $10^{38}\,{\rm W}$, with richer clusters shining more brightly in X-rays. Typically, the mass of the gas is several times greater than the combined mass of all stars in the cluster's galaxies.
+
+{\noindent}Thermal bremsstrahlung, the same mechanism that produces X-rays from the hot gas within individual galaxies, is at work here as well. For fully ionized hydrogen gas, the energy emitted per unit volume per unit time between frequencies $\nu$ and $\nu+{\rm d}\nu$ is given by
+
+\begin{align*}
+    \ell_\nu{\rm d}\nu = 5.44\times10^{-52}(4\pi n_e^2) T^{-1/2} e^{-h\nu/k_BT}{\rm d}\nu ~ [{\rm W\,m^{-3}}],
+\end{align*}
+
+{\noindent}where $T$ is the gas temperature and $n_e$ is the number density of free electrons. The total amount of energy emitted per second per unit volume at all frequencies (i.e., the luminosity density) is obtained by integrating $\ell_\nu$ over frequency. This results in
+
+\begin{align*}
+    \mathcal{L}_{\rm vol} = 1.42\times10^{-40}n_e^2T^{1/2} ~ [{\rm W\,m^{-3}}].
+\end{align*}
+
+{\noindent}This equation can be used to estimate the mass of a galaxy cluster's intracluster gas -- let's take the Coma cluster as an example. For simplicity, we will assume that the cluster can be modeled as an isothermal sphere of hot ionized hydrogen gas. Since the central core radiates most strongly, we will take the radius to be $R=1.5\,{\rm Mpc}$ (one-half of the cluster's actual radius). The gas is optically thing, meaning that any photon emitted along the line of sight can be observed. The gas temperature comes from the X-ray spectrum of the gas, which is approximately $8.8\times10^7\,{\rm K}$.
+
+{\noindent}We can write the X-ray luminosity of the gas $L_x$ as
+
+\begin{align*}
+    L_x = \frac{4}{3}\pi R^3\mathcal{L}_{\rm vol}.
+\end{align*}
+
+{\noindent}Since the X-ray luminosity of the gas is $L_x=5\times10^{37}\,{\rm W}$, the value of $n_e$, the number density of free electrons per ${\rm m^{-3}}$ is
+
+\begin{align*}
+    n_e = \left[ \frac{3L_x}{4\pi R^3T^{1/2}(1.42\times10^{-40}\,{\rm W\,m^{-3}})} \right]^{1/2} = 300 ~ [{\rm m^{-3}}].
+\end{align*}
+
+{\noindent}The intracluster gas is several million times less dense that the gas in molecular clouds, for which $n_{\rm H_2}\sim10^8$ to $10^9\,{\rm m^{-3}}$.
+
+{\noindent}For ionized hydrogen, there is one proton for every electron, so the total mass of the intracluster gas is
+
+\begin{align*}
+    M = \frac{4}{3}\pi R^3n_em_{\rm H} = 1.05\times10^{14} ~ [{\rm M_\odot}],
+\end{align*}
+
+{\noindent}a slight overestimate of the actual value which is $3\times10^{13}\,{\rm M_\odot}$.
+
+{\noindent}\textbf{Gravitational lensing}: Gravitational lensing results when light follows the straightest possible worldline (ie., a \textbf{geodesic}) as it travels though the curved spacetime around a massive object. It is analogous to the normal refraction of light by a glass lens that occurs as the light crosses the lens surface, passing from one index of refraction $n$ to another, where $n\equiv c/v$ is just the ratio of the speed of light in a vacuum to its speed $v$ in the medium. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=7cm]{figures/GravitationalLens.png}
+    \includegraphics[width=5cm]{figures/GravitationalLensAngles.png}
+    \caption{\footnotesize{\textbf{(Left)}: Setup of a gravitational lens. Figure taken from Abdo. \textbf{(Right)}: The geometry for a gravitational lens. The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$. Figures adapted from Carroll \& Ostlie (2007).}}
+    \label{fig:gravitationallens}
+\end{figure}
+
+{\noindent}The apparent speed of light, the rate at which the spatial coordinates of a photon change, is called the \textbf{coordinate speed of light}. Starting with the Schwarzschild metric with ${\rm d}s=0$,
+
+\begin{align*}
+    0 = \left(c{\rm d}t \sqrt{1-\frac{2GM}{rc^2}}\right)^2 - \left(\frac{{\rm d}r}{\sqrt{1-\frac{2GM}{rc^2}}}\right)^2 - (r{\rm d}\theta)^2 - (2\sin\theta{\rm d}\alpha)^2,
+\end{align*}
+
+{\noindent}we can calculate the coordinate speed of a vertically travelling photon. Inserting ${\rm d}\theta={\rm d}\alpha=0$ shows that, in general, the coordinate speed of light in the radial direction is
+
+\begin{align*}
+    \frac{{\rm d}r}{{\rm d}t} = c\left(1-\frac{2GM}{rc^2}\right) = c\left(1-\frac{r_S}{r}\right) ~ [{\rm m\,s^{-1}}],
+\end{align*}
+
+{\noindent}When $r\gg r_S$, ${\rm d}r/{\rm d}t\simeq c$, as expected in flat spacetime. However, at $r=r_S$, ${\rm d}r/{\rm d}t=0$.
+
+{\noindent}Thus, the effective ``index of refraction'' is
+
+\begin{align*}
+    n = \frac{c}{{\rm d}r/{\rm d}t} = \left(1-\frac{2GM}{rc^2}\right)^{-1} \simeq 1+ \frac{2GM}{rc^2} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}for radially travelling light, assuming that $r_S/r\ll1$. At a distance of $10^4\,{\rm pc}$ from a galaxy with a mass of $10^{11}\,{\rm M_\odot}$, the effective index of refraction is $n=1+9.6\times10^{-7}$. (Of course, the light passing by the point mass will never be travelling exactly radially. This was merely used to estimate the magnitude of the effect of gravity in a gravitational lens.) Obviously, the deviation of the light from a straight line will be extremely small. 
+
+{\noindent}Figure \ref{fig:gravitationallens} shows the setup of a gravitational lens (left) as well as its detailed geometry (right). The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$.
+
+{\noindent}The angular deviation of a photon passing a distance $r_0$ (very nearly the distance of closest approach) from a mass $M$ is
+
+\begin{align*}
+    \alpha = \frac{4GM}{r_0c^2} ~ [{\rm rad}],
+\end{align*}
+
+{\noindent}which includes the factor of $2$ as a correction from the ``Newtonian'' value. The distance to the source is $d_S/\cos\beta\simeq d_S$ where $\beta\ll1$, and $d_L$ is the distance to the lensing mass. It is then a matter of simple trigonometry to show that the angle $\theta$ between between the lensing mass and the image of the source must satisfy the equation
+
+\begin{align*}
+    \theta^2 - \beta\theta - \frac{4GM}{c^2} \left(\frac{d_S-d_L}{d_Sd_L}\right) = 0
+\end{align*}
+
+{\noindent}where $\theta$ and $\beta$ are measured in radians.
+
+{\noindent}This quadratic equation indicates that for the geometry shown in Figure \ref{fig:gravitationallens} (left) there will be two solutions for $\theta$, and so two images will be formed by the gravitational lens. Designating these solutions as $\theta_1$ and $\theta_2$, these angles can be measured observationally and then used to find the values of $\beta$ and $M$. The results are
+
+\begin{align*}
+    \beta = \theta_1 + \theta_2 ~ [{\rm rad}]
+\end{align*}
+
+{\noindent}and
+
+\begin{align*}
+    M = -\frac{\theta_1\theta_2c^2}{4G} \left(\frac{d_S-d_L}{d_Sd_L}\right) ~ [{\rm M_\odot}].
+\end{align*}
+
+{\noindent}Referring back to Figure \ref{fig:gravitationallens} (left) note that $\beta=\theta_1+\theta_2$ implies $\theta_1$ and $\theta_2$ have opposite signs. As a result, two images are formed on opposite sides of the gravitational lens, so $M$ will be positive.
 
 % --------------------------------------------------------------
 %               7. 
