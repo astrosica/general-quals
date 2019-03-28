@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 JAN 2019 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAR 2019 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1954,25 +1954,25 @@ Overfull \hbox (13.3333pt too wide) detected at line 2551
 File: figures/ISMphases_table.png Graphic file (type png)
 
 <use figures/ISMphases_table.png>
-Package pdftex.def Info: figures/ISMphases_table.png used on input line 2592.
+Package pdftex.def Info: figures/ISMphases_table.png used on input line 2594.
 (pdftex.def)             Requested size: 398.33858pt x 112.21895pt.
  [75 <./figures/ISMphases_table.png>]
 <figures/21cm_emission_abs.png, id=739, 766.865pt x 602.25pt>
 File: figures/21cm_emission_abs.png Graphic file (type png)
 
 <use figures/21cm_emission_abs.png>
-Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2607.
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2609.
 
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
 File: figures/21cm_emission_abs.png Graphic file (type png)
  <use figures/21cm_emission_abs.png>
-Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2607.
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2609.
 
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
 File: figures/21cm_emission_abs.png Graphic file (type png)
 
 <use figures/21cm_emission_abs.png>
-Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2607.
+Package pdftex.def Info: figures/21cm_emission_abs.png used on input line 2609.
 
 (pdftex.def)             Requested size: 284.52756pt x 223.4539pt.
  [76 <./figures/21cm_emission_abs.png>]
@@ -1981,7 +1981,7 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 
 [77]
-Overfull \hbox (3.10376pt too wide) in paragraph at lines 2654--2655
+Overfull \hbox (3.10376pt too wide) in paragraph at lines 2656--2657
 \OT1/cmr/m/n/10 For typ-i-cal in-ter-stel-lar pa-ram-e-ters, the shock speed at
  the be-gin-ning of the snow-plow phase is $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/1
 0 150 []$,
@@ -1991,7 +1991,7 @@ Overfull \hbox (3.10376pt too wide) in paragraph at lines 2654--2655
 File: figures/3phaseISM.png Graphic file (type png)
 
 <use figures/3phaseISM.png>
-Package pdftex.def Info: figures/3phaseISM.png used on input line 2664.
+Package pdftex.def Info: figures/3phaseISM.png used on input line 2666.
 (pdftex.def)             Requested size: 398.33858pt x 233.5255pt.
 
 
@@ -2001,7 +2001,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figures/ISM_disk.png Graphic file (type png)
 
 <use figures/ISM_disk.png>
-Package pdftex.def Info: figures/ISM_disk.png used on input line 2683.
+Package pdftex.def Info: figures/ISM_disk.png used on input line 2685.
 (pdftex.def)             Requested size: 426.79134pt x 646.54024pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -2038,7 +2038,7 @@ Missing character: There is no ” in font cmr8!
 File: figures/ISM_vertical.png Graphic file (type png)
 
 <use figures/ISM_vertical.png>
-Package pdftex.def Info: figures/ISM_vertical.png used on input line 2690.
+Package pdftex.def Info: figures/ISM_vertical.png used on input line 2692.
 (pdftex.def)             Requested size: 398.33858pt x 619.72757pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -2075,7 +2075,7 @@ Missing character: There is no ” in font cmr8!
 File: figures/ISM_global.png Graphic file (type png)
 
 <use figures/ISM_global.png>
-Package pdftex.def Info: figures/ISM_global.png used on input line 2697.
+Package pdftex.def Info: figures/ISM_global.png used on input line 2699.
 (pdftex.def)             Requested size: 398.33858pt x 539.97504pt.
 Missing character: There is no â in font cmr8!
 Missing character: There is no € in font cmr8!
@@ -2118,7 +2118,7 @@ LaTeX Warning: Text page 81 contains only floats.
 File: figures/GlobularClusters_Z.png Graphic file (type png)
 
 <use figures/GlobularClusters_Z.png>
-Package pdftex.def Info: figures/GlobularClusters_Z.png used on input line 2807
+Package pdftex.def Info: figures/GlobularClusters_Z.png used on input line 2809
 .
 (pdftex.def)             Requested size: 398.33858pt x 205.81834pt.
  [85] [86 <./figures/GlobularClusters_Z.png>] [87] <figures/orbitals_3D.png, id
@@ -2126,38 +2126,38 @@ Package pdftex.def Info: figures/GlobularClusters_Z.png used on input line 2807
 File: figures/orbitals_3D.png Graphic file (type png)
 
 <use figures/orbitals_3D.png>
-Package pdftex.def Info: figures/orbitals_3D.png used on input line 2873.
+Package pdftex.def Info: figures/orbitals_3D.png used on input line 2875.
 (pdftex.def)             Requested size: 312.9803pt x 312.98495pt.
  [88 <./figures/orbitals_3D.png>]
 <figures/ncrit_np2np4.png, id=831, 1077.02374pt x 473.77pt>
 File: figures/ncrit_np2np4.png Graphic file (type png)
 
 <use figures/ncrit_np2np4.png>
-Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2892.
+Package pdftex.def Info: figures/ncrit_np2np4.png used on input line 2894.
 (pdftex.def)             Requested size: 312.9803pt x 137.67894pt.
 
 <figures/ncrit_np3.png, id=832, 976.64874pt x 280.04625pt>
 File: figures/ncrit_np3.png Graphic file (type png)
 
 <use figures/ncrit_np3.png>
-Package pdftex.def Info: figures/ncrit_np3.png used on input line 2899.
+Package pdftex.def Info: figures/ncrit_np3.png used on input line 2901.
 (pdftex.def)             Requested size: 312.9803pt x 89.74481pt.
  [89 <./figures/ncrit_np2np4.png> <./figures/ncrit_np3.png>] <figures/LineRatio
 s_T.png, id=843, 555.07375pt x 824.07875pt>
 File: figures/LineRatios_T.png Graphic file (type png)
 
 <use figures/LineRatios_T.png>
-Package pdftex.def Info: figures/LineRatios_T.png used on input line 2929.
+Package pdftex.def Info: figures/LineRatios_T.png used on input line 2931.
 (pdftex.def)             Requested size: 398.33858pt x 591.3872pt.
  [90] [91 <./figures/LineRatios_T.png>] [92]
 [93] [94] <figures/M81_spirals.png, id=878, 890.32625pt x 547.04375pt>
 File: figures/M81_spirals.png Graphic file (type png)
 
 <use figures/M81_spirals.png>
-Package pdftex.def Info: figures/M81_spirals.png used on input line 3028.
+Package pdftex.def Info: figures/M81_spirals.png used on input line 3030.
 (pdftex.def)             Requested size: 398.33858pt x 244.74838pt.
  [95 <./figures/M81_spirals.png>] [96]
-Overfull \hbox (4.6735pt too wide) in paragraph at lines 3066--3067
+Overfull \hbox (4.6735pt too wide) in paragraph at lines 3068--3069
 []\OT1/cmr/m/n/10 Stellar Evo-lu-tion-ary Ef-fects on the Abun-dances of Poly-c
 yclic Aro-matic Hy-dro-car-bons and Supernova-
  []
@@ -2165,15 +2165,15 @@ yclic Aro-matic Hy-dro-car-bons and Supernova-
 
 AED: lastpage setting LastPage
 [97]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3075.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3075.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3077.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3077.
  (./galactic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3075.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3075.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3077.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3077.
 
 Package rerunfilecheck Info: File `galactic.out' has not changed.
 (rerunfilecheck)             Checksum: FB8FA883BBC26938D8E2355C51FDF8A3;1265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3075.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3077.
  ) 
 Here is how much of TeX's memory you used:
  9935 strings out of 492995
@@ -2209,7 +2209,7 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on galactic.pdf (97 pages, 23765418 bytes).
+Output written on galactic.pdf (97 pages, 23765558 bytes).
 PDF statistics:
  1034 PDF objects out of 1200 (max. 8388607)
  760 compressed objects within 8 object streams
