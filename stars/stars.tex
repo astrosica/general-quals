@@ -18,6 +18,7 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
    \setlength\abovedisplayskip{-3pt}
    \setlength\belowdisplayskip{5pt}}
 
+% links
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,filecolor=cyan,urlcolor=magenta}
 
@@ -215,6 +216,9 @@ Sketch out a Hertsprung-Russell diagram. Indicate where on the main sequence dif
     \caption{\footnotesize{(a,b) Evolutionary tracks of low-mass stars during the core helium burning and early AGB phases. The chemical composition is labeled. Initial model masses are $M/{\rm M_\odot}=0.55,0.6,0.65,0.7,1,1.2,1.4,1.6$ except for the ($Z=0.04,Y=0.46$) set, for which the $1.6\,{\rm M_\odot}$ track ignites helium under non-degenerate conditions. Drawn using the YZVAR database (Bertelli, G. et al. 2008, Astron. Astrophys., 484, 815; 2009, Astron. Astrophys., 508, 355). Figure taken from Greggio \& Renzini (2011).}}
     \label{fig:hrdz_low}
 \end{figure}
+
+\newpage
+\subsubsection{Follow-up Questions}
 
 \begin{itemize}
     \item How does metallicity affect this diagram?
@@ -2068,11 +2072,31 @@ Explain the effects of an atmosphere on a planet's surface temperature and the p
 
 \subsubsection{Short answer}
 
-Answer.
+There are several ways that a planet's atmosphere can affect its surface temperature:
+
+\begin{itemize}
+    \item clouds reflecting heat from the parent star resulting in a higher albedo and lower surface temperature;
+    \item winds transporting heat from the day-side to the night-side, regulating the surface temperature; and
+    \item greenhouse gasses retaining heat and increasing the surface temperature.
+\end{itemize}
+
+{\noindent}Special consideration must be made for M-type stars due to increased stellar activity and intense ultraviolet radiation. 
 
 \subsubsection{Additional context}
 
-Additional context.
+The temperatures of planets played a key role in their formation and evolution. During the formation stage, the temperature structure of the Solar nebula influenced whether a planet would become a terrestrial or a giant planet. Temperature also helped to determine the current composition of each planet's atmosphere.
+
+{\noindent}The Stefan-Boltzmann equation is the most significant factor in determining the present-day temperatures of the planets in the Solar System. Under equilibrium conditions, a planet's total energy content must remain constant. Therefore, all of the energy absorbed by the planet must be re-emitted; if this were not so, the planet's temperature would change with time. 
+
+{\noindent}To estimate a planet's equilibrium temperature, assume that the planets is a spherical blackbody of radius $R_p$ and temperature $T_p$ in a circular orbit a distance $D$ away from the Sun. For simplicity, we will assume that the planet's temperature is uniform over its surface that that the planet reflects a fraction $a$ of the incoming sunlight ($a$ is known as the planet's \textit{albedo}). From the condition of thermal equilibrium, the sunlight that is not reflected must be absorbed by the planet and subsequently re-emitted as blackbody radiation. Of course, we will also treat the Sun as a spherical blackbody having an effective temperature $T_\odot=T_e$ and radius $R_\odot$. The temperature of the planet is thus given by
+
+\begin{align*}
+    T_p = T_\odot (1-a)^{1/4}\sqrt{\frac{R_\odot}{2D}} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}Note that the temperature of the planet is proportional to the effective temperature of the Sun and does not depend on the size of the planet.
+
+{\noindent}What's not included here is the \textit{greenhouse effect}, a significant source of warming (due largely to atmospheric water vapour, carbon dioxide, methane, and chlorofluorocarbons in the case of Earth). According to Wein's law, Earth's blackbody radiation is emitted primarily as infrared wavelengths. This infrared radiation is absorbed then re-emitted by the atmospheric greenhouse gasses, which act as a thermal blanket to warm Earth's surface by about $34^\circ\,{\rm C}$. Greenhouse warming on Venus has been more more dramatic. 
 
 % --------------------------------------------------------------
 %               18. 
