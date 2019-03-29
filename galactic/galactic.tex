@@ -1924,11 +1924,38 @@ How many stars does one expect to find within $100\,\mathrm{pc}$ of the Sun? If 
 
 \subsubsection{Short answer}
 
-Answer.
+We first start by estimating the number of stars within $100\,{\rm pc}$ from us based on the total number of stars within the MW by comparing their volumes:
 
-\subsubsection{Additional context}
+\begin{align*}
+    \frac{N_{\rm 100\,pc}}{V_{\rm 100\,pc}} &= \frac{N_{\rm MW}}{V_{\rm MW}} \\
+    N_{\rm 100\,pc} &= N_{\rm MW} \left(\frac{V_{\rm 100\,pc}}{V_{\rm MW}}\right) \\
+    N_{\rm 100\,pc} &= 10^{11} \left(\frac{\frac{4}{3}\cancel{\pi} R_{\rm 100\,pc}^3}{\cancel{\pi} R_{\rm MW}^2h}\right) \\
+    N_{\rm 100\,pc} &= 10^{11} \left(\frac{4(100\,{\rm \,pc})^3}{3(10^4\,{\rm pc})^2(10^3\,{\rm pc})}\right) \\
+    N_{\rm 100\,pc} &\sim 10^6.
+\end{align*}
 
-Additional context.
+{\noindent}Thus, one would expect to find roughly $10^6$ stars within $100\,{\rm pc}$ of the Sun.
+
+{\noindent}Stars of spectral type B have a mass range of $8\leq M\leq100\,{\rm M_\odot}$ and a lifetime of $\tau_{\rm B}\sim10^7\,{\rm yr}$. Assuming that the IMF of the MW follows the Salpeter relation of $\xi(M)\propto M^{-2.35}$, we can estimate the fraction of stars that happen to be B type stars:
+
+\begin{align*}
+    \frac{N_{\rm B}}{N_{\rm MW}} &= \int\limits_{8\,{\rm M_\odot}}^{100\,{\rm M_\odot}} M^{-2.35}{\rm d}M \\
+    \frac{N_{\rm B}}{N_{\rm MW}} &= \left[\frac{M^{-1.35}}{-1.35}\right]_{8\,{\rm M_\odot}}^{100\,{\rm M_\odot}} \\
+    \frac{N_{\rm B}}{N_{\rm MW}} &= \frac{-1}{1.35}\left(100^{-1.35} - 8^{-1.35}\right) \\
+    \frac{N_{\rm B}}{N_{\rm MW}} &\approx 0.04.
+\end{align*}
+
+{\noindent}The total number of stars that would have formed within the MW during the lifetime of a B-type star is given by ${\rm SFR_{MW}} \tau_{\rm B}$. The SFR of the MW can be approximated by the total amount of mass divided by it's lifetime: ${\rm SFR_{MW}} \sim 10^{10}\,{\rm M)\odot}/10^{10}\,{\rm yr} = 1\,{\rm M_\odot\,yr^{-1}}$. To convert this into a SFR as a function of stellar number rather than stellar mass, let's assume that the average stellar mass is $0.02\,{\rm M_\odot}$, given by the most abundant stellar type. So, the SFR becomes ${\rm SFR}/(0.2\,{\rm M_\odot}/{\rm star}) = 5\,{\rm stars\,yr^{-1}}$. Thus, within the lifetime of a B-type star, the total number of stars formed is ${\rm SFR}\cdot \tau_{\rm B} = 5\,{\rm stars\,yr^{-1}}\cdot 10^7\,{\rm yr} \sim 5\times10^7\,{\rm stars}$. Since we already know that the fraction of these expected to be B-type stars is $\sim0.04$, the total number of B-type stars is given by $0.04\cdot5\times10^7\,{\rm stars}\sim2\times10^6\,{\rm stars}$. This is the number of B-type stars within the entire MW, so we can now estimate the number of such stars within $100\,{\rm pc}$ as we did above:
+
+\begin{align*}
+    \frac{N_{\rm 100\,pc}}{V_{\rm 100\,pc}} &= \frac{N_{\rm MW}}{V_{\rm MW}} \\
+    N_{\rm 100\,pc} &= N_{\rm MW} \left(\frac{V_{\rm 100\,pc}}{V_{\rm MW}}\right) \\
+    N_{\rm 100\,pc} &= 10^{11} \left(\frac{\frac{4}{3}\cancel{\pi} R_{\rm 100\,pc}^3}{\cancel{\pi} R_{\rm MW}^2h}\right) \\
+    N_{\rm 100\,pc} &= 2\times10^{6} \left(\frac{4(100\,{\rm \,pc})^3}{3(10^4\,{\rm pc})^2(10^3\,{\rm pc})}\right) \\
+    N_{\rm 100\,pc} &\sim 20.
+\end{align*}
+
+{\noindent}So, there are approximately $20$ B-type stars within $100\,{\rm pc}$ from us.
 
 \subsubsection{Follow-up Questions}
 
