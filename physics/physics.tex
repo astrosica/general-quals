@@ -2430,11 +2430,29 @@ Suppose you measure the brightness of a star ten times (in a regime where source
 
 \subsubsection{Short answer}
 
-Answer.
+{\noindent}\textbf{Mean:} The mean is the average of a set of data given by:
 
-\subsubsection{Additional context}
+\begin{align*}
+\bar{x} = \frac{1}{N} \sum_{i=1}^N x_i.
+\end{align*}
 
-Additional context.
+{\noindent}\textbf{Median:} The median is the middle number in a set of data given by:
+
+\begin{align*}
+{\rm Median} = \frac{N+1}{2},
+\end{align*}
+
+{\noindent}after sorting the data set in order of increasing values.
+
+{\noindent}\textbf{Mode:} The mode is the most occurring number which can be found by the maximum of the probability distribution function.
+
+{\noindent}\textbf{Standard deviation:} The standard deviation characterizes the width of a distribution, given by:
+
+\begin{align*}
+\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^N(x_I-\bar{x})^2}.
+\end{align*}
+
+{\noindent}\textbf{Outliers:} To check for outliers, we can find data points that are outside $3\sigma$ (i.e., $99.7\%$) of the mean. If there are points found to be outliers, they may be removed from the data set. While this might affect the median and the standard deviation, it likely won't affect the median or the mode.
 
 \subsubsection{Follow-up Questions}
 
