@@ -3456,15 +3456,175 @@ Describe three different methods used in the determination of the mass of a gala
 
 \subsubsection{Short answer}
 
-Three methods used in the determination of the mass of a galaxy cluster includes: the virial theorem, hot ICM X-ray gas, and gravitational lensing.
-
-\subsubsection{Additional context} 
-
-{\noindent}\textbf{Virial equilibrium}: 
+{\noindent}\textbf{Virial equilibrium}: Assuming the number of galaxies is large and are in virial equilibrium, the mass can be estimated via the virial mass.
 
 {\noindent}\textbf{X-ray gas}: This gas temperature is a measure for the depth of the cluster's potential well, since the hotter the gas is, the deeper the potential well has to be to prevent the gas from escaping via evaporation.
 
 {\noindent}\textbf{Gravitational lensing}: Utilizes the fact that light is deflected in a gravitational field. The angle through which light rays are bent due to the presence of a massive object depends on the mass of that object.
+
+\subsubsection{Additional context}
+
+{\noindent}\textbf{Virial equilibrium}: The time-averaged kinetic and potential energies are related by
+
+\begin{align*}
+    \frac{1}{2} \left\langle\frac{{\rm d^2}I}{{\rm d}t^2}\right\rangle - 2\langle K\rangle = \langle U\rangle,
+\end{align*}
+
+{\noindent}where $I$ is the region's moment of inertia. If the galaxy cluster is in equilibrium, then $\langle{\rm d}^2I/{\rm d}t^2\rangle$=0, resulting in the usual statement of the virial theorem:
+
+\begin{align*}
+    -2\langle K\rangle = \langle U\rangle.
+\end{align*}
+
+{\noindent}Furthermore, for a large number of galaxies, the galaxy cluster will look the same (in a statistical sense) at any time, and the time-averaging can be dropped. So for $N$ galaxies, 
+
+\begin{align*}
+    -2\sum_{i=1}^N \frac{1}{2}m_iv_i^2 = U,
+\end{align*}
+
+{\noindent}where $U$ is the total potential energy given by
+
+\begin{align*}
+    \sum_i \vec{F}_i\cdot\vec{r}_i = -\frac{1}{2}\sum_i\sum_{j\neq i} G\frac{m_im_j}{r_{ij}} = \frac{1}{2}\sum_i\sum_{j\neq i}U_{ij} = U.
+\end{align*}
+
+{\noindent}For simplicity, we restrict our attention to a spherical cluster of radius $R$ with $N$ galaxies, each of mass $m$, so the total mass of the galaxy cluster is $M=Nm$. Dividing the above expression by $N$ produces
+
+\begin{align*}
+    -\frac{m}{N}\sum_{i=1}^Nv_i^2 = \frac{U}{N}.
+\end{align*}
+
+{\noindent}Of course, astronomers actually measure the radial component of the velocity vector (galaxies are too far away to allow for detection of proper motions). Moreover, an astronomer is just as likely to see a star moving in the radial direction as in either of the two other perpendicular directions. With the brackets denoting an average value,
+
+\begin{align*}
+    \langle v^2\rangle = \langle v_r^2\rangle + \langle v_\theta^2\rangle + \langle v_\phi^2\rangle = 3\langle v_2^2\rangle,
+\end{align*}
+
+{\noindent}so,
+
+\begin{align*}
+    \frac{1}{N}\sum_{i=1}^Nv_i^2 = \langle v^2\rangle = 3\langle v_r^2\rangle = 3\sigma_r^2,
+\end{align*}
+
+{\noindent}where $\sigma_r$ is the dispersion in the radial velocity. Inserting this result into our equation for $U/N$, and using
+
+\begin{align*}
+    U \sim -\frac{16\pi^2}{15}G\bar{\rho}^2R^5 \sim -\frac{3}{5}\frac{GM^2}{R}
+\end{align*}
+
+for the approximate potential energy of a spherical distribution of total mass $M$ and radius $R$, leads to
+
+\begin{align*}
+    -3m\sigma_r^2 \approx -\frac{3}{5}\frac{GM^2}{NR}.
+\end{align*}
+
+{\noindent}Using $M=Nm$ and solving for mass gives
+
+\begin{align*}
+    M_{\rm vir} \approx \frac{5R\sigma_r^2}{G},
+\end{align*}
+
+{\noindent}where the mass obtained in this way is called the virial mass.
+
+{\noindent}\textbf{Hot intracluster X-ray gas}: A portion of Zwicky's ``missing mass'' was discovered with the High Energy Astronomical Observatory (HEAO) series of satellites that were first launched in 1977. They revealed that many clusters of galaxies emit X-rays from much of the cluster's volume. These satellites, together with optical observations, indicated that clusters of galaxies contain an intracluster medium. The intracluster medium has two components. One is a diffuse, irregular distribution of stars. The other component is a hot intracluster gas that is distributed more or less homogeneously, occupying the space between the galaxies and filling the cluster's gravitational well. This gas temperature is a measure for the depth of the cluster's potential well, since the hotter the gas is, the deeper the potential well has to be to prevent the gas from escaping via evaporation. The X-ray luminosities lie in the range of $10^{36}$ to $10^{38}\,{\rm W}$, with richer clusters shining more brightly in X-rays. Typically, the mass of the gas is several times greater than the combined mass of all stars in the cluster's galaxies.
+
+{\noindent}Thermal bremsstrahlung, the same mechanism that produces X-rays from the hot gas within individual galaxies, is at work here as well. For fully ionized hydrogen gas, the energy emitted per unit volume per unit time between frequencies $\nu$ and $\nu+{\rm d}\nu$ is given by
+
+\begin{align*}
+    \ell_\nu{\rm d}\nu = 5.44\times10^{-52}(4\pi n_e^2) T^{-1/2} e^{-h\nu/k_BT}{\rm d}\nu ~ [{\rm W\,m^{-3}}],
+\end{align*}
+
+{\noindent}where $T$ is the gas temperature and $n_e$ is the number density of free electrons. The total amount of energy emitted per second per unit volume at all frequencies (i.e., the luminosity density) is obtained by integrating $\ell_\nu$ over frequency. This results in
+
+\begin{align*}
+    \mathcal{L}_{\rm vol} = 1.42\times10^{-40}n_e^2T^{1/2} ~ [{\rm W\,m^{-3}}].
+\end{align*}
+
+{\noindent}This equation can be used to estimate the mass of a galaxy cluster's intracluster gas -- let's take the Coma cluster as an example. For simplicity, we will assume that the cluster can be modeled as an isothermal sphere of hot ionized hydrogen gas. Since the central core radiates most strongly, we will take the radius to be $R=1.5\,{\rm Mpc}$ (one-half of the cluster's actual radius). The gas is optically thing, meaning that any photon emitted along the line of sight can be observed. The gas temperature comes from the X-ray spectrum of the gas, which is approximately $8.8\times10^7\,{\rm K}$.
+
+{\noindent}We can write the X-ray luminosity of the gas $L_x$ as
+
+\begin{align*}
+    L_x = \frac{4}{3}\pi R^3\mathcal{L}_{\rm vol}.
+\end{align*}
+
+{\noindent}Since the X-ray luminosity of the gas is $L_x=5\times10^{37}\,{\rm W}$, the value of $n_e$, the number density of free electrons per ${\rm m^{-3}}$ is
+
+\begin{align*}
+    n_e = \left[ \frac{3L_x}{4\pi R^3T^{1/2}(1.42\times10^{-40}\,{\rm W\,m^{-3}})} \right]^{1/2} = 300 ~ [{\rm m^{-3}}].
+\end{align*}
+
+{\noindent}The intracluster gas is several million times less dense that the gas in molecular clouds, for which $n_{\rm H_2}\sim10^8$ to $10^9\,{\rm m^{-3}}$.
+
+{\noindent}For ionized hydrogen, there is one proton for every electron, so the total mass of the intracluster gas is
+
+\begin{align*}
+    M = \frac{4}{3}\pi R^3n_em_{\rm H} = 1.05\times10^{14} ~ [{\rm M_\odot}],
+\end{align*}
+
+{\noindent}a slight overestimate of the actual value which is $3\times10^{13}\,{\rm M_\odot}$.
+
+{\noindent}\textbf{Gravitational lensing}: Gravitational lensing results when light follows the straightest possible worldline (ie., a \textbf{geodesic}) as it travels though the curved spacetime around a massive object. It is analogous to the normal refraction of light by a glass lens that occurs as the light crosses the lens surface, passing from one index of refraction $n$ to another, where $n\equiv c/v$ is just the ratio of the speed of light in a vacuum to its speed $v$ in the medium. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=7cm]{figures/extragalactic/GravitationalLens.png}
+    \includegraphics[width=5cm]{figures/extragalactic/GravitationalLensAngles.png}
+    \caption{\footnotesize{\textbf{(Left)}: Setup of a gravitational lens. Figure taken from Abdo. \textbf{(Right)}: The geometry for a gravitational lens. The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$. Figures adapted from Carroll \& Ostlie (2007).}}
+    \label{fig:gravitationallens}
+\end{figure}
+
+{\noindent}The apparent speed of light, the rate at which the spatial coordinates of a photon change, is called the \textbf{coordinate speed of light}. Starting with the Schwarzschild metric with ${\rm d}s=0$,
+
+\begin{align*}
+    0 = \left(c{\rm d}t \sqrt{1-\frac{2GM}{rc^2}}\right)^2 - \left(\frac{{\rm d}r}{\sqrt{1-\frac{2GM}{rc^2}}}\right)^2 - (r{\rm d}\theta)^2 - (2\sin\theta{\rm d}\alpha)^2,
+\end{align*}
+
+{\noindent}we can calculate the coordinate speed of a vertically travelling photon. Inserting ${\rm d}\theta={\rm d}\alpha=0$ shows that, in general, the coordinate speed of light in the radial direction is
+
+\begin{align*}
+    \frac{{\rm d}r}{{\rm d}t} = c\left(1-\frac{2GM}{rc^2}\right) = c\left(1-\frac{r_S}{r}\right) ~ [{\rm m\,s^{-1}}],
+\end{align*}
+
+{\noindent}When $r\gg r_S$, ${\rm d}r/{\rm d}t\simeq c$, as expected in flat spacetime. However, at $r=r_S$, ${\rm d}r/{\rm d}t=0$.
+
+{\noindent}Thus, the effective ``index of refraction'' is
+
+\begin{align*}
+    n = \frac{c}{{\rm d}r/{\rm d}t} = \left(1-\frac{2GM}{rc^2}\right)^{-1} \simeq 1+ \frac{2GM}{rc^2} ~ [{\rm dimensionless}]
+\end{align*}
+
+{\noindent}for radially travelling light, assuming that $r_S/r\ll1$. At a distance of $10^4\,{\rm pc}$ from a galaxy with a mass of $10^{11}\,{\rm M_\odot}$, the effective index of refraction is $n=1+9.6\times10^{-7}$. (Of course, the light passing by the point mass will never be travelling exactly radially. This was merely used to estimate the magnitude of the effect of gravity in a gravitational lens.) Obviously, the deviation of the light from a straight line will be extremely small. 
+
+{\noindent}Figure \ref{fig:gravitationallens} shows the setup of a gravitational lens (left) as well as its detailed geometry (right). The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$.
+
+{\noindent}The angular deviation of a photon passing a distance $r_0$ (very nearly the distance of closest approach) from a mass $M$ is
+
+\begin{align*}
+    \alpha = \frac{4GM}{r_0c^2} ~ [{\rm rad}],
+\end{align*}
+
+{\noindent}which includes the factor of $2$ as a correction from the ``Newtonian'' value. The distance to the source is $d_S/\cos\beta\simeq d_S$ where $\beta\ll1$, and $d_L$ is the distance to the lensing mass. It is then a matter of simple trigonometry to show that the angle $\theta$ between between the lensing mass and the image of the source must satisfy the equation
+
+\begin{align*}
+    \theta^2 - \beta\theta - \frac{4GM}{c^2} \left(\frac{d_S-d_L}{d_Sd_L}\right) = 0
+\end{align*}
+
+{\noindent}where $\theta$ and $\beta$ are measured in radians.
+
+{\noindent}This quadratic equation indicates that for the geometry shown in Figure \ref{fig:gravitationallens} (left) there will be two solutions for $\theta$, and so two images will be formed by the gravitational lens. Designating these solutions as $\theta_1$ and $\theta_2$, these angles can be measured observationally and then used to find the values of $\beta$ and $M$. The results are
+
+\begin{align*}
+    \beta = \theta_1 + \theta_2 ~ [{\rm rad}]
+\end{align*}
+
+{\noindent}and
+
+\begin{align*}
+    M = -\frac{\theta_1\theta_2c^2}{4G} \left(\frac{d_S-d_L}{d_Sd_L}\right) ~ [{\rm M_\odot}].
+\end{align*}
+
+{\noindent}Referring back to Figure \ref{fig:gravitationallens} (left) note that $\beta=\theta_1+\theta_2$ implies $\theta_1$ and $\theta_2$ have opposite signs. As a result, two images are formed on opposite sides of the gravitational lens, so $M$ will be positive.
 
 % --------------------------------------------------------------
 %               7. 
@@ -3664,20 +3824,20 @@ Draw a spectrum of a high-redshift quasar. What do quasar emission lines typical
 
 \subsubsection{Short answer}
 
-Answer.
-
-\subsubsection{Additional context}
-
-{\noindent}The first quasars (for `quasi-stellar radio source') were discovered  as `radio galaxies with no galaxy'. They appeared point-like in optical photographs; only their enormous redshifts betrayed that they were not Galactic stars. Rather, they were gigaparsecs distant, and hence extremely luminous. Subsequently `radio-quiet' quasars, called quasi-stellar objects, or QSOs, were found by searching for objects that appeared stellar, but emitted too strongly at infrared or ultraviolet wavelengths relative to their brightness in visible light. Radio-quiet QSOs outnumber radio-loud quasars by at least a factor of 30; both are now believed to be variants of the same type of object, so we use the term `quasar' to include the QSOs. In the 1980s, deep images of nearby quasars showed us that they were in fact the bright nuclei of galaxies, so luminous as to outshine the surrounding stars. Most astronomers now regard quasars as more powerful versions of a Seyfert nucleus. Quasars cover a very wide range in luminosity; the most powerful are also the rarest.
-
-{\noindent}Quasars are the most luminous members of the class of AGNs. The optical and ultraviolet spectrum of a quasar typically shows strong broad emission lines characteristic of moderately dense gas (Figure \ref{fig:qsoradioquiet}). The widths of the lines correspond to the Doppler shifts expected from emitting gas travelling at speeds $\sim10,000\,{\rm km\,s^{-1}}$. These emitting clouds are moving much faster than the galaxy's stars, which typically orbit at a few hundred kilometers per second. Many AGN are variable, changing their luminosity substantially within a few months, days, or even hours. The emission lines also strengthen and decline, within a few days or weeks. To allow such fast variability, both broad lines and continuum radiation must come from a region no more than a few light-weeks across.
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=16cm]{figures/extragalactic/QSO_radioquiet.png}
     \caption{\footnotesize{The ultraviolet and optical spectrum of an `average' radio-quiet quasar. Source: R.Telfer et al. 2002 Ap J 565, 773. Figure taken from Sparke \& Gallagher (2007).}}
     \label{fig:qsoradioquiet}
 \end{figure}
+
+{\noindent}Quasars contain narrow emission lines and, in most case, broad emission lines that are the result of photoionization by the continuum radiation. Narrow emission lines originate outside the opaque torus in the narrow-line region, whereas broad emission lines are formed in the broad-line region that is relatively close to the center. Typically, the spectrum of a high-redshift quasar contains a strong Lyman-$\alpha$ emission line produced by the quasar itself, and perhaps some $50$ Ly$\alpha$ absorption lines at shorter wavelengths (i.e., bluer than $1216$\AA); see Figure \ref{fig:lymanalphaforest}. Each one of these lines is from a different intergalactic cloud of hydrogen (and presumably helium) encountered by the quasar's continuum radiation on its journey to Earth.
+
+\subsubsection{Additional context}
+
+{\noindent}The first quasars (for `quasi-stellar radio source') were discovered as `radio galaxies with no galaxy'. They appeared point-like in optical photographs; only their enormous redshifts betrayed that they were not Galactic stars. Rather, they were gigaparsecs distant, and hence extremely luminous. Subsequently `radio-quiet' quasars, called quasi-stellar objects, or QSOs, were found by searching for objects that appeared stellar, but emitted too strongly at infrared or ultraviolet wavelengths relative to their brightness in visible light. Radio-quiet QSOs outnumber radio-loud quasars by at least a factor of 30; both are now believed to be variants of the same type of object, so we use the term `quasar' to include the QSOs. In the 1980s, deep images of nearby quasars showed us that they were in fact the bright nuclei of galaxies, so luminous as to outshine the surrounding stars. Most astronomers now regard quasars as more powerful versions of a Seyfert nucleus. Quasars cover a very wide range in luminosity; the most powerful are also the rarest.
+
+{\noindent}Quasars are the most luminous members of the class of AGNs. The optical and ultraviolet spectrum of a quasar typically shows strong broad emission lines characteristic of moderately dense gas (Figure \ref{fig:qsoradioquiet}). The widths of the lines correspond to the Doppler shifts expected from emitting gas travelling at speeds $\sim10,000\,{\rm km\,s^{-1}}$. These emitting clouds are moving much faster than the galaxy's stars, which typically orbit at a few hundred kilometers per second. Many AGN are variable, changing their luminosity substantially within a few months, days, or even hours. The emission lines also strengthen and decline, within a few days or weeks. To allow such fast variability, both broad lines and continuum radiation must come from a region no more than a few light-weeks across.
 
 {\noindent}Interestingly, the flux of the source varies at nearly all frequencies, where the variability time-scale differs among the objects and also depends on the wavelength. As a rule, it is found that the variability time-scale of the observed radiation is smaller, and its amplitude larger, at higher frequencies. The optical spectrum is very blue; most quasars at redshifts $z\lesssim2$ have $(U-B)<-0.3$ (for comparison, only hot white dwarfs have a similarly blue color index). Besides this blue continuum, very broad emission lines are characteristic of the optical and UV spectrum. Some of them correspond to transitions of very high ionization energy.
 
@@ -3689,6 +3849,29 @@ Answer.
 
 {\noindent}where $\alpha$ is the spectral index. A spectral index of $\alpha-0$ corresponds to a flat spectrum, whereas $\alpha=1$ describes a spectrum in which the same energy is emitted in every logarithmic frequency interval. Incidentally, the energy distribution seen in Fig \ref{fig:qsoradioquiet} corresponds approximately to the latter case, over more than ten orders of magnitude in frequency, although over smaller frequency ranges, the spectral shape differs markedly from $\alpha=1$.
 
+{\noindent}Quasars emit an excess of ultraviolet light relative to stars and so are quite blue in appearance. This UV excess is indicated by the big blue bump between roughly $10^{14}\,{\rm Hz}$ and $10^{16}\,{\rm Hz}$ which is a feature of most (but not all) quasar spectra. Absorption lines may also be present in some quasar spectra. In particular, Doppler broadened absorption lines, found in up to $10\%$ of quasar spectra, originate from sources with speeds exceeding $10^4\,{\rm km\,s^{-1}}$. These lines are believed to be associated with the quasar itself. Many additional narrow absorption lines are typically seen in the spectra with high redshifts ($z>2.2$) due to the Lyman series of hydrogen and metals such as C IV and Mg II. These lines would normally appear at ultraviolet wavelengths, but have been redshifted into the visible spectrum by the recessional velocity of the absorbing material. The absorption lines of a given quasar can be placed into different groups that share common redshifts. Furthermore, the redshifts of these narrow absorption lines are nearly always less than the redshift of the quasar's emission lines. The various groupings of lines are thought to arise from clouds of intervening material that lie between the quasar and Earth.
+
+{\noindent}The spectra of high redshift quasars always displays a large number of narrow absorption lines superimposed on the quasar's continuous spectrum (these lines are in addition to any broad absorption lines that are associated with the quasar itself). These narrow lines are formed when the light from a quasar passes through material that happens to lie along the line of sight. If the absorbing material is far from Earth, its recessional motion will cause these absorption lines to be strongly redshifted. Furthermore, if the light passes through more than one cloud or galactic halo during its trip to Earth, different sets of absorption lines will be seen.
+
+{\noindent}There are two classes of narrow absorption lines in quasar spectra:
+
+\begin{itemize}
+    \item The \textbf{Lyman-}$\boldsymbol{\alpha}$ \textbf{forest} is a dense thicket of hydrogen absorption lines. These lines are believed to be formed in intergalactic clouds and display a variety of redshifts. Absorption by primordial ionized helium (He II) has also been detected.
+    \item Lines are also formed by \textbf{ionized metals}, primarily carbon (C IV) and magnesium (Mg II), together with silicon, iron, aluminum, nitrogen, and oxygen. The mix of elements is similar to that found in the ISM of the MW, indicating that the material has been processed through stars and enriched in heavy elements. These lines are thought to be formed in the extended halos or disks of galaxies found along the line of sight to the quasar.
+\end{itemize}
+
+{\noindent}Most of these lines are normally found at UV wavelengths, when the absorbing material is moving at a small fraction of the speed of light relative to Earth (i.e., has a small redshift). They are rarely seen from the ground because Earth's atmosphere absorbs most UV to visible wavelengths, where the atmosphere is transparent. For this reason, these absorption lines are seen from the ground only in the spectra of highly redshifted quasars.
+
+{\noindent}Typically, the spectrum of a high-redshift quasar contains a strong Lyman-$\alpha$ emission line produced by the quasar itself, and perhaps some $50$ Ly$\alpha$ absorption lines at shorter wavelengths (i.e., smaller redshifts); see Figure \ref{fig:lymanalphaforest}. Each one of these lines is from a different intergalactic cloud of hydrogen (and presumably helium) encountered by the quasar's continuum radiation on its journey to Earth. The Ly$\alpha$ line profile can be used to calculate the column density of neutral hydrogen atoms in the cloud that produced each line, typically $10^{-18}\,{\rm m^{-2}}$. In other words, a hollow tube having a cross-sectional area of $1\,{\rm m^2}$ that crossed completely through the cloud would contain $10^{18}$ neutral hydrogen atoms. Such a could would be extremely transparent to the UV radiation that is normally present throughout space. As a result, this UV background can penetrate the cloud and keep it completely ionized. Calculations indicate that only one hydrogen atom in $10^5$ remains neutral in the cloud and is capable of absorbing a UV photon.
+
+The comoving space density of intergalactic clouds appears to have been greater in the past than it is today, so the number of clouds has been decreasing as the Universe ages. A statistical analysis of the clouds' redshifts reveals little evidence that the clouds tend to be grouped in clusters. Instead, they appear to be distributed randomly throughout space. In particular, there do not appear to be large voids in the distribution of these intergalactic clouds similar to those seen in the distribution of galaxies. The distribution of He II is similarly uncertain.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=14cm]{figures/extragalactic/LymanAlphaForest.png}
+    \caption{\footnotesize{The strong Ly$\alpha$ emission line in the spectrum of QSO $1215+333$, with the Ly$\alpha$ forest of absorption lines at shorter wavelengths. Adapted from a figure courtesy of J. Bechtold, Steward Observatory, University of Arizona. Figure taken from Carroll \& Ostlie (2007).}}
+    \label{fig:lymanalphaforest}
+\end{figure}
 
 % --------------------------------------------------------------
 %               11. 
@@ -3785,7 +3968,8 @@ ULIRGs         &  & Possibly dust-enshrouded quasars, alternatively may be \\
                &  & starburst phenomena \\
 LINERs         &  & Similar to low-luminosity Seyfert 2; low ionization emission \\
                &  & lines; in many (perhaps majority of) spiral galaxies; \\
-LINERs         &  & alternatively may be starburst phenomena or HII region emission
+LINERs         &  & alternatively may be starburst phenomena or HII region emission \\
+\hline
 \end{tabular}
 \end{table}
 
@@ -5984,11 +6168,38 @@ How many stars does one expect to find within $100\,\mathrm{pc}$ of the Sun? If 
 
 \subsubsection{Short answer}
 
-Answer.
+We first start by estimating the number of stars within $100\,{\rm pc}$ from us based on the total number of stars within the MW by comparing their volumes:
 
-\subsubsection{Additional context}
+\begin{align*}
+    \frac{N_{\rm 100\,pc}}{V_{\rm 100\,pc}} &= \frac{N_{\rm MW}}{V_{\rm MW}} \\
+    N_{\rm 100\,pc} &= N_{\rm MW} \left(\frac{V_{\rm 100\,pc}}{V_{\rm MW}}\right) \\
+    N_{\rm 100\,pc} &= 10^{11} \left(\frac{\frac{4}{3}\cancel{\pi} R_{\rm 100\,pc}^3}{\cancel{\pi} R_{\rm MW}^2h}\right) \\
+    N_{\rm 100\,pc} &= 10^{11} \left(\frac{4(100\,{\rm \,pc})^3}{3(10^4\,{\rm pc})^2(10^3\,{\rm pc})}\right) \\
+    N_{\rm 100\,pc} &\sim 10^6.
+\end{align*}
 
-Additional context.
+{\noindent}Thus, one would expect to find roughly $10^6$ stars within $100\,{\rm pc}$ of the Sun.
+
+{\noindent}Stars of spectral type B have a mass range of $8\leq M\leq100\,{\rm M_\odot}$ and a lifetime of $\tau_{\rm B}\sim10^7\,{\rm yr}$. Assuming that the IMF of the MW follows the Salpeter relation of $\xi(M)\propto M^{-2.35}$, we can estimate the fraction of stars that happen to be B type stars:
+
+\begin{align*}
+    \frac{N_{\rm B}}{N_{\rm MW}} &= \int\limits_{8\,{\rm M_\odot}}^{100\,{\rm M_\odot}} M^{-2.35}{\rm d}M \\
+    \frac{N_{\rm B}}{N_{\rm MW}} &= \left[\frac{M^{-1.35}}{-1.35}\right]_{8\,{\rm M_\odot}}^{100\,{\rm M_\odot}} \\
+    \frac{N_{\rm B}}{N_{\rm MW}} &= \frac{-1}{1.35}\left(100^{-1.35} - 8^{-1.35}\right) \\
+    \frac{N_{\rm B}}{N_{\rm MW}} &\approx 0.04.
+\end{align*}
+
+{\noindent}The total number of stars that would have formed within the MW during the lifetime of a B-type star is given by ${\rm SFR_{MW}} \tau_{\rm B}$. The SFR of the MW can be approximated by the total amount of mass divided by it's lifetime: ${\rm SFR_{MW}} \sim 10^{10}\,{\rm M)\odot}/10^{10}\,{\rm yr} = 1\,{\rm M_\odot\,yr^{-1}}$. To convert this into a SFR as a function of stellar number rather than stellar mass, let's assume that the average stellar mass is $0.02\,{\rm M_\odot}$, given by the most abundant stellar type. So, the SFR becomes ${\rm SFR}/(0.2\,{\rm M_\odot}/{\rm star}) = 5\,{\rm stars\,yr^{-1}}$. Thus, within the lifetime of a B-type star, the total number of stars formed is ${\rm SFR}\cdot \tau_{\rm B} = 5\,{\rm stars\,yr^{-1}}\cdot 10^7\,{\rm yr} \sim 5\times10^7\,{\rm stars}$. Since we already know that the fraction of these expected to be B-type stars is $\sim0.04$, the total number of B-type stars is given by $0.04\cdot5\times10^7\,{\rm stars}\sim2\times10^6\,{\rm stars}$. This is the number of B-type stars within the entire MW, so we can now estimate the number of such stars within $100\,{\rm pc}$ as we did above:
+
+\begin{align*}
+    \frac{N_{\rm 100\,pc}}{V_{\rm 100\,pc}} &= \frac{N_{\rm MW}}{V_{\rm MW}} \\
+    N_{\rm 100\,pc} &= N_{\rm MW} \left(\frac{V_{\rm 100\,pc}}{V_{\rm MW}}\right) \\
+    N_{\rm 100\,pc} &= 10^{11} \left(\frac{\frac{4}{3}\cancel{\pi} R_{\rm 100\,pc}^3}{\cancel{\pi} R_{\rm MW}^2h}\right) \\
+    N_{\rm 100\,pc} &= 2\times10^{6} \left(\frac{4(100\,{\rm \,pc})^3}{3(10^4\,{\rm pc})^2(10^3\,{\rm pc})}\right) \\
+    N_{\rm 100\,pc} &\sim 20.
+\end{align*}
+
+{\noindent}So, there are approximately $20$ B-type stars within $100\,{\rm pc}$ from us.
 
 \subsubsection{Follow-up Questions}
 
@@ -6635,12 +6846,14 @@ What thermal phases are postulated to exist in the interstellar medium? Describe
 The following thermal phases are believed to exist in the ISM:
 
 \begin{itemize}
-    \item \textbf{Molecular gas}: fine structure lines (21 cm, CO)
+    \item \textbf{Molecular medium (MM)}: fine structure lines (21 cm, CO)
     \item \textbf{Cold neutral medium (CNM)}: fine structure lines (CO)
     \item \textbf{Warm neutral medium (WNM)}: optical lines and fine structure lines (CO)
     \item \textbf{Warm ionized medium (WIM)}: optical lines, fine structure lines, continuum/free-free emission
     \item \textbf{Hot ionized medium (HIM)}: adiabatic expansion, x-ray emission
 \end{itemize}
+
+{\noindent}There is also a thermally unstable phase in the atomic HI, and speculated to be a partially warm ionized medium.
 
 \subsubsection{Additional context}
 
@@ -7318,6 +7531,9 @@ Sketch out a Hertsprung-Russell diagram. Indicate where on the main sequence dif
     \label{fig:hrdz_low}
 \end{figure}
 
+\newpage
+\subsubsection{Follow-up Questions}
+
 \begin{itemize}
     \item How does metallicity affect this diagram?
     \item Elaborate on the life sequence of low-mass stars.
@@ -7958,7 +8174,7 @@ The sources of thermal energy of stars include:
 
 {\noindent}Clearly most of the energy to be gained from nuclear fusion occurs by the conversion of hydrogen to helium and less than one-half of that energy can be obtained by all other fusion processes that carry helium to iron. Nevertheless, $0.7\%$ of $mc^2$ is a formidable supply of energy. Table \ref{table:solarenergy} is a summary of the energy that one could consider as being available to the Sun. All these entries are generous upper limits. For example, the sun rotates at less than $0.5\%$ of its critical velocity, it was never composed of $100\%$ hydrogen and will begin to change significantly when a fraction of the core hydrogen is consumed, and not all the gravitational energy could ever be converted to energy for release. In any event, only nuclear processes hold the promise of providing the solar luminosity for the time required to bring about agreement with the age of the solar system as derived from rocks and meteorites. However, the time scales of Table \ref{table:solarenergy} are interesting because they provide an estimate of how long the various energy sources could be expected to maintain some sort of equilibrium configuration.
 
-{\noindent}\textbf{Planets:}
+{\noindent}\textbf{Planets:} Meh.
 
 \subsubsection{Follow-up Questions}
 
@@ -8018,7 +8234,7 @@ Describe the process by which supernovae produce light. Why are Type Ia supernov
 
 {\noindent}Since the initial conditions are probably very homogeneous for the class of SNe Ia in the single-degenerate scenario (defined by the limiting mass prior to the trigger of the explosion), they are good candidates for standard candles: all SNe Ia have approximately the same luminosity. This is not entirely the case, but nevertheless SNe Ia play a very important role in the cosmological distance determination, and thus in the determination of cosmological parameters. On the other hand, in the double-degenerate scenario, the class of SNe Ia is not expected to be very homogeneous, as the mass prior to the explosion no longer attains a universal value. In fact, there are some SNe Ia which are clearly different from the majority of this class, by being far more luminous. It may be that such events are triggered by the merging of two white dwarfs, whereas the majority of the explosions is caused by the single-degenerate formation process.
 
-Since Type Ia supernovae are supposed to be the result of explosion processes of white dwarfs which cross a critical mass threshold by accretion of additional matter, this threshold should be identical for all SNe Ia making it at least plausible that they all have the same luminosity. If this were the case, they would be ideal for standard candles: owing to their high luminosity, they can be detected and examined even at very large distances. 
+{\noindent}Since Type Ia supernovae are supposed to be the result of explosion processes of white dwarfs which cross a critical mass threshold by accretion of additional matter, this threshold should be identical for all SNe Ia making it at least plausible that they all have the same luminosity. If this were the case, they would be ideal for standard candles: owing to their high luminosity, they can be detected and examined even at very large distances. 
 
 \begin{figure}[t]
     \floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=4cm}}]{figure}[\FBwidth]
@@ -8054,7 +8270,7 @@ Describe the condition for a star's envelope to become convective. Why are low m
 
 \subsubsection{Short answer}
 
-{\noindent}In general, convection will occur when
+{\noindent}In general, convection will occur when:
 
 \begin{enumerate}
     \item the stellar opacity is large, implying that an unchievably steep temperature gradient would be necessary for radiative transport;
@@ -9118,7 +9334,7 @@ an inner cutoff radius, $a_i\sim6R_{\rm TT}\sim0.07\,{\rm AU}$, to mark the cond
 \newpage
 \subsection{Question 15}
 
-What are the primary origins of the heat lost to space by infrared luminosity of Jupiter, Earth, and Io?\footnote{Answer shamelessly stolen from Miranda.}
+What are the primary origins of the heat lost to space by infrared luminosity of Jupiter, Earth, and Io?\footnote{Answer shamelessly stolen from Miranda Herman.}
 
 \subsubsection{Short answer}
 
@@ -9170,11 +9386,31 @@ Explain the effects of an atmosphere on a planet's surface temperature and the p
 
 \subsubsection{Short answer}
 
-Answer.
+There are several ways that a planet's atmosphere can affect its surface temperature:
+
+\begin{itemize}
+    \item clouds reflecting heat from the parent star resulting in a higher albedo and lower surface temperature;
+    \item winds transporting heat from the day-side to the night-side, regulating the surface temperature; and
+    \item greenhouse gasses retaining heat and increasing the surface temperature.
+\end{itemize}
+
+{\noindent}Special consideration must be made for M-type stars due to increased stellar activity and intense ultraviolet radiation. 
 
 \subsubsection{Additional context}
 
-Additional context.
+The temperatures of planets played a key role in their formation and evolution. During the formation stage, the temperature structure of the Solar nebula influenced whether a planet would become a terrestrial or a giant planet. Temperature also helped to determine the current composition of each planet's atmosphere.
+
+{\noindent}The Stefan-Boltzmann equation is the most significant factor in determining the present-day temperatures of the planets in the Solar System. Under equilibrium conditions, a planet's total energy content must remain constant. Therefore, all of the energy absorbed by the planet must be re-emitted; if this were not so, the planet's temperature would change with time. 
+
+{\noindent}To estimate a planet's equilibrium temperature, assume that the planets is a spherical blackbody of radius $R_p$ and temperature $T_p$ in a circular orbit a distance $D$ away from the Sun. For simplicity, we will assume that the planet's temperature is uniform over its surface that that the planet reflects a fraction $a$ of the incoming sunlight ($a$ is known as the planet's \textit{albedo}). From the condition of thermal equilibrium, the sunlight that is not reflected must be absorbed by the planet and subsequently re-emitted as blackbody radiation. Of course, we will also treat the Sun as a spherical blackbody having an effective temperature $T_\odot=T_e$ and radius $R_\odot$. The temperature of the planet is thus given by
+
+\begin{align*}
+    T_p = T_\odot (1-a)^{1/4}\sqrt{\frac{R_\odot}{2D}} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}Note that the temperature of the planet is proportional to the effective temperature of the Sun and does not depend on the size of the planet.
+
+{\noindent}What's not included here is the \textit{greenhouse effect}, a significant source of warming (due largely to atmospheric water vapour, carbon dioxide, methane, and chlorofluorocarbons in the case of Earth). According to Wein's law, Earth's blackbody radiation is emitted primarily as infrared wavelengths. This infrared radiation is absorbed then re-emitted by the atmospheric greenhouse gasses, which act as a thermal blanket to warm Earth's surface by about $34^\circ\,{\rm C}$. Greenhouse warming on Venus has been more more dramatic. 
 
 % --------------------------------------------------------------
 %               18. 
@@ -9595,7 +9831,7 @@ Similar to r- and s-processes, rp-processes form elements heavier than iron by p
     \item Notes on Star Formation; Krumholz (2015)
     \item Physics of the Interstellar and Intergalactic Medium; Draine (2011)
     \item Spectral Energy Distributions of T Tauri Stars with Passive Circumstellar Disks; Chiang \& Goldreich (1997)
-    \item Fermi’s Paradox -- The Last Challenge for Copernicanism?; \'Cirkovi\'c (2009)
+    \item Fermi's Paradox -- The Last Challenge for Copernicanism?; \'Cirkovi\'c (2009)
     \item Chemistry in Space: From Interstellar Matter to the Origin of Life; Rehder (2010)
     \item On the Anomalous Radii of the Transiting Extrasolar Planets; Laughlin et al. (2011)
     \item Possible Solutions to the Radius Anomalies of Transiting Giant Planets; Burrows et al. (2007)
@@ -9716,7 +9952,7 @@ The first written account of the deflection of light by gravity appeared in the 
     n = \frac{c}{{\rm d}r/{\rm d}t} = \left(1-\frac{2GM}{rc^2}\right)^{-1} \simeq 1+ \frac{2GM}{rc^2} ~ [{\rm dimensionless}]
 \end{align*}
 
-{\noindent}for radially travelling light, assuming that $r_S/r\ll1$. At a distance of $10^4\,{\rm pc}$ from a galaxy with a mass of $10^11\,{\rm M_\odot}$, the effective index of refraction is $n=1+9.6\times10^{-7}$. (Of course, the light passing by the point mass will never be travelling exactly radially. This was merely used to estimate the magnitude of the effect of gravity in a gravitational lens.) Obviously, the deviation of the light from a straight line will be extremely small. 
+{\noindent}for radially travelling light, assuming that $r_S/r\ll1$. At a distance of $10^4\,{\rm pc}$ from a galaxy with a mass of $10^{11}\,{\rm M_\odot}$, the effective index of refraction is $n=1+9.6\times10^{-7}$. (Of course, the light passing by the point mass will never be travelling exactly radially. This was merely used to estimate the magnitude of the effect of gravity in a gravitational lens.) Obviously, the deviation of the light from a straight line will be extremely small. 
 
 {\noindent}Figure \ref{fig:gravitationallens} shows the setup of a gravitational lens (left) as well as its detailed geometry (right). The path of light is taken from a source at point $S$, as it is deflected through an angle $\alpha$, by the gravitational lens due to a point mass $M$ at point $L$.
 
@@ -10315,11 +10551,17 @@ What is a polytropic equation of state? Give examples of objects for which this 
 
 \subsubsection{Short answer}
 
-Answer.
+Hypothetical stellar models in which the pressure depends on density in the form $P=K\rho^\gamma$ are known as \textit{polytropes}. Some examples include:
+
+\begin{itemize}
+    \item ideal, monatomic gas: $\gamma=5/3$ (such as radiative main sequence stars);
+    \item non-relativistic, completely degenerate stars: $\gamma=5/3$ (such as white dwarfs, fully convective stellar cores, and brown dwarfs);
+    \item relativistic, completely degenerate stars: $\gamma=4/3$ (such as neutron stars).
+\end{itemize}
 
 \subsubsection{Additional context}
 
-\textbf{CHAPTER 10.5 OF CARROLL AND OSTLIE.}
+Note that careful inspection of the stellar structure equations show that the mechanical equations of stellar structure could be solved simultaneously without reference to the energy equations only if a simple relationship existed between pressure and density. Unfortunately, such a simple relationship does not generally exist; normally, temperature and chemical composition must also enter into the pressure equation of state, often in a complicated way. However, under certain circumstances, such as for an adiabatic gas, the pressure can be written explicitly in terms of the density alone. Hypothetical stellar models in which the pressure depends on density in the form $P=K\rho^\gamma$ are known as \textit{polytropes}. The discussion of polytropes was originally motivated by the equation of state of an adiabatic gas. For the case of an ideal, monatomic gas, $\gamma=5/3$. In addition, certain extremely compressed stars in their final stage of evolution known as white dwarfs which are non-relativistic, completely degenerate stars, can also be described by $\gamma=5/3$. In contrast, relativistic, completely degenerate stars can be described by $\gamma=4/3$. The development of polytropic models is well worth the effort since their relative simplicity allows us to gain some insight into stellar structure without all of the complications inherent in full-blown numerical models. The famous equation that helps us describe analytical stellar models is referred to as the \textit{Lane-Emden equation}.
 
 {\noindent}\textbf{Eulerian description}: For gaseous, non-rotating, single stars without strong magnetic fields, the only forces acting on a mass element come from pressure and gravity. This results in a spherically symmetric configuration. All functions will then be constant on concentric spheres, and we need only one spatial variable to describe them. It seems natural to use the distance r from the stellar centre as the spatial coordinate, which varies from r D 0 at the centre to the total radius r D R at the surface of the star. In addition, the evolution in time t requires a dependence of all functions on t: If we thus take r and t as independent variables, we have a typical ``Eulerian'' treatment in the sense of classical hydrodynamics. Then all other variables are considered to depend on these two, for example, the density $\rho=\rho(r,t)$.
 
@@ -10654,7 +10896,13 @@ Why is nuclear fusion stable inside a main-sequence star? Under what conditions 
 
 \subsubsection{Short answer}
 
-Answer.
+Nuclear fusion is stable inside a main-sequence star because they have very stable `stellar thermostats' which work to maintain hydrostatic equilibrium. Nuclear fusion generates energy which maintains the core temperature. If this reaction rate were to increase for whatever reason, the core temperature would increase resulting in an expansion of the outer envelope. With a greater surface area, the star can then radiate energy more effectively bringing its core temperature back down. With a cooler core temperature, the outer envelope can contract again and the star can return to hydrostatic equilibrium. Examples of objects with unstable nuclear fusion include:
+
+\begin{itemize}
+    \item supernovae;
+    \item stars undergoing a helium flash; and
+    \item variable stars.
+\end{itemize}
 
 \subsubsection{Additional context}
 
@@ -11157,11 +11405,68 @@ What is the typical temperature of matter accreting on a star, a white dwarf, a 
 
 \subsubsection{Short answer}
 
-Answer.
+Assuming that matter is accreting onto an optically thick accretion disk, we can use the following equation to solve for the resulting temperature:
+
+\begin{align*}
+T = \left(\frac{GM\dot{M}}{8\pi\sigma R^3}\right)^{1/4} \left(\frac{R}{r}\right)^{3/4} ~ [{\rm K}],
+\end{align*}
+
+{\noindent}where $M$ and $R$ are the mass and radius of the primary star, and that $\dot{M}$ is the mass transfer rate. To determine the wavelength of this blackbody radiation of temperature $T$, we can simply use Wein's displacement law in the following form:
+
+\begin{align*}
+\lambda = \frac{500\,{\rm nm} \cdot 5800\,{\rm K}}{T} ~ [{\rm nm}].
+\end{align*}
+
+{\noindent}\textbf{Star:} With a mass of $1\,{\rm M_\odot}$, radius of $1\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim1500\,{\rm K}$. This has a wavelength that would be found in the IR.
+
+{\noindent}\textbf{White dwarf:} With a mass of $0.8\,{\rm M_\odot}$, radius of $10^{-2}\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim65,000\,{\rm K}$. This has a wavelength that would be found in the UV.
+
+{\noindent}\textbf{Neutron star:} With a mass of $1.4\,{\rm M_\odot}$, radius of $10^{-5}\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim9\times^6\,{\rm K}$. This has a wavelength that would be found in the X-ray.
+
+{\noindent}\textbf{Stellar mass black hole:} With a mass of $5\,{\rm M_\odot}$, radius of $10^{-5}\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim10^7\,{\rm K}$. This has a wavelength that would be found in the X-ray.
+
+{\noindent}\textbf{Supermassive black hole:} With a mass of $10^8\,{\rm M_\odot}$, radius of $400\,{\rm R_\odot}$, and accretion rate of $3\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim10^7\,{\rm K}$. This has a wavelength that would be found in the X-ray.
 
 \subsubsection{Additional context}
 
-Additional context.
+Just as a star may be treated as a blackbody in a rough first approximation, the assumption of an optically thick accretion disk radiating as a blackbody provides a simple, useful model. At each radial distance, an optically thick disk emits blackbody radiation with a continuous spectrum corresponding to the local disk temperature at that distance.
+
+{\noindent}To estimate the temperature of a model accretion disk at a distance $r$ from the center of the primary star of mass $M_1$ and radius $R_1$, let's assume that the inward radial velocity of the disk gases is small compared with their orbital velocity. Then, to a good approximation, the gases follow circular Keplerian orbits, and the details of the viscous forces acting within the disk may be neglected. Furthermore, since the mass of the disk is very small compared with that of the primary, the orbiting material feels only the gravity of the central primary star. The \textit{total energy} (i.e., kinetic plus potential) of a mass $m$ or orbiting gas is given by
+
+\begin{align*}
+E = -G\frac{M_1m}{2r} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}As the gas spirals inward, its total energy $E$ becomes more negative. The lost energy maintains the disk's temperature and is ultimately emitted in the form of blackbody radiation.
+
+{\noindent}Now consider an annulus ring of radius $r$ and width ${\rm d}r$ within the disk. If the rate at which mass is transferred from the secondary to the primary star is a constant $\dot{M}$, then in time $t$ the amount of mass that passes through the outer boundary of the circular ring is $\dot{M}t$. Assuming a \textit{steady-state disk} that does not change with time, no mass is allowed to build up within the ring. Therefore, during this time an amount of mass $\dot{M}t$ must also leave through the ring's inner boundary.
+
+{\noindent}Conservation of energy requires that the energy ${\rm d}E$ radiated by the ring in time $t$ be equal to the difference in the energy that passes through the ring's outer and inner boundaries:
+
+\begin{align*}
+{\rm d}E = \frac{{\rm d}E}{{\rm d}r} {\rm d}r = \frac{{\rm d}}{{\rm d}r} \left(-G \frac{M_1m}{2r}\right) {\rm d}r = G\frac{M_1\dot{M}t}{2r^2} {\rm d}r ~ [{\rm J}],
+\end{align*}
+
+{\noindent}where $m=\dot{M}t$ has been used for the orbiting mass entering and leaving the ring. If the luminosity of the ring is ${\rm d}L_{\rm ring}$, then the energy radiated by the ring in time $t$ is related to ${\rm d}L_{\rm ring}$ by
+
+\begin{align*}
+ {\rm d}L_{\rm ring}t = {\rm d}E = G\frac{M_1\dot{M}t}{2r^2} {\rm d}r ~ [{\rm W}].
+\end{align*}
+
+{\noindent}Canceling the $t$'s and using the Stefan-Boltzmann law with $A=2(2\pi r{\rm d}r)$ for the surface area of the ring (both sides) gives:
+
+\begin{align*}
+{\rm d}L_{\rm ring} &= 4\pi r\sigma T^4 {\rm d}r ~ [{\rm W}]\\
+                              &= G\frac{M_1\dot{M}}{2r^2} {\rm d}r ~ [{\rm W}]
+\end{align*}
+
+{\noindent}for the luminosity of the ring. Solving for $T$, the disk temperature at radius $r$, results in
+
+\begin{align*}
+T = \left(\frac{GM\dot{M}}{8\pi\sigma R^3}\right)^{1/4} \left(\frac{R}{r}\right)^{3/4} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}It's worth noting that $M$ and $R$ are the mass and radius of the primary star, and that $\dot{M}$ is the mass transfer rate for the semi-detached binary system.
 
 \subsubsection{Follow-up Questions}
 
@@ -11935,15 +12240,33 @@ Answer.
 \newpage
 \subsection{Question 17}
 
-Suppose you measure the brightness of a star ten times (in a regime where source-noise dominates. (1) How do you calculate the mean, median, and mode and standard deviation? (2) How can you tell if any points are outliers? Say some points are outliers, what do you do now (i.e., how does this impact the calculation of the quantities in part 1)?
+Suppose you measure the brightness of a star ten times (in a regime where source-noise dominates. (1) How do you calculate the mean, median, mode and standard deviation? (2) How can you tell if any points are outliers? Say some points are outliers, what do you do now (i.e., how does this impact the calculation of the quantities in part 1)?
 
 \subsubsection{Short answer}
 
-Answer.
+{\noindent}\textbf{Mean:} The mean is the average of a set of data given by:
 
-\subsubsection{Additional context}
+\begin{align*}
+\bar{x} = \frac{1}{N} \sum_{i=1}^N x_i.
+\end{align*}
 
-Additional context.
+{\noindent}\textbf{Median:} The median is the middle number in a set of data given by:
+
+\begin{align*}
+{\rm Median} = \frac{N+1}{2},
+\end{align*}
+
+{\noindent}after sorting the data set in order of increasing values.
+
+{\noindent}\textbf{Mode:} The mode is the most occurring number which can be found by the maximum of the probability distribution function.
+
+{\noindent}\textbf{Standard deviation:} The standard deviation characterizes the width of a distribution, given by:
+
+\begin{align*}
+\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^N(x_I-\bar{x})^2}.
+\end{align*}
+
+{\noindent}\textbf{Outliers:} To check for outliers, we can find data points that are outside $3\sigma$ (i.e., $99.7\%$) of the mean. While this might affect the median and the standard deviation, it likely won't affect the median or the mode.
 
 \subsubsection{Follow-up Questions}
 
@@ -12298,22 +12621,22 @@ Additional context.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                                      %
-%                                                      %
-%                      APPENDIX                        %
-%                                                      %
-%                                                      %
+%
+%
+%                                                                APPENDIX 
+%
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
 \section{Appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                                      %
-%                                                      %
-%                      ACRONYMS                        %
-%                                                      %
-%                                                      %
+%
+%
+%                                                                ACRONYMS
+%
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Acronyms}
 
