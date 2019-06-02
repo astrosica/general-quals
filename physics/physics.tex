@@ -1161,7 +1161,6 @@ Nuclear fusion is stable inside a main-sequence star because they have very stab
 
 {\noindent}where $A_j\equiv m_j/m_{\rm H}$. Similarly, for a completely ionized gas,
 
-
 \begin{align*}
     \mu_i \simeq \dfrac{\sum_j N_jA_j}{\sum_j N_j(1+z_j)} ~ [{\rm dimensionless}]
 \end{align*}
@@ -1596,11 +1595,64 @@ What is the typical temperature of matter accreting on a star, a white dwarf, a 
 
 \subsubsection{Short answer}
 
-Answer.
+Assuming that matter is accreting onto an optically thick accretion disk, we can use the following equation to solve for the resulting temperature:
+
+\begin{align*}
+T = \left(\frac{GM\dot{M}}{8\pi\sigma R^3}\right)^{1/4} \left(\frac{R}{r}\right)^{3/4} ~ [{\rm K}],
+\end{align*}
+
+{\noindent}where $M$ and $R$ are the mass and radius of the primary star, and that $\dot{M}$ is the mass transfer rate.
+
+{\noindent}\textbf{Star:} With a mass of $1\,{\rm M_\odot}$, radius of $1\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim1500\,{\rm K}$.
+
+{\noindent}\textbf{White dwarf:} With a mass of $0.8\,{\rm M_\odot}$, radius of $10^{-2}\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim65,000\,{\rm K}$.
+
+{\noindent}\textbf{Neutron star:} With a mass of $1.4\,{\rm M_\odot}$, radius of $10^{-5}\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim9\times^6\,{\rm K}$.
+
+{\noindent}\textbf{Stellar mass black hole:} With a mass of $5\,{\rm M_\odot}$, radius of $10^{-5}\,{\rm R_\odot}$, and accretion rate of $10^{-9}\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim10^7\,{\rm K}$.
+
+{\noindent}\textbf{Supermassive black hole:} With a mass of $10^8\,{\rm M_\odot}$, radius of $400\,{\rm R_\odot}$, and accretion rate of $3\,{\rm M_\odot\,year}^{-1}$, the resulting accretion temperature is $T\sim10^7\,{\rm K}$.
 
 \subsubsection{Additional context}
 
-Additional context.
+Just as a star may be treated as a blackbody in a rough first approximation, the assumption of an optically thick accretion disk radiating as a blackbody provides a simple, useful model. At each radial distance, an optically thick disk emits blackbody radiation with a continuous spectrum corresponding to the local disk temperature at that distance.
+
+{\noindent}To estimate the temperature of a model accretion disk at a distance $r$ from the center of the primary star of mass $M_1$ and radius $R_1$, let's assume that the inward radial velocity of the disk gases is small compared with their orbital velocity. Then, to a good approximation, the gases follow circular Keplerian orbits, and the details of the viscous forces acting within the disk may be neglected. Furthermore, since the mass of the disk is very small compared with that of the primary, the orbiting material feels only the gravity of the central primary star. The \textit{total energy} (i.e., kinetic plus potential) of a mass $m$ or orbiting gas is given by
+
+\begin{align*}
+E = -G\frac{M_1m}{2r} ~ [{\rm J}].
+\end{align*}
+
+{\noindent}As the gas spirals inward, its total energy $E$ becomes more negative. The lost energy maintains the disk's temperature and is ultimately emitted in the form of blackbody radiation.
+
+{\noindent}Now consider an annulus ring of radius $r$ and width ${\rm d}r$ within the disk. If the rate at which mass is transferred from the secondary to the primary star is a constant $\dot{M}$, then in time $t$ the amount of mass that passes through the outer boundary of the circular ring is $\dot{M}t$. Assuming a \textit{steady-state disk} that does not change with time, no mass is allowed to build up within the ring. Therefore, during this time an amount of mass $\dot{M}t$ must also leave through the ring's inner boundary.
+
+{\noindent}Conservation of energy requires that the energy ${\rm d}E$ radiated by the ring in time $t$ be equal to the difference in the energy that passes through the ring's outer and inner boundaries:
+
+\begin{align*}
+{\rm d}E = \frac{{\rm d}E}{{\rm d}r} {\rm d}r = \frac{{\rm d}}{{\rm d}r} \left(-G \frac{M_1m}{2r}\right) {\rm d}r = G\frac{M_1\dot{M}t}{2r^2} {\rm d}r ~ [{\rm J}],
+\end{align*}
+
+{\noindent}where $m=\dot{M}t$ has been used for the orbiting mass entering and leaving the ring. If the luminosity of the ring is ${\rm d}L_{\rm ring}$, then the energy radiated by the ring in time $t$ is related to ${\rm d}L_{\rm ring}$ by
+
+\begin{align*}
+ {\rm d}L_{\rm ring}t = {\rm d}E = G\frac{M_1\dot{M}t}{2r^2} {\rm d}r ~ [{\rm W}].
+\end{align*}
+
+{\noindent}Canceling the $t$'s and using the Stefan-Boltzmann law with $A=2(2\pi r{\rm d}r)$ for the surface area of the ring (both sides) gives:
+
+\begin{align*}
+{\rm d}L_{\rm ring} &= 4\pi r\sigma T^4 {\rm d}r ~ [{\rm W}]\\
+                              &= G\frac{M_1\dot{M}}{2r^2} {\rm d}r ~ [{\rm W}]
+\end{align*}
+
+{\noindent}for the luminosity of the ring. Solving for $T$, the disk temperature at radius $r$, results in
+
+\begin{align*}
+T = \left(\frac{GM\dot{M}}{8\pi\sigma R^3}\right)^{1/4} \left(\frac{R}{r}\right)^{3/4} ~ [{\rm K}].
+\end{align*}
+
+{\noindent}It's worth noting that $M$ and $R$ are the mass and radius of the primary star, and that $\dot{M}$ is the mass transfer rate for the semi-detached binary system.
 
 \subsubsection{Follow-up Questions}
 
